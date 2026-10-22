@@ -1,0 +1,767 @@
+{
+  "timing": {
+    "A": [
+      2.772531,
+      2.767636,
+      2.783737,
+      2.769352,
+      2.779953,
+      2.802878
+    ],
+    "F": [
+      2.528648,
+      2.5443480000000003,
+      2.523295,
+      2.5603000000000002,
+      2.5217199999999997,
+      2.553622
+    ],
+    "AUTO": [
+      2.5489819999999996,
+      2.561644,
+      2.5599819999999998,
+      2.553966,
+      2.555183,
+      2.561696
+    ]
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-0-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.778929,
+      "wall_s": 2.779380534775555,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-0-A.stderr",
+      "arm": "A",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp609/10m-0-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-0-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5318650000000003,
+      "wall_s": 2.53319103596732,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-0-F.stderr",
+      "arm": "F",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp609/10m-0-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-0-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.556088,
+      "wall_s": 2.5572227600496262,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-0-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp609/10m-0-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-1-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.772531,
+      "wall_s": 2.7739990251138806,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-1-A.stderr",
+      "arm": "A",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp609/10m-1-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-1-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.528648,
+      "wall_s": 2.5298895379528403,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-1-F.stderr",
+      "arm": "F",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp609/10m-1-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-1-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5489819999999996,
+      "wall_s": 2.550192637834698,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-1-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp609/10m-1-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-2-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.561644,
+      "wall_s": 2.5624636991415173,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-2-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp609/10m-2-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-2-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5443480000000003,
+      "wall_s": 2.545084903948009,
+      "rss_bytes": 120569856,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-2-F.stderr",
+      "arm": "F",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp609/10m-2-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-2-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.767636,
+      "wall_s": 2.769024853827432,
+      "rss_bytes": 120291328,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-2-A.stderr",
+      "arm": "A",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp609/10m-2-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-3-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.783737,
+      "wall_s": 2.784814224112779,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-3-A.stderr",
+      "arm": "A",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp609/10m-3-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-3-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.523295,
+      "wall_s": 2.524418835993856,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-3-F.stderr",
+      "arm": "F",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp609/10m-3-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-3-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5599819999999998,
+      "wall_s": 2.5614407029934227,
+      "rss_bytes": 120553472,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-3-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp609/10m-3-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-4-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.553966,
+      "wall_s": 2.554522753925994,
+      "rss_bytes": 120553472,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-4-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp609/10m-4-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-4-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5603000000000002,
+      "wall_s": 2.5611320240423083,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-4-F.stderr",
+      "arm": "F",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp609/10m-4-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-4-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.769352,
+      "wall_s": 2.7708433049265295,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-4-A.stderr",
+      "arm": "A",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp609/10m-4-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-5-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.779953,
+      "wall_s": 2.781047299038619,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-5-A.stderr",
+      "arm": "A",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp609/10m-5-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-5-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.5217199999999997,
+      "wall_s": 2.5225679920986295,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-5-F.stderr",
+      "arm": "F",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp609/10m-5-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-5-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.555183,
+      "wall_s": 2.556322257965803,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-5-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp609/10m-5-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/AUTO",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-6-AUTO.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.561696,
+      "wall_s": 2.5631657170597464,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-6-AUTO.stderr",
+      "arm": "AUTO",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp609/10m-6-AUTO.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "build/exp609/F",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-6-F.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.553622,
+      "wall_s": 2.5547444850672036,
+      "rss_bytes": 120549376,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-6-F.stderr",
+      "arm": "F",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp609/10m-6-F.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    },
+    {
+      "command": [
+        "../exp601/build/exp601/PQ",
+        "-in",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "-out",
+        "build/exp609/10m-6-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2.802878,
+      "wall_s": 2.8036435008980334,
+      "rss_bytes": 120287232,
+      "threads": 1,
+      "stderr": "validation/results/exp609/10m-6-A.stderr",
+      "arm": "A",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp609/10m-6-A.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      },
+      "counters": {
+        "rows": 10000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      },
+      "identical_to": {
+        "path": "build/exp601/10m-0-baseline.csv",
+        "bytes": 401358822,
+        "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+      }
+    }
+  ],
+  "stats": {
+    "F": {
+      "saved_cpu_s": 0.24069233333333329,
+      "ci975_saved_s": [
+        0.22287066666666652,
+        0.2559770000000001
+      ],
+      "speed_gate": true
+    },
+    "AUTO": {
+      "saved_cpu_s": 0.22243900000000014,
+      "ci975_saved_s": [
+        0.21344433333333349,
+        0.2325835833333335
+      ],
+      "speed_gate": true
+    }
+  },
+  "selected": "F",
+  "auto_extra_over_F_s": 0.01825333333333301,
+  "input": {
+    "path": "../exp580/build/exp580/scale-input/requests-10m.csv",
+    "bytes": 351979475,
+    "sha256": "b3aafa348bef9b66d81b4108e7d5362d7093a2473095c5165e7fbde29eb08369"
+  },
+  "rows": 10000000,
+  "unique_rows": 10000000,
+  "port_pairs": 59904,
+  "output_sha_identical": true,
+  "reference": {
+    "output": {
+      "path": "build/exp601/10m-0-baseline.csv",
+      "bytes": 401358822,
+      "sha256": "78c7b6840641b7d94dd72ebf97508792f17cb8dfcedecf4b20979d7cb2c2ba33"
+    },
+    "contract": {
+      "rows": 10000000,
+      "input_bytes": 351979475,
+      "output_bytes": 401358822,
+      "sample_rows": 239616,
+      "contract_passed": true
+    },
+    "check_run": {
+      "command": [
+        "../exp580/build/exp580/contract-check",
+        "check",
+        "../exp580/build/exp580/scale-input/requests-10m.csv",
+        "build/exp601/10m-0-baseline.csv",
+        "10000000",
+        "../exp580/build/exp580/scale-input/positions.txt",
+        "build/exp601/10m-sample.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1.0486339999999998,
+      "wall_s": 1.0495320099871606,
+      "rss_bytes": 101691392,
+      "threads": 1,
+      "stderr": "validation/results/exp601/10m-contract.stderr"
+    },
+    "sample": {
+      "path": "build/exp601/10m-sample.csv",
+      "bytes": 11185931,
+      "sha256": "a489148e2e702d117f7bb7e9e22faec0b126194cd45e906d36fbdf10db80a6f8"
+    }
+  }
+}

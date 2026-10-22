@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-23",
+  "files": [
+    {
+      "name": "exp610-历史实验与理论摘要.md",
+      "bytes": 24166,
+      "sha256": "a07605336b560a0cf1fc0fd8bccc936f881e4cd1aa214e7529ff0d8b84fee105"
+    },
+    {
+      "name": "exp610-外部AI提问书.md",
+      "bytes": 37296,
+      "sha256": "ce71b7d653557952f691e2852566afe1ee931f564d2fc5434d774017cfeb2191"
+    },
+    {
+      "name": "发送说明.md",
+      "bytes": 2442,
+      "sha256": "9a4f3f44ba96ab89443a037c2528e8e1357dc0ea7ff8f2aea31aab80efa0a7b4"
+    },
+    {
+      "name": "exp610-外部AI参考材料.zip",
+      "bytes": 1840006,
+      "sha256": "1c7683b69045a16689979ff557eae344e869f6253ae06ab393082f6fe461b2e4"
+    }
+  ],
+  "reference_counts": {
+    "experiment_logs": 283,
+    "theory_notes": 28,
+    "review_scripts": 21,
+    "test_excerpts": 5,
+    "saved_evidence": 15,
+    "archive_members": 358
+  },
+  "verification": {
+    "frozen_source_manifest_passed": true,
+    "frozen_source_manifest_files": 68,
+    "source_model_count": 16,
+    "source_tree_count": 128,
+    "source_feature_count": 53,
+    "source_port_count": 496,
+    "source_source_roles": 208,
+    "source_target_roles": 288,
+    "primary_report_facts_checked": true,
+    "six_question_groups": true,
+    "local_note_links_checked": true,
+    "algorithm_run": false,
+    "training_run": false,
+    "evidence_reused": true,
+    "obsidian_live_rendering_verified": false
+  },
+  "repository": {
+    "url": "https://github.com/Lijika/faga_delay_estimate",
+    "branch": "main",
+    "visibility": "private",
+    "source_path": "source/",
+    "documentation_path": "docs/exp610/",
+    "frozen_source_files": 69,
+    "frozen_source_files_unchanged": true
+  }
+}

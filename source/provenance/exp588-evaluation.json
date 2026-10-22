@@ -1,0 +1,510 @@
+{
+  "evidence": {
+    "N512": {
+      "input": {
+        "path": "build/exp588/u-role/requests.csv",
+        "bytes": 35198107,
+        "sha256": "ea48b5c5f6b92117b1a112c13c15a993daee3946deb80351662f43d164eab96a"
+      },
+      "output": {
+        "path": "build/exp588/fresh-0-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "labels": {
+        "path": "build/exp588/exact.csv",
+        "bytes": 72684573,
+        "sha256": "e3a3d3de88f1d5c35cda9006ce98350a7bfcc6c34ac493ea03ad54cf6d07925f"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.159200366624,
+        "mean_error_ps": -1.919463,
+        "mae_ps": 11.041693,
+        "squared_ps": 285389637,
+        "exact_rows": 39052,
+        "under_rows": 497196,
+        "over_rows": 463752
+      }
+    },
+    "D64": {
+      "input": {
+        "path": "build/exp588/u-role/requests.csv",
+        "bytes": 35198107,
+        "sha256": "ea48b5c5f6b92117b1a112c13c15a993daee3946deb80351662f43d164eab96a"
+      },
+      "output": {
+        "path": "build/exp588/fresh-0-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "labels": {
+        "path": "build/exp588/exact.csv",
+        "bytes": 72684573,
+        "sha256": "e3a3d3de88f1d5c35cda9006ce98350a7bfcc6c34ac493ea03ad54cf6d07925f"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.3335068621179,
+        "mean_error_ps": -1.932788,
+        "mae_ps": 9.889364,
+        "squared_ps": 250030450,
+        "exact_rows": 44703,
+        "under_rows": 490083,
+        "over_rows": 465214
+      }
+    }
+  },
+  "timing_s": {
+    "D64": [
+      0.43126,
+      0.43087,
+      0.429714,
+      0.42833699999999997,
+      0.43116,
+      0.42858999999999997
+    ],
+    "N512": [
+      0.42825699999999994,
+      0.426872,
+      0.426031,
+      0.425765,
+      0.433481,
+      0.42445
+    ]
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-0-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43096599999999996,
+      "wall_s": 0.4318336360156536,
+      "rss_bytes": 117669888,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-0-N512.stderr",
+      "arm": "N512",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp588/fresh-0-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-0-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.42925399999999997,
+      "wall_s": 0.43022076808847487,
+      "rss_bytes": 397545472,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-0-D64.stderr",
+      "arm": "D64",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp588/fresh-0-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-1-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.42825699999999994,
+      "wall_s": 0.4291309660766274,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-1-N512.stderr",
+      "arm": "N512",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp588/fresh-1-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-1-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43126,
+      "wall_s": 0.4320861641317606,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-1-D64.stderr",
+      "arm": "D64",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp588/fresh-1-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-2-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43087,
+      "wall_s": 0.4321639412082732,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-2-D64.stderr",
+      "arm": "D64",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp588/fresh-2-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-2-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.426872,
+      "wall_s": 0.4274441560264677,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-2-N512.stderr",
+      "arm": "N512",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp588/fresh-2-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-3-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.426031,
+      "wall_s": 0.4266518361400813,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-3-N512.stderr",
+      "arm": "N512",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp588/fresh-3-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-3-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.429714,
+      "wall_s": 0.43100032792426646,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-3-D64.stderr",
+      "arm": "D64",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp588/fresh-3-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-4-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.42833699999999997,
+      "wall_s": 0.42880293098278344,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-4-D64.stderr",
+      "arm": "D64",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp588/fresh-4-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-4-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.425765,
+      "wall_s": 0.42686561099253595,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-4-N512.stderr",
+      "arm": "N512",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp588/fresh-4-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-5-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.433481,
+      "wall_s": 0.4340431129094213,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-5-N512.stderr",
+      "arm": "N512",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp588/fresh-5-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-5-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43116,
+      "wall_s": 0.4315822699572891,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-5-D64.stderr",
+      "arm": "D64",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp588/fresh-5-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp589/build/exp589/D64",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-6-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.42858999999999997,
+      "wall_s": 0.4299728579353541,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-6-D64.stderr",
+      "arm": "D64",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp588/fresh-6-D64.csv",
+        "bytes": 40135819,
+        "sha256": "b9a91d2bd38351b1f6d785dc39e2504d77c40079472c5cac92038f7103a68358"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "build/exp588/u-role/requests.csv",
+        "-out",
+        "build/exp588/fresh-6-N512.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.42445,
+      "wall_s": 0.42491991189308465,
+      "rss_bytes": 451715072,
+      "threads": 1,
+      "stderr": "validation/results/exp588/fresh-6-N512.stderr",
+      "arm": "N512",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp588/fresh-6-N512.csv",
+        "bytes": 40135833,
+        "sha256": "98f3b0ef27242ab2a689cbd0eb948007c0f31f1d73425946a2959bf8901e26d4"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    }
+  ],
+  "stats": {
+    "accuracy_pp": 98.3335068621179,
+    "paired_accuracy_pp": 0.17430649549382607,
+    "ci95_accuracy_pp": [
+      0.1659786383450999,
+      0.1825744085909763
+    ],
+    "groups_delta_pp": {
+      "distance": {
+        "0": 0.0,
+        "1": 0.23923014489828795,
+        "2": 0.18589870653499665,
+        "3": 0.11634129137656474
+      },
+      "near_axis": {
+        "0": 0.15947723864953814,
+        "1": 0.20053970170195806
+      }
+    },
+    "changed_rows": 886667,
+    "quality_gate": true,
+    "extra_cpu_s": 0.0025124999999999917,
+    "ci95_extra_cpu_s": [
+      -5.0890835729470486e-05,
+      0.005075890835729454
+    ],
+    "score_extrapolated_1b": 0.11850769639506094,
+    "ci95_score_extrapolated_1b": [
+      0.10489626022617597,
+      0.13692127626410228
+    ],
+    "score_gate": true,
+    "bootstrap": "2000 independent source-family and paired timing resamples; 26 families; 6 rounds",
+    "cpu_1b_is_extrapolation": true,
+    "ci95_absolute_accuracy_pp": [
+      98.27885138535736,
+      98.38626145820393
+    ],
+    "accuracy_goal_gate": true
+  },
+  "all_fresh_1m_gates": true,
+  "full_port_pairs": 59904,
+  "fresh_distribution_verified": true,
+  "final_goal_achieved": false,
+  "disk_end_bytes": 1179197440,
+  "scope": "Fresh same-architecture full-role 1M; 10M/100M/1B and platform performance remain unverified."
+}

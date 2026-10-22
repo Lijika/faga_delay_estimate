@@ -1,0 +1,324 @@
+{
+  "host": "r9r4900",
+  "selected_worker": "F (SSE2)",
+  "files": [
+    {
+      "path": "src/entry.cpp",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/entry.cpp",
+      "bytes": 1338,
+      "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "src/worker.cpp",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/worker.cpp",
+      "bytes": 11454,
+      "sha256": "7f598caad757d06b2218e9a35c252f2fcbf092a7882a30a71fc99e44b2d79c39",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "src/architecture.cpp",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp580/src/architecture.cpp",
+      "bytes": 14497,
+      "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "src/architecture.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp580/src/architecture.h",
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "src/embedded_resolver_data.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp580/src/embedded_resolver_data.h",
+      "bytes": 160657,
+      "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "src/csv.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/src/csv.h",
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "src/json.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "src/embedded_arch.cpp",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/embedded_arch.cpp",
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "src/embedded_arch.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/embedded_arch.h",
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "include/exp579-models.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/build/exp589/D64-assets/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "include/exp582_int8_geometry.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/build/exp589/D64-assets/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "include/exp608_geometry.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/exp608_geometry.h",
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "include/exp596_csv_batch.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "include/exp601_port_parser.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/exp601_port_parser.h",
+      "bytes": 4290,
+      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "include/exp594_packed_output.h",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp594/tests/exp594_packed_output.h",
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "assets/D64-geometry.bin",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/build/exp589/D64-geometry.bin",
+      "bytes": 69303616,
+      "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "provenance/original-geometry.S",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp589/build/exp589/D64-assets/geometry.S",
+      "bytes": 210,
+      "sha256": "02b163dcf501f67be026f918a3569f57f43287af38dab2ac3e8de8bc65920b79",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "scripts/gen_embedded_arch.py",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/scripts/gen_embedded_arch.py",
+      "bytes": 4356,
+      "sha256": "ad121784e76d46c0439b35fc32d5f9485cb82d9beb9ae4ea2fd3f4a965b5356d",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "arch/SRB_Port.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "arch/SRB_Arc.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "arch/SRB_Net.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "arch/SRB_Inst.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "arch/SRB_Gap.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd",
+      "matched_frozen_manifest": true
+    },
+    {
+      "path": "models/R8-final-0.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-0.json",
+      "bytes": 13126,
+      "sha256": "7862b2aaa82bfae2ab925cf5be1ca8c879dae12b4385979371f85197191a2559",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-1.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-1.json",
+      "bytes": 15049,
+      "sha256": "0ddef5815321f15cc743f5243df6a1d239635dd34ce5feaf1b4835df907d5004",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-2.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-2.json",
+      "bytes": 16321,
+      "sha256": "e9c394926a7395409b60206b499ede1944a6722b35feac04eae936f9da62ce0a",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-3.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-3.json",
+      "bytes": 16534,
+      "sha256": "7f7bb1d1d26760950e099c432b29a973d9f5fe13ca00097e7d6a01e956a02355",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-4.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-4.json",
+      "bytes": 13006,
+      "sha256": "89bc6f4c2de42622f47826fad6304b54e450ecb7484c5e9e72aa3b1f58a86e98",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-5.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-5.json",
+      "bytes": 15307,
+      "sha256": "30fa35e8abb227e0f84febbfe8d8bfeabdb2ff1368019f9f0946e7438a178f8f",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-6.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-6.json",
+      "bytes": 16442,
+      "sha256": "3c81fe4bcdac24e0c3981539aaddb7908cc1d910a0b9350511b04de45b01a029",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-7.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-7.json",
+      "bytes": 16660,
+      "sha256": "862afc47cd08e62fa7b55545a6f5d90e4178fb818d9fe86d67ce1bc19b2a7eb7",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-8.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-8.json",
+      "bytes": 13516,
+      "sha256": "8ecd31ce1e0e933a024421447377918450f9d735ca8afa478c9bf72c5bb9fab6",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-9.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-9.json",
+      "bytes": 13586,
+      "sha256": "38534f0bade7a6985d3880c5ad5f57dd48ec297df257fcaebf95e61a9b619a64",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-10.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-10.json",
+      "bytes": 16042,
+      "sha256": "dd280a206820673a4f426e7a8c713cb0e669372e81769b34a2ab3bb6d5eb752e",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-11.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-11.json",
+      "bytes": 16279,
+      "sha256": "b877ff4318c47568b618a33f791180c02a67873d903d61bf0f2b64252ed3ea5a",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-12.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-12.json",
+      "bytes": 14045,
+      "sha256": "54081eca3d7fb789d9105208466af6b90f2dfbf958f5601aa9f9773aceb0c761",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-13.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-13.json",
+      "bytes": 13590,
+      "sha256": "789bd6629b1e8c4d6865f1299337dc1c316c55753e0ba3dd92284b34f322d980",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-14.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-14.json",
+      "bytes": 16172,
+      "sha256": "f02623b4ec8a979df147a36a5fd4f3279f918358193f4ba54a7d3476a0c5a794",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "models/R8-final-15.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/R8-final-15.json",
+      "bytes": 16860,
+      "sha256": "4f12291342c271cc127d1b5d95a67025447d03208c52f681d8f788766c3ee0f7",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp609-compile-F.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/validation/results/exp609/compile-F.run.json",
+      "bytes": 970,
+      "sha256": "c24b16a5a9a4b550718b8937c5de605766234200d57844cf9926e018c9c6b84c",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp609-compile-S.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/validation/results/exp609/compile-S.run.json",
+      "bytes": 997,
+      "sha256": "8578549ea6c10c202cc8144f1807a5b5107ff7f6cb8df1fe55ced344a4a5cc7a",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp609-compile-D.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/validation/results/exp609/compile-D.run.json",
+      "bytes": 1006,
+      "sha256": "c33e1998f23a969e8169ca92bd1fb5bb3e932be18e45b824e376e290565135a2",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp609-link-F.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp609/validation/results/exp609/link-F.run.json",
+      "bytes": 1285,
+      "sha256": "dd59e096c0727d245c2f14d5471b5640dfa886fc416d53bcd72e3f8b79ef86d0",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp580-compile-resolver.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp580/validation/results/exp580/compile-resolver.run.json",
+      "bytes": 648,
+      "sha256": "77a8bb85b2a11538c363c648f243197d5296232adbb80461fe56da212d2ec53c",
+      "matched_frozen_manifest": false
+    },
+    {
+      "path": "provenance/exp579-compile-arch-text.run.json",
+      "source": "/home/lhj/lhjwork/eda2026/research/exp579/validation/results/exp579/compile-arch-text.run.json",
+      "bytes": 505,
+      "sha256": "e9364bba7d1b2bab6f1d4fdeb471570353a71955affda0e0436accd4948ad5dc",
+      "matched_frozen_manifest": false
+    }
+  ],
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "linker": "GNU ld (GNU Binutils for Ubuntu) 2.38",
+  "libc": "ldd (Ubuntu GLIBC 2.35-0ubuntu3.15) 2.35"
+}

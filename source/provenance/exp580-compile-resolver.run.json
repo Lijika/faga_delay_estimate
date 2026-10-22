@@ -1,0 +1,33 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-I",
+    "src",
+    "-I",
+    "tests",
+    "-I",
+    "../exp579/build/exp579",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-c",
+    "src/architecture.cpp",
+    "-o",
+    "build/exp580/architecture-resolver.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 1.838102,
+  "wall_s": 1.8389877111185342,
+  "rss_bytes": 184492032,
+  "threads": 1,
+  "stderr": "validation/results/exp580/compile-resolver.stderr"
+}

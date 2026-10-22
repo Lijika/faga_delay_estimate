@@ -1,0 +1,74 @@
+{
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "binary": {
+    "path": "build/exp609/F",
+    "bytes": 76907800,
+    "sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d"
+  },
+  "selected": "F",
+  "run": {
+    "command": [
+      "build/exp609/F",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp609/1b.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 251.136671,
+    "wall_s": 274.6391497759614,
+    "rss_bytes": 120553472,
+    "threads": 1,
+    "stderr": "validation/results/exp609/1b.stderr"
+  },
+  "output": {
+    "path": "build/exp609/1b.csv",
+    "bytes": 40135650635,
+    "sha256": "c86df96df2dc7a77a20991ed7d08db2e1d8fbff7b59c464354da346526bb9fec"
+  },
+  "counters": {
+    "rows": 1000000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  },
+  "contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135650635,
+    "sample_rows": 239616,
+    "contract_passed": true
+  },
+  "contract_run": {
+    "command": [
+      "../exp580/build/exp580/contract-check",
+      "check",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "build/exp609/1b.csv",
+      "1000000000",
+      "../exp580/build/exp580/scale-input/positions.txt",
+      "build/exp609/1b-sample.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 104.273572,
+    "wall_s": 113.43159752595238,
+    "rss_bytes": 72323072,
+    "threads": 1,
+    "stderr": "validation/results/exp609/1b-contract.stderr"
+  },
+  "sample": {
+    "path": "build/exp609/1b-sample.csv",
+    "bytes": 11185931,
+    "sha256": "a489148e2e702d117f7bb7e9e22faec0b126194cd45e906d36fbdf10db80a6f8"
+  },
+  "output_sha_identical": true,
+  "baseline_cpu_s": 276.287395,
+  "stage_gate": true,
+  "disk_end_bytes": 515096576
+}

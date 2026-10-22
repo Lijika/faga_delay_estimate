@@ -1,0 +1,215 @@
+{
+  "binaries": {
+    "A": {
+      "path": "../exp601/build/exp601/PQ",
+      "bytes": 76633368,
+      "sha256": "f3d96c4b06162812778015628d1978c6753dfba03fbad7adc7ac9d886c082196"
+    },
+    "F": {
+      "path": "build/exp609/F",
+      "bytes": 76907800,
+      "sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d"
+    },
+    "F-audit": {
+      "path": "build/exp609/F-audit",
+      "bytes": 77030680,
+      "sha256": "c0deb506a5a95823c108ae23ec12fae70849c84ee50d92f970070a412e86b9e6"
+    },
+    "S": {
+      "path": "build/exp609/S",
+      "bytes": 76907800,
+      "sha256": "61afcce8b23260b4d660d100f986a515f000064662ea9a9ebdb41cd16fd546d6"
+    },
+    "S-audit": {
+      "path": "build/exp609/S-audit",
+      "bytes": 77030680,
+      "sha256": "432f7eec10061c996576b45f254b34abdc00abfcaf3a24ae8c4e1f99dbee71c9"
+    },
+    "D": {
+      "path": "build/exp609/D",
+      "bytes": 76907800,
+      "sha256": "4e9a8da6d6d083fd04e3650928e5f7ec7a4cda15136ac423c89242a6229f94d8"
+    },
+    "D-audit": {
+      "path": "build/exp609/D-audit",
+      "bytes": 77030680,
+      "sha256": "053d166630a649d4aeab1408554678ddbccfc450fdfe1990780e2cd9adc3ffe2"
+    }
+  },
+  "dependencies": [
+    {
+      "path": "../exp596/tests/exp596_stable_batch.inc",
+      "bytes": 922,
+      "sha256": "8e9d965d8d619b66afa73c86073d7c2c6d2174e9588106a6a97250dc79f7d5a9"
+    },
+    {
+      "path": "../exp591/tests/exp591_csv_view.h",
+      "bytes": 2302,
+      "sha256": "12d784ec1e5d46d49d510eec5647e238a7e5aabfc46229a07d6c57de306a8084"
+    },
+    {
+      "path": "../exp595/tests/exp595_static_geometry.h",
+      "bytes": 2813,
+      "sha256": "13f036ae69a4c525094a41a37b941a179535dcb8818f6e74e748ef28d27a261b"
+    },
+    {
+      "path": "../exp594/tests/exp594_packed_output.h",
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+    },
+    {
+      "path": "../exp589/build/exp589/D64-assets/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "../exp589/build/exp589/D64-assets/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "../exp589/build/exp589/D64-assets/geometry.o",
+      "bytes": 69304400,
+      "sha256": "7df342a6f993afe05e8ebd9e13c96bfc465661c45244a128eeae67f0333a651c"
+    },
+    {
+      "path": "../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../exp589/tests/exp580_port_parser.h",
+      "bytes": 3313,
+      "sha256": "aac53261d4974d933edd8b2d605949125a31486ee9ed7432edeefb2cb2682dd8"
+    },
+    {
+      "path": "../exp601/build/exp601/exp601_port_parser.h",
+      "bytes": 4290,
+      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+    },
+    {
+      "path": "../exp595/tests/exp595_static_geometry.h",
+      "bytes": 2813,
+      "sha256": "13f036ae69a4c525094a41a37b941a179535dcb8818f6e74e748ef28d27a261b"
+    },
+    {
+      "path": "../exp607/tests/exp607_simd_kernels.cpp",
+      "bytes": 3470,
+      "sha256": "8d0da11a11ec70de5f833a4209ae0ac64db307d5b738f67d3a44a017c5349268"
+    },
+    {
+      "path": "../exp601/build/exp601/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "../exp601/build/exp601/exp601_port_parser.h",
+      "bytes": 4290,
+      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+    }
+  ],
+  "source": {
+    "path": "build/exp609/worker.cpp",
+    "bytes": 11454,
+    "sha256": "7f598caad757d06b2218e9a35c252f2fcbf092a7882a30a71fc99e44b2d79c39"
+  },
+  "entry": {
+    "path": "build/exp609/entry.cpp",
+    "bytes": 1338,
+    "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+  },
+  "header": {
+    "path": "build/exp609/exp608_geometry.h",
+    "bytes": 4422,
+    "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp609/validation/exp609_safe_dispatch.py",
+    "bytes": 4209,
+    "sha256": "8a4539644c8bb8236fe32db0de0732c04b7c16f3ebb9e11b99df7a01668e8fc4"
+  },
+  "protocol": {
+    "path": "validation/results/exp609/protocol-original.md",
+    "bytes": 1938,
+    "sha256": "8f270f4552a1d7dc7a7cac7a7f82424dac850676743ae976074d539d4785cc28"
+  },
+  "startup_safety": {
+    "F": {
+      "object": {
+        "path": "build/exp609/F.o",
+        "bytes": 144640,
+        "sha256": "8705c7aa608744b272ef784370f6f165952dc6912bdb151f2e1d7cc653dcbe7c"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_F(int, char**)"
+      ]
+    },
+    "F-audit": {
+      "object": {
+        "path": "build/exp609/F-audit.o",
+        "bytes": 181792,
+        "sha256": "f7c4e712c66b174e32f52fd22828e3599784ba55a76bfd45dcbb4dbf68161060"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_F(int, char**)"
+      ]
+    },
+    "S": {
+      "object": {
+        "path": "build/exp609/S.o",
+        "bytes": 144512,
+        "sha256": "b1f27a7f7b84a0e001137f8448bf26a3730ff448e7ed0e55aecdf64bf7bef2c7"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_S(int, char**)"
+      ]
+    },
+    "S-audit": {
+      "object": {
+        "path": "build/exp609/S-audit.o",
+        "bytes": 181512,
+        "sha256": "5c0f8c756e4d9008387db555faf38a50532fc91e5ed4debabd2a9672f3a36540"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_S(int, char**)"
+      ]
+    },
+    "D": {
+      "object": {
+        "path": "build/exp609/D.o",
+        "bytes": 144480,
+        "sha256": "143b3ade855b8f0caa438f235b01ed3b66f41cea1d94f6a64bb23146e28fd32c"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_D(int, char**)"
+      ]
+    },
+    "D-audit": {
+      "object": {
+        "path": "build/exp609/D-audit.o",
+        "bytes": 180816,
+        "sha256": "c5069c73d26c13ffa4c19d40ebd6b4ee127d2930bb7c9e97b8efe5bbe90fa4f2"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_D(int, char**)"
+      ]
+    }
+  },
+  "base_freeze": {
+    "path": "../exp608/validation/results/exp608/build-freeze.json",
+    "bytes": 4763,
+    "sha256": "6b4bac7a46887d76a89eb07c906d75ea399a0629077de68b74653e0a5f7075bd"
+  },
+  "disk_start_bytes": 35695734784
+}

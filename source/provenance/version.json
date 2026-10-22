@@ -1,0 +1,85 @@
+{
+  "version_label": "exp610-d64-generic-1b251s-dddbb955-dirty",
+  "algorithm_version": "D64-R8-whole-query-generic-SSE2",
+  "git_commit": "dddbb955df958bf42d56c849b37a8d7a836baa65",
+  "git_working_tree_dirty": true,
+  "bin_sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d",
+  "bin_bytes": 76907800,
+  "zip_sha256": "c4636d045149c4c154dcf670714a6167cabb083f7be0f5397d9923c5de1db520",
+  "zip_bytes": 57934013,
+  "packaged_utc": "2026-10-22T02:29:23.055051+00:00",
+  "link_mode": "static; five architectures and all model assets embedded",
+  "generic_entry": true,
+  "selected_kernel": "SSE2",
+  "optional_isa_not_required": true,
+  "optional_kernels_present_but_not_selected": true,
+  "startup_state_compiled_generic": true,
+  "cpu_1b_s": 251.136671,
+  "cpu_100m_s": 24.728427,
+  "stage_1b_300s_passed": true,
+  "independent_1m_accuracy_pp": 98.3335068621179,
+  "scale_1b_accuracy": 98.34609934306152,
+  "scale_1b_accuracy_ci": [
+    98.28824201680688,
+    98.40308814690854
+  ],
+  "accuracy_reused_from_identical_output": true,
+  "full_1b_exact_accuracy_verified": false,
+  "platform_score_verified": false,
+  "other_cpu_performance_verified": false,
+  "build_command": "cd research/exp609 && PYTHONPATH=../exp554/vendor ../exp491/build/venv/bin/python -B validation/exp609_safe_dispatch.py build",
+  "package_command": "python3 validation/exp610_package.py exp610-d64-generic-1b251s-dddbb955-dirty",
+  "evidence": [
+    {
+      "path": "validation/results/exp609/build-freeze.json",
+      "bytes": 6940,
+      "sha256": "0b78c3829d277613a83a65bec2ebb3d7c3adfd86ad6b4d094ad1674db88fc70b"
+    },
+    {
+      "path": "validation/results/exp609/fixed-report.json",
+      "bytes": 66142,
+      "sha256": "9ac3987c7caf91555468a669e454eb7f32a4abab43db93c5ff314aa107d2d34a"
+    },
+    {
+      "path": "validation/results/exp609/automatic-freeze.json",
+      "bytes": 1698,
+      "sha256": "f53e4eb9d6255bed55d33a5168297667840cd08280a48af210b3636e2b3f5385"
+    },
+    {
+      "path": "validation/results/exp609/report.json",
+      "bytes": 51060,
+      "sha256": "cf07b2914fb8b7ca0c5b1b950b3347288648ea9b08cd36cd1dab6bbeca1a37e2"
+    },
+    {
+      "path": "validation/results/exp609/10m-report.json",
+      "bytes": 21830,
+      "sha256": "9f638a09075f5975d3b584e2edef2f0f7f03a55bd6b0a8ef0eefda990b7809ba"
+    },
+    {
+      "path": "validation/results/exp609/100m-report.json",
+      "bytes": 2118,
+      "sha256": "f603b6c667535e25673c74cd9d0fb3a1f31518ee2ed500d90b6d1d6e9f097343"
+    },
+    {
+      "path": "validation/results/exp609/1b-report.json",
+      "bytes": 1989,
+      "sha256": "2bfdc991a926f8bf4300f929c45942d2268b03600bbcb32f327585faa3159525"
+    },
+    {
+      "path": "validation/results/exp609/package-check.json",
+      "bytes": 3381,
+      "sha256": "7c9693267c8e10d6aff7c37ec62b48a4207f8c5456f6700422e1619d1d23a635"
+    },
+    {
+      "path": "validation/results/exp602/1b-accuracy.json",
+      "bytes": 2778,
+      "sha256": "fa21e4fd2d9ada09d1d906b594f09322bfa26e893393ab203714c11e80fadfea"
+    },
+    {
+      "path": "validation/results/exp588/evaluation.json",
+      "bytes": 13905,
+      "sha256": "6657e8f0dc60240aa7841bdb61b85aca9ea6ab74fd1f4d1fedd384dd0912061e"
+    }
+  ],
+  "note": "Frozen generic worker selected by complete 10M evidence. Normal source build has a separate identity."
+}

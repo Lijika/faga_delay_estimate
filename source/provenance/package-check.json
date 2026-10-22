@@ -1,0 +1,116 @@
+{
+  "all_passed": true,
+  "selected": "F",
+  "binary": {
+    "path": "build/exp609/empty-check/estimate",
+    "bytes": 76907800,
+    "sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d"
+  },
+  "empty_directory": true,
+  "empty_environment": true,
+  "full_port_pairs": 59904,
+  "unique_rows": 1000000,
+  "run": {
+    "command": [
+      "/usr/bin/env",
+      "-i",
+      "/bin/sh",
+      "-c",
+      "cd \"$1\" && exec ./estimate -in \"$2\" -out \"$3\"",
+      "--",
+      "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/empty-check",
+      "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+      "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/empty-directory.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 0.332625,
+    "wall_s": 0.3339336628559977,
+    "rss_bytes": 120549376,
+    "threads": 1,
+    "stderr": "validation/results/exp609/empty-directory.stderr"
+  },
+  "output": {
+    "path": "build/exp609/empty-directory.csv",
+    "bytes": 40136231,
+    "sha256": "41e1f2085e8a999ab73e96b5f58893dc108a78a9e7ca10aec7a26ba1390dcdc0"
+  },
+  "identical_to": {
+    "path": "build/exp589/development-0-D64.csv",
+    "bytes": 40136231,
+    "sha256": "41e1f2085e8a999ab73e96b5f58893dc108a78a9e7ca10aec7a26ba1390dcdc0"
+  },
+  "counters": {
+    "rows": 1000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  },
+  "static_linked": true,
+  "startup_safety": {
+    "F": {
+      "object": {
+        "path": "build/exp609/F.o",
+        "bytes": 144640,
+        "sha256": "8705c7aa608744b272ef784370f6f165952dc6912bdb151f2e1d7cc653dcbe7c"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_F(int, char**)"
+      ]
+    },
+    "F-audit": {
+      "object": {
+        "path": "build/exp609/F-audit.o",
+        "bytes": 181792,
+        "sha256": "f7c4e712c66b174e32f52fd22828e3599784ba55a76bfd45dcbb4dbf68161060"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_F(int, char**)"
+      ]
+    },
+    "S": {
+      "object": {
+        "path": "build/exp609/S.o",
+        "bytes": 144512,
+        "sha256": "b1f27a7f7b84a0e001137f8448bf26a3730ff448e7ed0e55aecdf64bf7bef2c7"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_S(int, char**)"
+      ]
+    },
+    "S-audit": {
+      "object": {
+        "path": "build/exp609/S-audit.o",
+        "bytes": 181512,
+        "sha256": "5c0f8c756e4d9008387db555faf38a50532fc91e5ed4debabd2a9672f3a36540"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_S(int, char**)"
+      ]
+    },
+    "D": {
+      "object": {
+        "path": "build/exp609/D.o",
+        "bytes": 144480,
+        "sha256": "143b3ade855b8f0caa438f235b01ed3b66f41cea1d94f6a64bb23146e28fd32c"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_D(int, char**)"
+      ]
+    },
+    "D-audit": {
+      "object": {
+        "path": "build/exp609/D-audit.o",
+        "bytes": 180816,
+        "sha256": "c5069c73d26c13ffa4c19d40ebd6b4ee127d2930bb7c9e97b8efe5bbe90fa4f2"
+      },
+      "no_dynamic_initializers": true,
+      "exported_symbols": [
+        "0000000000000030 T worker608_D(int, char**)"
+      ]
+    }
+  }
+}
