@@ -1,0 +1,1089 @@
+{
+  "samples": 23697,
+  "unique_addresses": 1841,
+  "leaves": [
+    {
+      "name": "prepare596(int const*, unsigned int, Prepared596&, Trace*) [clone .constprop.0]",
+      "samples": 2991,
+      "percent": 12.62185086719838
+    },
+    {
+      "name": "parsePin601",
+      "samples": 2650,
+      "percent": 11.182850149807992
+    },
+    {
+      "name": "finish596",
+      "samples": 2493,
+      "percent": 10.520319027725028
+    },
+    {
+      "name": "symmetric640",
+      "samples": 2333,
+      "percent": 9.84512807528379
+    },
+    {
+      "name": "local582",
+      "samples": 1682,
+      "percent": 7.097944887538507
+    },
+    {
+      "name": "__memchr_evex",
+      "samples": 1491,
+      "percent": 6.29193568806178
+    },
+    {
+      "name": "worker608_F(int, char**)",
+      "samples": 1424,
+      "percent": 6.009199476727012
+    },
+    {
+      "name": "_mm_prefetch(void const*, _mm_hint)",
+      "samples": 1139,
+      "percent": 4.806515592691058
+    },
+    {
+      "name": "delayest::Architecture::resolveLookup(int, int, int) const",
+      "samples": 997,
+      "percent": 4.207283622399459
+    },
+    {
+      "name": "coordinate601",
+      "samples": 796,
+      "percent": 3.3590749883951556
+    },
+    {
+      "name": "delayest::Architecture::exists(int, int) const",
+      "samples": 566,
+      "percent": 2.3884879942608768
+    },
+    {
+      "name": "geometryPart595<1>",
+      "samples": 339,
+      "percent": 1.4305608304848716
+    },
+    {
+      "name": "portHash580",
+      "samples": 304,
+      "percent": 1.2828628096383508
+    },
+    {
+      "name": "delayest::trimView(std::basic_string_view<char, std::char_traits<char> >)",
+      "samples": 298,
+      "percent": 1.2575431489218045
+    },
+    {
+      "name": "delayest::Architecture::lineDelayCrossing(delayest::Axis, int, int) const",
+      "samples": 283,
+      "percent": 1.1942439971304384
+    },
+    {
+      "name": "double const& std::max<double>(double const&, double const&)",
+      "samples": 281,
+      "percent": 1.185804110224923
+    },
+    {
+      "name": "_mm_cmpgt_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 241,
+      "percent": 1.0170063721146136
+    },
+    {
+      "name": "void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)",
+      "samples": 239,
+      "percent": 1.0085664852090983
+    },
+    {
+      "name": "mod",
+      "samples": 239,
+      "percent": 1.0085664852090983
+    },
+    {
+      "name": "_mm_unpacklo_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 187,
+      "percent": 0.7891294256656961
+    },
+    {
+      "name": "geometryPart595<0>",
+      "samples": 185,
+      "percent": 0.7806895387601807
+    },
+    {
+      "name": "CsvViewReader591::nextBatch(std::basic_string_view<char, std::char_traits<char> >*, unsigned long)",
+      "samples": 182,
+      "percent": 0.7680297084019074
+    },
+    {
+      "name": "RowWriter594::row(std::basic_string_view<char, std::char_traits<char> >, int)",
+      "samples": 170,
+      "percent": 0.7173903869688146
+    },
+    {
+      "name": "__memcpy_evex_unaligned_erms",
+      "samples": 134,
+      "percent": 0.5654724226695362
+    },
+    {
+      "name": "phaseCorrection619",
+      "samples": 128,
+      "percent": 0.5401527619529898
+    },
+    {
+      "name": "_mm_loadu_si128(long long __vector(2) const*)",
+      "samples": 108,
+      "percent": 0.4557538928978352
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::find(char, unsigned long) const",
+      "samples": 106,
+      "percent": 0.4473140059923197
+    },
+    {
+      "name": "??",
+      "samples": 102,
+      "percent": 0.4304342321812888
+    },
+    {
+      "name": "_mm_unpackhi_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 101,
+      "percent": 0.426214288728531
+    },
+    {
+      "name": "_mm_add_epi32(long long __vector(2), long long __vector(2))",
+      "samples": 98,
+      "percent": 0.41355445837025784
+    },
+    {
+      "name": "prefetchPart595<0>",
+      "samples": 89,
+      "percent": 0.37557496729543827
+    },
+    {
+      "name": "event679",
+      "samples": 80,
+      "percent": 0.33759547622061864
+    },
+    {
+      "name": "std::char_traits<char>::find(char const*, unsigned long, char const&)",
+      "samples": 74,
+      "percent": 0.31227581550407224
+    },
+    {
+      "name": "prefetchGeometry581",
+      "samples": 71,
+      "percent": 0.29961598514579907
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::substr(unsigned long, unsigned long) const",
+      "samples": 69,
+      "percent": 0.29117609824028357
+    },
+    {
+      "name": "unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int)",
+      "samples": 69,
+      "percent": 0.29117609824028357
+    },
+    {
+      "name": "prefetchPart595<1>",
+      "samples": 68,
+      "percent": 0.28695615478752584
+    },
+    {
+      "name": "portKey580",
+      "samples": 68,
+      "percent": 0.28695615478752584
+    },
+    {
+      "name": "std::enable_if<std::__or_<std::__or_<std::is_same<std::remove_cv<unsigned int>::type, signed char>, std::is_same<std::remove_cv<unsigned int>::type, short>, std::is_same<std::remove_cv<unsigned int>::type, int>, std::is_same<std::remove_cv<unsigned int>::type, long>, std::is_same<std::remove_cv<unsigned int>::type, long long> >, std::__or_<std::is_same<std::remove_cv<unsigned int>::type, unsigned char>, std::is_same<std::remove_cv<unsigned int>::type, unsigned short>, std::is_same<std::remove_cv<unsigned int>::type, unsigned int>, std::is_same<std::remove_cv<unsigned int>::type, unsigned long>, std::is_same<std::remove_cv<unsigned int>::type, unsigned long long> >, std::is_same<char, std::remove_cv<unsigned int>::type> >::value, std::to_chars_result>::type std::__detail::__to_chars_10<unsigned int>(char*, char*, unsigned int)",
+      "samples": 68,
+      "percent": 0.28695615478752584
+    },
+    {
+      "name": "_mm_madd_epi16(long long __vector(2), long long __vector(2))",
+      "samples": 57,
+      "percent": 0.2405367768071908
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::back() const",
+      "samples": 55,
+      "percent": 0.23209688990167532
+    },
+    {
+      "name": "_HUF_decompress4X1_usingDTable_internal_fast_asm_loop",
+      "samples": 53,
+      "percent": 0.22365700299615984
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::compare(std::basic_string_view<char, std::char_traits<char> >) const",
+      "samples": 51,
+      "percent": 0.2152171160906444
+    },
+    {
+      "name": "memchr",
+      "samples": 50,
+      "percent": 0.21099717263788664
+    },
+    {
+      "name": "_mm_srli_si128(long long __vector(2), int)",
+      "samples": 39,
+      "percent": 0.1645777946575516
+    },
+    {
+      "name": "std::vector<delayest::NetTemplate, std::allocator<delayest::NetTemplate> >::operator[](unsigned long) const",
+      "samples": 39,
+      "percent": 0.1645777946575516
+    },
+    {
+      "name": "CsvViewReader591::read(std::basic_string_view<char, std::char_traits<char> >&)",
+      "samples": 35,
+      "percent": 0.14769802084652064
+    },
+    {
+      "name": "std::__sv_check(unsigned long, unsigned long, char const*)",
+      "samples": 35,
+      "percent": 0.14769802084652064
+    },
+    {
+      "name": "delayest::Architecture::netOfOutput(int) const",
+      "samples": 30,
+      "percent": 0.126598303582732
+    },
+    {
+      "name": "ZSTD_decompressSequences_bmi2.constprop.0",
+      "samples": 27,
+      "percent": 0.1139384732244588
+    },
+    {
+      "name": "std::vector<unsigned char, std::allocator<unsigned char> >::operator[](unsigned long) const",
+      "samples": 25,
+      "percent": 0.10549858631894332
+    },
+    {
+      "name": "HUF_decompress4X2_usingDTable_internal_fast_asm_loop",
+      "samples": 24,
+      "percent": 0.1012786428661856
+    },
+    {
+      "name": "geometry",
+      "samples": 21,
+      "percent": 0.0886188125079124
+    },
+    {
+      "name": "delayest::Architecture::resolveNet(int, int, int) const",
+      "samples": 20,
+      "percent": 0.08439886905515466
+    },
+    {
+      "name": "_mm_cvtsi128_si32(long long __vector(2))",
+      "samples": 18,
+      "percent": 0.0759589821496392
+    },
+    {
+      "name": "__gnu_cxx::__normal_iterator<delayest::Block const*, std::vector<delayest::Block, std::allocator<delayest::Block> > >::__normal_iterator(delayest::Block const* const&)",
+      "samples": 18,
+      "percent": 0.0759589821496392
+    },
+    {
+      "name": "std::vector<int, std::allocator<int> >::operator[](unsigned long) const",
+      "samples": 17,
+      "percent": 0.07173903869688146
+    },
+    {
+      "name": "replacement679(int const*, int, int, int, int, int, int, int, bool, unsigned int, unsigned int, int, int, unsigned char*, float const*) [clone .constprop.0]",
+      "samples": 16,
+      "percent": 0.06751909524412372
+    },
+    {
+      "name": "std::enable_if<std::__or_<std::__or_<std::is_same<std::remove_cv<int>::type, signed char>, std::is_same<std::remove_cv<int>::type, short>, std::is_same<std::remove_cv<int>::type, int>, std::is_same<std::remove_cv<int>::type, long>, std::is_same<std::remove_cv<int>::type, long long> >, std::__or_<std::is_same<std::remove_cv<int>::type, unsigned char>, std::is_same<std::remove_cv<int>::type, unsigned short>, std::is_same<std::remove_cv<int>::type, unsigned int>, std::is_same<std::remove_cv<int>::type, unsigned long>, std::is_same<std::remove_cv<int>::type, unsigned long long> >, std::is_same<char, std::remove_cv<int>::type> >::value, std::to_chars_result>::type std::__to_chars_i<int>(char*, char*, int, int)",
+      "samples": 16,
+      "percent": 0.06751909524412372
+    },
+    {
+      "name": "jsonlite::Document::parseValue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long&)",
+      "samples": 13,
+      "percent": 0.05485926488585053
+    }
+  ],
+  "inclusive": [
+    {
+      "name": "worker608_F(int, char**)",
+      "samples": 11163,
+      "percent": 47.10722876313457
+    },
+    {
+      "name": "prepare596(int const*, unsigned int, Prepared596&, Trace*) [clone .constprop.0]",
+      "samples": 10609,
+      "percent": 44.76938009030679
+    },
+    {
+      "name": "finish596",
+      "samples": 4453,
+      "percent": 18.791408195130185
+    },
+    {
+      "name": "parsePin580",
+      "samples": 4009,
+      "percent": 16.91775330210575
+    },
+    {
+      "name": "parsePin601",
+      "samples": 3968,
+      "percent": 16.744735620542684
+    },
+    {
+      "name": "prefetchGeometry581",
+      "samples": 2608,
+      "percent": 11.005612524792168
+    },
+    {
+      "name": "symmetric640",
+      "samples": 2333,
+      "percent": 9.84512807528379
+    },
+    {
+      "name": "local582",
+      "samples": 1689,
+      "percent": 7.127484491707811
+    },
+    {
+      "name": "geometry",
+      "samples": 1537,
+      "percent": 6.486053086888636
+    },
+    {
+      "name": "__memchr_evex",
+      "samples": 1491,
+      "percent": 6.29193568806178
+    },
+    {
+      "name": "_mm_prefetch(void const*, _mm_hint)",
+      "samples": 1139,
+      "percent": 4.806515592691058
+    },
+    {
+      "name": "delayest::Architecture::resolveNet(int, int, int) const",
+      "samples": 1017,
+      "percent": 4.291682491454615
+    },
+    {
+      "name": "delayest::Architecture::resolveLookup(int, int, int) const",
+      "samples": 997,
+      "percent": 4.207283622399459
+    },
+    {
+      "name": "geometryPart595<1>",
+      "samples": 937,
+      "percent": 3.9540870152339957
+    },
+    {
+      "name": "dot64_595",
+      "samples": 849,
+      "percent": 3.582731991391315
+    },
+    {
+      "name": "coordinate601",
+      "samples": 796,
+      "percent": 3.3590749883951556
+    },
+    {
+      "name": "RowWriter594::row(std::basic_string_view<char, std::char_traits<char> >, int)",
+      "samples": 593,
+      "percent": 2.5024264674853356
+    },
+    {
+      "name": "delayest::Architecture::exists(int, int) const",
+      "samples": 591,
+      "percent": 2.4939865805798203
+    },
+    {
+      "name": "prefetchPart595<0>",
+      "samples": 485,
+      "percent": 2.0466725745875007
+    },
+    {
+      "name": "geometryPart595<0>",
+      "samples": 436,
+      "percent": 1.8398953454023717
+    },
+    {
+      "name": "prefetchPart595<1>",
+      "samples": 428,
+      "percent": 1.8061357977803096
+    },
+    {
+      "name": "std::to_chars(char*, char*, int, int)",
+      "samples": 392,
+      "percent": 1.6542178334810314
+    },
+    {
+      "name": "std::enable_if<std::__or_<std::__or_<std::is_same<std::remove_cv<int>::type, signed char>, std::is_same<std::remove_cv<int>::type, short>, std::is_same<std::remove_cv<int>::type, int>, std::is_same<std::remove_cv<int>::type, long>, std::is_same<std::remove_cv<int>::type, long long> >, std::__or_<std::is_same<std::remove_cv<int>::type, unsigned char>, std::is_same<std::remove_cv<int>::type, unsigned short>, std::is_same<std::remove_cv<int>::type, unsigned int>, std::is_same<std::remove_cv<int>::type, unsigned long>, std::is_same<std::remove_cv<int>::type, unsigned long long> >, std::is_same<char, std::remove_cv<int>::type> >::value, std::to_chars_result>::type std::__to_chars_i<int>(char*, char*, int, int)",
+      "samples": 392,
+      "percent": 1.6542178334810314
+    },
+    {
+      "name": "std::enable_if<std::__or_<std::__or_<std::is_same<std::remove_cv<unsigned int>::type, signed char>, std::is_same<std::remove_cv<unsigned int>::type, short>, std::is_same<std::remove_cv<unsigned int>::type, int>, std::is_same<std::remove_cv<unsigned int>::type, long>, std::is_same<std::remove_cv<unsigned int>::type, long long> >, std::__or_<std::is_same<std::remove_cv<unsigned int>::type, unsigned char>, std::is_same<std::remove_cv<unsigned int>::type, unsigned short>, std::is_same<std::remove_cv<unsigned int>::type, unsigned int>, std::is_same<std::remove_cv<unsigned int>::type, unsigned long>, std::is_same<std::remove_cv<unsigned int>::type, unsigned long long> >, std::is_same<char, std::remove_cv<unsigned int>::type> >::value, std::to_chars_result>::type std::__detail::__to_chars_10<unsigned int>(char*, char*, unsigned int)",
+      "samples": 376,
+      "percent": 1.5866987382369075
+    },
+    {
+      "name": "delayest::trimView(std::basic_string_view<char, std::char_traits<char> >)",
+      "samples": 367,
+      "percent": 1.548719247162088
+    },
+    {
+      "name": "CsvViewReader591::nextBatch(std::basic_string_view<char, std::char_traits<char> >*, unsigned long)",
+      "samples": 329,
+      "percent": 1.3883613959572942
+    },
+    {
+      "name": "line",
+      "samples": 311,
+      "percent": 1.3124024138076549
+    },
+    {
+      "name": "portHash580",
+      "samples": 304,
+      "percent": 1.2828628096383508
+    },
+    {
+      "name": "delayest::Architecture::lineDelayCrossing(delayest::Axis, int, int) const",
+      "samples": 300,
+      "percent": 1.2659830358273199
+    },
+    {
+      "name": "double const& std::max<double>(double const&, double const&)",
+      "samples": 281,
+      "percent": 1.185804110224923
+    },
+    {
+      "name": "_mm_cmpgt_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 241,
+      "percent": 1.0170063721146136
+    },
+    {
+      "name": "void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)",
+      "samples": 239,
+      "percent": 1.0085664852090983
+    },
+    {
+      "name": "mod",
+      "samples": 239,
+      "percent": 1.0085664852090983
+    },
+    {
+      "name": "_mm_unpacklo_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 187,
+      "percent": 0.7891294256656961
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::find(char, unsigned long) const",
+      "samples": 180,
+      "percent": 0.759589821496392
+    },
+    {
+      "name": "__memcpy_evex_unaligned_erms",
+      "samples": 134,
+      "percent": 0.5654724226695362
+    },
+    {
+      "name": "phaseCorrection619",
+      "samples": 129,
+      "percent": 0.5443727054057476
+    },
+    {
+      "name": "_mm_loadu_si128(long long __vector(2) const*)",
+      "samples": 108,
+      "percent": 0.4557538928978352
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::substr(unsigned long, unsigned long) const",
+      "samples": 104,
+      "percent": 0.43887411908680424
+    },
+    {
+      "name": "??",
+      "samples": 102,
+      "percent": 0.4304342321812888
+    },
+    {
+      "name": "_mm_unpackhi_epi8(long long __vector(2), long long __vector(2))",
+      "samples": 101,
+      "percent": 0.426214288728531
+    },
+    {
+      "name": "_mm_add_epi32(long long __vector(2), long long __vector(2))",
+      "samples": 98,
+      "percent": 0.41355445837025784
+    },
+    {
+      "name": "event679",
+      "samples": 80,
+      "percent": 0.33759547622061864
+    },
+    {
+      "name": "std::char_traits<char>::find(char const*, unsigned long, char const&)",
+      "samples": 74,
+      "percent": 0.31227581550407224
+    },
+    {
+      "name": "unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int)",
+      "samples": 69,
+      "percent": 0.29117609824028357
+    },
+    {
+      "name": "portKey580",
+      "samples": 68,
+      "percent": 0.28695615478752584
+    },
+    {
+      "name": "_mm_madd_epi16(long long __vector(2), long long __vector(2))",
+      "samples": 57,
+      "percent": 0.2405367768071908
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::back() const",
+      "samples": 55,
+      "percent": 0.23209688990167532
+    },
+    {
+      "name": "_HUF_decompress4X1_usingDTable_internal_fast_asm_loop",
+      "samples": 53,
+      "percent": 0.22365700299615984
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::compare(std::basic_string_view<char, std::char_traits<char> >) const",
+      "samples": 51,
+      "percent": 0.2152171160906444
+    },
+    {
+      "name": "std::basic_string_view<char, std::char_traits<char> >::compare(unsigned long, unsigned long, char const*) const",
+      "samples": 51,
+      "percent": 0.2152171160906444
+    },
+    {
+      "name": "memchr",
+      "samples": 50,
+      "percent": 0.21099717263788664
+    },
+    {
+      "name": "delayest::Architecture::net(int) const",
+      "samples": 48,
+      "percent": 0.2025572857323712
+    },
+    {
+      "name": "CsvViewReader591::next(std::basic_string_view<char, std::char_traits<char> >&)",
+      "samples": 43,
+      "percent": 0.18145756846858252
+    },
+    {
+      "name": "CsvViewReader591::read(std::basic_string_view<char, std::char_traits<char> >&)",
+      "samples": 43,
+      "percent": 0.18145756846858252
+    },
+    {
+      "name": "_mm_srli_si128(long long __vector(2), int)",
+      "samples": 39,
+      "percent": 0.1645777946575516
+    },
+    {
+      "name": "std::vector<delayest::NetTemplate, std::allocator<delayest::NetTemplate> >::operator[](unsigned long) const",
+      "samples": 39,
+      "percent": 0.1645777946575516
+    },
+    {
+      "name": "std::__sv_check(unsigned long, unsigned long, char const*)",
+      "samples": 35,
+      "percent": 0.14769802084652064
+    },
+    {
+      "name": "delayest::Architecture::netOfOutput(int) const",
+      "samples": 30,
+      "percent": 0.126598303582732
+    },
+    {
+      "name": "ZSTD_decompressSequences_bmi2.constprop.0",
+      "samples": 27,
+      "percent": 0.1139384732244588
+    }
+  ],
+  "files": [
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp",
+      "samples": 6854,
+      "percent": 28.923492425201502
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h",
+      "samples": 3958,
+      "percent": 16.702536186015106
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/symmetric640.h",
+      "samples": 2345,
+      "percent": 9.895767396716884
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h",
+      "samples": 1905,
+      "percent": 8.038992277503482
+    },
+    {
+      "name": "??",
+      "samples": 1851,
+      "percent": 7.811115331054564
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp582_int8_geometry.h",
+      "samples": 1692,
+      "percent": 7.140144322066084
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h",
+      "samples": 1139,
+      "percent": 4.806515592691058
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp608_geometry.h",
+      "samples": 866,
+      "percent": 3.654471030088197
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h",
+      "samples": 849,
+      "percent": 3.582731991391315
+    },
+    {
+      "name": "/usr/include/c++/11/bits/charconv.h",
+      "samples": 308,
+      "percent": 1.2997425834493819
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/csv.h",
+      "samples": 298,
+      "percent": 1.2575431489218045
+    },
+    {
+      "name": "/usr/include/c++/11/bits/stl_algobase.h",
+      "samples": 278,
+      "percent": 1.1731442798666498
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp596_csv_batch.h",
+      "samples": 217,
+      "percent": 0.915727729248428
+    },
+    {
+      "name": "/usr/include/c++/11/string_view",
+      "samples": 210,
+      "percent": 0.8861881250791239
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp594/tests/exp594_packed_output.h",
+      "samples": 170,
+      "percent": 0.7173903869688146
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp652_distance_curve_lookup.h",
+      "samples": 144,
+      "percent": 0.6076718571971136
+    },
+    {
+      "name": "/usr/include/c++/11/bits/string_view.tcc",
+      "samples": 106,
+      "percent": 0.4473140059923197
+    },
+    {
+      "name": "/usr/include/c++/11/charconv",
+      "samples": 84,
+      "percent": 0.3544752500316496
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp679_hv_events.h",
+      "samples": 82,
+      "percent": 0.3460353631261341
+    },
+    {
+      "name": "/usr/include/c++/11/bits/stl_vector.h",
+      "samples": 81,
+      "percent": 0.34181541967337636
+    },
+    {
+      "name": "/usr/include/c++/11/bits/char_traits.h",
+      "samples": 74,
+      "percent": 0.31227581550407224
+    },
+    {
+      "name": "/usr/include/string.h",
+      "samples": 50,
+      "percent": 0.21099717263788664
+    },
+    {
+      "name": "/usr/include/x86_64-linux-gnu/bits/string_fortified.h",
+      "samples": 31,
+      "percent": 0.13081824703548972
+    },
+    {
+      "name": "zstd_decompress_block.o",
+      "samples": 27,
+      "percent": 0.1139384732244588
+    },
+    {
+      "name": "/usr/include/c++/11/bits/stl_iterator.h",
+      "samples": 18,
+      "percent": 0.0759589821496392
+    },
+    {
+      "name": "malloc.o",
+      "samples": 15,
+      "percent": 0.063299151791366
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/replacement679.h",
+      "samples": 15,
+      "percent": 0.063299151791366
+    },
+    {
+      "name": "architecture.cpp",
+      "samples": 7,
+      "percent": 0.02953960416930413
+    },
+    {
+      "name": "/usr/include/c++/11/bits/basic_string.h",
+      "samples": 7,
+      "percent": 0.02953960416930413
+    },
+    {
+      "name": "/usr/include/x86_64-linux-gnu/bits/stdio2.h",
+      "samples": 6,
+      "percent": 0.0253196607165464
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp614_geometry_features.h",
+      "samples": 6,
+      "percent": 0.0253196607165464
+    },
+    {
+      "name": "strtod_l.o",
+      "samples": 3,
+      "percent": 0.0126598303582732
+    },
+    {
+      "name": "huf_decompress.o",
+      "samples": 1,
+      "percent": 0.004219943452757733
+    }
+  ],
+  "source_lines": [
+    {
+      "name": "??:?",
+      "samples": 1749,
+      "percent": 7.380681098873275
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp582_int8_geometry.h:37",
+      "samples": 1537,
+      "percent": 6.486053086888636
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:179",
+      "samples": 1462,
+      "percent": 6.1695573279318054
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:61",
+      "samples": 1117,
+      "percent": 4.713676836730388
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:54",
+      "samples": 787,
+      "percent": 3.3210954973203357
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:63",
+      "samples": 600,
+      "percent": 2.5319660716546397
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h:100",
+      "samples": 566,
+      "percent": 2.3884879942608768
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h:200",
+      "samples": 539,
+      "percent": 2.274549521036418
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:67",
+      "samples": 489,
+      "percent": 2.0635523483985314
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:180",
+      "samples": 478,
+      "percent": 2.0171329704181966
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:143",
+      "samples": 361,
+      "percent": 1.5233995864455416
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:55",
+      "samples": 352,
+      "percent": 1.485420095370722
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:176",
+      "samples": 323,
+      "percent": 1.3630417352407478
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp608_geometry.h:63",
+      "samples": 298,
+      "percent": 1.2575431489218045
+    },
+    {
+      "name": "/usr/include/c++/11/bits/stl_algobase.h:259",
+      "samples": 278,
+      "percent": 1.1731442798666498
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:92",
+      "samples": 276,
+      "percent": 1.1647043929611343
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h:110",
+      "samples": 272,
+      "percent": 1.1478246191501034
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:1371",
+      "samples": 241,
+      "percent": 1.0170063721146136
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:35",
+      "samples": 227,
+      "percent": 0.9579271637760054
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h:196",
+      "samples": 208,
+      "percent": 0.8777482381736085
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:271",
+      "samples": 205,
+      "percent": 0.8650884078153352
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:270",
+      "samples": 202,
+      "percent": 0.852428577457062
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:150",
+      "samples": 197,
+      "percent": 0.8313288601932735
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:38",
+      "samples": 194,
+      "percent": 0.8186690298350002
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:268",
+      "samples": 193,
+      "percent": 0.8144490863822424
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:1030",
+      "samples": 187,
+      "percent": 0.7891294256656961
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:134",
+      "samples": 173,
+      "percent": 0.7300502173270879
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:144",
+      "samples": 164,
+      "percent": 0.6920707262522682
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:255",
+      "samples": 151,
+      "percent": 0.6372114613664177
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:39",
+      "samples": 151,
+      "percent": 0.6372114613664177
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:146",
+      "samples": 151,
+      "percent": 0.6372114613664177
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:142",
+      "samples": 148,
+      "percent": 0.6245516310081445
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:133",
+      "samples": 143,
+      "percent": 0.6034519137443558
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:131",
+      "samples": 132,
+      "percent": 0.5570325357640208
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:147",
+      "samples": 129,
+      "percent": 0.5443727054057476
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:34",
+      "samples": 125,
+      "percent": 0.5274929315947167
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:52",
+      "samples": 120,
+      "percent": 0.506393214330928
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/csv.h:93",
+      "samples": 117,
+      "percent": 0.49373338397265476
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:17",
+      "samples": 117,
+      "percent": 0.49373338397265476
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:118",
+      "samples": 109,
+      "percent": 0.4599738363505929
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:130",
+      "samples": 108,
+      "percent": 0.4557538928978352
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:703",
+      "samples": 108,
+      "percent": 0.4557538928978352
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/../exp589/src/architecture.h:198",
+      "samples": 106,
+      "percent": 0.4473140059923197
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:37",
+      "samples": 103,
+      "percent": 0.4346541756340465
+    },
+    {
+      "name": "??:0",
+      "samples": 102,
+      "percent": 0.4304342321812888
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:95",
+      "samples": 102,
+      "percent": 0.4304342321812888
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:1006",
+      "samples": 101,
+      "percent": 0.426214288728531
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp608_geometry.h:81",
+      "samples": 100,
+      "percent": 0.4219943452757733
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp608_geometry.h:62",
+      "samples": 100,
+      "percent": 0.4219943452757733
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp652_distance_curve_lookup.h:26",
+      "samples": 99,
+      "percent": 0.41777440182301556
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:145",
+      "samples": 98,
+      "percent": 0.41355445837025784
+    },
+    {
+      "name": "/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:1066",
+      "samples": 98,
+      "percent": 0.41355445837025784
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:152",
+      "samples": 96,
+      "percent": 0.4051145714647424
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:11",
+      "samples": 93,
+      "percent": 0.39245474110646916
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:18",
+      "samples": 93,
+      "percent": 0.39245474110646916
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp601_port_parser.h:16",
+      "samples": 92,
+      "percent": 0.38823479765371144
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp608_geometry.h:58",
+      "samples": 89,
+      "percent": 0.37557496729543827
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/worker.cpp:256",
+      "samples": 88,
+      "percent": 0.3713550238426805
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/symmetric640.h:498",
+      "samples": 86,
+      "percent": 0.36291513693716504
+    },
+    {
+      "name": "/home/lhj/lhjwork/eda2026/research/exp686/build/exp686/exp582_int8_geometry.h:35",
+      "samples": 86,
+      "percent": 0.36291513693716504
+    }
+  ],
+  "all_checks_passed": true,
+  "new_estimator_runs": 0,
+  "profile_reused": {
+    "path": "validation/results/exp703/profile.data",
+    "bytes": 973600,
+    "sha256": "9c9eb622f5a91c42da124c7ccbbbae5084b64761c1c98454b00b16e8b7efeb97"
+  },
+  "code": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp703/validation/exp703_symbolize.py",
+    "bytes": 3857,
+    "sha256": "a460dfc781618ca5c817893e5c65b2c9041aa44331e3e2fb52d7d58243091fca"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp652/tools/exact_labels",
+    "doc/eda比赛文件/arch",
+    "build/exp652/labels-1.csv",
+    "build/exp652/tools/orbit.i16",
+    "build/exp652/exact-1.csv"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 176.167179,
+  "rss_bytes": 767889408,
+  "wall_s": 176.32704705302604,
+  "host": "lhj-R4900-G3"
+}

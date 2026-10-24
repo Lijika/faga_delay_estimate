@@ -1,0 +1,76 @@
+
+ Usage: perf stat [<options>] [<command>]
+
+    -a, --all-cpus        system-wide collection from all CPUs
+    -A, --no-aggr         disable aggregation across CPUs or PMUs
+    -B, --big-num         print large numbers with thousands' separators
+    -C, --cpu <cpu>       list of cpus to monitor in system-wide
+    -D, --delay <n>       ms to wait before starting measurement after program start (-1: start with events disabled)
+    -d, --detailed        detailed run - start a lot of events
+    -e, --event <event>   event selector. use 'perf list' to list available events
+    -G, --cgroup <name>   monitor event in cgroup name only
+    -I, --interval-print <n>
+                          print counts at regular interval in ms (overhead is possible for values <= 100ms)
+    -i, --no-inherit      child tasks do not inherit counters
+    -j, --json-output     print counts in JSON format
+    -M, --metrics <metric/metric group list>
+                          monitor specified metrics or metric groups (separated by ,)
+    -n, --null            null run - dont start any counters
+    -o, --output <file>   output file name
+    -p, --pid <pid>       stat events on existing process id
+    -r, --repeat <n>      repeat command and print average + stddev (max: 100, forever: 0)
+    -S, --sync            call sync() before starting a run
+    -t, --tid <tid>       stat events on existing thread id
+    -T, --transaction     hardware transaction statistics
+    -v, --verbose         be more verbose (show counter open errors, etc)
+    -x, --field-separator <separator>
+                          print counts with custom separator
+        --all-kernel      Configure all used events to run in kernel space.
+        --all-user        Configure all used events to run in user space.
+        --append          append to the output file
+        --control <fd:ctl-fd[,ack-fd] or fifo:ctl-fifo[,ack-fifo]>
+                          Listen on ctl-fd descriptor for command to control measurement ('enable': enable events, 'disable': disable events).
+			  Optionally send control command completion ('ack\n') to ack-fd descriptor.
+			  Alternatively, ctl-fifo / ack-fifo will be opened and used as ctl-fd / ack-fd.
+        --cputype <hybrid cpu type>
+                          Only enable events on applying cpu with this type for hybrid platform (e.g. core or atom)
+        --filter <filter>
+                          event filter
+        --for-each-cgroup <name>
+                          expand events for each cgroup
+        --hybrid-merge    Merge identical named hybrid events
+        --interval-clear  clear screen in between new interval
+        --interval-count <n>
+                          print counts for fixed number of times
+        --iostat[=<default>]
+                          measure I/O performance metrics provided by arch/platform
+        --log-fd <n>      log output to fd, instead of stderr
+        --metric-no-group
+                          don't group metric events, impacts multiplexing
+        --metric-no-merge
+                          don't try to share events between metrics in a group
+        --metric-no-threshold
+                          disable adding events for the metric threshold calculation
+        --metric-only     Only print computed metrics. No raw values
+        --no-csv-summary  don't print 'summary' for CSV summary output
+        --no-merge        disable aggregation the same as -A or -no-aggr
+        --per-cache[=<cache level>]
+                          aggregate count at this cache level (Default: LLC)
+        --per-core        aggregate counts per physical processor core
+        --per-die         aggregate counts per processor die
+        --per-node        aggregate counts per numa node
+        --per-socket      aggregate counts per processor socket
+        --per-thread      aggregate counts per thread
+        --percore-show-thread
+                          Use with 'percore' event qualifier to show the event counts of one hardware thread by sum up total hardware threads of same physical core
+        --post <command>  command to run after to the measured command
+        --pre <command>   command to run prior to the measured command
+        --quiet           don't print any output, messages or warnings (useful with record)
+        --scale           Use --no-scale to disable counter scaling for multiplexing
+        --smi-cost        measure SMI cost
+        --summary         print summary for interval mode
+        --table           display details about each run (only with -r option)
+        --td-level <n>    Set the metrics level for the top-down statistics (0: max level)
+        --timeout <n>     stop workload and print counts after a timeout period in ms (>= 10ms)
+        --topdown         measure top-down statistics
+

@@ -1,0 +1,257 @@
+{
+  "sources": [
+    {
+      "original": {
+        "path": "../exp686/build/exp686/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp704/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp704/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp704/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp704/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp601_port_parser.h",
+        "bytes": 4290,
+        "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+      },
+      "current": {
+        "path": "build/exp704/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp704/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp704/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp704/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      },
+      "current": {
+        "path": "build/exp704/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp704/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp704/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      },
+      "current": {
+        "path": "build/exp704/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      },
+      "current": {
+        "path": "build/exp704/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp686/build/exp686/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      },
+      "current": {
+        "path": "build/exp704/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      }
+    }
+  ],
+  "input": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "bytes": 3519782965,
+    "sha256": "34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30"
+  },
+  "reference": {
+    "path": "../exp703/build/exp703/warmup.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp686/build/exp686/N",
+      "bytes": 93402392,
+      "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+    },
+    "C": {
+      "path": "build/exp704/C",
+      "bytes": 93380632,
+      "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+    }
+  },
+  "expected_output": {
+    "path": "build/exp685/100m-0-V8.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "schedule": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ]
+  ],
+  "component_check": {
+    "checks": 829072,
+    "ports": 496,
+    "all_equal": true
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp704/validation/exp704_direct_port.py",
+      "bytes": 9486,
+      "sha256": "3fd7f59c2b0c32204879c609b9dcdbd213f0fe898b46cc799e201a40c30ab511"
+    },
+    {
+      "path": "experiment/实验704-固定端口语言的直接解码与完整100M.md",
+      "bytes": 2896,
+      "sha256": "338059cca29f9f210c49b20f49f6fa391f3e9b66689d9ac764869eb15061533b"
+    },
+    {
+      "path": "validation/results/exp704/protocol-original.md",
+      "bytes": 2896,
+      "sha256": "338059cca29f9f210c49b20f49f6fa391f3e9b66689d9ac764869eb15061533b"
+    },
+    {
+      "path": "tests/exp704_port_decoder.cpp",
+      "bytes": 2553,
+      "sha256": "486feeff87a863c033cfbc368c46c7c9afdb7a94d402153ce01210a6894ec5df"
+    }
+  ],
+  "disk_free_start_bytes": 7444602880
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp704/parser-test",
+    "../exp652/doc/eda比赛文件/arch"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.132512,
+  "wall_s": 0.13315087975934148,
+  "rss_bytes": 51040256,
+  "threads": 1,
+  "stderr": "validation/results/exp704/parser-test.stderr"
+}

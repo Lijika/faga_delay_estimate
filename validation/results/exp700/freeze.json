@@ -1,0 +1,146 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp700/validation/exp700_real_map_four_grid.py",
+      "bytes": 16260,
+      "sha256": "3c3597b27665223830ed3241ebf4f724e425c6d8eafd0f42983f437a6fcc13ad"
+    },
+    {
+      "path": "experiment/实验700-双64背景与S8V8真实地图残差的四格比较.md",
+      "bytes": 2807,
+      "sha256": "19a675e2041221c2fcf8820fe2dbbfdded74afe5275415cca92166e52ddc004c"
+    },
+    {
+      "path": "validation/results/exp700/protocol-original.md",
+      "bytes": 2807,
+      "sha256": "19a675e2041221c2fcf8820fe2dbbfdded74afe5275415cca92166e52ddc004c"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp699/validation/exp699_all_direction_curves.py",
+      "bytes": 23486,
+      "sha256": "71c0dc7ec2902363d0d6f450b0f45c5178113508329f9a9f626b4e91a480cc20"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp693/validation/exp693_full_phase_split.py",
+      "bytes": 20951,
+      "sha256": "b4d25f5947d1fbac44c9184382a2ae2be8bf8d87c77a0e092a83581777eec6e9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp679/validation/exp679_hv_cli.py",
+      "bytes": 21067,
+      "sha256": "e72b8a8b0e394b362aa15dc1640ba62730f6375398326459a770b4476c521086"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp678/validation/exp678_hv_replacement.py",
+      "bytes": 13700,
+      "sha256": "77579ec452b7753622eb75e19a11466f6e584ba8b271fcadfb358b8fc96a80bd"
+    },
+    {
+      "path": "../exp640/validation/exp640_symmetric_residual.py",
+      "bytes": 11617,
+      "sha256": "ab35fde1eb0bd004625c3c2fcb2f60d0773963ce61d71484a503fb93bda61e89"
+    },
+    {
+      "path": "../exp640/validation/results/exp640/prepare.json",
+      "bytes": 3439,
+      "sha256": "389d4e93b2e34ec5a73bb999bc9d42182404e515dd4111aaa116440f878939eb"
+    },
+    {
+      "path": "../exp699/validation/results/exp699/close-audit.json",
+      "bytes": 777,
+      "sha256": "8f9eeb4d7a805e4cfbf97599f4d34d4ab2fa268840d75d912772230a446f3884"
+    },
+    {
+      "path": "../exp699/validation/results/exp699/report.json",
+      "bytes": 3792,
+      "sha256": "886f331cba082f31a99b1985f99cab3b378016ee5541786f91be687b6149b59d"
+    },
+    {
+      "path": "../exp585/build/exp585/training.npz",
+      "bytes": 76812911,
+      "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+    },
+    {
+      "path": "../exp593/build/exp593/targets.npz",
+      "bytes": 4451632,
+      "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../exp640/build/exp640/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "89fc9fdc6b997d32cfd2272d977af3b035aafbdad32a6f462c5e8ef0e709789e"
+    },
+    {
+      "path": "../exp678/build/exp678/HV8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "4e300ebe31487666d939a280fd31150bd5a56332f60720068e5138109f8b1f4c"
+    },
+    {
+      "path": "../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    },
+    {
+      "path": "../exp654/build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "../exp699/build/exp699/conditional.curves.raw",
+      "bytes": 29308992,
+      "sha256": "52e6a1bf59c18d24ee18ac0c44e7c62f813154cd2dbcb34af42781f111e53500"
+    }
+  ],
+  "symmetric_params": {
+    "iterations": 16,
+    "depth": 4,
+    "learning_rate": 0.3,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261023640,
+    "task_type": "CPU",
+    "thread_count": 16,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "event_params": {
+    "iterations": 64,
+    "depth": 4,
+    "learning_rate": 0.3,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261024678,
+    "task_type": "CPU",
+    "thread_count": 1,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "prefix": 8,
+  "self_check": {
+    "scalar_integer_predictions": 16,
+    "symmetric_json_decoder": true
+  },
+  "disk_free_start_bytes": 4362752000,
+  "complete_program_runs": 0,
+  "new_exact_labels": 0
+}

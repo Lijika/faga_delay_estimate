@@ -1,0 +1,2431 @@
+{
+  "selected": "S8",
+  "comparisons": {
+    "S8": {
+      "saved_cpu_s": 0.03159616666666668,
+      "simultaneous_ci_saved_s": [
+        0.029778326001067997,
+        0.03341400733226537
+      ],
+      "delta_accuracy_oof_pp": -0.011369435081383905,
+      "oof_accuracy_lower_pp": -0.012688102005673866,
+      "score_screen_extrapolated_1b": 0.2542058408237819,
+      "conservative_score_lower": 0.23800223507102755,
+      "screen_gate": true,
+      "cpu_scale_assumption": "1M complete CPU difference times 1000, including initialization",
+      "independent_joint_confirmation_pending": true,
+      "same_run_training_transition": {
+        "reference": {
+          "accuracy_pp": 98.46857626319412,
+          "mae_ps": 9.0874,
+          "relative_l1": 0.0038448645130857773,
+          "exact_rows": 56699
+        },
+        "candidate": {
+          "accuracy_pp": 98.44641290037717,
+          "mae_ps": 9.212987,
+          "relative_l1": 0.003902185147273511,
+          "exact_rows": 57942
+        },
+        "states": [
+          "exact",
+          "(0,.1%)",
+          "[.1%,.5%)",
+          "[.5%,1%)",
+          "[1%,5%)",
+          ">=5%"
+        ],
+        "counts": [
+          [
+            39437,
+            14174,
+            2942,
+            100,
+            46,
+            0
+          ],
+          [
+            14944,
+            205020,
+            16671,
+            152,
+            101,
+            0
+          ],
+          [
+            3418,
+            19840,
+            465248,
+            8343,
+            594,
+            6
+          ],
+          [
+            113,
+            172,
+            7859,
+            118907,
+            4074,
+            10
+          ],
+          [
+            30,
+            61,
+            396,
+            2736,
+            70612,
+            672
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            135,
+            3185
+          ]
+        ],
+        "contribution_pp": [
+          [
+            0.0,
+            -0.0023980306258571758,
+            -0.002033076041718814,
+            -0.00027133165220858335,
+            -0.00031834173421071456,
+            0.0
+          ],
+          [
+            0.00257963399609698,
+            0.0002991345528591029,
+            -0.0042965923132630285,
+            -0.00037370839485419025,
+            -0.0006250464233666459,
+            0.0
+          ],
+          [
+            0.0023495745772278676,
+            0.005255639531077039,
+            0.0015401454984141777,
+            -0.005336388388601892,
+            -0.0032425324821667924,
+            -0.0001300566233822845
+          ],
+          [
+            0.0003081959511175122,
+            0.0004120841935729261,
+            0.005379958497686694,
+            -0.0015747888848803937,
+            -0.005765920178719862,
+            -0.00019159483683245339
+          ],
+          [
+            0.00019015732104901305,
+            0.0003542711934678496,
+            0.0018051401358440348,
+            0.0037280722102724325,
+            -0.012455510388098936,
+            -0.005145908402515925
+          ],
+          [
+            0.0,
+            0.0,
+            2.1704554806958256e-05,
+            1.8274221724541107e-05,
+            0.0005675999499880014,
+            -0.0028141218314614823
+          ]
+        ],
+        "delta_accuracy_pp": -0.02216336281693402,
+        "improved_rows": 179058,
+        "worse_rows": 193958,
+        "exact_lost_rows": 17262,
+        "exact_lost_contribution_pp": -0.00502078005399529,
+        "groups": {
+          "source_family": {
+            "0": {
+              "rows": 38571,
+              "delta_accuracy_pp": -0.02332999504979985,
+              "contribution_pp": -0.0008998612390658301
+            },
+            "1": {
+              "rows": 38981,
+              "delta_accuracy_pp": -0.022517019909036155,
+              "contribution_pp": -0.0008777359530741383
+            },
+            "2": {
+              "rows": 38902,
+              "delta_accuracy_pp": -0.022849322998141647,
+              "contribution_pp": -0.0008888843632737064
+            },
+            "3": {
+              "rows": 38922,
+              "delta_accuracy_pp": -0.028169872822040636,
+              "contribution_pp": -0.0010964277899794656
+            },
+            "4": {
+              "rows": 39014,
+              "delta_accuracy_pp": -0.02034800994136604,
+              "contribution_pp": -0.0007938572598524547
+            },
+            "5": {
+              "rows": 38848,
+              "delta_accuracy_pp": -0.0235733374121819,
+              "contribution_pp": -0.0009157770117884424
+            },
+            "6": {
+              "rows": 38969,
+              "delta_accuracy_pp": -0.023055236785491654,
+              "contribution_pp": -0.0008984395222938242
+            },
+            "7": {
+              "rows": 38508,
+              "delta_accuracy_pp": -0.018868212544187364,
+              "contribution_pp": -0.000726577128651567
+            },
+            "8": {
+              "rows": 38479,
+              "delta_accuracy_pp": -0.029121099555916012,
+              "contribution_pp": -0.0011205507898120924
+            },
+            "9": {
+              "rows": 38981,
+              "delta_accuracy_pp": -0.025040670853900424,
+              "contribution_pp": -0.0009761103905558924
+            },
+            "10": {
+              "rows": 38749,
+              "delta_accuracy_pp": -0.02439128011700184,
+              "contribution_pp": -0.0009451377132537043
+            },
+            "11": {
+              "rows": 38630,
+              "delta_accuracy_pp": -0.015543013120496713,
+              "contribution_pp": -0.000600426596844788
+            },
+            "12": {
+              "rows": 37756,
+              "delta_accuracy_pp": -0.02674436295577403,
+              "contribution_pp": -0.0010097601677582042
+            },
+            "13": {
+              "rows": 38791,
+              "delta_accuracy_pp": -0.022943301444065332,
+              "contribution_pp": -0.0008899936063167383
+            },
+            "14": {
+              "rows": 38635,
+              "delta_accuracy_pp": -0.021033062447999573,
+              "contribution_pp": -0.0008126123676784635
+            },
+            "15": {
+              "rows": 37675,
+              "delta_accuracy_pp": -0.018717902872123254,
+              "contribution_pp": -0.0007051969907072436
+            },
+            "16": {
+              "rows": 35653,
+              "delta_accuracy_pp": -0.01959597905425799,
+              "contribution_pp": -0.0006986554412214602
+            },
+            "17": {
+              "rows": 37533,
+              "delta_accuracy_pp": -0.022001410863468653,
+              "contribution_pp": -0.000825778953938569
+            },
+            "18": {
+              "rows": 37799,
+              "delta_accuracy_pp": -0.01695785626264957,
+              "contribution_pp": -0.0006409900088718911
+            },
+            "19": {
+              "rows": 35769,
+              "delta_accuracy_pp": -0.020555025357337428,
+              "contribution_pp": -0.0007352327020066025
+            },
+            "20": {
+              "rows": 39454,
+              "delta_accuracy_pp": -0.019919307806986704,
+              "contribution_pp": -0.0007858963702168534
+            },
+            "21": {
+              "rows": 39096,
+              "delta_accuracy_pp": -0.02575488849904464,
+              "contribution_pp": -0.0010069131207586493
+            },
+            "22": {
+              "rows": 39190,
+              "delta_accuracy_pp": -0.017390012785325946,
+              "contribution_pp": -0.0006815146010569239
+            },
+            "23": {
+              "rows": 39035,
+              "delta_accuracy_pp": -0.01818329440623405,
+              "contribution_pp": -0.0007097848971473461
+            },
+            "24": {
+              "rows": 38889,
+              "delta_accuracy_pp": -0.023638086088406268,
+              "contribution_pp": -0.0009192615298920314
+            },
+            "25": {
+              "rows": 39171,
+              "delta_accuracy_pp": -0.0255797988541815,
+              "contribution_pp": -0.0010019863009171435
+            }
+          },
+          "distance": {
+            "0": {
+              "rows": 16058,
+              "delta_accuracy_pp": 0.015942886042750154,
+              "contribution_pp": 0.000256010864074482
+            },
+            "1": {
+              "rows": 190211,
+              "delta_accuracy_pp": -0.05138720273913475,
+              "contribution_pp": -0.00977441122021356
+            },
+            "2": {
+              "rows": 524646,
+              "delta_accuracy_pp": -0.019718089306546283,
+              "contribution_pp": -0.01034501668232228
+            },
+            "3": {
+              "rows": 269085,
+              "delta_accuracy_pp": -0.008547283492103496,
+              "contribution_pp": -0.002299945778472669
+            }
+          },
+          "near_axis": {
+            "0": {
+              "rows": 638722,
+              "delta_accuracy_pp": -0.011620873744346505,
+              "contribution_pp": -0.007422507719736488
+            },
+            "1": {
+              "rows": 361278,
+              "delta_accuracy_pp": -0.040801972711312445,
+              "contribution_pp": -0.014740855097197537
+            }
+          },
+          "direction": {
+            "0": {
+              "rows": 243156,
+              "delta_accuracy_pp": -0.030356035934717484,
+              "contribution_pp": -0.007381252273742164
+            },
+            "1": {
+              "rows": 261331,
+              "delta_accuracy_pp": -0.025676991288458087,
+              "contribution_pp": -0.0067101938104040405
+            },
+            "2": {
+              "rows": 257270,
+              "delta_accuracy_pp": -0.008427022765447342,
+              "contribution_pp": -0.002168020146866638
+            },
+            "3": {
+              "rows": 238243,
+              "delta_accuracy_pp": -0.02478098658059703,
+              "contribution_pp": -0.005903896585921178
+            }
+          }
+        }
+      }
+    },
+    "S16": {
+      "saved_cpu_s": 0.0025666666666666754,
+      "simultaneous_ci_saved_s": [
+        0.00037209377521713743,
+        0.004761239558116213
+      ],
+      "delta_accuracy_oof_pp": 0.005068037269988098,
+      "oof_accuracy_lower_pp": 0.003713031292453785,
+      "score_screen_extrapolated_1b": 0.02544331870487944,
+      "conservative_score_lower": 0.0060712064941058404,
+      "screen_gate": true,
+      "cpu_scale_assumption": "1M complete CPU difference times 1000, including initialization",
+      "independent_joint_confirmation_pending": true,
+      "same_run_training_transition": {
+        "reference": {
+          "accuracy_pp": 98.46857626319412,
+          "mae_ps": 9.0874,
+          "relative_l1": 0.0038448645130857773,
+          "exact_rows": 56699
+        },
+        "candidate": {
+          "accuracy_pp": 98.47141285102184,
+          "mae_ps": 9.07398,
+          "relative_l1": 0.0038377164078761575,
+          "exact_rows": 58542
+        },
+        "states": [
+          "exact",
+          "(0,.1%)",
+          "[.1%,.5%)",
+          "[.5%,1%)",
+          "[1%,5%)",
+          ">=5%"
+        ],
+        "counts": [
+          [
+            38217,
+            15374,
+            2957,
+            110,
+            41,
+            0
+          ],
+          [
+            16551,
+            203217,
+            16874,
+            174,
+            72,
+            0
+          ],
+          [
+            3598,
+            20655,
+            464479,
+            8183,
+            532,
+            2
+          ],
+          [
+            145,
+            164,
+            8851,
+            118163,
+            3809,
+            3
+          ],
+          [
+            31,
+            48,
+            415,
+            3591,
+            70086,
+            336
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            274,
+            3046
+          ]
+        ],
+        "contribution_pp": [
+          [
+            0.0,
+            -0.002557370952164622,
+            -0.002078384259807561,
+            -0.000296335632333758,
+            -0.0002741486573044364,
+            0.0
+          ],
+          [
+            0.002791754394373623,
+            0.00038134028497282656,
+            -0.004321697044853801,
+            -0.00040311814342662425,
+            -0.0004061492019137679,
+            0.0
+          ],
+          [
+            0.0025370740374276736,
+            0.005250109582976084,
+            0.0027520857670684786,
+            -0.005537392905904545,
+            -0.00257513113608243,
+            -4.024845625858303e-05
+          ],
+          [
+            0.0003854393074831084,
+            0.00039532976635134207,
+            0.006033903051840488,
+            0.00015414808944772093,
+            -0.005211037071601925,
+            -5.492722209963932e-05
+          ],
+          [
+            0.00017344117259970952,
+            0.00029577852745078835,
+            0.001834212519325927,
+            0.004459513291855888,
+            -0.0007984537783980389,
+            -0.0018158075410848109
+          ],
+          [
+            0.0,
+            0.0,
+            4.292059326543985e-05,
+            0.0,
+            0.001190899417271295,
+            0.00052884002721287
+          ]
+        ],
+        "delta_accuracy_pp": 0.002836587827688718,
+        "improved_rows": 203903,
+        "worse_rows": 187050,
+        "exact_lost_rows": 18482,
+        "exact_lost_contribution_pp": -0.005206239501610366,
+        "groups": {
+          "source_family": {
+            "0": {
+              "rows": 38571,
+              "delta_accuracy_pp": -0.0019150807081296328,
+              "contribution_pp": -7.386657799326806e-05
+            },
+            "1": {
+              "rows": 38981,
+              "delta_accuracy_pp": 0.0008613734978281645,
+              "contribution_pp": 3.357720031883968e-05
+            },
+            "2": {
+              "rows": 38902,
+              "delta_accuracy_pp": 0.003790179879502012,
+              "contribution_pp": 0.00014744557767238726
+            },
+            "3": {
+              "rows": 38922,
+              "delta_accuracy_pp": 0.002468084022071342,
+              "contribution_pp": 9.606276630706076e-05
+            },
+            "4": {
+              "rows": 39014,
+              "delta_accuracy_pp": 0.005046143072806711,
+              "contribution_pp": 0.000196870225842481
+            },
+            "5": {
+              "rows": 38848,
+              "delta_accuracy_pp": -0.00013310700105170618,
+              "contribution_pp": -5.170940776856682e-06
+            },
+            "6": {
+              "rows": 38969,
+              "delta_accuracy_pp": 0.0014685694160840915,
+              "contribution_pp": 5.722868157538096e-05
+            },
+            "7": {
+              "rows": 38508,
+              "delta_accuracy_pp": 0.0018913343318610971,
+              "contribution_pp": 7.283150245130713e-05
+            },
+            "8": {
+              "rows": 38479,
+              "delta_accuracy_pp": -0.006757784428999105,
+              "contribution_pp": -0.00026003278704345655
+            },
+            "9": {
+              "rows": 38981,
+              "delta_accuracy_pp": 0.007874988051123858,
+              "contribution_pp": 0.0003069749092208591
+            },
+            "10": {
+              "rows": 38749,
+              "delta_accuracy_pp": 0.002745273292773748,
+              "contribution_pp": 0.00010637659482168996
+            },
+            "11": {
+              "rows": 38630,
+              "delta_accuracy_pp": 0.004153971661121849,
+              "contribution_pp": 0.00016046792526913705
+            },
+            "12": {
+              "rows": 37756,
+              "delta_accuracy_pp": -0.0010285208813287023,
+              "contribution_pp": -3.8832834395446484e-05
+            },
+            "13": {
+              "rows": 38791,
+              "delta_accuracy_pp": 0.0031686716685151504,
+              "contribution_pp": 0.0001229159426933712
+            },
+            "14": {
+              "rows": 38635,
+              "delta_accuracy_pp": 0.01593344255730312,
+              "contribution_pp": 0.000615588553201406
+            },
+            "15": {
+              "rows": 37675,
+              "delta_accuracy_pp": 0.005715044767842749,
+              "contribution_pp": 0.00021531431162847558
+            },
+            "16": {
+              "rows": 35653,
+              "delta_accuracy_pp": -0.00019155852476847887,
+              "contribution_pp": -6.829636083570577e-06
+            },
+            "17": {
+              "rows": 37533,
+              "delta_accuracy_pp": 0.0046544618221758954,
+              "contribution_pp": 0.00017469591557172788
+            },
+            "18": {
+              "rows": 37799,
+              "delta_accuracy_pp": 0.015112139164414562,
+              "contribution_pp": 0.0005712237482757061
+            },
+            "19": {
+              "rows": 35769,
+              "delta_accuracy_pp": -0.003099265904124614,
+              "contribution_pp": -0.00011085764212463332
+            },
+            "20": {
+              "rows": 39454,
+              "delta_accuracy_pp": 0.0050088852090250015,
+              "contribution_pp": 0.0001976205570368724
+            },
+            "21": {
+              "rows": 39096,
+              "delta_accuracy_pp": -0.0020440884037506517,
+              "contribution_pp": -7.991568023303549e-05
+            },
+            "22": {
+              "rows": 39190,
+              "delta_accuracy_pp": 0.00575699329984695,
+              "contribution_pp": 0.000225616567421002
+            },
+            "23": {
+              "rows": 39035,
+              "delta_accuracy_pp": 0.002421884253661933,
+              "contribution_pp": 9.453825184169354e-05
+            },
+            "24": {
+              "rows": 38889,
+              "delta_accuracy_pp": 0.0005568635010000435,
+              "contribution_pp": 2.1655864690390692e-05
+            },
+            "25": {
+              "rows": 39171,
+              "delta_accuracy_pp": -0.00012537769014836264,
+              "contribution_pp": -4.911169500801513e-06
+            }
+          },
+          "distance": {
+            "0": {
+              "rows": 16058,
+              "delta_accuracy_pp": 0.06277617195002157,
+              "contribution_pp": 0.0010080597691734462
+            },
+            "1": {
+              "rows": 190211,
+              "delta_accuracy_pp": 0.006655645338751527,
+              "contribution_pp": 0.0012659769555292666
+            },
+            "2": {
+              "rows": 524646,
+              "delta_accuracy_pp": 0.0003514466211948435,
+              "contribution_pp": 0.00018438506402338988
+            },
+            "3": {
+              "rows": 269085,
+              "delta_accuracy_pp": 0.0014053776277481724,
+              "contribution_pp": 0.00037816603896261697
+            }
+          },
+          "near_axis": {
+            "0": {
+              "rows": 638722,
+              "delta_accuracy_pp": 0.0026529643281477397,
+              "contribution_pp": 0.0016945066816031805
+            },
+            "1": {
+              "rows": 361278,
+              "delta_accuracy_pp": 0.0031612252782775006,
+              "contribution_pp": 0.001142081146085539
+            }
+          },
+          "direction": {
+            "0": {
+              "rows": 243156,
+              "delta_accuracy_pp": -0.006536604761878293,
+              "contribution_pp": -0.0015894146674792782
+            },
+            "1": {
+              "rows": 261331,
+              "delta_accuracy_pp": -0.0008022556990331369,
+              "contribution_pp": -0.0002096542840840287
+            },
+            "2": {
+              "rows": 257270,
+              "delta_accuracy_pp": 0.011325158798890459,
+              "contribution_pp": 0.0029136236041905485
+            },
+            "3": {
+              "rows": 238243,
+              "delta_accuracy_pp": 0.007228053605190823,
+              "contribution_pp": 0.001722033175061477
+            }
+          }
+        }
+      }
+    }
+  },
+  "timing": {
+    "A": [
+      0.337217,
+      0.338427,
+      0.335561,
+      0.339304,
+      0.33562000000000003,
+      0.33723,
+      0.338922,
+      0.336761,
+      0.33723699999999995,
+      0.339596,
+      0.336273,
+      0.338794
+    ],
+    "S8": [
+      0.30458399999999997,
+      0.30535499999999993,
+      0.307894,
+      0.30383099999999996,
+      0.30495599999999995,
+      0.30415299999999995,
+      0.305832,
+      0.304751,
+      0.30852399999999996,
+      0.30905499999999997,
+      0.305175,
+      0.307678
+    ],
+    "S16": [
+      0.335038,
+      0.335331,
+      0.33432399999999995,
+      0.335593,
+      0.337914,
+      0.33318099999999995,
+      0.33424299999999996,
+      0.332998,
+      0.336819,
+      0.33340299999999995,
+      0.337357,
+      0.333941
+    ]
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-0-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.335954,
+      "wall_s": 0.3370025069452822,
+      "rss_bytes": 151785472,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-0-A.stderr",
+      "arm": "A",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-0-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.307172,
+      "wall_s": 0.3086720099672675,
+      "rss_bytes": 479526912,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-0-S8.stderr",
+      "arm": "S8",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-0-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33555599999999997,
+      "wall_s": 0.33670736313797534,
+      "rss_bytes": 533319680,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-0-S16.stderr",
+      "arm": "S16",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.337217,
+      "wall_s": 0.3377486120443791,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-1-A.stderr",
+      "arm": "A",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp640/timing-screen-1-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30458399999999997,
+      "wall_s": 0.3059259650763124,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-1-S8.stderr",
+      "arm": "S8",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp640/timing-screen-1-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.335038,
+      "wall_s": 0.33606557408347726,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-1-S16.stderr",
+      "arm": "S16",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp640/timing-screen-1-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.335331,
+      "wall_s": 0.3368156801443547,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-2-S16.stderr",
+      "arm": "S16",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp640/timing-screen-2-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30535499999999993,
+      "wall_s": 0.3060232400894165,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-2-S8.stderr",
+      "arm": "S8",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp640/timing-screen-2-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.338427,
+      "wall_s": 0.33985760202631354,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-2-A.stderr",
+      "arm": "A",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp640/timing-screen-2-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.335561,
+      "wall_s": 0.3369936910457909,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-3-A.stderr",
+      "arm": "A",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp640/timing-screen-3-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.307894,
+      "wall_s": 0.30863159196451306,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-3-S8.stderr",
+      "arm": "S8",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp640/timing-screen-3-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33432399999999995,
+      "wall_s": 0.33455814397893846,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-3-S16.stderr",
+      "arm": "S16",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp640/timing-screen-3-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.335593,
+      "wall_s": 0.33639748115092516,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-4-S16.stderr",
+      "arm": "S16",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp640/timing-screen-4-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30383099999999996,
+      "wall_s": 0.3046071669086814,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-4-S8.stderr",
+      "arm": "S8",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp640/timing-screen-4-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.339304,
+      "wall_s": 0.3398420859593898,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-4-A.stderr",
+      "arm": "A",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp640/timing-screen-4-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33562000000000003,
+      "wall_s": 0.3365396910812706,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-5-A.stderr",
+      "arm": "A",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp640/timing-screen-5-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30495599999999995,
+      "wall_s": 0.30590023193508387,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-5-S8.stderr",
+      "arm": "S8",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp640/timing-screen-5-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.337914,
+      "wall_s": 0.33859856496565044,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-5-S16.stderr",
+      "arm": "S16",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp640/timing-screen-5-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33318099999999995,
+      "wall_s": 0.3334375990089029,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-6-S16.stderr",
+      "arm": "S16",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp640/timing-screen-6-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30415299999999995,
+      "wall_s": 0.30477088410407305,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-6-S8.stderr",
+      "arm": "S8",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp640/timing-screen-6-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33723,
+      "wall_s": 0.33841795404441655,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-6-A.stderr",
+      "arm": "A",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp640/timing-screen-6-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.338922,
+      "wall_s": 0.33982746908441186,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-7-A.stderr",
+      "arm": "A",
+      "iteration": 7,
+      "output": {
+        "path": "build/exp640/timing-screen-7-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.305832,
+      "wall_s": 0.3067580130882561,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-7-S8.stderr",
+      "arm": "S8",
+      "iteration": 7,
+      "output": {
+        "path": "build/exp640/timing-screen-7-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33424299999999996,
+      "wall_s": 0.3345445371232927,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-7-S16.stderr",
+      "arm": "S16",
+      "iteration": 7,
+      "output": {
+        "path": "build/exp640/timing-screen-7-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.332998,
+      "wall_s": 0.3332463011611253,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-8-S16.stderr",
+      "arm": "S16",
+      "iteration": 8,
+      "output": {
+        "path": "build/exp640/timing-screen-8-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.304751,
+      "wall_s": 0.30591088091023266,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-8-S8.stderr",
+      "arm": "S8",
+      "iteration": 8,
+      "output": {
+        "path": "build/exp640/timing-screen-8-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.336761,
+      "wall_s": 0.33750641788356006,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-8-A.stderr",
+      "arm": "A",
+      "iteration": 8,
+      "output": {
+        "path": "build/exp640/timing-screen-8-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33723699999999995,
+      "wall_s": 0.3376947899814695,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-9-A.stderr",
+      "arm": "A",
+      "iteration": 9,
+      "output": {
+        "path": "build/exp640/timing-screen-9-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30852399999999996,
+      "wall_s": 0.30945832398720086,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-9-S8.stderr",
+      "arm": "S8",
+      "iteration": 9,
+      "output": {
+        "path": "build/exp640/timing-screen-9-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.336819,
+      "wall_s": 0.3378269230015576,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-9-S16.stderr",
+      "arm": "S16",
+      "iteration": 9,
+      "output": {
+        "path": "build/exp640/timing-screen-9-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.33340299999999995,
+      "wall_s": 0.3345493820961565,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-10-S16.stderr",
+      "arm": "S16",
+      "iteration": 10,
+      "output": {
+        "path": "build/exp640/timing-screen-10-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.30905499999999997,
+      "wall_s": 0.31030525686219335,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-10-S8.stderr",
+      "arm": "S8",
+      "iteration": 10,
+      "output": {
+        "path": "build/exp640/timing-screen-10-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.339596,
+      "wall_s": 0.33985508792102337,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-10-A.stderr",
+      "arm": "A",
+      "iteration": 10,
+      "output": {
+        "path": "build/exp640/timing-screen-10-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.336273,
+      "wall_s": 0.3366863480769098,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-11-A.stderr",
+      "arm": "A",
+      "iteration": 11,
+      "output": {
+        "path": "build/exp640/timing-screen-11-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.305175,
+      "wall_s": 0.30617599096149206,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-11-S8.stderr",
+      "arm": "S8",
+      "iteration": 11,
+      "output": {
+        "path": "build/exp640/timing-screen-11-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.337357,
+      "wall_s": 0.3380501300562173,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-11-S16.stderr",
+      "arm": "S16",
+      "iteration": 11,
+      "output": {
+        "path": "build/exp640/timing-screen-11-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-S16.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.333941,
+      "wall_s": 0.33470159908756614,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-12-S16.stderr",
+      "arm": "S16",
+      "iteration": 12,
+      "output": {
+        "path": "build/exp640/timing-screen-12-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      }
+    },
+    {
+      "command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-S8.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.307678,
+      "wall_s": 0.30825146613642573,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-12-S8.stderr",
+      "arm": "S8",
+      "iteration": 12,
+      "output": {
+        "path": "build/exp640/timing-screen-12-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      }
+    },
+    {
+      "command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.338794,
+      "wall_s": 0.34006040799431503,
+      "rss_bytes": 541507584,
+      "threads": 1,
+      "stderr": "validation/results/exp640/timing-screen-12-A.stderr",
+      "arm": "A",
+      "iteration": 12,
+      "output": {
+        "path": "build/exp640/timing-screen-12-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      }
+    }
+  ],
+  "evidence": {
+    "A": {
+      "run": {
+        "command": [
+          "../exp622/build/exp622/T",
+          "-in",
+          "../exp501/build/exp501/u-role/requests.csv",
+          "-out",
+          "build/exp640/timing-screen-0-A.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.335954,
+        "wall_s": 0.3370025069452822,
+        "rss_bytes": 151785472,
+        "threads": 1,
+        "stderr": "validation/results/exp640/timing-screen-0-A.stderr",
+        "arm": "A",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp640/timing-screen-0-A.csv",
+          "bytes": 40136199,
+          "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+        }
+      },
+      "contract": {
+        "input": {
+          "path": "../exp501/build/exp501/u-role/requests.csv",
+          "bytes": 35198280,
+          "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+        },
+        "output": {
+          "path": "build/exp640/timing-screen-0-A.csv",
+          "bytes": 40136199,
+          "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+        },
+        "labels": {
+          "path": "../exp501/build/exp501/exact.csv",
+          "bytes": 72686142,
+          "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+        },
+        "rows": 1000000,
+        "unique_rows": 1000000,
+        "port_pairs": 59904,
+        "contract_passed": true,
+        "statistics": {
+          "rows": 1000000,
+          "accuracy_pp": 98.46857626319412,
+          "mean_error_ps": -1.996054,
+          "mae_ps": 9.0874,
+          "squared_ps": 238598392,
+          "exact_rows": 56699,
+          "under_rows": 473164,
+          "over_rows": 470137
+        }
+      },
+      "accuracy_scope": "same-run development training output; no generalization claim"
+    },
+    "S8": {
+      "run": {
+        "command": [
+          "build/exp640/S8",
+          "-in",
+          "../exp501/build/exp501/u-role/requests.csv",
+          "-out",
+          "build/exp640/timing-screen-0-S8.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.307172,
+        "wall_s": 0.3086720099672675,
+        "rss_bytes": 479526912,
+        "threads": 1,
+        "stderr": "validation/results/exp640/timing-screen-0-S8.stderr",
+        "arm": "S8",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp640/timing-screen-0-S8.csv",
+          "bytes": 40136195,
+          "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+        }
+      },
+      "contract": {
+        "input": {
+          "path": "../exp501/build/exp501/u-role/requests.csv",
+          "bytes": 35198280,
+          "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+        },
+        "output": {
+          "path": "build/exp640/timing-screen-0-S8.csv",
+          "bytes": 40136195,
+          "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+        },
+        "labels": {
+          "path": "../exp501/build/exp501/exact.csv",
+          "bytes": 72686142,
+          "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+        },
+        "rows": 1000000,
+        "unique_rows": 1000000,
+        "port_pairs": 59904,
+        "contract_passed": true,
+        "statistics": {
+          "rows": 1000000,
+          "accuracy_pp": 98.44641290037717,
+          "mean_error_ps": -2.392215,
+          "mae_ps": 9.212987,
+          "squared_ps": 257424737,
+          "exact_rows": 57942,
+          "under_rows": 485258,
+          "over_rows": 456800
+        }
+      },
+      "accuracy_scope": "same-run development training output; no generalization claim"
+    },
+    "S16": {
+      "run": {
+        "command": [
+          "build/exp640/S16",
+          "-in",
+          "../exp501/build/exp501/u-role/requests.csv",
+          "-out",
+          "build/exp640/timing-screen-0-S16.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.33555599999999997,
+        "wall_s": 0.33670736313797534,
+        "rss_bytes": 533319680,
+        "threads": 1,
+        "stderr": "validation/results/exp640/timing-screen-0-S16.stderr",
+        "arm": "S16",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp640/timing-screen-0-S16.csv",
+          "bytes": 40136242,
+          "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+        }
+      },
+      "contract": {
+        "input": {
+          "path": "../exp501/build/exp501/u-role/requests.csv",
+          "bytes": 35198280,
+          "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+        },
+        "output": {
+          "path": "build/exp640/timing-screen-0-S16.csv",
+          "bytes": 40136242,
+          "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+        },
+        "labels": {
+          "path": "../exp501/build/exp501/exact.csv",
+          "bytes": 72686142,
+          "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+        },
+        "rows": 1000000,
+        "unique_rows": 1000000,
+        "port_pairs": 59904,
+        "contract_passed": true,
+        "statistics": {
+          "rows": 1000000,
+          "accuracy_pp": 98.47141285102184,
+          "mean_error_ps": -2.071026,
+          "mae_ps": 9.07398,
+          "squared_ps": 240044500,
+          "exact_rows": 58542,
+          "under_rows": 480030,
+          "over_rows": 461428
+        }
+      },
+      "accuracy_scope": "same-run development training output; no generalization claim"
+    }
+  },
+  "removed_duplicates": [
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-1-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-1-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-1-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-1-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-2-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-2-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-2-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-2-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-3-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-3-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-3-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-3-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-4-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-4-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-4-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-4-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-5-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-5-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-5-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-5-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-6-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-6-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-6-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-6-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-7-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-7-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-7-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-7-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-8-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-8-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-8-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-8-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-9-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-9-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-9-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-9-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-10-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-10-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-10-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-10-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-11-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-11-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-11-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-11-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-12-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S16.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "rebuild_command": [
+        "build/exp640/S16",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-S16.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-12-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-S8.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "rebuild_command": [
+        "build/exp640/S8",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-S8.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp640/timing-screen-12-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "identical_to": {
+        "path": "build/exp640/timing-screen-0-A.csv",
+        "bytes": 40136199,
+        "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+      },
+      "rebuild_command": [
+        "../exp622/build/exp622/T",
+        "-in",
+        "../exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "build/exp640/timing-screen-12-A.csv"
+      ]
+    }
+  ],
+  "released_bytes": 1444903632,
+  "disk_free_end": 847593472,
+  "final_accuracy_goal_verified": false,
+  "independent_joint_confirmation_pending": true
+}

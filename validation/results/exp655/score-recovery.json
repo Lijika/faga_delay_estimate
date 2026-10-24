@@ -1,0 +1,37 @@
+{
+  "all_checks_passed": true,
+  "failure_stage": "post-estimator sample scoring",
+  "failure_type": "UnboundLocalError",
+  "failure_detail": "score() local dictionary named predictions shadowed the predictions() reader",
+  "estimator_rerun": false,
+  "completed_estimator_run": {
+    "command": [
+      "../exp654/build/exp654/B",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp655/1b.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 243.43411,
+    "wall_s": 271.4706345971208,
+    "rss_bytes": 206045184,
+    "threads": 1,
+    "stderr": "validation/results/exp655/1b.stderr"
+  },
+  "driver_before": {
+    "path": "validation/exp655_curve_release.py",
+    "sha256": "8956a69d332f6c79c437bd882bf0d8310eaff4df47c443093549381f7cef685f"
+  },
+  "driver_after": {
+    "path": "validation/exp655_curve_release.py",
+    "sha256": "18a2d3e98f104416ecaec5964131c8a1c9e14a2659d6a2b1dfd4bf7c2b3f2628",
+    "change": "rename reader predictions() to read_predictions()"
+  },
+  "recovery_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 ../exp491/build/venv/bin/python -B validation/exp655_curve_release.py score",
+  "recovery_exit_code": 0,
+  "accuracy_written": true,
+  "accuracy_sha256": "c3a3b2dea19987764013e32eb4b9f33c28c690494092edc64be3628141b19187",
+  "output_report_sha256": "93e6b651190bb96b6931ec85c31d751a671c2018a14f8d35a83b9cce8e853e95",
+  "sample_identity_unchanged": true
+}

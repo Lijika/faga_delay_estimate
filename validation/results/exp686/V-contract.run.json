@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check",
+    "check",
+    "../exp685/build/exp685/u-role/requests.csv",
+    "build/exp686/100m-0-V.csv",
+    "100000000",
+    "../exp685/build/exp685/expanded/positions.txt",
+    "build/exp686/V-sample.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 10.398356,
+  "wall_s": 10.495573519961908,
+  "rss_bytes": 217935872,
+  "threads": 1,
+  "stderr": "validation/results/exp686/V-contract.stderr"
+}

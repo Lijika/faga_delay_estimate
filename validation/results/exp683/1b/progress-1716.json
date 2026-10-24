@@ -1,0 +1,31 @@
+{
+  "time": "2026-10-24T17:17:44.164757+08:00",
+  "live_workers": [
+    {
+      "shard": 0,
+      "timeout_pid": 3436990,
+      "worker_pid": 3436994,
+      "output_bytes": 12713945
+    },
+    {
+      "shard": 1,
+      "timeout_pid": 3436991,
+      "worker_pid": 3436995,
+      "output_bytes": 12844790
+    },
+    {
+      "shard": 2,
+      "timeout_pid": 3436992,
+      "worker_pid": 3436996,
+      "output_bytes": 12551213
+    },
+    {
+      "shard": 3,
+      "timeout_pid": 3436993,
+      "worker_pid": 3436997,
+      "output_bytes": 12502055
+    }
+  ],
+  "stderr_empty": true,
+  "complete_estimator_runs": 0
+}

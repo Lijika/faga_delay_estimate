@@ -1,0 +1,8 @@
+{
+  "source_diff_check_passed": true,
+  "commit": "af7b9b6a04562ff41f141a45925ff835c152bfd8",
+  "full_diff_check_exit": 2,
+  "full_diff_check_output": "validation/results/exp684-build-failure-01/results/installed-catboost-help.txt:9: trailing whitespace.\n+        \nvalidation/results/exp684/HV8/installed-catboost-help.txt:9: trailing whitespace.\n+        \nvalidation/results/exp684/V8/installed-catboost-help.txt:9: trailing whitespace.\n+        \n",
+  "raw_help_kept_verbatim": true,
+  "scope": "The only whitespace reports are three blank indented lines in captured installed CatBoost API help."
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "../exp684/build/exp684/V8/C",
+    "-in",
+    "../exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp686/100m-5-V.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 23.947369,
+  "wall_s": 23.94992785085924,
+  "rss_bytes": 206630912,
+  "threads": 1,
+  "stderr": "validation/results/exp686/100m-5-V.stderr"
+}

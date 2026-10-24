@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "candidate_qualifies": false,
+  "quality_gate": true,
+  "accuracy_pp": {
+    "A": 98.44512784122028,
+    "C": 98.63644698142221
+  },
+  "delta_accuracy_pp": 0.19131914020193538,
+  "minimum_group_delta_pp": 0.0,
+  "mean_cpu_s": {
+    "A": 22.102597666666668,
+    "C": 23.896940666666666
+  },
+  "saved_cpu_s": -1.7943429999999996,
+  "score_point": 0.003526728828215031,
+  "score_lower": -0.012049709389929747,
+  "binary": {
+    "path": "build/exp652/C",
+    "bytes": 93951256,
+    "sha256": "c25ca413bef21839540b05ceaee103d9dc5e8ed40234324f9e99d62cf1723be8"
+  },
+  "offline_label_cpu_s": 705.559493,
+  "released_bytes": 48162992970,
+  "disk_free_end_bytes": 61167370240
+}

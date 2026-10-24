@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_publication",
+  "reason": "zip executable mode was not 0755",
+  "archive": "subm/versions/exp688-v8-boundary-generic-100m23s-ab7a9a94-dirty-20261025-0010",
+  "mode": "0o775",
+  "previous_pointer_preserved": "exp655-curve-u8-s8-generic-1b243s-c4bb0cc5-dirty-20261024-1720"
+}

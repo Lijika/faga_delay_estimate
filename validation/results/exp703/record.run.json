@@ -1,0 +1,28 @@
+{
+  "command": [
+    "perf",
+    "record",
+    "-q",
+    "-e",
+    "cycles:u",
+    "-F",
+    "999",
+    "-o",
+    "validation/results/exp703/profile.data",
+    "--",
+    "taskset",
+    "-c",
+    "8",
+    "build/exp703/N-symbols",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp703/record.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 23.981182,
+  "wall_s": 23.99161357898265,
+  "rss_bytes": 206372864,
+  "threads": 1,
+  "stderr": "validation/results/exp703/record.stderr"
+}

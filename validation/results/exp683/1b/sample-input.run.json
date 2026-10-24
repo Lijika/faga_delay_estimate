@@ -1,0 +1,18 @@
+{
+  "command": [
+    "build/exp683/1b/stratified-sample",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "build/exp683/1b/sampling-plan.bin",
+    "build/exp683/1b/sources",
+    "build/exp683/1b/targets",
+    "build/exp683/1b/sample-requests.csv",
+    "build/exp683/1b/positions.txt",
+    "build/exp683/1b/counts.tsv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 193.262686,
+  "wall_s": 193.27339533809572,
+  "rss_bytes": 206348288,
+  "threads": 1,
+  "stderr": "validation/results/exp683/1b/sample-input.stderr"
+}

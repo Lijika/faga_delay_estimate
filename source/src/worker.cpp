@@ -17,7 +17,6 @@
 #include "exp579-models.h"
 #include "exp594_packed_output.h"
 
-extern "C" const unsigned char exp579_geometry[];
 extern bool querying;
 extern uint64_t allocations;
 
@@ -25,6 +24,7 @@ static void require(bool ok, const char* why) {
     if (!ok) { std::fprintf(stderr, "estimate: %s\n", why); std::exit(1); }
 }
 
+#include "exp652_geometry_restore.h"
 #include "exp596_csv_batch.h"
 #define geometry dynamicGeometry595
 #define prefetchGeometry581 dynamicPrefetch595
@@ -32,12 +32,14 @@ static void require(bool ok, const char* why) {
 #undef geometry
 #undef prefetchGeometry581
 #include "exp608_geometry.h"
+#include "exp652_distance_curve_lookup.h"
 extern delayest::Architecture arch;
 #ifdef EXP580_PORT_PARSER
 #include "exp601_port_parser.h"
 #endif
 
 static void initialize() {
+    restoreGeometry652();
     arch.loadEmbedded();
 #ifdef EXP580_PORT_PARSER
     initializePorts580();
@@ -48,6 +50,7 @@ static void initialize() {
 
     require(arch.portCount() == kPortCount, "architecture identity");
     initializeGeometry582();
+    initializePhaseCodes619();
 }
 
 #ifdef EXP594_PACKED
@@ -92,17 +95,21 @@ static inline int line(int x, int y, int tx, int ty) {
            arch.lineDelayCrossing(delayest::Axis::Horizontal, y, ty);
 }
 
+#include "symmetric640.h"
+#include "replacement679.h"
+#include "exp679_hv_events.h"
+
 struct Trace {
     float feature[53];
     double response;
     int32_t base, mandatory, prediction;
-    float raw;
+    double raw;
 };
 
 struct Prepared596 {
     unsigned pair=0, context=0, qx=0, qy=0;
     int fee=0, mandatory=0, dy=0, cycle=0, answer=-1;
-    float raw=0.f;
+    double raw=0.;
     bool override_cycle=false, ready=false;
 };
 
@@ -127,6 +134,8 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
     const unsigned pair=unsigned(source*288+target), context=(direction*10+bx%10)*12+by%12;
     _mm_prefetch(reinterpret_cast<const char*>(center + pair), _MM_HINT_T0);
     prefetchGeometry581(pair,context,qx,qy);
+    if (qx+qy>3) _mm_prefetch(reinterpret_cast<const char*>(phaseCodes619 +
+        phaseByte619(pair,context)), _MM_HINT_T0);
     const int mandatory=line(sx,sy,ax,ay)+line(ax,ay,tx,ty);
     const int sf=q[4], sl=q[5], tf=q[6], tl=q[7];
     bool forced=false;
@@ -142,7 +151,10 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
         sy/100,ay/100,ty/100,fee,(tx-14*(ty%100<50 && tx>=90))-(ax-14*(ay%100<50 && ax>=90)),forced};
     const unsigned route=4*direction+2*(bx>=20)+(by>=24);
 #if defined(EXP581_INTEGER) || defined(EXP594_PACKED)
-    const float raw=residual(feature,route,fold);
+    int bands,ends;
+    const unsigned event=event679(ax,ay,tx,ty,forced,bands,ends);
+    const double raw=event ? replacement679(q,ax,ay,ndx,ndy,x,y,fee,forced,fold,event,bands,ends) :
+        symmetric640(q,ax,ay,ndx,ndy,x,y,fee,forced,route,fold);
 #else
     float f[53];
     for (unsigned j=0;j<53;++j) f[j]=float(feature[j]);
@@ -159,12 +171,12 @@ static inline int finish596(const Prepared596& state, Trace* trace = nullptr) {
     if (!state.ready) return state.answer;
     const unsigned pair=state.pair, context=state.context, qx=state.qx, qy=state.qy;
     const int fee=state.fee, mandatory=state.mandatory, dy=state.dy;
-    const float raw=state.raw;
+    const double raw=state.raw;
     const double response=geometry(pair,context,qx,qy);
     const double value=response*(128+125*qx+125*qy)+center[pair]+125*qx+(dy<0?125:127)*qy;
     int nominal=int(std::max(0.,value)+.5);
     if (state.override_cycle) nominal=state.cycle;
-    const int base=nominal+fee;
+    const int base=nominal+fee+phaseCorrection619(pair,context,qx,qy);
     const int answer=int(std::max(0.,double(base)+double(raw))+.5)+mandatory;
     if (trace) {
         trace->response=response;

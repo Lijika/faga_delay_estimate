@@ -1,0 +1,15 @@
+{
+  "command": [
+    "../exp622/build/exp622/T",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp640/timing-screen-9-A.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.33723699999999995,
+  "wall_s": 0.3376947899814695,
+  "rss_bytes": 541507584,
+  "threads": 1,
+  "stderr": "validation/results/exp640/timing-screen-9-A.stderr"
+}

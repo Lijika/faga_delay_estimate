@@ -1,0 +1,33 @@
+{
+  "data_self_check_passed": true,
+  "scale_self_check_passed": true,
+  "validation": "Remote exp491 Python with exp640 pydeps; local Python syntax and shell parsing passed.",
+  "data_checks": [
+    "source-pin filtering",
+    "registered-history filtering",
+    "preserved row order",
+    "controlled source adaptation",
+    "six timing permutations"
+  ],
+  "scale_checks": [
+    "finite population variance enumeration",
+    "zero truth score",
+    "weighted groups",
+    "98.75% interval constant case",
+    "quality and joint gates",
+    "tie-breaking",
+    "event-outside change detection"
+  ],
+  "input_rows": 100000000,
+  "input_unique": true,
+  "port_pairs": 59904,
+  "exact_sample_rows": 1916928,
+  "source_pin_overlap": 0,
+  "registered_history_overlap": 0,
+  "complete_estimator_runs": 0,
+  "exact_labels_complete": false,
+  "candidate_accuracy_verified": false,
+  "candidate_cpu_verified": false,
+  "frozen_data_driver_matches": true,
+  "local_audit_path_note": "Matched the unique basename because the remote frozen __file__ is absolute; SHA remains exact."
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "enumerated_samples": 18,
+  "mean": 3.5714285714285716,
+  "exact_variance": 0.8401360544217686,
+  "mean_estimated_variance": 0.8401360544217686,
+  "zero_truth_branch": true,
+  "grouped_weighted_errors": true
+}

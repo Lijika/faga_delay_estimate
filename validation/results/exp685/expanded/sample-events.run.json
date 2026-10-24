@@ -1,0 +1,13 @@
+{
+  "command": [
+    "../exp679/build/exp679/sample-events",
+    "build/exp685/expanded/sample-requests.csv",
+    "build/exp685/expanded/events.u8"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.573717,
+  "wall_s": 0.5750495700631291,
+  "rss_bytes": 3427717120,
+  "threads": 1,
+  "stderr": "validation/results/exp685/expanded/sample-events.stderr"
+}

@@ -1,47 +1,32 @@
 {
-  "files": [
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/F.o",
-      "bytes": 144640,
-      "sha256": "8705c7aa608744b272ef784370f6f165952dc6912bdb151f2e1d7cc653dcbe7c"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/S.o",
-      "bytes": 144512,
-      "sha256": "b1f27a7f7b84a0e001137f8448bf26a3730ff448e7ed0e55aecdf64bf7bef2c7"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/D.o",
-      "bytes": 144480,
-      "sha256": "143b3ade855b8f0caa438f235b01ed3b66f41cea1d94f6a64bb23146e28fd32c"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp580/build/exp580/architecture-resolver.o",
-      "bytes": 103336,
-      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/arch-text.o",
-      "bytes": 5162816,
-      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp589/build/exp589/D64-assets/geometry.o",
-      "bytes": 69304400,
-      "sha256": "7df342a6f993afe05e8ebd9e13c96bfc465661c45244a128eeae67f0333a651c"
-    },
-    {
-      "path": "/home/lhj/lhjwork/eda2026/research/exp609/build/exp609/F",
-      "bytes": 76907800,
-      "sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d"
-    }
-  ],
-  "readelf_help": [
-    "Usage: readelf <option(s)> elf-file(s)",
-    " Display information about the contents of ELF format files",
-    " Options are:",
-    "  -a --all               Equivalent to: -h -l -S -s -r -d -V -A -I",
-    "  -h --file-header       Display the ELF file header",
-    "  -l --program-headers   Display the program headers"
-  ]
+  "worker.o": {
+    "path": "research/exp686/build/exp686/C.o",
+    "bytes": 176560,
+    "sha256": "c4d3c12e9a1639319a4baecb3287eba4349eb28acfa538a6be36c2efa93ade6d"
+  },
+  "architecture-resolver.o": {
+    "path": "research/exp580/build/exp580/architecture-resolver.o",
+    "bytes": 103336,
+    "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+  },
+  "arch-text.o": {
+    "path": "research/exp579/build/exp579/arch-text.o",
+    "bytes": 5162816,
+    "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+  },
+  "codes.o": {
+    "path": "research/exp654/build/exp654/codes.o",
+    "bytes": 29309776,
+    "sha256": "7465a5ba6a8972677dfd2496a8b5e04dcdb8a1ba5a5c3403e7f7069e5b2eab40"
+  },
+  "compressed.o": {
+    "path": "research/exp652/build/exp652/compressed.o",
+    "bytes": 56504832,
+    "sha256": "74c191b36f579ae33980945a4f421494e118242e1a87b0aaad6ab0f592edf4d9"
+  },
+  "estimate": {
+    "path": "research/exp686/build/exp686/N",
+    "bytes": 93402392,
+    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+  }
 }

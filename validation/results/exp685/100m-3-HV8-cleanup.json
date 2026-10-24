@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp685/100m-3-HV8.csv",
+    "bytes": 4013565559,
+    "sha256": "60f10a4fef981553b50bb6dcf3ad0c672dfef0da303b516f42cefdd42ffe0f2c"
+  },
+  "identical_to": {
+    "path": "build/exp685/100m-0-HV8.csv",
+    "bytes": 4013565559,
+    "sha256": "60f10a4fef981553b50bb6dcf3ad0c672dfef0da303b516f42cefdd42ffe0f2c"
+  },
+  "rebuild_command": [
+    "../exp684/build/exp684/HV8/C",
+    "-in",
+    "build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp685/100m-3-HV8.csv"
+  ]
+}

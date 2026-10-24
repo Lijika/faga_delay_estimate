@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-25",
+  "fixed_version": "exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
+  "zip_bytes": 81369669,
+  "zip_sha256": "fb39a2476d0d2ea99d2cf6c29536a63383bfed0a8174505db1a5f8c601a5f94c",
+  "elf_bytes": 93402392,
+  "elf_sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
+  "all_five_objects_match": true,
+  "package_member_matches_rebuilt_elf": true,
+  "source_rebuilt_in_independent_directory": true,
+  "new_complete_estimator_runs": 0,
+  "previous_1b_evidence_reused": true,
+  "research_remains_paused": true
+}

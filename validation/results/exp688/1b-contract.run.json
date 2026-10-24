@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../exp580/build/exp580/contract-check",
+    "check",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "build/exp688/1b.csv",
+    "1000000000",
+    "../exp683/build/exp683/1b/positions.txt",
+    "build/exp688/1b-sample.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 120.145748,
+  "wall_s": 140.10539168212563,
+  "rss_bytes": 432893952,
+  "threads": 1,
+  "stderr": "validation/results/exp688/1b-contract.stderr"
+}

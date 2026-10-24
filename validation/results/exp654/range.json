@@ -1,0 +1,41 @@
+{
+  "input": {
+    "path": "../exp651/build/exp651/D64.curves",
+    "bytes": 29864000,
+    "sha256": "95057aa38fd4f0d4811c424d119cb1471a279978a52180d54d4c6981787f2bd7"
+  },
+  "values": 555008,
+  "minimum": -55,
+  "maximum": 59,
+  "span": 114,
+  "range_gate": true,
+  "per_direction": [
+    {
+      "minimum": -44,
+      "maximum": 50
+    },
+    {
+      "minimum": -44,
+      "maximum": 58
+    },
+    {
+      "minimum": -47,
+      "maximum": 54
+    },
+    {
+      "minimum": -55,
+      "maximum": 59
+    }
+  ],
+  "protocol": {
+    "path": "experiment/实验654-冻结距离曲线的无损字节代码本.md",
+    "bytes": 3453,
+    "sha256": "4609fb57b97ad24112df11c1bb94a2ee5d629ed56d186021f09ba1e845dcc5e1"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py",
+    "bytes": 10080,
+    "sha256": "f78377a0f3fbea7539565c165340a1e4d70106b5d642b1b8dd27d38745cc9611"
+  },
+  "disk_free_start": 61167190016
+}

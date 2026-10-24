@@ -1,0 +1,85 @@
+{
+  "all_complete_label_checks": true,
+  "rows": 3833856,
+  "unique_rows": 3833856,
+  "source_ports": 208,
+  "target_ports": 288,
+  "port_pairs": 59904,
+  "span_checks": 12,
+  "exact": {
+    "path": "build/exp683/1b/exact.csv",
+    "bytes": 283827264,
+    "sha256": "767999560d81772ee6048cfeecb6d9ae4b2dfe7cd88af4a75bffd356329754ae"
+  },
+  "input": {
+    "path": "build/exp683/1b/sample-requests.csv",
+    "bytes": 134950710,
+    "sha256": "ef08b5c8abe4c31914b5b2800fb304e8683825ddbdad1c176c11417a11e18eba"
+  },
+  "input_check": {
+    "path": "validation/results/exp683/1b/input.json",
+    "bytes": 763911,
+    "sha256": "044ec0a456f749329e7a1f56dcb27ef54fae17229aefa3141c5f28643f43b023"
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/1b/labels-0.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/1b/exact-0.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2618.174123,
+      "rss_bytes": 1135374336,
+      "wall_s": 2618.7836981459986,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/1b/labels-1.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/1b/exact-1.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2593.10738,
+      "rss_bytes": 1062584320,
+      "wall_s": 2593.756324018119,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/1b/labels-2.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/1b/exact-2.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2622.407018,
+      "rss_bytes": 1046831104,
+      "wall_s": 2622.7877200141083,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/1b/labels-3.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/1b/exact-3.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 2637.6715019999997,
+      "rss_bytes": 1085685760,
+      "wall_s": 2637.803751545958,
+      "thread_check": "exact completion counter"
+    }
+  ],
+  "host": "lhj-R4900-G3",
+  "disk_end_bytes": 48465707008,
+  "scope": "Complete fresh real-graph labels. Candidate accuracy and CPU remain unverified."
+}

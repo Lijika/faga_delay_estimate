@@ -1,0 +1,117 @@
+{
+  "schedule": [
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ],
+    [
+      "A",
+      "S8",
+      "S16"
+    ],
+    [
+      "S16",
+      "S8",
+      "A"
+    ]
+  ],
+  "binaries": {
+    "A": {
+      "path": "../exp622/build/exp622/T",
+      "bytes": 91047192,
+      "sha256": "010dff388ac0eb9fe2a78cf6f7246a3c596605b85c2f7ac164d4244a0f5f8a5f"
+    },
+    "S8": {
+      "path": "build/exp640/S8",
+      "bytes": 91039000,
+      "sha256": "893d35c08ee9ec3e38f923d5e2cf64beca8acfe615d4c6ee16c280952cad28a2"
+    },
+    "S16": {
+      "path": "build/exp640/S16",
+      "bytes": 91051288,
+      "sha256": "357b3dd9a907493dc60e6a92c2226d6dc663d97566025332d5fbe859c116d34a"
+    }
+  },
+  "input": {
+    "path": "../exp501/build/exp501/u-role/requests.csv",
+    "bytes": 35198280,
+    "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+  },
+  "labels": {
+    "path": "../exp501/build/exp501/exact.csv",
+    "bytes": 72686142,
+    "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+  },
+  "development_training_outputs": true,
+  "model_selection_uses_oof": true,
+  "accuracy_evidence": {
+    "path": "validation/results/exp640/evaluation.json",
+    "bytes": 37962,
+    "sha256": "57c813d4127a235441727f57716cc0f2fd32addbefa133db5061dc2588777b99"
+  },
+  "protocol": {
+    "path": "validation/results/exp640/cli-timing-protocol.md",
+    "bytes": 1186,
+    "sha256": "eecae85a15f192368f638c5d65975429cba24f87247946d16e1d85036e598283"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp640/validation/exp640_symmetric_timing.py",
+    "bytes": 5710,
+    "sha256": "c1cb69da06b365e5050f3b5b8c5d3fc2b0ce7eb64d9f218a293a0a422d47c7bb"
+  },
+  "interval": "Bonferroni: two arms and two components; t CPU, frozen OOF family bootstrap",
+  "selection": "highest eligible OOF+CPU score point, tie S8; fresh source-pin confirmation",
+  "minimum_score": 0.005,
+  "disk_free_start": 968523776
+}

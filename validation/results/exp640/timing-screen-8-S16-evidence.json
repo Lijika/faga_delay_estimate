@@ -1,0 +1,22 @@
+{
+  "command": [
+    "build/exp640/S16",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp640/timing-screen-8-S16.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.332998,
+  "wall_s": 0.3332463011611253,
+  "rss_bytes": 541507584,
+  "threads": 1,
+  "stderr": "validation/results/exp640/timing-screen-8-S16.stderr",
+  "arm": "S16",
+  "iteration": 8,
+  "output": {
+    "path": "build/exp640/timing-screen-8-S16.csv",
+    "bytes": 40136242,
+    "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+  }
+}

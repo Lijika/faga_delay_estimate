@@ -1,0 +1,25 @@
+{
+  "binary": {
+    "path": "build/exp704/C",
+    "bytes": 93380632,
+    "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp706/validation/exp706_release.py",
+      "bytes": 11451,
+      "sha256": "590865724c69c2d481782314d6e77d1af731006a426a3ec4cfe515cf6225dace"
+    },
+    {
+      "path": "experiment/实验706-直接端口目录阶段接入与完整1B.md",
+      "bytes": 2336,
+      "sha256": "d4aebc674fa51c119a53ee014dc2d27ca34d4b9531abb9e8032d797934d67fca"
+    },
+    {
+      "path": "validation/results/exp706/protocol-original.md",
+      "bytes": 2336,
+      "sha256": "d4aebc674fa51c119a53ee014dc2d27ca34d4b9531abb9e8032d797934d67fca"
+    }
+  ],
+  "disk_free_start_bytes": 7444033536
+}

@@ -1,0 +1,55 @@
+{
+  "all_checks_passed": true,
+  "arms": [
+    {
+      "arm": "V8",
+      "report": {
+        "path": "validation/results/exp684/V8/report.json",
+        "bytes": 9408,
+        "sha256": "6aa91fcfb3c11f0f4b9405537b3756a355665feba30c6e2580cd0375667eda53"
+      },
+      "binary": {
+        "path": "build/exp684/V8/C",
+        "bytes": 93398296,
+        "sha256": "f0aa7b36cf407e79c96d55d092aac0e58538f1100a62972a624739d9a0ae6cd7"
+      },
+      "event_counts": [
+        997387,
+        0,
+        2613
+      ],
+      "resource_passed": true,
+      "source_adaptation_verified": true,
+      "runs_exited_zero": 8
+    },
+    {
+      "arm": "HV8",
+      "report": {
+        "path": "validation/results/exp684/HV8/report.json",
+        "bytes": 9421,
+        "sha256": "fdf5e1239e957d8453ed73cd8b65c441c12b2ff409731f2acface047d3b78f11"
+      },
+      "binary": {
+        "path": "build/exp684/HV8/C",
+        "bytes": 93402392,
+        "sha256": "c128e1d610bc84d6065aa998ef117244f8ea3dd07be8cecb6e86dcb3123bdcb7"
+      },
+      "event_counts": [
+        979323,
+        18064,
+        2613
+      ],
+      "resource_passed": true,
+      "source_adaptation_verified": true,
+      "runs_exited_zero": 8
+    }
+  ],
+  "complete_estimator_runs": 0,
+  "new_100m_verified": false,
+  "platform_verified": false,
+  "local_event_self_check": {
+    "path": "validation/results/exp684/local-event-check.json",
+    "bytes": 884,
+    "sha256": "ab466964eca82cc40d58e29aa685644162d585e451b7312563ce2012f9bd55ef"
+  }
+}

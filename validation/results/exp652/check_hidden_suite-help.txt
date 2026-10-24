@@ -1,0 +1,1 @@
+usage: check_hidden_suite <arch> <reach.bin> <eligibility.bin> <profile> <rows> <csv> <new-check-directory>

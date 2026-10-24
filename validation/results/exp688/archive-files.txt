@@ -1,0 +1,6 @@
+research/exp649/build/exp649/100m-0-A.csv
+research/exp649/build/exp649/100m-0-C.csv
+research/exp652/build/exp652/100m-0-A.csv
+research/exp652/build/exp652/100m-0-C.csv
+research/exp663/build/exp663/100m-0-A.csv
+research/exp663/build/exp663/100m-0-C.csv

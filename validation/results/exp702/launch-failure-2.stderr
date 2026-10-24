@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lhj/lhjwork/eda2026/research/exp702/validation/exp702_current_channels.py", line 14, in <module>
+    import exp679_hv_cli as deployment
+  File "/home/lhj/lhjwork/eda2026/research/exp679/validation/exp679_hv_cli.py", line 18, in <module>
+    import exp678_hv_replacement as fit
+  File "/home/lhj/lhjwork/eda2026/research/exp678/validation/exp678_hv_replacement.py", line 14, in <module>
+    import catboost as cb
+ModuleNotFoundError: No module named 'catboost'

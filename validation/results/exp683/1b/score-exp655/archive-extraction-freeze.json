@@ -1,0 +1,52 @@
+{
+  "self_check": {
+    "passed": true,
+    "chunk_sizes": [
+      1,
+      2,
+      7,
+      16,
+      1024
+    ],
+    "zero_delay": true,
+    "missing_newline_rejected": true,
+    "sha_mismatch_rejected": true,
+    "trailing_rows_rejected": true
+  },
+  "source": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_archived_sample.py",
+    "bytes": 4671,
+    "sha256": "37590bdbdb2c5d4200e84d57cab24b4094d2c4ea0a37bb2f4eb75377be9ee7e7"
+  },
+  "archive_record": {
+    "path": "../exp663/validation/results/exp663/prior-output-archive-verified.json",
+    "bytes": 536,
+    "sha256": "0c9e392ce2866dcb82528bdea2ec27dbc72d6236185f6713a3e499f8582ce6a7"
+  },
+  "archive": {
+    "path": "../exp655/build/exp655/1b.csv.zst",
+    "bytes": 14978048637,
+    "sha256": "38284684ede6c0e25294a8366c82b0efaf80f954d83cd90099363bfe0b484441"
+  },
+  "uncompressed": {
+    "path": "build/exp655/1b.csv",
+    "bytes": 40135629651,
+    "sha256": "f1fe259709382712d3ee59ddd1b4bb9319644b6df5bda7e020517f843a7238e0"
+  },
+  "command": [
+    "zstd",
+    "-d",
+    "-q",
+    "-c",
+    "../exp655/build/exp655/1b.csv.zst"
+  ],
+  "prior_contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135629651,
+    "sample_rows": 239616,
+    "contract_passed": true
+  },
+  "sampled": "build/exp683/1b/score-exp655-A.csv",
+  "new_estimator_runs": 0
+}

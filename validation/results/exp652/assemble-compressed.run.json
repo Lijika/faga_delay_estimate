@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp652/compressed.S",
+    "-o",
+    "build/exp652/compressed.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.064627,
+  "wall_s": 0.06562982290051877,
+  "rss_bytes": 61341696,
+  "threads": 1,
+  "stderr": "validation/results/exp652/assemble-compressed.stderr"
+}

@@ -1,0 +1,1 @@
+=> [{"file":"竞赛/EDA2026/agent-theory/共享整数代码本的单字节平移表示.md","mode":"preview","headings":8,"errors":0,"current_result_present":true},{"file":"竞赛/EDA2026/agent-theory/冻结背景残量的距离曲线码与标量包含关系.md","mode":"preview","headings":8,"errors":0,"current_result_present":true},{"file":"竞赛/EDA2026/agent-theory/index.md","mode":"preview","headings":15,"errors":0,"current_result_present":true}]

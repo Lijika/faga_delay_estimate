@@ -1,0 +1,22 @@
+{
+  "command": [
+    "../exp622/build/exp622/T",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp640/timing-screen-7-A.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.338922,
+  "wall_s": 0.33982746908441186,
+  "rss_bytes": 541507584,
+  "threads": 1,
+  "stderr": "validation/results/exp640/timing-screen-7-A.stderr",
+  "arm": "A",
+  "iteration": 7,
+  "output": {
+    "path": "build/exp640/timing-screen-7-A.csv",
+    "bytes": 40136199,
+    "sha256": "b3145cb81961f94fff0070ee1a29c44ac9b3ec6c45dfa908bdea21f8263af8d5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../exp580/build/exp580/contract-check",
+    "check",
+    "build/exp685/u-role/requests.csv",
+    "build/exp685/100m-0-V8.csv",
+    "100000000",
+    "build/exp685/expanded/positions.txt",
+    "build/exp685/expanded/score-V8.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 10.349219,
+  "wall_s": 10.351188667817041,
+  "rss_bytes": 415203328,
+  "threads": 1,
+  "stderr": "validation/results/exp685/score/V8-contract.stderr"
+}

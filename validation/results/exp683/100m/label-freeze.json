@@ -1,0 +1,72 @@
+{
+  "input": {
+    "path": "build/exp683/100m/sample-requests.csv",
+    "bytes": 67475639,
+    "sha256": "70a6d38c3d8518a8e61d89a2ccc3fa092a35c73c02e9f7070bca7d14032ddc39"
+  },
+  "rows": 1916928,
+  "positions": {
+    "path": "build/exp683/100m/positions.txt",
+    "bytes": 17039050,
+    "sha256": "b55ce99d0410d97e70dce28fa4ef27921cf40bf4e2d040cbfe5e2ad176475805"
+  },
+  "population": {
+    "path": "build/exp683/100m/pair-populations.json",
+    "bytes": 479235,
+    "sha256": "35902c0e5429f3fddfa31b02823719ff398e796f944304096e50b54e79d52d08"
+  },
+  "tools": [
+    {
+      "path": "../exp679/build/exp679/tools/exact_labels",
+      "bytes": 2932040,
+      "sha256": "3ba200cacb1f0e93485599fe0f02ddb06e4efbdf25befc9bbcba4fad7712a8d4"
+    },
+    {
+      "path": "../exp679/build/exp679/tools/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    }
+  ],
+  "shards": [
+    {
+      "shard": 0,
+      "rows": 479232,
+      "span_checks": 2,
+      "input": {
+        "path": "build/exp683/100m/labels-0.csv",
+        "bytes": 30286859,
+        "sha256": "3109caa6bfed55880a7b6379a3b7710d101dcef356dd84aa5fa11592d7a71515"
+      }
+    },
+    {
+      "shard": 1,
+      "rows": 479232,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp683/100m/labels-1.csv",
+        "bytes": 30286778,
+        "sha256": "b7cd51a109ec0ba10ea52f964dc75fb25e4580edeabe66635b411d6ba2a050f6"
+      }
+    },
+    {
+      "shard": 2,
+      "rows": 479232,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp683/100m/labels-2.csv",
+        "bytes": 30287770,
+        "sha256": "77188b29737bebb051432f707172316831319bfe900851e561785623bb4806be"
+      }
+    },
+    {
+      "shard": 3,
+      "rows": 479232,
+      "span_checks": 4,
+      "input": {
+        "path": "build/exp683/100m/labels-3.csv",
+        "bytes": 30288336,
+        "sha256": "30fdcfe517e8f0108232a50e17b42d0e7ef27dcf73f2ec2ea4c3aa88d82b514c"
+      }
+    }
+  ]
+}

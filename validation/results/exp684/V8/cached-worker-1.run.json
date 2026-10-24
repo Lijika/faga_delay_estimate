@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp684/V8/audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp684/V8/cached-trace-1.bin",
+    "1"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.6447229999999999,
+  "wall_s": 0.7795986791606992,
+  "rss_bytes": 1397080064,
+  "threads": 1,
+  "stderr": "validation/results/exp684/V8/cached-worker-1.stderr"
+}

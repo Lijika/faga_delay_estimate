@@ -1,66 +1,84 @@
-# exp610 正式版完整源码
+# exp688 冻结提交版源码
 
-本目录对应已发布的 `exp610-d64-generic-1b251s-dddbb955-dirty`。运行入口固定选择
-exp609/F 的通用 SSE2 查询实现，包含 D64 几何数据和 R8 修正模型。
-源码取自远端冻结构建，文件来源和 SHA-256 见 `provenance/source-origin.json`。
+本目录对应固定提交包 `exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035`，
+查询实现为 exp686/N。代码、五份 SRB 架构、模型参数及固定资产均取自已测构建，
+逐文件来源见 `provenance/source-origin.json`。`SHA256SUMS` 核对本目录的归档内容。
 
-## 独立构建
+## 独立重建
 
 复现环境为 Ubuntu 22.04 x86-64、GCC 11.4.0
-(`Ubuntu 11.4.0-1ubuntu1~22.04.3`)、GNU binutils 2.38、glibc 2.35
-(`Ubuntu GLIBC 2.35-0ubuntu3.15`)，构建脚本使用 Python 3 标准库。
-安装 GCC/G++、binutils 和静态 C/C++ 运行库后，在本目录执行
+(`Ubuntu 11.4.0-1ubuntu1~22.04.3`)、binutils 2.38、glibc 2.35
+(`Ubuntu GLIBC 2.35-0ubuntu3.15`)。安装相应静态 C/C++ 运行库后执行
 
 ```sh
+cd source
 python3 build.py
-```
-
-生成 `build/estimate` 和 `build/build-report.json`。脚本先验证所有归档文件的 SHA-256
-及嵌入架构文本，再编译全部源文件、检查静态链接与 100,000,000 字节容量限制，最后核对
-发布 ELF 的完整 SHA-256。编译参数、链接顺序和精度设置沿用冻结版本。
-相同工具链用于复现发布文件；其他工具链可能产生不同字节，此时脚本保留产物并报告失败，
-该产物需要独立验收。
-
-程序调用方式为
-
-```sh
 ./build/estimate -in request.csv -out result.csv
 ```
 
-算法测试按项目约定在 `r9r4900` 上执行，输入须覆盖全部 59,904 端口对。
-程序运行所需的五份架构和模型数据均嵌入 ELF。
+脚本使用 Python 3 标准库，检查归档 SHA、嵌入架构文本、静态链接及十进制
+100 MB 容量限制，并逐一比较五份目标文件和最终 ELF 的完整 SHA。
+构建结果写入 `build/estimate`，报告写入 `build/build-report.json`。
+相同工具链用于字节复现；其他工具链生成的程序需要独立验收。
 
-## 文件内容
+本快照已在 r9 的独立目录重建，五份目标文件和最终 ELF 均与冻结版本
+逐字节一致，记录见 `provenance/standalone-build-r9.json`。
+提交 ZIP 中的 `bin/estimate` 也已按完整 SHA 与重建结果核对，
+记录见 `provenance/publication-verification.json`。本次复用原 100M 和 1B 验收，
+新增完整估计程序运行次数为零。
 
-- `src/` 包含入口、完整查询实现、架构加载与解析代码、生成的架构文本和预计算 resolver。
-- `include/` 包含 R8 树参数、D64 几何访问、SSE2/SSE4.1/AVX2 内核、批处理解析和输出代码。
-- `assets/` 包含 69,303,616 字节的冻结 D64 数据和嵌入汇编。
-- `models/` 包含导出为查询头文件之前的 16 份 R8 模型 JSON。
-- `arch/` 包含五份原始 SRB JSON；`scripts/gen_embedded_arch.py` 可核对或重建嵌入文本。
-- `provenance/` 包含原编译命令、源文件身份、发布版本信息、完整程序测试和打包证据。
-- `SHA256SUMS` 覆盖本目录全部归档文件；构建输出写入独立的 `build/` 子目录。
+Zstandard 的冻结静态库、头文件和许可证位于 `third_party/zstd/`，
+其身份来自原发布构建。程序启动时单线程恢复几何数据。
+构建使用已提供的模型参数，无需安装 CatBoost、XGBoost 或重新训练。
 
-几何数据、树参数和 resolver 是本版本的固定训练或预计算资产，均随源码提供。
-编译使用这些资产，无需安装 XGBoost 或重跑训练。SSE4.1/AVX2 实现随原版保留，
-正式入口固定选择 F/SSE2。汇编仅将原绝对 `.incbin` 路径改成包内相对路径，
-原文件保存在 `provenance/original-geometry.S`。
+## 实现与资产
 
-## 发布身份与已知范围
+| 路径 | 作用 |
+| --- | --- |
+| `src/entry.cpp` | 固定选择通用 SSE2 查询入口，并统计查询阶段的动态分配 |
+| `src/worker.cpp` | 批 8 解析、首 Net 对齐、特征计算、模型选择、预测和完整 CSV 输出 |
+| `src/architecture.cpp` | 有向端口图、真实 Net 落点、Block 和 Line 规则 |
+| `include/exp601_port_parser.h` | exp688 使用的短端口名哈希解析 |
+| `include/exp582_int8_geometry.h`、`include/exp608_geometry.h` | 近域 N512 和远域四方向 D64 背景的寻址及点积 |
+| `include/exp652_geometry_restore.h` | Zstandard 几何资产恢复 |
+| `include/exp652_distance_curve_lookup.h` | 远域完整端口对、方向和余类对应的二维距离曲线修正 |
+| `include/symmetric640.h` | 16 路对称树修正，生产配置每次使用 8 棵 |
+| `include/exp679_hv_events.h`、`include/replacement679.h` | V 事件判定及独立函数中的 8 棵专家树 |
+| `assets/D64-geometry.zst` | 56,503,992 B 的压缩背景，恢复为 69,303,616 B |
+| `assets/D64.curves.u8` | 29,308,992 B 的字节曲线资产 |
+| `models/` | 原始 S16 和 H64/V64 模型 JSON，便于检查导出参数 |
+| `arch/`、`src/embedded_arch.cpp` | 五份官方 JSON 及嵌入文本 |
+| `provenance/` | 冻结编译、源文件身份、提交包身份与验收记录 |
 
-静态 ELF 为 76,907,800 字节，SHA-256 为
+生产宏为 `EXP640_TREES=8`、`EXP684_V_ONLY`、`EXP608_SIMD=0`。
+S16 模型只使用前 8 棵，V64 专家只使用前 8 棵；H 专家在此构建中关闭。
+原始生成头文件保留审计分支，`EXP579_AUDIT` 下的历史输出路径属于离线检查。
+生产构建使用 `build.py` 固定参数。
+
+汇编文件只将 `.incbin` 的机器绝对路径替换为本目录相对路径，
+原文件保存在 `provenance/original-compressed.S` 和 `original-codes.S`。
+查询代码、模型常数、计算顺序与舍入规则保持冻结状态。
+
+## 已有完整测试
+
+exp688 在 r9 Xeon 完成全端口、非重复 1B，CPU 243.302538 秒，
+wall 269.009493 秒，峰值 RSS 206,372,864 B，单线程。
+同次输出中每个端口对抽 64 条，共 3,833,856 条 exact 样本，
+人口加权 Acc 为 98.658061657%。输入曾用于历史版本验证；
+完整输出契约已检查，评分范围是上述分层样本。
+
+冻结 ELF 为 93,402,392 B，SHA-256 为
 
 ```text
-7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d
+66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3
 ```
 
-r9 上已有全端口、非重复完整 100M CPU 24.728427 秒及完整 1B CPU 251.136671 秒证据。
-独立完整 1M Acc 为 98.333506862%；1B 中 239,616 条全端口分层 exact 样本的加权
-Acc 为 98.346099343%。本源码包已在 r9 的独立目录完成重建，六份目标文件和最终 ELF
-均与冻结发布构建逐字节一致，因此复用原完整测试证据。重建命令与校验结果见
-`provenance/standalone-build-r9.json`。
-平台隐藏集、其他 CPU 的表现和完整 1B 全量 exact 精度仍待验证；当前已有精度证据低于
-项目文档规定的最终 Acc 严格大于 99% 要求。
+固定提交 ZIP 为 81,369,669 B，SHA-256 为
 
-本目录用于源码交付。比赛上传包为历史发布目录
-`subm/versions/exp610-d64-generic-1b251s-dddbb955-dirty/submission.zip`，其中只有
-`bin/estimate`。本次源码整理保留该提交包及 `subm/latest/`、`subm/submission.zip` 的身份。
+```text
+fb39a2476d0d2ea99d2cf6c29536a63383bfed0a8174505db1a5f8c601a5f94c
+```
+
+比赛平台成绩、其他 CPU 表现和全量 1B exact 精度仍待验证。
+最终目标为总体 Acc 严格大于 99%，1B CPU 小于 200 秒并争取约 100 秒。
+历史验收记录与后续研究进展分别见根目录的 `experiment/` 和 `docs/exp688/`。

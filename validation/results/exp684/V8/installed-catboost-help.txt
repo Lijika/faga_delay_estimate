@@ -1,0 +1,11 @@
+1.2.8
+
+        Load model from a file, stream or blob.
+
+        Parameters
+        ----------
+        fname : string
+            Input file name.
+        
+(self, data, prediction_type=None, ntree_start=0, ntree_end=0, thread_count=-1, verbose=None, task_type='CPU')
+(self, data, ntree_start=0, ntree_end=0, thread_count=-1, verbose=False)

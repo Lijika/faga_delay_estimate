@@ -1,0 +1,71 @@
+{
+  "binary": {
+    "path": "build/exp654/B",
+    "bytes": 93398296,
+    "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "run": {
+    "command": [
+      "../exp654/build/exp654/B",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp655/1b.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 243.43411,
+    "wall_s": 271.4706345971208,
+    "rss_bytes": 206045184,
+    "threads": 1,
+    "stderr": "validation/results/exp655/1b.stderr"
+  },
+  "counters": {
+    "rows": 1000000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  },
+  "output": {
+    "path": "build/exp655/1b.csv",
+    "bytes": 40135629651,
+    "sha256": "f1fe259709382712d3ee59ddd1b4bb9319644b6df5bda7e020517f843a7238e0"
+  },
+  "sample": {
+    "path": "build/exp655/1b-sample.csv",
+    "bytes": 11185928,
+    "sha256": "e51c32067433bb57ceaa130773f14e505044d3761cb27e541e63b984d1fdfc2b"
+  },
+  "contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135629651,
+    "sample_rows": 239616,
+    "contract_passed": true
+  },
+  "contract_run": {
+    "command": [
+      "../exp580/build/exp580/contract-check",
+      "check",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "build/exp655/1b.csv",
+      "1000000000",
+      "../exp580/build/exp580/scale-input/positions.txt",
+      "build/exp655/1b-sample.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 117.192249,
+    "wall_s": 135.53695763694122,
+    "rss_bytes": 98656256,
+    "threads": 1,
+    "stderr": "validation/results/exp655/1b-contract.stderr"
+  },
+  "stage_gate": true,
+  "disk_free_end_bytes": 20764028928
+}

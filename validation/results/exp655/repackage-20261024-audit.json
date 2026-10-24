@@ -1,0 +1,40 @@
+{
+  "label": "exp655-curve-u8-s8-generic-1b243s-c4bb0cc5-dirty-20261024-1720",
+  "all_checks_passed": true,
+  "zip_only_entry": "bin/estimate",
+  "zip_crc_passed": true,
+  "executable_mode": "0o100755",
+  "static_linked": true,
+  "identities": {
+    "subm/versions/exp655-curve-u8-s8-generic-1b243s-c4bb0cc5-dirty-20261024-1720/submission.zip": {
+      "bytes": 81364421,
+      "sha256": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218"
+    },
+    "subm/latest/submission.zip": {
+      "bytes": 81364421,
+      "sha256": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218"
+    },
+    "subm/submission.zip": {
+      "bytes": 81364421,
+      "sha256": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218"
+    },
+    "subm/versions/exp655-curve-u8-s8-generic-1b243s-c4bb0cc5-dirty-20261024-1720/bin-estimate": {
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    },
+    "estimate": {
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    },
+    "subm/latest/estimate-bin": {
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    },
+    "build/exp654/B": {
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    }
+  },
+  "cpu_1b_s": 243.43411,
+  "accuracy_1b_pp": 98.64750842203487
+}

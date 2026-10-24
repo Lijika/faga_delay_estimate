@@ -1,0 +1,65 @@
+{
+  "schedule": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ]
+  ],
+  "input": {
+    "path": "build/exp652/u-role/requests.csv",
+    "bytes": 3519802667,
+    "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+  },
+  "labels": {
+    "path": "build/exp652/exact.csv",
+    "bytes": 17166963,
+    "sha256": "4be217934deb7c915d42daab42d2babc50eba80cbf82cc40390b18c7456ce2fa"
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp640/build/exp640/S8",
+      "bytes": 91039000,
+      "sha256": "893d35c08ee9ec3e38f923d5e2cf64beca8acfe615d4c6ee16c280952cad28a2"
+    },
+    "C": {
+      "path": "build/exp652/C",
+      "bytes": 93951256,
+      "sha256": "c25ca413bef21839540b05ceaee103d9dc5e8ed40234324f9e99d62cf1723be8"
+    }
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_scale.py",
+    "bytes": 18342,
+    "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+  },
+  "seed": 20261024652,
+  "bootstrap_count": 9999,
+  "minimum_score": 0.005,
+  "minimum_accuracy_pp": 0.02,
+  "rows": 100000000,
+  "sample_rows": 239616
+}

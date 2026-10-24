@@ -1,0 +1,18 @@
+{
+  "all_equal": true,
+  "readers": [
+    {
+      "function": "sample_labels",
+      "source": "validation/exp620_frozen_q4.py",
+      "source_sha256": "ad0309a952e74d5344ba6d26cc2274d855e1aaa54cc150dc730d7ab87ef83552",
+      "ast_equal": true
+    },
+    {
+      "function": "predictions",
+      "source": "validation/exp641_billion.py",
+      "source_sha256": "8af634a9426977a714b85218c27e0cff52177464c9583ab5028309d69ff12309",
+      "ast_equal": true
+    }
+  ],
+  "driver_sha256": "8956a69d332f6c79c437bd882bf0d8310eaff4df47c443093549381f7cef685f"
+}

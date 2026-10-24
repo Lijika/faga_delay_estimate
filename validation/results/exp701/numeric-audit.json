@@ -1,0 +1,82 @@
+{
+  "all_checks_passed": true,
+  "all_scale_bits_and_factor_bytes_equal": true,
+  "final_and_oof_raw_bitwise_equal": true,
+  "background_and_integer_predictions_equal": true,
+  "near_response_unchanged": true,
+  "cached_rows_per_mode": 1000000,
+  "modes": [
+    {
+      "mode": 0,
+      "run": {
+        "command": [
+          "build/exp701/audit",
+          "../exp579/build/exp579/queries.bin",
+          "../exp579/build/exp579/folds.u8",
+          "build/exp701/trace-0.raw",
+          "0"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.7188939999999999,
+        "wall_s": 0.7376781413331628,
+        "rss_bytes": 327299072,
+        "threads": 1,
+        "stderr": "validation/results/exp701/cached-0.stderr"
+      },
+      "trace": {
+        "path": "build/exp701/trace-0.raw",
+        "bytes": 248000000,
+        "sha256": "765ccd316c0071ebe804731d62197064baa750e27a1c79d67679ada4f0aadf1c"
+      },
+      "metadata": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "trace_bytes": 248,
+        "allocations": 2
+      }
+    },
+    {
+      "mode": 1,
+      "run": {
+        "command": [
+          "build/exp701/audit",
+          "../exp579/build/exp579/queries.bin",
+          "../exp579/build/exp579/folds.u8",
+          "build/exp701/trace-1.raw",
+          "1"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.737703,
+        "wall_s": 0.9715701038949192,
+        "rss_bytes": 1052143616,
+        "threads": 1,
+        "stderr": "validation/results/exp701/cached-1.stderr"
+      },
+      "trace": {
+        "path": "build/exp701/trace-1.raw",
+        "bytes": 248000000,
+        "sha256": "639a3afe734394e9c31d4f630ec09ed14df14158734ea888e600e4facb2a090e"
+      },
+      "metadata": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "trace_bytes": 248,
+        "allocations": 2
+      }
+    }
+  ],
+  "geometry": {
+    "path": "build/exp701/restored-geometry.raw",
+    "bytes": 85597504,
+    "sha256": "f21b4136c54c99da8d9fca1467049e6d195041f7b141554a03f83fae33f8fc05"
+  },
+  "curves": {
+    "path": "build/exp701/restored-curves.raw",
+    "bytes": 29308992,
+    "sha256": "52e6a1bf59c18d24ee18ac0c44e7c62f813154cd2dbcb34af42781f111e53500"
+  },
+  "added_bytes": 1006140471,
+  "disk_free_end_bytes": 11783135232,
+  "complete_program_runs": 0,
+  "full_100m_cpu_verified": false
+}

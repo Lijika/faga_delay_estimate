@@ -1,0 +1,18 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp704/C",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp704/100m-3-C.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 23.09043,
+  "wall_s": 23.09344798186794,
+  "rss_bytes": 206376960,
+  "threads": 1,
+  "stderr": "validation/results/exp704/100m-3-C.stderr"
+}

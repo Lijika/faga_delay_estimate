@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-24T05:23:30.206196+08:00",
+  "original_driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py",
+    "bytes": 10080,
+    "sha256": "f78377a0f3fbea7539565c165340a1e4d70106b5d642b1b8dd27d38745cc9611"
+  },
+  "updated_driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py",
+    "bytes": 11017,
+    "sha256": "f6795e42d5872ea500c60f45cd860f2ee84e5aa86eb515c33feed9130dfaa5ee"
+  },
+  "reason": "The shared write helper creates files exclusively. Use one cleanup record per run; resume the two fully recorded warmup runs after identity checks.",
+  "models_changed": false,
+  "compiled_assets_changed": false,
+  "timing_schedule_changed": false,
+  "complete_new_candidate_runs_observed": 0,
+  "scope": "Procedural recovery before byte candidate warmup; preserve original plan, raw evidence and build freeze."
+}

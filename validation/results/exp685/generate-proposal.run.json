@@ -1,0 +1,18 @@
+{
+  "command": [
+    "../../build/hidden-suite-v1/make_hidden_suite",
+    "../exp679/doc/eda比赛文件/arch",
+    "../../build/hidden-suite-v1/reach.bin",
+    "U-role",
+    "120000000",
+    "20261025685",
+    "20261026685",
+    "build/exp685/proposal"
+  ],
+  "exit_code": 0,
+  "cpu_s": 121.43127,
+  "wall_s": 121.61631149612367,
+  "rss_bytes": 2315440128,
+  "threads": 1,
+  "stderr": "validation/results/exp685/generate-proposal.stderr"
+}

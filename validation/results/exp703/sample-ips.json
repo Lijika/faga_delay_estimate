@@ -1,0 +1,12 @@
+{
+  "command": [
+    "perf",
+    "script",
+    "-i",
+    "validation/results/exp703/profile.data",
+    "-F",
+    "ip"
+  ],
+  "cwd": "/home/lhj/lhjwork/eda2026/research/exp703",
+  "exit_code": 0
+}

@@ -1,0 +1,268 @@
+{
+  "files": [
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Gap.json",
+      "bytes": 3959,
+      "sha256": "ac008920989cb2486b2b6ec0a1e953390cc0f3b8eaf914637bf7a6e366f91a12"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp535/build/exp535/queries.bin",
+      "bytes": 40000012,
+      "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1"
+    },
+    {
+      "path": "../exp500/validation/results/exp500-preparation/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "../exp553/build/exp553/components.i32",
+      "bytes": 32000000,
+      "sha256": "01436f3e28418efc5a4d56fdace716e813c3404a5c6e7266e8e7b0f7b2cd0c63"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/exp147_orbit_access.cpp",
+      "bytes": 27310,
+      "sha256": "b433cb497d8beb81b70cd99c30fd4b9807c1e832a7b3e510e627c5baf10f24cd"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/scaffold.cpp",
+      "bytes": 10252,
+      "sha256": "1b9602ee949182aa97f1b0b0274ae492117e65fbfcaed1bfb25a101239144843"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/architecture.cpp",
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/architecture.h",
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/bias_correction.h",
+      "bytes": 2416,
+      "sha256": "eeffffe4703d68c2e14822bca61082b0f35dda294d4e5e72a4ef7054edea0b8f"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/csv.h",
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/embedded_arch.cpp",
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/embedded_arch.h",
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/embedded_residue.h",
+      "bytes": 2287,
+      "sha256": "3ec8598d4180198ce49c28224f094899a09cdabb1360806d5cf1b4f8992a7d75"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/embedded_templates.h",
+      "bytes": 3042,
+      "sha256": "0c8ce73f4fb6e2db87c4b28eed0da9d1b263fc49cfe51668e99ad568a890b66f"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/fast_estimator.cpp",
+      "bytes": 18070,
+      "sha256": "ca8c3609b5e1812c953ea5e7ca5e4e0d5f98d2576d7056a112b2a2ab4be5b0fb"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/fast_estimator.h",
+      "bytes": 4238,
+      "sha256": "4070f7ac68be948a5b90b3dd93d1ef3a9e7bd55a24a082397adf504bc7579cf5"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/hybrid_estimator.h",
+      "bytes": 3217,
+      "sha256": "8b714f798e5e58d2ccb1f332adf55ce922b39bc45c9171b9425b84134fcab3d8"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/main.cpp",
+      "bytes": 33578,
+      "sha256": "b5091a0dd8f2b34adc13aa31997424bcbf81ca060d39f55705117ceb054727d6"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/pattern_database.h",
+      "bytes": 20223,
+      "sha256": "ab57e90eaed93d1eb2bf0ce7013ee0e8cdc43726ae0ae60564f22ee06c913dd8"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/query_cache.h",
+      "bytes": 2568,
+      "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/residue_estimator.cpp",
+      "bytes": 50739,
+      "sha256": "db3628a038fecb8c15e78f1f645fea3ca8428ddf879f804ee296a5ae84432993"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/residue_estimator.h",
+      "bytes": 20291,
+      "sha256": "7992e96b2c15e50d0d8bc967503ce8b2deb67be8f55f4ff0a93e539c15f901f5"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/router.cpp",
+      "bytes": 22079,
+      "sha256": "87b1a6598727d18aa14a7b509ecb53f3868f1c6774447d460cb0910e5c9a3101"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/router.h",
+      "bytes": 10927,
+      "sha256": "3e9f2b8d1002281ae5a21eefb9cb6976061332766f955c01772f8788ddb788a8"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual.h",
+      "bytes": 7543,
+      "sha256": "a57a0fae44b162b9689f5d5ec9f49193aa7637b35a863e664b282c567f9cf164"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base.h",
+      "bytes": 1917,
+      "sha256": "4be6d41e800f59d94492e230e96693ef7d459118a03644ffe9b75e09f7a46e92"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base47.h",
+      "bytes": 2109,
+      "sha256": "c634d84c77560a3a332c80eb9463e86e8e544ccdf84179280fac42aaf63c2d80"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base47_fast.h",
+      "bytes": 739,
+      "sha256": "d92a67df30cc74324fb65b3258b49fec20d97dbfcb70e7bf3b7625535c066684"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base47_fast_model.h",
+      "bytes": 10164410,
+      "sha256": "1e96563432104b87a16901b95469cb9b266c2d1bf4a69825f73afd78de2a8919"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base47_model.h",
+      "bytes": 384571,
+      "sha256": "afb318fc50b3b394dab2c16fc0c8c68ea23328dbbb6a3f1ad846b8babe386810"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_base_model.h",
+      "bytes": 47096,
+      "sha256": "8db2cf586822cf870adaa561ffbc496e74fb298a12f4ad46e03d4e6427163cbe"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_bounds.h",
+      "bytes": 1707,
+      "sha256": "627aaa9d0e7a57d03e2f17000533f55685b3ee932f360fb55dbf6a770cc0ffec"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_bounds_model.h",
+      "bytes": 46977,
+      "sha256": "6286deb164030b04aea3cda48c00b6499eb20cf18821945b8cb4b87182a7c378"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/xgb_residual_model.h",
+      "bytes": 47465,
+      "sha256": "8b3087ae61167211053f3bf9cdd991848352b2351dc46cb849e5f943ad6e5fc2"
+    },
+    {
+      "path": "../exp552/tests/exp552_real_paths.cpp",
+      "bytes": 8827,
+      "sha256": "200749310a1124a862b5caa72ae517cf577f73b33f4b6e78000ca9a9dbb7b5e7"
+    },
+    {
+      "path": "../exp501/build/exp501/tools/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp705/validation/exp705_matched_positions.py",
+      "bytes": 15958,
+      "sha256": "48b0c547f2aabdd491b19b726a9d5bf0ceb3e5ef26960c11872a001c7e153f43"
+    },
+    {
+      "path": "experiment/实验705-固定名义键的全端口位置配对与路径交叉重放.md",
+      "bytes": 2926,
+      "sha256": "e6db6f945bcc0ed4db189fd9de621eb34611eed2b95eeda6dc4fe99cc395f0ce"
+    },
+    {
+      "path": "validation/results/exp705/protocol-original.md",
+      "bytes": 2926,
+      "sha256": "e6db6f945bcc0ed4db189fd9de621eb34611eed2b95eeda6dc4fe99cc395f0ce"
+    },
+    {
+      "path": "build/exp705/trace.cpp",
+      "bytes": 8918,
+      "sha256": "a46e778ce5c6dbacef59423fa0d8c56ac034d0e828751bba18e7e969ef9f440a"
+    },
+    {
+      "path": "build/exp705/queries.bin",
+      "bytes": 9584652,
+      "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b"
+    },
+    {
+      "path": "build/exp705/known.i32",
+      "bytes": 958464,
+      "sha256": "2af6f089707661619781f193ce4d42047d367083e75c88a84c0f20630ca79a8b"
+    },
+    {
+      "path": "build/exp705/anchors.u32",
+      "bytes": 239616,
+      "sha256": "5b15b5b36323728a33e28ecb40a9a768b0162d1e1fa7aa3144706b185d03edbf"
+    },
+    {
+      "path": "build/exp705/delta.i32",
+      "bytes": 479232,
+      "sha256": "d14a45bba2e1aec31bc6bd30f0a618d208f0b99748b6bea39af24b221312e273"
+    }
+  ],
+  "binary": {
+    "path": "build/exp705/trace",
+    "bytes": 4887800,
+    "sha256": "fea26c5e6e6dc52096612bb27639d3878fa155e78e49aaa1fa5f6e9208264fb9"
+  },
+  "orbit": {
+    "path": "../exp501/build/exp501/tools/orbit.i16",
+    "bytes": 17694720,
+    "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+  },
+  "rows": 239616,
+  "pair_groups": 59904,
+  "positions": 4,
+  "anchor_rows": 59904,
+  "new_position_rows": 179712,
+  "proposal_iterations": 60,
+  "seed": 20261025705,
+  "label_independent_design": true,
+  "disk_free_start_bytes": 7334330368
+}

@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_score.py",
+      "bytes": 14735,
+      "sha256": "6b22ebfbf4bae304e4d1c21b29cfefd7cbd4f5f5f0776c2d74d167b1946dd5b8"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_exact.py",
+      "bytes": 14181,
+      "sha256": "cd3a40465ea89e9b10fcf61aea30d9d2d015509c1c45e85222509a52b13a3080"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp642/validation/exp642_fresh_symmetric.py",
+      "bytes": 23262,
+      "sha256": "1ceafd7f8da442922c1febbda3778a2edefaea9927beb850c3b18838164052ee"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_scale.py",
+      "bytes": 18342,
+      "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+    },
+    {
+      "path": "../exp655/validation/results/exp655/1b-report.json",
+      "bytes": 1922,
+      "sha256": "93e6b651190bb96b6931ec85c31d751a671c2018a14f8d35a83b9cce8e853e95"
+    },
+    {
+      "path": "validation/results/exp683/1b/freeze.json",
+      "bytes": 6262,
+      "sha256": "4896dca0188e8923bb586aa31caf2b648b838df36c7439099b2a91809245b000"
+    },
+    {
+      "path": "validation/results/exp683/1b/label-freeze.json",
+      "bytes": 1984,
+      "sha256": "9cbf7b3ab0009d8872dd4caa87902cd0e74e6f61d5dfa42aaa8d04b0786c713f"
+    },
+    {
+      "path": "validation/results/exp683/1b/report.json",
+      "bytes": 2603,
+      "sha256": "18a732296c00352937ea63fe35f14f4001f59fdc33619150744f5154f4aaaeb7"
+    },
+    {
+      "path": "validation/results/exp683/1b/input.json",
+      "bytes": 763911,
+      "sha256": "044ec0a456f749329e7a1f56dcb27ef54fae17229aefa3141c5f28643f43b023"
+    },
+    {
+      "path": "build/exp683/1b/positions.txt",
+      "bytes": 37913274,
+      "sha256": "bf20b3dfaaf02be8ba186446b514eb9e457c073dca8586d7c96f4d6a05dc99f8"
+    },
+    {
+      "path": "build/exp683/1b/pair-populations.json",
+      "bytes": 359426,
+      "sha256": "5b4139051086db486bfe73400f4bbc049a191a6b6d716f48901bfc2cc5fded49"
+    },
+    {
+      "path": "build/exp683/1b/sources",
+      "bytes": 1456,
+      "sha256": "344a88233f073993a61c3a0779134cc5885c28b669278a8381e84adea03a56b2"
+    },
+    {
+      "path": "build/exp683/1b/targets",
+      "bytes": 1824,
+      "sha256": "4d8a2e4dc277636c014f4cd6d7f843765710e922300bd8225824d5a3d16666cf"
+    },
+    {
+      "path": "../exp575/offline/validation/results/exp575/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    }
+  ],
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "seed": 20261025683,
+  "sample_rows": 3833856,
+  "complete_estimator_runs": 0
+}

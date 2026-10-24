@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp652/codes.S",
+    "-o",
+    "build/exp652/codes.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.055031,
+  "wall_s": 0.055418109986931086,
+  "rss_bytes": 34865152,
+  "threads": 1,
+  "stderr": "validation/results/exp652/assemble-codes.stderr"
+}

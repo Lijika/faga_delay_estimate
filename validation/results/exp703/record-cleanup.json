@@ -1,0 +1,34 @@
+{
+  "file": {
+    "path": "build/exp703/record.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "retained": {
+    "path": "build/exp703/warmup.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "cwd": "/home/lhj/lhjwork/eda2026/research/exp703",
+  "rebuild_command": [
+    "perf",
+    "record",
+    "-q",
+    "-e",
+    "cycles:u",
+    "-F",
+    "999",
+    "-o",
+    "validation/results/exp703/profile.data",
+    "--",
+    "taskset",
+    "-c",
+    "8",
+    "build/exp703/N-symbols",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp703/record.csv"
+  ],
+  "deleted": true
+}

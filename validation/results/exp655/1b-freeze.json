@@ -1,0 +1,39 @@
+{
+  "binary": {
+    "path": "build/exp654/B",
+    "bytes": 93398296,
+    "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "checker": {
+    "path": "../exp580/build/exp580/contract-check",
+    "bytes": 48080,
+    "sha256": "976aecc9ec5899fc6d0ff19d0182d5f4f4e997fe63eee67002dc4ca6a56baa2b"
+  },
+  "protocol": {
+    "path": "experiment/实验655-字节距离曲线阶段接入与完整全端口1B.md",
+    "bytes": 2547,
+    "sha256": "0f9e33cc4d33bd2af45156692ad7a8b2aaa2ba5fef4d583305057a3c802d4902"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp655/validation/exp655_curve_release.py",
+    "bytes": 12836,
+    "sha256": "8956a69d332f6c79c437bd882bf0d8310eaff4df47c443093549381f7cef685f"
+  },
+  "seed": 20261024655,
+  "stage_publication": {
+    "path": "validation/results/exp655/stage-publication.json",
+    "bytes": 19432,
+    "sha256": "84fbea816052a5fdfa91bba51711e4fa927e7d2d43bd2de2fcb703bcca1f5449"
+  },
+  "input_evidence": {
+    "path": "../exp644/validation/results/exp644/1b-report.json",
+    "bytes": 1934,
+    "sha256": "b1f1f0acc8bec49db00ee586daad6e798e4acd8dcd0c0bdd85c7077a6e90dfa7"
+  },
+  "disk_free_start_bytes": 60911046656
+}

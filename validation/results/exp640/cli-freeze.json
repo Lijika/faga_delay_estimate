@@ -1,0 +1,207 @@
+{
+  "binaries": {
+    "A": {
+      "path": "../exp622/build/exp622/T",
+      "bytes": 91047192,
+      "sha256": "010dff388ac0eb9fe2a78cf6f7246a3c596605b85c2f7ac164d4244a0f5f8a5f"
+    },
+    "S8": {
+      "path": "build/exp640/S8",
+      "bytes": 91039000,
+      "sha256": "893d35c08ee9ec3e38f923d5e2cf64beca8acfe615d4c6ee16c280952cad28a2"
+    },
+    "S16": {
+      "path": "build/exp640/S16",
+      "bytes": 91051288,
+      "sha256": "357b3dd9a907493dc60e6a92c2226d6dc663d97566025332d5fbe859c116d34a"
+    }
+  },
+  "audits": {
+    "S8": {
+      "raw_bitwise_equal": true,
+      "leaf_ids_equal": true,
+      "active_features_equal": true,
+      "audit": {
+        "path": "build/exp640/S8-audit.bin",
+        "bytes": 48000000,
+        "sha256": "7ac29c21a68d0d15f1651ced8a8947639523f6cd179e51ccc6a83125e4c2d521"
+      },
+      "run": {
+        "command": [
+          "build/exp640/S8",
+          "-in",
+          "../exp501/build/exp501/u-role/requests.csv",
+          "-out",
+          "build/exp640/S8-development.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.30592199999999997,
+        "wall_s": 0.30725325900129974,
+        "rss_bytes": 615649280,
+        "threads": 1,
+        "stderr": "validation/results/exp640/S8-development.stderr"
+      },
+      "contract": {
+        "input": {
+          "path": "../exp501/build/exp501/u-role/requests.csv",
+          "bytes": 35198280,
+          "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+        },
+        "output": {
+          "path": "build/exp640/S8-development.csv",
+          "bytes": 40136195,
+          "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+        },
+        "labels": {
+          "path": "../exp501/build/exp501/exact.csv",
+          "bytes": 72686142,
+          "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+        },
+        "rows": 1000000,
+        "unique_rows": 1000000,
+        "port_pairs": 59904,
+        "contract_passed": true,
+        "statistics": {
+          "rows": 1000000,
+          "accuracy_pp": 98.44641290037717,
+          "mean_error_ps": -2.392215,
+          "mae_ps": 9.212987,
+          "squared_ps": 257424737,
+          "exact_rows": 57942,
+          "under_rows": 485258,
+          "over_rows": 456800
+        }
+      },
+      "development": {
+        "path": "build/exp640/S8-development.csv",
+        "bytes": 40136195,
+        "sha256": "52bacfd79ddd9f5dca1150c9272087e025fbcc08b1c7457b62702a81b82d238a"
+      },
+      "boundary": {
+        "path": "build/exp640/S8-boundary.csv",
+        "bytes": 5278,
+        "sha256": "cb1f1b9512b9c85a7a106284bf75df664e36207d34719e83bfb435b1fed5f1e7"
+      },
+      "boundary_run": {
+        "command": [
+          "build/exp640/S8",
+          "-in",
+          "../exp622/build/exp622/boundary-current.csv",
+          "-out",
+          "build/exp640/S8-boundary.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.079233,
+        "wall_s": 0.08070464804768562,
+        "rss_bytes": 824619008,
+        "threads": 1,
+        "stderr": "validation/results/exp640/S8-boundary.stderr"
+      },
+      "zero_and_unsupported_equal": true
+    },
+    "S16": {
+      "raw_bitwise_equal": true,
+      "leaf_ids_equal": true,
+      "active_features_equal": true,
+      "audit": {
+        "path": "build/exp640/S16-audit.bin",
+        "bytes": 48000000,
+        "sha256": "4fe8af88f07a94df696cd6825b0c43282c2289b7e61810c248ff6cbe8935453c"
+      },
+      "run": {
+        "command": [
+          "build/exp640/S16",
+          "-in",
+          "../exp501/build/exp501/u-role/requests.csv",
+          "-out",
+          "build/exp640/S16-development.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.33574399999999993,
+        "wall_s": 0.3410130289848894,
+        "rss_bytes": 824619008,
+        "threads": 1,
+        "stderr": "validation/results/exp640/S16-development.stderr"
+      },
+      "contract": {
+        "input": {
+          "path": "../exp501/build/exp501/u-role/requests.csv",
+          "bytes": 35198280,
+          "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+        },
+        "output": {
+          "path": "build/exp640/S16-development.csv",
+          "bytes": 40136242,
+          "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+        },
+        "labels": {
+          "path": "../exp501/build/exp501/exact.csv",
+          "bytes": 72686142,
+          "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+        },
+        "rows": 1000000,
+        "unique_rows": 1000000,
+        "port_pairs": 59904,
+        "contract_passed": true,
+        "statistics": {
+          "rows": 1000000,
+          "accuracy_pp": 98.47141285102184,
+          "mean_error_ps": -2.071026,
+          "mae_ps": 9.07398,
+          "squared_ps": 240044500,
+          "exact_rows": 58542,
+          "under_rows": 480030,
+          "over_rows": 461428
+        }
+      },
+      "development": {
+        "path": "build/exp640/S16-development.csv",
+        "bytes": 40136242,
+        "sha256": "2c339b0c0bf96d4fc63bcfaa3e892b7ff1118f0a2c657536e29450df7939b16e"
+      },
+      "boundary": {
+        "path": "build/exp640/S16-boundary.csv",
+        "bytes": 5278,
+        "sha256": "109d71e2682e0f1d0b681223752792838182268c4fe685fb63e58349371b5db5"
+      },
+      "boundary_run": {
+        "command": [
+          "build/exp640/S16",
+          "-in",
+          "../exp622/build/exp622/boundary-current.csv",
+          "-out",
+          "build/exp640/S16-boundary.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.079344,
+        "wall_s": 0.08009398705326021,
+        "rss_bytes": 842567680,
+        "threads": 1,
+        "stderr": "validation/results/exp640/S16-boundary.stderr"
+      },
+      "zero_and_unsupported_equal": true
+    }
+  },
+  "native": {
+    "path": "build/exp640/symmetric640.h",
+    "bytes": 637999,
+    "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+  },
+  "source": {
+    "path": "build/exp640/symmetric-worker.cpp",
+    "bytes": 11741,
+    "sha256": "2f0043bcd945172953d140b053587357cbf9974c0ec6dbfedb46bc91021b4e7e"
+  },
+  "final_training": {
+    "path": "validation/results/exp640/final-training.json",
+    "bytes": 29452,
+    "sha256": "19d57d29d17032d4dfa3a5a31d410be15d2547e1a5ee3e90e2b83c32648de25a"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp640/validation/exp640_symmetric_cli.py",
+    "bytes": 15434,
+    "sha256": "7147f3e2719a1999d736a0588f763ce6fa03631dca4934d0d5041e080c14f561"
+  },
+  "raw_precision": "double, original order, original leaves",
+  "performance_comparison_pending": true
+}

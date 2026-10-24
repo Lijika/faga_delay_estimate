@@ -1,0 +1,15 @@
+{
+  "command": [
+    "../exp640/build/exp640/S8",
+    "-in",
+    "../exp652/build/exp652/u-role/requests.csv",
+    "-out",
+    "build/exp654/100m-6-A.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 22.222799000000002,
+  "wall_s": 22.227714219130576,
+  "rss_bytes": 134967296,
+  "threads": 1,
+  "stderr": "validation/results/exp654/100m-6-A.stderr"
+}

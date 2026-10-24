@@ -1,0 +1,32 @@
+{
+  "file": {
+    "path": "build/exp703/stat.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "retained": {
+    "path": "build/exp703/warmup.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "cwd": "/home/lhj/lhjwork/eda2026/research/exp703",
+  "rebuild_command": [
+    "perf",
+    "stat",
+    "-x,",
+    "-o",
+    "validation/results/exp703/counters.csv",
+    "-e",
+    "task-clock,cycles,instructions,branches,branch-misses,cache-misses",
+    "--",
+    "taskset",
+    "-c",
+    "8",
+    "../exp686/build/exp686/N",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp703/stat.csv"
+  ],
+  "deleted": true
+}

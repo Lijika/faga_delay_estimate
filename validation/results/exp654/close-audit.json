@@ -1,0 +1,38 @@
+{
+  "all_checks_passed": true,
+  "candidate_qualifies": true,
+  "complete_estimator_runs": 21,
+  "new_exact_rows": 0,
+  "codebook_values_restored": 555008,
+  "origin": -55,
+  "binary": {
+    "path": "build/exp654/B",
+    "bytes": 93398296,
+    "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+  },
+  "mean_cpu_s": {
+    "A": 22.091879833333333,
+    "C": 23.799109,
+    "B": 23.365922333333334
+  },
+  "primary": {
+    "saved_cpu_s": -1.2740424999999995,
+    "ci975_saved_cpu_s": [
+      -1.3669361427849238,
+      -1.1811488572150752
+    ],
+    "score_extrapolated_1b": 0.046885103828215036,
+    "conservative_ci95_score_lower": 0.030758795665747046,
+    "score_gate": true
+  },
+  "engineering": {
+    "saved_cpu_s": 0.4331866666666671,
+    "ci95_saved_cpu_s": [
+      0.28271599329635366,
+      0.5836573400369806
+    ],
+    "gate": true
+  },
+  "released_bytes": 84285237218,
+  "disk_free_end_bytes": 61013200896
+}

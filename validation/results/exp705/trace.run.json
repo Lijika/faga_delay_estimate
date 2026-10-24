@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp705/trace",
+    "../exp553/build/exp553/no-line-arch",
+    "build/exp705/queries.bin",
+    "build/exp705/known.i32",
+    "../exp501/build/exp501/tools/orbit.i16",
+    "build/exp705/paths"
+  ],
+  "exit_code": 0,
+  "cpu_s": 629.0362210000001,
+  "wall_s": 629.2400331618264,
+  "rss_bytes": 759795712,
+  "threads": 1,
+  "stderr": "validation/results/exp705/trace.stderr"
+}

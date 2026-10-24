@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp705/trace",
+    "--help"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.0008719999999999999,
+  "wall_s": 0.001752043142914772,
+  "rss_bytes": 169730048,
+  "threads": 1,
+  "stderr": "validation/results/exp705/help.stderr"
+}

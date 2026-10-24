@@ -1,0 +1,14 @@
+{
+  "command": [
+    "../exp679/build/exp679/tools/exact_labels",
+    "../exp679/doc/eda比赛文件/arch",
+    "build/exp685/expanded/labels-1.csv",
+    "../exp679/build/exp679/tools/orbit.i16",
+    "build/exp685/expanded/exact-1.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 1344.5619399999998,
+  "rss_bytes": 951373824,
+  "wall_s": 1345.4208377560135,
+  "thread_check": "exact completion counter"
+}

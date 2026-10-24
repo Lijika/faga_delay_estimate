@@ -1,0 +1,6 @@
+{
+  "pid": 3275683,
+  "command": "research/exp491/build/venv/bin/python -m pip --isolated --disable-pip-version-check install --no-cache-dir --only-binary=:all: --target research/exp640/build/exp640/pydeps --report research/exp640/validation/results/exp640/dependency-install.json catboost==1.2.8 numpy==2.2.6 scipy==1.15.3 ",
+  "action": "SIGTERM remote slow download; local complete binary wheels will be installed offline",
+  "time": 1792761977.1448903
+}

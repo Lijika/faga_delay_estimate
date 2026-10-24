@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-static",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp704",
+    "tests/exp704_port_decoder.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-o",
+    "build/exp704/parser-test"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.870258,
+  "wall_s": 0.8726532771252096,
+  "rss_bytes": 116310016,
+  "threads": 1,
+  "stderr": "validation/results/exp704/compile-test.stderr"
+}

@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "checked_artifacts": {
+    "estimate": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd",
+    "subm/versions/exp655-curve-u8-s8-generic-1b243s-4feeb91b-dirty/bin-estimate": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd",
+    "subm/submission.zip": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218",
+    "subm/latest/submission.zip": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218",
+    "subm/versions/exp655-curve-u8-s8-generic-1b243s-4feeb91b-dirty/submission.zip": "16f613b353d0e2738262294f7fb4c2c3ba764b97471cddc20ac5e743abac1218"
+  },
+  "zip_entries": [
+    "bin/estimate"
+  ],
+  "no_estimator_rerun": true,
+  "final_accuracy_goal_verified": false
+}

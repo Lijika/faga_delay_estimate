@@ -1,0 +1,31 @@
+{
+  "cached_rows": 1000000,
+  "complete_estimator_runs": 0,
+  "trace": {
+    "path": "build/exp652/cached-trace.bin",
+    "bytes": 248000000,
+    "sha256": "9e02aad8d0b422a8edad2bdeb4ed2225c510b5b0d956effa577dbcd8edcb88fc"
+  },
+  "restored": {
+    "path": "build/exp652/restored.bin",
+    "bytes": 69303616,
+    "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+  },
+  "trace_fields_bitwise_equal": true,
+  "final_raw_bitwise_equal": true,
+  "distance_curve_base_equal": true,
+  "final_prediction_equal": true,
+  "header": {
+    "path": "build/exp652/symmetric640.h",
+    "bytes": 637999,
+    "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+  },
+  "production_capacity_passed": true,
+  "restored_rebuild_command": [
+    "build/exp652/audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp652/cached-trace.bin",
+    "1"
+  ]
+}

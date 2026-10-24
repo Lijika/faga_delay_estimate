@@ -1,85 +1,280 @@
 {
-  "version_label": "exp610-d64-generic-1b251s-dddbb955-dirty",
-  "algorithm_version": "D64-R8-whole-query-generic-SSE2",
-  "git_commit": "dddbb955df958bf42d56c849b37a8d7a836baa65",
+  "version_label": "exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
+  "algorithm_version": "D64-curves-u8-S8-V8-noinline-generic-SSE2",
+  "publication_status": "stage_release",
+  "complete_1b_measured": true,
+  "final_accuracy_goal_verified": false,
+  "final_accuracy_required_pp": 99,
+  "platform_score_verified": false,
+  "other_cpu_performance_verified": false,
+  "full_1b_exact_accuracy_verified": false,
+  "git_commit": "350ba5051da558407d2f8ee44458e0f35dd18441",
   "git_working_tree_dirty": true,
-  "bin_sha256": "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d",
-  "bin_bytes": 76907800,
-  "zip_sha256": "c4636d045149c4c154dcf670714a6167cabb083f7be0f5397d9923c5de1db520",
-  "zip_bytes": 57934013,
-  "packaged_utc": "2026-10-22T02:29:23.055051+00:00",
-  "link_mode": "static; five architectures and all model assets embedded",
+  "bin_sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
+  "bin_bytes": 93402392,
+  "packaged_utc": "2026-10-24T16:24:03.266615+00:00",
+  "link_mode": "static; five architectures, compressed geometry and fixed models embedded",
   "generic_entry": true,
   "selected_kernel": "SSE2",
   "optional_isa_not_required": true,
-  "optional_kernels_present_but_not_selected": true,
-  "startup_state_compiled_generic": true,
-  "cpu_1b_s": 251.136671,
-  "cpu_100m_s": 24.728427,
-  "stage_1b_300s_passed": true,
-  "independent_1m_accuracy_pp": 98.3335068621179,
-  "scale_1b_accuracy": 98.34609934306152,
-  "scale_1b_accuracy_ci": [
-    98.28824201680688,
-    98.40308814690854
-  ],
-  "accuracy_reused_from_identical_output": true,
-  "full_1b_exact_accuracy_verified": false,
-  "platform_score_verified": false,
-  "other_cpu_performance_verified": false,
-  "build_command": "cd research/exp609 && PYTHONPATH=../exp554/vendor ../exp491/build/venv/bin/python -B validation/exp609_safe_dispatch.py build",
-  "package_command": "python3 validation/exp610_package.py exp610-d64-generic-1b251s-dddbb955-dirty",
+  "paired_100m": {
+    "all_checks_passed": true,
+    "joint_gate": true,
+    "complete_100m_runs": 21,
+    "identical_outputs_per_arm": 7,
+    "exact_sample_rows": 1916928,
+    "mean_cpu_s": {
+      "A": 23.484331166666667,
+      "V": 23.963173333333334,
+      "N": 23.521296833333334
+    },
+    "accuracy_pp": 98.66046105614241,
+    "score": 0.013465134310019734,
+    "score_lower": 9.595256802205632e-06,
+    "report": {
+      "path": "validation/results/exp686/100m-report.json",
+      "bytes": 45204,
+      "sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419"
+    },
+    "freeze": {
+      "path": "validation/results/exp686/freeze.json",
+      "bytes": 10036,
+      "sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5"
+    },
+    "accuracy": {
+      "path": "validation/results/exp685/score/accuracy.json",
+      "bytes": 1989099,
+      "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+    }
+  },
+  "previous_entry": {
+    "path": "estimate",
+    "bytes": 93402392,
+    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+  },
+  "previous_package": "exp688-v8-boundary-generic-100m23s-957e5f93-dirty-20261025-0012",
+  "commands": {
+    "compile": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp686",
+      "-I",
+      "build/exp686",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-c",
+      "build/exp686/worker.cpp",
+      "-o",
+      "build/exp686/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY"
+    ],
+    "link": [
+      "g++",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/entry.cpp",
+      "build/exp686/C.o",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp686",
+      "-I",
+      "build/exp686",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp686/N"
+    ]
+  },
+  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp686",
+  "build_driver": "validation/exp686_event_boundary.py build",
+  "package_command": "python3 validation/exp688_package.py billion exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
   "evidence": [
     {
-      "path": "validation/results/exp609/build-freeze.json",
-      "bytes": 6940,
-      "sha256": "0b78c3829d277613a83a65bec2ebb3d7c3adfd86ad6b4d094ad1674db88fc70b"
+      "path": "validation/results/exp688/exp686-audit.json",
+      "bytes": 902,
+      "sha256": "1771bfca8d067ba2b394a9491f6c7121fc9955c27c6f6d590c451e8b82587467"
     },
     {
-      "path": "validation/results/exp609/fixed-report.json",
-      "bytes": 66142,
-      "sha256": "9ac3987c7caf91555468a669e454eb7f32a4abab43db93c5ff314aa107d2d34a"
+      "path": "validation/results/exp688/package-check.json",
+      "bytes": 5000,
+      "sha256": "078603275ac6831fe71e330c9ca387b9b6dcfdb5a27d1792ebd572425568e6db"
     },
     {
-      "path": "validation/results/exp609/automatic-freeze.json",
-      "bytes": 1698,
-      "sha256": "f53e4eb9d6255bed55d33a5168297667840cd08280a48af210b3636e2b3f5385"
+      "path": "validation/results/exp688/protocol-original.md",
+      "bytes": 3563,
+      "sha256": "b0cb8ffb1a13e97ad5c208e52f4f52243ffa1d1997012b406e67732a0e510dfe"
     },
     {
-      "path": "validation/results/exp609/report.json",
-      "bytes": 51060,
-      "sha256": "cf07b2914fb8b7ca0c5b1b950b3347288648ea9b08cd36cd1dab6bbeca1a37e2"
+      "path": "validation/results/exp688/clean-freeze.json",
+      "bytes": 802,
+      "sha256": "0cc84b7f98a13d3364c9f73459e1b150fdcf17bd7b12e83a79dd3a359e7f80ff"
     },
     {
-      "path": "validation/results/exp609/10m-report.json",
-      "bytes": 21830,
-      "sha256": "9f638a09075f5975d3b584e2edef2f0f7f03a55bd6b0a8ef0eefda990b7809ba"
+      "path": "validation/results/exp686/freeze.json",
+      "bytes": 10036,
+      "sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5"
     },
     {
-      "path": "validation/results/exp609/100m-report.json",
-      "bytes": 2118,
-      "sha256": "f603b6c667535e25673c74cd9d0fb3a1f31518ee2ed500d90b6d1d6e9f097343"
+      "path": "validation/results/exp686/100m-report.json",
+      "bytes": 45204,
+      "sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419"
     },
     {
-      "path": "validation/results/exp609/1b-report.json",
-      "bytes": 1989,
-      "sha256": "2bfdc991a926f8bf4300f929c45942d2268b03600bbcb32f327585faa3159525"
+      "path": "validation/results/exp686/protocol-original.md",
+      "bytes": 3601,
+      "sha256": "364c93104385573bfd41c7840272a5aa3c40ab3c6563f471a94d6fe33908c1ac"
     },
     {
-      "path": "validation/results/exp609/package-check.json",
-      "bytes": 3381,
-      "sha256": "7c9693267c8e10d6aff7c37ec62b48a4207f8c5456f6700422e1619d1d23a635"
+      "path": "validation/results/exp686/compile.run.json",
+      "bytes": 1083,
+      "sha256": "fe636bccdf230b48ad572c0f1e79f9270e218054f48e07eeef8d84e660db829b"
     },
     {
-      "path": "validation/results/exp602/1b-accuracy.json",
-      "bytes": 2778,
-      "sha256": "fa21e4fd2d9ada09d1d906b594f09322bfa26e893393ab203714c11e80fadfea"
+      "path": "validation/results/exp686/link.run.json",
+      "bytes": 1308,
+      "sha256": "1e699258c75f87ab343e0d078ed1d5e25b424aaae10328bd6a1af85b93500119"
     },
     {
-      "path": "validation/results/exp588/evaluation.json",
-      "bytes": 13905,
-      "sha256": "6657e8f0dc60240aa7841bdb61b85aca9ea6ab74fd1f4d1fedd384dd0912061e"
+      "path": "validation/results/exp685/score/accuracy.json",
+      "bytes": 1989099,
+      "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+    },
+    {
+      "path": "validation/results/exp685/close-audit-local.json",
+      "bytes": 121377,
+      "sha256": "879a437bb781228eb8d21945eb8e378a709163c5db175cadd11c4af038fd8d0a"
+    },
+    {
+      "path": "validation/results/exp684/close-audit-local.json",
+      "bytes": 1499,
+      "sha256": "9df3c0f80a0fbea57d0bedce48cc32b07e183a9bc1db551f5ec252a81c7a492b"
+    },
+    {
+      "path": "validation/results/exp688/1b-freeze.json",
+      "bytes": 1722,
+      "sha256": "598f9f9ee5ceb45d852fe7529decf25df9c7a25ae2d29488cf74a82b88ca240c"
+    },
+    {
+      "path": "validation/results/exp688/1b-report.json",
+      "bytes": 2042,
+      "sha256": "e0e33bc7d6652f16af489e85138c535a9fb04be618e64cf8ca19065e05ba1390"
+    },
+    {
+      "path": "validation/results/exp688/1b-accuracy.json",
+      "bytes": 1708050,
+      "sha256": "846c92bdf8d353614baaf7f6a769ff43b146469db387515f48dea29e308151bf"
+    },
+    {
+      "path": "validation/results/exp688/close-audit.json",
+      "bytes": 985,
+      "sha256": "0da9ddc913e7bc6a244e9e1558b0ed011b4bbf8805b6d43a701babc11b7d7230"
+    },
+    {
+      "path": "validation/results/exp688/score-reuse-freeze.json",
+      "bytes": 4467,
+      "sha256": "1228d07ee4a23809e8fa595879c3ab9455d36ce85b6ebeed9f802d410abd81f6"
     }
   ],
-  "note": "Frozen generic worker selected by complete 10M evidence. Normal source build has a separate identity."
+  "cpu_1b_s": 243.302538,
+  "cpu_200s_goal": false,
+  "accuracy_1b": {
+    "point_pp": 98.65806165706272,
+    "stratified_variance_pp2": 1.6572428571478838e-06,
+    "stratified_ci975_pp": [
+      98.6551762109102,
+      98.66094710321524
+    ],
+    "family_ci975_pp": [
+      98.61793714350914,
+      98.69872988287216
+    ],
+    "conservative_ci975_pp": [
+      98.61793714350914,
+      98.69872988287216
+    ]
+  },
+  "delta_accuracy_1b": {
+    "point_pp": 0.020594342860070336,
+    "stratified_variance_pp2": 1.2201687374321446e-07,
+    "stratified_ci975_pp": [
+      0.019811400405851713,
+      0.02137728531428896
+    ],
+    "family_ci975_pp": [
+      0.01915885017852251,
+      0.022113456830820364
+    ],
+    "conservative_ci975_pp": [
+      0.01915885017852251,
+      0.022113456830820364
+    ]
+  },
+  "quality_1b_gate": true,
+  "zip_sha256": "fb39a2476d0d2ea99d2cf6c29536a63383bfed0a8174505db1a5f8c601a5f94c",
+  "zip_bytes": 81369669
 }

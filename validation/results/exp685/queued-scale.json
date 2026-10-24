@@ -1,0 +1,15 @@
+{
+  "queued_at": "2026-10-24T18:31:02.697101+08:00",
+  "remote_pid": 3447728,
+  "remote_script": "research/exp685/validation/exp685_scale_run.sh",
+  "required_prior_status": {
+    "data-launch/labels.exit-code": 0,
+    "../exp683/exit-expanded-score-1b-archive.txt": 0
+  },
+  "stages": [
+    "run",
+    "unchanged",
+    "score"
+  ],
+  "current_phase": "waiting for exact labels; no complete estimator run started at queue creation"
+}

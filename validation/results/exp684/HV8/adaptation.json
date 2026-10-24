@@ -1,0 +1,54 @@
+{
+  "arm": "HV8",
+  "trees": 8,
+  "original": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp679/validation/exp679_hv_cli.py",
+    "bytes": 21067,
+    "sha256": "e72b8a8b0e394b362aa15dc1640ba62730f6375398326459a770b4476c521086"
+  },
+  "generated": {
+    "path": "build/exp684/HV8/deployment.py",
+    "bytes": 21182,
+    "sha256": "75d7d35c8efeaa6b163556c673b17002ef3bce7e3173c8bd039f7e2e848ca752"
+  },
+  "domain": {
+    "map": {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    "original_evidence": {
+      "path": "validation/results/exp684/domain-prior.json",
+      "bytes": 486,
+      "sha256": "180d3159cb9dd15849ad2eb269e44aaade083797a33cb128fcf9aa25436da9c1"
+    },
+    "ordered_y_pairs": 62500,
+    "ordered_x_pairs": 14400,
+    "all_checks_passed": true
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp684/validation/exp684_event_prefix.py",
+      "bytes": 8819,
+      "sha256": "8172133a135ad9a0ad18db757fea981821e4c1ffc96c82fed962d21d422efdd8"
+    },
+    {
+      "path": "experiment/实验684-低频事件八树前缀的静态成本验证.md",
+      "bytes": 5958,
+      "sha256": "9d9f8cdec082794af70a94fbb1364972107cbf8eb7ca261f2115fa04db9b51f5"
+    },
+    {
+      "path": "tests/exp684_hv_events.h",
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    {
+      "path": "validation/exp684_run.sh",
+      "bytes": 655,
+      "sha256": "ce171b78f23f7de02b93a18181e9261f481263df3c52bfd06785ac2397f915ed"
+    }
+  ],
+  "new_training_runs": 0,
+  "complete_program_runs": 0,
+  "original_models_unchanged": true
+}

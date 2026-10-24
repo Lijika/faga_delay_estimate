@@ -1,0 +1,1 @@
+usage: unique-stream selfcheck | generate SOURCES CELLS PORTS ROWS SEED OUTPUT WARMUP | check INPUT OUTPUT ROWS POSITIONS SAMPLE

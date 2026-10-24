@@ -1,0 +1,83 @@
+{
+  "all_exited_zero": true,
+  "runs": [
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp685/expanded/labels-0.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp685/expanded/exact-0.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1334.1328350000001,
+      "rss_bytes": 925810688,
+      "wall_s": 1334.4078611871228,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp685/expanded/labels-1.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp685/expanded/exact-1.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1344.5619399999998,
+      "rss_bytes": 951373824,
+      "wall_s": 1345.4208377560135,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp685/expanded/labels-2.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp685/expanded/exact-2.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1334.270457,
+      "rss_bytes": 874156032,
+      "wall_s": 1335.4087857801933,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp685/expanded/labels-3.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp685/expanded/exact-3.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1340.821814,
+      "rss_bytes": 913981440,
+      "wall_s": 1341.4152815928683,
+      "thread_check": "exact completion counter"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "build/exp685/expanded/exact-0.csv",
+      "bytes": 34940531,
+      "sha256": "3d56cfdd883233a3e6322ee9267de061cf409de786dd44d727e29c572014647d"
+    },
+    {
+      "path": "build/exp685/expanded/exact-1.csv",
+      "bytes": 34933920,
+      "sha256": "4e079c49f44da88ee7d43372f9e570fdbd51addb8b97e88025b9a3633596754d"
+    },
+    {
+      "path": "build/exp685/expanded/exact-2.csv",
+      "bytes": 34931028,
+      "sha256": "7c5597501cde183815585d14836b79c48d39f84ac681b1006706b5fa3fca0e7b"
+    },
+    {
+      "path": "build/exp685/expanded/exact-3.csv",
+      "bytes": 34930051,
+      "sha256": "c18dd3c06a4bf4f4c5c37709c6eba2ab117e9060180a7d4a063174179096bceb"
+    }
+  ]
+}

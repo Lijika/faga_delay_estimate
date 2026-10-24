@@ -1,0 +1,18 @@
+{
+  "command": [
+    "../../build/hidden-suite-v1/check_hidden_suite",
+    "doc/eda比赛文件/arch",
+    "../../build/hidden-suite-v1/reach.bin",
+    "../../build/hidden-suite-v1/independent/eligibility.bin",
+    "U-role",
+    "100000000",
+    "build/exp652/u-role/requests.csv",
+    "build/exp652/u-role/check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 50.320722,
+  "wall_s": 50.43999917199835,
+  "rss_bytes": 1948266496,
+  "threads": 1,
+  "stderr": "validation/results/exp652/input-check.stderr"
+}

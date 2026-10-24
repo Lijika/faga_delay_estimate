@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-25",
+  "target_repository": "https://github.com/Lijika/faga_delay_estimate",
+  "target_branch": "main",
+  "base_commit": "b4168b78939ce557b230dabfd84d36eb8b9aa013",
+  "published_algorithm": "exp688",
+  "source_manifest_sha256": "c430eb9845f9be04d89b673011abb65fbb90f8b885d8600a600011bce5e7a978",
+  "frozen_source_files_verified": 55,
+  "independent_build_matches_frozen_elf": true,
+  "all_five_object_files_match": true,
+  "fixed_submission_zip_member_matches": true,
+  "historical_logs_copied_unchanged": 851,
+  "log_files_after_exp610": 99,
+  "latest_research_experiment": 706,
+  "latest_research_1b_measured": false,
+  "local_raw_evidence_files_copied_unchanged": 1247,
+  "extra_existing_remote_evidence": "validation/results/exp705/witness-groups.json",
+  "removed_consultation_directory": "docs/exp610",
+  "authored_documents_link_check_passed": true,
+  "authored_documents_prose_check_passed": true,
+  "authored_and_source_git_diff_check_passed": true,
+  "raw_evidence_git_diff_check": {
+    "exit_code": 2,
+    "whitespace_warning_lines": 1866,
+    "files": 15,
+    "reason": "Historical tool help and perf text output preserved byte-for-byte; whitespace is not edited."
+  },
+  "credential_pattern_scan_passed": true,
+  "new_complete_estimator_runs": 0,
+  "research_remains_paused": true,
+  "platform_result_verified": false
+}

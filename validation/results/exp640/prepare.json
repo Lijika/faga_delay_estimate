@@ -1,0 +1,116 @@
+{
+  "rows": 1000000,
+  "port_pairs": 59904,
+  "params": {
+    "iterations": 16,
+    "depth": 4,
+    "learning_rate": 0.3,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261023640,
+    "task_type": "CPU",
+    "thread_count": 16,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "catboost": "1.2.8",
+  "numpy": "2.2.6",
+  "protocol": {
+    "path": "validation/results/exp640/protocol-original.md",
+    "bytes": 4612,
+    "sha256": "5b7443bb604657f20e6eb405fb854685204d32b690ba9abcba8f7224aea4ebf3"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp640/validation/exp640_symmetric_residual.py",
+      "bytes": 11617,
+      "sha256": "ab35fde1eb0bd004625c3c2fcb2f60d0773963ce61d71484a503fb93bda61e89"
+    },
+    {
+      "path": "experiment/实验640-Q4残差的对称树预算与独立解码.md",
+      "bytes": 4612,
+      "sha256": "5b7443bb604657f20e6eb405fb854685204d32b690ba9abcba8f7224aea4ebf3"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp631/validation/exp631_event_experts.py",
+      "bytes": 13984,
+      "sha256": "e0281d1c5af1669fc29e84a36217a394cb0a6d8ca3135177fab2576076a55cb6"
+    },
+    {
+      "path": "../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp585/build/exp585/training.npz",
+      "bytes": 76812911,
+      "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+    },
+    {
+      "path": "../exp593/build/exp593/targets.npz",
+      "bytes": 4451632,
+      "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+    },
+    {
+      "path": "../exp576/build/exp576/R8.f32",
+      "bytes": 4000000,
+      "sha256": "3cbcd9aa3c13512ac0910bf5a492b3e878c569af36a8f79895fd4e87632cc4ef"
+    },
+    {
+      "path": "../exp631/build/exp631/M-raw.f32",
+      "bytes": 4000000,
+      "sha256": "6d76f9b39349d0a997cf04eeb7e4894f4b6f5754fb8acdaaa8b62635900fef4f"
+    },
+    {
+      "path": "../exp631/validation/results/exp631/training.json",
+      "bytes": 86918,
+      "sha256": "3824d95bcb49d7350b111c44020e9c3172bac1931d372cd95e2796979408f645"
+    },
+    {
+      "path": "../exp622/validation/results/exp622/build-freeze.json",
+      "bytes": 8616,
+      "sha256": "6d24fcfb942ed27d1b64696d494dca5ceaff44d997514fb6ee233364af3e3c11"
+    }
+  ],
+  "binary": {
+    "path": "build/exp622/T",
+    "bytes": 91047192,
+    "sha256": "010dff388ac0eb9fe2a78cf6f7246a3c596605b85c2f7ac164d4244a0f5f8a5f"
+  },
+  "source_pin_overlap": 0,
+  "json_self_check": true,
+  "folds": [
+    {
+      "fold": 0,
+      "train_rows": 666356,
+      "test_rows": 333644,
+      "train_pairs": 59904,
+      "test_pairs": 59904
+    },
+    {
+      "fold": 1,
+      "train_rows": 667278,
+      "test_rows": 332722,
+      "train_pairs": 59904,
+      "test_pairs": 59904
+    },
+    {
+      "fold": 2,
+      "train_rows": 666366,
+      "test_rows": 333634,
+      "train_pairs": 59904,
+      "test_pairs": 59904
+    }
+  ],
+  "disk_free_start_bytes": 1383784448
+}

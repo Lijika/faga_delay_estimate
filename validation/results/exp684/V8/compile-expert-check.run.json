@@ -1,0 +1,28 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "build/exp684/V8",
+    "build/exp684/V8/expert-check.cpp",
+    "-static",
+    "-s",
+    "-o",
+    "build/exp684/V8/expert-check",
+    "-DEXP684_V_ONLY"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.714757,
+  "wall_s": 0.7158520519733429,
+  "rss_bytes": 1270857728,
+  "threads": 1,
+  "stderr": "validation/results/exp684/V8/compile-expert-check.stderr"
+}

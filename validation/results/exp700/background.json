@@ -1,0 +1,18 @@
+{
+  "old": {
+    "path": "build/exp700/old-base.i32",
+    "bytes": 4000000,
+    "sha256": "08f205c0fd10ce3c9fcb708c10ecac3f8989dd53e468fdbcffae8dd6130a7a86"
+  },
+  "new": {
+    "path": "build/exp700/new-base.i32",
+    "bytes": 4000000,
+    "sha256": "b5d33c198a43dffa4be6e0d4e1f647490e6f07ae7fb10ea1be61a6ac4bfb0896"
+  },
+  "all_old_far_integer_values_equal": true,
+  "far_rows": 939345,
+  "changed_rows": 845391,
+  "near_rows": 60655,
+  "near_unchanged": true,
+  "independent_scalar_checks": 64
+}

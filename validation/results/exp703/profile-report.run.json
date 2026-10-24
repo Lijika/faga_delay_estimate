@@ -1,0 +1,18 @@
+{
+  "command": [
+    "perf",
+    "report",
+    "--stdio",
+    "--no-children",
+    "--percent-limit",
+    "0.2",
+    "-i",
+    "validation/results/exp703/profile.data"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.050348,
+  "wall_s": 0.05075002368539572,
+  "rss_bytes": 204066816,
+  "threads": 1,
+  "stderr": "validation/results/exp703/profile-report.stderr"
+}

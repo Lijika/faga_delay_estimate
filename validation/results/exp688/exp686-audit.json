@@ -1,0 +1,30 @@
+{
+  "all_checks_passed": true,
+  "joint_gate": true,
+  "complete_100m_runs": 21,
+  "identical_outputs_per_arm": 7,
+  "exact_sample_rows": 1916928,
+  "mean_cpu_s": {
+    "A": 23.484331166666667,
+    "V": 23.963173333333334,
+    "N": 23.521296833333334
+  },
+  "accuracy_pp": 98.66046105614241,
+  "score": 0.013465134310019734,
+  "score_lower": 9.595256802205632e-06,
+  "report": {
+    "path": "validation/results/exp686/100m-report.json",
+    "bytes": 45204,
+    "sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419"
+  },
+  "freeze": {
+    "path": "validation/results/exp686/freeze.json",
+    "bytes": 10036,
+    "sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5"
+  },
+  "accuracy": {
+    "path": "validation/results/exp685/score/accuracy.json",
+    "bytes": 1989099,
+    "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+  }
+}

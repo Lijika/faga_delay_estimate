@@ -1,0 +1,38 @@
+{
+  "all_checks_passed": true,
+  "arms": [
+    "HV8",
+    "V8"
+  ],
+  "ordered_central_y_pairs_per_arm": 62500,
+  "xy_predicate_cases_per_arm": 25636,
+  "compiler_commands": [
+    [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-I",
+      "tests",
+      "build/exp684-local-check/events.cpp",
+      "-o",
+      "build/exp684-local-check/HV8"
+    ],
+    [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-I",
+      "tests",
+      "build/exp684-local-check/events.cpp",
+      "-o",
+      "build/exp684-local-check/V8",
+      "-DEXP684_V_ONLY"
+    ]
+  ],
+  "header_sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9",
+  "compiled_source": {
+    "path": "build/exp684-local-check/events.cpp",
+    "sha256": "0da39e909a02fbc92e1e6f48838e4d771eb769e0eb75b1e48a0217178342064b"
+  },
+  "source_snapshot": "validation/results/exp684/local-event-check.cpp"
+}

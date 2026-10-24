@@ -1,0 +1,83 @@
+{
+  "all_exited_zero": true,
+  "runs": [
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/100m/labels-0.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/100m/exact-0.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1340.2552380000002,
+      "rss_bytes": 925782016,
+      "wall_s": 1341.4178757548798,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/100m/labels-1.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/100m/exact-1.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1322.76521,
+      "rss_bytes": 954085376,
+      "wall_s": 1323.3970451708883,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/100m/labels-2.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/100m/exact-2.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1331.828994,
+      "rss_bytes": 957792256,
+      "wall_s": 1332.4062508009374,
+      "thread_check": "exact completion counter"
+    },
+    {
+      "command": [
+        "../exp679/build/exp679/tools/exact_labels",
+        "../exp679/doc/eda比赛文件/arch",
+        "build/exp683/100m/labels-3.csv",
+        "../exp679/build/exp679/tools/orbit.i16",
+        "build/exp683/100m/exact-3.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 1336.310407,
+      "rss_bytes": 933138432,
+      "wall_s": 1336.4108121211175,
+      "thread_check": "exact completion counter"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "build/exp683/100m/exact-0.csv",
+      "bytes": 34930178,
+      "sha256": "6c4e5e77848efad3c85212124e90cc6c51eae8d45dd591365fffc459a4338310"
+    },
+    {
+      "path": "build/exp683/100m/exact-1.csv",
+      "bytes": 34935064,
+      "sha256": "16b08db1a180e6b17d6f868e9eceac5678f39195454720621491bbe50bf26056"
+    },
+    {
+      "path": "build/exp683/100m/exact-2.csv",
+      "bytes": 34935850,
+      "sha256": "29b3257d39a53d0dee7a8ef86e3c9a0c11489a01b9521a9a59cd8186bbab11e5"
+    },
+    {
+      "path": "build/exp683/100m/exact-3.csv",
+      "bytes": 34933042,
+      "sha256": "569cb829615f5d5010b1399f0db04bbd84490d9affd11c807af27213d5287b03"
+    }
+  ]
+}

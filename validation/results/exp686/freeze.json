@@ -1,0 +1,359 @@
+{
+  "sources": [
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp686/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp686/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp686/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp686/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp601_port_parser.h",
+        "bytes": 4290,
+        "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+      },
+      "current": {
+        "path": "build/exp686/exp601_port_parser.h",
+        "bytes": 4290,
+        "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp686/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp686/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp686/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      },
+      "current": {
+        "path": "build/exp686/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp686/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp686/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/replacement679.h",
+        "bytes": 39035,
+        "sha256": "5d6319f4c476203cfac3b1f473cfdd240b3a814ee2eca22a9c3a9b57ee85a732"
+      },
+      "current": {
+        "path": "build/exp686/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      },
+      "current": {
+        "path": "build/exp686/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp684/build/exp684/V8/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      },
+      "current": {
+        "path": "build/exp686/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      }
+    }
+  ],
+  "commands": {
+    "compile": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp686",
+      "-I",
+      "build/exp686",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-c",
+      "build/exp686/worker.cpp",
+      "-o",
+      "build/exp686/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY"
+    ],
+    "link": [
+      "g++",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/entry.cpp",
+      "build/exp686/C.o",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp686",
+      "-I",
+      "build/exp686",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp686/N"
+    ]
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp654/build/exp654/B",
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    },
+    "V": {
+      "path": "../exp684/build/exp684/V8/C",
+      "bytes": 93398296,
+      "sha256": "f0aa7b36cf407e79c96d55d092aac0e58538f1100a62972a624739d9a0ae6cd7"
+    },
+    "N": {
+      "path": "build/exp686/N",
+      "bytes": 93402392,
+      "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+    }
+  },
+  "input": {
+    "path": "../exp685/build/exp685/u-role/requests.csv",
+    "bytes": 3519782965,
+    "sha256": "34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30"
+  },
+  "old_report": {
+    "path": "../exp685/validation/results/exp685/100m-report.json",
+    "bytes": 36895,
+    "sha256": "2313259a4408377b0ec43037f76bd64e258b99212cbef08a9ac59905f4f8ba78"
+  },
+  "old_score": {
+    "path": "../exp685/validation/results/exp685/score/accuracy.json",
+    "bytes": 1989099,
+    "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp686/validation/exp686_event_boundary.py",
+      "bytes": 9777,
+      "sha256": "1091474ef4b8d45dfeda128eaea6434a45b32befa8aca2fad22ec81c3e1eeb15"
+    },
+    {
+      "path": "experiment/实验686-低频专家函数边界与公共路径成本.md",
+      "bytes": 3601,
+      "sha256": "364c93104385573bfd41c7840272a5aa3c40ab3c6563f471a94d6fe33908c1ac"
+    },
+    {
+      "path": "validation/results/exp686/protocol-original.md",
+      "bytes": 3601,
+      "sha256": "364c93104385573bfd41c7840272a5aa3c40ab3c6563f471a94d6fe33908c1ac"
+    }
+  ],
+  "schedule": [
+    [
+      "A",
+      "V",
+      "N"
+    ],
+    [
+      "A",
+      "V",
+      "N"
+    ],
+    [
+      "A",
+      "N",
+      "V"
+    ],
+    [
+      "V",
+      "A",
+      "N"
+    ],
+    [
+      "V",
+      "N",
+      "A"
+    ],
+    [
+      "N",
+      "A",
+      "V"
+    ],
+    [
+      "N",
+      "V",
+      "A"
+    ]
+  ],
+  "disk_free_start_bytes": 21734350848,
+  "new_training_runs": 0,
+  "new_exact_rows": 0,
+  "static_elf": true
+}

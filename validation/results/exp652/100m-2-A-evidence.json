@@ -1,0 +1,32 @@
+{
+  "command": [
+    "../exp640/build/exp640/S8",
+    "-in",
+    "build/exp652/u-role/requests.csv",
+    "-out",
+    "build/exp652/100m-2-A.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 22.075359000000002,
+  "wall_s": 22.078823955031112,
+  "rss_bytes": 194613248,
+  "threads": 1,
+  "stderr": "validation/results/exp652/100m-2-A.stderr",
+  "arm": "A",
+  "iteration": 2,
+  "output": {
+    "path": "build/exp652/100m-2-A.csv",
+    "bytes": 4013582816,
+    "sha256": "f9939b4e94993c6bbe3cecd16f32746b0e968ed651783114eee851e7eb492ce1"
+  },
+  "input": {
+    "path": "build/exp652/u-role/requests.csv",
+    "bytes": 3519802667,
+    "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+  },
+  "counters": {
+    "rows": 100000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  }
+}

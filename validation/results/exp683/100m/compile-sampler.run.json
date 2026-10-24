@@ -1,0 +1,21 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "validation/exp683_stratified_sample.cpp",
+    "-o",
+    "build/exp683/100m/stratified-sample"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.6468609999999999,
+  "wall_s": 0.6483930859249085,
+  "rss_bytes": 109838336,
+  "threads": 1,
+  "stderr": "validation/results/exp683/100m/compile-sampler.stderr"
+}

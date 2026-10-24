@@ -1,0 +1,40 @@
+{
+  "cached_rows": 1000000,
+  "complete_estimator_runs": 0,
+  "final_prediction_equal": true,
+  "oof_prediction_equal": true,
+  "ordinary_predictions_equal": true,
+  "base_equal": true,
+  "mandatory_equal": true,
+  "raw_bitwise_equal": true,
+  "all_leaf_ids_equal": true,
+  "all_features_equal": true,
+  "event_counts": [
+    979323,
+    18064,
+    2613
+  ],
+  "traces": [
+    {
+      "path": "build/exp684/HV8/cached-trace-0.bin",
+      "bytes": 248000000,
+      "sha256": "7d3b84e8d01394becb3bfc295ad40dcf79e1d6cf981179f570ac21b984691972"
+    },
+    {
+      "path": "build/exp684/HV8/cached-trace-1.bin",
+      "bytes": 248000000,
+      "sha256": "0ecd7aec5b05ccc0c5f453b80c3d82711c06829ce524c2e9fcb9efcbc0381423"
+    }
+  ],
+  "expert_check": {
+    "path": "build/exp684/HV8/expert-check.bin",
+    "bytes": 827080,
+    "sha256": "8176f98f0432ca8027f9fcf83b81fbc26a181e1bd6b5660c73d99302c5a609fb"
+  },
+  "restored_geometry": {
+    "path": "build/exp684/HV8/restored.bin",
+    "bytes": 69303616,
+    "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+  },
+  "final_accuracy_goal_verified": false
+}

@@ -1,0 +1,961 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py",
+      "bytes": 10080,
+      "sha256": "f78377a0f3fbea7539565c165340a1e4d70106b5d642b1b8dd27d38745cc9611"
+    },
+    {
+      "path": "experiment/实验654-冻结距离曲线的无损字节代码本.md",
+      "bytes": 3453,
+      "sha256": "4609fb57b97ad24112df11c1bb94a2ee5d629ed56d186021f09ba1e845dcc5e1"
+    },
+    {
+      "path": "tests/exp654_distance_curve_bytes.h",
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    {
+      "path": "build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "validation/results/exp654/protocol-original.md",
+      "bytes": 3453,
+      "sha256": "4609fb57b97ad24112df11c1bb94a2ee5d629ed56d186021f09ba1e845dcc5e1"
+    },
+    {
+      "path": "validation/results/exp654/range.json",
+      "bytes": 958,
+      "sha256": "9cbef57c5931647c79f38e17d6fd218b6c0bdb8cc010af7a07ea03264ae8287a"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_scale.py",
+      "bytes": 18342,
+      "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_cli.py",
+      "bytes": 10692,
+      "sha256": "27c6657afa71bda0bf594f9caf887fad7db1d7a899d6f60e1d588ddf3240cb0d"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp580/validation/exp580_complete_speed.py",
+      "bytes": 8504,
+      "sha256": "bda1692a41b9c16b11517ffa78acbde40b029d718cd6b40c3b667569d759c76a"
+    },
+    {
+      "path": "build/exp654/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "build/exp654/symmetric640.h",
+      "bytes": 637999,
+      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+    },
+    {
+      "path": "build/exp654/exp652_distance_curve_lookup.h",
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    {
+      "path": "build/exp654/curve_origin654.h",
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    {
+      "path": "build/exp654/exp652_geometry_restore.h",
+      "bytes": 1243,
+      "sha256": "1b4a3331cd0d5bb9860563a2dd873daa76b8bc46e8de443b175d873edb87e2aa"
+    },
+    {
+      "path": "build/exp654/worker.cpp",
+      "bytes": 11763,
+      "sha256": "eae46b79d7355e2cfc47f633701925137fc86b6a7efd2aabf337f99ed9c703da"
+    },
+    {
+      "path": "build/exp654/exp601_port_parser.h",
+      "bytes": 4290,
+      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+    },
+    {
+      "path": "build/exp654/codes.S",
+      "bytes": 201,
+      "sha256": "60d891597c285a7042bab630c51213b17c81dfc5e18c79a8747327f632d97334"
+    },
+    {
+      "path": "build/exp654/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "build/exp654/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "build/exp654/exp608_geometry.h",
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_cli.py",
+      "bytes": 10692,
+      "sha256": "27c6657afa71bda0bf594f9caf887fad7db1d7a899d6f60e1d588ddf3240cb0d"
+    },
+    {
+      "path": "../exp652/experiment/实验652-D64距离曲线补偿的完整100M联合验证.md",
+      "bytes": 4869,
+      "sha256": "18168a7d50756010cc5c0641e7471b210d6199b5cf9ef71e2499ad6c061b44f1"
+    },
+    {
+      "path": "../exp652/validation/results/exp652/protocol-original.md",
+      "bytes": 4869,
+      "sha256": "18168a7d50756010cc5c0641e7471b210d6199b5cf9ef71e2499ad6c061b44f1"
+    },
+    {
+      "path": "../exp652/../exp646/build/exp646/D64-Z/asset.zst",
+      "bytes": 56503992,
+      "sha256": "0c199042c04bbd6ee8eadd8a7770eb88304dabab2daf9a94c78791d8ee1e5669"
+    },
+    {
+      "path": "../exp652/../exp651/build/exp651/D64.curves",
+      "bytes": 29864000,
+      "sha256": "95057aa38fd4f0d4811c424d119cb1471a279978a52180d54d4c6981787f2bd7"
+    },
+    {
+      "path": "../exp652/tests/exp649_geometry_restore.h",
+      "bytes": 1243,
+      "sha256": "0186c2b6e8623e663e99ceee2a465a103df11c98f2ea76aaf9a316fe3ffe11f5"
+    },
+    {
+      "path": "../exp652/tests/exp652_distance_curve_lookup.h",
+      "bytes": 1094,
+      "sha256": "9e6cf25f0b8e5b9f657fcbbd196c8cf0195eb1611aec8071777f1cbaf366702f"
+    },
+    {
+      "path": "../exp652/../exp589/build/exp589/D64-geometry.bin",
+      "bytes": 69303616,
+      "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+    },
+    {
+      "path": "../exp652/../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp652/../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../exp652/../exp646/build/exp646/deps/libzstd.a",
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    {
+      "path": "../exp652/../exp646/build/exp646/deps/zstd.h",
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    },
+    {
+      "path": "../exp652/../exp646/build/exp646/deps/COPYRIGHT.libzstd",
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    },
+    {
+      "path": "../exp652/build/exp652/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "../exp652/build/exp652/entry.cpp",
+      "bytes": 1338,
+      "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+    },
+    {
+      "path": "../exp652/build/exp652/compressed.S",
+      "bytes": 278,
+      "sha256": "65303d3e63e1707bf2a2d63738679f2b6cdd429a37bd80ec3376bbde900b8306"
+    },
+    {
+      "path": "../exp652/build/exp652/symmetric640.h",
+      "bytes": 637999,
+      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+    },
+    {
+      "path": "../exp652/build/exp652/exp652_distance_curve_lookup.h",
+      "bytes": 1094,
+      "sha256": "9e6cf25f0b8e5b9f657fcbbd196c8cf0195eb1611aec8071777f1cbaf366702f"
+    },
+    {
+      "path": "../exp652/build/exp652/exp652_geometry_restore.h",
+      "bytes": 1243,
+      "sha256": "1b4a3331cd0d5bb9860563a2dd873daa76b8bc46e8de443b175d873edb87e2aa"
+    },
+    {
+      "path": "../exp652/build/exp652/worker.cpp",
+      "bytes": 11763,
+      "sha256": "eae46b79d7355e2cfc47f633701925137fc86b6a7efd2aabf337f99ed9c703da"
+    },
+    {
+      "path": "../exp652/build/exp652/exp601_port_parser.h",
+      "bytes": 4290,
+      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+    },
+    {
+      "path": "../exp652/build/exp652/codes.S",
+      "bytes": 198,
+      "sha256": "b3fc7efe53f4951903e99e6bd6534cc793c4903e909a0a0bdbf4d4e387c31eaa"
+    },
+    {
+      "path": "../exp652/build/exp652/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "../exp652/build/exp652/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "../exp652/build/exp652/exp608_geometry.h",
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    }
+  ],
+  "binaries": {
+    "A": {
+      "path": "../exp640/build/exp640/S8",
+      "bytes": 91039000,
+      "sha256": "893d35c08ee9ec3e38f923d5e2cf64beca8acfe615d4c6ee16c280952cad28a2"
+    },
+    "C": {
+      "path": "../exp652/build/exp652/C",
+      "bytes": 93951256,
+      "sha256": "c25ca413bef21839540b05ceaee103d9dc5e8ed40234324f9e99d62cf1723be8"
+    },
+    "B": {
+      "path": "build/exp654/B",
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    }
+  },
+  "input": {
+    "path": "../exp652/build/exp652/u-role/requests.csv",
+    "bytes": 3519802667,
+    "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+  },
+  "asset": {
+    "path": "build/exp654/D64.curves.u8",
+    "bytes": 29308992,
+    "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+  },
+  "origin": -55,
+  "full_codebook_roundtrip": true,
+  "codes_unchanged": true,
+  "frozen_accuracy": {
+    "saved_cpu_s": -1.7943429999999996,
+    "ci975_saved_cpu_s": [
+      -1.8806382034530453,
+      -1.7080477965469538
+    ],
+    "score_extrapolated_1b": 0.003526728828215031,
+    "conservative_ci95_score_lower": -0.012049709389929747,
+    "score_gate": false,
+    "delta_accuracy_pp": 0.19131914020193538,
+    "accuracy_interval": {
+      "point_pp": 0.19131914020193538,
+      "family_ci975_pp": [
+        0.18083767612228005,
+        0.2016781367179023
+      ],
+      "stratified_ci975_pp": [
+        0.1865487833033733,
+        0.19608949710049747
+      ],
+      "conservative_ci975_pp": [
+        0.18083767612228005,
+        0.2016781367179023
+      ]
+    },
+    "quality_gate": true,
+    "joint_gate": false,
+    "groups": {
+      "source_family": {
+        "0": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3880818.0,
+          "delta_accuracy_pp": 0.18331328294327026,
+          "accuracy_pp": {
+            "A": 98.44281966610171,
+            "C": 98.626132949045
+          }
+        },
+        "1": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3878431.0,
+          "delta_accuracy_pp": 0.20999755111234553,
+          "accuracy_pp": {
+            "A": 98.4179079579601,
+            "C": 98.62790550907243
+          }
+        },
+        "2": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3901802.0,
+          "delta_accuracy_pp": 0.18917107430022312,
+          "accuracy_pp": {
+            "A": 98.46026846091972,
+            "C": 98.64943953521994
+          }
+        },
+        "3": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3902226.0,
+          "delta_accuracy_pp": 0.2061484228260637,
+          "accuracy_pp": {
+            "A": 98.45884569512225,
+            "C": 98.66499411794831
+          }
+        },
+        "4": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3904607.0,
+          "delta_accuracy_pp": 0.17933247519227133,
+          "accuracy_pp": {
+            "A": 98.41105332052311,
+            "C": 98.5903857957154
+          }
+        },
+        "5": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3902123.0,
+          "delta_accuracy_pp": 0.19830843143806182,
+          "accuracy_pp": {
+            "A": 98.44626487846098,
+            "C": 98.64457330989906
+          }
+        },
+        "6": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3875266.0,
+          "delta_accuracy_pp": 0.22414124699855437,
+          "accuracy_pp": {
+            "A": 98.35582570130964,
+            "C": 98.5799669483082
+          }
+        },
+        "7": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3882212.0,
+          "delta_accuracy_pp": 0.20689603423421793,
+          "accuracy_pp": {
+            "A": 98.3891859453045,
+            "C": 98.59608197953874
+          }
+        },
+        "8": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3843615.0,
+          "delta_accuracy_pp": 0.2363859293009805,
+          "accuracy_pp": {
+            "A": 98.35871046973028,
+            "C": 98.59509639903126
+          }
+        },
+        "9": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3888290.0,
+          "delta_accuracy_pp": 0.21563778163465672,
+          "accuracy_pp": {
+            "A": 98.26489656522503,
+            "C": 98.48053434685968
+          }
+        },
+        "10": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3891530.0,
+          "delta_accuracy_pp": 0.19595018114146182,
+          "accuracy_pp": {
+            "A": 98.26270590861503,
+            "C": 98.4586560897565
+          }
+        },
+        "11": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3837347.0,
+          "delta_accuracy_pp": 0.18174233349312177,
+          "accuracy_pp": {
+            "A": 98.43394837131257,
+            "C": 98.61569070480567
+          }
+        },
+        "12": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3770200.0,
+          "delta_accuracy_pp": 0.21258749041179745,
+          "accuracy_pp": {
+            "A": 98.35999193442284,
+            "C": 98.57257942483466
+          }
+        },
+        "13": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3863370.0,
+          "delta_accuracy_pp": 0.2327692118567283,
+          "accuracy_pp": {
+            "A": 98.28030465117978,
+            "C": 98.51307386303648
+          }
+        },
+        "14": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3868265.0,
+          "delta_accuracy_pp": 0.21633977363048998,
+          "accuracy_pp": {
+            "A": 98.23523894825063,
+            "C": 98.45157872188112
+          }
+        },
+        "15": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3768702.0,
+          "delta_accuracy_pp": 0.2090536983669757,
+          "accuracy_pp": {
+            "A": 98.42634356566869,
+            "C": 98.63539726403569
+          }
+        },
+        "16": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3554853.0,
+          "delta_accuracy_pp": 0.17507498906507996,
+          "accuracy_pp": {
+            "A": 98.5229559353123,
+            "C": 98.69803092437738
+          }
+        },
+        "17": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3778212.0,
+          "delta_accuracy_pp": 0.17395149779200886,
+          "accuracy_pp": {
+            "A": 98.45252644635909,
+            "C": 98.6264779441511
+          }
+        },
+        "18": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3774913.0,
+          "delta_accuracy_pp": 0.17627069322673697,
+          "accuracy_pp": {
+            "A": 98.36730264463425,
+            "C": 98.54357333786098
+          }
+        },
+        "19": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3554694.0,
+          "delta_accuracy_pp": 0.18234667900281,
+          "accuracy_pp": {
+            "A": 98.50503834167787,
+            "C": 98.68738502068071
+          }
+        },
+        "20": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3909651.0,
+          "delta_accuracy_pp": 0.15768867336566653,
+          "accuracy_pp": {
+            "A": 98.6576791188481,
+            "C": 98.81536779221376
+          }
+        },
+        "21": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3915735.0,
+          "delta_accuracy_pp": 0.1639979254660618,
+          "accuracy_pp": {
+            "A": 98.62863357590203,
+            "C": 98.79263150136809
+          }
+        },
+        "22": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3912643.0,
+          "delta_accuracy_pp": 0.16823046073849898,
+          "accuracy_pp": {
+            "A": 98.6020103269495,
+            "C": 98.770240787688
+          }
+        },
+        "23": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3909102.0,
+          "delta_accuracy_pp": 0.15703447859687378,
+          "accuracy_pp": {
+            "A": 98.61862241037055,
+            "C": 98.77565688896742
+          }
+        },
+        "24": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3915762.0,
+          "delta_accuracy_pp": 0.1503123426815231,
+          "accuracy_pp": {
+            "A": 98.59938842337029,
+            "C": 98.74970076605184
+          }
+        },
+        "25": {
+          "sample_rows": 9216,
+          "estimated_population_rows": 3915631.0,
+          "delta_accuracy_pp": 0.17177495990677363,
+          "accuracy_pp": {
+            "A": 98.61126575410434,
+            "C": 98.78304071401112
+          }
+        }
+      },
+      "distance": {
+        "0": {
+          "sample_rows": 3782,
+          "estimated_population_rows": 1576377.25,
+          "delta_accuracy_pp": 0.0,
+          "accuracy_pp": {
+            "A": 96.17588835695295,
+            "C": 96.17588835695295
+          }
+        },
+        "1": {
+          "sample_rows": 45661,
+          "estimated_population_rows": 19052804.5,
+          "delta_accuracy_pp": 0.35940714815342123,
+          "accuracy_pp": {
+            "A": 97.11937562064693,
+            "C": 97.47878276880036
+          }
+        },
+        "2": {
+          "sample_rows": 125858,
+          "estimated_population_rows": 52528660.25,
+          "delta_accuracy_pp": 0.17014084030545773,
+          "accuracy_pp": {
+            "A": 98.65907950480917,
+            "C": 98.82922034511463
+          }
+        },
+        "3": {
+          "sample_rows": 64315,
+          "estimated_population_rows": 26842158.0,
+          "delta_accuracy_pp": 0.12468928524558165,
+          "accuracy_pp": {
+            "A": 99.10073388918569,
+            "C": 99.22542317443127
+          }
+        }
+      },
+      "near_axis": {
+        "0": {
+          "sample_rows": 153247,
+          "estimated_population_rows": 63956216.75,
+          "delta_accuracy_pp": 0.08008697337582343,
+          "accuracy_pp": {
+            "A": 98.93016865228113,
+            "C": 99.01025562565697
+          }
+        },
+        "1": {
+          "sample_rows": 86369,
+          "estimated_population_rows": 36043783.25,
+          "delta_accuracy_pp": 0.38868989126211934,
+          "accuracy_pp": {
+            "A": 97.58446970692735,
+            "C": 97.97315959818945
+          }
+        }
+      },
+      "direction": {
+        "0": {
+          "sample_rows": 58422,
+          "estimated_population_rows": 24380012.0,
+          "delta_accuracy_pp": 0.18495400076355076,
+          "accuracy_pp": {
+            "A": 98.51119840799679,
+            "C": 98.69615240876036
+          }
+        },
+        "1": {
+          "sample_rows": 62947,
+          "estimated_population_rows": 26269825.75,
+          "delta_accuracy_pp": 0.20500732661991725,
+          "accuracy_pp": {
+            "A": 98.36889857494046,
+            "C": 98.57390590156037
+          }
+        },
+        "2": {
+          "sample_rows": 61382,
+          "estimated_population_rows": 25617845.25,
+          "delta_accuracy_pp": 0.17826347622824773,
+          "accuracy_pp": {
+            "A": 98.5778933308645,
+            "C": 98.75615680709274
+          }
+        },
+        "3": {
+          "sample_rows": 56865,
+          "estimated_population_rows": 23732317.0,
+          "delta_accuracy_pp": 0.1967991733217323,
+          "accuracy_pp": {
+            "A": 98.31832027174099,
+            "C": 98.51511944506274
+          }
+        }
+      }
+    },
+    "changed_sample_rows": 200548,
+    "improved_sample_rows": 112089,
+    "worse_sample_rows": 82650
+  },
+  "frozen_summary": {
+    "A": {
+      "accuracy": {
+        "point_pp": 98.44512784122028,
+        "family_ci975_pp": [
+          98.39231620105309,
+          98.49857058886798
+        ],
+        "stratified_ci975_pp": [
+          98.43245573227014,
+          98.45779995017043
+        ],
+        "conservative_ci975_pp": [
+          98.39231620105309,
+          98.49857058886798
+        ]
+      },
+      "mae_ps": 9.21034507,
+      "exact_fraction": 0.0573669325
+    },
+    "C": {
+      "accuracy": {
+        "point_pp": 98.63644698142221,
+        "family_ci975_pp": [
+          98.59167896512827,
+          98.68100802303161
+        ],
+        "stratified_ci975_pp": [
+          98.62419001880242,
+          98.648703944042
+        ],
+        "conservative_ci975_pp": [
+          98.59167896512827,
+          98.68100802303161
+        ]
+      },
+      "mae_ps": 8.029225835,
+      "exact_fraction": 0.064659495
+    }
+  },
+  "references": {
+    "A": {
+      "output": {
+        "path": "build/exp652/100m-0-A.csv",
+        "bytes": 4013582816,
+        "sha256": "f9939b4e94993c6bbe3cecd16f32746b0e968ed651783114eee851e7eb492ce1"
+      },
+      "sample": {
+        "path": "build/exp652/A-sample.csv",
+        "bytes": 11186097,
+        "sha256": "439372eaaa1bffea4a96ee406048627cb9a74f4accb7667a31999e6571fffbda"
+      },
+      "run": {
+        "command": [
+          "../exp640/build/exp640/S8",
+          "-in",
+          "build/exp652/u-role/requests.csv",
+          "-out",
+          "build/exp652/100m-0-A.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 22.480311999999998,
+        "wall_s": 23.02231860999018,
+        "rss_bytes": 194351104,
+        "threads": 1,
+        "stderr": "validation/results/exp652/100m-0-A.stderr",
+        "arm": "A",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp652/100m-0-A.csv",
+          "bytes": 4013582816,
+          "sha256": "f9939b4e94993c6bbe3cecd16f32746b0e968ed651783114eee851e7eb492ce1"
+        },
+        "input": {
+          "path": "build/exp652/u-role/requests.csv",
+          "bytes": 3519802667,
+          "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+        },
+        "counters": {
+          "rows": 100000000,
+          "unreachable": 0,
+          "query_allocations": 0
+        }
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519802667,
+        "output_bytes": 4013582816,
+        "sample_rows": 239616,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "build/exp652/u-role/requests.csv",
+          "build/exp652/100m-0-A.csv",
+          "100000000",
+          "build/exp652/positions.txt",
+          "build/exp652/A-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 9.38339,
+        "wall_s": 9.38704719603993,
+        "rss_bytes": 194613248,
+        "threads": 1,
+        "stderr": "validation/results/exp652/A-contract.stderr"
+      }
+    },
+    "C": {
+      "output": {
+        "path": "build/exp652/100m-0-C.csv",
+        "bytes": 4013582679,
+        "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+      },
+      "sample": {
+        "path": "build/exp652/C-sample.csv",
+        "bytes": 11186081,
+        "sha256": "95834a673af97b993a89dfe1f9e90c7ebc04c4fb65b9a748e09d8c7fbfdc656b"
+      },
+      "run": {
+        "command": [
+          "build/exp652/C",
+          "-in",
+          "build/exp652/u-role/requests.csv",
+          "-out",
+          "build/exp652/100m-0-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 23.989732,
+        "wall_s": 23.997254752088338,
+        "rss_bytes": 207159296,
+        "threads": 1,
+        "stderr": "validation/results/exp652/100m-0-C.stderr",
+        "arm": "C",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp652/100m-0-C.csv",
+          "bytes": 4013582679,
+          "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+        },
+        "input": {
+          "path": "build/exp652/u-role/requests.csv",
+          "bytes": 3519802667,
+          "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+        },
+        "counters": {
+          "rows": 100000000,
+          "unreachable": 0,
+          "query_allocations": 0
+        }
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519802667,
+        "output_bytes": 4013582679,
+        "sample_rows": 239616,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "build/exp652/u-role/requests.csv",
+          "build/exp652/100m-0-C.csv",
+          "100000000",
+          "build/exp652/positions.txt",
+          "build/exp652/C-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 9.38379,
+        "wall_s": 9.385676747886464,
+        "rss_bytes": 194613248,
+        "threads": 1,
+        "stderr": "validation/results/exp652/C-contract.stderr"
+      }
+    }
+  },
+  "compile_command": [
+    "g++",
+    "-I",
+    "../exp619/tests",
+    "-std=c++17",
+    "-O3",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-DEXP580_PORT_PARSER",
+    "-DEXP581_PREFETCH",
+    "-DEXP582_BLOCK=64",
+    "-DEXP594_PACKED",
+    "-DEXP594_WRITER",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp654",
+    "-I",
+    "build/exp654",
+    "-I",
+    "../exp595/tests",
+    "-I",
+    "../exp594/tests",
+    "-I",
+    "../exp589/tests",
+    "-DEXP596_BATCH=8",
+    "-DEXP608_SIMD=0",
+    "-Dmain=worker608_F",
+    "-c",
+    "build/exp654/worker.cpp",
+    "-o",
+    "build/exp654/B.o",
+    "-DEXP640_TREES=8",
+    "-I",
+    "../exp646/build/exp646/deps"
+  ],
+  "link_command": [
+    "g++",
+    "build/exp654/codes.o",
+    "../exp652/build/exp652/entry.cpp",
+    "build/exp654/B.o",
+    "-DEXP607_ARM=0",
+    "-DEXP607_AVX_CHOICE=0",
+    "-DEXP607_SSE_CHOICE=0",
+    "-std=c++17",
+    "-O3",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-DEXP580_PORT_PARSER",
+    "-DEXP581_PREFETCH",
+    "-DEXP582_BLOCK=64",
+    "-DEXP594_PACKED",
+    "-DEXP594_WRITER",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp654",
+    "-I",
+    "build/exp654",
+    "-I",
+    "../exp595/tests",
+    "-I",
+    "../exp594/tests",
+    "-I",
+    "../exp589/tests",
+    "-DEXP596_BATCH=8",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "../exp652/build/exp652/compressed.o",
+    "../exp646/build/exp646/deps/libzstd.a",
+    "-static",
+    "-s",
+    "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+    "-o",
+    "build/exp654/B"
+  ],
+  "schedule": [
+    [
+      "A",
+      "C",
+      "B"
+    ],
+    [
+      "A",
+      "C",
+      "B"
+    ],
+    [
+      "C",
+      "B",
+      "A"
+    ],
+    [
+      "B",
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "A",
+      "B",
+      "C"
+    ]
+  ],
+  "complete_estimator_runs": 0,
+  "new_exact_rows": 0,
+  "disk_free": 61014044672
+}

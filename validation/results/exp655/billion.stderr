@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lhj/lhjwork/eda2026/research/exp655/validation/exp655_curve_release.py", line 226, in <module>
+    {"clean": clean, "1b": billion, "score": score}[sys.argv[1]]()
+  File "/home/lhj/lhjwork/eda2026/research/exp655/validation/exp655_curve_release.py", line 180, in billion
+    score()
+  File "/home/lhj/lhjwork/eda2026/research/exp655/validation/exp655_curve_release.py", line 193, in score
+    predictions = {"A": predictions(prior_sample, positions, requests),
+UnboundLocalError: local variable 'predictions' referenced before assignment

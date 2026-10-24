@@ -1,0 +1,62 @@
+{
+  "fold": 0,
+  "route": 5,
+  "model": {
+    "path": "build/exp640/S16-0-5.json",
+    "bytes": 56937,
+    "sha256": "389da9e5e026eb2770b448caf007f009e37f4bf5da3b3945b3e48f86fed6229a"
+  },
+  "train_rows": 48314,
+  "test_rows": 24238,
+  "params": {
+    "nan_mode": "Min",
+    "eval_metric": "MAE",
+    "iterations": 16,
+    "sampling_frequency": "PerTree",
+    "leaf_estimation_method": "Exact",
+    "random_score_type": "NormalWithModelSizeDecrease",
+    "grow_policy": "SymmetricTree",
+    "penalties_coefficient": 1,
+    "boosting_type": "Plain",
+    "model_shrink_mode": "Constant",
+    "feature_border_type": "GreedyLogSum",
+    "bayesian_matrix_reg": 0.10000000149011612,
+    "eval_fraction": 0,
+    "force_unit_auto_pair_weights": false,
+    "l2_leaf_reg": 1,
+    "random_strength": 0,
+    "rsm": 1,
+    "boost_from_average": false,
+    "model_size_reg": 0.5,
+    "pool_metainfo_options": {
+      "tags": {}
+    },
+    "use_best_model": false,
+    "random_seed": 20261023640,
+    "depth": 4,
+    "posterior_sampling": false,
+    "border_count": 256,
+    "classes_count": 0,
+    "auto_class_weights": "None",
+    "sparse_features_conflict_fraction": 0,
+    "leaf_estimation_backtracking": "AnyImprovement",
+    "best_model_min_trees": 1,
+    "model_shrink_rate": 0,
+    "min_data_in_leaf": 1,
+    "loss_function": "MAE",
+    "learning_rate": 0.30000001192092896,
+    "score_function": "L2",
+    "task_type": "CPU",
+    "leaf_estimation_iterations": 1,
+    "bootstrap_type": "No",
+    "max_leaves": 16
+  },
+  "leaf_index_equal": true,
+  "integer_prediction_equal": true,
+  "raw_max_abs_difference": {
+    "8": 0.0,
+    "16": 0.0
+  },
+  "cpu_s": 1.5202949060000002,
+  "wall_s": 0.2780485290568322
+}

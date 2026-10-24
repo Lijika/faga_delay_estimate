@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "enumerated_samples": 18,
+  "mean": 3.5714285714285716,
+  "exact_variance": 0.8401360544217686,
+  "mean_estimated_variance": 0.8401360544217686,
+  "zero_truth_branch": true,
+  "grouped_weighted_errors": true,
+  "source": {
+    "path": "validation/exp683_expanded_score.py",
+    "bytes": 13832,
+    "sha256": "a3c3b7f63efe41288efc3cc1653341afe2f01108ede53e8d2014b1293126142b"
+  },
+  "exact_pipeline_unchanged": true,
+  "full_estimator_runs": 0
+}

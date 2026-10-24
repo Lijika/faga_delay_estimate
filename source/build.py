@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the frozen exp610 submission using only this directory."""
+"""Rebuild the frozen exp688 submission using only this directory."""
 import hashlib
 import json
 import os
@@ -9,7 +9,7 @@ import subprocess
 
 
 ROOT = Path(__file__).resolve().parent
-EXPECTED_SHA256 = "7e9ab5769e11f090fcf4c189851c09076a96580d02a9c9705996e0bead259c1d"
+EXPECTED_SHA256 = "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
 
 
 def sha256(path):
@@ -44,25 +44,22 @@ def main():
     flags = arch_flags[:3] + ["-fno-exceptions"] + arch_flags[3:] + [
         "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE", "-DEXP580_PORT_PARSER",
         "-DEXP581_PREFETCH", "-DEXP582_BLOCK=64", "-DEXP594_PACKED",
-        "-DEXP594_WRITER", "-DEXP596_BATCH=8",
+        "-DEXP594_WRITER", "-DEXP596_BATCH=8", "-I", "third_party/zstd",
     ]
-    for arm, extra in [
-        ("F", ["-DEXP608_SIMD=0"]),
-        ("S", ["-DEXP608_SIMD=1", "-msse4.1"]),
-        ("D", ["-DEXP608_SIMD=1", "-DEXP607_AVX2", "-mavx2"]),
-    ]:
-        run(["g++", *flags, *extra, f"-Dmain=worker608_{arm}",
-             "-c", "src/worker.cpp", "-o", f"build/{arm}.o"])
-    # Architecture loading keeps the original exception handling.
+    run(["g++", *flags, "-DEXP608_SIMD=0", "-Dmain=worker608_F",
+         "-c", "src/worker.cpp", "-o", "build/worker.o",
+         "-DEXP640_TREES=8", "-DEXP684_V_ONLY"])
+    # Architecture loading retains the frozen exception-handling settings.
     run(["g++", *arch_flags, "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
          "-c", "src/architecture.cpp", "-o", "build/architecture-resolver.o"])
     run(["g++", *arch_flags, "-c", "src/embedded_arch.cpp", "-o", "build/arch-text.o"])
-    run(["g++", "-c", "assets/geometry.S", "-o", "build/geometry.o"])
-    run(["g++", "src/entry.cpp", "build/F.o", "build/S.o", "build/D.o",
+    run(["g++", "-c", "assets/codes.S", "-o", "build/codes.o"])
+    run(["g++", "-c", "assets/compressed.S", "-o", "build/compressed.o"])
+    run(["g++", "build/codes.o", "src/entry.cpp", "build/worker.o",
          "-DEXP607_ARM=0", "-DEXP607_AVX_CHOICE=0", "-DEXP607_SSE_CHOICE=0", *flags,
-         "build/architecture-resolver.o", "build/arch-text.o", "build/geometry.o",
-         "-static", "-s", "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
-         "-o", "build/estimate"])
+         "build/architecture-resolver.o", "build/arch-text.o", "build/compressed.o",
+         "third_party/zstd/libzstd.a", "-static", "-s",
+         "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc", "-o", "build/estimate"])
     binary = Path("build/estimate")
     size = binary.stat().st_size
     if size >= 100_000_000:
@@ -71,20 +68,28 @@ def main():
     dynamic = subprocess.check_output(["readelf", "-dW", str(binary)], text=True)
     if "INTERP" in program_headers or "(NEEDED)" in dynamic:
         raise SystemExit("ELF requires a dynamic loader or shared library")
-    digest = sha256(binary)
+    originals = json.loads(Path("provenance/original-object-identities.json").read_text())
+    objects = {}
+    for name, original in originals.items():
+        path = Path("build") / name
+        digest = sha256(path)
+        objects[name] = {
+            "bytes": path.stat().st_size, "sha256": digest,
+            "matches_frozen": digest == original["sha256"],
+        }
     report = {
         "compiler": subprocess.check_output(["g++", "--version"], text=True).splitlines()[0],
         "linker": subprocess.check_output(["ld", "--version"], text=True).splitlines()[0],
         "libc": subprocess.check_output(["ldd", "--version"], text=True).splitlines()[0],
-        "commands": commands, "binary_bytes": size, "binary_sha256": digest,
-        "static_linked": True, "under_100mb": True,
-        "matches_frozen_exp610": digest == EXPECTED_SHA256,
+        "commands": commands, "binary_bytes": size, "binary_sha256": sha256(binary),
+        "static_linked": True, "under_100mb": True, "objects": objects,
+        "matches_frozen_exp688": sha256(binary) == EXPECTED_SHA256,
         "algorithm_executed": False,
     }
     Path("build/build-report.json").write_text(json.dumps(report, indent=2) + "\n")
-    print(json.dumps({key: value for key, value in report.items() if key != "commands"}, indent=2))
-    if digest != EXPECTED_SHA256:
-        raise SystemExit("ELF differs from frozen exp610; compare the toolchain before using prior validation")
+    print(json.dumps({k: v for k, v in report.items() if k != "commands"}, indent=2))
+    if not report["matches_frozen_exp688"] or not all(v["matches_frozen"] for v in objects.values()):
+        raise SystemExit("Build differs from frozen exp688; check the toolchain before reusing validation")
 
 
 if __name__ == "__main__":

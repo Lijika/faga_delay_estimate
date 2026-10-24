@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py", line 200, in <module>
+    {"prepare": prepare, "qualify": qualify}[sys.argv[1]]()
+  File "/home/lhj/lhjwork/eda2026/research/exp654/validation/exp654_curve_bytes.py", line 126, in qualify
+    recovery = read(ROOT / "driver-recovery-freeze.json")
+  File "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_cli.py", line 27, in read
+    return json.loads(Path(path).read_text())
+  File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'validation/results/exp654/driver-recovery-freeze.json'

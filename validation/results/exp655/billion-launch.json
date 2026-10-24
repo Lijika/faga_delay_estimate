@@ -1,0 +1,6 @@
+{
+  "pid": 3341096,
+  "command": "cd /home/lhj/lhjwork/eda2026/research/exp655 && (nohup env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 ../exp491/build/venv/bin/python -B validation/exp655_curve_release.py 1b >billion.stdout 2>billion.stderr < /dev/null & echo $!)",
+  "started_at": "2026-10-24T05:48:08.021634+08:00",
+  "host": "r9r4900"
+}

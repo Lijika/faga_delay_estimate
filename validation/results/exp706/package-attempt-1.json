@@ -1,0 +1,12 @@
+{
+  "stage": "package precondition",
+  "exit_code": 1,
+  "reason": "downloaded binary mode was not 0755",
+  "path": "build/exp704/C",
+  "previous_mode": "0o775",
+  "required_mode": "0o755",
+  "attempted_label": "exp706-direct-port-generic-100m23s-cbb8a63a-dirty-20261025-0445",
+  "immutable_directory_created": false,
+  "publication_started": false,
+  "remedy": "chmod local downloaded artifact to 0755; byte identity is verified again by packager"
+}

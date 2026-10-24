@@ -1,0 +1,57 @@
+{
+  "original": {
+    "path": "../exp686/build/exp686/N",
+    "bytes": 93402392,
+    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+  },
+  "symbols": {
+    "path": "build/exp703/N-symbols",
+    "bytes": 93906568,
+    "sha256": "98459c5d960148bc92a70ec4244ef9d7653b62da5a0be7e93c0102c2332b90db"
+  },
+  "input": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "bytes": 3519782965,
+    "sha256": "34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30"
+  },
+  "expected_output": {
+    "path": "build/exp685/100m-0-V8.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "source_report": {
+    "path": "../exp685/validation/results/exp685/100m-report.json",
+    "bytes": 36895,
+    "sha256": "2313259a4408377b0ec43037f76bd64e258b99212cbef08a9ac59905f4f8ba78"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp703/validation/exp703_current_profile.py",
+      "bytes": 8130,
+      "sha256": "e26ffcdfa43c47cfadd53367d3db327bf19afcca8681784dd8f3da5893aed34a"
+    },
+    {
+      "path": "experiment/实验703-当前V8完整100M的CPU成本复核.md",
+      "bytes": 2425,
+      "sha256": "66f502e86f490158b34b527d21d16b23ff516035d142b2d44426b33d2045aafb"
+    },
+    {
+      "path": "validation/results/exp703/protocol-original.md",
+      "bytes": 2425,
+      "sha256": "66f502e86f490158b34b527d21d16b23ff516035d142b2d44426b33d2045aafb"
+    }
+  ],
+  "helpers": {
+    "perf-record": 129,
+    "perf-stat": 129,
+    "perf-report": 129,
+    "taskset": 0
+  },
+  "cpu": 8,
+  "schedule": [
+    "warmup",
+    "stat",
+    "record"
+  ],
+  "disk_free_start_bytes": 11688607744
+}

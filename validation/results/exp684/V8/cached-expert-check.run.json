@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp684/V8/expert-check",
+    "../exp631/build/exp631/features.f32",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "../exp679/build/exp679/expected-extra.i4",
+    "build/exp684/V8/expert-check.bin"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.203258,
+  "wall_s": 0.23106213193386793,
+  "rss_bytes": 1397080064,
+  "threads": 1,
+  "stderr": "validation/results/exp684/V8/cached-expert-check.stderr"
+}

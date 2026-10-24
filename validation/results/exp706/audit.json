@@ -1,0 +1,38 @@
+{
+  "all_checks_passed": true,
+  "qualifies": true,
+  "complete_100m_runs": 14,
+  "outputs_per_arm": 7,
+  "saved_s": 0.7855678333333334,
+  "ci95_saved_s": [
+    0.6841968752340541,
+    0.8869387914326126
+  ],
+  "mean_cpu_s": {
+    "A": 23.789769,
+    "C": 23.004201166666668
+  },
+  "report": {
+    "path": "validation/results/exp704/100m-report.json",
+    "bytes": 11517,
+    "sha256": "55fbc7a39a0ce370d9bef9064d55f5a524a4cf4b6056ecbb300948ebe1218ec8"
+  },
+  "freeze": {
+    "path": "validation/results/exp704/freeze.json",
+    "bytes": 7686,
+    "sha256": "9ea859da5fd0343c6384c21a95b1689780c90318dac834efe756b101be8479cc"
+  },
+  "contract": {
+    "rows": 100000000,
+    "input_bytes": 3519782965,
+    "output_bytes": 4013564765,
+    "sample_rows": 1916928,
+    "contract_passed": true
+  },
+  "exact_sample_rows": 1916928,
+  "accuracy": {
+    "path": "validation/results/exp685/score/accuracy.json",
+    "bytes": 1989099,
+    "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+  }
+}

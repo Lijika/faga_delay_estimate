@@ -1,0 +1,57 @@
+{
+  "all_checks_passed": true,
+  "complete_1b_measured": true,
+  "stage_gate": true,
+  "cpu_1b_s": 243.43411,
+  "wall_1b_s": 271.4706345971208,
+  "rss_bytes": 206045184,
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "unreachable": 0,
+  "query_allocations": 0,
+  "output": {
+    "path": "build/exp655/1b.csv",
+    "bytes": 40135629651,
+    "sha256": "f1fe259709382712d3ee59ddd1b4bb9319644b6df5bda7e020517f843a7238e0"
+  },
+  "contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135629651,
+    "sample_rows": 239616,
+    "contract_passed": true
+  },
+  "sample_accuracy": {
+    "point_pp": 98.64750842203487,
+    "family_ci975_pp": [
+      98.60114972134276,
+      98.69293226017092
+    ],
+    "stratified_ci975_pp": [
+      98.63566428294637,
+      98.65935256112338
+    ],
+    "conservative_ci975_pp": [
+      98.60114972134276,
+      98.69293226017092
+    ]
+  },
+  "sample_delta_accuracy": {
+    "point_pp": 0.19012777818033777,
+    "family_ci975_pp": [
+      0.17851486567440059,
+      0.20171636342659718
+    ],
+    "stratified_ci975_pp": [
+      0.18536067023039493,
+      0.1948948861302806
+    ],
+    "conservative_ci975_pp": [
+      0.17851486567440059,
+      0.20171636342659718
+    ]
+  },
+  "final_accuracy_goal_verified": false,
+  "platform_score_verified": false
+}

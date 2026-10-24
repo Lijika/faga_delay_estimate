@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp640/S8",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp640/timing-screen-0-S8.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.307172,
+  "wall_s": 0.3086720099672675,
+  "rss_bytes": 479526912,
+  "threads": 1,
+  "stderr": "validation/results/exp640/timing-screen-0-S8.stderr"
+}

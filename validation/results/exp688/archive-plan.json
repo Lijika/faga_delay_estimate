@@ -1,0 +1,145 @@
+{
+  "files": [
+    {
+      "source": "research/exp649/build/exp649/100m-0-A.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp649/build/exp649/100m-0-A.csv",
+      "expected": {
+        "path": "build/exp649/100m-0-A.csv",
+        "bytes": 4013558744,
+        "sha256": "4cd2aa445c1103edcafbc37601f055cbf76f79976f0f14c076fe0bb1b19b1313"
+      },
+      "rebuild_cwd": "research/exp649",
+      "rebuild_command": [
+        "../exp640/build/exp640/S8",
+        "-in",
+        "build/exp649/u-role/requests.csv",
+        "-out",
+        "build/exp649/100m-0-A.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp649/build/exp649/100m-0-A.csv",
+        "r9r4900:lhjwork/eda2026/research/exp649/build/exp649/100m-0-A.csv"
+      ]
+    },
+    {
+      "source": "research/exp649/build/exp649/100m-0-C.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp649/build/exp649/100m-0-C.csv",
+      "expected": {
+        "path": "build/exp649/100m-0-C.csv",
+        "bytes": 4013558443,
+        "sha256": "53900b0535b14a9428f1937ee4e9479e6cb334c20aa0318272aad09f91b388cd"
+      },
+      "rebuild_cwd": "research/exp649",
+      "rebuild_command": [
+        "build/exp649/C",
+        "-in",
+        "build/exp649/u-role/requests.csv",
+        "-out",
+        "build/exp649/100m-0-C.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp649/build/exp649/100m-0-C.csv",
+        "r9r4900:lhjwork/eda2026/research/exp649/build/exp649/100m-0-C.csv"
+      ]
+    },
+    {
+      "source": "research/exp652/build/exp652/100m-0-A.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp652/build/exp652/100m-0-A.csv",
+      "expected": {
+        "path": "build/exp652/100m-0-A.csv",
+        "bytes": 4013582816,
+        "sha256": "f9939b4e94993c6bbe3cecd16f32746b0e968ed651783114eee851e7eb492ce1"
+      },
+      "rebuild_cwd": "research/exp652",
+      "rebuild_command": [
+        "../exp640/build/exp640/S8",
+        "-in",
+        "build/exp652/u-role/requests.csv",
+        "-out",
+        "build/exp652/100m-0-A.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp652/build/exp652/100m-0-A.csv",
+        "r9r4900:lhjwork/eda2026/research/exp652/build/exp652/100m-0-A.csv"
+      ]
+    },
+    {
+      "source": "research/exp652/build/exp652/100m-0-C.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp652/build/exp652/100m-0-C.csv",
+      "expected": {
+        "path": "build/exp652/100m-0-C.csv",
+        "bytes": 4013582679,
+        "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+      },
+      "rebuild_cwd": "research/exp652",
+      "rebuild_command": [
+        "build/exp652/C",
+        "-in",
+        "build/exp652/u-role/requests.csv",
+        "-out",
+        "build/exp652/100m-0-C.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp652/build/exp652/100m-0-C.csv",
+        "r9r4900:lhjwork/eda2026/research/exp652/build/exp652/100m-0-C.csv"
+      ]
+    },
+    {
+      "source": "research/exp663/build/exp663/100m-0-A.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp663/build/exp663/100m-0-A.csv",
+      "expected": {
+        "path": "build/exp663/100m-0-A.csv",
+        "bytes": 4013597897,
+        "sha256": "4787db96e5f94518b16ad30c21d296249cb1694b56414053d3192971c4e20aa2"
+      },
+      "rebuild_cwd": "research/exp663",
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp663/u-role/requests.csv",
+        "-out",
+        "build/exp663/100m-0-A.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp663/build/exp663/100m-0-A.csv",
+        "r9r4900:lhjwork/eda2026/research/exp663/build/exp663/100m-0-A.csv"
+      ]
+    },
+    {
+      "source": "research/exp663/build/exp663/100m-0-C.csv",
+      "destination": "build/remote-output-archives/exp688/research/exp663/build/exp663/100m-0-C.csv",
+      "expected": {
+        "path": "build/exp663/100m-0-C.csv",
+        "bytes": 4013597635,
+        "sha256": "25269c71a29c260614c2dca3041de9af08c397d65deee4b4309128c8a5d8ddf3"
+      },
+      "rebuild_cwd": "research/exp663",
+      "rebuild_command": [
+        "build/exp663/C",
+        "-in",
+        "build/exp663/u-role/requests.csv",
+        "-out",
+        "build/exp663/100m-0-C.csv"
+      ],
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp688/research/exp663/build/exp663/100m-0-C.csv",
+        "r9r4900:lhjwork/eda2026/research/exp663/build/exp663/100m-0-C.csv"
+      ]
+    }
+  ],
+  "local_free_start_bytes": 317227933696,
+  "remote_df_start": "Filesystem        1B-blocks         Used   Available Use% Mounted on\n/dev/sda2      470855794688 425419194368 21443244032  96% /\n",
+  "all_are_completed_output_copies": true
+}

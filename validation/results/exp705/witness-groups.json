@@ -1,0 +1,110 @@
+{
+  "all_checks_passed": true,
+  "descriptive_after_primary_result": true,
+  "changes_to_primary_gate": false,
+  "source_result": {
+    "path": "validation/results/exp705/report.json",
+    "bytes": 1954,
+    "sha256": "534c080cdd1a2f06bc900d34175e5456431dfd1a028b759eda821eaf2bb6e94a"
+  },
+  "full_word_transfer_excluding_own_path": true,
+  "inference_uses_oracle_words": true,
+  "groups": {
+    "all": {
+      "transfers": 127013,
+      "reason_counts": [
+        0,
+        24000,
+        37087,
+        65601,
+        325
+      ],
+      "changed_endpoint_x_shifts": {
+        "-14": 37800,
+        "14": 27801
+      },
+      "invalid_transfers": 61087,
+      "invalid_first_four": 11208,
+      "invalid_last_four": 19981
+    },
+    "both_event_zero": {
+      "transfers": 115451,
+      "reason_counts": [
+        0,
+        21080,
+        35161,
+        58885,
+        325
+      ],
+      "changed_endpoint_x_shifts": {
+        "-14": 33766,
+        "14": 25119
+      },
+      "invalid_transfers": 56241,
+      "invalid_first_four": 10513,
+      "invalid_last_four": 17238
+    },
+    "both_ordinary_no_post_block": {
+      "transfers": 114910,
+      "reason_counts": [
+        0,
+        20999,
+        35102,
+        58484,
+        325
+      ],
+      "changed_endpoint_x_shifts": {
+        "-14": 33454,
+        "14": 25030
+      },
+      "invalid_transfers": 56101,
+      "invalid_first_four": 10509,
+      "invalid_last_four": 17145
+    }
+  },
+  "held_out_position_transfer": {
+    "all": {
+      "rows": 239616,
+      "covered": 192072,
+      "exactly_recovered": 179752,
+      "excess_quantiles_ps": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        31.0,
+        733.0
+      ]
+    },
+    "ordinary_no_post_block": {
+      "rows": 234611,
+      "covered": 189971,
+      "exactly_recovered": 177889,
+      "excess_quantiles_ps": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        27.0,
+        733.0
+      ]
+    }
+  },
+  "port_pairs": 59904,
+  "rows": 239616,
+  "new_exact_rows": 0,
+  "new_training_runs": 0,
+  "complete_estimator_runs": 0,
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp705/validation/exp705_witness_groups.py",
+      "bytes": 4591,
+      "sha256": "daeeece93969ad20f2ba55757bc7a461ae84cd9c6f0eb9843de1e9d89b9f6e55"
+    },
+    {
+      "path": "../exp677/validation/exp677_map_events.py",
+      "bytes": 12796,
+      "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+    }
+  ]
+}

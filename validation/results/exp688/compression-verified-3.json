@@ -1,0 +1,34 @@
+{
+  "source": "../exp652/build/exp652/100m-0-C.csv",
+  "expected": {
+    "path": "build/exp652/100m-0-C.csv",
+    "bytes": 4013582679,
+    "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+  },
+  "archive": "../exp652/build/exp652/100m-0-C.csv.zst",
+  "command": [
+    "zstd",
+    "--single-thread",
+    "-1",
+    "--check",
+    "--no-progress",
+    "-q",
+    "-c",
+    "../exp652/build/exp652/100m-0-C.csv"
+  ],
+  "restore_command": "zstd -d -q -c ../exp652/build/exp652/100m-0-C.csv.zst > ../exp652/build/exp652/100m-0-C.csv",
+  "rebuild_cwd": "../exp652",
+  "rebuild_command": [
+    "build/exp652/C",
+    "-in",
+    "build/exp652/u-role/requests.csv",
+    "-out",
+    "build/exp652/100m-0-C.csv"
+  ],
+  "archive_identity": {
+    "path": "../exp652/build/exp652/100m-0-C.csv.zst",
+    "bytes": 1497883178,
+    "sha256": "cfd85dd83c5604d12a983e92b1308ed41816b76a2a1a5537b8c803e2e497de13"
+  },
+  "full_uncompressed_sha_verified": true
+}

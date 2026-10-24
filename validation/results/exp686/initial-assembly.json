@@ -1,0 +1,71 @@
+{
+  "A": {
+    "object": "build/exp686/objects/A.o",
+    "symbols": [
+      [
+        "0000000000000000",
+        "require(bool, char const*) [clone .part.0]"
+      ],
+      [
+        "0000000000000030",
+        "prepare596(int const*, unsigned int, Prepared596&, Trace*) [clone .constprop.0]"
+      ],
+      [
+        "0000000000002a00",
+        "worker608_F(int, char**)"
+      ]
+    ],
+    "stack_frame_subtractions_hex": [
+      "0x8",
+      "0xa8",
+      "0x1000",
+      "0x388"
+    ]
+  },
+  "V8": {
+    "object": "build/exp686/objects/V8.o",
+    "symbols": [
+      [
+        "0000000000000000",
+        "require(bool, char const*) [clone .part.0]"
+      ],
+      [
+        "0000000000000030",
+        "prepare596(int const*, unsigned int, Prepared596&, Trace*) [clone .constprop.0]"
+      ],
+      [
+        "0000000000002cf0",
+        "worker608_F(int, char**)"
+      ]
+    ],
+    "stack_frame_subtractions_hex": [
+      "0x8",
+      "0xf8",
+      "0x1000",
+      "0x388"
+    ]
+  },
+  "HV8": {
+    "object": "build/exp686/objects/HV8.o",
+    "symbols": [
+      [
+        "0000000000000000",
+        "require(bool, char const*) [clone .part.0]"
+      ],
+      [
+        "0000000000000030",
+        "prepare596(int const*, unsigned int, Prepared596&, Trace*) [clone .constprop.0]"
+      ],
+      [
+        "00000000000034d0",
+        "worker608_F(int, char**)"
+      ]
+    ],
+    "stack_frame_subtractions_hex": [
+      "0x8",
+      "0xf8",
+      "0x1000",
+      "0x388"
+    ]
+  }
+}

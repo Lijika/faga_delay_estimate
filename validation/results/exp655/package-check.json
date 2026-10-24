@@ -1,0 +1,112 @@
+{
+  "all_passed": true,
+  "binary": {
+    "path": "build/exp655/empty-check/estimate",
+    "bytes": 93398296,
+    "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+  },
+  "empty_directory": true,
+  "empty_environment": true,
+  "static_linked": true,
+  "rows": 100000000,
+  "unique_rows": 100000000,
+  "port_pairs": 59904,
+  "run": {
+    "command": [
+      "/usr/bin/env",
+      "-i",
+      "/bin/sh",
+      "-c",
+      "cd \"$1\" && exec ./estimate -in \"$2\" -out \"$3\"",
+      "--",
+      "/home/lhj/lhjwork/eda2026/research/exp655/build/exp655/empty-check",
+      "/home/lhj/lhjwork/eda2026/research/exp652/build/exp652/u-role/requests.csv",
+      "/home/lhj/lhjwork/eda2026/research/exp655/build/exp655/empty-directory-100m.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 23.460783999999997,
+    "wall_s": 23.4641023541335,
+    "rss_bytes": 206630912,
+    "threads": 1,
+    "stderr": "validation/results/exp655/empty-directory-100m.stderr"
+  },
+  "output": {
+    "path": "build/exp655/empty-directory-100m.csv",
+    "bytes": 4013582679,
+    "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+  },
+  "counters": {
+    "rows": 100000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  },
+  "contract_reused_from": {
+    "output": {
+      "path": "build/exp652/100m-0-C.csv",
+      "bytes": 4013582679,
+      "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+    },
+    "sample": {
+      "path": "build/exp652/C-sample.csv",
+      "bytes": 11186081,
+      "sha256": "95834a673af97b993a89dfe1f9e90c7ebc04c4fb65b9a748e09d8c7fbfdc656b"
+    },
+    "run": {
+      "command": [
+        "build/exp652/C",
+        "-in",
+        "build/exp652/u-role/requests.csv",
+        "-out",
+        "build/exp652/100m-0-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.989732,
+      "wall_s": 23.997254752088338,
+      "rss_bytes": 207159296,
+      "threads": 1,
+      "stderr": "validation/results/exp652/100m-0-C.stderr",
+      "arm": "C",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp652/100m-0-C.csv",
+        "bytes": 4013582679,
+        "sha256": "b1039e563c613317c2796b1795866ce69ba7aa0eaaff3ce61fa49d1dc517cdec"
+      },
+      "input": {
+        "path": "build/exp652/u-role/requests.csv",
+        "bytes": 3519802667,
+        "sha256": "5bebb27fecfb8fbb4b9c180d312fc017f9bfe4b911050a540635df8d42da729b"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    "contract": {
+      "rows": 100000000,
+      "input_bytes": 3519802667,
+      "output_bytes": 4013582679,
+      "sample_rows": 239616,
+      "contract_passed": true
+    },
+    "contract_run": {
+      "command": [
+        "../exp580/build/exp580/contract-check",
+        "check",
+        "build/exp652/u-role/requests.csv",
+        "build/exp652/100m-0-C.csv",
+        "100000000",
+        "build/exp652/positions.txt",
+        "build/exp652/C-sample.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 9.38379,
+      "wall_s": 9.385676747886464,
+      "rss_bytes": 194613248,
+      "threads": 1,
+      "stderr": "validation/results/exp652/C-contract.stderr"
+    }
+  },
+  "repeated_evidence": "../exp652/validation/results/exp652"
+}

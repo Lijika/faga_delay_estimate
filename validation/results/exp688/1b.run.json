@@ -1,0 +1,15 @@
+{
+  "command": [
+    "../exp686/build/exp686/N",
+    "-in",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "-out",
+    "build/exp688/1b.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 243.302538,
+  "wall_s": 269.0094929418992,
+  "rss_bytes": 206372864,
+  "threads": 1,
+  "stderr": "validation/results/exp688/1b.stderr"
+}

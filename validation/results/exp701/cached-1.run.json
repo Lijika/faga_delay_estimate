@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp701/audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp701/trace-1.raw",
+    "1"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.737703,
+  "wall_s": 0.9715701038949192,
+  "rss_bytes": 1052143616,
+  "threads": 1,
+  "stderr": "validation/results/exp701/cached-1.stderr"
+}

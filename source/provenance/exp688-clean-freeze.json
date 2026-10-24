@@ -1,0 +1,25 @@
+{
+  "binary": {
+    "path": "build/exp686/N",
+    "bytes": 93402392,
+    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp688/validation/exp688_release.py",
+      "bytes": 11355,
+      "sha256": "4e685005b80d74d5f77dc6dee55d53156427d5ba8288d3553eefae5ae6b435ab"
+    },
+    {
+      "path": "experiment/实验688-V8函数边界阶段接入与扩大评分1B.md",
+      "bytes": 3563,
+      "sha256": "b0cb8ffb1a13e97ad5c208e52f4f52243ffa1d1997012b406e67732a0e510dfe"
+    },
+    {
+      "path": "validation/results/exp688/protocol-original.md",
+      "bytes": 3563,
+      "sha256": "b0cb8ffb1a13e97ad5c208e52f4f52243ffa1d1997012b406e67732a0e510dfe"
+    }
+  ],
+  "disk_free_start_bytes": 46741839872
+}

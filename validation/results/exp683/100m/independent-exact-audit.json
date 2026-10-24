@@ -1,0 +1,32 @@
+{
+  "expanded_rows": 1916928,
+  "old_unique_rows": 239616,
+  "overlap_rows": 4600,
+  "repeated_exact_values_equal": true,
+  "self_check": {
+    "passed": true,
+    "matching_labels": true,
+    "zero_delay": true,
+    "mismatch_rejected": true
+  },
+  "source": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_exact_audit.py",
+    "bytes": 3615,
+    "sha256": "f0bce78fb3793fcda7dd1625f5914afb64a78980f2dd9e77ad324132ef3e4179"
+  },
+  "old_exact": {
+    "path": "../exp679/build/exp679/exact.csv",
+    "bytes": 17162158,
+    "sha256": "dc32afb1f22ac11dbdd8a4ac619610f7dae07a6ac123a88d7e5a43282147600e"
+  },
+  "expanded_exact": {
+    "path": "build/exp683/100m/exact.csv",
+    "bytes": 140984263,
+    "sha256": "4348c7dd79c50521726754943bb5a1a2524ea0c817fa9e1ef1aa0bfde6ac2c7e"
+  },
+  "span_checks": 12,
+  "label_cpu_s": 5331.159849,
+  "label_max_rss_bytes": 957792256,
+  "complete_estimator_runs": 0,
+  "accuracy_not_read": true
+}

@@ -1,0 +1,8 @@
+{
+  "source_and_experiment_diff_passed": true,
+  "full_diff_exit_code": 2,
+  "raw_help_whitespace_lines": 63,
+  "raw_help_preserved": true,
+  "raw_help_path": "validation/results/exp683/1b/score-exp655/archive-zstd-help.txt",
+  "note": "Only verbatim installed CLI help has trailing whitespace; source and experiment documents pass."
+}

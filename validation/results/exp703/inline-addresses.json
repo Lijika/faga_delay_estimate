@@ -1,0 +1,13 @@
+{
+  "command": [
+    "addr2line",
+    "-a",
+    "-f",
+    "-C",
+    "-i",
+    "-e",
+    "/home/lhj/lhjwork/eda2026/research/exp703/build/exp703/N-debug"
+  ],
+  "cwd": "/home/lhj/lhjwork/eda2026/research/exp703",
+  "exit_code": 0
+}
