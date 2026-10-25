@@ -27,24 +27,28 @@ class CsvViewReader591 {
         return found;
     }
 
-    size_t nextBatch(std::string_view* lines, size_t capacity) {
-        require(capacity > 0, "positive batch capacity");
-        if (!next(lines[0])) return 0;
-        size_t count = 1;
-        // The first view may point into carry_; refill only after consuming the batch.
-        while (count < capacity && pos_ < filled_) {
-            const char* begin = buffer_.data() + pos_;
-            const char* nl = static_cast<const char*>(std::memchr(begin, '\n', filled_ - pos_));
-            if (!nl) break;
-            auto line = std::string_view(begin, size_t(nl - begin));
-            pos_ = size_t(nl - buffer_.data()) + 1;
-            if (!line.empty() && line.back() == '\r') line.remove_suffix(1);
-#ifdef EXP591_VERIFY_READER
-            require(reference_.next(reference_line_) && line == reference_line_, "batch reader mismatch");
-#endif
-            lines[count++] = line;
+    bool nextParsed(std::string_view& line, int32_t* q, bool first, bool& parsed) {
+        parsed=false;
+        const char* begin=buffer_.data()+pos_;
+        const char* end=buffer_.data()+filled_;
+        size_t consumed=0;
+        if (row723(begin,end,q,consumed)) {
+            line=std::string_view(begin,consumed-1);
+            pos_+=consumed;
+            parsed=true;
+        } else if (first) {
+            return next(line);
+        } else {
+            const char* nl=static_cast<const char*>(std::memchr(begin,'\n',size_t(end-begin)));
+            if (!nl) return false;
+            line=std::string_view(begin,size_t(nl-begin));
+            pos_=size_t(nl-buffer_.data())+1;
+            if (!line.empty() && line.back()=='\r') line.remove_suffix(1);
         }
-        return count;
+#ifdef EXP591_VERIFY_READER
+        require(reference_.next(reference_line_) && line==reference_line_, "parsed reader mismatch");
+#endif
+        return true;
     }
 
  private:

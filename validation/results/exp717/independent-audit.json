@@ -1,0 +1,16 @@
+{
+  "all_checks_passed": true,
+  "dictionary_reselected": true,
+  "rows": 239616,
+  "minimum_calls_recomputed": true,
+  "full_port_bindings_preserved": true,
+  "maps_decoded": 974,
+  "serialized_original_position_costs_equal": true,
+  "all_grid_raw_replay_reused": true,
+  "tiny_exhaustive_cases": 511,
+  "report": {
+    "path": "validation/results/exp717/report.json",
+    "bytes": 19312,
+    "sha256": "d96bebdd8ff3d2ddb820d0ab9984754f53cb86178bf1ffc8b6ea4925205d2ef6"
+  }
+}

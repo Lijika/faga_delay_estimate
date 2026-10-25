@@ -1,0 +1,3 @@
+    36cf:	62 f2 6d 28 50 0e    	vpdpbusd ymm1,ymm2,YMMWORD PTR [rsi]
+    36d5:	62 f2 7d 28 50 4e 01 	vpdpbusd ymm1,ymm0,YMMWORD PTR [rsi+0x20]
+    3728:	62 f2 75 48 50 06    	vpdpbusd zmm0,zmm1,ZMMWORD PTR [rsi]

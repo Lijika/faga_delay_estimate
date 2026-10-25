@@ -1,0 +1,139 @@
+{
+  "all_checks_passed": true,
+  "reports": {
+    "F": {
+      "file": {
+        "path": "build/exp721/F.bin",
+        "bytes": 2070200,
+        "sha256": "2fb0c04e2a6abae32f6075967063ad83f783704ac60407e52f3266b4a465b6e4"
+      },
+      "maps": 1036,
+      "certified_positions": 68376000,
+      "unique_rows": 10339,
+      "unique_columns": 1036,
+      "local_sample_bytes": 2312680,
+      "valid_points": 24374330,
+      "positive_excess_points": 3001111,
+      "max_line_excess": 706,
+      "estimated_unshared_pool_bytes": 245879190.39999998,
+      "design_standard_error_bytes": 6198143.711153683,
+      "approximate_unshared_upper95_bytes": 258027552.07386118,
+      "exact_binding_directory_bytes": 1707244,
+      "shared_sample_bytes": 2070200,
+      "comparison_quantiles": [
+        4.0,
+        10.0,
+        11.0,
+        11.0,
+        12.0,
+        12.0
+      ],
+      "within_8_comparisons_fraction": 0.08942307692307692,
+      "capacity_gate": false,
+      "comparisons_gate": false
+    },
+    "N": {
+      "file": {
+        "path": "build/exp721/N.bin",
+        "bytes": 1003760,
+        "sha256": "01a4fd5ab2686e73eb0bb57e14471937b22477cb0e5b03d5e062e5e7f8808eae"
+      },
+      "maps": 1036,
+      "certified_positions": 68376000,
+      "unique_rows": 7809,
+      "unique_columns": 1036,
+      "local_sample_bytes": 1188984,
+      "valid_points": 24374330,
+      "positive_excess_points": 3001111,
+      "max_line_excess": 706,
+      "estimated_unshared_pool_bytes": 130512373.06666666,
+      "design_standard_error_bytes": 4294227.194130394,
+      "approximate_unshared_upper95_bytes": 138929058.36716223,
+      "exact_binding_directory_bytes": 1707244,
+      "shared_sample_bytes": 1003760,
+      "comparison_quantiles": [
+        4.0,
+        8.0,
+        11.0,
+        11.0,
+        12.0,
+        12.0
+      ],
+      "within_8_comparisons_fraction": 0.5875,
+      "capacity_gate": false,
+      "comparisons_gate": false
+    },
+    "R": {
+      "file": {
+        "path": "build/exp721/R.bin",
+        "bytes": 1681556,
+        "sha256": "c24eec25d1e2f05b0fa1d39612454eed08dbe879bdc0d5d48350c9830fb9e543"
+      },
+      "maps": 1036,
+      "certified_positions": 68376000,
+      "unique_rows": 7934,
+      "unique_columns": 1036,
+      "local_sample_bytes": 2048848,
+      "valid_points": 24374330,
+      "positive_excess_points": 3001111,
+      "max_line_excess": 706,
+      "estimated_unshared_pool_bytes": 217840333.06666678,
+      "design_standard_error_bytes": 5756444.757656125,
+      "approximate_unshared_upper95_bytes": 229122964.7916728,
+      "exact_binding_directory_bytes": 1707244,
+      "shared_sample_bytes": 1681556,
+      "comparison_quantiles": [
+        4.0,
+        10.0,
+        11.0,
+        11.0,
+        12.0,
+        12.0
+      ],
+      "within_8_comparisons_fraction": 0.08942307692307692,
+      "capacity_gate": false,
+      "comparisons_gate": false
+    },
+    "NR": {
+      "file": {
+        "path": "build/exp721/NR.bin",
+        "bytes": 978364,
+        "sha256": "177145c209565c4da53a06f688eced3e0bb89d978cef3ce797c50860ceae4192"
+      },
+      "maps": 1036,
+      "certified_positions": 68376000,
+      "unique_rows": 7442,
+      "unique_columns": 1036,
+      "local_sample_bytes": 1163288,
+      "valid_points": 24374330,
+      "positive_excess_points": 3001111,
+      "max_line_excess": 706,
+      "estimated_unshared_pool_bytes": 127432853.33333339,
+      "design_standard_error_bytes": 4176853.54285095,
+      "approximate_unshared_upper95_bytes": 135619486.27732125,
+      "exact_binding_directory_bytes": 1707244,
+      "shared_sample_bytes": 978364,
+      "comparison_quantiles": [
+        4.0,
+        8.0,
+        11.0,
+        11.0,
+        12.0,
+        12.0
+      ],
+      "within_8_comparisons_fraction": 0.5875,
+      "capacity_gate": false,
+      "comparisons_gate": false
+    }
+  },
+  "selected": false,
+  "selection": "NR fixed before results",
+  "complete_estimator_runs": 0,
+  "new_exact_rows": 0,
+  "all_pool_measured": false,
+  "unknown_selector_available": false,
+  "cpu_claim": false,
+  "accuracy_claim": false,
+  "removed_bytes": 0,
+  "disk_free_end_bytes": 298338582528
+}

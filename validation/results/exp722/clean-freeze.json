@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/exp722_release.py",
+      "bytes": 16676,
+      "sha256": "dffee974b44fc45d106f37a5ef48092c84ce1ddee8ed981c60c1dcd6dd4aad7d"
+    },
+    {
+      "path": "experiment/实验722-T2D6阶段接入与完整1B.md",
+      "bytes": 2183,
+      "sha256": "b40b0b155edabca78f806da5aa51f874e2013941d86a726d82f71bf3422b2307"
+    },
+    {
+      "path": "validation/results/exp722/protocol-original.md",
+      "bytes": 2183,
+      "sha256": "b40b0b155edabca78f806da5aa51f874e2013941d86a726d82f71bf3422b2307"
+    }
+  ],
+  "candidate": {
+    "path": "../exp720/build/exp720/estimate",
+    "bytes": 93360152,
+    "sha256": "1facd3b259664eb614878e036c56c8c8810d345dbf6f99ec90f8547e2351aef0"
+  },
+  "audit": {
+    "path": "../exp720/validation/results/exp720/independent-audit.json",
+    "bytes": 2537,
+    "sha256": "12e85afe349d589476febe8b8f152f025753222ac70d874ce7714f84e8e3ca0f"
+  },
+  "disk_free_start_bytes": 17167409152
+}

@@ -1,0 +1,46 @@
+{
+  "all_checks_passed": true,
+  "scale": 12,
+  "slopes": [
+    [
+      150,
+      127
+    ],
+    [
+      150,
+      -125
+    ],
+    [
+      -150,
+      127
+    ],
+    [
+      -150,
+      -125
+    ]
+  ],
+  "original_arcs": 8192,
+  "valid_nets": 9417280,
+  "skipped_nets": 86400,
+  "all_four_edge_inequalities": true,
+  "independent_shortest_path_rows": 832,
+  "complete_row_dijkstra_equal": true,
+  "table_shape": [
+    4,
+    208,
+    288
+  ],
+  "dtype": "<i2",
+  "bias_range": [
+    456,
+    4042
+  ],
+  "table_bytes": 479232,
+  "payload_bytes": 483264,
+  "port_potential_units_exact": true,
+  "asset": {
+    "path": "build/exp732/bias.bin",
+    "bytes": 479232,
+    "sha256": "babf4d26a9dffd05e3d51ef103cac2b0aa695f25fa7b7f1b4435637dbd552c0d"
+  }
+}

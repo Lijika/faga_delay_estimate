@@ -1,0 +1,236 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_exact.py",
+      "bytes": 14181,
+      "sha256": "cd3a40465ea89e9b10fcf61aea30d9d2d015509c1c45e85222509a52b13a3080"
+    },
+    {
+      "path": "validation/exp683_stratified_sample.cpp",
+      "bytes": 5039,
+      "sha256": "9d06f837dc9794eb4edcbad4294428eef1d5ff2f223cba382de2ec24cac938ac"
+    },
+    {
+      "path": "experiment/实验720-T2D6静态部署与新100M联合验证.md",
+      "bytes": 4212,
+      "sha256": "300b1cdb2befcd35ddf89bb52dda19fc23d772751c5079c99c8a5d3e1f6f586c"
+    },
+    {
+      "path": "validation/results/exp720/expanded/protocol-original.md",
+      "bytes": 4212,
+      "sha256": "300b1cdb2befcd35ddf89bb52dda19fc23d772751c5079c99c8a5d3e1f6f586c"
+    },
+    {
+      "path": "build/exp720/expanded/stratified-sample",
+      "bytes": 27672,
+      "sha256": "d9db43da7df187f07aac0455861759b4d12212aa87abfb7d7f431575a6f08feb"
+    },
+    {
+      "path": "build/exp720/expanded/sampling-plan.bin",
+      "bytes": 7907352,
+      "sha256": "5e9293207104f2ca4a67f7cce15cd3cd06d58a43c5098731421f0d0508e086af"
+    },
+    {
+      "path": "build/exp720/expanded/sources",
+      "bytes": 1456,
+      "sha256": "344a88233f073993a61c3a0779134cc5885c28b669278a8381e84adea03a56b2"
+    },
+    {
+      "path": "build/exp720/expanded/targets",
+      "bytes": 1824,
+      "sha256": "4d8a2e4dc277636c014f4cd6d7f843765710e922300bd8225824d5a3d16666cf"
+    },
+    {
+      "path": "build/exp720/pair-populations.json",
+      "bytes": 479235,
+      "sha256": "5e44d6fa670b3217814f410e59a7b00eadd276808d766fdd2236ec6034ec2e3b"
+    },
+    {
+      "path": "../exp679/build/exp679/sample-requests.csv",
+      "bytes": 8434847,
+      "sha256": "b10b79a4dca334ecbd0c7107ed34ba8f5d7d9fa3657f1f6a2d54c071092ff5b5"
+    },
+    {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    {
+      "path": "../exp679/build/exp679/sample-events",
+      "bytes": 7271672,
+      "sha256": "8c2d418b85e08928160c1af5f4a9072189a0e73e60f6cfe3d3a3f601711ccc5c"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_scale.py",
+      "bytes": 18342,
+      "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp501/validation/exp501_fresh_full_labels.py",
+      "bytes": 12292,
+      "sha256": "2ab485b36229fec9be2d504f019d5bbbbe00a9025677fc8855ad756c128c08e9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp580/validation/exp580_complete_speed.py",
+      "bytes": 8504,
+      "sha256": "bda1692a41b9c16b11517ffa78acbde40b029d718cd6b40c3b667569d759c76a"
+    },
+    {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../exp679/doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    }
+  ],
+  "input": {
+    "path": "build/exp720/u-role/requests.csv",
+    "bytes": 3519786871,
+    "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+  },
+  "rows": 100000000,
+  "sample_rows": 1916928,
+  "samples_per_pair": 32,
+  "seed": 20261027720,
+  "case": "100m",
+  "cpu_label_budget_s": 10000,
+  "complete_program_runs": 0,
+  "untouched_scores": true,
+  "input_unique_evidence": {
+    "input": {
+      "path": "build/exp720/u-role/requests.csv",
+      "bytes": 3519786871,
+      "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+    },
+    "rows": 100000000,
+    "unique_rows": 100000000,
+    "port_pairs": 59904,
+    "proposal": {
+      "path": "build/exp720/proposal/requests.csv",
+      "bytes": 4223730030,
+      "sha256": "4f7686f5e940a86a858e7ff825293e99daff72840df78c5e01f0a618adc8775b"
+    },
+    "filtering": {
+      "visited_proposal_rows": 108460406,
+      "rejected_source_rows": 8460395,
+      "rejected_history_rows": 11
+    },
+    "training_source_pins": 960505,
+    "historical_pairs_after_source_filter": 22308485,
+    "source_pin_overlap": 0,
+    "registered_history_overlap": 0,
+    "history": [
+      {
+        "path": "../exp685/../exp588/build/exp588/known-local.csv.gz",
+        "bytes": 27444728,
+        "sha256": "a6e0951b4d86766417a747744221572f2eff21f5dca05b72f6df6c2c079e9dda"
+      },
+      {
+        "path": "../exp685/../exp501/build/exp501/u-role/requests.csv",
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      },
+      {
+        "path": "../exp685/../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      {
+        "path": "../exp685/../exp588/build/exp588/u-role/requests.csv",
+        "bytes": 35198107,
+        "sha256": "ea48b5c5f6b92117b1a112c13c15a993daee3946deb80351662f43d164eab96a"
+      },
+      {
+        "path": "../exp685/../exp624/build/exp624/u-role/requests.csv",
+        "bytes": 35199533,
+        "sha256": "31d972f235a6e91bcff80641384085753dc723c198e36dc1c7ddb60cd269b06a"
+      },
+      {
+        "path": "../exp685/../exp642/build/exp642/u-role/requests.csv",
+        "bytes": 351978282,
+        "sha256": "56507ad489247b519f353764c3cb65b81f0b9987a6e85b9a780fa5342866628f"
+      },
+      {
+        "path": "../exp685/../exp580/build/exp580/scale-exact.csv",
+        "bytes": 17162642,
+        "sha256": "032b458ab2bc659bb98eb47c7e5204fc38b0a01f054e9131d7d8fcc9366c6709"
+      },
+      {
+        "path": "../exp685/../exp643/build/exp643/S8-sample.csv",
+        "bytes": 11185923,
+        "sha256": "5c2fbc2e5a76bd01342e18fdc1f30b97d293f0e0099b9d88e7f3bf89cf445be5"
+      },
+      {
+        "path": "../exp685/../exp644/build/exp644/1b-sample.csv",
+        "bytes": 11185923,
+        "sha256": "5c2fbc2e5a76bd01342e18fdc1f30b97d293f0e0099b9d88e7f3bf89cf445be5"
+      },
+      {
+        "path": "../exp685/../exp649/build/exp649/sample-requests.csv",
+        "bytes": 8434706,
+        "sha256": "70738fb122b945bcf8acca9d8e79ecff3d088c4956533003138c65c819880a41"
+      },
+      {
+        "path": "../exp685/../exp652/build/exp652/sample-requests.csv",
+        "bytes": 8434355,
+        "sha256": "e9c68c61f3c9d86a9c2ba51154d3179e3b6d4fd4fc082a515da3537911983aee"
+      },
+      {
+        "path": "../exp685/../exp655/build/exp655/1b-sample.csv",
+        "bytes": 11185928,
+        "sha256": "e51c32067433bb57ceaa130773f14e505044d3761cb27e541e63b984d1fdfc2b"
+      },
+      {
+        "path": "../exp685/../exp663/build/exp663/sample-requests.csv",
+        "bytes": 8435034,
+        "sha256": "b086f00c3214a7796ccf9d58a6ebc2c78d9cc0a6158df02a82789d82dafb6836"
+      },
+      {
+        "path": "../exp685/../exp679/build/exp679/sample-requests.csv",
+        "bytes": 8434847,
+        "sha256": "b10b79a4dca334ecbd0c7107ed34ba8f5d7d9fa3657f1f6a2d54c071092ff5b5"
+      },
+      {
+        "path": "../exp685/../exp683/build/exp683/100m/sample-requests.csv",
+        "bytes": 67475639,
+        "sha256": "70a6d38c3d8518a8e61d89a2ccc3fa092a35c73c02e9f7070bca7d14032ddc39"
+      },
+      {
+        "path": "../exp685/../exp683/build/exp683/1b/sample-requests.csv",
+        "bytes": 134950710,
+        "sha256": "ef08b5c8abe4c31914b5b2800fb304e8683825ddbdad1c176c11417a11e18eba"
+      },
+      {
+        "path": "../exp685/build/exp685/expanded/sample-requests.csv",
+        "bytes": 67474987,
+        "sha256": "934dd151ae28dada21c22fb5eee196e866b4c13a2aa33dee76400a5146fa4e60"
+      }
+    ],
+    "minimum_pair_rows": 1408,
+    "maximum_pair_rows": 1900,
+    "independent_checker": {
+      "path": "build/exp720/u-role/check/check.json",
+      "bytes": 631720,
+      "sha256": "998b46d950141ae6dd781721539175069172da6d8ade853f778f6f29c279f785"
+    }
+  },
+  "disk_free_start_bytes": 25884786688
+}

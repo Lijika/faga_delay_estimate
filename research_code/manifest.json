@@ -1,0 +1,349 @@
+{
+  "files": [
+    {
+      "source": "tests/exp707_prepare_compare.cpp",
+      "published": "research_code/tests/exp707_prepare_compare.cpp",
+      "bytes": 2519,
+      "sha256": "8072e42c7d5a7b2ed5ac837efade2577bbe8314f1088474b7b59806b0a65459a"
+    },
+    {
+      "source": "tests/exp707_prepare_metadata.cpp",
+      "published": "research_code/tests/exp707_prepare_metadata.cpp",
+      "bytes": 3725,
+      "sha256": "35a8c49a98571dadd6266fbc907078dee7e443889e8cdac5cc6b7d248be1fe06"
+    },
+    {
+      "source": "tests/exp707_prepare_metadata.h",
+      "published": "research_code/tests/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "source": "tests/exp709_prepare_check.cpp",
+      "published": "research_code/tests/exp709_prepare_check.cpp",
+      "bytes": 1492,
+      "sha256": "2a5dbec5019fffbf3e35470240dd90ad3945ad1e8218049f2909aa1ea42a9a0f"
+    },
+    {
+      "source": "tests/exp710_motion_words.cpp",
+      "published": "research_code/tests/exp710_motion_words.cpp",
+      "bytes": 11655,
+      "sha256": "7e7384bfbd1529cc6dea118592b71a7b9af098d795458384a92df55272c4388a"
+    },
+    {
+      "source": "tests/exp713_local_support.cpp",
+      "published": "research_code/tests/exp713_local_support.cpp",
+      "bytes": 3547,
+      "sha256": "f2936294aa45a9d2b1c4efb9e88c590f5d316a8467caaf8ac217511000f843ca"
+    },
+    {
+      "source": "tests/exp714_curve_check.cpp",
+      "published": "research_code/tests/exp714_curve_check.cpp",
+      "bytes": 2058,
+      "sha256": "9ccf6ebc64c8dbc755e07ba01a7273cd5a1899467f52b56a050cb50383258edb"
+    },
+    {
+      "source": "tests/exp715_repeat_words.cpp",
+      "published": "research_code/tests/exp715_repeat_words.cpp",
+      "bytes": 6579,
+      "sha256": "6d0d6dbc17eed1dad9b50288b0f74b20b64cd94dd34a376a753ffccf50e4144a"
+    },
+    {
+      "source": "tests/exp716_isa_check.cpp",
+      "published": "research_code/tests/exp716_isa_check.cpp",
+      "bytes": 3943,
+      "sha256": "630d3bd8a7159c071beae74cf0127b41539b36ddae95b23a9c16efe008a33000"
+    },
+    {
+      "source": "tests/exp716_vnni_geometry.h",
+      "published": "research_code/tests/exp716_vnni_geometry.h",
+      "bytes": 2244,
+      "sha256": "38902806caaf2a7f718ed674551dc40fb217cb2622da9e38b277ce0f7b207c64"
+    },
+    {
+      "source": "tests/exp717_shared_fragments.cpp",
+      "published": "research_code/tests/exp717_shared_fragments.cpp",
+      "bytes": 11379,
+      "sha256": "521420d6ebcaabaa8bb1e4629d2bf000eac2a84732912a3f07442e936dd29f1b"
+    },
+    {
+      "source": "tests/exp718_dense_fragments.cpp",
+      "published": "research_code/tests/exp718_dense_fragments.cpp",
+      "bytes": 8687,
+      "sha256": "594646131015b2b38786102d7c0f56b9e65e1bbf8882c0b37d87188d25218800"
+    },
+    {
+      "source": "tests/exp723_fused_csv.cpp",
+      "published": "research_code/tests/exp723_fused_csv.cpp",
+      "bytes": 6707,
+      "sha256": "1b4a03d6b9f09b1c37aafe0196da032420a4f99b9d9397b965070b6360593521"
+    },
+    {
+      "source": "tests/exp723_fused_parse.h",
+      "published": "research_code/tests/exp723_fused_parse.h",
+      "bytes": 1400,
+      "sha256": "dd63bf68cf5dc171baccf257a7866bcf478d6145e29bd84348e6c7ec677cd72d"
+    },
+    {
+      "source": "tests/exp727_coordinate_masks.cpp",
+      "published": "research_code/tests/exp727_coordinate_masks.cpp",
+      "bytes": 2282,
+      "sha256": "a22775af09bff5835a0204e8bf194720f047738e97322d24fe4e84875dc43a9c"
+    },
+    {
+      "source": "validation/exp707_compiled_prepare.py",
+      "published": "research_code/validation/exp707_compiled_prepare.py",
+      "bytes": 12279,
+      "sha256": "de9a936204ad434bb2ebf4f47ffce06389496f3ac63d6fc1a7749ea1fc13cc7a"
+    },
+    {
+      "source": "validation/exp708_release.py",
+      "published": "research_code/validation/exp708_release.py",
+      "bytes": 15212,
+      "sha256": "c1db912ce492fcb179d244c24b1c760e0fa52a1ee80084228268c9235477847b"
+    },
+    {
+      "source": "validation/exp709_cost_skeleton.py",
+      "published": "research_code/validation/exp709_cost_skeleton.py",
+      "bytes": 11857,
+      "sha256": "5f58693c0fb39b04b81fdb0c5cacc1e179249e2b36e591544dbaa7cca4ff46be"
+    },
+    {
+      "source": "validation/exp710_motion_words.py",
+      "published": "research_code/validation/exp710_motion_words.py",
+      "bytes": 11149,
+      "sha256": "348c246ab699b80c4da91ea7dfa10d254fe26115731cbd1ece062f1ced0deefc"
+    },
+    {
+      "source": "validation/exp711_support_functions.py",
+      "published": "research_code/validation/exp711_support_functions.py",
+      "bytes": 9593,
+      "sha256": "c732ef2ab8028ef25b510ff075078e092106b659ba26f6f3fd2947c709329943"
+    },
+    {
+      "source": "validation/exp712_tie_support.py",
+      "published": "research_code/validation/exp712_tie_support.py",
+      "bytes": 17895,
+      "sha256": "fa79445df67a727f0dfae84cd6be20d973981066c5c8c3b6bc69322fb4220811"
+    },
+    {
+      "source": "validation/exp713_audit.py",
+      "published": "research_code/validation/exp713_audit.py",
+      "bytes": 6353,
+      "sha256": "b24fdc969aee2a5253cef265418555cd14b38a843124ebbff797c62e03d3343f"
+    },
+    {
+      "source": "validation/exp713_local_support.py",
+      "published": "research_code/validation/exp713_local_support.py",
+      "bytes": 13102,
+      "sha256": "7e869a5628140565ab0fc7b5bd3e46d4ecf2dd530b3ea3ff06f0095a7ad0de77"
+    },
+    {
+      "source": "validation/exp714_audit.py",
+      "published": "research_code/validation/exp714_audit.py",
+      "bytes": 3615,
+      "sha256": "225f528e6edc05fa62e36b7257496371224751643156addc09bef870c14ce0fb"
+    },
+    {
+      "source": "validation/exp714_curve_pipeline.py",
+      "published": "research_code/validation/exp714_curve_pipeline.py",
+      "bytes": 9293,
+      "sha256": "0831d004af6a389455f2f3822de8a9b46205d441409af497feb31e755916f0ad"
+    },
+    {
+      "source": "validation/exp715_repeat_words.py",
+      "published": "research_code/validation/exp715_repeat_words.py",
+      "bytes": 8927,
+      "sha256": "362a8c9ddd5a46318115eba8cae332c999805e44d25d791e7c688878e413b91c"
+    },
+    {
+      "source": "validation/exp716_audit.py",
+      "published": "research_code/validation/exp716_audit.py",
+      "bytes": 4609,
+      "sha256": "634cf364ccc7beb31c728d026f36e2f034c4befd05660d92c1965a35313ad148"
+    },
+    {
+      "source": "validation/exp716_vnni_workers.py",
+      "published": "research_code/validation/exp716_vnni_workers.py",
+      "bytes": 11636,
+      "sha256": "60ae1d5a5c2c52b8b66c02e41f1e0ab75f262faae5dba50ea8152897adc84b61"
+    },
+    {
+      "source": "validation/exp717_shared_fragments.py",
+      "published": "research_code/validation/exp717_shared_fragments.py",
+      "bytes": 13820,
+      "sha256": "234b0d37c184793bd44ead6281bae6baefd2936b7c868cfc663139f2dfcdf996"
+    },
+    {
+      "source": "validation/exp718_dense_fragments.py",
+      "published": "research_code/validation/exp718_dense_fragments.py",
+      "bytes": 8936,
+      "sha256": "69c8d6fca76c1f576f6971789afd61fd1b4e32d53705fa133f60739a1ef1e843"
+    },
+    {
+      "source": "validation/exp719_leaf_budget.py",
+      "published": "research_code/validation/exp719_leaf_budget.py",
+      "bytes": 16007,
+      "sha256": "1c28e62a0bcb5854f378af9eac5a99793d9def09831a66defe3c1ddcaebb441a"
+    },
+    {
+      "source": "validation/exp720_close_audit.py",
+      "published": "research_code/validation/exp720_close_audit.py",
+      "bytes": 9775,
+      "sha256": "5c7916d5fd9c1b6ac0b11bb96bf5706d39f0e218751a9e1365671cb6da892ba0"
+    },
+    {
+      "source": "validation/exp720_fresh_scale.py",
+      "published": "research_code/validation/exp720_fresh_scale.py",
+      "bytes": 10991,
+      "sha256": "45e725bd039574a303a3d0e88cbbdc2f7eecf4366cbf58c8e26fb532fe792b24"
+    },
+    {
+      "source": "validation/exp720_leaf_cli.py",
+      "published": "research_code/validation/exp720_leaf_cli.py",
+      "bytes": 13545,
+      "sha256": "63c408b349f8a4084fa50e5febefb32ea7518de2ffd8d2fb95158923ca09429b"
+    },
+    {
+      "source": "validation/exp721_line_normalization.py",
+      "published": "research_code/validation/exp721_line_normalization.py",
+      "bytes": 12274,
+      "sha256": "cf0df0e10d2f358fb52209141475bbf6b9e3477a0c364d2966bf0875a03fc930"
+    },
+    {
+      "source": "validation/exp722_archive.py",
+      "published": "research_code/validation/exp722_archive.py",
+      "bytes": 3868,
+      "sha256": "fd2f80404de5e72b31acb4049eb52e3ac458c5958759a49a5078b32e08f9d781"
+    },
+    {
+      "source": "validation/exp722_close_audit.py",
+      "published": "research_code/validation/exp722_close_audit.py",
+      "bytes": 7285,
+      "sha256": "e6134410dd54bbc4ac834fa2dcb86d8f0e303ccd8a4f51b475d32e0b5ff8adf2"
+    },
+    {
+      "source": "validation/exp722_column_archive.py",
+      "published": "research_code/validation/exp722_column_archive.py",
+      "bytes": 6359,
+      "sha256": "62f9f8097740edcb9ad4f5c671d98bd07142f3466d392f45e383cb999bd8c7d9"
+    },
+    {
+      "source": "validation/exp722_release.py",
+      "published": "research_code/validation/exp722_release.py",
+      "bytes": 16676,
+      "sha256": "dffee974b44fc45d106f37a5ef48092c84ce1ddee8ed981c60c1dcd6dd4aad7d"
+    },
+    {
+      "source": "validation/exp722_retain_outputs.py",
+      "published": "research_code/validation/exp722_retain_outputs.py",
+      "bytes": 4150,
+      "sha256": "804fb3bec37f4cd1f606b8e9f4761abf9c5c1abdbba270c97d71e3d36f9b479b"
+    },
+    {
+      "source": "validation/exp722_score.py",
+      "published": "research_code/validation/exp722_score.py",
+      "bytes": 3843,
+      "sha256": "cbfd25e5914c56389c1d0ed02a0bf83f97af9564fffb0abc26fa4a47aa46e026"
+    },
+    {
+      "source": "validation/exp723_audit.py",
+      "published": "research_code/validation/exp723_audit.py",
+      "bytes": 3778,
+      "sha256": "5e5b18e1efce90af25abf3d0780d534a11a2530d5cb53fc20ab2c40dee0acf8f"
+    },
+    {
+      "source": "validation/exp723_fused_csv.py",
+      "published": "research_code/validation/exp723_fused_csv.py",
+      "bytes": 11234,
+      "sha256": "7ebfad3564738dca3bd90914d23ec71b0fad307783edc02da54664024335ca4c"
+    },
+    {
+      "source": "validation/exp724_affine_curves.py",
+      "published": "research_code/validation/exp724_affine_curves.py",
+      "bytes": 12376,
+      "sha256": "3f3bc9e9b78537b53795a54bf0468075190a5ef63c949b8a741062730a28ab8f"
+    },
+    {
+      "source": "validation/exp725_audit.py",
+      "published": "research_code/validation/exp725_audit.py",
+      "bytes": 5414,
+      "sha256": "4462f291b3c0effb367f316570dfa1838970bd3530d71135a2d20f95c661fea2"
+    },
+    {
+      "source": "validation/exp725_release.py",
+      "published": "research_code/validation/exp725_release.py",
+      "bytes": 12958,
+      "sha256": "82fa844e70894dc7d81ed4954c42744b48e966fea7714f7f0cb8ff39c0d283f5"
+    },
+    {
+      "source": "validation/exp726_final_target.py",
+      "published": "research_code/validation/exp726_final_target.py",
+      "bytes": 16574,
+      "sha256": "becd958d17b968899cc3be2a7f2849a79aa89f04f3768bc75caaa6d6a2e28ba2"
+    },
+    {
+      "source": "validation/exp727_audit.py",
+      "published": "research_code/validation/exp727_audit.py",
+      "bytes": 4086,
+      "sha256": "7ba371f631374a4da78d43ead5efdeb3f5ac16d2267c1e4e65cdf6989f634bc2"
+    },
+    {
+      "source": "validation/exp727_coordinate_masks.py",
+      "published": "research_code/validation/exp727_coordinate_masks.py",
+      "bytes": 9553,
+      "sha256": "3a9aa2f17ff8cbf5d6225e8d52e6934bc57f35a93dab1a5d69026df546e1ef6c"
+    },
+    {
+      "source": "validation/exp728_audit.py",
+      "published": "research_code/validation/exp728_audit.py",
+      "bytes": 5804,
+      "sha256": "fde67d0622534a3e18248424914a077500886d19c6a367f96e16208c980f00ea"
+    },
+    {
+      "source": "validation/exp728_release.py",
+      "published": "research_code/validation/exp728_release.py",
+      "bytes": 13383,
+      "sha256": "38a1259b1195a6dea8c6253c8b2c88baa92e216cb88a84877fbbfec4a18d4d55"
+    },
+    {
+      "source": "validation/exp729_periodic_words.py",
+      "published": "research_code/validation/exp729_periodic_words.py",
+      "bytes": 14503,
+      "sha256": "96607a420b082f3f03ffd4076b0b08d0f225f334b2c14e8ed70da3639e732d95"
+    },
+    {
+      "source": "validation/exp730_compiled_capacity.py",
+      "published": "research_code/validation/exp730_compiled_capacity.py",
+      "bytes": 18957,
+      "sha256": "983a3a6b7cd2e4111da0e34d82d0e4705a777ff11a81dc65c5d8a49d86a993a8"
+    },
+    {
+      "source": "validation/exp731_audit.py",
+      "published": "research_code/validation/exp731_audit.py",
+      "bytes": 8598,
+      "sha256": "daa25c5cf48bd86e16298b37d3ca6b20e7883e76f1589f932eaa138b738a34cd"
+    },
+    {
+      "source": "validation/exp731_regularized_words.py",
+      "published": "research_code/validation/exp731_regularized_words.py",
+      "bytes": 14910,
+      "sha256": "0ffcb49c878d879d7e403fbfe24f0d77dea1d305382d80b2412e5b33e2edbd0b"
+    },
+    {
+      "source": "validation/exp732_audit.py",
+      "published": "research_code/validation/exp732_audit.py",
+      "bytes": 3848,
+      "sha256": "7ec9eaac90e8cff0312d241f774bee791cebfd41fcc90c05e6979e00485eacfa"
+    },
+    {
+      "source": "validation/exp732_port_bounds.py",
+      "published": "research_code/validation/exp732_port_bounds.py",
+      "bytes": 14420,
+      "sha256": "897294b97a674ef44c9544a99ed7f1663b69fcf6758a2a129b7671b3cd212298"
+    }
+  ],
+  "source_commit": "ee7275c7c69ffc64acba9196d588633eba01b880",
+  "source_worktree_snapshot": true,
+  "historical_runners_need_original_paths": true
+}

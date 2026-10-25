@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp713/support",
+    "../exp535/build/exp535/queries.bin",
+    "build/exp713"
+  ],
+  "exit_code": 0,
+  "user_s": 0.093142,
+  "sys_s": 0.031046999999999998,
+  "cpu_s": 0.124189,
+  "wall_s": 0.12543186405673623,
+  "rss_bytes": 109797376,
+  "threads": 1
+}

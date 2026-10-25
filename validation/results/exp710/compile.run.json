@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/src",
+    "-I",
+    "build/exp710",
+    "tests/exp710_motion_words.cpp",
+    "build/exp707/local/architecture.o",
+    "build/exp707/local/embedded.o",
+    "-static",
+    "-o",
+    "build/exp710/compile-words"
+  ],
+  "exit_code": 0,
+  "user_s": 2.291818,
+  "sys_s": 0.623652,
+  "cpu_s": 2.91547,
+  "wall_s": 3.0951592870005697,
+  "rss_bytes": 191242240,
+  "threads": 1
+}

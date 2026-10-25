@@ -1,5 +1,5 @@
 {
-  "source": "r9r4900 frozen exp686/N, packaged as exp688",
+  "source": "r9r4900 frozen exp727, packaged as exp728",
   "files": [
     {
       "destination": "arch/SRB_Arc.json",
@@ -45,19 +45,19 @@
     },
     {
       "destination": "include/curve_origin654.h",
-      "path": "research/exp686/build/exp686/curve_origin654.h",
+      "path": "research/exp727/build/exp727/curve_origin654.h",
       "bytes": 44,
       "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
     },
     {
       "destination": "include/exp579-models.h",
-      "path": "research/exp686/build/exp686/exp579-models.h",
+      "path": "research/exp727/build/exp727/exp579-models.h",
       "bytes": 228386,
       "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
     },
     {
       "destination": "include/exp582_int8_geometry.h",
-      "path": "research/exp686/build/exp686/exp582_int8_geometry.h",
+      "path": "research/exp727/build/exp727/exp582_int8_geometry.h",
       "bytes": 4077,
       "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
     },
@@ -69,57 +69,75 @@
     },
     {
       "destination": "include/exp596_csv_batch.h",
-      "path": "research/exp686/build/exp686/exp596_csv_batch.h",
-      "bytes": 3225,
-      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      "path": "research/exp727/build/exp727/exp596_csv_batch.h",
+      "bytes": 3242,
+      "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
     },
     {
       "destination": "include/exp601_port_parser.h",
-      "path": "research/exp686/build/exp686/exp601_port_parser.h",
-      "bytes": 4290,
-      "sha256": "d88d88d8a2d83ac98b13e6f9e45e7330e48a182ab8962ec9786cf2e9e27a64e2"
+      "path": "research/exp727/build/exp727/exp601_port_parser.h",
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
     },
     {
       "destination": "include/exp608_geometry.h",
-      "path": "research/exp686/build/exp686/exp608_geometry.h",
+      "path": "research/exp727/build/exp727/exp608_geometry.h",
       "bytes": 4422,
       "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
     },
     {
       "destination": "include/exp614_geometry_features.h",
-      "path": "research/exp686/build/exp686/exp614_geometry_features.h",
+      "path": "research/exp727/build/exp727/exp614_geometry_features.h",
       "bytes": 1852,
       "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
     },
     {
       "destination": "include/exp652_distance_curve_lookup.h",
-      "path": "research/exp686/build/exp686/exp652_distance_curve_lookup.h",
+      "path": "research/exp727/build/exp727/exp652_distance_curve_lookup.h",
       "bytes": 1181,
       "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
     },
     {
       "destination": "include/exp652_geometry_restore.h",
-      "path": "research/exp686/build/exp686/exp652_geometry_restore.h",
-      "bytes": 1246,
-      "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      "path": "research/exp727/build/exp727/exp652_geometry_restore.h",
+      "bytes": 1243,
+      "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
     },
     {
       "destination": "include/exp679_hv_events.h",
-      "path": "research/exp686/build/exp686/exp679_hv_events.h",
+      "path": "research/exp727/build/exp727/exp679_hv_events.h",
       "bytes": 495,
       "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
     },
     {
+      "destination": "include/exp707_prepare_metadata.h",
+      "path": "research/exp727/build/exp727/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "destination": "include/exp723_fused_parse.h",
+      "path": "research/exp727/build/exp727/exp723_fused_parse.h",
+      "bytes": 1400,
+      "sha256": "dd63bf68cf5dc171baccf257a7866bcf478d6145e29bd84348e6c7ec677cd72d"
+    },
+    {
+      "destination": "include/reference727.h",
+      "path": "research/exp727/build/exp727/reference727.h",
+      "bytes": 203222,
+      "sha256": "72a71677c98de6783f9c320528d45fe2383e85b74d8d6428169291291d558387"
+    },
+    {
       "destination": "include/replacement679.h",
-      "path": "research/exp686/build/exp686/replacement679.h",
+      "path": "research/exp727/build/exp727/replacement679.h",
       "bytes": 39054,
       "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
     },
     {
       "destination": "include/symmetric640.h",
-      "path": "research/exp686/build/exp686/symmetric640.h",
-      "bytes": 637999,
-      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      "path": "research/exp727/build/exp727/symmetric640.h",
+      "bytes": 143264,
+      "sha256": "089816f5c4e3949a7b21a39c31dd34271a5429717729805b9ecbdc97f5ecb811"
     },
     {
       "destination": "models/H64-final.json",
@@ -128,100 +146,100 @@
       "sha256": "f26fb6f3f0f1894ff9a8faeca79b63721b198e288dc813b1c62a5f555a732f3d"
     },
     {
-      "destination": "models/S16-final-0.json",
-      "path": "research/exp640/build/exp640/S16-final-0.json",
-      "bytes": 57143,
-      "sha256": "9215f566334eb0480f3a08c4917289db90dc5993a2bdad6f2aae31d2fec8e974"
+      "destination": "models/T2D6-final-0.json",
+      "path": "research/exp720/build/exp720/T2D6-final-0.json",
+      "bytes": 35439,
+      "sha256": "6fe09db5b9df456cc2e493ab667f28e70b05d9de4d6566fd7ded7e1a541839c1"
     },
     {
-      "destination": "models/S16-final-1.json",
-      "path": "research/exp640/build/exp640/S16-final-1.json",
-      "bytes": 55964,
-      "sha256": "006817f50915ce74fa779f292311f14b0b5f2e0b53b2e3e608d1347de40bc47b"
+      "destination": "models/T2D6-final-1.json",
+      "path": "research/exp720/build/exp720/T2D6-final-1.json",
+      "bytes": 35670,
+      "sha256": "6315a4d261968efb213d31622cb8457471deb4461bcbe5b92f92ae11f14ed506"
     },
     {
-      "destination": "models/S16-final-10.json",
-      "path": "research/exp640/build/exp640/S16-final-10.json",
-      "bytes": 56816,
-      "sha256": "7116ca9ffa233238b77370672f083d999bb3d442f5da7e9406566db304d4ccf9"
+      "destination": "models/T2D6-final-10.json",
+      "path": "research/exp720/build/exp720/T2D6-final-10.json",
+      "bytes": 35429,
+      "sha256": "81fb7c5b51f463bbb04700eef6f8d509820a8dda1bf44bd6889670e743d8e362"
     },
     {
-      "destination": "models/S16-final-11.json",
-      "path": "research/exp640/build/exp640/S16-final-11.json",
-      "bytes": 55414,
-      "sha256": "6e4d9c1c07ebe404925a4d06dc4bbca1c161083f6a313f6e7251d5a5e9b9b227"
+      "destination": "models/T2D6-final-11.json",
+      "path": "research/exp720/build/exp720/T2D6-final-11.json",
+      "bytes": 34904,
+      "sha256": "5973cac560dfb1c127fb4f35360ef719846e37fb421d19984132f4976cf84e92"
     },
     {
-      "destination": "models/S16-final-12.json",
-      "path": "research/exp640/build/exp640/S16-final-12.json",
-      "bytes": 57179,
-      "sha256": "da32b3b90004facc69aad56b49203731286fc555a9dbc197fd141a72636fdf22"
+      "destination": "models/T2D6-final-12.json",
+      "path": "research/exp720/build/exp720/T2D6-final-12.json",
+      "bytes": 36381,
+      "sha256": "2558fb6ea0c9b267ef2c111dd7a8c4f6c73eb2c5d7862bc283d26d5a8479cbf2"
     },
     {
-      "destination": "models/S16-final-13.json",
-      "path": "research/exp640/build/exp640/S16-final-13.json",
-      "bytes": 56198,
-      "sha256": "f22946022bfdc13c0b09437b6cea33c42503d855a713b398e228d93ae0a00d7d"
+      "destination": "models/T2D6-final-13.json",
+      "path": "research/exp720/build/exp720/T2D6-final-13.json",
+      "bytes": 35343,
+      "sha256": "b738ab7d92f31f03b24c583c8a2b8c33c6786995d69a8b1ce6a18858c8791084"
     },
     {
-      "destination": "models/S16-final-14.json",
-      "path": "research/exp640/build/exp640/S16-final-14.json",
-      "bytes": 56819,
-      "sha256": "6cf71d54e51fda1f2b6e87a1c380a84b63938d1ff7199a67c636281a7580947b"
+      "destination": "models/T2D6-final-14.json",
+      "path": "research/exp720/build/exp720/T2D6-final-14.json",
+      "bytes": 35335,
+      "sha256": "9b325d5f15be5bcf86f28bdadc262c08cc31ed1b2758504c244a678817ffe672"
     },
     {
-      "destination": "models/S16-final-15.json",
-      "path": "research/exp640/build/exp640/S16-final-15.json",
-      "bytes": 55806,
-      "sha256": "6c448f510fe92150be034aae9eee6e068166858ce9c7078032a4cfd4122db6f1"
+      "destination": "models/T2D6-final-15.json",
+      "path": "research/exp720/build/exp720/T2D6-final-15.json",
+      "bytes": 34865,
+      "sha256": "d2c5e9d128c07b552064d9fd80eb585937f1b12a799d1d9751acb555f857db7b"
     },
     {
-      "destination": "models/S16-final-2.json",
-      "path": "research/exp640/build/exp640/S16-final-2.json",
-      "bytes": 56500,
-      "sha256": "c3856a67a3bbe01e6ae952222b4e9a52b061c4fddae7d0f1bf3a2cc179b74143"
+      "destination": "models/T2D6-final-2.json",
+      "path": "research/exp720/build/exp720/T2D6-final-2.json",
+      "bytes": 35236,
+      "sha256": "cab46ea918cbfa0bb3e0c9bddb6720a3502400881f04f2175a9930e0faa7fdc7"
     },
     {
-      "destination": "models/S16-final-3.json",
-      "path": "research/exp640/build/exp640/S16-final-3.json",
-      "bytes": 55632,
-      "sha256": "08e93a06a4905e2fe2627c13f1550ba8adf76fb07e3df03b8bc18d7f8edc6fbf"
+      "destination": "models/T2D6-final-3.json",
+      "path": "research/exp720/build/exp720/T2D6-final-3.json",
+      "bytes": 34963,
+      "sha256": "d902967917876796d594c4712a4d4b24fb53a7a4e2ee7ec81c0db2b8ba7648d6"
     },
     {
-      "destination": "models/S16-final-4.json",
-      "path": "research/exp640/build/exp640/S16-final-4.json",
-      "bytes": 56692,
-      "sha256": "31bf57b0f2f1408391dcae1cac6ce4e6996639f1cfec282caa56e950ec1661b5"
+      "destination": "models/T2D6-final-4.json",
+      "path": "research/exp720/build/exp720/T2D6-final-4.json",
+      "bytes": 35799,
+      "sha256": "e1293c7fb469e88b3822f441dba515516df3f3e6e650999fbb6b4594ad888732"
     },
     {
-      "destination": "models/S16-final-5.json",
-      "path": "research/exp640/build/exp640/S16-final-5.json",
-      "bytes": 56679,
-      "sha256": "a0f3d3ec84b5db82f000ca4cf2dc1b2fbae14e7599e1119c31b982d13f647c84"
+      "destination": "models/T2D6-final-5.json",
+      "path": "research/exp720/build/exp720/T2D6-final-5.json",
+      "bytes": 36014,
+      "sha256": "47ed47757a3eba3ed3e12d33f15e4786ce1a692835db806b5858428aef0b133c"
     },
     {
-      "destination": "models/S16-final-6.json",
-      "path": "research/exp640/build/exp640/S16-final-6.json",
-      "bytes": 57093,
-      "sha256": "296f2d09dd072af9ee6f176f8402c7586b9f5b0bf76e3894c743a6ad57cdaf75"
+      "destination": "models/T2D6-final-6.json",
+      "path": "research/exp720/build/exp720/T2D6-final-6.json",
+      "bytes": 35805,
+      "sha256": "aa8e873eee7a3cbeaa27520a6f23901891994021afb938f640eda38e87147c66"
     },
     {
-      "destination": "models/S16-final-7.json",
-      "path": "research/exp640/build/exp640/S16-final-7.json",
-      "bytes": 55457,
-      "sha256": "7146348f776d844728a1acb4e3f85816cedaa198275966fdad3d6d3b57e26f9f"
+      "destination": "models/T2D6-final-7.json",
+      "path": "research/exp720/build/exp720/T2D6-final-7.json",
+      "bytes": 34891,
+      "sha256": "98bd022949363ce7d16c0127807b1a6eee0deb0d7c1fd593e983dbc89d58d25e"
     },
     {
-      "destination": "models/S16-final-8.json",
-      "path": "research/exp640/build/exp640/S16-final-8.json",
-      "bytes": 56922,
-      "sha256": "e7caa5bac6bae9bd1c83265d165795c721ce0249876d73e5de7074e20a67b936"
+      "destination": "models/T2D6-final-8.json",
+      "path": "research/exp720/build/exp720/T2D6-final-8.json",
+      "bytes": 36882,
+      "sha256": "268723118c33e694122f281b428ef2c1ab2e3d8c94286941341a99398653869d"
     },
     {
-      "destination": "models/S16-final-9.json",
-      "path": "research/exp640/build/exp640/S16-final-9.json",
-      "bytes": 56107,
-      "sha256": "926c7d025f044dde55f825d1965c200c05c9cbf5a77f84542bacc41ac21f5e47"
+      "destination": "models/T2D6-final-9.json",
+      "path": "research/exp720/build/exp720/T2D6-final-9.json",
+      "bytes": 35331,
+      "sha256": "fb5300103f53bbf4d5d45c509f831709415d31752c0b03c0810eda17b25ecf80"
     },
     {
       "destination": "models/V64-final.json",
@@ -230,16 +248,16 @@
       "sha256": "893c106dd78de584fe5b0d7678abbec471741efef1ba6d4e94f15a6e78d37f0c"
     },
     {
-      "destination": "provenance/exp640-final-training.json",
-      "path": "research/exp640/validation/results/exp640/final-training.json",
-      "bytes": 29452,
-      "sha256": "19d57d29d17032d4dfa3a5a31d410be15d2547e1a5ee3e90e2b83c32648de25a"
-    },
-    {
       "destination": "provenance/exp684-V8-final-training.json",
       "path": "research/exp684/validation/results/exp684/V8/final-training.json",
       "bytes": 4295,
       "sha256": "07be8e578564b266f74b38f6aa67e02f6d2bc3229c48f51a547347ef4c8c61e5"
+    },
+    {
+      "destination": "provenance/exp720-final-training.json",
+      "path": "research/exp720/validation/results/exp720/final-training.json",
+      "bytes": 7217,
+      "sha256": "17f3d3f3eb62cc9a1501db5ff9c8be1fc68bec05fa98853c68447b0db9f357cb"
     },
     {
       "destination": "provenance/original-codes.S",
@@ -303,15 +321,21 @@
     },
     {
       "destination": "src/worker.cpp",
-      "path": "research/exp686/build/exp686/worker.cpp",
-      "bytes": 11994,
-      "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      "path": "research/exp727/build/exp727/worker.cpp",
+      "bytes": 12484,
+      "sha256": "61cc836b059b0a648176c68b5b93f0273be87e9e72ff5bcf4f7212e29252870e"
     },
     {
       "destination": "tests/expert-check.cpp",
-      "path": "research/exp686/build/exp686/expert-check.cpp",
+      "path": "research/exp727/build/exp727/expert-check.cpp",
       "bytes": 3134,
       "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+    },
+    {
+      "destination": "tests/model-check.cpp",
+      "path": "research/exp727/build/exp727/model-check.cpp",
+      "bytes": 2365,
+      "sha256": "8d5c0b78f5a8822181bd7413b822485ebca88f92827ec8b147dcdd99ec557ec1"
     },
     {
       "destination": "third_party/zstd/COPYRIGHT.libzstd",

@@ -1,0 +1,28 @@
+{
+  "arm": "C",
+  "iteration": 6,
+  "run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "build/exp727/estimate",
+      "-in",
+      "../exp720/build/exp720/u-role/requests.csv",
+      "-out",
+      "build/exp727/100m-6-C.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 15.8077,
+    "sys_s": 2.12969,
+    "cpu_s": 17.93739,
+    "wall_s": 17.99856818607077,
+    "rss_bytes": 206635008,
+    "threads": 1
+  },
+  "output": {
+    "path": "build/exp727/100m-6-C.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  }
+}

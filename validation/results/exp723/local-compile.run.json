@@ -1,0 +1,27 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/src",
+    "-I",
+    "build/exp723/local",
+    "-I",
+    "tests",
+    "tests/exp723_fused_csv.cpp",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/src/architecture.cpp",
+    "-o",
+    "build/exp723/local/component"
+  ],
+  "exit_code": 0,
+  "user_s": 3.614252,
+  "sys_s": 1.427217,
+  "cpu_s": 5.041469,
+  "wall_s": 5.037371377999079,
+  "rss_bytes": 173568000,
+  "threads": 1
+}

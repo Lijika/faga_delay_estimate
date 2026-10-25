@@ -1,0 +1,59 @@
+{
+  "all_passed": true,
+  "selected": "M",
+  "stats": {
+    "M": {
+      "saved_s": 1.2886948333333332,
+      "simultaneous_ci95_s": [
+        1.1961484705742775,
+        1.381241196092389
+      ],
+      "qualifies": true,
+      "priority_goal": true
+    },
+    "C": {
+      "saved_s": 1.0449553333333341,
+      "simultaneous_ci95_s": [
+        0.9336643198721386,
+        1.1562463467945296
+      ],
+      "qualifies": true,
+      "priority_goal": true
+    }
+  },
+  "mean_cpu_s": {
+    "A": 23.051325833333333,
+    "M": 21.762631,
+    "C": 22.0063705
+  },
+  "report": {
+    "path": "validation/results/exp707/100m-report.json",
+    "bytes": 17471,
+    "sha256": "2aea8487529089aa4358802b74a3b0c729723c6b59f0e5738bd2b1ba36dfb8a2"
+  },
+  "freeze": {
+    "path": "validation/results/exp707/freeze.json",
+    "bytes": 27259,
+    "sha256": "94e9034110fa42a7bfd7d64b7e0b9376980345dd5a8c8f2fb6fabab622d2dbd9"
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp704/build/exp704/C",
+      "bytes": 93380632,
+      "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+    },
+    "C": {
+      "path": "build/exp707/M/estimate",
+      "bytes": 93384728,
+      "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+    }
+  },
+  "contract": {
+    "rows": 100000000,
+    "input_bytes": 3519782965,
+    "output_bytes": 4013564765,
+    "sample_rows": 1916928,
+    "contract_passed": true
+  },
+  "exact_sample_rows": 1916928
+}

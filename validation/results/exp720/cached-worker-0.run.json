@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp720/audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp720/cached-trace-0.bin",
+    "0"
+  ],
+  "exit_code": 0,
+  "user_s": 0.383861,
+  "sys_s": 0.211923,
+  "cpu_s": 0.595784,
+  "wall_s": 0.5970188397914171,
+  "rss_bytes": 570863616,
+  "threads": 1
+}

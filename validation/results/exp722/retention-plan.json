@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "name": "exp720-A-100m",
+      "root": "../exp720",
+      "input": {
+        "path": "build/exp720/u-role/requests.csv",
+        "bytes": 3519786871,
+        "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+      },
+      "output": {
+        "path": "build/exp720/100m-0-A.csv",
+        "bytes": 4013568911,
+        "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+      },
+      "command": [
+        "taskset",
+        "-c",
+        "8",
+        "../exp707/build/exp707/M/estimate",
+        "-in",
+        "build/exp720/u-role/requests.csv",
+        "-out",
+        "build/exp720/100m-0-A.csv"
+      ]
+    },
+    {
+      "name": "exp722-1b",
+      "root": ".",
+      "input": {
+        "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+        "bytes": 35197849579,
+        "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+      },
+      "output": {
+        "path": "build/exp722/1b.csv",
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "command": [
+        "taskset",
+        "-c",
+        "8",
+        "../exp720/build/exp720/estimate",
+        "-in",
+        "../../build/hidden-suite-v1/role-1b/requests.csv",
+        "-out",
+        "build/exp722/1b.csv"
+      ]
+    }
+  ],
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/exp722_retain_outputs.py",
+    "bytes": 4150,
+    "sha256": "804fb3bec37f4cd1f606b8e9f4761abf9c5c1abdbba270c97d71e3d36f9b479b"
+  },
+  "preserve_next_100m_reference": "../exp720/build/exp720/100m-0-C.csv",
+  "active_measurement": false,
+  "keep_named_inputs": true,
+  "disk_free_start_bytes": 2449633280
+}

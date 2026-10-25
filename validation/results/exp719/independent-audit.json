@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "independently_decoded_models": 96,
+  "original_data_loader_reused": true,
+  "predictions_and_statistics_recomputed": true,
+  "new_exact_rows": 0,
+  "full_estimator_runs": 0,
+  "selected": "T2D6",
+  "report": {
+    "path": "validation/results/exp719/report.json",
+    "bytes": 91376,
+    "sha256": "f95e83011f851deb8e097956bda89e1c58128f8c7872a77abd77f454f0b8ef85"
+  }
+}

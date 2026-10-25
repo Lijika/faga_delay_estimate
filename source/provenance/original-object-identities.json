@@ -1,8 +1,8 @@
 {
   "worker.o": {
-    "path": "research/exp686/build/exp686/C.o",
-    "bytes": 176560,
-    "sha256": "c4d3c12e9a1639319a4baecb3287eba4349eb28acfa538a6be36c2efa93ade6d"
+    "path": "research/exp727/build/exp727/C.o",
+    "bytes": 220464,
+    "sha256": "f049077c4940f7138f6c2e862fe6eb15345eb46c95ab6983e358091f73e491a9"
   },
   "architecture-resolver.o": {
     "path": "research/exp580/build/exp580/architecture-resolver.o",
@@ -25,8 +25,8 @@
     "sha256": "74c191b36f579ae33980945a4f421494e118242e1a87b0aaad6ab0f592edf4d9"
   },
   "estimate": {
-    "path": "research/exp686/build/exp686/N",
-    "bytes": 93402392,
-    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+    "path": "research/exp727/build/exp727/estimate",
+    "bytes": 93442072,
+    "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f"
   }
 }

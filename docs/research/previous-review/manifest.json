@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-10-25",
+  "material_commit": "fed4155 (short ID supplied by user)",
+  "frozen_source": "exp688",
+  "report_pdf_pages": 32,
+  "question_count": 35,
+  "files": {
+    "README.md": {
+      "bytes": 826,
+      "sha256": "0dca72e1719efda38b55fd034252b7402bc3c607fa2b1c0e2aaae34f139b1f18"
+    },
+    "report.md": {
+      "bytes": 89835,
+      "sha256": "2497a28362ddafebfc6e814b478d9d68fa74c596e904e8aec8d28332cd326458"
+    },
+    "code/README.md": {
+      "bytes": 1920,
+      "sha256": "c60a8836f6255d2619265e7ac442f40a5543a69dda56d8fd5ba1ab8304454c4c"
+    },
+    "code/audit_accuracy.py": {
+      "bytes": 4299,
+      "sha256": "930a526f516561d553be03f363029a9579b160f37124f116a3d1d51546a34747"
+    },
+    "code/audit_script_selftest.json": {
+      "bytes": 1101,
+      "sha256": "8700aca56ae854234cefead5983c8046edb3d222d592d98f26b9814aacc78b51"
+    },
+    "code/audit_witness.py": {
+      "bytes": 3403,
+      "sha256": "5acc58b3a9589bf90c1417a39489c4b01753de313f5f8d4a9d5209cf1674952f"
+    },
+    "code/int8_equivalence.cpp": {
+      "bytes": 5384,
+      "sha256": "a247f0c4d9ca3ff7d90445c9f8403a1bd97b2c8cfc4c17aefd02333c7cc6d44e"
+    },
+    "code/int8_local_result.json": {
+      "bytes": 349,
+      "sha256": "a4db5ad49bd1b9d8d26dd9ee99f9e08df1c6cb64ecd3ce157afcaafdf2249138"
+    },
+    "code/local_environment.txt": {
+      "bytes": 1875,
+      "sha256": "efab85bee025dda19e8b0c652757c04a47ffb4e155c78c14c54fc7802fa604de"
+    },
+    "code/local_vnni_instructions.txt": {
+      "bytes": 212,
+      "sha256": "ade337ac68dfac01a2f34d3910ad31f76e28405995476e307507cf950089442c"
+    },
+    "code/proof_checks.py": {
+      "bytes": 2526,
+      "sha256": "a36a3b3b3c9d183f82e4d74b400ace4bfde3431a51f5be6a72129aa243221b5c"
+    },
+    "code/proof_checks_result.json": {
+      "bytes": 2130,
+      "sha256": "73360914ddb09cf3c7bb6616e96388210768f038a55ca2b5a7323bd8ec5e914d"
+    },
+    "code/synthetic_accuracy.csv": {
+      "bytes": 275,
+      "sha256": "be2d8cca9dc8aa03a5ea82029af7b95fbbf5424a59e91cf1c4eec97cfdc0ea86"
+    }
+  },
+  "external_deliverables": {
+    "exp688_技术审查与研究方案_fed4155.docx": {
+      "bytes": 90883,
+      "sha256": "732503647e8ec84d79b4ca9807786ac6c6d7afbf302d533c53d7ab36257c7769"
+    },
+    "exp688_技术审查与研究方案_fed4155.pdf": {
+      "bytes": 1203533,
+      "sha256": "3df6fe88ab34823c13f1811e1c422ddf293b26e8f55909cfaaf3666de784c3ef"
+    }
+  }
+}

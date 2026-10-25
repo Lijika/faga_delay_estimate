@@ -1,0 +1,10 @@
+{
+  "cpu_s": 10.283309111000001,
+  "construction_cpu_s": 6.114218092000001,
+  "wall_s": 10.292551647871733,
+  "rss_bytes": 1027579904,
+  "threads": 1,
+  "disk_free_end_bytes": 43748851712,
+  "build_bytes": 24351744,
+  "deleted_bytes": 0
+}

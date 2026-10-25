@@ -1,0 +1,19 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "../exp727/build/exp727/estimate",
+    "-in",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "-out",
+    "build/exp728/1b.csv"
+  ],
+  "exit_code": 0,
+  "user_s": 161.463008,
+  "sys_s": 22.727945,
+  "cpu_s": 184.190953,
+  "wall_s": 205.23964778799564,
+  "rss_bytes": 206639104,
+  "threads": 1
+}

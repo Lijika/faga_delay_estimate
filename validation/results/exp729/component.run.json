@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py",
+    "compute"
+  ],
+  "exit_code": 1,
+  "user_s": 30.240139,
+  "sys_s": 0.104712,
+  "cpu_s": 30.344851,
+  "wall_s": 27.818280556995887,
+  "rss_bytes": 64401408,
+  "threads": 1
+}

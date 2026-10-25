@@ -1,0 +1,60 @@
+{
+  "binaries": {
+    "A": {
+      "path": "../exp704/build/exp704/C",
+      "bytes": 93380632,
+      "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+    },
+    "C": {
+      "path": "../exp707/build/exp707/M/estimate",
+      "bytes": 93384728,
+      "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+    }
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "expected_output": {
+    "path": "build/exp706/1b-C.csv",
+    "bytes": 40135645803,
+    "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+  },
+  "schedule": [
+    "A",
+    "C"
+  ],
+  "cpu": 8,
+  "previous": {
+    "path": "../exp706/validation/results/exp706/1b-report.json",
+    "bytes": 3045,
+    "sha256": "9974b836c433d95d4217df26b59350858c7fbfa8439e33ad780a32466ebf5321"
+  },
+  "retained": {
+    "all_checks_passed": true,
+    "archive_path": "/home/lhjysyx/EDA2026/build/retained-outputs/exp688/1b.csv.zst",
+    "archive_bytes": 14978060187,
+    "uncompressed": {
+      "path": "build/exp688/1b.csv",
+      "bytes": 40135645803,
+      "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+    },
+    "elapsed_s": 137.88547682762146,
+    "tool": "build/exp641/zstd",
+    "first_attempt": "system zstd unavailable; used existing project executable",
+    "remote_source": "research/exp688/build/exp688/1b.csv",
+    "remote_verified_sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9",
+    "remote_source_stat": "40135645803 1792858320 22295244",
+    "rebuild_cwd": "/home/lhj/lhjwork/eda2026/research/exp688",
+    "rebuild_command": [
+      "../exp686/build/exp686/N",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp688/1b.csv"
+    ],
+    "restore_command": "build/exp641/zstd -d -q -c build/retained-outputs/exp688/1b.csv.zst | ssh r9r4900 \"cd ~/lhjwork/eda2026 && cat >research/exp688/build/exp688/1b.csv\""
+  },
+  "disk_free_start_bytes": 46163357696
+}

@@ -1,0 +1,509 @@
+{
+  "all_checks_passed": true,
+  "means_ns": {
+    "A": 385.3711888131253,
+    "D": 112.46410031875654
+  },
+  "timings_ns": {
+    "A": [
+      386.3959524692633,
+      385.49162142500916,
+      385.1670972383939,
+      384.8654110900357,
+      385.4143353975736,
+      384.8927152584761
+    ],
+    "D": [
+      110.82946125258748,
+      112.0090580475636,
+      110.44183023566873,
+      113.34588010086972,
+      114.2030535314837,
+      113.95531874436598
+    ]
+  },
+  "paired_saved_ns": 272.9070884943688,
+  "paired_ci95_ns": [
+    270.8404659426913,
+    274.9737110460463
+  ],
+  "gates": {
+    "cpu_budget": false,
+    "reduction": true,
+    "positive_interval": true,
+    "memory": true
+  },
+  "selected": false,
+  "runs": [
+    {
+      "iteration": 0,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.076769,
+        "sys_s": 0.025998999999999998,
+        "cpu_s": 6.102767999999999,
+        "wall_s": 6.103687788825482,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.913330147,
+        "initialization_cpu_s": 0.049185181,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 0,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.924688,
+        "sys_s": 0.018005999999999998,
+        "cpu_s": 1.942694,
+        "wall_s": 1.9439679142087698,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.765231364,
+        "initialization_cpu_s": 0.037844962,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 1,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.088908,
+        "sys_s": 0.013999,
+        "cpu_s": 6.102907,
+        "wall_s": 6.104658024851233,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.925545763,
+        "initialization_cpu_s": 0.037532223,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 1,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.862714,
+        "sys_s": 0.014997,
+        "cpu_s": 1.877711,
+        "wall_s": 1.8784322291612625,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.69961678,
+        "initialization_cpu_s": 0.037882799,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 2,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.8788239999999998,
+        "sys_s": 0.016998,
+        "cpu_s": 1.895822,
+        "wall_s": 1.8972466732375324,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.717706397,
+        "initialization_cpu_s": 0.03763366,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 2,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.073969,
+        "sys_s": 0.015999,
+        "cpu_s": 6.089968,
+        "wall_s": 6.0919853751547635,
+        "rss_bytes": 34078720,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.911677463,
+        "initialization_cpu_s": 0.037713,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 3,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.068784,
+        "sys_s": 0.015999,
+        "cpu_s": 6.084783,
+        "wall_s": 6.086227613966912,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.906700747,
+        "initialization_cpu_s": 0.038036841,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 3,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.85697,
+        "sys_s": 0.013992,
+        "cpu_s": 1.870962,
+        "wall_s": 1.8718137759715319,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.693672294,
+        "initialization_cpu_s": 0.037813485,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 4,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.900574,
+        "sys_s": 0.014995999999999999,
+        "cpu_s": 1.91557,
+        "wall_s": 1.916214557364583,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.73820713,
+        "initialization_cpu_s": 0.037677712,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 4,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.064717,
+        "sys_s": 0.014999,
+        "cpu_s": 6.079716,
+        "wall_s": 6.081270263995975,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.902074262,
+        "initialization_cpu_s": 0.037686679,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 5,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.071168,
+        "sys_s": 0.016996999999999998,
+        "cpu_s": 6.088165,
+        "wall_s": 6.089394215028733,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.910492249,
+        "initialization_cpu_s": 0.037953649,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 5,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.908382,
+        "sys_s": 0.020992999999999998,
+        "cpu_s": 1.929375,
+        "wall_s": 1.9307398218661547,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.751352248,
+        "initialization_cpu_s": 0.037930258,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 6,
+      "arm": "D",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "D",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 1.9072589999999998,
+        "sys_s": 0.017993,
+        "cpu_s": 1.9252519999999997,
+        "wall_s": 1.926426854915917,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "D",
+        "loop_cpu_s": 1.74755313,
+        "initialization_cpu_s": 0.037586869,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    },
+    {
+      "iteration": 6,
+      "arm": "A",
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "build/exp718/dense-fragments",
+          "../exp717/build/exp717",
+          "../exp705/build/exp705/queries.bin",
+          "build/exp718/order.u32",
+          "A",
+          "64"
+        ],
+        "exit_code": 0,
+        "user_s": 6.066406,
+        "sys_s": 0.013999999999999999,
+        "cpu_s": 6.080406,
+        "wall_s": 6.082222316879779,
+        "rss_bytes": 34140160,
+        "threads": 1
+      },
+      "metrics": {
+        "all_equal": true,
+        "arm": "A",
+        "loop_cpu_s": 5.902492983,
+        "initialization_cpu_s": 0.037758439,
+        "evaluations": 15335424,
+        "checksum": 365910026296166279,
+        "dense_bytes": 3634696
+      }
+    }
+  ],
+  "known_recipe_component_only": true,
+  "request_repetitions_per_run": 64,
+  "new_exact_rows": 0,
+  "full_estimator_runs": 0,
+  "accuracy_claim": false,
+  "selector_parsing_models_csv_included": false,
+  "removed_bytes": 0,
+  "disk_free_end_bytes": 40109957120
+}

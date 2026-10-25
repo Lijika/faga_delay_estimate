@@ -1,0 +1,20 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp718/dense-fragments",
+    "../exp717/build/exp717",
+    "../exp705/build/exp705/queries.bin",
+    "build/exp718/order.u32",
+    "A",
+    "64"
+  ],
+  "exit_code": 0,
+  "user_s": 6.066406,
+  "sys_s": 0.013999999999999999,
+  "cpu_s": 6.080406,
+  "wall_s": 6.082222316879779,
+  "rss_bytes": 34140160,
+  "threads": 1
+}

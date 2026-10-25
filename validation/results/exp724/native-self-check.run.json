@@ -1,0 +1,9 @@
+{
+  "command": [
+    "build/exp724/assign",
+    "--self-check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.0024290000000000145,
+  "wall_s": 0.002337131998501718
+}

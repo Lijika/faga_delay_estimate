@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild the frozen exp688 submission using only this directory."""
+"""Rebuild the frozen exp728 submission using only this directory."""
 import hashlib
 import json
 import os
@@ -9,7 +9,7 @@ import subprocess
 
 
 ROOT = Path(__file__).resolve().parent
-EXPECTED_SHA256 = "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+EXPECTED_SHA256 = "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f"
 
 
 def sha256(path):
@@ -83,13 +83,13 @@ def main():
         "libc": subprocess.check_output(["ldd", "--version"], text=True).splitlines()[0],
         "commands": commands, "binary_bytes": size, "binary_sha256": sha256(binary),
         "static_linked": True, "under_100mb": True, "objects": objects,
-        "matches_frozen_exp688": sha256(binary) == EXPECTED_SHA256,
+        "matches_frozen_exp728": sha256(binary) == EXPECTED_SHA256,
         "algorithm_executed": False,
     }
     Path("build/build-report.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps({k: v for k, v in report.items() if k != "commands"}, indent=2))
-    if not report["matches_frozen_exp688"] or not all(v["matches_frozen"] for v in objects.values()):
-        raise SystemExit("Build differs from frozen exp688; check the toolchain before reusing validation")
+    if not report["matches_frozen_exp728"] or not all(v["matches_frozen"] for v in objects.values()):
+        raise SystemExit("Build differs from frozen exp728; check the toolchain before reusing validation")
 
 
 if __name__ == "__main__":

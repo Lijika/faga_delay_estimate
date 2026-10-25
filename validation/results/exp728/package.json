@@ -1,0 +1,228 @@
+{
+  "version_label": "exp728-coordinate-masks-generic-1b184s-20261025",
+  "algorithm_version": "D64-curves-T2D6-V8-compiled-M-fused-csv-coordinate-masks-SSE2",
+  "publication_status": "stage_release",
+  "complete_1b_measured": true,
+  "final_accuracy_goal_verified": false,
+  "final_accuracy_required_pp": 99,
+  "platform_score_verified": false,
+  "other_cpu_performance_verified": false,
+  "full_1b_exact_accuracy_verified": false,
+  "git_commit": "8f2fd9723758c37aedf285a8ec65e53afee17e0a",
+  "git_working_tree_dirty": true,
+  "bin_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+  "bin_bytes": 93442072,
+  "packaged_utc": "2026-10-25T11:44:55.411581+00:00",
+  "generic_entry": true,
+  "selected_kernel": "SSE2",
+  "optional_isa_not_required": true,
+  "link_mode": "static; all architecture and model assets embedded",
+  "paired_100m": {
+    "all_checks_passed": true,
+    "selected": true,
+    "mean_cpu_s": {
+      "A": 18.635379666666665,
+      "C": 17.879823333333334
+    },
+    "saved_s": 0.7555563333333334,
+    "ci95_saved_s": [
+      0.632248121283453,
+      0.8788645453832138
+    ],
+    "maximum_rss_bytes": 206802944,
+    "complete_runs": 14,
+    "exact_sample_rows": 1916928,
+    "released_duplicate_bytes": 56189966938,
+    "output_hash_evidence_reused": true,
+    "deleted_outputs_reread": false,
+    "report": {
+      "path": "validation/results/exp727/100m-report.json",
+      "bytes": 11002,
+      "sha256": "bd4505112371bdc99e62185b29d961b029506da462dfe71cae943dd469429494"
+    },
+    "freeze": {
+      "path": "validation/results/exp727/freeze.json",
+      "bytes": 34462,
+      "sha256": "bedc413024ae6c215adda74e9edc91279d5f885d297f034f95a692ac244c9cfb"
+    },
+    "auditor": {
+      "path": "/home/lhjysyx/EDA2026/validation/exp727_audit.py",
+      "bytes": 4086,
+      "sha256": "7ba371f631374a4da78d43ead5efdeb3f5ac16d2267c1e4e65cdf6989f634bc2"
+    }
+  },
+  "previous_entry": {
+    "path": "estimate",
+    "bytes": 93442072,
+    "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f"
+  },
+  "previous_package": "exp728-coordinate-masks-generic-100m-20261025",
+  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp727",
+  "build_driver": "validation/exp727_coordinate_masks.py build",
+  "compile_and_link_commands": [
+    [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp727",
+      "-I",
+      "build/exp727",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-c",
+      "build/exp727/worker.cpp",
+      "-o",
+      "build/exp727/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY"
+    ],
+    [
+      "g++",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/entry.cpp",
+      "build/exp727/C.o",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp727",
+      "-I",
+      "build/exp727",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp727/estimate"
+    ]
+  ],
+  "package_command": "python3 validation/exp728_release.py publish-billion exp728-coordinate-masks-generic-1b184s-20261025",
+  "evidence": [
+    {
+      "path": "validation/results/exp727/freeze.json",
+      "bytes": 34462,
+      "sha256": "bedc413024ae6c215adda74e9edc91279d5f885d297f034f95a692ac244c9cfb"
+    },
+    {
+      "path": "validation/results/exp727/100m-report.json",
+      "bytes": 11002,
+      "sha256": "bd4505112371bdc99e62185b29d961b029506da462dfe71cae943dd469429494"
+    },
+    {
+      "path": "validation/results/exp727/independent-audit.json",
+      "bytes": 977,
+      "sha256": "5e9bd1591ba2e5de665c10a1645e427e66b754c0146f91d3855ca06dc1c20fc7"
+    },
+    {
+      "path": "validation/results/exp728/protocol-original.md",
+      "bytes": 2148,
+      "sha256": "9a239903bbb32709273ff58c63dbe2e7063f64ab9064719a8c6d880e3343fc84"
+    },
+    {
+      "path": "validation/results/exp728/clean-freeze.json",
+      "bytes": 1869,
+      "sha256": "5e90985a7c5b3786a5ad189a52d112433ba3146fddee28a10651d5042597b0e6"
+    },
+    {
+      "path": "validation/results/exp728/package-check.json",
+      "bytes": 1246,
+      "sha256": "b1add8efbe6f05ce9ba745f1635701a737343e1e94fdc539228855ab47aed888"
+    },
+    {
+      "path": "validation/results/exp728/1b-freeze.json",
+      "bytes": 29140,
+      "sha256": "8c6f6939a01bc6c3b1e86de2ae2be0e9d46fdb60556bb6906c7332f243c8677e"
+    },
+    {
+      "path": "validation/results/exp728/1b-report.json",
+      "bytes": 2578,
+      "sha256": "227336c754bb734cfe82c3b585aefddc7b40ad206eef8b3baa86c72a5a69a917"
+    },
+    {
+      "path": "validation/results/exp728/independent-audit.json",
+      "bytes": 1949,
+      "sha256": "c60a9faa1357b92de3c21410526605091b5964328c8eea69b06ff0b2d3035a58"
+    }
+  ],
+  "cpu_1b_s": 184.190953,
+  "accuracy_1b": {
+    "point_pp": 98.6448996487895,
+    "stratified_variance_pp2": 1.708112629698821e-06,
+    "stratified_ci975_pp": [
+      98.64197025235906,
+      98.64782904521995
+    ],
+    "family_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ],
+    "conservative_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ]
+  },
+  "exact_sample_rows": 3833856,
+  "one_1b_candidate_run": true,
+  "zip_sha256": "9bb01e1ca3c5a2e57f65a4ddc2408f537ff7e73dd31d6f54668c88e668618081",
+  "zip_bytes": 81350223
+}

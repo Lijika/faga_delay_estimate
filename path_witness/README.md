@@ -23,7 +23,7 @@ path_witness/build/trace \
 
 `unpack.py` 检查全部归档文件身份。`generate_queries.py` 从原始百万行查询和 D0 分解重新选择锚点并生成四位置查询。`replay.py` 逐元素比较全部交叉记录，并核对原分组统计。查询生成与重放程序沿用原语句，只调整了文件位置和归档校验。
 
-本轮已完整重跑上述查询生成、全部精确路径求解及交叉重放。三份重新求解的路径文件与原文件 SHA 全部相同，见 [精确求解核验](verification.json)和[交叉重放核验](replay-verification.json)。原始脚本、未改动的 tracer、冻结记录和字典位于 `original/`，可对照移植后的入口。
+exp688 补充材料发布时已完整重跑上述查询生成、全部精确路径求解及交叉重放。本次文件保持相同身份，复用已有验证。三份重新求解的路径文件与原文件 SHA 全部相同，见 [精确求解核验](verification.json)和[交叉重放核验](replay-verification.json)。原始脚本、未改动的 tracer、冻结记录和字典位于 `original/`，可对照移植后的入口。
 
 ## 二进制结构
 

@@ -1,0 +1,16 @@
+{
+  "all_checks_passed": true,
+  "component_equal": true,
+  "audited_full_runs": 14,
+  "all_outputs_match_frozen_reference": true,
+  "paired_saved_s": 0.12083799999999971,
+  "paired_ci95_s": [
+    0.030032073925651742,
+    0.21164392607434768
+  ],
+  "selected": "A",
+  "removed_bytes": 56189906710,
+  "duplicate_checks_reused": true,
+  "independent_raw_output_rehash": false,
+  "report_sha256": "34015160391a306b136df5ccfef85510fe9300584fb8e4d58bcab0c395896c1d"
+}

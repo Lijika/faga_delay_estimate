@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "checked_frozen_files": 25,
+  "independently_decoded_maps": 1036,
+  "positions": 68376000,
+  "support_full_fields_equal": true,
+  "ht_total_and_design_variance_recomputed": true,
+  "original_gates_failed": true,
+  "selected": false,
+  "scope": "Fixed words, row interval serialization; no selector or accuracy claim"
+}

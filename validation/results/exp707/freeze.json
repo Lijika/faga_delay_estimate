@@ -1,0 +1,928 @@
+{
+  "binaries": {
+    "A": {
+      "path": "../exp704/build/exp704/C",
+      "bytes": 93380632,
+      "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+    },
+    "M": {
+      "path": "build/exp707/M/estimate",
+      "bytes": 93384728,
+      "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+    },
+    "C": {
+      "path": "build/exp707/C/estimate",
+      "bytes": 93384728,
+      "sha256": "b8cedcb42635eae7286f56032a6da3042d06e14a762fc6bb35e38cb2652e6eb8"
+    }
+  },
+  "sources": [
+    {
+      "original": {
+        "path": "build/exp704/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp707/A/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp707/A/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp707/A/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp707/A/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "current": {
+        "path": "build/exp707/A/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp707/A/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp707/A/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp707/A/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      },
+      "current": {
+        "path": "build/exp707/A/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp707/A/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp707/A/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      },
+      "current": {
+        "path": "build/exp707/A/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      },
+      "current": {
+        "path": "build/exp707/A/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      },
+      "current": {
+        "path": "build/exp707/A/worker.cpp",
+        "bytes": 12726,
+        "sha256": "47e558c9274120eea699d36ac71da541559711c9e8997e9e6e0c886d9aa0221b"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp707/M/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp707/M/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp707/M/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp707/M/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "current": {
+        "path": "build/exp707/M/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp707/M/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp707/M/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp707/M/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      },
+      "current": {
+        "path": "build/exp707/M/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp707/M/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp707/M/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      },
+      "current": {
+        "path": "build/exp707/M/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      },
+      "current": {
+        "path": "build/exp707/M/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      },
+      "current": {
+        "path": "build/exp707/M/worker.cpp",
+        "bytes": 12465,
+        "sha256": "7699796095893f2648276283d36402a65484568de443b5258f815a44d6bfe204"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp707/C/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp707/C/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp707/C/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp707/C/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "current": {
+        "path": "build/exp707/C/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp707/C/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp707/C/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp707/C/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      },
+      "current": {
+        "path": "build/exp707/C/exp652_geometry_restore.h",
+        "bytes": 1246,
+        "sha256": "47e63981b29476c7fd8c9b952358e9af66fe54199dcdbb35625747a12d8e3e0e"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp707/C/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp707/C/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      },
+      "current": {
+        "path": "build/exp707/C/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      },
+      "current": {
+        "path": "build/exp707/C/symmetric640.h",
+        "bytes": 637999,
+        "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+      }
+    },
+    {
+      "original": {
+        "path": "build/exp704/worker.cpp",
+        "bytes": 11994,
+        "sha256": "173de130da66f8ccbbb9ced2ae3baaa935017da7440ede79fd998ccdf7d6ba8b"
+      },
+      "current": {
+        "path": "build/exp707/C/worker.cpp",
+        "bytes": 12566,
+        "sha256": "d3f96a898fd7ac123c1aed147b9d138253c0872a8c10560f0133dcf1f3816701"
+      }
+    }
+  ],
+  "commands": {
+    "A": {
+      "compile": [
+        "g++",
+        "-I",
+        "../exp619/tests",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/A",
+        "-I",
+        "build/exp707/A",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "-DEXP608_SIMD=0",
+        "-Dmain=worker608_F",
+        "-c",
+        "build/exp707/A/worker.cpp",
+        "-o",
+        "build/exp707/A/C.o",
+        "-DEXP640_TREES=8",
+        "-I",
+        "../exp646/build/exp646/deps",
+        "-DEXP684_V_ONLY"
+      ],
+      "link": [
+        "g++",
+        "../exp654/build/exp654/codes.o",
+        "../exp652/build/exp652/entry.cpp",
+        "build/exp707/A/C.o",
+        "-DEXP607_ARM=0",
+        "-DEXP607_AVX_CHOICE=0",
+        "-DEXP607_SSE_CHOICE=0",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/A",
+        "-I",
+        "build/exp707/A",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "../exp580/build/exp580/architecture-resolver.o",
+        "../exp579/build/exp579/arch-text.o",
+        "../exp652/build/exp652/compressed.o",
+        "../exp646/build/exp646/deps/libzstd.a",
+        "-static",
+        "-s",
+        "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+        "-o",
+        "build/exp707/A/unused"
+      ]
+    },
+    "M": {
+      "compile": [
+        "g++",
+        "-I",
+        "../exp619/tests",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/M",
+        "-I",
+        "build/exp707/M",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "-DEXP608_SIMD=0",
+        "-Dmain=worker608_F",
+        "-c",
+        "build/exp707/M/worker.cpp",
+        "-o",
+        "build/exp707/M/C.o",
+        "-DEXP640_TREES=8",
+        "-I",
+        "../exp646/build/exp646/deps",
+        "-DEXP684_V_ONLY"
+      ],
+      "link": [
+        "g++",
+        "../exp654/build/exp654/codes.o",
+        "../exp652/build/exp652/entry.cpp",
+        "build/exp707/M/C.o",
+        "-DEXP607_ARM=0",
+        "-DEXP607_AVX_CHOICE=0",
+        "-DEXP607_SSE_CHOICE=0",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/M",
+        "-I",
+        "build/exp707/M",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "../exp580/build/exp580/architecture-resolver.o",
+        "../exp579/build/exp579/arch-text.o",
+        "../exp652/build/exp652/compressed.o",
+        "../exp646/build/exp646/deps/libzstd.a",
+        "-static",
+        "-s",
+        "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+        "-o",
+        "build/exp707/M/estimate"
+      ]
+    },
+    "C": {
+      "compile": [
+        "g++",
+        "-I",
+        "../exp619/tests",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/C",
+        "-I",
+        "build/exp707/C",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "-DEXP608_SIMD=0",
+        "-Dmain=worker608_F",
+        "-c",
+        "build/exp707/C/worker.cpp",
+        "-o",
+        "build/exp707/C/C.o",
+        "-DEXP640_TREES=8",
+        "-I",
+        "../exp646/build/exp646/deps",
+        "-DEXP684_V_ONLY"
+      ],
+      "link": [
+        "g++",
+        "../exp654/build/exp654/codes.o",
+        "../exp652/build/exp652/entry.cpp",
+        "build/exp707/C/C.o",
+        "-DEXP607_ARM=0",
+        "-DEXP607_AVX_CHOICE=0",
+        "-DEXP607_SSE_CHOICE=0",
+        "-std=c++17",
+        "-O3",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-I",
+        "../exp589/src",
+        "-I",
+        "build/exp707/C",
+        "-I",
+        "build/exp707/C",
+        "-I",
+        "../exp595/tests",
+        "-I",
+        "../exp594/tests",
+        "-I",
+        "../exp589/tests",
+        "-DEXP596_BATCH=8",
+        "../exp580/build/exp580/architecture-resolver.o",
+        "../exp579/build/exp579/arch-text.o",
+        "../exp652/build/exp652/compressed.o",
+        "../exp646/build/exp646/deps/libzstd.a",
+        "-static",
+        "-s",
+        "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+        "-o",
+        "build/exp707/C/estimate"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp707/validation/exp707_compiled_prepare.py",
+      "bytes": 12279,
+      "sha256": "de9a936204ad434bb2ebf4f47ffce06389496f3ac63d6fc1a7749ea1fc13cc7a"
+    },
+    {
+      "path": "experiment/实验707-固定架构准备编译与完整100M.md",
+      "bytes": 4989,
+      "sha256": "97547e2b2a30624cbd6cf42313737d77aa90ce2e7b49b8eb2633e0a736ef27ae"
+    },
+    {
+      "path": "validation/results/exp707/protocol-original.md",
+      "bytes": 4989,
+      "sha256": "97547e2b2a30624cbd6cf42313737d77aa90ce2e7b49b8eb2633e0a736ef27ae"
+    },
+    {
+      "path": "tests/exp707_prepare_compare.cpp",
+      "bytes": 2519,
+      "sha256": "8072e42c7d5a7b2ed5ac837efade2577bbe8314f1088474b7b59806b0a65459a"
+    },
+    {
+      "path": "tests/exp707_prepare_metadata.cpp",
+      "bytes": 3725,
+      "sha256": "35a8c49a98571dadd6266fbc907078dee7e443889e8cdac5cc6b7d248be1fe06"
+    },
+    {
+      "path": "tests/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    }
+  ],
+  "component": {
+    "all_equal": true,
+    "queries": 239616,
+    "folds": 1,
+    "corner_cases": 49600,
+    "prepared_A_bytes": 56,
+    "prepared_M_bytes": 56,
+    "prepared_C_bytes": 32
+  },
+  "metadata": {
+    "all_equal": true,
+    "net_positions": 10560000,
+    "valid_hops": 9417280,
+    "max_aligned_bx": 119,
+    "max_aligned_by": 549,
+    "metadata_bytes": 113762,
+    "port_bytes": 14,
+    "motion_bytes": 6
+  },
+  "queries": {
+    "path": "../exp705/build/exp705/queries.bin",
+    "bytes": 9584652,
+    "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b"
+  },
+  "input": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "bytes": 3519782965,
+    "sha256": "34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30"
+  },
+  "reference": {
+    "path": "../exp704/../exp703/build/exp703/warmup.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "expected_output": {
+    "path": "build/exp685/100m-0-V8.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "schedule": [
+    [
+      "A",
+      "M",
+      "C"
+    ],
+    [
+      "A",
+      "M",
+      "C"
+    ],
+    [
+      "A",
+      "C",
+      "M"
+    ],
+    [
+      "M",
+      "A",
+      "C"
+    ],
+    [
+      "M",
+      "C",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "M"
+    ],
+    [
+      "C",
+      "M",
+      "A"
+    ]
+  ],
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "disk_free_start_bytes": 46257606656
+}

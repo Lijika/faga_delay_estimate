@@ -1,0 +1,34 @@
+{
+  "all_checks_passed": true,
+  "selected": true,
+  "mean_cpu_s": {
+    "A": 18.635379666666665,
+    "C": 17.879823333333334
+  },
+  "saved_s": 0.7555563333333334,
+  "ci95_saved_s": [
+    0.632248121283453,
+    0.8788645453832138
+  ],
+  "maximum_rss_bytes": 206802944,
+  "complete_runs": 14,
+  "exact_sample_rows": 1916928,
+  "released_duplicate_bytes": 56189966938,
+  "output_hash_evidence_reused": true,
+  "deleted_outputs_reread": false,
+  "report": {
+    "path": "validation/results/exp727/100m-report.json",
+    "bytes": 11002,
+    "sha256": "bd4505112371bdc99e62185b29d961b029506da462dfe71cae943dd469429494"
+  },
+  "freeze": {
+    "path": "validation/results/exp727/freeze.json",
+    "bytes": 34462,
+    "sha256": "bedc413024ae6c215adda74e9edc91279d5f885d297f034f95a692ac244c9cfb"
+  },
+  "auditor": {
+    "path": "/home/lhjysyx/EDA2026/validation/exp727_audit.py",
+    "bytes": 4086,
+    "sha256": "7ba371f631374a4da78d43ead5efdeb3f5ac16d2267c1e4e65cdf6989f634bc2"
+  }
+}

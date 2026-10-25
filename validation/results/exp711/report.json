@@ -1,0 +1,34 @@
+{
+  "all_checks_passed": true,
+  "maps": 1036,
+  "certified_positions": 68376000,
+  "unique_rows": 6930,
+  "unique_columns": 1036,
+  "original_rows": 10727,
+  "original_y_segments": 22219,
+  "A_bytes": 477666,
+  "P_bytes": 377416,
+  "G_bytes": 313870,
+  "G_over_A": 0.657090938019453,
+  "within_8_comparisons_fraction": 0.7855769230769231,
+  "comparison_quantiles": [
+    4.0,
+    8.0,
+    9.0,
+    9.0,
+    10.0,
+    10.0
+  ],
+  "compact_gate": false,
+  "small_state_gate": false,
+  "expand_pool": false,
+  "file": {
+    "path": "build/exp711/support-functions.bin",
+    "bytes": 313870,
+    "sha256": "b1c560f758f26c5a716dd5a75a5a80fbb3ed283a94f65ac6c582ff4d1438cc3c"
+  },
+  "full_pool_estimate": false,
+  "accuracy_claim": false,
+  "full_estimator_runs": 0,
+  "new_exact_rows": 0
+}

@@ -1,0 +1,49 @@
+{
+  "all_checks_passed": true,
+  "gates": {
+    "quality": true,
+    "V_unchanged": true,
+    "cpu": true,
+    "combined": true
+  },
+  "selected": true,
+  "minimum_primary_group_delta_pp": -0.046993012182468874,
+  "delta_accuracy": {
+    "point_pp": -0.01288560736122429,
+    "stratified_variance_pp2": 1.3223893565280485e-07,
+    "stratified_ci975_pp": [
+      -0.013700686107267487,
+      -0.012070528615181094
+    ],
+    "family_ci975_pp": [
+      -0.015572775181683039,
+      -0.010383774216858864
+    ],
+    "conservative_ci975_pp": [
+      -0.015572775181683039,
+      -0.010383774216858864
+    ]
+  },
+  "joint": {
+    "saved_cpu_s": 1.535005833333334,
+    "ci975_saved_cpu_s": [
+      1.416621122739446,
+      1.653390543927222
+    ],
+    "score_extrapolated_1b": 0.11760866688879841,
+    "conservative_ci95_score_lower": 0.10559354008294074,
+    "score_gate": true
+  },
+  "accuracy": {
+    "path": "validation/results/exp720/score/accuracy.json",
+    "bytes": 1724488,
+    "sha256": "2ad1b24b23f8564e28f9ae1314649181ce7e32018dee84b4ff6922cd3f2e7dd9"
+  },
+  "report": {
+    "path": "validation/results/exp720/100m-report.json",
+    "bytes": 26013,
+    "sha256": "c0cc4aebf1327396c096ec31cefff341640a32b82d0b342e74ef17aba27dc5a0"
+  },
+  "final_accuracy_above_99_verified": false,
+  "target_6242R_verified": false
+}

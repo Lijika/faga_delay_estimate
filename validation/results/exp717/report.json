@@ -1,0 +1,847 @@
+{
+  "all_checks_passed": true,
+  "selected": false,
+  "gates": {
+    "mean": true,
+    "p90": false,
+    "p99": true,
+    "geometry": true,
+    "observed": true
+  },
+  "splits": {
+    "train": {
+      "rows": 179712,
+      "baseline_mean_calls": 9.07215433582621,
+      "candidate_mean_calls": 4.931751914173789,
+      "call_reduction_fraction": 0.4563858008126964,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        13.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        53.0,
+        68.0,
+        112.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        60.0,
+        76.0,
+        124.0
+      ],
+      "at_most_four_fraction": 0.380859375
+    },
+    "holdout": {
+      "rows": 59904,
+      "baseline_mean_calls": 9.069477831196581,
+      "candidate_mean_calls": 4.966663327991453,
+      "call_reduction_fraction": 0.4523760440863025,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        15.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        69.0,
+        120.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        61.0,
+        77.0,
+        135.0
+      ],
+      "at_most_four_fraction": 0.3711772168803419
+    }
+  },
+  "holdout_groups": {
+    "source_family-0": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.38845486111111,
+      "candidate_mean_calls": 5.01953125,
+      "call_reduction_fraction": 0.46535065415376076,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        55.0,
+        68.9699999999998,
+        97.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        62.0,
+        77.0,
+        107.0
+      ],
+      "at_most_four_fraction": 0.3506944444444444
+    },
+    "source_family-1": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.28515625,
+      "candidate_mean_calls": 5.048177083333333,
+      "call_reduction_fraction": 0.4563174870284673,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        12.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        55.0,
+        70.9699999999998,
+        103.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        63.0,
+        80.0,
+        113.0
+      ],
+      "at_most_four_fraction": 0.3502604166666667
+    },
+    "source_family-2": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.341145833333334,
+      "candidate_mean_calls": 4.969618055555555,
+      "call_reduction_fraction": 0.4679862466313539,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        9.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        53.0,
+        66.0,
+        76.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        59.0,
+        73.0,
+        87.0
+      ],
+      "at_most_four_fraction": 0.36328125
+    },
+    "source_family-3": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.288194444444445,
+      "candidate_mean_calls": 4.988715277777778,
+      "call_reduction_fraction": 0.46289719626168224,
+      "call_quantiles": [
+        5.0,
+        6.700000000000273,
+        9.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        38.0,
+        53.0,
+        69.0,
+        87.0
+      ],
+      "worst_comparison_quantiles": [
+        44.5,
+        60.0,
+        79.0,
+        97.0
+      ],
+      "at_most_four_fraction": 0.375
+    },
+    "source_family-4": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.247395833333334,
+      "candidate_mean_calls": 5.009982638888889,
+      "call_reduction_fraction": 0.4582277292781376,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        68.0,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        62.0,
+        76.0,
+        93.0
+      ],
+      "at_most_four_fraction": 0.3420138888888889
+    },
+    "source_family-5": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.34157986111111,
+      "candidate_mean_calls": 4.996961805555555,
+      "call_reduction_fraction": 0.46508386377363753,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        13.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        53.0,
+        69.0,
+        98.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        60.70000000000027,
+        77.0,
+        121.0
+      ],
+      "at_most_four_fraction": 0.3493923611111111
+    },
+    "source_family-6": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.274739583333334,
+      "candidate_mean_calls": 5.01171875,
+      "call_reduction_fraction": 0.45963779306471997,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        55.0,
+        69.0,
+        88.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        63.0,
+        78.9699999999998,
+        98.0
+      ],
+      "at_most_four_fraction": 0.3485243055555556
+    },
+    "source_family-7": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.131944444444445,
+      "candidate_mean_calls": 4.918402777777778,
+      "call_reduction_fraction": 0.46140684410646393,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        66.0,
+        82.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        61.0,
+        76.0,
+        93.0
+      ],
+      "at_most_four_fraction": 0.3875868055555556
+    },
+    "source_family-8": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.438368055555555,
+      "candidate_mean_calls": 5.255642361111111,
+      "call_reduction_fraction": 0.44316196082038073,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        42.0,
+        57.0,
+        72.0,
+        91.0
+      ],
+      "worst_comparison_quantiles": [
+        47.0,
+        65.0,
+        79.0,
+        105.0
+      ],
+      "at_most_four_fraction": 0.2738715277777778
+    },
+    "source_family-9": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.24609375,
+      "candidate_mean_calls": 5.032986111111111,
+      "call_reduction_fraction": 0.455663521569732,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        69.0,
+        86.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        60.0,
+        76.0,
+        98.0
+      ],
+      "at_most_four_fraction": 0.3394097222222222
+    },
+    "source_family-10": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.200086805555555,
+      "candidate_mean_calls": 5.116319444444445,
+      "call_reduction_fraction": 0.4438835684294947,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        9.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        71.0,
+        86.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        62.0,
+        81.0,
+        96.0
+      ],
+      "at_most_four_fraction": 0.3116319444444444
+    },
+    "source_family-11": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.172743055555555,
+      "candidate_mean_calls": 5.232204861111111,
+      "call_reduction_fraction": 0.4295921264313428,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        15.0
+      ],
+      "actual_comparison_quantiles": [
+        41.0,
+        56.0,
+        68.9699999999998,
+        120.0
+      ],
+      "worst_comparison_quantiles": [
+        47.0,
+        64.0,
+        77.0,
+        135.0
+      ],
+      "at_most_four_fraction": 0.2816840277777778
+    },
+    "source_family-12": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.384114583333334,
+      "candidate_mean_calls": 5.128472222222222,
+      "call_reduction_fraction": 0.45349428796077884,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        56.0,
+        70.9699999999998,
+        94.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        63.0,
+        77.0,
+        103.0
+      ],
+      "at_most_four_fraction": 0.3198784722222222
+    },
+    "source_family-13": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.4921875,
+      "candidate_mean_calls": 5.355902777777778,
+      "call_reduction_fraction": 0.4357567443987197,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        55.0,
+        66.0,
+        78.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        63.0,
+        76.0,
+        88.0
+      ],
+      "at_most_four_fraction": 0.20572916666666666
+    },
+    "source_family-14": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.631944444444445,
+      "candidate_mean_calls": 5.281684027777778,
+      "call_reduction_fraction": 0.45164924297043985,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        9.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        56.0,
+        70.9699999999998,
+        89.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        64.0,
+        78.9699999999998,
+        100.0
+      ],
+      "at_most_four_fraction": 0.2686631944444444
+    },
+    "source_family-15": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.29513888888889,
+      "candidate_mean_calls": 5.194878472222222,
+      "call_reduction_fraction": 0.44111878968995144,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        41.0,
+        55.0,
+        69.9699999999998,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        62.70000000000027,
+        76.9699999999998,
+        94.0
+      ],
+      "at_most_four_fraction": 0.2916666666666667
+    },
+    "source_family-16": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.352864583333334,
+      "candidate_mean_calls": 5.092881944444445,
+      "call_reduction_fraction": 0.455473571859483,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        56.0,
+        69.9699999999998,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        46.0,
+        64.0,
+        78.9699999999998,
+        96.0
+      ],
+      "at_most_four_fraction": 0.3350694444444444
+    },
+    "source_family-17": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.910590277777779,
+      "candidate_mean_calls": 4.860677083333333,
+      "call_reduction_fraction": 0.45450560155869457,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        37.0,
+        52.0,
+        67.9699999999998,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        44.0,
+        59.0,
+        75.0,
+        97.0
+      ],
+      "at_most_four_fraction": 0.4201388888888889
+    },
+    "source_family-18": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.296006944444445,
+      "candidate_mean_calls": 5.026475694444445,
+      "call_reduction_fraction": 0.45928658138014755,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        53.0,
+        67.0,
+        84.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        61.0,
+        75.0,
+        95.0
+      ],
+      "at_most_four_fraction": 0.3324652777777778
+    },
+    "source_family-19": {
+      "rows": 2304,
+      "baseline_mean_calls": 9.355034722222221,
+      "candidate_mean_calls": 5.087239583333333,
+      "call_reduction_fraction": 0.4562030249605642,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        40.0,
+        55.0,
+        70.0,
+        80.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        62.0,
+        77.0,
+        93.0
+      ],
+      "at_most_four_fraction": 0.3346354166666667
+    },
+    "source_family-20": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.391927083333334,
+      "candidate_mean_calls": 4.548611111111111,
+      "call_reduction_fraction": 0.45797776053788464,
+      "call_quantiles": [
+        4.0,
+        6.0,
+        8.0,
+        13.0
+      ],
+      "actual_comparison_quantiles": [
+        34.0,
+        51.0,
+        68.0,
+        108.0
+      ],
+      "worst_comparison_quantiles": [
+        38.0,
+        57.0,
+        75.9699999999998,
+        121.0
+      ],
+      "at_most_four_fraction": 0.5386284722222222
+    },
+    "source_family-21": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.398871527777779,
+      "candidate_mean_calls": 4.59765625,
+      "call_reduction_fraction": 0.452586429641879,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        36.0,
+        51.0,
+        64.0,
+        84.0
+      ],
+      "worst_comparison_quantiles": [
+        41.0,
+        57.0,
+        73.9699999999998,
+        94.0
+      ],
+      "at_most_four_fraction": 0.4965277777777778
+    },
+    "source_family-22": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.234375,
+      "candidate_mean_calls": 4.590711805555555,
+      "call_reduction_fraction": 0.44249420198186806,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "actual_comparison_quantiles": [
+        35.0,
+        51.0,
+        65.0,
+        91.0
+      ],
+      "worst_comparison_quantiles": [
+        40.0,
+        56.0,
+        73.9699999999998,
+        108.0
+      ],
+      "at_most_four_fraction": 0.4978298611111111
+    },
+    "source_family-23": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.491753472222221,
+      "candidate_mean_calls": 4.645833333333333,
+      "call_reduction_fraction": 0.45290058778430875,
+      "call_quantiles": [
+        5.0,
+        6.0,
+        8.0,
+        11.0
+      ],
+      "actual_comparison_quantiles": [
+        36.0,
+        50.0,
+        67.0,
+        91.0
+      ],
+      "worst_comparison_quantiles": [
+        41.5,
+        56.0,
+        75.0,
+        104.0
+      ],
+      "at_most_four_fraction": 0.4908854166666667
+    },
+    "source_family-24": {
+      "rows": 2304,
+      "baseline_mean_calls": 8.244791666666666,
+      "candidate_mean_calls": 4.572048611111111,
+      "call_reduction_fraction": 0.44546220256896185,
+      "call_quantiles": [
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        35.0,
+        50.0,
+        65.0,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        40.0,
+        56.0,
+        74.0,
+        98.0
+      ],
+      "at_most_four_fraction": 0.5043402777777778
+    },
+    "source_family-25": {
+      "rows": 2304,
+      "baseline_mean_calls": 7.970920138888889,
+      "candidate_mean_calls": 4.549913194444445,
+      "call_reduction_fraction": 0.4291859515382521,
+      "call_quantiles": [
+        4.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "actual_comparison_quantiles": [
+        34.0,
+        51.0,
+        65.9699999999998,
+        96.0
+      ],
+      "worst_comparison_quantiles": [
+        39.0,
+        57.0,
+        74.0,
+        107.0
+      ],
+      "at_most_four_fraction": 0.5407986111111112
+    },
+    "net_jump-0": {
+      "rows": 58548,
+      "baseline_mean_calls": 9.089140534262485,
+      "candidate_mean_calls": 4.980255516840883,
+      "call_reduction_fraction": 0.4520652972558541,
+      "call_quantiles": [
+        5.0,
+        7.0,
+        8.0,
+        15.0
+      ],
+      "actual_comparison_quantiles": [
+        39.0,
+        54.0,
+        69.0,
+        120.0
+      ],
+      "worst_comparison_quantiles": [
+        45.0,
+        61.0,
+        77.0,
+        135.0
+      ],
+      "at_most_four_fraction": 0.36631481861037096
+    },
+    "net_jump-1": {
+      "rows": 1356,
+      "baseline_mean_calls": 8.220501474926253,
+      "candidate_mean_calls": 4.379793510324483,
+      "call_reduction_fraction": 0.46721090876469007,
+      "call_quantiles": [
+        4.0,
+        6.0,
+        7.4500000000000455,
+        10.0
+      ],
+      "actual_comparison_quantiles": [
+        35.0,
+        48.0,
+        62.0,
+        85.0
+      ],
+      "worst_comparison_quantiles": [
+        39.0,
+        54.0,
+        69.45000000000005,
+        96.0
+      ],
+      "at_most_four_fraction": 0.5811209439528023
+    }
+  },
+  "component": {
+    "all_checks_passed": true,
+    "rows": 239616,
+    "selected_fragments": 512,
+    "geometry_fragments": 974,
+    "checked_grid_points": 64284000,
+    "replayed_fragment_hops": 316532389,
+    "map_bytes": 1446112,
+    "terms": 1183818,
+    "binding_bytes": 3833856
+  },
+  "files": [
+    {
+      "path": "build/exp717/bindings.bin",
+      "bytes": 3833856,
+      "sha256": "4d872759f9bd0bf057c9d3fa4e1773db7aeba7810c15ecc7d0e0f90e9d0e5ff4"
+    },
+    {
+      "path": "build/exp717/counts.u32",
+      "bytes": 5750784,
+      "sha256": "7400c0daf906bb3e648a4372ea1eeb928754a138ffdde3b52c6a7e461404893d"
+    },
+    {
+      "path": "build/exp717/geometry.lengths.u32",
+      "bytes": 3896,
+      "sha256": "bf1734ed59c462cab3ac0495bdb597e9e72ab3282bbb2f5b9cc2c7e6f0c860af"
+    },
+    {
+      "path": "build/exp717/geometry.words.u8",
+      "bytes": 6816,
+      "sha256": "8edfaf94f90be529e811326d355455b92eb6d0a15bd906885f1637e8332e1949"
+    },
+    {
+      "path": "build/exp717/maps.bin",
+      "bytes": 1446112,
+      "sha256": "49a37e51ab2f5dfd4c3ca9403cc4ba51a4a36e7a2330323a850da8a7cd719c32"
+    },
+    {
+      "path": "build/exp717/maps.csv",
+      "bytes": 18910,
+      "sha256": "f0772691a749120bd82e4fa07ce7dcff3bfb83e4049e6f04a96688ece9aedff2"
+    },
+    {
+      "path": "build/exp717/motions.i16",
+      "bytes": 64,
+      "sha256": "3c52d947eeae6148bd3f8bd34221efabb26f59dee65e32fe0ae29a7a6cbf9975"
+    },
+    {
+      "path": "build/exp717/selected.counts.u32",
+      "bytes": 2048,
+      "sha256": "eaeb65b4a5e9c1788bb3a8793035f17bdcd873f3070542e7ca6d95d879d6374f"
+    },
+    {
+      "path": "build/exp717/selected.lengths.u32",
+      "bytes": 2048,
+      "sha256": "50b9eb4240dd0141851e84937b9b069a1aedd784540e20b2593a4d17455b4a03"
+    },
+    {
+      "path": "build/exp717/selected.words.u8",
+      "bytes": 1765,
+      "sha256": "031c00530b3e329416d15d28c95be6b64746ae0229793b38e79dc504814d595c"
+    },
+    {
+      "path": "build/exp717/terms.u16",
+      "bytes": 2367636,
+      "sha256": "d4a48533ad1975323ec45b8f73a194f34463c8f719933b3989cd7575305a86dc"
+    },
+    {
+      "path": "build/exp717/types.u8",
+      "bytes": 160,
+      "sha256": "85d1be7d52462d3f227d8d806952fe3cabd92f10c85d980a88b6bee52e53a38b"
+    }
+  ],
+  "geometry_bytes": 1460944,
+  "observed_program_bytes": 7662436,
+  "explicit_map_offset_bytes": 3896,
+  "unknown_displacement_selector_available": false,
+  "full_estimator_runs": 0,
+  "new_exact_rows": 0,
+  "accuracy_claim": false,
+  "holdout_applies_only_to_dictionary_selection": true,
+  "disk_free_end_bytes": 40114044928
+}

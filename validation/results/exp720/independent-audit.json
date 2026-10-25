@@ -1,0 +1,95 @@
+{
+  "all_checks_passed": true,
+  "selected": true,
+  "gates": {
+    "quality": true,
+    "V_unchanged": true,
+    "cpu": true,
+    "combined": true
+  },
+  "original_rows_recomputed": 1916928,
+  "complete_runs": 14,
+  "same_output_runs_per_arm": 7,
+  "estimates": {
+    "A": {
+      "point_pp": 98.65359073282781,
+      "stratified_variance_pp2": 3.308759387512358e-06,
+      "stratified_ci975_pp": [
+        98.64951362225976,
+        98.65766784339586
+      ],
+      "family_ci975_pp": [
+        98.61276531950524,
+        98.69509192226961
+      ],
+      "conservative_ci975_pp": [
+        98.61276531950524,
+        98.69509192226961
+      ]
+    },
+    "C": {
+      "point_pp": 98.64070512546654,
+      "stratified_variance_pp2": 3.412096782502914e-06,
+      "stratified_ci975_pp": [
+        98.63656483732495,
+        98.64484541360812
+      ],
+      "family_ci975_pp": [
+        98.60045885343646,
+        98.68134179729861
+      ],
+      "conservative_ci975_pp": [
+        98.60045885343646,
+        98.68134179729861
+      ]
+    },
+    "delta": {
+      "point_pp": -0.01288560736122429,
+      "stratified_variance_pp2": 1.322389356528048e-07,
+      "stratified_ci975_pp": [
+        -0.013700686107267487,
+        -0.012070528615181094
+      ],
+      "family_ci975_pp": [
+        -0.015572775181683,
+        -0.010383774216858854
+      ],
+      "conservative_ci975_pp": [
+        -0.015572775181683,
+        -0.010383774216858854
+      ]
+    }
+  },
+  "mean_cpu_s": {
+    "A": 21.735300000000002,
+    "C": 20.200294166666666
+  },
+  "label_cpu_s": 5330.535215,
+  "cpu_components_recorded": false,
+  "protocol_deviations": [
+    "The reused timer saved user+sys total only; separate user/sys values were not retained."
+  ],
+  "same_complete_run_cpu_and_accuracy": true,
+  "decision": {
+    "path": "validation/results/exp720/decision.json",
+    "bytes": 1321,
+    "sha256": "fb18910b96a6fee6111201aaade969be2dddf02a2f992e10441c62662977e0c3"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp720/validation/exp720_close_audit.py",
+      "bytes": 9775,
+      "sha256": "5c7916d5fd9c1b6ac0b11bb96bf5706d39f0e218751a9e1365671cb6da892ba0"
+    },
+    {
+      "path": "validation/results/exp720/100m-report.json",
+      "bytes": 26013,
+      "sha256": "c0cc4aebf1327396c096ec31cefff341640a32b82d0b342e74ef17aba27dc5a0"
+    },
+    {
+      "path": "validation/results/exp720/score/accuracy.json",
+      "bytes": 1724488,
+      "sha256": "2ad1b24b23f8564e28f9ae1314649181ce7e32018dee84b4ff6922cd3f2e7dd9"
+    }
+  ]
+}

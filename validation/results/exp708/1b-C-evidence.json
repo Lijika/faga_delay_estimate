@@ -1,0 +1,30 @@
+{
+  "run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp707/build/exp707/M/estimate",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp708/1b-C.csv"
+    ],
+    "exit_code": 0,
+    "cpu_s": 226.157413,
+    "wall_s": 256.97211284702644,
+    "rss_bytes": 206385152,
+    "threads": 1,
+    "stderr": "validation/results/exp708/1b-C.stderr"
+  },
+  "output": {
+    "path": "build/exp708/1b-C.csv",
+    "bytes": 40135645803,
+    "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+  },
+  "binary": {
+    "path": "build/exp707/M/estimate",
+    "bytes": 93384728,
+    "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+  }
+}

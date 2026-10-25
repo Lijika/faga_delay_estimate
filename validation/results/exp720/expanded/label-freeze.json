@@ -1,0 +1,72 @@
+{
+  "input": {
+    "path": "build/exp720/expanded/sample-requests.csv",
+    "bytes": 67473930,
+    "sha256": "29b572d72449ceb182d30deb8790ec2eac45bad5f3a873fa56709d19db418d79"
+  },
+  "rows": 1916928,
+  "positions": {
+    "path": "build/exp720/expanded/positions.txt",
+    "bytes": 17039482,
+    "sha256": "e1188338391a5bf5b7a476884dfa4f9ec645e5fcb20226048478ed43857b54ed"
+  },
+  "population": {
+    "path": "build/exp720/expanded/pair-populations.json",
+    "bytes": 479235,
+    "sha256": "5e44d6fa670b3217814f410e59a7b00eadd276808d766fdd2236ec6034ec2e3b"
+  },
+  "tools": [
+    {
+      "path": "../exp679/build/exp679/tools/exact_labels",
+      "bytes": 2932040,
+      "sha256": "3ba200cacb1f0e93485599fe0f02ddb06e4efbdf25befc9bbcba4fad7712a8d4"
+    },
+    {
+      "path": "../exp679/build/exp679/tools/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    }
+  ],
+  "shards": [
+    {
+      "shard": 0,
+      "rows": 479232,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp720/expanded/labels-0.csv",
+        "bytes": 30287801,
+        "sha256": "cbac63afdb4240e2999da406df3c84158bf6ed6ee12986dd2340ec479e6ad925"
+      }
+    },
+    {
+      "shard": 1,
+      "rows": 479232,
+      "span_checks": 4,
+      "input": {
+        "path": "build/exp720/expanded/labels-1.csv",
+        "bytes": 30288947,
+        "sha256": "1e2a75da8be102d8165562f9a5e453fbd2c36dee4a68f4819137ddbf0158ded1"
+      }
+    },
+    {
+      "shard": 2,
+      "rows": 479232,
+      "span_checks": 2,
+      "input": {
+        "path": "build/exp720/expanded/labels-2.csv",
+        "bytes": 30284472,
+        "sha256": "aa873c7199e0bc184747aaa286b8f7be82fca119115203b60a9166b29e020eb1"
+      }
+    },
+    {
+      "shard": 3,
+      "rows": 479232,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp720/expanded/labels-3.csv",
+        "bytes": 30286814,
+        "sha256": "c5c33dab7aca8ce7e057d105e00bc65fc274fa925e8fe3c9dbd034a03ebed249"
+      }
+    }
+  ]
+}

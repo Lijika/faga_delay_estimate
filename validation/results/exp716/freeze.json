@@ -1,0 +1,631 @@
+{
+  "binaries": {
+    "A": {
+      "path": "../exp707/build/exp707/M/estimate",
+      "bytes": 93384728,
+      "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+    },
+    "F": {
+      "path": "build/exp716/estimate-F",
+      "bytes": 93673048,
+      "sha256": "ab4d444aaafd21ab8fa4813aa48ee91b8edc7c853dd2fdece6dfd39b14178475"
+    },
+    "V": {
+      "path": "build/exp716/estimate-V",
+      "bytes": 93673048,
+      "sha256": "85441c9302b7f98b4b7096230c2325c4967c71ee63d53f58ddfd04487904c465"
+    },
+    "W": {
+      "path": "build/exp716/estimate-W",
+      "bytes": 93673048,
+      "sha256": "b85654c29b3c05a3996256a6acdb34af5f2c62f3176b8791784d92925cd3ba86"
+    }
+  },
+  "commands": {
+    "F": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp716/F",
+      "-I",
+      "build/exp716/F",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker716_F",
+      "-c",
+      "build/exp716/F/worker.cpp",
+      "-o",
+      "build/exp716/F/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY",
+      "-fno-lto"
+    ],
+    "V": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp716/V",
+      "-I",
+      "build/exp716/V",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker716_V",
+      "-c",
+      "build/exp716/V/worker.cpp",
+      "-o",
+      "build/exp716/V/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY",
+      "-fno-lto",
+      "-mavx2",
+      "-mavx512f",
+      "-mavx512bw",
+      "-mavx512vl",
+      "-mavx512vnni",
+      "-DEXP716_WIDTH=256",
+      "-mprefer-vector-width=256"
+    ],
+    "W": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp716/W",
+      "-I",
+      "build/exp716/W",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker716_W",
+      "-c",
+      "build/exp716/W/worker.cpp",
+      "-o",
+      "build/exp716/W/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY",
+      "-fno-lto",
+      "-mavx2",
+      "-mavx512f",
+      "-mavx512bw",
+      "-mavx512vl",
+      "-mavx512vnni",
+      "-DEXP716_WIDTH=512",
+      "-mprefer-vector-width=512"
+    ]
+  },
+  "links": {
+    "F": [
+      "g++",
+      "build/exp716/entry.cpp",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fno-lto",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-I",
+      "../exp589/src",
+      "-DEXP716_CHOICE=0",
+      "build/exp716/F/C.o",
+      "build/exp716/V/C.o",
+      "build/exp716/W/C.o",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp716/estimate-F"
+    ],
+    "V": [
+      "g++",
+      "build/exp716/entry.cpp",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fno-lto",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-I",
+      "../exp589/src",
+      "-DEXP716_CHOICE=1",
+      "build/exp716/F/C.o",
+      "build/exp716/V/C.o",
+      "build/exp716/W/C.o",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp716/estimate-V"
+    ],
+    "W": [
+      "g++",
+      "build/exp716/entry.cpp",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fno-lto",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-I",
+      "../exp589/src",
+      "-DEXP716_CHOICE=2",
+      "build/exp716/F/C.o",
+      "build/exp716/V/C.o",
+      "build/exp716/W/C.o",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp716/estimate-W"
+    ]
+  },
+  "sources": [
+    {
+      "path": "build/exp716/F/curve_origin654.h",
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    {
+      "path": "build/exp716/F/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "build/exp716/F/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "build/exp716/F/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "build/exp716/F/exp601_port_parser.h",
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    {
+      "path": "build/exp716/F/exp608_geometry.h",
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+    },
+    {
+      "path": "build/exp716/F/exp614_geometry_features.h",
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    {
+      "path": "build/exp716/F/exp652_distance_curve_lookup.h",
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    {
+      "path": "build/exp716/F/exp652_geometry_restore.h",
+      "bytes": 1234,
+      "sha256": "61110ee5386b737e48bf56f661e229c6f9bc648249fa28dc0d7c2126bde2f032"
+    },
+    {
+      "path": "build/exp716/F/exp679_hv_events.h",
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    {
+      "path": "build/exp716/F/expert-check.cpp",
+      "bytes": 3134,
+      "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+    },
+    {
+      "path": "build/exp716/F/replacement679.h",
+      "bytes": 39054,
+      "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+    },
+    {
+      "path": "build/exp716/F/symmetric640.h",
+      "bytes": 637999,
+      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+    },
+    {
+      "path": "build/exp716/F/worker.cpp",
+      "bytes": 12972,
+      "sha256": "c69638f82159abb25965e42438fa73c2a8fd365dda534fd805144fa1d378c96c"
+    },
+    {
+      "path": "build/exp716/F/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "path": "build/exp716/V/curve_origin654.h",
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    {
+      "path": "build/exp716/V/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "build/exp716/V/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "build/exp716/V/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "build/exp716/V/exp601_port_parser.h",
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    {
+      "path": "build/exp716/V/exp608_geometry.h",
+      "bytes": 3548,
+      "sha256": "484ae89591c0f1b2f80f12f20a59d30d4ead417126195219e803b3e52e63b217"
+    },
+    {
+      "path": "build/exp716/V/exp614_geometry_features.h",
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    {
+      "path": "build/exp716/V/exp652_distance_curve_lookup.h",
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    {
+      "path": "build/exp716/V/exp652_geometry_restore.h",
+      "bytes": 1234,
+      "sha256": "61110ee5386b737e48bf56f661e229c6f9bc648249fa28dc0d7c2126bde2f032"
+    },
+    {
+      "path": "build/exp716/V/exp679_hv_events.h",
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    {
+      "path": "build/exp716/V/expert-check.cpp",
+      "bytes": 3134,
+      "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+    },
+    {
+      "path": "build/exp716/V/replacement679.h",
+      "bytes": 39054,
+      "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+    },
+    {
+      "path": "build/exp716/V/symmetric640.h",
+      "bytes": 637999,
+      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+    },
+    {
+      "path": "build/exp716/V/worker.cpp",
+      "bytes": 12621,
+      "sha256": "8c42a8aa44a7333d0d452fcaa0bcd3a9b4591bdb432edf68d1c6e816b6f40e99"
+    },
+    {
+      "path": "build/exp716/V/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "path": "build/exp716/W/curve_origin654.h",
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    {
+      "path": "build/exp716/W/exp579-models.h",
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    {
+      "path": "build/exp716/W/exp582_int8_geometry.h",
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    {
+      "path": "build/exp716/W/exp596_csv_batch.h",
+      "bytes": 3225,
+      "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+    },
+    {
+      "path": "build/exp716/W/exp601_port_parser.h",
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    {
+      "path": "build/exp716/W/exp608_geometry.h",
+      "bytes": 3548,
+      "sha256": "484ae89591c0f1b2f80f12f20a59d30d4ead417126195219e803b3e52e63b217"
+    },
+    {
+      "path": "build/exp716/W/exp614_geometry_features.h",
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    {
+      "path": "build/exp716/W/exp652_distance_curve_lookup.h",
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    {
+      "path": "build/exp716/W/exp652_geometry_restore.h",
+      "bytes": 1234,
+      "sha256": "61110ee5386b737e48bf56f661e229c6f9bc648249fa28dc0d7c2126bde2f032"
+    },
+    {
+      "path": "build/exp716/W/exp679_hv_events.h",
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    {
+      "path": "build/exp716/W/expert-check.cpp",
+      "bytes": 3134,
+      "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+    },
+    {
+      "path": "build/exp716/W/replacement679.h",
+      "bytes": 39054,
+      "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+    },
+    {
+      "path": "build/exp716/W/symmetric640.h",
+      "bytes": 637999,
+      "sha256": "d49e082bc991367868390f50fc7b8a75c76cd4713efc45a5d969cec6491daa2a"
+    },
+    {
+      "path": "build/exp716/W/worker.cpp",
+      "bytes": 12621,
+      "sha256": "b276cc7a37d4e98538ba01b4b1395c9e723a297e182344c5f49d3eb591e7de44"
+    },
+    {
+      "path": "build/exp716/W/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../exp654/build/exp654/codes.o",
+      "bytes": 29309776,
+      "sha256": "7465a5ba6a8972677dfd2496a8b5e04dcdb8a1ba5a5c3403e7f7069e5b2eab40"
+    },
+    {
+      "path": "../exp652/build/exp652/compressed.o",
+      "bytes": 56504832,
+      "sha256": "74c191b36f579ae33980945a4f421494e118242e1a87b0aaad6ab0f592edf4d9"
+    },
+    {
+      "path": "../exp646/build/exp646/deps/libzstd.a",
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    }
+  ],
+  "component": {
+    "all_equal": true,
+    "synthetic_dots": 165600,
+    "real_dots": 298560,
+    "queries": 239616,
+    "folds": 4,
+    "corners": 99200,
+    "shared_geometry_bytes": 69303616,
+    "shared_sum_bytes": 597120
+  },
+  "schedule": [
+    [
+      "A",
+      "V",
+      "W"
+    ],
+    [
+      "A",
+      "V",
+      "W"
+    ],
+    [
+      "W",
+      "V",
+      "A"
+    ],
+    [
+      "V",
+      "A",
+      "W"
+    ],
+    [
+      "W",
+      "A",
+      "V"
+    ],
+    [
+      "A",
+      "W",
+      "V"
+    ],
+    [
+      "V",
+      "W",
+      "A"
+    ]
+  ],
+  "input": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "bytes": 3519782965,
+    "sha256": "34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30"
+  },
+  "reference": {
+    "path": "../exp703/build/exp703/warmup.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp716/validation/exp716_vnni_workers.py",
+      "bytes": 11636,
+      "sha256": "60ae1d5a5c2c52b8b66c02e41f1e0ab75f262faae5dba50ea8152897adc84b61"
+    },
+    {
+      "path": "experiment/实验716-共享资产的整查询EVEX与VNNI.md",
+      "bytes": 2937,
+      "sha256": "c8a3e61ffe033355b219c56590194760a55c28cc479c9289c2430c109e51f43b"
+    },
+    {
+      "path": "validation/results/exp716/protocol-original.md",
+      "bytes": 2937,
+      "sha256": "c8a3e61ffe033355b219c56590194760a55c28cc479c9289c2430c109e51f43b"
+    },
+    {
+      "path": "tests/exp716_isa_check.cpp",
+      "bytes": 3943,
+      "sha256": "630d3bd8a7159c071beae74cf0127b41539b36ddae95b23a9c16efe008a33000"
+    },
+    {
+      "path": "tests/exp716_vnni_geometry.h",
+      "bytes": 2244,
+      "sha256": "38902806caaf2a7f718ed674551dc40fb217cb2622da9e38b277ce0f7b207c64"
+    },
+    {
+      "path": "build/exp716/entry.cpp",
+      "bytes": 1430,
+      "sha256": "34162e7a17bdb7b7e261183e925442a31e35dfa1a15d6ce6819a095ad763b8bf"
+    }
+  ],
+  "cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 85\nmodel name\t: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz\nstepping\t: 7\nmicrocode\t: 0x5003901\ncpu MHz\t\t: 1200.000\ncache size\t: 22528 KB\nphysical id\t: 0\nsiblings\t: 32\ncore id\t\t: 0\ncpu cores\t: 16\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 22\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi pku ospke avx512_vnni md_clear flush_l1d arch_capabilities ibpb_exit_to_user\nvmx flags\t: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec tsc_scaling\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit mmio_stale_data retbleed eibrs_pbrsb gds bhi its vmscape\nbogomips\t: 5800.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "disk_free_start_bytes": 40144900096
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp707/compare-check",
+    "../exp705/build/exp705/queries.bin"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.6372169999999999,
+  "wall_s": 0.638546543661505,
+  "rss_bytes": 316076032,
+  "threads": 1,
+  "stderr": "validation/results/exp707/compare-check.stderr"
+}

@@ -33,6 +33,14 @@ def main():
     binary, work = (Path(x).resolve() for x in sys.argv[1:])
     work.mkdir(parents=True, exist_ok=False)
     manifest = json.loads((HERE / "exclusions/manifest.json").read_text())
+    extension = json.loads((HERE / "exclusions/exp720-extension.json").read_text())
+    record = extension["output"]
+    path = HERE / "exclusions" / record["path"]
+    assert path.stat().st_size == record["bytes"]
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"]
+    with np.load(path) as packed:
+        added = packed["keys"]
+    assert len(added) == extension["added_pairs"] and np.all(added[1:] > added[:-1])
     names = [r["Name"] for r in json.loads((ROOT / "source/arch/SRB_Port.json").read_text())["Port"]]
     ports = dict(zip(names, range(len(names))))
 
@@ -54,9 +62,11 @@ def main():
         assert a.ndim == 1 and np.all(a[1:] > a[:-1])
         if source_file:
             assert np.all(a < 120 * 550 * 496)
+            assert not np.isin(added >> 32, a).any()
             source_count += len(a)
             selected_sources.update(map(int, a[::max(1, len(a) // 100)]))
         else:
+            assert not np.intersect1d(added, a, assume_unique=True).size
             assert int(a[0]) > last
             last = int(a[-1])
             assert np.all((a >> 32) < 120 * 550 * 496)
@@ -64,6 +74,8 @@ def main():
             pair_count += len(a)
             selected_pairs.update(map(int, a[::max(1, len(a) // 10)]))
     assert (source_count, pair_count) == (manifest["source_pins"], manifest["history_pairs"])
+    assert pair_count + len(added) == extension["combined_pairs"]
+    selected_pairs.update(map(int, added[::max(1, len(added) // 20)]))
     for key in selected_pairs:
         assert pin_id(decode(key >> 32), ports) == key >> 32
         assert pin_id(decode(key & 0xffffffff), ports) == key & 0xffffffff
@@ -102,8 +114,11 @@ def main():
     for case, count, seed, frozen in (
         ("100m", 32, 20261024685, "exp685/expanded/freeze.json"),
         ("1b", 64, 20261025683, "exp683/1b/freeze.json"),
+        ("exp720-100m", 32, 20261027720, "exp720/expanded/freeze.json"),
     ):
-        population = np.asarray(json.loads((HERE / f"population-{case}.json").read_text()), "<u4")
+        population_path = HERE / ("exp720-pair-populations.json" if case == "exp720-100m"
+                                  else f"population-{case}.json")
+        population = np.asarray(json.loads(population_path.read_text()), "<u4")
         path = work / f"sampling-plan-{case}.bin"
         sample["sampling_plan"](path, population, count, seed)
         record = next(r for r in json.loads((ROOT / "validation/results" / frozen).read_text())["files"]
@@ -113,6 +128,8 @@ def main():
         plans[case] = dict(sha256=digest, matches_historical=True)
     sample["sampler_self_check"](binary)
     report = dict(passed=True, source_pins=source_count, historical_pairs=pair_count,
+                  exp720_additional_pairs=len(added), exp720_total_pairs=pair_count + len(added),
+                  exp720_extension_disjoint=True,
                   exclusion_hashes_passed=True, filter_fixture=actual,
                   filter_output_matches_original=True, sampling_plans=plans,
                   sampler_self_check_passed=True, complete_request_populations_generated=0,

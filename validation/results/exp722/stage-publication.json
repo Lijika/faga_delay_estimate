@@ -1,0 +1,268 @@
+{
+  "version_label": "exp722-t2d6-generic-100m20s-3885d2a3-dirty-20261025",
+  "algorithm_version": "D64-curves-T2D6-V8-compiled-M-generic-SSE2",
+  "publication_status": "stage_release",
+  "complete_1b_measured": false,
+  "final_accuracy_goal_verified": false,
+  "final_accuracy_required_pp": 99,
+  "platform_score_verified": false,
+  "other_cpu_performance_verified": false,
+  "full_1b_exact_accuracy_verified": false,
+  "git_commit": "3885d2a30a08ae586e3655fe6eef473319052a25",
+  "git_working_tree_dirty": true,
+  "bin_sha256": "1facd3b259664eb614878e036c56c8c8810d345dbf6f99ec90f8547e2351aef0",
+  "bin_bytes": 93360152,
+  "packaged_utc": "2026-10-25T09:11:48.476918+00:00",
+  "generic_entry": true,
+  "selected_kernel": "SSE2",
+  "optional_isa_not_required": true,
+  "link_mode": "static; all architecture and model assets embedded",
+  "paired_100m": {
+    "all_checks_passed": true,
+    "selected": true,
+    "gates": {
+      "quality": true,
+      "V_unchanged": true,
+      "cpu": true,
+      "combined": true
+    },
+    "original_rows_recomputed": 1916928,
+    "complete_runs": 14,
+    "same_output_runs_per_arm": 7,
+    "estimates": {
+      "A": {
+        "point_pp": 98.65359073282781,
+        "stratified_variance_pp2": 3.308759387512358e-06,
+        "stratified_ci975_pp": [
+          98.64951362225976,
+          98.65766784339586
+        ],
+        "family_ci975_pp": [
+          98.61276531950524,
+          98.69509192226961
+        ],
+        "conservative_ci975_pp": [
+          98.61276531950524,
+          98.69509192226961
+        ]
+      },
+      "C": {
+        "point_pp": 98.64070512546654,
+        "stratified_variance_pp2": 3.412096782502914e-06,
+        "stratified_ci975_pp": [
+          98.63656483732495,
+          98.64484541360812
+        ],
+        "family_ci975_pp": [
+          98.60045885343646,
+          98.68134179729861
+        ],
+        "conservative_ci975_pp": [
+          98.60045885343646,
+          98.68134179729861
+        ]
+      },
+      "delta": {
+        "point_pp": -0.01288560736122429,
+        "stratified_variance_pp2": 1.322389356528048e-07,
+        "stratified_ci975_pp": [
+          -0.013700686107267487,
+          -0.012070528615181094
+        ],
+        "family_ci975_pp": [
+          -0.015572775181683,
+          -0.010383774216858854
+        ],
+        "conservative_ci975_pp": [
+          -0.015572775181683,
+          -0.010383774216858854
+        ]
+      }
+    },
+    "mean_cpu_s": {
+      "A": 21.735300000000002,
+      "C": 20.200294166666666
+    },
+    "label_cpu_s": 5330.535215,
+    "cpu_components_recorded": false,
+    "protocol_deviations": [
+      "The reused timer saved user+sys total only; separate user/sys values were not retained."
+    ],
+    "same_complete_run_cpu_and_accuracy": true,
+    "decision": {
+      "path": "validation/results/exp720/decision.json",
+      "bytes": 1321,
+      "sha256": "fb18910b96a6fee6111201aaade969be2dddf02a2f992e10441c62662977e0c3"
+    },
+    "files": [
+      {
+        "path": "/home/lhj/lhjwork/eda2026/research/exp720/validation/exp720_close_audit.py",
+        "bytes": 9775,
+        "sha256": "5c7916d5fd9c1b6ac0b11bb96bf5706d39f0e218751a9e1365671cb6da892ba0"
+      },
+      {
+        "path": "validation/results/exp720/100m-report.json",
+        "bytes": 26013,
+        "sha256": "c0cc4aebf1327396c096ec31cefff341640a32b82d0b342e74ef17aba27dc5a0"
+      },
+      {
+        "path": "validation/results/exp720/score/accuracy.json",
+        "bytes": 1724488,
+        "sha256": "2ad1b24b23f8564e28f9ae1314649181ce7e32018dee84b4ff6922cd3f2e7dd9"
+      }
+    ]
+  },
+  "previous_entry": {
+    "path": "estimate",
+    "bytes": 93384728,
+    "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+  },
+  "previous_package": "exp708-compiled-prepare-M-1b226s-79606818-dirty-20261025-121643",
+  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp720",
+  "build_driver": "validation/exp720_leaf_cli.py build",
+  "compile_command": [
+    "g++",
+    "-I",
+    "../exp619/tests",
+    "-std=c++17",
+    "-O3",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-DEXP580_PORT_PARSER",
+    "-DEXP581_PREFETCH",
+    "-DEXP582_BLOCK=64",
+    "-DEXP594_PACKED",
+    "-DEXP594_WRITER",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp720",
+    "-I",
+    "build/exp720",
+    "-I",
+    "../exp595/tests",
+    "-I",
+    "../exp594/tests",
+    "-I",
+    "../exp589/tests",
+    "-DEXP596_BATCH=8",
+    "-DEXP608_SIMD=0",
+    "-Dmain=worker608_F",
+    "-c",
+    "build/exp720/worker.cpp",
+    "-o",
+    "build/exp720/C.o",
+    "-DEXP640_TREES=8",
+    "-I",
+    "../exp646/build/exp646/deps",
+    "-DEXP684_V_ONLY"
+  ],
+  "link_command": [
+    "g++",
+    "../exp654/build/exp654/codes.o",
+    "../exp652/build/exp652/entry.cpp",
+    "build/exp720/C.o",
+    "-DEXP607_ARM=0",
+    "-DEXP607_AVX_CHOICE=0",
+    "-DEXP607_SSE_CHOICE=0",
+    "-std=c++17",
+    "-O3",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-DEXP580_PORT_PARSER",
+    "-DEXP581_PREFETCH",
+    "-DEXP582_BLOCK=64",
+    "-DEXP594_PACKED",
+    "-DEXP594_WRITER",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp720",
+    "-I",
+    "build/exp720",
+    "-I",
+    "../exp595/tests",
+    "-I",
+    "../exp594/tests",
+    "-I",
+    "../exp589/tests",
+    "-DEXP596_BATCH=8",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "../exp652/build/exp652/compressed.o",
+    "../exp646/build/exp646/deps/libzstd.a",
+    "-static",
+    "-s",
+    "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+    "-o",
+    "build/exp720/estimate"
+  ],
+  "package_command": "python3 validation/exp722_release.py publish-stage exp722-t2d6-generic-100m20s-3885d2a3-dirty-20261025",
+  "evidence": [
+    {
+      "path": "validation/results/exp720/freeze.json",
+      "bytes": 16336,
+      "sha256": "ad52c542be0ad22166b16c53282a8c9abb54f72476ddc9c90e3e31aee9bd9a4d"
+    },
+    {
+      "path": "validation/results/exp720/build-freeze.json",
+      "bytes": 12137,
+      "sha256": "c12480412f5ef5c28b65216c3a84c74cfd14f21897c3a76aff2021f47a063793"
+    },
+    {
+      "path": "validation/results/exp720/numeric-audit.json",
+      "bytes": 877,
+      "sha256": "91731d5ec2a2229698e272d7f6a222e27d8225fad0bedd063f41abde145a76cd"
+    },
+    {
+      "path": "validation/results/exp720/100m-report.json",
+      "bytes": 26013,
+      "sha256": "c0cc4aebf1327396c096ec31cefff341640a32b82d0b342e74ef17aba27dc5a0"
+    },
+    {
+      "path": "validation/results/exp720/independent-audit.json",
+      "bytes": 2537,
+      "sha256": "12e85afe349d589476febe8b8f152f025753222ac70d874ce7714f84e8e3ca0f"
+    },
+    {
+      "path": "validation/results/exp720/decision.json",
+      "bytes": 1321,
+      "sha256": "fb18910b96a6fee6111201aaade969be2dddf02a2f992e10441c62662977e0c3"
+    },
+    {
+      "path": "validation/results/exp722/protocol-original.md",
+      "bytes": 2183,
+      "sha256": "b40b0b155edabca78f806da5aa51f874e2013941d86a726d82f71bf3422b2307"
+    },
+    {
+      "path": "validation/results/exp722/clean-freeze.json",
+      "bytes": 998,
+      "sha256": "b2137b4e471498e0bbeece31ec11755f7a865e12d5802896d9b451cf9d96d8b5"
+    },
+    {
+      "path": "validation/results/exp722/package-check.json",
+      "bytes": 1308,
+      "sha256": "6150cb415b82f8f34a9378fbcff32180d43518bd18358b88bf7c0b3920429ed5"
+    }
+  ],
+  "zip_sha256": "69f31e84adbba5afc1abd4e34ab77194421bbf382711fe906109f1642437a04a",
+  "zip_bytes": 81347344
+}

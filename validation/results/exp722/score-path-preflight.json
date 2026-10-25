@@ -1,0 +1,8 @@
+{
+  "finding": "The original adapter changes base/build variables but leaves paths stored inside exp683 manifests unchanged.",
+  "correction": "Run the original scoring body in exp683; use absolute candidate sample paths and an exp722 result directory.",
+  "estimate_runs_repeated": 0,
+  "original_release_script_unchanged": true,
+  "replacement": "validation/exp722_score.py",
+  "actual_score_pending": true
+}

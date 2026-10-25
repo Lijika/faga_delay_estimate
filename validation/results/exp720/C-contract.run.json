@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../exp580/build/exp580/contract-check",
+    "check",
+    "build/exp720/u-role/requests.csv",
+    "build/exp720/100m-0-C.csv",
+    "100000000",
+    "build/exp720/expanded/positions.txt",
+    "build/exp720/C-sample.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 10.378915,
+  "wall_s": 10.380073527805507,
+  "rss_bytes": 217776128,
+  "threads": 1,
+  "stderr": "validation/results/exp720/C-contract.stderr"
+}

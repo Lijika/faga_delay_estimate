@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp724_affine_curves.py",
+      "bytes": 12376,
+      "sha256": "3f3bc9e9b78537b53795a54bf0468075190a5ef63c949b8a741062730a28ab8f"
+    },
+    {
+      "path": "experiment/实验724-端口对仿射主体与双码距离形状.md",
+      "bytes": 3726,
+      "sha256": "c15727957e087db376d9e68d05ca027468f4c01d9575ce0df9b6d682cb0c5bb5"
+    },
+    {
+      "path": "validation/results/exp724/protocol-original.md",
+      "bytes": 3726,
+      "sha256": "c15727957e087db376d9e68d05ca027468f4c01d9575ce0df9b6d682cb0c5bb5"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp689_full_response.py",
+      "bytes": 15288,
+      "sha256": "0ffadcb34a8488491ccb8eb9523db1d24a51255947bf505d44bab68897819739"
+    },
+    {
+      "path": "validation/exp650_curve_assign.cpp",
+      "bytes": 3876,
+      "sha256": "566aa6e0cad849b3c5d5c247761b592b6698d8fb604c735c40f4d23c1bdd936e"
+    },
+    {
+      "path": "validation/results/exp689/freeze.json",
+      "bytes": 5013,
+      "sha256": "08592cec45503e5c411b87645dd24e0da7d905606d6adb1bf44671f9cdb842fd"
+    },
+    {
+      "path": "validation/results/exp689/extraction.json",
+      "bytes": 603,
+      "sha256": "58f9a2fc05b621c700ed6c67f457afeaab0da21e74c30006837bd3cb75c9b07c"
+    },
+    {
+      "path": "validation/results/exp689/report.json",
+      "bytes": 12798,
+      "sha256": "746bf2b935c14dfc3fd6298cff0736e2ba47276041d34bd8f7624fb2b6aab24c"
+    },
+    {
+      "path": "validation/results/exp689/close-audit.json",
+      "bytes": 645,
+      "sha256": "9dff5e3bc47ab83406d602b4b3ce86bf757bdda6480bc2870c26458f4d3aef52"
+    },
+    {
+      "path": "build/exp689/fit-ids.u32",
+      "bytes": 65536,
+      "sha256": "2fce57b739ca31a418e59af7b3ad1783014380b49be49c2016352bacb1d0ae54"
+    }
+  ],
+  "input_arrays": [
+    {
+      "path": "build/exp689/values.i16",
+      "bytes": 129871872,
+      "sha256": "9c90486b7876c596c447bed0a18bafc8cc8c28c586bf045e0612415491cadbb6"
+    },
+    {
+      "path": "build/exp689/truth.i16",
+      "bytes": 129871872,
+      "sha256": "d76469687251d2465984f5db3173b17e27493b3b0101afc10a3d299f89e24ddb"
+    },
+    {
+      "path": "build/exp689/baseline.i16",
+      "bytes": 129871872,
+      "sha256": "4b0766301a6fbb3db6ad4da7b5b7749b101db84c41b55c9704604d2f2f1855fe"
+    }
+  ],
+  "budget_bytes": 99810933,
+  "q": 64,
+  "codebook_seed": 20261025689,
+  "fit_rows": 16384,
+  "iterations": 8,
+  "encode_sweeps": 4,
+  "complete_program_runs": 0,
+  "new_exact_labels": 0,
+  "disk_free_start_bytes": 296023269376
+}

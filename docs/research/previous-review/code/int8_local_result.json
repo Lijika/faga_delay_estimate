@@ -1,0 +1,1 @@
+{"status":"pass","compiler":"14.2.0","seed":20261025,"dot_cases_per_kernel":165600,"eight_group_cases_per_kernel":4096,"observed_dot_min":-1040384,"observed_dot_max":1048576,"kernels":["SSE2","AVX2","EVEX_VNNI256","VNNI512"],"scope":"Synthetic arithmetic correctness only; not exp688 whole-output equivalence, GCC11.4 verification, or Xeon timing"}

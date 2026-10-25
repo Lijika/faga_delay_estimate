@@ -1,0 +1,70 @@
+{
+  "gaps": {
+    "to_99_pp": 0.480000000000004,
+    "to_99_1_pp": 0.5799999999999983,
+    "speedup_100": 2.2,
+    "speedup_90": 2.4444444444444446,
+    "time_reduction_100": 0.5454545454545454,
+    "time_reduction_90": 0.5909090909090908,
+    "loss_reduction_99": 0.3243243243243261,
+    "loss_reduction_99_1": 0.39189189189188967
+  },
+  "counts": {
+    "full_states": 29859200,
+    "z_states": 9632000,
+    "nominal_cells": 15872163840,
+    "nominal_u16_B": 31744327680,
+    "all_role_queries_upper": 217094492160000,
+    "all_role_queries_u16_B": 434188984320000,
+    "word_bitmaps_B": 1803110400,
+    "full_vertex_offset_u32_B": 119436800,
+    "alt16_bidir_u32_B": 3821977600,
+    "right_sum_i16_B": 597120,
+    "source_motion_cell_port_B": 9511936
+  },
+  "conservative_elf": {
+    "baseline": 93402392,
+    "condition_assets": 3000000,
+    "workers": 524288,
+    "indices_headers": 262144,
+    "padding": 65536
+  },
+  "conservative_elf_total": 97254360,
+  "conservative_elf_headroom": 2745640,
+  "conservative_peak_rss_budget": {
+    "baseline_peak": 206372864,
+    "new_elf_pages": 3851968,
+    "compiled_records": 9511936,
+    "vnni_right_sums": 597120,
+    "new_assets_restored_cap": 33554432,
+    "restore_scratch_cap": 8388608,
+    "extra_io_buffers_cap": 8388608,
+    "extra_stack_state_cap": 2097152
+  },
+  "conservative_peak_rss_budget_total": 272762688,
+  "conservative_peak_rss_budget_headroom": 27237312,
+  "new_elf": {
+    "u16_recipe_directory": 57507840,
+    "recipes": 8388608,
+    "guards": 8388608,
+    "residual": 4194304,
+    "compact_near_fallback": 8388608,
+    "scales_headers": 1048576,
+    "shared_baseline_remainder": 7589408,
+    "new_workers": 524288,
+    "new_padding": 262144
+  },
+  "new_elf_total": 96292384,
+  "new_elf_headroom": 3707616,
+  "dot_bounds": {
+    "signed64_min": -1040384,
+    "signed64_max": 1048576,
+    "unsigned_signed64_min": -2088960,
+    "unsigned_signed64_max": 2072640,
+    "sum_b_min": -8192,
+    "sum_b_max": 8128
+  },
+  "synthetic_clamp_cases": 89018,
+  "status": "pass",
+  "scope": "Arithmetic counts and synthetic projection cases, not project dataset evaluation"
+}

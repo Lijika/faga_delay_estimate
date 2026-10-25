@@ -1,0 +1,18 @@
+{
+  "command": [
+    "build/exp720/expanded/stratified-sample",
+    "build/exp720/u-role/requests.csv",
+    "build/exp720/expanded/sampling-plan.bin",
+    "build/exp720/expanded/sources",
+    "build/exp720/expanded/targets",
+    "build/exp720/expanded/sample-requests.csv",
+    "build/exp720/expanded/positions.txt",
+    "build/exp720/expanded/counts.tsv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 15.346468,
+  "wall_s": 15.34822267992422,
+  "rss_bytes": 3478609920,
+  "threads": 1,
+  "stderr": "validation/results/exp720/expanded/sample-input.stderr"
+}

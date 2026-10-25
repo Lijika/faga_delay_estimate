@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recreate the exp683/exp685 stratified sample plan and extract its request rows."""
+"""Recreate a frozen exp683/685/720 sample plan and extract its request rows."""
 import argparse
 import ast
 import json
@@ -14,7 +14,7 @@ HERE = Path(__file__).resolve().parent
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("case", choices=("100m", "1b"))
+    parser.add_argument("case", choices=("100m", "exp720-100m", "1b"))
     parser.add_argument("requests", type=Path)
     parser.add_argument("population_json", type=Path)
     parser.add_argument("sampler_binary", type=Path)
@@ -28,6 +28,8 @@ def main():
     population = np.asarray(json.loads(args.population_json.read_text()), "<u4")
     rows, count, seed = (100_000_000, 32, 20261024685) if args.case == "100m" \
                        else (1_000_000_000, 64, 20261025683)
+    if args.case == "exp720-100m":
+        rows, count, seed = 100_000_000, 32, 20261027720
     assert population.shape == (59904,) and population.sum() == rows
     out = args.new_output_directory.resolve()
     out.mkdir(parents=True, exist_ok=False)

@@ -1,0 +1,31 @@
+1.2.8
+(self, X, y=None, cat_features=None, text_features=None, embedding_features=None, graph=None, sample_weight=None, baseline=None, use_best_model=None, eval_set=None, verbose=None, logging_level=None, plot=False, plot_file=None, column_description=None, verbose_eval=None, metric_period=None, silent=None, early_stopping_rounds=None, save_snapshot=None, snapshot_file=None, snapshot_interval=None, init_model=None, callbacks=None, log_cout=None, log_cerr=None)
+
+        Save the model to a file.
+
+        Parameters
+        ----------
+        fname : string
+            Output file name.
+        format : string
+            Possible values:
+                * 'cbm' for catboost binary format,
+                * 'coreml' to export into Apple CoreML format
+                * 'onnx' to export into ONNX-ML format
+                * 'pmml' to export into PMML format
+                * 'cpp' to export as C++ code
+                * 'python' to export as Python code.
+        export_parameters : dict
+            Parameters for CoreML export:
+                * prediction_type : string - either 'probability' or 'raw'
+                * coreml_description : string
+                * coreml_model_version : string
+                * coreml_model_author : string
+                * coreml_model_license: string
+            Parameters for PMML export:
+                * pmml_copyright : string
+                * pmml_description : string
+                * pmml_model_version : string
+        pool : catboost.Pool or list or numpy.ndarray or pandas.DataFrame or pandas.Series or catboost.FeaturesData
+            Training pool.
+        

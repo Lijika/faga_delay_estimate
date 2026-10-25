@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp723/local/component",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/arch",
+    "build/exp723/local"
+  ],
+  "exit_code": 0,
+  "user_s": 0.38626,
+  "sys_s": 0.100954,
+  "cpu_s": 0.487214,
+  "wall_s": 0.4546559850059566,
+  "rss_bytes": 50298880,
+  "threads": 1
+}

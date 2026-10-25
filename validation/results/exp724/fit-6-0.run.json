@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp724/assign",
+    "build/exp724/fit-6-0.i16",
+    "build/exp724/fit-6-0-centers.i16",
+    "build/exp724/weights.f64",
+    "16384",
+    "44",
+    "build/exp724/fit-6-0"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.15786900000000514,
+  "wall_s": 0.16455448800115846
+}

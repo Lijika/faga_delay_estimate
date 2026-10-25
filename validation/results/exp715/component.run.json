@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp715/repeat-words",
+    "../exp705/build/exp705",
+    "build/exp715",
+    "../../doc/eda比赛文件/arch"
+  ],
+  "exit_code": 0,
+  "user_s": 1.718338,
+  "sys_s": 0.087017,
+  "cpu_s": 1.8053549999999998,
+  "wall_s": 1.8061272227205336,
+  "rss_bytes": 108216320,
+  "threads": 1
+}

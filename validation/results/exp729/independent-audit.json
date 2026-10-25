@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "report": {
+    "path": "validation/results/exp729/report.json",
+    "bytes": 2560,
+    "sha256": "5f725372e9c190eb18328801be6136bc76111fbb84e1d0e95d4cefd9c7ae006d"
+  },
+  "artifacts": [
+    {
+      "path": "build/exp729/P.bin",
+      "bytes": 1368980,
+      "sha256": "51378e0440b350141c32958272ba192f6f27ef8aafaf55f3060cb32d91648c3f"
+    },
+    {
+      "path": "build/exp729/N.bin",
+      "bytes": 698556,
+      "sha256": "1a39b0cfbf7fa6d7aec36e71019bd0e49e60bb3ecec1055c9e9cfad88ea34ec7"
+    }
+  ],
+  "corrected_decoder": {
+    "path": "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py",
+    "bytes": 14503,
+    "sha256": "96607a420b082f3f03ffd4076b0b08d0f225f334b2c14e8ed70da3639e732d95"
+  },
+  "full_positions_per_arm": 68376000
+}

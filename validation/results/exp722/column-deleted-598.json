@@ -1,0 +1,33 @@
+{
+  "original_archive": {
+    "path": "research/exp598/build/exp598/1b.csv.zst",
+    "bytes": 14968248914,
+    "sha256": "7bca7909d315f897c96a0e2e05a23fca3da70e4f851dc27753927abbf1623986"
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "archive": {
+    "path": "build/exp722/column-archives/exp598-1b-delay.csv.zst",
+    "bytes": 2072173783,
+    "sha256": "38de60be657e2f7a5396e210881e09900bfaccd0ead255d16b1ca157cb0df2f5"
+  },
+  "restored_output": {
+    "bytes": 40135650635,
+    "sha256": "c86df96df2dc7a77a20991ed7d08db2e1d8fbff7b59c464354da346526bb9fec"
+  },
+  "complete_output_sha_matches": true,
+  "rows": 1000000000,
+  "rebuild_command": "cd research/exp598 && ../exp596/build/exp596/Q -in ../../build/hidden-suite-v1/role-1b/requests.csv -out build/exp598/1b.csv",
+  "restore_command": "paste -d, ../../build/hidden-suite-v1/role-1b/requests.csv <(zstd -dq -c build/exp722/column-archives/exp598-1b-delay.csv.zst)",
+  "restore_shell": "bash",
+  "original_stat": [
+    14968248914,
+    1792622678817597400,
+    22176844
+  ],
+  "deleted": true,
+  "net_released_bytes": 12896075131
+}

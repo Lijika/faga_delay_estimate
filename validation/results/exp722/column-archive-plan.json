@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "source": "research/exp580/build/exp580/1b-RP.csv.zst",
+      "destination": "build/remote-output-archives/exp722/research/exp580/build/exp580/1b-RP.csv.zst",
+      "expected": {
+        "path": "research/exp580/build/exp580/1b-RP.csv.zst",
+        "bytes": 14968256776,
+        "sha256": "50394b424eedae134f7ac1dd076aa6c5d88c7fdb34f05440d83c251cc5990df4"
+      },
+      "rebuild_command": "cd research/exp580 && build/exp580/RP -in ../../build/hidden-suite-v1/role-1b/requests.csv -out build/exp580/1b-RP.csv",
+      "decompressed_sha256": "a6c91d20743dff1ce0861791ed8d4fb65d7696682cd537daf0e711aae6d4fa97",
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp722/research/exp580/build/exp580/1b-RP.csv.zst",
+        "r9r4900:lhjwork/eda2026/research/exp580/build/exp580/1b-RP.csv.zst"
+      ]
+    },
+    {
+      "source": "research/exp598/build/exp598/1b.csv.zst",
+      "destination": "build/remote-output-archives/exp722/research/exp598/build/exp598/1b.csv.zst",
+      "expected": {
+        "path": "research/exp598/build/exp598/1b.csv.zst",
+        "bytes": 14968248914,
+        "sha256": "7bca7909d315f897c96a0e2e05a23fca3da70e4f851dc27753927abbf1623986"
+      },
+      "rebuild_command": "cd research/exp598 && ../exp596/build/exp596/Q -in ../../build/hidden-suite-v1/role-1b/requests.csv -out build/exp598/1b.csv",
+      "decompressed_sha256": "c86df96df2dc7a77a20991ed7d08db2e1d8fbff7b59c464354da346526bb9fec",
+      "restore_command": [
+        "rsync",
+        "-a",
+        "build/remote-output-archives/exp722/research/exp598/build/exp598/1b.csv.zst",
+        "r9r4900:lhjwork/eda2026/research/exp598/build/exp598/1b.csv.zst"
+      ]
+    }
+  ],
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/exp722_column_archive.py",
+    "bytes": 6359,
+    "sha256": "62f9f8097740edcb9ad4f5c671d98bd07142f3466d392f45e383cb999bd8c7d9"
+  },
+  "selected_columns": "cut -d, -f3; includes delay header",
+  "current_consumers": [
+    "exp720 independent audit",
+    "exp722 clean",
+    "exp722 billion and score"
+  ],
+  "disk_free_start_bytes": 17073553408,
+  "timing_running": false,
+  "keep_input": true,
+  "verify_full_reconstructed_output_before_delete": true
+}

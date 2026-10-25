@@ -1,0 +1,30 @@
+{
+  "all_checks_passed": true,
+  "independent_score_formula": true,
+  "grouped_losses_and_family_intervals_equal": true,
+  "selected": false,
+  "comparisons": {
+    "S": {
+      "delta_pp": 6.960852378009321e-06,
+      "ci95_pp": [
+        0.0,
+        2.0702457997458456e-05
+      ]
+    },
+    "C": {
+      "delta_pp": 0.0002889784913441965,
+      "ci95_pp": [
+        0.00023492222342348526,
+        0.0003481503982955644
+      ]
+    }
+  },
+  "rows": 1000000,
+  "report_sha256": "eea30053033f8e26d6115d2f5b431ef093ee5f5b08bd7bcce782d2a533450346",
+  "construction_sha256": "33609b9a42479b1d88084daf63ac0e343f45cac9ebc2c46b060e5a9f718dfaa7",
+  "source": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp732/validation/exp732_audit.py",
+    "bytes": 3848,
+    "sha256": "7ec9eaac90e8cff0312d241f774bee791cebfd41fcc90c05e6979e00485eacfa"
+  }
+}

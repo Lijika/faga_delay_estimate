@@ -1,0 +1,6 @@
+{
+  "stage": "local component test called fold=1 in a production-only worker",
+  "message": "estimate: symmetric route",
+  "cause": "production headers intentionally compile fold=0 only; additional folds require EXP579_AUDIT",
+  "fix": "test the deployed fold=0 for every historical query; unchanged OOF model paths are outside this deployment-equivalence experiment"
+}

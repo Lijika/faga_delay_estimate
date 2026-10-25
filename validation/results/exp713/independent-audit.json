@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "independently_decoded_models": 96,
+  "rows": 1000000,
+  "curve_base_and_integer_predictions_equal": true,
+  "source_pin_overlap": 0,
+  "four_paired_statistics_equal": true,
+  "V_rows": 2613,
+  "selected": null,
+  "report_sha256": "3e08803676fa528dd6914aee0ad72b8272342539e740dc2e3ec75e099c5408d2"
+}

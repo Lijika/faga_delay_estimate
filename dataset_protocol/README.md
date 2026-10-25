@@ -8,7 +8,7 @@
 
 这一定义来自项目的生成与建模方案。仓库中的官方 V0.3 文档第 5.4 节说明每条请求包含一个 from pin 和一个 to pin，端口章节定义全部端口及其连接；已找到的文字没有把请求域明确收窄为上述 208×288。公开 golden 的 1,000,000 行均落在当前角色域内，实际出现 113 个源端口和 256 个目标端口，见 [公开样本检查](public-domain-audit.json)。它支持已测范围内的覆盖结论。
 
-exp688 的 `prepare596` 在角色索引缺失时保留默认 `answer=-1`。同 pin 提前返回 0 是单独的分支。图中存在当前角色域外的可达请求，例如 `SRB_20_100/IDE[0]` 到 `SRB_20_100/A_A3`，原 exact 工具已经复算，结果见 [solver-verification.json](../accuracy/solver-verification.json)。因此，如果官方允许这类端点，正式实现需要扩展支持。官方是否排除它们仍需赛事方明确；本次材料保持该问题开放。
+exp728 的生产入口先检查角色索引，域外请求保留默认 `answer=-1`。`prepare596` 内部同 pin 返回 0 的分支也受这项前置检查影响。图中存在当前角色域外的可达请求，例如 `SRB_20_100/IDE[0]` 到 `SRB_20_100/A_A3`，原 exact 工具已经复算，结果见 [solver-verification.json](../accuracy/solver-verification.json)。因此，如果官方允许这类端点，正式实现需要扩展支持。官方是否排除它们仍需赛事方明确；本次材料保持该问题开放。
 
 ## 冻结生成器
 
@@ -61,7 +61,7 @@ pair_key = (source_pin_id << 32) | target_pin_id
   U-role 120000000 20261025685 20261026685 /tmp/proposal-685
 
 python3 dataset_protocol/filter_fresh.py \
-  /tmp/proposal-685/requests.csv /tmp/fresh-100m
+  /tmp/proposal-685/requests.csv /tmp/fresh-100m --protocol exp685
 
 /tmp/dataset-tools/check_hidden_suite \
   source/arch /tmp/dataset-tools/reach.bin /tmp/dataset-tools/eligibility.bin \
@@ -70,11 +70,41 @@ python3 dataset_protocol/filter_fresh.py \
 
 预期请求 SHA 为 `34124e61db52c4f1de64e742a96508d160087153d5c446292bf9ab5b13db9a30`。源 pin 隔离相对 exp501；历史排除覆盖 manifest 中已登记的数据，范围包含多个旧抽样集，不能扩展成与所有历史 1B 全量输入都互斥。原始输入证据位于 [100m-input.json](../validation/results/exp685/100m-input.json)。本轮没有重新生成完整 100M 或 1B。
 
+## 当前 exp720 的新 100M
+
+exp720 的模型比较及后续 exp723、727、728 等价验收使用另一份新请求。提议仍为 120M，proposal seed `20261025720`、shuffle seed `20261026720`。先排除同一批 960,505 个训练源 pin，再排除 22,308,485 个登记历史请求，按原顺序取前 100M。其相对 exp685 多排除了 exp685 已抽样的 1,916,928 条请求，增量集合在 `exclusions/exp720-additional.npz`，身份和来源见 `exclusions/exp720-extension.json`。
+
+```sh
+/tmp/dataset-tools/make_hidden_suite \
+  source/arch /tmp/dataset-tools/reach.bin \
+  U-role 120000000 20261025720 20261026720 /tmp/proposal-720
+
+python3 dataset_protocol/filter_fresh.py \
+  /tmp/proposal-720/requests.csv /tmp/fresh-720 --protocol exp720
+
+/tmp/dataset-tools/check_hidden_suite \
+  source/arch /tmp/dataset-tools/reach.bin /tmp/dataset-tools/eligibility.bin \
+  U-role 100000000 /tmp/fresh-720/requests.csv /tmp/fresh-720/check
+```
+
+`filter_fresh.py` 默认采用 exp720 排除集合，复现旧 exp685 需明确选择 `--protocol exp685`。当前输入为 3,519,786,871 B，SHA 为 `922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3`。原证据见 [100m-input.json](../validation/results/exp720/100m-input.json)，人口见 [exp720-pair-populations.json](exp720-pair-populations.json)。
+
+原过滤访问 108,460,406 条提议，排除 8,460,395 条训练源 pin 请求和 11 条历史请求。登记排除集合与全部历史完整 1B 的互斥范围分别理解；该 100M 经过 exp720 模型验收后也成为开发证据。
+
+```sh
+python3 dataset_protocol/sample_exact_requests.py exp720-100m \
+  /tmp/fresh-720/requests.csv dataset_protocol/exp720-pair-populations.json \
+  /tmp/dataset-tools/stratified-sample /tmp/sample-720
+```
+
+每 pair 抽 32 条，seed 为 `20261027720`，共 1,916,928 条。原动态生成的函数文本保存在 `exp720-generated-population.py` 和 `exp720-generated-sample.py`。本轮检查增量集合与旧集合、训练源 pin 的全量互斥，并重建抽样计划核对 SHA。报告见 [exp720-protocol-verification.json](exp720-protocol-verification.json)。本轮没有重新生成完整 100M。
+
 ## exact 抽样与 outer-fold
 
 | 人口 | 每 pair 样本数 | 样本总数 | 抽样 seed |
 | --- | --- | --- | --- |
 | exp685 100M | 32 | 1,916,928 | `20261024685` |
+| exp720 100M | 32 | 1,916,928 | `20261027720` |
 | 原 1B 的 exp683 扩大抽样 | 64 | 3,833,856 | `20261025683` |
 
 两个 `population-*.json` 保留实际人口计数。抽样先在每个 pair 内选定出现序号，再顺序扫描 CSV，输出原始行位置；抽样比例为 `n_pair/N_pair`。抽样、位置和标签对齐代码来自 exp683。

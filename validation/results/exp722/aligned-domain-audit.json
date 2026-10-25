@@ -1,0 +1,38 @@
+{
+  "all_checks_passed": true,
+  "source_identity": [
+    {
+      "path": "tests/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "path": "build/exp720/exp707_prepare_metadata.h",
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    {
+      "path": "tests/exp707_prepare_metadata.cpp",
+      "bytes": 3725,
+      "sha256": "35a8c49a98571dadd6266fbc907078dee7e443889e8cdac5cc6b7d248be1fe06"
+    }
+  ],
+  "existing_full_domain_result": {
+    "all_equal": true,
+    "net_positions": 10560000,
+    "valid_hops": 9417280,
+    "max_aligned_bx": 119,
+    "max_aligned_by": 549,
+    "metadata_bytes": 113762,
+    "port_bytes": 14,
+    "motion_bytes": 6
+  },
+  "proof": "For fixed first landing a and nominal v, abs(t-a+v) is bounded by the two endpoints of each coordinate interval. No-Net sources use a=s and v=0.",
+  "architecture_changed": false,
+  "original_report_section": "2.2",
+  "new_estimator_runs": 0,
+  "new_enumeration_runs": 0,
+  "role_domain_extension_verified": false,
+  "source": "validation/results/exp707/freeze.json",
+  "candidate": "validation/results/exp720/build-freeze.json"
+}

@@ -25,7 +25,6 @@ static void require(bool ok, const char* why) {
 }
 
 #include "exp652_geometry_restore.h"
-#include "exp596_csv_batch.h"
 #define geometry dynamicGeometry595
 #define prefetchGeometry581 dynamicPrefetch595
 #include "exp582_int8_geometry.h"
@@ -34,13 +33,17 @@ static void require(bool ok, const char* why) {
 #include "exp608_geometry.h"
 #include "exp652_distance_curve_lookup.h"
 extern delayest::Architecture arch;
+#include "exp707_prepare_metadata.h"
 #ifdef EXP580_PORT_PARSER
 #include "exp601_port_parser.h"
 #endif
+#include "exp723_fused_parse.h"
+#include "exp596_csv_batch.h"
 
 static void initialize() {
     restoreGeometry652();
     arch.loadEmbedded();
+    initialize707();
 #ifdef EXP580_PORT_PARSER
     initializePorts580();
 #ifdef EXP580_VERIFY_PARSER
@@ -116,17 +119,13 @@ struct Prepared596 {
 static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& state, Trace* trace = nullptr) {
     const int sx=q[0], sy=q[1], tx=q[2], ty=q[3], sp=q[8], tp=q[9];
     if (sx == tx && sy == ty && sp == tp) { state.answer=0; return; }
-    const int source = kSourceIndex[sp], target = kTargetIndex[tp];
+    const auto& sd=ports707[sp];
+    const int source=sd.source, target=ports707[tp].target;
     if (source < 0 || target < 0 || !arch.exists(sx,sy) || !arch.exists(tx,ty)) return;
-    int ax=sx, ay=sy, ndx=0, ndy=0, fee=0;
-    const int net = arch.netOfOutput(sp);
-    if (net >= 0) {
-        const auto& n = arch.net(net);
-        const auto a = arch.resolveNet(sx, sy, net);
-        if (!a.valid) return;
-        ax=a.x; ay=a.y; ndx=n.dx; ndy=n.dy;
-        fee=a.delay-line(sx,sy,ax,ay);
-    }
+    int ax, ay, fee, firstLine;
+    if (!first707(sx,sy,sd,ax,ay,fee,firstLine)) return;
+    const int ndx=sd.dx, ndy=sd.dy;
+    const bool hasNet=sd.start!=65535;
     const int x=tx-ax, y=ty-ay, dx=x+ndx, dy=y+ndy;
     const unsigned bx=unsigned(std::abs(dx)), by=unsigned(std::abs(dy));
     require(bx<=119 && by<=549, "nominal geometry domain");
@@ -136,12 +135,9 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
     prefetchGeometry581(pair,context,qx,qy);
     if (qx+qy>3) _mm_prefetch(reinterpret_cast<const char*>(phaseCodes619 +
         phaseByte619(pair,context)), _MM_HINT_T0);
-    const int mandatory=line(sx,sy,ax,ay)+line(ax,ay,tx,ty);
+    const int mandatory=firstLine+line707(ax,ay,tx,ty);
     const int sf=q[4], sl=q[5], tf=q[6], tl=q[7];
-    bool forced=false;
-    for (const auto& b : arch.blocks())
-        forced |= ((ax<b.left && tx>b.right) || (tx<b.left && ax>b.right)) &&
-                   ay>=b.lower && ay<=b.upper && ty>=b.lower && ty<=b.upper;
+    const bool forced=forced707(ax,ay,tx,ty);
     const int feature[53]={sf,sl,tf,tl,sf>=20,tf>=20,ndx,ndy,x,y,std::abs(x),std::abs(y),x<0,y<0,
         mod(x,10),mod(y,12),std::abs(x)%10,std::abs(y)%12,std::abs(x)/10,std::abs(y)/12,
         sl^tl,sl-tl,125*(std::abs(x)/10)+(y<0?125:127)*(std::abs(y)/12),
@@ -162,8 +158,8 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
 #endif
     state.pair=pair; state.context=context; state.qx=qx; state.qy=qy;
     state.fee=fee; state.mandatory=mandatory; state.dy=dy; state.raw=raw;
-    state.override_cycle=dx==0 && dy==0 && sp==tp && net>=0;
-    state.cycle=kCycles[source]; state.ready=true;
+    state.override_cycle=dx==0 && dy==0 && sp==tp && hasNet;
+    state.cycle=sd.cycle; state.ready=true;
     if (trace) for (unsigned j=0;j<53;++j) trace->feature[j]=float(feature[j]);
 }
 
@@ -250,29 +246,31 @@ int main(int argc, char** argv) {
     querying=true;
     std::string_view lines[EXP596_BATCH];
     for (;;) {
-        const size_t count=reader.nextBatch(lines,EXP596_BATCH);
-        if (!count) break;
         Prepared596 states[EXP596_BATCH];
-        for (size_t i=0;i<count;++i) {
-            const auto text=lines[i];
-            const size_t comma=text.find(',');
-            require(comma!=std::string::npos && text.find(',',comma+1)==std::string::npos,"two input fields");
+        size_t count=0;
+        for (;count<EXP596_BATCH;++count) {
             int32_t q[10]{};
-            const auto from=delayest::trimView(std::string_view(text).substr(0,comma));
-            const auto to=delayest::trimView(std::string_view(text).substr(comma+1));
-    #ifdef EXP580_PORT_PARSER
-            if (parsePin580(from,q[0],q[1],q[8]) && parsePin580(to,q[2],q[3],q[9])) {
-    #else
-            if (arch.parsePin(from,q[0],q[1],q[8]) && arch.parsePin(to,q[2],q[3],q[9])) {
-    #endif
-                const int s=kSourceIndex[q[8]], t=kTargetIndex[q[9]];
-                if (s>=0 && t>=0) {
-                    q[4]=kSourceFamily[s]; q[5]=kSourceLane[s];
-                    q[6]=kTargetFamily[t]; q[7]=kTargetLane[t];
-                    prepare596(q,0,states[i]);
+            bool parsed;
+            if (!reader.nextParsed(lines[count],q,count==0,parsed)) break;
+            if (!parsed) {
+                const auto text=lines[count];
+                const size_t comma=text.find(',');
+                require(comma!=std::string::npos && text.find(',',comma+1)==std::string::npos,"two input fields");
+                const auto from=delayest::trimView(text.substr(0,comma));
+                const auto to=delayest::trimView(text.substr(comma+1));
+                parsed=parsePin580(from,q[0],q[1],q[8]) && parsePin580(to,q[2],q[3],q[9]);
+            }
+            if (parsed) {
+                const auto& s=ports707[q[8]];
+                const auto& t=ports707[q[9]];
+                if (s.source>=0 && t.target>=0) {
+                    q[4]=s.sf; q[5]=s.sl;
+                    q[6]=t.tf; q[7]=t.tl;
+                    prepare596(q,0,states[count]);
                 }
             }
             }
+        if (!count) break;
         for (size_t i=0;i<count;++i) {
             const int answer=finish596(states[i]);
             unreachable+=answer<0;
@@ -287,5 +285,22 @@ int main(int argc, char** argv) {
     std::fprintf(stderr,"{\"rows\":%llu,\"unreachable\":%llu,\"query_allocations\":%llu}\n",
         (unsigned long long)rows,(unsigned long long)unreachable,(unsigned long long)allocations);
     return 0;
+}
+#endif
+
+#ifdef EXP707_CHECK
+extern "C" void init707_M() { initialize(); }
+extern "C" size_t size707_M() { return sizeof(Prepared596); }
+extern "C" void eval707_M(const int32_t* q, unsigned fold, int32_t* v, double* d) {
+    Prepared596 s;
+    Trace trace{};
+    prepare596(q,fold,s,&trace);
+    const int prediction=finish596(s,&trace);
+    const int32_t fields[15]={int(s.pair),int(s.context),int(s.qx),int(s.qy),
+        s.fee,s.mandatory,int(s.dy<0),int(s.cycle),s.answer,
+        int(s.override_cycle),int(s.ready),trace.base,trace.mandatory,trace.prediction,prediction};
+    std::memcpy(v,fields,sizeof(fields));
+    std::memcpy(v+15,trace.feature,sizeof(trace.feature));
+    d[0]=s.raw; d[1]=trace.response; d[2]=trace.raw;
 }
 #endif

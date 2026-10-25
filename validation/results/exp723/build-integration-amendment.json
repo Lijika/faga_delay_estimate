@@ -1,0 +1,13 @@
+{
+  "stage": "before remote build or timing",
+  "change": "Use count for the fused preparation loop state slot; preserve i in the finish loop.",
+  "reason": "Review of generated worker found the original preparation index outside its old loop.",
+  "previous_component_driver": [],
+  "current_driver": {
+    "path": "validation/exp723_fused_csv.py",
+    "sha256": "7ebfad3564738dca3bd90914d23ec71b0fad307783edc02da54664024335ca4c"
+  },
+  "parser_header_unchanged": true,
+  "reader_component_evidence_reused": true,
+  "complete_estimator_runs": 0
+}

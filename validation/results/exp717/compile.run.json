@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp717",
+    "tests/exp717_shared_fragments.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-static",
+    "-o",
+    "build/exp717/shared-fragments"
+  ],
+  "exit_code": 0,
+  "user_s": 2.505364,
+  "sys_s": 0.151788,
+  "cpu_s": 2.657152,
+  "wall_s": 2.658205285202712,
+  "rss_bytes": 234811392,
+  "threads": 1
+}

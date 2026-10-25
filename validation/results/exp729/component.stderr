@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py", line 237, in <module>
+    main()
+  File "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py", line 216, in main
+    compute()
+  File "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py", line 193, in compute
+    points = verify(path.read_bytes(), source, arm, px, py)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py", line 110, in verify
+    actual[:, :, 2] += prior.endpoint_line(actual, dx, dy, px, py)[1]
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lhjysyx/EDA2026/validation/exp721_line_normalization.py", line 64, in endpoint_line
+    assert np.all(grid[:, :, 2][valid] >= line[valid])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

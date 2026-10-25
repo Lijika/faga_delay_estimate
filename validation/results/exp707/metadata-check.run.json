@@ -1,0 +1,11 @@
+{
+  "command": [
+    "build/exp707/metadata-check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.319485,
+  "wall_s": 0.32028050906956196,
+  "rss_bytes": 50778112,
+  "threads": 1,
+  "stderr": "validation/results/exp707/metadata-check.stderr"
+}

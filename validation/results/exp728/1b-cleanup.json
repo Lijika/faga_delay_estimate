@@ -1,0 +1,68 @@
+{
+  "file": {
+    "path": "build/exp728/1b.csv",
+    "bytes": 40135646544,
+    "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+  },
+  "retained": {
+    "source": "build/exp722/1b.csv",
+    "original": {
+      "path": "build/exp722/1b.csv",
+      "bytes": 40135646544,
+      "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+    },
+    "input": {
+      "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "bytes": 35197849579,
+      "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+    },
+    "archive": {
+      "path": "build/exp722/column-archives/exp722-1b-delay.csv.zst",
+      "bytes": 2072166660,
+      "sha256": "8b093aaf0ca018ac4c940866e10b495350465f4cd96d20549c36291a3b4c8c7f"
+    },
+    "restored": {
+      "bytes": 40135646544,
+      "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+    },
+    "full_roundtrip_passed": true,
+    "source_metadata": [
+      40135646544,
+      1792921537774868291,
+      22299391
+    ],
+    "rebuild_cwd": ".",
+    "rebuild_command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp720/build/exp720/estimate",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp722/1b.csv"
+    ],
+    "restore_shell": "bash",
+    "restore_command": "paste -d, ../../build/hidden-suite-v1/role-1b/requests.csv <(zstd -dq -c build/exp722/column-archives/exp722-1b-delay.csv.zst) > build/exp722/1b.csv",
+    "deleted": true,
+    "net_released_bytes": 38063479884
+  },
+  "archive": {
+    "path": "../exp722/build/exp722/column-archives/exp722-1b-delay.csv.zst",
+    "bytes": 2072166660,
+    "sha256": "8b093aaf0ca018ac4c940866e10b495350465f4cd96d20549c36291a3b4c8c7f"
+  },
+  "complete_roundtrip_evidence_reused": true,
+  "rebuild_command": [
+    "taskset",
+    "-c",
+    "8",
+    "../exp727/build/exp727/estimate",
+    "-in",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "-out",
+    "build/exp728/1b.csv"
+  ],
+  "restore_shell": "bash",
+  "restore_command": "paste -d, ../../build/hidden-suite-v1/role-1b/requests.csv <(zstd -dq -c ../exp722/build/exp722/column-archives/exp722-1b-delay.csv.zst) > build/exp728/1b.csv"
+}

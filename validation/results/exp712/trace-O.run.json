@@ -1,0 +1,17 @@
+{
+  "command": [
+    "build/exp712/trace-O",
+    "../exp553/build/exp553/no-line-arch",
+    "build/exp712/queries.bin",
+    "build/exp712/gold.i32",
+    "../exp501/build/exp501/tools/orbit.i16",
+    "build/exp712/O"
+  ],
+  "exit_code": 0,
+  "user_s": 22.257406,
+  "sys_s": 0.227983,
+  "cpu_s": 22.485388999999998,
+  "wall_s": 22.487408735323697,
+  "rss_bytes": 713256960,
+  "threads": 1
+}

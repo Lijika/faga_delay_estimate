@@ -1,0 +1,24 @@
+{
+  "snapshot": "exp728",
+  "date": "2026-10-25",
+  "publication_base_commit": "fed41553d0f85b963612ed9fc783d8d96598d918",
+  "source": "SHA-verified r9 exp727 code, independently rebuilt as frozen exp728",
+  "data": "Original exp683 exact and full-run exp688/exp722 samples; exp722 and exp728 have identical full output SHA",
+  "source_identity": "source/provenance/source-origin.json",
+  "training_identity": "training/original-source-manifest.json",
+  "full_record_identity": "accuracy/records-manifest.json",
+  "protocol_extension": "dataset_protocol/exclusions/exp720-extension.json",
+  "research_identity": "research_code/manifest.json",
+  "history_identity": "docs/experiment-log-manifest.json",
+  "deletion_identity": "docs/exp728/cleanup-manifest.json",
+  "algorithm_research_paused": true,
+  "omitted_rebuildable_assets": [
+    "Full 100M/1B request and output CSV populations",
+    "Full nominal field matrix",
+    "Intermediate files for every historical prototype"
+  ],
+  "omitted_empty_historical_placeholders": [
+    "validation/results/exp707/compare-attempt2/local-compare-check.json"
+  ],
+  "main_research_source_modified": false
+}

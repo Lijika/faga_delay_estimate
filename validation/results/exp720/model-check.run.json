@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp720/model-check",
+    "../exp631/build/exp631/features.f32",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp720/model-check.bin"
+  ],
+  "exit_code": 0,
+  "user_s": 0.349224,
+  "sys_s": 0.104366,
+  "cpu_s": 0.45359,
+  "wall_s": 0.4989547790028155,
+  "rss_bytes": 570863616,
+  "threads": 1
+}

@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "models": 64,
+  "cached_rows": 1000000,
+  "all_leaf_ids_equal": true,
+  "all_features_equal": true,
+  "base_equal": true,
+  "mandatory_equal": true,
+  "raw_bitwise_equal": true,
+  "final_prediction_equal": true,
+  "oof_prediction_equal": true,
+  "V_predictions_unchanged": true,
+  "complete_estimator_runs": 0,
+  "traces": [
+    {
+      "path": "build/exp720/cached-trace-0.bin",
+      "bytes": 248000000,
+      "sha256": "6e24ee4384d91b29f666667c84da0598ce684b0c74b02b65e55e4ee8b6c5447b"
+    },
+    {
+      "path": "build/exp720/cached-trace-1.bin",
+      "bytes": 248000000,
+      "sha256": "0d0eafbdd28d495351e243351991739318d64715a359bc786ae78baa38401fd7"
+    }
+  ],
+  "model_check": {
+    "path": "build/exp720/model-check.bin",
+    "bytes": 48000000,
+    "sha256": "517bd26a166bd49b0623f434ba6b243fa2d13e96b32fea0d57c0246420176a4d"
+  }
+}

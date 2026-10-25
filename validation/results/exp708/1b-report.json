@@ -1,0 +1,107 @@
+{
+  "all_checks_passed": true,
+  "runs": {
+    "A": {
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp704/build/exp704/C",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp708/1b-A.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 236.884732,
+        "wall_s": 258.626034184359,
+        "rss_bytes": 206376960,
+        "threads": 1,
+        "stderr": "validation/results/exp708/1b-A.stderr"
+      },
+      "output": {
+        "path": "build/exp708/1b-A.csv",
+        "bytes": 40135645803,
+        "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+      },
+      "binary": {
+        "path": "../exp704/build/exp704/C",
+        "bytes": 93380632,
+        "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+      }
+    },
+    "C": {
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp707/build/exp707/M/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp708/1b-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 226.157413,
+        "wall_s": 256.97211284702644,
+        "rss_bytes": 206385152,
+        "threads": 1,
+        "stderr": "validation/results/exp708/1b-C.stderr"
+      },
+      "output": {
+        "path": "build/exp708/1b-C.csv",
+        "bytes": 40135645803,
+        "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+      },
+      "binary": {
+        "path": "build/exp707/M/estimate",
+        "bytes": 93384728,
+        "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+      }
+    }
+  },
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "exact_sample_rows": 3833856,
+  "accuracy": {
+    "point_pp": 98.65806165706272,
+    "stratified_variance_pp2": 1.6572428571478838e-06,
+    "stratified_ci975_pp": [
+      98.6551762109102,
+      98.66094710321524
+    ],
+    "family_ci975_pp": [
+      98.61793714350914,
+      98.69872988287216
+    ],
+    "conservative_ci975_pp": [
+      98.61793714350914,
+      98.69872988287216
+    ]
+  },
+  "accuracy_delta_pp": 0,
+  "contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135645803,
+    "sample_rows": 3833856,
+    "contract_passed": true
+  },
+  "complete_outputs_identical": true,
+  "saved_s": 10.727319000000023,
+  "one_pair_only": true,
+  "input_previously_observed": true,
+  "new_exact_rows": 0,
+  "cpu_100s_goal": false,
+  "cpu_200s_goal": false,
+  "platform_verified": false,
+  "disk_free_end_bytes": 46162984960
+}

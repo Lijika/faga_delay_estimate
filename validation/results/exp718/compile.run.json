@@ -1,0 +1,27 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "build/exp718",
+    "tests/exp718_dense_fragments.cpp",
+    "-static",
+    "-o",
+    "build/exp718/dense-fragments"
+  ],
+  "exit_code": 0,
+  "user_s": 1.249438,
+  "sys_s": 0.097008,
+  "cpu_s": 1.346446,
+  "wall_s": 1.3470654590055346,
+  "rss_bytes": 147988480,
+  "threads": 1
+}

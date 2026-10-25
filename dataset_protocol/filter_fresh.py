@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the exact exp685 exclusion sets to a frozen 120M U-role proposal."""
+"""Apply the exp685 or exp720 exclusion sets to a frozen 120M U-role proposal."""
 import argparse
 import csv
 import hashlib
@@ -50,6 +50,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("proposal_csv", type=Path)
     parser.add_argument("new_output_directory", type=Path)
+    parser.add_argument("--protocol", choices=("exp685", "exp720"), default="exp720")
     args = parser.parse_args()
     assert [accept(1, 2, {1}, {(3 << 32) | 4}), accept(3, 4, {1}, {(3 << 32) | 4}),
             accept(3, 5, {1}, {(3 << 32) | 4})] == [1, 2, 0]
@@ -65,6 +66,18 @@ def main():
         with np.load(path) as packed:
             known.update(map(int, packed["keys"]))
     assert len(sources) == manifest["source_pins"] and len(known) == manifest["history_pairs"]
+    if args.protocol == "exp720":
+        extension = json.loads((data / "exp720-extension.json").read_text())
+        record = extension["output"]
+        path = data / record["path"]
+        assert path.stat().st_size == record["bytes"]
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"]
+        with np.load(path) as packed:
+            added = set(map(int, packed["keys"]))
+        assert len(added) == extension["added_pairs"] and known.isdisjoint(added)
+        assert not any((key >> 32) in sources for key in added)
+        known.update(added)
+        assert len(known) == extension["combined_pairs"]
     port_path = HERE.parent / "source/arch/SRB_Port.json"
     assert hashlib.sha256(port_path.read_bytes()).hexdigest() == manifest["source_port_order_sha256"]
     ports = {p["Name"]: i for i, p in enumerate(json.loads(port_path.read_text())["Port"])}
@@ -75,6 +88,7 @@ def main():
         population, report = filter_stream(source, target, sources, known, ports,
                                           mapping["sources"], mapping["targets"], 100_000_000)
     assert min(population) >= 32
+    report["protocol"] = args.protocol
     (args.new_output_directory / "pair-populations.json").write_text(json.dumps(population) + "\n")
     (args.new_output_directory / "filter-report.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

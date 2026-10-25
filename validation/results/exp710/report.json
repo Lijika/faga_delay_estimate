@@ -1,0 +1,112 @@
+{
+  "all_checks_passed": true,
+  "component": {
+    "all_equal": true,
+    "rows": 239616,
+    "full_words": 122317,
+    "motion_words": 122276,
+    "cross_pair_motion_words": 39,
+    "sampled_motion_words": 1036,
+    "certified_positions": 68376000,
+    "origin_hops": 5558667,
+    "reference_hops": 889433857
+  },
+  "reports": {
+    "S": {
+      "sample_word_bytes_quantiles": [
+        62.0,
+        427.0,
+        778.0,
+        874.0,
+        1042.8799999999992,
+        1478.0
+      ],
+      "comparison_quantiles": [
+        4.0,
+        8.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "within_8_ordered_comparisons_fraction": 0.7759615384615385,
+      "extra_terminal_and_valid_checks": 3,
+      "estimated_geometry_bytes": 54610219.133333325,
+      "design_standard_error_bytes": 1394901.833370999,
+      "approximate_geometry_ci95_bytes": [
+        51876211.53992617,
+        57344226.72674048
+      ],
+      "exact_binding_directory_bytes": 1707244,
+      "estimated_total_bytes": 56317463.133333325,
+      "entire_pool_3mb_gate": false,
+      "small_state_gate": false,
+      "serialized": {
+        "file": {
+          "path": "build/exp710/support.bin",
+          "bytes": 477666,
+          "sha256": "0fe9517bbebae8c552125c6a9947ffd636148845d8aa50ca6029db5e11d815d6"
+        },
+        "decoded_maps": 1036,
+        "original_query_costs_equal": true
+      }
+    },
+    "F": {
+      "sample_word_bytes_quantiles": [
+        76.0,
+        1864.0,
+        3808.0,
+        4552.2,
+        6564.199999999998,
+        11056.0
+      ],
+      "comparison_quantiles": [
+        4.0,
+        10.0,
+        11.0,
+        11.0,
+        12.0,
+        12.0
+      ],
+      "within_8_ordered_comparisons_fraction": 0.08942307692307692,
+      "extra_terminal_and_valid_checks": 3,
+      "estimated_geometry_bytes": 231893788.53333342,
+      "design_standard_error_bytes": 5981842.946014338,
+      "approximate_geometry_ci95_bytes": [
+        220169376.3591453,
+        243618200.70752153
+      ],
+      "exact_binding_directory_bytes": 1707244,
+      "estimated_total_bytes": 233601032.53333342,
+      "entire_pool_3mb_gate": false,
+      "small_state_gate": false,
+      "serialized": {
+        "file": {
+          "path": "build/exp710/full.bin",
+          "bytes": 2210204,
+          "sha256": "3240a82a49cf7af12c90e27de3d1b429cbb8d259d74015c3b2e09e8187a60be6"
+        },
+        "decoded_maps": 1036,
+        "original_query_costs_equal": true
+      }
+    }
+  },
+  "bindings": 122315,
+  "unique_full_words": 122317,
+  "unique_motion_words": 122276,
+  "motion_rle_count_quantiles": [
+    2.0,
+    9.0,
+    16.0,
+    18.0,
+    23.0,
+    31.0
+  ],
+  "fixed_corpus_only": true,
+  "unknown_displacement_selector_available": false,
+  "new_exact_rows": 0,
+  "full_estimator_runs": 0,
+  "accuracy_claim": false,
+  "theoretical_note": "端口见证与几何词转移的分离共享",
+  "disk_free_end_bytes": 298540797952
+}

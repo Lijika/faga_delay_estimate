@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "rows": 3833856,
+  "unique_requests": 3833856,
+  "port_pairs": 59904,
+  "subset_rows": 479232,
+  "endpoint_reconstruction_verified": true,
+  "source_pin_seen_verified": true,
+  "sample_weights_verified": true,
+  "score": {
+    "exp688": {
+      "accuracy_pp": 98.6580616570628,
+      "stratified_standard_error_pp": 0.0012873394490762384
+    },
+    "exp728": {
+      "accuracy_pp": 98.64489964878986,
+      "stratified_standard_error_pp": 0.001306947829754059
+    }
+  },
+  "delta_accuracy_pp": -0.013162008272942671,
+  "exact_generation_rerun": false,
+  "complete_estimator_runs": 0,
+  "scope": "Frozen historical outputs and existing exact labels"
+}

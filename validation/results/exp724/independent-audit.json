@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "selected": false,
+  "decoded_cells": 119808,
+  "independently_decoded_planes": 32467968,
+  "paired_nominal_delta_pp": -0.4035772507221657,
+  "aggregation_reused": true,
+  "scalar_decode_independent": true,
+  "report": {
+    "path": "validation/results/exp724/report.json",
+    "bytes": 13035,
+    "sha256": "207969e663d2d417b1c1e967e816ca2a3ac355caf82b254c1e55fe9a89b9fb88"
+  },
+  "auditor": {
+    "path": "/home/lhjysyx/EDA2026/validation/exp724_affine_curves.py",
+    "bytes": 12376,
+    "sha256": "3f3bc9e9b78537b53795a54bf0468075190a5ef63c949b8a741062730a28ab8f"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rows": 479232,
+  "strata": 59904,
+  "expanded_rows": 1000000000.0,
+  "Acc_percent": 98.65904797906194,
+  "MAE_ps": 7.9241966335,
+  "exact_hit_fraction": 0.065277035375,
+  "design_SE_pp": 0.00364426361909003,
+  "normal_95_CI_percent": [
+    98.65190535361835,
+    98.66619060450553
+  ],
+  "scope": "SRSWOR within pair strata; normal design interval, not source-cluster sensitivity or new-blind generalization guarantee",
+  "groups": {
+    "delay:>=2048": {
+      "population_share": 0.70749434175,
+      "total_Acc_loss_pp": 0.6814428375529694,
+      "sample_rows": 339121
+    },
+    "source_seen:0": {
+      "population_share": 0.922234884125,
+      "total_Acc_loss_pp": 1.23750853363886,
+      "sample_rows": 441968
+    },
+    "source_seen:1": {
+      "population_share": 0.077765115875,
+      "total_Acc_loss_pp": 0.10344348729805691,
+      "sample_rows": 37264
+    },
+    "delay:512..2047": {
+      "population_share": 0.285922404125,
+      "total_Acc_loss_pp": 0.635987851975821,
+      "sample_rows": 136967
+    },
+    "delay:128..511": {
+      "population_share": 0.006581127125,
+      "total_Acc_loss_pp": 0.023510836234384727,
+      "sample_rows": 3143
+    },
+    "delay:<128": {
+      "population_share": 2.127e-06,
+      "total_Acc_loss_pp": 1.0495173729327177e-05,
+      "sample_rows": 1
+    }
+  }
+}

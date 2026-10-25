@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "path": "doc/\u5916\u90e8\u63d0\u95ee/exp688/exp688_review_supporting_code/report.md",
+      "bytes": 89835,
+      "sha256": "2497a28362ddafebfc6e814b478d9d68fa74c596e904e8aec8d28332cd326458"
+    },
+    {
+      "path": "doc/\u5916\u90e8\u63d0\u95ee/exp688/exp688_review_supporting_code/code/audit_accuracy.py",
+      "bytes": 4299,
+      "sha256": "930a526f516561d553be03f363029a9579b160f37124f116a3d1d51546a34747"
+    },
+    {
+      "path": "doc/\u5916\u90e8\u63d0\u95ee/exp688/exp688_review_supporting_code/code/audit_witness.py",
+      "bytes": 3403,
+      "sha256": "5acc58b3a9589bf90c1417a39489c4b01753de313f5f8d4a9d5209cf1674952f"
+    },
+    {
+      "path": "/home/lhjysyx/faga_delay_estimate_exp688/accuracy/exp688-exact-subset.csv.gz",
+      "bytes": 17626479,
+      "sha256": "369bf5336fe79ab903168bb886f4004f3e03f498977321bc086c9eb1e310f0d4"
+    }
+  ],
+  "historical_reviewed_data": true,
+  "new_exact_rows": 0,
+  "witness_verification_reused": "/home/lhjysyx/faga_delay_estimate_exp688/path_witness/verification.json"
+}

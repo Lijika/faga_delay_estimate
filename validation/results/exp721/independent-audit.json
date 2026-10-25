@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "serialized_layouts_checked": 4,
+  "capacity_statistics_recomputed": true,
+  "grid_equivalence_reused": true,
+  "selected": false,
+  "cpu_s": 138.328472,
+  "rss_bytes": 64421888,
+  "report": {
+    "path": "validation/results/exp721/report.json",
+    "bytes": 4151,
+    "sha256": "cb62f1b603c1d477d6496991fe36eb911361fa92789902bc17b837f824875c1b"
+  }
+}

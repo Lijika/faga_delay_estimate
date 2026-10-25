@@ -1,0 +1,704 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "fold": 0,
+      "route": 0,
+      "source_pin_overlap": 0,
+      "train_rows": 4453,
+      "test_rows": 2261,
+      "model": {
+        "path": "build/exp713/P-0-0.json",
+        "bytes": 64760,
+        "sha256": "668a12d61c7de937de20416595fd263b56bbbd30e5321d95e6f068fb4f359008"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 1,
+      "source_pin_overlap": 0,
+      "train_rows": 46710,
+      "test_rows": 23280,
+      "model": {
+        "path": "build/exp713/P-0-1.json",
+        "bytes": 64676,
+        "sha256": "fe9e0142cec8d3846940663276dbc12b3a3b28ce24d016d2ac4df13420cf7d30"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 2,
+      "source_pin_overlap": 0,
+      "train_rows": 10007,
+      "test_rows": 4963,
+      "model": {
+        "path": "build/exp713/P-0-2.json",
+        "bytes": 64865,
+        "sha256": "92cea7818900ed74e0d66e5c43aed872e7bdf8a8e7481af3a4f6bee41929a25b"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 3,
+      "source_pin_overlap": 0,
+      "train_rows": 100991,
+      "test_rows": 50481,
+      "model": {
+        "path": "build/exp713/P-0-3.json",
+        "bytes": 63417,
+        "sha256": "9681d6c7b629202e8bf8779354cddbf4b52b99ab47f84e9a9ec9dc6677d13609"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 4,
+      "source_pin_overlap": 0,
+      "train_rows": 4316,
+      "test_rows": 2103,
+      "model": {
+        "path": "build/exp713/P-0-4.json",
+        "bytes": 64288,
+        "sha256": "6f6f83aec7c85883e9cabb75572ca552916c242f549e083b107477e22889477f"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 5,
+      "source_pin_overlap": 0,
+      "train_rows": 48314,
+      "test_rows": 24238,
+      "model": {
+        "path": "build/exp713/P-0-5.json",
+        "bytes": 65134,
+        "sha256": "2f441a8cf9436c429f96ea93feccd11a1233f897a1deb482449144cd3fd82ee0"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 6,
+      "source_pin_overlap": 0,
+      "train_rows": 9497,
+      "test_rows": 4787,
+      "model": {
+        "path": "build/exp713/P-0-6.json",
+        "bytes": 64907,
+        "sha256": "41eab25eb3a9000e78a8dbb6e32f10be36df1df0cba74fd6b91a773ba710c660"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 7,
+      "source_pin_overlap": 0,
+      "train_rows": 111889,
+      "test_rows": 56169,
+      "model": {
+        "path": "build/exp713/P-0-7.json",
+        "bytes": 63683,
+        "sha256": "55bb5249553ba9520e7c9f11607879dcf9a214d79c618252323f706c756322b9"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 8,
+      "source_pin_overlap": 0,
+      "train_rows": 4254,
+      "test_rows": 2137,
+      "model": {
+        "path": "build/exp713/P-0-8.json",
+        "bytes": 64912,
+        "sha256": "9e7dabd12005f188f0320cbf65334804a15e0d590e05e21b8592e7d49e34893e"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 9,
+      "source_pin_overlap": 0,
+      "train_rows": 45279,
+      "test_rows": 22673,
+      "model": {
+        "path": "build/exp713/P-0-9.json",
+        "bytes": 64470,
+        "sha256": "ff0069fd03903ad9d8fa643804a65a9c4ab34dfea1f80d35f38896716df4b0e0"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 10,
+      "source_pin_overlap": 0,
+      "train_rows": 10069,
+      "test_rows": 4910,
+      "model": {
+        "path": "build/exp713/P-0-10.json",
+        "bytes": 64596,
+        "sha256": "576a2f357047c0c3252d9bf5be7091eb0bac16373c6304f09325a447a97ac9d5"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 11,
+      "source_pin_overlap": 0,
+      "train_rows": 111996,
+      "test_rows": 55962,
+      "model": {
+        "path": "build/exp713/P-0-11.json",
+        "bytes": 63156,
+        "sha256": "ba15126cccf04f0c5fb2bb548461cb321d315bd0b2ce800a2cad26e8d50bcfed"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 12,
+      "source_pin_overlap": 0,
+      "train_rows": 4099,
+      "test_rows": 2002,
+      "model": {
+        "path": "build/exp713/P-0-12.json",
+        "bytes": 65169,
+        "sha256": "d613b13053cf08a85e5933c3a4cdd1bc0690a21274ac1815d793796187336eb0"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 13,
+      "source_pin_overlap": 0,
+      "train_rows": 44251,
+      "test_rows": 22351,
+      "model": {
+        "path": "build/exp713/P-0-13.json",
+        "bytes": 63891,
+        "sha256": "7ee4ecc303059d4b00d95867d168eea5e4fc55423e9903d76344a01a98e6e0d7"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 14,
+      "source_pin_overlap": 0,
+      "train_rows": 9570,
+      "test_rows": 4750,
+      "model": {
+        "path": "build/exp713/P-0-14.json",
+        "bytes": 64969,
+        "sha256": "742ab620d2320133c63e6cb8de22e165fac496b3dab9b2f71a84185126b26727"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 0,
+      "route": 15,
+      "source_pin_overlap": 0,
+      "train_rows": 100661,
+      "test_rows": 50577,
+      "model": {
+        "path": "build/exp713/P-0-15.json",
+        "bytes": 63715,
+        "sha256": "f8366234f9d22c40b1d9db722e9615440674248489fae1149921d187030083b9"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 0,
+      "source_pin_overlap": 0,
+      "train_rows": 4471,
+      "test_rows": 2243,
+      "model": {
+        "path": "build/exp713/P-1-0.json",
+        "bytes": 64750,
+        "sha256": "9a47a237d4cc3e353e2a8923d0696d5bd38bb22739935fb1475c91b0d164136e"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 1,
+      "source_pin_overlap": 0,
+      "train_rows": 46896,
+      "test_rows": 23094,
+      "model": {
+        "path": "build/exp713/P-1-1.json",
+        "bytes": 63949,
+        "sha256": "17f392cd2a1ffd419135537fce5c15d224c000fd95d7750dd1c90a32cea400c4"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 2,
+      "source_pin_overlap": 0,
+      "train_rows": 10005,
+      "test_rows": 4965,
+      "model": {
+        "path": "build/exp713/P-1-2.json",
+        "bytes": 64728,
+        "sha256": "1b376ffec1e61e369ebcb4eb59e484d08b7ee59b53751f7fdf004eebb06e130f"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 3,
+      "source_pin_overlap": 0,
+      "train_rows": 100866,
+      "test_rows": 50606,
+      "model": {
+        "path": "build/exp713/P-1-3.json",
+        "bytes": 63391,
+        "sha256": "2ea01410ab671d732071e947295dc18548eb33ca2f278994c6fd07846d1ca1f0"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 4,
+      "source_pin_overlap": 0,
+      "train_rows": 4268,
+      "test_rows": 2151,
+      "model": {
+        "path": "build/exp713/P-1-4.json",
+        "bytes": 63951,
+        "sha256": "ed2a69cb226f623de0b2f54ad772a3fc1a7c0f9da2a47bcf220168fc5e11a192"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 5,
+      "source_pin_overlap": 0,
+      "train_rows": 48385,
+      "test_rows": 24167,
+      "model": {
+        "path": "build/exp713/P-1-5.json",
+        "bytes": 64506,
+        "sha256": "6dbab39a49354fe83b84b1fdd201c628bedfea7f2acf94241c98b9cd4d1f7ee3"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 6,
+      "source_pin_overlap": 0,
+      "train_rows": 9540,
+      "test_rows": 4744,
+      "model": {
+        "path": "build/exp713/P-1-6.json",
+        "bytes": 65101,
+        "sha256": "e3e1dff167ab74b61c05a6581e8688e6305ef7a62f1e8c03b3c87cd190c43068"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 7,
+      "source_pin_overlap": 0,
+      "train_rows": 112034,
+      "test_rows": 56024,
+      "model": {
+        "path": "build/exp713/P-1-7.json",
+        "bytes": 63500,
+        "sha256": "06f772302bd50326d73208156ecd7916c519e86de9f3c0845aa2c719f811f712"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 8,
+      "source_pin_overlap": 0,
+      "train_rows": 4207,
+      "test_rows": 2184,
+      "model": {
+        "path": "build/exp713/P-1-8.json",
+        "bytes": 64827,
+        "sha256": "7e9def23adcaaca959116ef6be0ff5fa5d37ce9b35ee6ef656d78f9e31fc92c5"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 9,
+      "source_pin_overlap": 0,
+      "train_rows": 45312,
+      "test_rows": 22640,
+      "model": {
+        "path": "build/exp713/P-1-9.json",
+        "bytes": 64185,
+        "sha256": "9aa4f7e2999a453e364232ff3dd46d10f1b7f0a96c81e2e96fcd552a88e88923"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 10,
+      "source_pin_overlap": 0,
+      "train_rows": 10057,
+      "test_rows": 4922,
+      "model": {
+        "path": "build/exp713/P-1-10.json",
+        "bytes": 64872,
+        "sha256": "0f3b94dd2f80d836081cdb23df43dc4aee4f29248f1f3749740883f109877ac2"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 11,
+      "source_pin_overlap": 0,
+      "train_rows": 112010,
+      "test_rows": 55948,
+      "model": {
+        "path": "build/exp713/P-1-11.json",
+        "bytes": 63053,
+        "sha256": "a807ca9bcc1d61f7bd0b1f37b6650e42326729f0db6ef7046b0e29753305f285"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 12,
+      "source_pin_overlap": 0,
+      "train_rows": 4064,
+      "test_rows": 2037,
+      "model": {
+        "path": "build/exp713/P-1-12.json",
+        "bytes": 64903,
+        "sha256": "990435c6a92ac9f14f14221f289c06d7e35269ee8a7756b632cd84687ce96e77"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 13,
+      "source_pin_overlap": 0,
+      "train_rows": 44407,
+      "test_rows": 22195,
+      "model": {
+        "path": "build/exp713/P-1-13.json",
+        "bytes": 64583,
+        "sha256": "e43957531d911efd7ea4587609f4806cab173400ed338aad9e1e9434451dd8c2"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 14,
+      "source_pin_overlap": 0,
+      "train_rows": 9618,
+      "test_rows": 4702,
+      "model": {
+        "path": "build/exp713/P-1-14.json",
+        "bytes": 64880,
+        "sha256": "1e916b5288d3a4f6a2ba4d0ff688cc41f71727b0df4cb190f897bf840e630c1e"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 1,
+      "route": 15,
+      "source_pin_overlap": 0,
+      "train_rows": 101138,
+      "test_rows": 50100,
+      "model": {
+        "path": "build/exp713/P-1-15.json",
+        "bytes": 63771,
+        "sha256": "415762cb943ab2e1931186fb56d395017981a8ff2a2a9997257faf4440bbdac5"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 0,
+      "source_pin_overlap": 0,
+      "train_rows": 4504,
+      "test_rows": 2210,
+      "model": {
+        "path": "build/exp713/P-2-0.json",
+        "bytes": 65303,
+        "sha256": "bbcfad9dc4b338517fe9d4d72c8001f2b0128c92e9484e4637ae8216541634ca"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 1,
+      "source_pin_overlap": 0,
+      "train_rows": 46374,
+      "test_rows": 23616,
+      "model": {
+        "path": "build/exp713/P-2-1.json",
+        "bytes": 64463,
+        "sha256": "efd0de71608919986e82967b2d3030d426ff99303d80034591afeec4c97943d6"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 2,
+      "source_pin_overlap": 0,
+      "train_rows": 9928,
+      "test_rows": 5042,
+      "model": {
+        "path": "build/exp713/P-2-2.json",
+        "bytes": 64722,
+        "sha256": "61013b4f8127e511af2fc1efddca04ecb5ce85a8958210643b2d563b20b62fe7"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 3,
+      "source_pin_overlap": 0,
+      "train_rows": 101087,
+      "test_rows": 50385,
+      "model": {
+        "path": "build/exp713/P-2-3.json",
+        "bytes": 63661,
+        "sha256": "289ffced3653fbb831e4d08485614333378cba886ea3f813aebf8493cdc72018"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 4,
+      "source_pin_overlap": 0,
+      "train_rows": 4254,
+      "test_rows": 2165,
+      "model": {
+        "path": "build/exp713/P-2-4.json",
+        "bytes": 65221,
+        "sha256": "684e796bb07b71fde5bf438ea6a933b101625d348aa4232610d406a5f31d0030"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 5,
+      "source_pin_overlap": 0,
+      "train_rows": 48405,
+      "test_rows": 24147,
+      "model": {
+        "path": "build/exp713/P-2-5.json",
+        "bytes": 65577,
+        "sha256": "b6e742a5b7605593f19b8aa54a46019db7e4b30b8e43d2a0ab77a7058eaa1fdd"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 6,
+      "source_pin_overlap": 0,
+      "train_rows": 9531,
+      "test_rows": 4753,
+      "model": {
+        "path": "build/exp713/P-2-6.json",
+        "bytes": 65080,
+        "sha256": "e125e5dbd74e68396354f8f432badda9fb8a5d97c4dbf7cb319a5a377db47216"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 7,
+      "source_pin_overlap": 0,
+      "train_rows": 112193,
+      "test_rows": 55865,
+      "model": {
+        "path": "build/exp713/P-2-7.json",
+        "bytes": 63454,
+        "sha256": "8dee38a4f6241a4045ea398f66cdbca2e663319aa817656b310ca074a15f8c27"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 8,
+      "source_pin_overlap": 0,
+      "train_rows": 4321,
+      "test_rows": 2070,
+      "model": {
+        "path": "build/exp713/P-2-8.json",
+        "bytes": 65360,
+        "sha256": "c7eb0a7411a5e3219e88dbb8daa5506a0f7c5e6753c3b83aeb47fef0cd4a0612"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 9,
+      "source_pin_overlap": 0,
+      "train_rows": 45313,
+      "test_rows": 22639,
+      "model": {
+        "path": "build/exp713/P-2-9.json",
+        "bytes": 63914,
+        "sha256": "1bbe1ec720265e6e903246e738185ceb9bd416e3dc94ecfb51b1772032b02af7"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 10,
+      "source_pin_overlap": 0,
+      "train_rows": 9832,
+      "test_rows": 5147,
+      "model": {
+        "path": "build/exp713/P-2-10.json",
+        "bytes": 65302,
+        "sha256": "fd4cd6a474af857a2529cd7f7cfa424ac5abf4522f8eed96e675f8fabeb2481e"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 11,
+      "source_pin_overlap": 0,
+      "train_rows": 111910,
+      "test_rows": 56048,
+      "model": {
+        "path": "build/exp713/P-2-11.json",
+        "bytes": 63645,
+        "sha256": "29b4c4c9f51544b6c906dfe5ab63b4c5a80fccf955ccf40199c4535dd89a893a"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 12,
+      "source_pin_overlap": 0,
+      "train_rows": 4039,
+      "test_rows": 2062,
+      "model": {
+        "path": "build/exp713/P-2-12.json",
+        "bytes": 65173,
+        "sha256": "9524764dead893b31d4544d63f2449b4aa1d7e6aa2a11d3bbdeac3e16e0e5551"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 13,
+      "source_pin_overlap": 0,
+      "train_rows": 44546,
+      "test_rows": 22056,
+      "model": {
+        "path": "build/exp713/P-2-13.json",
+        "bytes": 64368,
+        "sha256": "45cc5833896e62d8a33fa40de0aefcecc6108601ef7b171f14d79ce99a521520"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 14,
+      "source_pin_overlap": 0,
+      "train_rows": 9452,
+      "test_rows": 4868,
+      "model": {
+        "path": "build/exp713/P-2-14.json",
+        "bytes": 64742,
+        "sha256": "c6292ba9b348d8039775aeac6087ea55f22f331c946ccfd5a7f63f9d0c2cac5b"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    },
+    {
+      "fold": 2,
+      "route": 15,
+      "source_pin_overlap": 0,
+      "train_rows": 100677,
+      "test_rows": 50561,
+      "model": {
+        "path": "build/exp713/P-2-15.json",
+        "bytes": 64217,
+        "sha256": "dc6310a46c2abe6b0bb88d0978f1ff4d43fb4d7091dcb816ef7240346697eac9"
+      },
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true
+    }
+  ],
+  "params": {
+    "iterations": 16,
+    "depth": 4,
+    "learning_rate": 0.3,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261023640,
+    "task_type": "CPU",
+    "thread_count": 16,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "prefix": 8,
+  "raw": {
+    "path": "build/exp713/P-raw.f64",
+    "bytes": 8000000,
+    "sha256": "ef0ecfa57df05e2fb413537c4c5ae3eb386dc274be02c3dcf434c0813e191ade"
+  }
+}

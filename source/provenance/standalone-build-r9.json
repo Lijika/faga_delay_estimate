@@ -151,14 +151,14 @@
       "build/estimate"
     ]
   ],
-  "binary_bytes": 93402392,
-  "binary_sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
+  "binary_bytes": 93442072,
+  "binary_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
   "static_linked": true,
   "under_100mb": true,
   "objects": {
     "worker.o": {
-      "bytes": 176560,
-      "sha256": "c4d3c12e9a1639319a4baecb3287eba4349eb28acfa538a6be36c2efa93ade6d",
+      "bytes": 220464,
+      "sha256": "f049077c4940f7138f6c2e862fe6eb15345eb46c95ab6983e358091f73e491a9",
       "matches_frozen": true
     },
     "architecture-resolver.o": {
@@ -182,11 +182,11 @@
       "matches_frozen": true
     },
     "estimate": {
-      "bytes": 93402392,
-      "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
+      "bytes": 93442072,
+      "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
       "matches_frozen": true
     }
   },
-  "matches_frozen_exp688": true,
+  "matches_frozen_exp728": true,
   "algorithm_executed": false
 }

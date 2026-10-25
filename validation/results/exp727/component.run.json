@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp727/component"
+  ],
+  "exit_code": 0,
+  "user_s": 0.056287,
+  "sys_s": 0.000987,
+  "cpu_s": 0.057274,
+  "wall_s": 0.0580104636028409,
+  "rss_bytes": 20393984,
+  "threads": 1
+}

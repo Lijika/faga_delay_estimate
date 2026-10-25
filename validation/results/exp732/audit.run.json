@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/lhj/lhjwork/eda2026/research/exp732/../exp491/build/venv/bin/python",
+    "validation/exp732_audit.py"
+  ],
+  "exit_code": 0,
+  "user_s": 3.441345,
+  "sys_s": 0.186018,
+  "cpu_s": 3.627363,
+  "wall_s": 3.6286524552851915,
+  "rss_bytes": 472662016,
+  "threads": 1
+}

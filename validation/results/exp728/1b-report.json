@@ -1,0 +1,98 @@
+{
+  "all_checks_passed": true,
+  "binary": {
+    "path": "../exp727/build/exp727/estimate",
+    "bytes": 93442072,
+    "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f"
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "output": {
+    "path": "build/exp728/1b.csv",
+    "bytes": 40135646544,
+    "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+  },
+  "run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp727/build/exp727/estimate",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp728/1b.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 161.463008,
+    "sys_s": 22.727945,
+    "cpu_s": 184.190953,
+    "wall_s": 205.23964778799564,
+    "rss_bytes": 206639104,
+    "threads": 1
+  },
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "exact_sample_rows": 3833856,
+  "complete_output_identical": true,
+  "contract_reused": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135646544,
+    "sample_rows": 3833856,
+    "contract_passed": true
+  },
+  "score_reused": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/results/exp722/score-1b/accuracy.json",
+    "bytes": 1727926,
+    "sha256": "5d358c3f2eb8cd191ccf2fe1579d8cf46c84c6e8fa7c1184479945cbb1b19063"
+  },
+  "accuracy": {
+    "point_pp": 98.6448996487895,
+    "stratified_variance_pp2": 1.708112629698821e-06,
+    "stratified_ci975_pp": [
+      98.64197025235906,
+      98.64782904521995
+    ],
+    "family_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ],
+    "conservative_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ]
+  },
+  "accuracy_delta_pp": 0,
+  "new_exact_rows": 0,
+  "baseline_run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp723/build/exp723/estimate",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp725/1b.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 169.7711,
+    "sys_s": 23.10895,
+    "cpu_s": 192.88004999999998,
+    "wall_s": 219.3551425342448,
+    "rss_bytes": 206372864,
+    "threads": 1
+  },
+  "baseline_cpu_historical": true,
+  "one_candidate_run": true,
+  "historical_cpu_saved_s": 8.689096999999975,
+  "cpu_200s_goal": true,
+  "cpu_100s_goal": false,
+  "final_accuracy_above_99_verified": false,
+  "platform_verified": false
+}

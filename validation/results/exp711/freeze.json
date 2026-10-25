@@ -1,0 +1,45 @@
+{
+  "inputs": [
+    {
+      "path": "build/exp710/support.bin",
+      "bytes": 477666,
+      "sha256": "0fe9517bbebae8c552125c6a9947ffd636148845d8aa50ca6029db5e11d815d6"
+    },
+    {
+      "path": "build/exp710/samples.u32",
+      "bytes": 4160,
+      "sha256": "3c1389ea8d3b72d29510bdcd0193be323ca7b680f24d5461d2d2c6a998569b2c"
+    },
+    {
+      "path": "build/exp710/catalogue.i32",
+      "bytes": 5750784,
+      "sha256": "5d09a7355eb845d1198b5b3f357451cf386aee42fb92d315d6784198bcf60e2c"
+    },
+    {
+      "path": "validation/results/exp710/report.json",
+      "bytes": 2943,
+      "sha256": "72efa4db566d0f5e61076fbefbc974211c587c4995a29dba555b08388af8320c"
+    },
+    {
+      "path": "validation/results/exp710/independent-audit.json",
+      "bytes": 352,
+      "sha256": "6ff005b4c29171ea17eb66517ada7a5b67728c0139a08d04e7413fb9280dfb09"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp711_support_functions.py",
+      "bytes": 9593,
+      "sha256": "c732ef2ab8028ef25b510ff075078e092106b659ba26f6f3fd2947c709329943"
+    },
+    {
+      "path": "experiment/实验711-纯支持函数的语义合并与跨词共享.md",
+      "bytes": 2248,
+      "sha256": "132d439a0460d89e14d556cb0fc4a1777cb73af099d133d267899df7e1be054d"
+    },
+    {
+      "path": "validation/results/exp711/protocol-original.md",
+      "bytes": 2248,
+      "sha256": "132d439a0460d89e14d556cb0fc4a1777cb73af099d133d267899df7e1be054d"
+    }
+  ],
+  "disk_free_start_bytes": 298518470656
+}

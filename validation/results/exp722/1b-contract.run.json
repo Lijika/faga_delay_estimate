@@ -1,0 +1,18 @@
+{
+  "command": [
+    "../exp580/build/exp580/contract-check",
+    "check",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "build/exp722/1b.csv",
+    "1000000000",
+    "../exp683/build/exp683/1b/positions.txt",
+    "build/exp722/1b-sample.csv"
+  ],
+  "exit_code": 0,
+  "user_s": 95.067072,
+  "sys_s": 23.240312,
+  "cpu_s": 118.307384,
+  "wall_s": 146.49473100760952,
+  "rss_bytes": 432635904,
+  "threads": 1
+}

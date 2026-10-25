@@ -1,0 +1,28 @@
+{
+  "iteration": 0,
+  "arm": "A",
+  "run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp707/build/exp707/M/estimate",
+      "-in",
+      "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+      "-out",
+      "build/exp714/100m-0-A.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 19.772823,
+    "sys_s": 2.026981,
+    "cpu_s": 21.799803999999998,
+    "wall_s": 21.89243555208668,
+    "rss_bytes": 206385152,
+    "threads": 1
+  },
+  "output": {
+    "path": "build/exp714/100m-0-A.csv",
+    "bytes": 4013564765,
+    "sha256": "96879a84252afb9cf6c9d27b88d7a6987d197dfda6cf825142868c79aadc2553"
+  }
+}

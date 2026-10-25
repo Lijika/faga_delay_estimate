@@ -1,0 +1,46 @@
+{
+  "all_passed": true,
+  "binary": {
+    "path": "../exp720/build/exp720/estimate",
+    "bytes": 93360152,
+    "sha256": "1facd3b259664eb614878e036c56c8c8810d345dbf6f99ec90f8547e2351aef0"
+  },
+  "empty_directory": true,
+  "empty_environment": true,
+  "static_linked": true,
+  "rows": 100000000,
+  "run": {
+    "command": [
+      "/usr/bin/env",
+      "-i",
+      "/bin/sh",
+      "-c",
+      "cd \"$1\" && exec ./estimate -in \"$2\" -out \"$3\"",
+      "--",
+      "/home/lhj/lhjwork/eda2026/research/exp722/build/exp722/empty",
+      "/home/lhj/lhjwork/eda2026/research/exp720/build/exp720/u-role/requests.csv",
+      "/home/lhj/lhjwork/eda2026/research/exp722/build/exp722/empty-100m.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 18.317746,
+    "sys_s": 1.956759,
+    "cpu_s": 20.274504999999998,
+    "wall_s": 20.28068629326299,
+    "rss_bytes": 206372864,
+    "threads": 1,
+    "stderr": "validation/results/exp722/empty-100m.stderr"
+  },
+  "output": {
+    "path": "build/exp722/empty-100m.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  },
+  "contract": {
+    "rows": 100000000,
+    "input_bytes": 3519786871,
+    "output_bytes": 4013569067,
+    "sample_rows": 1916928,
+    "contract_passed": true
+  },
+  "exact_sample_rows": 1916928
+}

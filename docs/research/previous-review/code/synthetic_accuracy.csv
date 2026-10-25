@@ -1,0 +1,5 @@
+sample_index,pair_id,exact_delay,exp688_prediction,population_pair_rows,sample_weight,From,To,candidate
+0,0,100,101,100,50,synthetic,synthetic,100
+1,0,200,198,100,50,synthetic,synthetic,200
+2,1,0,0,100,50,synthetic,synthetic,0
+3,1,128,127,100,50,synthetic,synthetic,128

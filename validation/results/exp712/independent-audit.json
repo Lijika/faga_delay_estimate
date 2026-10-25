@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "rows_per_arm": 4160,
+  "pair_groups": 1040,
+  "independent_paired_design_statistics_equal": true,
+  "own_location_exclusion_verified": true,
+  "finite_replays_are_upper_bounds": true,
+  "hop_counts_and_order_verified": true,
+  "source_fix_only_json_bool": true,
+  "selected": false,
+  "report_sha256": "66cac761daecc225bafc1cdf65a3a40c1f75b0a9744149307b65c5508888652e"
+}

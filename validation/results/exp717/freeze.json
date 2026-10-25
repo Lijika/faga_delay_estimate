@@ -1,0 +1,160 @@
+{
+  "inputs": [
+    {
+      "path": "../exp705/build/exp705/delta.i32",
+      "bytes": 479232,
+      "sha256": "d14a45bba2e1aec31bc6bd30f0a618d208f0b99748b6bea39af24b221312e273"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.lengths.u32",
+      "bytes": 958464,
+      "sha256": "e61d743ed6ed37f9f0e835a3b31d12ecfd7f20263a7bc03a5f90afa7eeceb728"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.summary.i32",
+      "bytes": 7667712,
+      "sha256": "ed60b00a67304a9d87f37c7e9df274ef56e8ee18c2874d311351d3b1fecfc08a"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.words.u8",
+      "bytes": 5558667,
+      "sha256": "ef29f577bfe18c4da40e7f38ee67f4cc036a1f8280809765bc2f497b44ec597f"
+    },
+    {
+      "path": "../exp705/build/exp705/queries.bin",
+      "bytes": 9584652,
+      "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b"
+    },
+    {
+      "path": "../exp715/build/exp715/counts.u32",
+      "bytes": 2875392,
+      "sha256": "ae9c744c2616061bf6d6ef1911e797d074921b48b769cc08ded782ab2b3db347"
+    }
+  ],
+  "source": "../exp705/build/exp705",
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp717/validation/exp717_shared_fragments.py",
+      "bytes": 13820,
+      "sha256": "234b0d37c184793bd44ead6281bae6baefd2936b7c868cfc663139f2dfcdf996"
+    },
+    {
+      "path": "tests/exp717_shared_fragments.cpp",
+      "bytes": 11379,
+      "sha256": "521420d6ebcaabaa8bb1e4629d2bf000eac2a84732912a3f07442e936dd29f1b"
+    },
+    {
+      "path": "experiment/实验717-跨词固定连接片段的共享几何程序.md",
+      "bytes": 3336,
+      "sha256": "eb4118a2027f8d2e29f053ca6283b554e4178955066d39f88b35e9e4d651b525"
+    },
+    {
+      "path": "validation/results/exp717/protocol-original.md",
+      "bytes": 3336,
+      "sha256": "eb4118a2027f8d2e29f053ca6283b554e4178955066d39f88b35e9e4d651b525"
+    },
+    {
+      "path": "tests/exp710_motion_words.cpp",
+      "bytes": 11655,
+      "sha256": "7e7384bfbd1529cc6dea118592b71a7b9af098d795458384a92df55272c4388a"
+    },
+    {
+      "path": "build/exp717/exp710_functions.h",
+      "bytes": 4527,
+      "sha256": "95ea722f4167f644bd28a14697b7f422d68c8304e581813600b31e210e74d729"
+    },
+    {
+      "path": "tests/exp715_repeat_words.cpp",
+      "bytes": 6579,
+      "sha256": "6d0d6dbc17eed1dad9b50288b0f74b20b64cd94dd34a376a753ffccf50e4144a"
+    },
+    {
+      "path": "build/exp717/exp715_functions.h",
+      "bytes": 3942,
+      "sha256": "bda1925948d3267979bf9e734c4b8b09495b496ece068b55ecb27aa37e1aac37"
+    },
+    {
+      "path": "tests/exp193_word_macro.cpp",
+      "bytes": 7040,
+      "sha256": "86c5617a5b4266311cf7154f4e23a7f7a22481ef1bb974c1e319d58e55b0eabf"
+    },
+    {
+      "path": "build/exp717/exp193_analytic.h",
+      "bytes": 693,
+      "sha256": "42b5d5a38cb2b0c418dd0289cd8dc8e1b5d5d7dcf32a28cd3eb4d3211a33013d"
+    },
+    {
+      "path": "../exp589/src/architecture.h",
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+    },
+    {
+      "path": "../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    }
+  ],
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "build/exp717",
+    "tests/exp717_shared_fragments.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-static",
+    "-o",
+    "build/exp717/shared-fragments"
+  ],
+  "binary": {
+    "path": "build/exp717/shared-fragments",
+    "bytes": 7809672,
+    "sha256": "1257524eadca69a983a12a34d548519ca0bdb1d63e1505046acc06c31c52f0f7"
+  },
+  "max_fragments": 512,
+  "max_fragment_length": 12,
+  "holdout_source_lanes": [
+    3,
+    7
+  ],
+  "tiny_exhaustive_cases": 511,
+  "disk_free_start_bytes": 40127520768
+}

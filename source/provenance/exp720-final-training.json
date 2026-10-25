@@ -1,0 +1,245 @@
+{
+  "records": [
+    {
+      "route": 0,
+      "model": {
+        "path": "build/exp720/T2D6-final-0.json",
+        "bytes": 35439,
+        "sha256": "6fe09db5b9df456cc2e493ab667f28e70b05d9de4d6566fd7ded7e1a541839c1"
+      },
+      "train_rows": 6714,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 1,
+      "model": {
+        "path": "build/exp720/T2D6-final-1.json",
+        "bytes": 35670,
+        "sha256": "6315a4d261968efb213d31622cb8457471deb4461bcbe5b92f92ae11f14ed506"
+      },
+      "train_rows": 69990,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 2,
+      "model": {
+        "path": "build/exp720/T2D6-final-2.json",
+        "bytes": 35236,
+        "sha256": "cab46ea918cbfa0bb3e0c9bddb6720a3502400881f04f2175a9930e0faa7fdc7"
+      },
+      "train_rows": 14970,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 3,
+      "model": {
+        "path": "build/exp720/T2D6-final-3.json",
+        "bytes": 34963,
+        "sha256": "d902967917876796d594c4712a4d4b24fb53a7a4e2ee7ec81c0db2b8ba7648d6"
+      },
+      "train_rows": 151472,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 4,
+      "model": {
+        "path": "build/exp720/T2D6-final-4.json",
+        "bytes": 35799,
+        "sha256": "e1293c7fb469e88b3822f441dba515516df3f3e6e650999fbb6b4594ad888732"
+      },
+      "train_rows": 6419,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 5,
+      "model": {
+        "path": "build/exp720/T2D6-final-5.json",
+        "bytes": 36014,
+        "sha256": "47ed47757a3eba3ed3e12d33f15e4786ce1a692835db806b5858428aef0b133c"
+      },
+      "train_rows": 72552,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 6,
+      "model": {
+        "path": "build/exp720/T2D6-final-6.json",
+        "bytes": 35805,
+        "sha256": "aa8e873eee7a3cbeaa27520a6f23901891994021afb938f640eda38e87147c66"
+      },
+      "train_rows": 14284,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 7,
+      "model": {
+        "path": "build/exp720/T2D6-final-7.json",
+        "bytes": 34891,
+        "sha256": "98bd022949363ce7d16c0127807b1a6eee0deb0d7c1fd593e983dbc89d58d25e"
+      },
+      "train_rows": 168058,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 8,
+      "model": {
+        "path": "build/exp720/T2D6-final-8.json",
+        "bytes": 36882,
+        "sha256": "268723118c33e694122f281b428ef2c1ab2e3d8c94286941341a99398653869d"
+      },
+      "train_rows": 6391,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 9,
+      "model": {
+        "path": "build/exp720/T2D6-final-9.json",
+        "bytes": 35331,
+        "sha256": "fb5300103f53bbf4d5d45c509f831709415d31752c0b03c0810eda17b25ecf80"
+      },
+      "train_rows": 67952,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 10,
+      "model": {
+        "path": "build/exp720/T2D6-final-10.json",
+        "bytes": 35429,
+        "sha256": "81fb7c5b51f463bbb04700eef6f8d509820a8dda1bf44bd6889670e743d8e362"
+      },
+      "train_rows": 14979,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 11,
+      "model": {
+        "path": "build/exp720/T2D6-final-11.json",
+        "bytes": 34904,
+        "sha256": "5973cac560dfb1c127fb4f35360ef719846e37fb421d19984132f4976cf84e92"
+      },
+      "train_rows": 167958,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 12,
+      "model": {
+        "path": "build/exp720/T2D6-final-12.json",
+        "bytes": 36381,
+        "sha256": "2558fb6ea0c9b267ef2c111dd7a8c4f6c73eb2c5d7862bc283d26d5a8479cbf2"
+      },
+      "train_rows": 6101,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 13,
+      "model": {
+        "path": "build/exp720/T2D6-final-13.json",
+        "bytes": 35343,
+        "sha256": "b738ab7d92f31f03b24c583c8a2b8c33c6786995d69a8b1ce6a18858c8791084"
+      },
+      "train_rows": 66602,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 14,
+      "model": {
+        "path": "build/exp720/T2D6-final-14.json",
+        "bytes": 35335,
+        "sha256": "9b325d5f15be5bcf86f28bdadc262c08cc31ed1b2758504c244a678817ffe672"
+      },
+      "train_rows": 14320,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    },
+    {
+      "route": 15,
+      "model": {
+        "path": "build/exp720/T2D6-final-15.json",
+        "bytes": 34865,
+        "sha256": "d2c5e9d128c07b552064d9fd80eb585937f1b12a799d1d9751acb555f857db7b"
+      },
+      "train_rows": 151238,
+      "leaf_indices_equal": true,
+      "integer_prediction_equal": true,
+      "raw_max_abs_difference": 0.0
+    }
+  ],
+  "params": {
+    "iterations": 2,
+    "depth": 6,
+    "learning_rate": 0.7599,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261023640,
+    "task_type": "CPU",
+    "thread_count": 16,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "raw": {
+    "path": "build/exp720/T2D6-final.f64",
+    "bytes": 8000000,
+    "sha256": "ea57b3f4c4294531fd0feb62f964710615b039c984ff3cf8035f00b77f063be3"
+  },
+  "combined": {
+    "path": "build/exp720/combined-final.f64",
+    "bytes": 8000000,
+    "sha256": "7869b74663865609f0cba67dc91037c47e8177a6a0e159dc8182dd928c534504"
+  },
+  "V_reference": {
+    "path": "../exp684/build/exp684/V8/final.f64",
+    "bytes": 8000000,
+    "sha256": "935ed9527cb7b3bc1ba8439ce4f797eb85df578bd66f1432cde558ba2ec1effe"
+  },
+  "source": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp720/validation/exp720_leaf_cli.py",
+    "bytes": 13101,
+    "sha256": "5be587f88d88880a647e0af7da5c3dda20588fbead435093b231cc9263984587"
+  },
+  "protocol": {
+    "path": "validation/results/exp720/protocol-original.md",
+    "bytes": 4212,
+    "sha256": "300b1cdb2befcd35ddf89bb52dda19fc23d772751c5079c99c8a5d3e1f6f586c"
+  },
+  "cpu_s": 18.457310031,
+  "wall_s": 6.530418124049902,
+  "rss_bytes": 783667200
+}

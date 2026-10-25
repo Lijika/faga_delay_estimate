@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DEXP579_AUDIT",
+    "-I",
+    "build/exp720",
+    "build/exp720/model-check.cpp",
+    "-static",
+    "-s",
+    "-o",
+    "build/exp720/model-check"
+  ],
+  "exit_code": 0,
+  "user_s": 1.300576,
+  "sys_s": 0.07463,
+  "cpu_s": 1.375206,
+  "wall_s": 1.376535187009722,
+  "rss_bytes": 113225728,
+  "threads": 1
+}

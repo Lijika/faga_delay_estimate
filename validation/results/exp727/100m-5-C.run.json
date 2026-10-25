@@ -1,0 +1,19 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp727/estimate",
+    "-in",
+    "../exp720/build/exp720/u-role/requests.csv",
+    "-out",
+    "build/exp727/100m-5-C.csv"
+  ],
+  "exit_code": 0,
+  "user_s": 15.776392,
+  "sys_s": 2.035792,
+  "cpu_s": 17.812184,
+  "wall_s": 17.814420070964843,
+  "rss_bytes": 206635008,
+  "threads": 1
+}

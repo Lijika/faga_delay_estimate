@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "independently_decoded_models": 144,
+  "loader_reused": true,
+  "groups_reused": true,
+  "leaf_decoding_and_scoring_independent": true,
+  "paired_statistics_recomputed": true,
+  "selected": null,
+  "new_exact_rows": 0,
+  "complete_program_runs": 0,
+  "report": {
+    "path": "validation/results/exp730/report.json",
+    "bytes": 109854,
+    "sha256": "faf8da1472be6f43a8652aa07cbe8b61d2ca76c571e0fed8b4ae9cc8917685b2"
+  },
+  "auditor": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp730/validation/exp730_compiled_capacity.py",
+    "bytes": 18957,
+    "sha256": "983a3a6b7cd2e4111da0e34d82d0e4705a777ff11a81dc65c5d8a49d86a993a8"
+  }
+}

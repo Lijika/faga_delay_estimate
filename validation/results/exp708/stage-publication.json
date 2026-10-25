@@ -1,0 +1,219 @@
+{
+  "version_label": "exp708-compiled-prepare-M-100m22s-1882d94a-dirty-20261025-115515",
+  "algorithm_version": "D64-curves-S8-V8-compiled-prepare-M",
+  "publication_status": "stage_release",
+  "complete_1b_measured": false,
+  "final_accuracy_goal_verified": false,
+  "final_accuracy_required_pp": 99,
+  "platform_score_verified": false,
+  "full_1b_exact_accuracy_verified": false,
+  "other_cpu_performance_verified": false,
+  "git_commit": "1882d94ae03e71c67ae8ad12c681bf4a431b48b0",
+  "git_working_tree_dirty": true,
+  "bin_sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1",
+  "bin_bytes": 93384728,
+  "packaged_utc": "2026-10-25T03:55:15.212081+00:00",
+  "generic_entry": true,
+  "selected_kernel": "SSE2",
+  "optional_isa_not_required": true,
+  "link_mode": "static; all architecture and model assets embedded",
+  "paired_100m": {
+    "all_passed": true,
+    "selected": "M",
+    "stats": {
+      "M": {
+        "saved_s": 1.2886948333333332,
+        "simultaneous_ci95_s": [
+          1.1961484705742775,
+          1.381241196092389
+        ],
+        "qualifies": true,
+        "priority_goal": true
+      },
+      "C": {
+        "saved_s": 1.0449553333333341,
+        "simultaneous_ci95_s": [
+          0.9336643198721386,
+          1.1562463467945296
+        ],
+        "qualifies": true,
+        "priority_goal": true
+      }
+    },
+    "mean_cpu_s": {
+      "A": 23.051325833333333,
+      "M": 21.762631,
+      "C": 22.0063705
+    },
+    "report": {
+      "path": "validation/results/exp707/100m-report.json",
+      "bytes": 17471,
+      "sha256": "2aea8487529089aa4358802b74a3b0c729723c6b59f0e5738bd2b1ba36dfb8a2"
+    },
+    "freeze": {
+      "path": "validation/results/exp707/freeze.json",
+      "bytes": 27259,
+      "sha256": "94e9034110fa42a7bfd7d64b7e0b9376980345dd5a8c8f2fb6fabab622d2dbd9"
+    },
+    "binaries": {
+      "A": {
+        "path": "../exp704/build/exp704/C",
+        "bytes": 93380632,
+        "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+      },
+      "C": {
+        "path": "build/exp707/M/estimate",
+        "bytes": 93384728,
+        "sha256": "93669965832870ead61f5ef02ecc2baa673ef94b01a0a364965914c7ae3f9cd1"
+      }
+    },
+    "contract": {
+      "rows": 100000000,
+      "input_bytes": 3519782965,
+      "output_bytes": 4013564765,
+      "sample_rows": 1916928,
+      "contract_passed": true
+    },
+    "exact_sample_rows": 1916928
+  },
+  "previous_entry": {
+    "path": "estimate",
+    "bytes": 93380632,
+    "sha256": "8c5dec652cdcffae774c96b60e49c848a436622ac64a906caf0afc6068d4ecc1"
+  },
+  "previous_package": "exp706-direct-port-generic-1b238s-25defc40-dirty-20261025-1138",
+  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp707",
+  "build_driver": "validation/exp707_compiled_prepare.py build",
+  "commands": {
+    "compile": [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp707/M",
+      "-I",
+      "build/exp707/M",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-c",
+      "build/exp707/M/worker.cpp",
+      "-o",
+      "build/exp707/M/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY"
+    ],
+    "link": [
+      "g++",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/entry.cpp",
+      "build/exp707/M/C.o",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp707/M",
+      "-I",
+      "build/exp707/M",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp707/M/estimate"
+    ]
+  },
+  "package_command": "python3 validation/exp708_release.py publish-stage exp708-compiled-prepare-M-100m22s-1882d94a-dirty-20261025-115515",
+  "evidence": [
+    {
+      "path": "validation/results/exp708/audit.json",
+      "bytes": 1459,
+      "sha256": "0c2b0ff0b17cbd5e375ea2c20d23ff8e2fea4c8632a23a824b1fa10c79ba933b"
+    },
+    {
+      "path": "validation/results/exp708/package-check.json",
+      "bytes": 1216,
+      "sha256": "b02cf1eebf4978f19a2493c125306b9d023fbc553d859fb46c674f5b0e92262e"
+    },
+    {
+      "path": "validation/results/exp708/clean-freeze.json",
+      "bytes": 641,
+      "sha256": "78cc8a623788078c5a91f22523f34e81014cc4deb5c9a58fe72d108805d6920a"
+    },
+    {
+      "path": "validation/results/exp708/protocol-original.md",
+      "bytes": 1736,
+      "sha256": "b1c7b4234a9b4f88e01e5029f5785c9b40cbaf263d8d23d70c301a87a3f2699a"
+    },
+    {
+      "path": "validation/results/exp707/freeze.json",
+      "bytes": 27259,
+      "sha256": "94e9034110fa42a7bfd7d64b7e0b9376980345dd5a8c8f2fb6fabab622d2dbd9"
+    },
+    {
+      "path": "validation/results/exp707/100m-report.json",
+      "bytes": 17471,
+      "sha256": "2aea8487529089aa4358802b74a3b0c729723c6b59f0e5738bd2b1ba36dfb8a2"
+    }
+  ],
+  "zip_sha256": "733efa412a8c8c3a5160240d28e3ea35ede90970b0f8374c1e83bc99a813cb09",
+  "zip_bytes": 81370600
+}

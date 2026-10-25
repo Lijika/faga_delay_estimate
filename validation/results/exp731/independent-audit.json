@@ -1,0 +1,18 @@
+{
+  "all_checks_passed": true,
+  "rows_per_arm": 4160,
+  "pair_groups": 1040,
+  "independent_vector_replay_equal": true,
+  "original_control_bytes_equal": true,
+  "independent_design_statistics_equal": true,
+  "original_and_regularized_cost_bounds": true,
+  "full_line_costs_verified": true,
+  "own_location_excluded": true,
+  "selected": null,
+  "report_sha256": "3808b0e15841b23ab54e664cef8fc6834b2aba52959c398f01019d461686d6b0",
+  "audit_source": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp731/validation/exp731_audit.py",
+    "bytes": 8598,
+    "sha256": "daa25c5cf48bd86e16298b37d3ca6b20e7883e76f1589f932eaa138b738a34cd"
+  }
+}

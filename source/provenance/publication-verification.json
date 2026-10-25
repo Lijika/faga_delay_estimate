@@ -1,14 +1,16 @@
 {
-  "date": "2026-10-25",
-  "fixed_version": "exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
-  "zip_bytes": 81369669,
-  "zip_sha256": "fb39a2476d0d2ea99d2cf6c29536a63383bfed0a8174505db1a5f8c601a5f94c",
-  "elf_bytes": 93402392,
-  "elf_sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
-  "all_five_objects_match": true,
-  "package_member_matches_rebuilt_elf": true,
-  "source_rebuilt_in_independent_directory": true,
-  "new_complete_estimator_runs": 0,
-  "previous_1b_evidence_reused": true,
-  "research_remains_paused": true
+  "passed": true,
+  "version": "exp728-coordinate-masks-generic-1b184s-20261025",
+  "binary_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+  "binary_bytes": 93442072,
+  "zip_sha256": "9bb01e1ca3c5a2e57f65a4ddc2408f537ff7e73dd31d6f54668c88e668618081",
+  "zip_bytes": 81350223,
+  "zip_members": [
+    "bin/estimate"
+  ],
+  "source_origin_files_verified": 59,
+  "standalone_objects_match_frozen": true,
+  "standalone_elf_matches_package": true,
+  "complete_estimator_runs": 0,
+  "performance_and_contract_reused_by_identical_elf": true
 }

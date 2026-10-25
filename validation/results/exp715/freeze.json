@@ -1,0 +1,118 @@
+{
+  "inputs": [
+    {
+      "path": "../exp705/build/exp705/delta.i32",
+      "bytes": 479232,
+      "sha256": "d14a45bba2e1aec31bc6bd30f0a618d208f0b99748b6bea39af24b221312e273"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.lengths.u32",
+      "bytes": 958464,
+      "sha256": "e61d743ed6ed37f9f0e835a3b31d12ecfd7f20263a7bc03a5f90afa7eeceb728"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.summary.i32",
+      "bytes": 7667712,
+      "sha256": "ed60b00a67304a9d87f37c7e9df274ef56e8ee18c2874d311351d3b1fecfc08a"
+    },
+    {
+      "path": "../exp705/build/exp705/paths.words.u8",
+      "bytes": 5558667,
+      "sha256": "ef29f577bfe18c4da40e7f38ee67f4cc036a1f8280809765bc2f497b44ec597f"
+    },
+    {
+      "path": "../exp705/build/exp705/queries.bin",
+      "bytes": 9584652,
+      "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b"
+    }
+  ],
+  "source": "../exp705/build/exp705",
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp715/validation/exp715_repeat_words.py",
+      "bytes": 8927,
+      "sha256": "362a8c9ddd5a46318115eba8cae332c999805e44d25d791e7c688878e413b91c"
+    },
+    {
+      "path": "tests/exp715_repeat_words.cpp",
+      "bytes": 6579,
+      "sha256": "6d0d6dbc17eed1dad9b50288b0f74b20b64cd94dd34a376a753ffccf50e4144a"
+    },
+    {
+      "path": "experiment/实验715-完整端口多Net重复片段的执行复杂度.md",
+      "bytes": 2790,
+      "sha256": "15dbeccd58caf560945c97ff85e031645f74a78632c332e09c95fc9d7c2e891d"
+    },
+    {
+      "path": "validation/results/exp715/protocol-original.md",
+      "bytes": 2790,
+      "sha256": "15dbeccd58caf560945c97ff85e031645f74a78632c332e09c95fc9d7c2e891d"
+    },
+    {
+      "path": "../exp589/src/architecture.h",
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+    },
+    {
+      "path": "../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../../doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    }
+  ],
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "tests/exp715_repeat_words.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-static",
+    "-o",
+    "build/exp715/repeat-words"
+  ],
+  "binary": {
+    "path": "build/exp715/repeat-words",
+    "bytes": 7776792,
+    "sha256": "c2fdb4d1a6dccee59de702a7bb95dbff1c74e01bc6dfa94df4785a95d4d56c67"
+  },
+  "maximum_unit": 4,
+  "tiny_exhaustive_cases": 511,
+  "disk_free_start_bytes": 40636792832
+}

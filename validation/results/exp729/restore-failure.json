@@ -1,0 +1,21 @@
+{
+  "reason": "Decoder called a full-Line-cost checker before adding the endpoint cost to the stored residual.",
+  "protocol_unchanged": true,
+  "artifacts": [
+    {
+      "path": "build/exp729/P.bin",
+      "bytes": 1368980,
+      "sha256": "51378e0440b350141c32958272ba192f6f27ef8aafaf55f3060cb32d91648c3f"
+    },
+    {
+      "path": "build/exp729/N.bin",
+      "bytes": 698556,
+      "sha256": "1a39b0cfbf7fa6d7aec36e71019bd0e49e60bb3ecec1055c9e9cfad88ea34ec7"
+    }
+  ],
+  "original_driver": {
+    "path": "validation/results/exp729/driver-before-restore-fix.py",
+    "bytes": 10905,
+    "sha256": "4deb5ca42228286cd24a348ad3af7b963791a79147f13b0b02a3ae6b40b8e1f6"
+  }
+}

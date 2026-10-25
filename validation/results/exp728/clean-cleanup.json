@@ -1,0 +1,23 @@
+{
+  "file": {
+    "path": "build/exp728/empty-100m.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  },
+  "retained": {
+    "path": "../exp720/build/exp720/100m-0-C.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  },
+  "rebuild_command": [
+    "/usr/bin/env",
+    "-i",
+    "/bin/sh",
+    "-c",
+    "cd \"$1\" && exec ./estimate -in \"$2\" -out \"$3\"",
+    "--",
+    "/home/lhj/lhjwork/eda2026/research/exp728/build/exp728/empty",
+    "/home/lhj/lhjwork/eda2026/research/exp720/build/exp720/u-role/requests.csv",
+    "/home/lhj/lhjwork/eda2026/research/exp728/build/exp728/empty-100m.csv"
+  ]
+}

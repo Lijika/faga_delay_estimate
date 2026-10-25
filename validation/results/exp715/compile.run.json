@@ -1,0 +1,27 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "tests/exp715_repeat_words.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-static",
+    "-o",
+    "build/exp715/repeat-words"
+  ],
+  "exit_code": 0,
+  "user_s": 1.33138,
+  "sys_s": 0.140765,
+  "cpu_s": 1.472145,
+  "wall_s": 1.4730754541233182,
+  "rss_bytes": 163201024,
+  "threads": 1
+}

@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "full_runs": 20,
+  "measured_runs": 16,
+  "mean_user_s": {
+    "I": 2.0321425,
+    "P": 6.5148925,
+    "G": 9.11741675,
+    "F": 19.7137045
+  },
+  "mean_sys_s": {
+    "I": 2.050141,
+    "P": 1.99763975,
+    "G": 2.015621,
+    "F": 2.01981625
+  },
+  "max_rss_bytes": 206548992,
+  "checked_duplicate_bytes_removed": 76344785419,
+  "diagnostic_only": true,
+  "report_sha256": "7159d0c66c32fa69f8fcac57756ef6560957d69caa86064f135c8d67ea7598e5"
+}

@@ -1,0 +1,453 @@
+{
+  "snapshot": "exp728",
+  "date": "2026-10-25",
+  "checks": {
+    "frozen_source_and_package": {
+      "path": "source/provenance/publication-verification.json",
+      "sha256": "5fcdeadd382809bd6072f1637cbf27b4ce2160e3e181d9f767c489500d65459e",
+      "result": {
+        "passed": true,
+        "version": "exp728-coordinate-masks-generic-1b184s-20261025",
+        "binary_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+        "binary_bytes": 93442072,
+        "zip_sha256": "9bb01e1ca3c5a2e57f65a4ddc2408f537ff7e73dd31d6f54668c88e668618081",
+        "zip_bytes": 81350223,
+        "zip_members": [
+          "bin/estimate"
+        ],
+        "source_origin_files_verified": 59,
+        "standalone_objects_match_frozen": true,
+        "standalone_elf_matches_package": true,
+        "complete_estimator_runs": 0,
+        "performance_and_contract_reused_by_identical_elf": true
+      }
+    },
+    "standalone_build": {
+      "path": "source/provenance/standalone-build-r9.json",
+      "sha256": "0121b5dfd908cc832f4c351c20fa8cc34f9d5d0d755a79d032d6ec0ba26bca53",
+      "result": {
+        "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+        "linker": "GNU ld (GNU Binutils for Ubuntu) 2.38",
+        "libc": "ldd (Ubuntu GLIBC 2.35-0ubuntu3.15) 2.35",
+        "commands": [
+          [
+            "python3",
+            "scripts/gen_embedded_arch.py",
+            "--arch",
+            "arch",
+            "--out",
+            "src",
+            "--check"
+          ],
+          [
+            "g++",
+            "-std=c++17",
+            "-O3",
+            "-fno-rtti",
+            "-fno-exceptions",
+            "-fno-fast-math",
+            "-ffp-contract=off",
+            "-march=x86-64",
+            "-mtune=generic",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+            "-I",
+            "src",
+            "-I",
+            "include",
+            "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+            "-DEXP580_PORT_PARSER",
+            "-DEXP581_PREFETCH",
+            "-DEXP582_BLOCK=64",
+            "-DEXP594_PACKED",
+            "-DEXP594_WRITER",
+            "-DEXP596_BATCH=8",
+            "-I",
+            "third_party/zstd",
+            "-DEXP608_SIMD=0",
+            "-Dmain=worker608_F",
+            "-c",
+            "src/worker.cpp",
+            "-o",
+            "build/worker.o",
+            "-DEXP640_TREES=8",
+            "-DEXP684_V_ONLY"
+          ],
+          [
+            "g++",
+            "-std=c++17",
+            "-O3",
+            "-fno-rtti",
+            "-fno-fast-math",
+            "-ffp-contract=off",
+            "-march=x86-64",
+            "-mtune=generic",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+            "-I",
+            "src",
+            "-I",
+            "include",
+            "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+            "-c",
+            "src/architecture.cpp",
+            "-o",
+            "build/architecture-resolver.o"
+          ],
+          [
+            "g++",
+            "-std=c++17",
+            "-O3",
+            "-fno-rtti",
+            "-fno-fast-math",
+            "-ffp-contract=off",
+            "-march=x86-64",
+            "-mtune=generic",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+            "-I",
+            "src",
+            "-I",
+            "include",
+            "-c",
+            "src/embedded_arch.cpp",
+            "-o",
+            "build/arch-text.o"
+          ],
+          [
+            "g++",
+            "-c",
+            "assets/codes.S",
+            "-o",
+            "build/codes.o"
+          ],
+          [
+            "g++",
+            "-c",
+            "assets/compressed.S",
+            "-o",
+            "build/compressed.o"
+          ],
+          [
+            "g++",
+            "build/codes.o",
+            "src/entry.cpp",
+            "build/worker.o",
+            "-DEXP607_ARM=0",
+            "-DEXP607_AVX_CHOICE=0",
+            "-DEXP607_SSE_CHOICE=0",
+            "-std=c++17",
+            "-O3",
+            "-fno-rtti",
+            "-fno-exceptions",
+            "-fno-fast-math",
+            "-ffp-contract=off",
+            "-march=x86-64",
+            "-mtune=generic",
+            "-Wall",
+            "-Wextra",
+            "-Werror",
+            "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+            "-I",
+            "src",
+            "-I",
+            "include",
+            "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+            "-DEXP580_PORT_PARSER",
+            "-DEXP581_PREFETCH",
+            "-DEXP582_BLOCK=64",
+            "-DEXP594_PACKED",
+            "-DEXP594_WRITER",
+            "-DEXP596_BATCH=8",
+            "-I",
+            "third_party/zstd",
+            "build/architecture-resolver.o",
+            "build/arch-text.o",
+            "build/compressed.o",
+            "third_party/zstd/libzstd.a",
+            "-static",
+            "-s",
+            "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+            "-o",
+            "build/estimate"
+          ]
+        ],
+        "binary_bytes": 93442072,
+        "binary_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+        "static_linked": true,
+        "under_100mb": true,
+        "objects": {
+          "worker.o": {
+            "bytes": 220464,
+            "sha256": "f049077c4940f7138f6c2e862fe6eb15345eb46c95ab6983e358091f73e491a9",
+            "matches_frozen": true
+          },
+          "architecture-resolver.o": {
+            "bytes": 103336,
+            "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1",
+            "matches_frozen": true
+          },
+          "arch-text.o": {
+            "bytes": 5162816,
+            "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499",
+            "matches_frozen": true
+          },
+          "codes.o": {
+            "bytes": 29309776,
+            "sha256": "7465a5ba6a8972677dfd2496a8b5e04dcdb8a1ba5a5c3403e7f7069e5b2eab40",
+            "matches_frozen": true
+          },
+          "compressed.o": {
+            "bytes": 56504832,
+            "sha256": "74c191b36f579ae33980945a4f421494e118242e1a87b0aaad6ab0f592edf4d9",
+            "matches_frozen": true
+          },
+          "estimate": {
+            "bytes": 93442072,
+            "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+            "matches_frozen": true
+          }
+        },
+        "matches_frozen_exp728": true,
+        "algorithm_executed": false
+      }
+    },
+    "all_accuracy_records": {
+      "path": "accuracy/records-verification.json",
+      "sha256": "ed01a30af21a9b99f304a17ce30ef90e0bd2f2bcceeca3149dedf1b4348d9c79",
+      "result": {
+        "passed": true,
+        "rows": 3833856,
+        "unique_requests": 3833856,
+        "port_pairs": 59904,
+        "subset_rows": 479232,
+        "endpoint_reconstruction_verified": true,
+        "source_pin_seen_verified": true,
+        "sample_weights_verified": true,
+        "score": {
+          "exp688": {
+            "accuracy_pp": 98.6580616570628,
+            "stratified_standard_error_pp": 0.0012873394490762384
+          },
+          "exp728": {
+            "accuracy_pp": 98.64489964878986,
+            "stratified_standard_error_pp": 0.001306947829754059
+          }
+        },
+        "delta_accuracy_pp": -0.013162008272942671,
+        "exact_generation_rerun": false,
+        "complete_estimator_runs": 0,
+        "scope": "Frozen historical outputs and existing exact labels"
+      }
+    },
+    "legacy_csv_replacement": {
+      "path": "accuracy/exp688-replacement-check.json",
+      "sha256": "4eac8479c0be23c342c220d4465d74134f1a3e80bd72962503d7e1fe036e40f8",
+      "result": {
+        "passed": true,
+        "rows": 479232,
+        "all_legacy_columns_equal": true,
+        "old": {
+          "path": "accuracy/exp688-exact-subset.csv.gz",
+          "bytes": 17626479,
+          "sha256": "369bf5336fe79ab903168bb886f4004f3e03f498977321bc086c9eb1e310f0d4"
+        },
+        "replacement": {
+          "path": "accuracy/exp728-exact-subset.csv.gz",
+          "bytes": 18528160,
+          "sha256": "9c2a0552d0059979ce9c951dcce6e4711408476d4750f9dae763ce9159e2f60e"
+        },
+        "old_recovery_commit": "fed4155",
+        "reason": "Current comparative CSV contains every original field and adds exp728_prediction"
+      }
+    },
+    "new_100m_protocol": {
+      "path": "dataset_protocol/exp720-protocol-verification.json",
+      "sha256": "eb3711ee2cf89e19465fed133b479d7f56e40f4bdeb30ef314e06d86119e9ef3",
+      "result": {
+        "passed": true,
+        "source_pins": 960505,
+        "historical_pairs": 20391557,
+        "exp720_additional_pairs": 1916928,
+        "exp720_total_pairs": 22308485,
+        "exp720_extension_disjoint": true,
+        "exclusion_hashes_passed": true,
+        "filter_fixture": {
+          "accepted": 16,
+          "visited_proposal_rows": 249,
+          "rejected_source_rows": 101,
+          "rejected_history_rows": 132,
+          "rows": 16,
+          "independent_uniqueness_check_required": true
+        },
+        "filter_output_matches_original": true,
+        "sampling_plans": {
+          "100m": {
+            "sha256": "c0a679bb53ad278c905ff8effa5f327d6a34c8681e86149ec2bc4f3bf0593a17",
+            "matches_historical": true
+          },
+          "1b": {
+            "sha256": "91ea34cd3cce700fbcb2f1b33ea58fd3878243a867017f2044dc2498d6ff2acf",
+            "matches_historical": true
+          },
+          "exp720-100m": {
+            "sha256": "5e9293207104f2ca4a67f7cce15cd3cd06d58a43c5098731421f0d0508e086af",
+            "matches_historical": true
+          }
+        },
+        "sampler_self_check_passed": true,
+        "complete_request_populations_generated": 0,
+        "complete_estimator_runs": 0
+      }
+    },
+    "current_model_final_route0": {
+      "path": "training/retrain-t2d6-route0-verification.json",
+      "sha256": "ca06c0789bcda75252a8816ffae00873b44596648a815cc9c3389842b2246865",
+      "result": {
+        "model": "t2d6",
+        "route": 0,
+        "fold": -1,
+        "background": "curve",
+        "train_rows": 6714,
+        "heldout_rows": 0,
+        "training_trees": 2,
+        "deployment_trees": 2,
+        "params": {
+          "iterations": 2,
+          "depth": 6,
+          "learning_rate": 0.7599,
+          "loss_function": "MAE",
+          "leaf_estimation_method": "Exact",
+          "leaf_estimation_iterations": 1,
+          "grow_policy": "SymmetricTree",
+          "boosting_type": "Plain",
+          "bootstrap_type": "No",
+          "boost_from_average": false,
+          "random_strength": 0,
+          "border_count": 256,
+          "l2_leaf_reg": 1,
+          "score_function": "L2",
+          "random_seed": 20261023640,
+          "task_type": "CPU",
+          "thread_count": 16,
+          "allow_writing_files": false,
+          "verbose": false
+        },
+        "leaf_ids_equal": true,
+        "raw_max_abs_difference": 0.0,
+        "matches_frozen_model_fields": true,
+        "wall_s": 0.23598716400010744,
+        "source_pin_overlap": null,
+        "historical_development_data": true,
+        "complete_estimator_runs": 0
+      }
+    },
+    "current_model_fold0_route0": {
+      "path": "training/retrain-t2d6-route0-fold0-verification.json",
+      "sha256": "7e7a67fbacdec63b45079c0668d1d5fce93e6bfc70f01d59d933c5b08cec93ed",
+      "result": {
+        "model": "t2d6",
+        "route": 0,
+        "fold": 0,
+        "background": "curve",
+        "train_rows": 4453,
+        "heldout_rows": 2261,
+        "training_trees": 2,
+        "deployment_trees": 2,
+        "params": {
+          "iterations": 2,
+          "depth": 6,
+          "learning_rate": 0.7599,
+          "loss_function": "MAE",
+          "leaf_estimation_method": "Exact",
+          "leaf_estimation_iterations": 1,
+          "grow_policy": "SymmetricTree",
+          "boosting_type": "Plain",
+          "bootstrap_type": "No",
+          "boost_from_average": false,
+          "random_strength": 0,
+          "border_count": 256,
+          "l2_leaf_reg": 1,
+          "score_function": "L2",
+          "random_seed": 20261023640,
+          "task_type": "CPU",
+          "thread_count": 16,
+          "allow_writing_files": false,
+          "verbose": false
+        },
+        "leaf_ids_equal": true,
+        "raw_max_abs_difference": 0.0,
+        "matches_frozen_model_fields": null,
+        "wall_s": 0.11074000899679959,
+        "source_pin_overlap": 0,
+        "historical_development_data": true,
+        "complete_estimator_runs": 0
+      }
+    },
+    "historical_model_moved_route0": {
+      "path": "training/retrain-s8-route0-current-verification.json",
+      "sha256": "60c88ee8745de94cf09e394f34379657c6efaca9b2a070951fc6f33c5bd13256",
+      "result": {
+        "model": "s8",
+        "route": 0,
+        "fold": -1,
+        "background": "q4",
+        "train_rows": 6714,
+        "heldout_rows": 0,
+        "training_trees": 16,
+        "deployment_trees": 8,
+        "params": {
+          "iterations": 16,
+          "depth": 4,
+          "learning_rate": 0.3,
+          "loss_function": "MAE",
+          "leaf_estimation_method": "Exact",
+          "leaf_estimation_iterations": 1,
+          "grow_policy": "SymmetricTree",
+          "boosting_type": "Plain",
+          "bootstrap_type": "No",
+          "boost_from_average": false,
+          "random_strength": 0,
+          "border_count": 256,
+          "l2_leaf_reg": 1,
+          "score_function": "L2",
+          "random_seed": 20261023640,
+          "task_type": "CPU",
+          "thread_count": 16,
+          "allow_writing_files": false,
+          "verbose": false
+        },
+        "leaf_ids_equal": true,
+        "raw_max_abs_difference": 0.0,
+        "matches_frozen_model_fields": true,
+        "wall_s": 0.11528693699801806,
+        "source_pin_overlap": null,
+        "historical_development_data": true,
+        "complete_estimator_runs": 0
+      }
+    }
+  },
+  "complete_estimator_runs_added": 0,
+  "new_exact_solver_runs": 0,
+  "reused_evidence": [
+    "exp705 path/exact/replay checks from fed4155 with unchanged source and data",
+    "background and curve export checks from fed4155",
+    "all original exp727/728 complete performance/contract checks under identical ELF"
+  ],
+  "limitations": [
+    "No new current perf profile",
+    "No 6242R or official platform run",
+    "Only T2D6 route 0 retrained, including fold 0",
+    "No full 1B exact labels or five 1B runs",
+    "Historical research runners retain original directory dependencies",
+    "Official role-domain restriction remains unresolved"
+  ],
+  "file_checks": "publication-file-checks.json",
+  "question_prose_check": "passed; two coordinate-alignment terms reviewed in their geometric meaning"
+}

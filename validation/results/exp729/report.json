@@ -1,0 +1,80 @@
+{
+  "all_checks_passed": true,
+  "reports": {
+    "P": {
+      "file": {
+        "path": "build/exp729/P.bin",
+        "bytes": 1368980,
+        "sha256": "51378e0440b350141c32958272ba192f6f27ef8aafaf55f3060cb32d91648c3f"
+      },
+      "maps": 1036,
+      "unique_rows": 7188,
+      "unique_columns": 1036,
+      "certified_positions": 68376000,
+      "shared_sample_bytes": 1368980,
+      "local_sample_bytes": 1454024,
+      "compressed_unshared_pool": {
+        "point_bytes": 160551232.00000003,
+        "design_se_bytes": 3768210.0120387287,
+        "approximate_upper95_bytes": 167936923.62359595
+      },
+      "restored_unshared_pool": {
+        "point_bytes": 990607189.5999997,
+        "design_se_bytes": 23332312.911069684,
+        "approximate_upper95_bytes": 1036338522.9056963
+      },
+      "exact_binding_directory_bytes": 1707244,
+      "capacity_gate": false,
+      "memory_gate": true
+    },
+    "N": {
+      "file": {
+        "path": "build/exp729/N.bin",
+        "bytes": 698556,
+        "sha256": "1a39b0cfbf7fa6d7aec36e71019bd0e49e60bb3ecec1055c9e9cfad88ea34ec7"
+      },
+      "maps": 1036,
+      "unique_rows": 6582,
+      "unique_columns": 1036,
+      "certified_positions": 68376000,
+      "shared_sample_bytes": 698556,
+      "local_sample_bytes": 746424,
+      "compressed_unshared_pool": {
+        "point_bytes": 84763292.0,
+        "design_se_bytes": 2571793.450742087,
+        "approximate_upper95_bytes": 89804007.16345449
+      },
+      "restored_unshared_pool": {
+        "point_bytes": 923096053.5999998,
+        "design_se_bytes": 21584630.591123916,
+        "approximate_upper95_bytes": 965401929.5586027
+      },
+      "exact_binding_directory_bytes": 1707244,
+      "capacity_gate": false,
+      "memory_gate": true
+    }
+  },
+  "selected": false,
+  "negative_controls_passed": 2,
+  "selection": "N fixed before results",
+  "all_pool_measured": false,
+  "unknown_selector_available": false,
+  "complete_estimator_runs": 0,
+  "new_exact_rows": 0,
+  "cpu_claim": false,
+  "accuracy_claim": false,
+  "removed_bytes": 0,
+  "original_assets_reused": true,
+  "independent_layout_and_cost_recalculation": true,
+  "decoder": {
+    "path": "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py",
+    "bytes": 14503,
+    "sha256": "96607a420b082f3f03ffd4076b0b08d0f225f334b2c14e8ed70da3639e732d95"
+  },
+  "failure": {
+    "path": "validation/results/exp729/restore-failure.json",
+    "bytes": 675,
+    "sha256": "7494fe80d1028169ee9ae2c2ab7d63aa41b6608599e6e8aadc92c78e46f8f380"
+  },
+  "disk_free_end_bytes": 295324864512
+}

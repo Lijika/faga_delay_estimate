@@ -1,0 +1,8 @@
+{
+  "cancelled": true,
+  "reason": "Transfer rate requires hours; preserve exact outputs as request plus compressed delay column.",
+  "pid": 978430,
+  "partial": "build/remote-output-archives/exp722/research/exp580/build/exp580/incomplete-transfer.zst.part",
+  "partial_bytes": 1858076672,
+  "remote_originals_deleted": false
+}

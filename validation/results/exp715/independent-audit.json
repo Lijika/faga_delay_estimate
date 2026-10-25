@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "restored_rows": 479232,
+  "independent_optimal_call_checks": 479232,
+  "tiny_exhaustive_cases": 511,
+  "report": {
+    "path": "validation/results/exp715/report.json",
+    "bytes": 7913,
+    "sha256": "0a1db029ab0ed3a2d8b9fab9deab0382f2c6923eb14d1ecb3cbb32f94e606d56"
+  },
+  "selected": false
+}

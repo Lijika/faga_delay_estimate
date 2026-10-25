@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wno-unused-parameter",
+    "-Wno-unused-function",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-ffp-contract=off",
+    "build/exp712/trace/trace712.cpp",
+    "build/exp712/trace/src/architecture.cpp",
+    "build/exp712/trace/src/router.cpp",
+    "build/exp712/trace/src/residue_estimator.cpp",
+    "-o",
+    "build/exp712/trace-O"
+  ],
+  "exit_code": 0,
+  "user_s": 9.062701,
+  "sys_s": 0.508634,
+  "cpu_s": 9.571335000000001,
+  "wall_s": 9.602816266007721,
+  "rss_bytes": 398716928,
+  "threads": 1
+}

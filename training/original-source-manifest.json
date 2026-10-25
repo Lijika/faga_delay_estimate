@@ -778,5 +778,29 @@
     "published": "training/original/validation/exp706_release.py",
     "bytes": 11451,
     "sha256": "590865724c69c2d481782314d6e77d1af731006a426a3ec4cfe515cf6225dace"
+  },
+  {
+    "source": "validation/exp719_leaf_budget.py",
+    "published": "training/original/validation/exp719_leaf_budget.py",
+    "bytes": 16007,
+    "sha256": "1c28e62a0bcb5854f378af9eac5a99793d9def09831a66defe3c1ddcaebb441a"
+  },
+  {
+    "source": "validation/exp720_fresh_scale.py",
+    "published": "training/original/validation/exp720_fresh_scale.py",
+    "bytes": 10991,
+    "sha256": "45e725bd039574a303a3d0e88cbbdc2f7eecf4366cbf58c8e26fb532fe792b24"
+  },
+  {
+    "source": "validation/exp720_leaf_cli.py",
+    "published": "training/original/validation/exp720_leaf_cli.py",
+    "bytes": 13545,
+    "sha256": "63c408b349f8a4084fa50e5febefb32ea7518de2ffd8d2fb95158923ca09429b"
+  },
+  {
+    "source": "validation/exp727_coordinate_masks.py",
+    "published": "training/original/validation/exp727_coordinate_masks.py",
+    "bytes": 9553,
+    "sha256": "3a9aa2f17ff8cbf5d6225e8d52e6934bc57f35a93dab1a5d69026df546e1ef6c"
   }
 ]

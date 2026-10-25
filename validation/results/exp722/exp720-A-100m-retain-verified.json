@@ -1,0 +1,41 @@
+{
+  "source": "../exp720/build/exp720/100m-0-A.csv",
+  "original": {
+    "path": "build/exp720/100m-0-A.csv",
+    "bytes": 4013568911,
+    "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+  },
+  "input": {
+    "path": "build/exp720/u-role/requests.csv",
+    "bytes": 3519786871,
+    "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+  },
+  "archive": {
+    "path": "build/exp722/column-archives/exp720-A-100m-delay.csv.zst",
+    "bytes": 207217166,
+    "sha256": "c28b6d1b6b5490501f69af91eb547d47ad9131a646aa153ab7ba39bed4c2002b"
+  },
+  "restored": {
+    "bytes": 4013568911,
+    "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+  },
+  "full_roundtrip_passed": true,
+  "source_metadata": [
+    4013568911,
+    1792917739179216050,
+    22299261
+  ],
+  "rebuild_cwd": "../exp720",
+  "rebuild_command": [
+    "taskset",
+    "-c",
+    "8",
+    "../exp707/build/exp707/M/estimate",
+    "-in",
+    "build/exp720/u-role/requests.csv",
+    "-out",
+    "build/exp720/100m-0-A.csv"
+  ],
+  "restore_shell": "bash",
+  "restore_command": "paste -d, ../exp720/build/exp720/u-role/requests.csv <(zstd -dq -c build/exp722/column-archives/exp720-A-100m-delay.csv.zst) > ../exp720/build/exp720/100m-0-A.csv"
+}

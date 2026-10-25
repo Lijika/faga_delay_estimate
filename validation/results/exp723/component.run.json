@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp723/component",
+    "../exp652/doc/eda比赛文件/arch",
+    "build/exp723"
+  ],
+  "exit_code": 0,
+  "user_s": 0.333685,
+  "sys_s": 0.031969,
+  "cpu_s": 0.36565400000000003,
+  "wall_s": 0.36601032596081495,
+  "rss_bytes": 53133312,
+  "threads": 1
+}

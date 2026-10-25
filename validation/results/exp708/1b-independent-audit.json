@@ -1,0 +1,7 @@
+{
+  "all_passed": true,
+  "full_output_same": true,
+  "rows": 1000000000,
+  "one_pair_only": true,
+  "accuracy_unchanged": true
+}

@@ -1,0 +1,29 @@
+accepted=10000000 proposed=10174642 unreachable=174640 duplicate=1
+accepted=20000000 proposed=20349522 unreachable=349519 duplicate=2
+accepted=30000000 proposed=30524404 unreachable=524399 duplicate=4
+accepted=40000000 proposed=40698559 unreachable=698552 duplicate=6
+accepted=50000000 proposed=50872522 unreachable=872515 duplicate=6
+accepted=60000000 proposed=61046938 unreachable=1046924 duplicate=10
+accepted=70000000 proposed=71221815 unreachable=1221798 duplicate=13
+accepted=80000000 proposed=81396538 unreachable=1396515 duplicate=19
+accepted=90000000 proposed=91571196 unreachable=1571166 duplicate=26
+accepted=100000000 proposed=101746247 unreachable=1746211 duplicate=31
+accepted=110000000 proposed=111920374 unreachable=1920334 duplicate=35
+accepted=120000000 proposed=122094798 unreachable=2094753 duplicate=40
+shuffle_buckets=16 csv_rows=7500377
+shuffle_buckets=32 csv_rows=14997497
+shuffle_buckets=48 csv_rows=22499909
+shuffle_buckets=64 csv_rows=30000668
+shuffle_buckets=80 csv_rows=37502829
+shuffle_buckets=96 csv_rows=45009339
+shuffle_buckets=112 csv_rows=52507268
+shuffle_buckets=128 csv_rows=60002266
+shuffle_buckets=144 csv_rows=67502689
+shuffle_buckets=160 csv_rows=75000892
+shuffle_buckets=176 csv_rows=82499978
+shuffle_buckets=192 csv_rows=90000975
+shuffle_buckets=208 csv_rows=97498062
+shuffle_buckets=224 csv_rows=105000048
+shuffle_buckets=240 csv_rows=112498135
+shuffle_buckets=256 csv_rows=120000000
+done rows=120000000 bytes=4223730030

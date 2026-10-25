@@ -1,0 +1,9 @@
+{
+  "disk_free_end_bytes": 43773894656,
+  "build_bytes": 32171894,
+  "deleted_bytes": 0,
+  "trace_cpu_s": 87.540651,
+  "measured_cpu_s": 135.92014899999998,
+  "maximum_rss_bytes": 721289216,
+  "analyze_time_separately_recorded": false
+}

@@ -1,0 +1,370 @@
+{
+  "base_commit": "fed41553d0f85b963612ed9fc783d8d96598d918",
+  "history_rewritten": false,
+  "deleted_from_current_tree": [
+    {
+      "path": "accuracy/check_subset.py",
+      "old_bytes": 3703,
+      "old_sha256": "61c33044619bee67bb6221196e8b5551b889de528626374385f1133223fb0ce0",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "accuracy/exp688-exact-subset.csv.gz",
+      "old_bytes": 17626479,
+      "old_sha256": "369bf5336fe79ab903168bb886f4004f3e03f498977321bc086c9eb1e310f0d4",
+      "reason": "All original fields retained in current comparative CSV; per-row equality verified",
+      "replacement": "accuracy/exp728-exact-subset.csv.gz"
+    },
+    {
+      "path": "accuracy/subset-manifest.json",
+      "old_bytes": 2323,
+      "old_sha256": "a94f1f9d0880ee943814dd957b946f6dcd16fb78c1345d3cc21fd21786fd70da",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "accuracy/verification.json",
+      "old_bytes": 369,
+      "old_sha256": "e034cf496e1f460356cabdccfa38e9cbbebf88489e9542a4ee8dcc1142ab7d6d",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "docs/exp688/cpu-xeon-gold-6242r.png",
+      "old_bytes": 530565,
+      "old_sha256": "f226273818adc716c327ea3db59af2e08fa089e31d8ba9696932fb2dcc016c86",
+      "reason": "Shared target machine evidence",
+      "replacement": "benchmark/cpu-xeon-gold-6242r.png"
+    },
+    {
+      "path": "docs/exp688/exp688-外部AI提问书.md",
+      "old_bytes": 53432,
+      "old_sha256": "07ae4355dbbde949326ae49e58d9e42f179ee7682e8fdb1459a97a9af96fe251",
+      "reason": "Replaced by current exp728 questions and research review",
+      "replacement": null
+    },
+    {
+      "path": "docs/exp688/研究进展与证据范围.md",
+      "old_bytes": 6679,
+      "old_sha256": "f3681311279861d0641740d90ade63e0c0c8324b3416619cbe6fc2441f484473",
+      "reason": "Replaced by current exp728 questions and research review",
+      "replacement": null
+    },
+    {
+      "path": "source/models/S16-final-0.json",
+      "old_bytes": 57143,
+      "old_sha256": "9215f566334eb0480f3a08c4917289db90dc5993a2bdad6f2aae31d2fec8e974",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-0.json"
+    },
+    {
+      "path": "source/models/S16-final-1.json",
+      "old_bytes": 55964,
+      "old_sha256": "006817f50915ce74fa779f292311f14b0b5f2e0b53b2e3e608d1347de40bc47b",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-1.json"
+    },
+    {
+      "path": "source/models/S16-final-10.json",
+      "old_bytes": 56816,
+      "old_sha256": "7116ca9ffa233238b77370672f083d999bb3d442f5da7e9406566db304d4ccf9",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-10.json"
+    },
+    {
+      "path": "source/models/S16-final-11.json",
+      "old_bytes": 55414,
+      "old_sha256": "6e4d9c1c07ebe404925a4d06dc4bbca1c161083f6a313f6e7251d5a5e9b9b227",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-11.json"
+    },
+    {
+      "path": "source/models/S16-final-12.json",
+      "old_bytes": 57179,
+      "old_sha256": "da32b3b90004facc69aad56b49203731286fc555a9dbc197fd141a72636fdf22",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-12.json"
+    },
+    {
+      "path": "source/models/S16-final-13.json",
+      "old_bytes": 56198,
+      "old_sha256": "f22946022bfdc13c0b09437b6cea33c42503d855a713b398e228d93ae0a00d7d",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-13.json"
+    },
+    {
+      "path": "source/models/S16-final-14.json",
+      "old_bytes": 56819,
+      "old_sha256": "6cf71d54e51fda1f2b6e87a1c380a84b63938d1ff7199a67c636281a7580947b",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-14.json"
+    },
+    {
+      "path": "source/models/S16-final-15.json",
+      "old_bytes": 55806,
+      "old_sha256": "6c448f510fe92150be034aae9eee6e068166858ce9c7078032a4cfd4122db6f1",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-15.json"
+    },
+    {
+      "path": "source/models/S16-final-2.json",
+      "old_bytes": 56500,
+      "old_sha256": "c3856a67a3bbe01e6ae952222b4e9a52b061c4fddae7d0f1bf3a2cc179b74143",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-2.json"
+    },
+    {
+      "path": "source/models/S16-final-3.json",
+      "old_bytes": 55632,
+      "old_sha256": "08e93a06a4905e2fe2627c13f1550ba8adf76fb07e3df03b8bc18d7f8edc6fbf",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-3.json"
+    },
+    {
+      "path": "source/models/S16-final-4.json",
+      "old_bytes": 56692,
+      "old_sha256": "31bf57b0f2f1408391dcae1cac6ce4e6996639f1cfec282caa56e950ec1661b5",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-4.json"
+    },
+    {
+      "path": "source/models/S16-final-5.json",
+      "old_bytes": 56679,
+      "old_sha256": "a0f3d3ec84b5db82f000ca4cf2dc1b2fbae14e7599e1119c31b982d13f647c84",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-5.json"
+    },
+    {
+      "path": "source/models/S16-final-6.json",
+      "old_bytes": 57093,
+      "old_sha256": "296f2d09dd072af9ee6f176f8402c7586b9f5b0bf76e3894c743a6ad57cdaf75",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-6.json"
+    },
+    {
+      "path": "source/models/S16-final-7.json",
+      "old_bytes": 55457,
+      "old_sha256": "7146348f776d844728a1acb4e3f85816cedaa198275966fdad3d6d3b57e26f9f",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-7.json"
+    },
+    {
+      "path": "source/models/S16-final-8.json",
+      "old_bytes": 56922,
+      "old_sha256": "e7caa5bac6bae9bd1c83265d165795c721ce0249876d73e5de7074e20a67b936",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-8.json"
+    },
+    {
+      "path": "source/models/S16-final-9.json",
+      "old_bytes": 56107,
+      "old_sha256": "926c7d025f044dde55f825d1965c200c05c9cbf5a77f84542bacc41ac21f5e47",
+      "reason": "Retained for S8 historical training comparison",
+      "replacement": "training/baselines/exp688/S16-final-9.json"
+    },
+    {
+      "path": "source/provenance/exp640-cli-freeze.json",
+      "old_bytes": 6702,
+      "old_sha256": "b7a50741d44222ab6028760a2ad196412f9727fa78d29bae3bf16230cac7e1e2",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp640-final-training.json",
+      "old_bytes": 29452,
+      "old_sha256": "19d57d29d17032d4dfa3a5a31d410be15d2547e1a5ee3e90e2b83c32648de25a",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp686-100m-report.json",
+      "old_bytes": 45204,
+      "old_sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp686-compile.run.json",
+      "old_bytes": 1083,
+      "old_sha256": "fe636bccdf230b48ad572c0f1e79f9270e218054f48e07eeef8d84e660db829b",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp686-freeze.json",
+      "old_bytes": 10036,
+      "old_sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp686-link.run.json",
+      "old_bytes": 1308,
+      "old_sha256": "1e699258c75f87ab343e0d078ed1d5e25b424aaae10328bd6a1af85b93500119",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp686-protocol-original.md",
+      "old_bytes": 3601,
+      "old_sha256": "364c93104385573bfd41c7840272a5aa3c40ab3c6563f471a94d6fe33908c1ac",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-1b-accuracy.json",
+      "old_bytes": 1708050,
+      "old_sha256": "846c92bdf8d353614baaf7f6a769ff43b146469db387515f48dea29e308151bf",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-1b-freeze.json",
+      "old_bytes": 1722,
+      "old_sha256": "598f9f9ee5ceb45d852fe7529decf25df9c7a25ae2d29488cf74a82b88ca240c",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-1b-report.json",
+      "old_bytes": 2042,
+      "old_sha256": "e0e33bc7d6652f16af489e85138c535a9fb04be618e64cf8ca19065e05ba1390",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-clean-freeze.json",
+      "old_bytes": 802,
+      "old_sha256": "0cc84b7f98a13d3364c9f73459e1b150fdcf17bd7b12e83a79dd3a359e7f80ff",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-close-audit.json",
+      "old_bytes": 985,
+      "old_sha256": "0da9ddc913e7bc6a244e9e1558b0ed011b4bbf8805b6d43a701babc11b7d7230",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-exp686-audit.json",
+      "old_bytes": 902,
+      "old_sha256": "1771bfca8d067ba2b394a9491f6c7121fc9955c27c6f6d590c451e8b82587467",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-package-check.json",
+      "old_bytes": 5000,
+      "old_sha256": "078603275ac6831fe71e330c9ca387b9b6dcfdb5a27d1792ebd572425568e6db",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-protocol-original.md",
+      "old_bytes": 3563,
+      "old_sha256": "b0cb8ffb1a13e97ad5c208e52f4f52243ffa1d1997012b406e67732a0e510dfe",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/exp688-score-reuse-freeze.json",
+      "old_bytes": 4467,
+      "old_sha256": "1228d07ee4a23809e8fa595879c3ab9455d36ce85b6ebeed9f802d410abd81f6",
+      "reason": "Old source-directory duplicate; retained in validation/results/exp688 and historical commit",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/identities.txt",
+      "old_bytes": 160,
+      "old_sha256": "a1899f0dfc2d5ba726e6786fbae8190c83a3f46b2c61f8d204a8cfb33600d00d",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "source/provenance/score-accuracy.json",
+      "old_bytes": 1989099,
+      "old_sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/README.md",
+      "old_bytes": 2742,
+      "old_sha256": "207709b6e6c92cc477ba8c961c85d0a07bd58c2975fbc24f95b62b5ed7b8f621",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/build.py",
+      "old_bytes": 2906,
+      "old_sha256": "078bbdb2c79e29e9e537b4843c540885ebc3b2aa66b2f25fddb26f1ea4c21308",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/direct-port.patch",
+      "old_bytes": 2799,
+      "old_sha256": "5db2bea685cebd3bc5100691161e330d77c824ea059ae3bc24005a1e96008a03",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/exp601_port_parser.h",
+      "old_bytes": 4929,
+      "old_sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/exp704_port_decoder.cpp",
+      "old_bytes": 2553,
+      "old_sha256": "486feeff87a863c033cfbc368c46c7c9afdb7a94d402153ce01210a6894ec5df",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/parser-identities.json",
+      "old_bytes": 352,
+      "old_sha256": "50d501551da346e9cf521092044da6fca96fe8b657af8c9decbad9987aaeb166",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/patch-verification.json",
+      "old_bytes": 183,
+      "old_sha256": "a78a63a79098c22478dbffd89abd4e09814da62ac65852afb1e2529c604ed396",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "stage_changes/verification-r9.json",
+      "old_bytes": 2679,
+      "old_sha256": "1133ccba5a7e14f489c150315a39b4f4fea6baca19b6856c8e2dad7c605c38e3",
+      "reason": "Stage patch already incorporated in exp728; old builder assumes exp688 source",
+      "replacement": null
+    },
+    {
+      "path": "supplement-SHA256SUMS",
+      "old_bytes": 221777,
+      "old_sha256": "2a7629ae17d9223afecb87076b2892ad0982636b33dc43589c7598662481a4a4",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "supplement-provenance.json",
+      "old_bytes": 2255,
+      "old_sha256": "001e26c563a9a6fdfa0f72945a04c3efbac7c7ece944fa59eb12723b559ff54d",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    },
+    {
+      "path": "supplement-verification.json",
+      "old_bytes": 3913,
+      "old_sha256": "f25d8118926e4fd7a45304c17b5f3c9d83bf88729dd6a36a4db97db06a0d80a2",
+      "reason": "Superseded by the exp728 snapshot; historical Git recovery remains available",
+      "replacement": null
+    }
+  ]
+}

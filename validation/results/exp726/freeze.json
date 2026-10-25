@@ -1,0 +1,244 @@
+{
+  "inputs": [
+    {
+      "path": "../exp719/../exp713/../exp640/build/exp640/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "89fc9fdc6b997d32cfd2272d977af3b035aafbdad32a6f462c5e8ef0e709789e"
+    },
+    {
+      "path": "../exp719/../exp713/../exp656/build/exp656/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "1e30db779c98d8a84c798b143fa7a6ce988729b5b930569eecb38590c8f8c934"
+    },
+    {
+      "path": "../exp719/../exp713/../exp678/build/exp678/HV8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "4e300ebe31487666d939a280fd31150bd5a56332f60720068e5138109f8b1f4c"
+    },
+    {
+      "path": "../exp719/../exp713/../exp654/build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp713/validation/exp713_local_support.py",
+      "bytes": 13102,
+      "sha256": "7e869a5628140565ab0fc7b5bd3e46d4ecf2dd530b3ea3ff06f0095a7ad0de77"
+    },
+    {
+      "path": "../exp719/../exp713/experiment/实验713-端口兼容的首尾局部支持与同预算残差.md",
+      "bytes": 3101,
+      "sha256": "781ac760f5a19092abbdcff2983bdd51990b5250ad99e893ffc946eb7d01bf31"
+    },
+    {
+      "path": "../exp719/../exp713/validation/results/exp713/protocol-original.md",
+      "bytes": 3101,
+      "sha256": "781ac760f5a19092abbdcff2983bdd51990b5250ad99e893ffc946eb7d01bf31"
+    },
+    {
+      "path": "../exp719/../exp713/tests/exp713_local_support.cpp",
+      "bytes": 3547,
+      "sha256": "f2936294aa45a9d2b1c4efb9e88c590f5d316a8467caaf8ac217511000f843ca"
+    },
+    {
+      "path": "../exp719/../exp713/../exp535/build/exp535/queries.bin",
+      "bytes": 40000012,
+      "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1"
+    },
+    {
+      "path": "../exp719/../exp713/../exp580/build/exp580/architecture-resolver.o",
+      "bytes": 103336,
+      "sha256": "2f12d9627fc63e2c553886caede76ecca2cbec52f9ab4f69a9776fd4f3602fe1"
+    },
+    {
+      "path": "../exp719/../exp713/../exp579/build/exp579/arch-text.o",
+      "bytes": 5162816,
+      "sha256": "ade13614f6439fe2f1bf728c8951649524031a48e7c20728507ec3b289044499"
+    },
+    {
+      "path": "../exp719/../exp713/../exp652/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp719/../exp713/../exp652/doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp719/../exp713/../exp652/doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../exp719/../exp713/../exp652/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../exp719/../exp713/../exp652/doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp678/validation/exp678_hv_replacement.py",
+      "bytes": 13700,
+      "sha256": "77579ec452b7753622eb75e19a11466f6e584ba8b271fcadfb358b8fc96a80bd"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp677/validation/exp677_map_events.py",
+      "bytes": 12796,
+      "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp614/validation/exp614_gemini_features.py",
+      "bytes": 16043,
+      "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+    },
+    {
+      "path": "../exp719/../exp713/../exp640/validation/exp640_symmetric_residual.py",
+      "bytes": 11617,
+      "sha256": "ab35fde1eb0bd004625c3c2fcb2f60d0773963ce61d71484a503fb93bda61e89"
+    },
+    {
+      "path": "../exp719/../exp713/../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp719/../exp713/../exp585/build/exp585/training.npz",
+      "bytes": 76812911,
+      "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+    },
+    {
+      "path": "../exp719/../exp713/../exp593/build/exp593/targets.npz",
+      "bytes": 4451632,
+      "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+    },
+    {
+      "path": "../exp719/../exp713/../exp656/validation/results/exp656/prepare.json",
+      "bytes": 3639,
+      "sha256": "28b1477d5b49db1936e971ac03de00a8045fcdd959851ae12a5229d5aba95aee"
+    },
+    {
+      "path": "../exp719/../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    },
+    {
+      "path": "../exp719/../exp619/build/exp619/Q4.p4",
+      "bytes": 14377024,
+      "sha256": "8706d7752eecd7db746fe24dffd036d1f60f57329fd4b2ee6ce601a44d2da050"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp719/validation/exp719_leaf_budget.py",
+      "bytes": 16007,
+      "sha256": "1c28e62a0bcb5854f378af9eac5a99793d9def09831a66defe3c1ddcaebb441a"
+    },
+    {
+      "path": "../exp719/experiment/实验719-同叶值预算的少树深层残差.md",
+      "bytes": 3758,
+      "sha256": "bc20bcb8bf032145ea9a6d09492ec1bdaa4d27e630d448a3471d507754db66aa"
+    },
+    {
+      "path": "../exp719/validation/results/exp719/protocol-original.md",
+      "bytes": 3758,
+      "sha256": "bc20bcb8bf032145ea9a6d09492ec1bdaa4d27e630d448a3471d507754db66aa"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp713/validation/exp713_local_support.py",
+      "bytes": 13102,
+      "sha256": "7e869a5628140565ab0fc7b5bd3e46d4ecf2dd530b3ea3ff06f0095a7ad0de77"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp678/validation/exp678_hv_replacement.py",
+      "bytes": 13700,
+      "sha256": "77579ec452b7753622eb75e19a11466f6e584ba8b271fcadfb358b8fc96a80bd"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp677/validation/exp677_map_events.py",
+      "bytes": 12796,
+      "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp726/validation/exp726_final_target.py",
+      "bytes": 16574,
+      "sha256": "becd958d17b968899cc3be2a7f2849a79aa89f04f3768bc75caaa6d6a2e28ba2"
+    },
+    {
+      "path": "experiment/实验726-完整延迟监督与评分分母的四格对照.md",
+      "bytes": 3206,
+      "sha256": "ff9a577a36e2c6f041f3f02c5cd0e0539d1942e0f176bb20a8a75795f589d9ba"
+    },
+    {
+      "path": "validation/results/exp726/protocol-original.md",
+      "bytes": 3206,
+      "sha256": "ff9a577a36e2c6f041f3f02c5cd0e0539d1942e0f176bb20a8a75795f589d9ba"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp719/validation/exp719_leaf_budget.py",
+      "bytes": 16007,
+      "sha256": "1c28e62a0bcb5854f378af9eac5a99793d9def09831a66defe3c1ddcaebb441a"
+    },
+    {
+      "path": "../exp719/validation/results/exp719/T2D6-training.json",
+      "bytes": 101921,
+      "sha256": "4c5ae626d5fc6a48cbc6b883bcc9370218980ca02b7b2a186971b4d9df089767"
+    },
+    {
+      "path": "../exp719/validation/results/exp719/independent-audit.json",
+      "bytes": 404,
+      "sha256": "d663face49e997320bd97f97a7530bc3f99fac189360e7f489d23cd2c8c1c75b"
+    }
+  ],
+  "params": {
+    "iterations": 2,
+    "depth": 6,
+    "learning_rate": 0.7599,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261023640,
+    "task_type": "CPU",
+    "thread_count": 16,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "seed": 20261025726,
+  "numpy": "2.2.6",
+  "catboost": "1.2.8",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "target_check": {
+    "changed_targets": 27188,
+    "target_delta_range": [
+      0,
+      354
+    ],
+    "truth_range": [
+      68,
+      8427
+    ],
+    "relative_weight_range": [
+      0.11866619437932968,
+      14.70588207244873
+    ],
+    "weight_ratio_range": [
+      0.623249351978302,
+      1.8823529481887817
+    ]
+  },
+  "baseline_raw": {
+    "path": "../exp719/build/exp719/T2D6-raw.f64",
+    "bytes": 8000000,
+    "sha256": "9f7c4be838f79031d54847ffd1b5fd5f3b9cb67070c58a7a8160f443cfcb78f7"
+  },
+  "disk_free_start_bytes": 44106059776
+}

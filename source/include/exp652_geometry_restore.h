@@ -15,7 +15,7 @@ static void restoreGeometry652() {
     require(!ZSTD_isError(written), ZSTD_getErrorName(written));
     require(written == sizeof(exp579_geometry), "restored geometry length");
 #ifdef EXP579_AUDIT
-    FILE* output = std::fopen("build/exp684/V8/restored.bin", "wb");
+    FILE* output = std::fopen("build/exp720/restored.bin", "wb");
     require(output != nullptr, "restored audit open");
     require(std::fwrite(exp579_geometry, 1, written, output) == written, "restored audit write");
     require(std::fclose(output) == 0, "restored audit close");

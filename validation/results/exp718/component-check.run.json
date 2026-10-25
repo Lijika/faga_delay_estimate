@@ -1,0 +1,17 @@
+{
+  "command": [
+    "build/exp718/dense-fragments",
+    "../exp717/build/exp717",
+    "../exp705/build/exp705/queries.bin",
+    "build/exp718/order.u32",
+    "C",
+    "0"
+  ],
+  "exit_code": 0,
+  "user_s": 0.9756589999999999,
+  "sys_s": 0.017993,
+  "cpu_s": 0.993652,
+  "wall_s": 0.994232899043709,
+  "rss_bytes": 37650432,
+  "threads": 1
+}

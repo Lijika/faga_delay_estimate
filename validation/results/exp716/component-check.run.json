@@ -1,0 +1,13 @@
+{
+  "command": [
+    "build/exp716/component-check",
+    "../exp705/build/exp705/queries.bin"
+  ],
+  "exit_code": 0,
+  "user_s": 1.268389,
+  "sys_s": 0.209899,
+  "cpu_s": 1.478288,
+  "wall_s": 1.6564455898478627,
+  "rss_bytes": 178003968,
+  "threads": 1
+}

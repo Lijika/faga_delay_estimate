@@ -1,0 +1,343 @@
+{
+  "all_checks_passed": true,
+  "reports": {
+    "O": {
+      "coverage": {
+        "mean": 0.7996556991185897,
+        "design_se": 0.006133022565964003,
+        "interval": [
+          0.7876349748893002,
+          0.8116764233478792
+        ]
+      },
+      "exact_recovery": {
+        "mean": 0.746004023103633,
+        "design_se": 0.008358870359327992,
+        "interval": [
+          0.7296206371993501,
+          0.7623874090079159
+        ]
+      },
+      "within8": {
+        "mean": 0.7811177049946579,
+        "design_se": 0.006853748622926898,
+        "interval": [
+          0.7676843576937212,
+          0.7945510522955946
+        ]
+      },
+      "mean_rle": {
+        "mean": 10.221163862179482,
+        "design_se": 0.11818332785084192,
+        "interval": [
+          9.989524539591832,
+          10.452803184767133
+        ]
+      },
+      "mean_hops": {
+        "mean": 22.996711822248926,
+        "design_se": 0.33159435266949805,
+        "interval": [
+          22.34678689101671,
+          23.646636753481143
+        ]
+      },
+      "accepted_fraction": {
+        "mean": 1.0000000000000004,
+        "design_se": 0.0,
+        "interval": [
+          1.0000000000000004,
+          1.0000000000000004
+        ]
+      },
+      "mean_original_excess": {
+        "mean": 0.0,
+        "design_se": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "maximum_original_excess_ps": 0,
+      "changed_words": 0
+    },
+    "E1": {
+      "coverage": {
+        "mean": 0.8105030548878207,
+        "design_se": 0.005890908649383767,
+        "interval": [
+          0.7989568739350286,
+          0.8220492358406128
+        ]
+      },
+      "exact_recovery": {
+        "mean": 0.6730523003472224,
+        "design_se": 0.010426393623498884,
+        "interval": [
+          0.6526165688451646,
+          0.6934880318492802
+        ]
+      },
+      "within8": {
+        "mean": 0.7886564336271371,
+        "design_se": 0.00670118081270086,
+        "interval": [
+          0.7755221192342434,
+          0.8017907480200308
+        ]
+      },
+      "mean_rle": {
+        "mean": 9.300377687633546,
+        "design_se": 0.09854060115138405,
+        "interval": [
+          9.107238109376834,
+          9.493517265890258
+        ]
+      },
+      "mean_hops": {
+        "mean": 22.980215845352554,
+        "design_se": 0.33153568585073845,
+        "interval": [
+          22.330405901085108,
+          23.63002578962
+        ]
+      },
+      "accepted_fraction": {
+        "mean": 0.9987834702190174,
+        "design_se": 0.000635727700926775,
+        "interval": [
+          0.9975374439252009,
+          1.0000294965128338
+        ]
+      },
+      "mean_original_excess": {
+        "mean": 0.3495526175213675,
+        "design_se": 0.028152388566237842,
+        "interval": [
+          0.2943739359315414,
+          0.40473129911119365
+        ]
+      },
+      "maximum_original_excess_ps": 14,
+      "changed_words": 1425,
+      "within8_gain": {
+        "mean": 0.007538728632478631,
+        "design_se": 0.003503848755821558,
+        "interval": [
+          -0.0003148075273192155,
+          0.015392264792276476
+        ]
+      },
+      "mean_rle_ratio": 0.9099137645221554,
+      "expand": false,
+      "complete_line_upper_bound_comparison": {
+        "common_fraction": 0.7767962072649575,
+        "mean_delta_ps_on_common": 0.16096894260442007,
+        "lower_fraction": 0.003910840678418803,
+        "higher_fraction": 0.08312383146367518
+      }
+    },
+    "E4": {
+      "coverage": {
+        "mean": 0.8188593416132477,
+        "design_se": 0.00572126214211264,
+        "interval": [
+          0.8076456678147069,
+          0.8300730154117885
+        ]
+      },
+      "exact_recovery": {
+        "mean": 0.4940120860042735,
+        "design_se": 0.01258502598683591,
+        "interval": [
+          0.4693454350700751,
+          0.5186787369384719
+        ]
+      },
+      "within8": {
+        "mean": 0.7896459334935896,
+        "design_se": 0.006874885318892593,
+        "interval": [
+          0.7761711582685601,
+          0.8031207087186191
+        ]
+      },
+      "mean_rle": {
+        "mean": 8.829645766559828,
+        "design_se": 0.10114675009396114,
+        "interval": [
+          8.631398136375664,
+          9.027893396743993
+        ]
+      },
+      "mean_hops": {
+        "mean": 22.94372203859507,
+        "design_se": 0.33116587110913087,
+        "interval": [
+          22.294636931221174,
+          23.592807145968965
+        ]
+      },
+      "accepted_fraction": {
+        "mean": 0.8846011952457264,
+        "design_se": 0.00855508313547174,
+        "interval": [
+          0.8678332323002018,
+          0.9013691581912511
+        ]
+      },
+      "mean_original_excess": {
+        "mean": 3.213930622329062,
+        "design_se": 0.1476256030154611,
+        "interval": [
+          2.924584440418758,
+          3.503276804239366
+        ]
+      },
+      "maximum_original_excess_ps": 44,
+      "changed_words": 1994,
+      "within8_gain": {
+        "mean": 0.008528228498931624,
+        "design_se": 0.003881285017967956,
+        "interval": [
+          -0.00017129432848728317,
+          0.01722775132635053
+        ]
+      },
+      "mean_rle_ratio": 0.8638591344016534,
+      "expand": false,
+      "complete_line_upper_bound_comparison": {
+        "common_fraction": 0.7777635884081197,
+        "mean_delta_ps_on_common": 0.9838252543669772,
+        "lower_fraction": 0.005614399706196581,
+        "higher_fraction": 0.2718699919871795
+      }
+    }
+  },
+  "eligible": [],
+  "selected": null,
+  "candidate_own_location_excluded": true,
+  "original_control_words_equal": true,
+  "real_costs_and_objectives_verified": true,
+  "complete_estimator_runs": 0,
+  "new_original_exact_labels": 0,
+  "accuracy_claim": false,
+  "files": [
+    {
+      "path": "build/exp731/trace-E1",
+      "bytes": 4891896,
+      "sha256": "e518c292f6d57b1ebc7a4d61bf9efa49de7bab707bcce55f8edb98a94670a0c2"
+    },
+    {
+      "path": "build/exp731/queries.bin",
+      "bytes": 166412,
+      "sha256": "df3879eea644eb2eb61ad63defab2c73f73a5e4f323ffd847747d90c0c083481"
+    },
+    {
+      "path": "build/exp731/E4.lengths.u32",
+      "bytes": 16640,
+      "sha256": "a985fcc3c8a1fab92a202399e694a71bd521b549deed6c1ee571b177c0881559"
+    },
+    {
+      "path": "build/exp731/strata.u16",
+      "bytes": 2080,
+      "sha256": "dbae673e6cc51403a38035222030967a73fa9090b3f3f1172a2bbb962db38172"
+    },
+    {
+      "path": "build/exp731/O.lengths.u32",
+      "bytes": 16640,
+      "sha256": "a3dbca1a7e44f6ff14486b0635cf7b403c95bb8f26630d553efaefb22c60ebd3"
+    },
+    {
+      "path": "build/exp731/O-full-cross.i32",
+      "bytes": 66560,
+      "sha256": "082da21857816ec822a3db4e2f2c8c5040cabec4de3885a7f7dfd8b8c4de874f"
+    },
+    {
+      "path": "build/exp731/E4-cross.i32",
+      "bytes": 66560,
+      "sha256": "29ef145b7ee8aefe3843128f4c9c602eb085621f41e5f5282f6890e42ed1184e"
+    },
+    {
+      "path": "build/exp731/E1.words.u8",
+      "bytes": 95664,
+      "sha256": "ab7fad2871dc4f45e65475d8b7e262e7ab266de72a51bb82aaeec53b16dcf5a2"
+    },
+    {
+      "path": "build/exp731/E1-full-cross.i32",
+      "bytes": 66560,
+      "sha256": "988784e9674f6d4a2b8ae511d327daf580b3ec5f35079276217155948c66a085"
+    },
+    {
+      "path": "build/exp731/O.summary.i32",
+      "bytes": 133120,
+      "sha256": "64ec8edfc096d9d8854a2963fea26003b932ba23fbb379eea786ee5b60fccbc1"
+    },
+    {
+      "path": "build/exp731/O-cross.i32",
+      "bytes": 66560,
+      "sha256": "f7be8c28a1106b79a6c9670f89e42d3c03d310f5c154a33b1e9395779b9d2fcf"
+    },
+    {
+      "path": "build/exp731/E4.summary.i32",
+      "bytes": 133120,
+      "sha256": "2835ad2f2fbdce587dc0f5d76f498f7c5e98265314913cd56773f5465b3e9303"
+    },
+    {
+      "path": "build/exp731/E1-cross.i32",
+      "bytes": 66560,
+      "sha256": "45cae5a6c7239e7854ba3b84473bef423ba878be3c3f16c29a41f6bb1052c7a7"
+    },
+    {
+      "path": "build/exp731/E1.summary.i32",
+      "bytes": 133120,
+      "sha256": "92bf1ea1cbc14ef4d85bbfb47f9507d6d87492d198b0f302d6980ffb1c6cd627"
+    },
+    {
+      "path": "build/exp731/gold.i32",
+      "bytes": 16640,
+      "sha256": "f30b8fc284b9f2ec3ae60c7de6a71f13e4611918ad018b62166cba7f491216a3"
+    },
+    {
+      "path": "build/exp731/selected.u32",
+      "bytes": 16640,
+      "sha256": "aaefe6a7f1d28c51bfb49c82a69cd4ad5b818875df799c5ec912b540d0fac8f0"
+    },
+    {
+      "path": "build/exp731/trace-E4",
+      "bytes": 4891896,
+      "sha256": "afba811f423b7918be6d2367442a42f8b9595f00aeb2ebe6f2d522720c16aaec"
+    },
+    {
+      "path": "build/exp731/E4-full-cross.i32",
+      "bytes": 66560,
+      "sha256": "45368ad0e932267975ff3707d106020f00ce20ccef5722988a1a616d359d9a2e"
+    },
+    {
+      "path": "build/exp731/E4.words.u8",
+      "bytes": 95516,
+      "sha256": "a7019e1b40cc84fb04a8b43faf40b3e8ec4eaba9b3c22dbabf954b3c7218f6a5"
+    },
+    {
+      "path": "build/exp731/trace-O",
+      "bytes": 4891896,
+      "sha256": "4d589ac17d44df35909fe16fba433cee702e25e0b382bfb8089d7151dba53d1b"
+    },
+    {
+      "path": "build/exp731/E1.lengths.u32",
+      "bytes": 16640,
+      "sha256": "6a7add0c4980e1c2e94d943f5ddcb107aa319136ea7b2b1d8996db6b0a1d479a"
+    },
+    {
+      "path": "build/exp731/O.words.u8",
+      "bytes": 95729,
+      "sha256": "64daf5ec7d130e43057781a77e76959781f9d09c5c2cccdfee7879fcd03e19a0"
+    },
+    {
+      "path": "build/exp731/gold.i32.changes.u32",
+      "bytes": 16640,
+      "sha256": "0fde08a5633832c1a25a018da1c3d1e4ed151ee9d6b9a0a3276805cf8da3f22c"
+    }
+  ],
+  "disk_free_end_bytes": 43774058496
+}

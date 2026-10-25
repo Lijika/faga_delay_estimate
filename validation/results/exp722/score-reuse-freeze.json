@@ -1,0 +1,140 @@
+{
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/exp722_score.py",
+    "bytes": 3843,
+    "sha256": "cbfd25e5914c56389c1d0ed02a0bf83f97af9564fffb0abc26fa4a47aa46e026"
+  },
+  "scorer": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_score.py",
+    "bytes": 15346,
+    "sha256": "ed21f1bb5a1fad098c898a09dcc4f123e79ba0a97149b52d06cdb71a41f9f367"
+  },
+  "generated": {
+    "path": "build/exp722/score-from-original-directory.py",
+    "bytes": 10338,
+    "sha256": "7467cb52533d48653c2ff5f1481e6ca85fdacc007ecb0258583acf0c49c2c92d"
+  },
+  "report": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/results/exp722/1b-report.json",
+    "bytes": 5634,
+    "sha256": "cb5e98bcaed6e061a648d2060dc5ee88f09c966ebfb0f130f91ca0ffb416e477"
+  },
+  "cached_evidence": {
+    "A": {
+      "source_output": {
+        "path": "build/exp708/1b-C.csv",
+        "bytes": 40135645803,
+        "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+      },
+      "source_run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp707/build/exp707/M/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp708/1b-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 226.157413,
+        "wall_s": 256.97211284702644,
+        "rss_bytes": 206385152,
+        "threads": 1,
+        "stderr": "validation/results/exp708/1b-C.stderr"
+      },
+      "sample": {
+        "path": "/home/lhj/lhjwork/eda2026/research/exp688/build/exp688/1b-sample.csv",
+        "bytes": 191795088,
+        "sha256": "3ab7c420e59997e0c4a7f7130db175871ee2b484eb587c4def283cc038bf499b"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135645803,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp688/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp688/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 120.145748,
+        "wall_s": 140.10539168212563,
+        "rss_bytes": 432893952,
+        "threads": 1,
+        "stderr": "validation/results/exp688/1b-contract.stderr"
+      }
+    },
+    "C": {
+      "source_output": {
+        "path": "build/exp722/1b.csv",
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "source_run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp720/build/exp720/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp722/1b.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 184.357089,
+        "sys_s": 22.161885,
+        "cpu_s": 206.51897400000001,
+        "wall_s": 221.89349944563583,
+        "rss_bytes": 206372864,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b.stderr"
+      },
+      "sample": {
+        "path": "/home/lhj/lhjwork/eda2026/research/exp722/build/exp722/1b-sample.csv",
+        "bytes": 191795083,
+        "sha256": "d2d720d58edd83fdf4644cdb65f1eed9acbb1b4b1d04f74cf27748e98b36fb37"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135646544,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp722/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp722/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 95.067072,
+        "sys_s": 23.240312,
+        "cpu_s": 118.307384,
+        "wall_s": 146.49473100760952,
+        "rss_bytes": 432635904,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b-contract.stderr"
+      }
+    }
+  },
+  "original_score_cwd": "/home/lhj/lhjwork/eda2026/research/exp683",
+  "reason": "Original exp683 manifests contain paths relative to exp683; preserve that base.",
+  "complete_estimator_runs": 0,
+  "new_exact_rows": 0
+}

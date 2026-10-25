@@ -1,0 +1,9 @@
+{
+  "failed_check": "publication preflight requires mode 0755",
+  "before_mode": "0o775",
+  "after_mode": "0o755",
+  "byte_sha256": "b5956be4421df7537f3251bc9f1b7a5fe9b51a1638c3e64d57a54e67e4bc2902",
+  "immutable_directory_created": false,
+  "publication_pointers_changed": false,
+  "binary_rebuilt": false
+}

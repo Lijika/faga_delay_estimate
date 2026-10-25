@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rows": 479232,
+  "all_legacy_columns_equal": true,
+  "old": {
+    "path": "accuracy/exp688-exact-subset.csv.gz",
+    "bytes": 17626479,
+    "sha256": "369bf5336fe79ab903168bb886f4004f3e03f498977321bc086c9eb1e310f0d4"
+  },
+  "replacement": {
+    "path": "accuracy/exp728-exact-subset.csv.gz",
+    "bytes": 18528160,
+    "sha256": "9c2a0552d0059979ce9c951dcce6e4711408476d4750f9dae763ce9159e2f60e"
+  },
+  "old_recovery_commit": "fed4155",
+  "reason": "Current comparative CSV contains every original field and adds exp728_prediction"
+}

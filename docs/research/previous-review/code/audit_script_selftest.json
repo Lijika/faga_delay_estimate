@@ -1,0 +1,44 @@
+{
+  "rows": 4,
+  "strata": 2,
+  "expanded_rows": 200.0,
+  "Acc_percent": 97.22007019829103,
+  "MAE_ps": 1.0,
+  "exact_hit_fraction": 0.25,
+  "design_SE_pp": 0.7731463830514719,
+  "normal_95_CI_percent": [
+    95.70473113273277,
+    98.73540926384928
+  ],
+  "scope": "SRSWOR within pair strata; normal design interval, not source-cluster sensitivity or new-blind generalization guarantee",
+  "groups": {
+    "delay:<128": {
+      "population_share": 0.25,
+      "total_Acc_loss_pp": 0.9994670077790886,
+      "sample_rows": 1
+    },
+    "source_seen:unknown": {
+      "population_share": 1.0,
+      "total_Acc_loss_pp": 2.7799298017089598,
+      "sample_rows": 4
+    },
+    "delay:128..511": {
+      "population_share": 0.5,
+      "total_Acc_loss_pp": 1.7804627939298712,
+      "sample_rows": 2
+    },
+    "delay:zero": {
+      "population_share": 0.25,
+      "total_Acc_loss_pp": 0.0,
+      "sample_rows": 1
+    }
+  },
+  "paired_delta": {
+    "mean_pp": 2.7799298017089598,
+    "design_SE_pp": 0.7731463830514719,
+    "normal_95_CI_pp": [
+      1.2645907361507078,
+      4.295268867267212
+    ]
+  }
+}

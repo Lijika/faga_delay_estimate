@@ -1,0 +1,8 @@
+{
+  "stage": "local component fixture initialization",
+  "exit_signal": "SIGABRT",
+  "message": "duplicate port name: ZSEA[0]",
+  "cause": "three private workers initialize the same Architecture object; loadEmbedded requires an empty object",
+  "algorithm_comparisons_started": false,
+  "fix": "reset the test Architecture between private worker initialization calls"
+}

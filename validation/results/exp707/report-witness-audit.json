@@ -1,0 +1,36 @@
+{
+  "scope": "Historical four-position diagnostic, D0 only; no deployment selection or population claim",
+  "checks": {
+    "sum_lengths": true,
+    "word_domain": true,
+    "net_hops": true,
+    "line_zero": true,
+    "x_conservation": true,
+    "y_conservation": true
+  },
+  "queries": 239616,
+  "tokens": 5558667,
+  "normalized_varying_pairs": 32781,
+  "normalized_range_ge20_pairs": 11255,
+  "other_word_legal_coverage": 192072,
+  "other_word_exact_D0": 179752,
+  "all_replay_reason_histogram": {
+    "0": 747195,
+    "1": 41604,
+    "2": 64310,
+    "3": 104915,
+    "4": 440
+  },
+  "all_reason3_shifts": [
+    {
+      "dx": -14,
+      "dy": 0,
+      "count": 59318
+    },
+    {
+      "dx": 14,
+      "dy": 0,
+      "count": 45597
+    }
+  ]
+}

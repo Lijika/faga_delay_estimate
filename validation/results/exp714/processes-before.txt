@@ -1,0 +1,504 @@
+    PID ELAPSED %CPU STAT COMMAND
+3571470      17  103 S    python3 -u validation/exp714_curve_pipeline.py run
+3571496       2  3.0 S    curl -sfL --retry 2 --connect-timeout 5 --max-time 15 --max-filesize 262144 https://herdr.dev/agent-detection/github-copilot.toml
+3254619  157509  1.7 Ssl  /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641
+1827904  934661  0.5 S+   top
+ 562665 1785980  0.3 Ssl  /home/lhj/.local/bin/herdr server
+3554272    6856  0.3 I    [kworker/u64:0-events_power_efficient]
+3557170    5750  0.2 I    [kworker/u64:3-events_power_efficient]
+      1 2143417  0.1 Ss   /lib/systemd/systemd --system --deserialize 61 splash
+    980 2143413  0.1 Ss   avahi-daemon: running [lhj-R4900-G3.local]
+   4441 2140509  0.1 Ssl  /usr/bin/gnome-shell
+3571430      19  0.1 Ss   sshd: lhj [priv]
+      2 2143417  0.0 S    [kthreadd]
+      3 2143417  0.0 S    [pool_workqueue_release]
+      4 2143417  0.0 I<   [kworker/R-rcu_g]
+      5 2143417  0.0 I<   [kworker/R-rcu_p]
+      6 2143417  0.0 I<   [kworker/R-slub_]
+      7 2143417  0.0 I<   [kworker/R-netns]
+      9 2143417  0.0 I<   [kworker/0:0H-events_highpri]
+     12 2143417  0.0 I<   [kworker/R-mm_pe]
+     13 2143417  0.0 I    [rcu_tasks_kthread]
+     14 2143417  0.0 I    [rcu_tasks_rude_kthread]
+     15 2143417  0.0 I    [rcu_tasks_trace_kthread]
+     16 2143417  0.0 S    [ksoftirqd/0]
+     17 2143417  0.0 I    [rcu_preempt]
+     18 2143417  0.0 S    [migration/0]
+     19 2143417  0.0 S    [idle_inject/0]
+     20 2143417  0.0 S    [cpuhp/0]
+     21 2143417  0.0 S    [cpuhp/1]
+     22 2143417  0.0 S    [idle_inject/1]
+     23 2143417  0.0 S    [migration/1]
+     24 2143417  0.0 S    [ksoftirqd/1]
+     26 2143417  0.0 I<   [kworker/1:0H-events_highpri]
+     27 2143417  0.0 S    [cpuhp/2]
+     28 2143417  0.0 S    [idle_inject/2]
+     29 2143417  0.0 S    [migration/2]
+     30 2143417  0.0 S    [ksoftirqd/2]
+     32 2143417  0.0 I<   [kworker/2:0H-events_highpri]
+     33 2143417  0.0 S    [cpuhp/3]
+     34 2143417  0.0 S    [idle_inject/3]
+     35 2143417  0.0 S    [migration/3]
+     36 2143417  0.0 S    [ksoftirqd/3]
+     38 2143417  0.0 I<   [kworker/3:0H-events_highpri]
+     39 2143417  0.0 S    [cpuhp/4]
+     40 2143417  0.0 S    [idle_inject/4]
+     41 2143417  0.0 S    [migration/4]
+     42 2143417  0.0 S    [ksoftirqd/4]
+     44 2143417  0.0 I<   [kworker/4:0H-events_highpri]
+     45 2143417  0.0 S    [cpuhp/5]
+     46 2143417  0.0 S    [idle_inject/5]
+     47 2143417  0.0 S    [migration/5]
+     48 2143417  0.0 S    [ksoftirqd/5]
+     50 2143417  0.0 I<   [kworker/5:0H-events_highpri]
+     51 2143417  0.0 S    [cpuhp/6]
+     52 2143417  0.0 S    [idle_inject/6]
+     53 2143417  0.0 S    [migration/6]
+     54 2143417  0.0 S    [ksoftirqd/6]
+     56 2143417  0.0 I<   [kworker/6:0H-events_highpri]
+     57 2143417  0.0 S    [cpuhp/7]
+     58 2143417  0.0 S    [idle_inject/7]
+     59 2143417  0.0 S    [migration/7]
+     60 2143417  0.0 S    [ksoftirqd/7]
+     62 2143417  0.0 I<   [kworker/7:0H-events_highpri]
+     63 2143417  0.0 S    [cpuhp/8]
+     64 2143417  0.0 S    [idle_inject/8]
+     65 2143417  0.0 S    [migration/8]
+     66 2143417  0.0 S    [ksoftirqd/8]
+     68 2143417  0.0 I<   [kworker/8:0H-events_highpri]
+     69 2143417  0.0 S    [cpuhp/9]
+     70 2143417  0.0 S    [idle_inject/9]
+     71 2143417  0.0 S    [migration/9]
+     72 2143417  0.0 S    [ksoftirqd/9]
+     74 2143417  0.0 I<   [kworker/9:0H-events_highpri]
+     75 2143417  0.0 S    [cpuhp/10]
+     76 2143417  0.0 S    [idle_inject/10]
+     77 2143417  0.0 S    [migration/10]
+     78 2143417  0.0 S    [ksoftirqd/10]
+     80 2143417  0.0 I<   [kworker/10:0H-events_highpri]
+     81 2143417  0.0 S    [cpuhp/11]
+     82 2143417  0.0 S    [idle_inject/11]
+     83 2143417  0.0 S    [migration/11]
+     84 2143417  0.0 S    [ksoftirqd/11]
+     86 2143417  0.0 I<   [kworker/11:0H-events_highpri]
+     87 2143417  0.0 S    [cpuhp/12]
+     88 2143417  0.0 S    [idle_inject/12]
+     89 2143417  0.0 S    [migration/12]
+     90 2143417  0.0 S    [ksoftirqd/12]
+     92 2143417  0.0 I<   [kworker/12:0H-events_highpri]
+     93 2143417  0.0 S    [cpuhp/13]
+     94 2143417  0.0 S    [idle_inject/13]
+     95 2143417  0.0 S    [migration/13]
+     96 2143417  0.0 S    [ksoftirqd/13]
+     98 2143417  0.0 I<   [kworker/13:0H-events_highpri]
+     99 2143417  0.0 S    [cpuhp/14]
+    100 2143417  0.0 S    [idle_inject/14]
+    101 2143417  0.0 S    [migration/14]
+    102 2143417  0.0 S    [ksoftirqd/14]
+    104 2143417  0.0 I<   [kworker/14:0H-events_highpri]
+    105 2143417  0.0 S    [cpuhp/15]
+    106 2143417  0.0 S    [idle_inject/15]
+    107 2143417  0.0 S    [migration/15]
+    108 2143417  0.0 S    [ksoftirqd/15]
+    110 2143417  0.0 I<   [kworker/15:0H-events_highpri]
+    111 2143417  0.0 S    [cpuhp/16]
+    112 2143417  0.0 S    [idle_inject/16]
+    113 2143417  0.0 S    [migration/16]
+    114 2143417  0.0 S    [ksoftirqd/16]
+    116 2143417  0.0 I<   [kworker/16:0H-events_highpri]
+    117 2143417  0.0 S    [cpuhp/17]
+    118 2143417  0.0 S    [idle_inject/17]
+    119 2143417  0.0 S    [migration/17]
+    120 2143417  0.0 S    [ksoftirqd/17]
+    122 2143417  0.0 I<   [kworker/17:0H-events_highpri]
+    123 2143417  0.0 S    [cpuhp/18]
+    124 2143417  0.0 S    [idle_inject/18]
+    125 2143417  0.0 S    [migration/18]
+    126 2143417  0.0 S    [ksoftirqd/18]
+    128 2143417  0.0 I<   [kworker/18:0H-events_highpri]
+    129 2143417  0.0 S    [cpuhp/19]
+    130 2143417  0.0 S    [idle_inject/19]
+    131 2143417  0.0 S    [migration/19]
+    132 2143417  0.0 S    [ksoftirqd/19]
+    134 2143417  0.0 I<   [kworker/19:0H-events_highpri]
+    135 2143417  0.0 S    [cpuhp/20]
+    136 2143417  0.0 S    [idle_inject/20]
+    137 2143417  0.0 S    [migration/20]
+    138 2143417  0.0 S    [ksoftirqd/20]
+    140 2143417  0.0 I<   [kworker/20:0H-events_highpri]
+    141 2143417  0.0 S    [cpuhp/21]
+    142 2143417  0.0 S    [idle_inject/21]
+    143 2143417  0.0 S    [migration/21]
+    144 2143417  0.0 S    [ksoftirqd/21]
+    146 2143417  0.0 I<   [kworker/21:0H-events_highpri]
+    147 2143417  0.0 S    [cpuhp/22]
+    148 2143417  0.0 S    [idle_inject/22]
+    149 2143417  0.0 S    [migration/22]
+    150 2143417  0.0 S    [ksoftirqd/22]
+    152 2143417  0.0 I<   [kworker/22:0H-events_highpri]
+    153 2143417  0.0 S    [cpuhp/23]
+    154 2143417  0.0 S    [idle_inject/23]
+    155 2143417  0.0 S    [migration/23]
+    156 2143417  0.0 S    [ksoftirqd/23]
+    158 2143417  0.0 I<   [kworker/23:0H-events_highpri]
+    159 2143417  0.0 S    [cpuhp/24]
+    160 2143417  0.0 S    [idle_inject/24]
+    161 2143417  0.0 S    [migration/24]
+    162 2143417  0.0 S    [ksoftirqd/24]
+    164 2143417  0.0 I<   [kworker/24:0H-events_highpri]
+    165 2143417  0.0 S    [cpuhp/25]
+    166 2143417  0.0 S    [idle_inject/25]
+    167 2143417  0.0 S    [migration/25]
+    168 2143417  0.0 S    [ksoftirqd/25]
+    170 2143417  0.0 I<   [kworker/25:0H-events_highpri]
+    171 2143417  0.0 S    [cpuhp/26]
+    172 2143417  0.0 S    [idle_inject/26]
+    173 2143417  0.0 S    [migration/26]
+    174 2143417  0.0 S    [ksoftirqd/26]
+    176 2143417  0.0 I<   [kworker/26:0H-events_highpri]
+    177 2143417  0.0 S    [cpuhp/27]
+    178 2143417  0.0 S    [idle_inject/27]
+    179 2143417  0.0 S    [migration/27]
+    180 2143417  0.0 S    [ksoftirqd/27]
+    182 2143417  0.0 I<   [kworker/27:0H-events_highpri]
+    183 2143417  0.0 S    [cpuhp/28]
+    184 2143417  0.0 S    [idle_inject/28]
+    185 2143417  0.0 S    [migration/28]
+    186 2143417  0.0 S    [ksoftirqd/28]
+    188 2143417  0.0 I<   [kworker/28:0H-events_highpri]
+    189 2143417  0.0 S    [cpuhp/29]
+    190 2143417  0.0 S    [idle_inject/29]
+    191 2143417  0.0 S    [migration/29]
+    192 2143417  0.0 S    [ksoftirqd/29]
+    194 2143417  0.0 I<   [kworker/29:0H-events_highpri]
+    195 2143417  0.0 S    [cpuhp/30]
+    196 2143417  0.0 S    [idle_inject/30]
+    197 2143417  0.0 S    [migration/30]
+    198 2143417  0.0 S    [ksoftirqd/30]
+    200 2143417  0.0 I<   [kworker/30:0H-events_highpri]
+    201 2143417  0.0 S    [cpuhp/31]
+    202 2143417  0.0 S    [idle_inject/31]
+    203 2143417  0.0 S    [migration/31]
+    204 2143417  0.0 S    [ksoftirqd/31]
+    206 2143417  0.0 I<   [kworker/31:0H-events_highpri]
+    207 2143417  0.0 S    [kdevtmpfs]
+    208 2143417  0.0 I<   [kworker/R-inet_]
+    209 2143417  0.0 S    [kauditd]
+    211 2143417  0.0 S    [khungtaskd]
+    213 2143417  0.0 S    [oom_reaper]
+    215 2143417  0.0 I<   [kworker/R-write]
+    216 2143417  0.0 S    [kcompactd0]
+    217 2143417  0.0 SN   [ksmd]
+    218 2143417  0.0 SN   [khugepaged]
+    219 2143417  0.0 I<   [kworker/R-kinte]
+    220 2143417  0.0 I<   [kworker/R-kbloc]
+    221 2143417  0.0 I<   [kworker/R-blkcg]
+    222 2143417  0.0 S    [irq/9-acpi]
+    224 2143416  0.0 I<   [kworker/R-tpm_d]
+    225 2143416  0.0 I<   [kworker/R-ata_s]
+    226 2143416  0.0 I<   [kworker/R-md]
+    227 2143416  0.0 I<   [kworker/R-md_bi]
+    228 2143416  0.0 I<   [kworker/R-edac-]
+    229 2143416  0.0 I<   [kworker/R-devfr]
+    230 2143416  0.0 S    [watchdogd]
+    231 2143416  0.0 I<   [kworker/R-quota]
+    232 2143416  0.0 I<   [kworker/16:1H-kblockd]
+    235 2143416  0.0 S    [kswapd0]
+    236 2143416  0.0 S    [ecryptfs-kthread]
+    238 2143416  0.0 I<   [kworker/R-kthro]
+    239 2143416  0.0 I<   [kworker/R-acpi_]
+    243 2143416  0.0 I<   [kworker/R-mld]
+    244 2143416  0.0 I<   [kworker/24:1H-kblockd]
+    245 2143416  0.0 I<   [kworker/R-ipv6_]
+    254 2143416  0.0 I<   [kworker/R-kstrp]
+    264 2143416  0.0 I<   [kworker/u65:0-cqp_cmpl_wq]
+    279 2143416  0.0 I<   [kworker/R-charg]
+    302 2143416  0.0 I<   [kworker/28:1H-kblockd]
+    306 2143416  0.0 I<   [kworker/20:1H-kblockd]
+    307 2143416  0.0 I<   [kworker/25:1H-kblockd]
+    319 2143416  0.0 I<   [kworker/0:1H-kblockd]
+    321 2143416  0.0 I<   [kworker/13:1H-kblockd]
+    322 2143416  0.0 I<   [kworker/30:1H-kblockd]
+    323 2143416  0.0 I<   [kworker/31:1H-kblockd]
+    324 2143416  0.0 I<   [kworker/23:1H-kblockd]
+    325 2143416  0.0 I<   [kworker/21:1H-kblockd]
+    326 2143416  0.0 I<   [kworker/27:1H-kblockd]
+    327 2143416  0.0 I<   [kworker/19:1H-kblockd]
+    328 2143416  0.0 I<   [kworker/26:1H-kblockd]
+    329 2143416  0.0 I<   [kworker/17:1H-kblockd]
+    330 2143416  0.0 I<   [kworker/18:1H-kblockd]
+    335 2143416  0.0 I<   [kworker/22:1H-kblockd]
+    346 2143416  0.0 I<   [kworker/1:1H-kblockd]
+    349 2143416  0.0 I<   [kworker/29:1H-kblockd]
+    350 2143416  0.0 I<   [kworker/4:1H-kblockd]
+    351 2143416  0.0 I<   [kworker/5:1H-kblockd]
+    352 2143416  0.0 I<   [kworker/10:1H-kblockd]
+    353 2143416  0.0 I<   [kworker/2:1H-kblockd]
+    354 2143416  0.0 I<   [kworker/7:1H-kblockd]
+    355 2143416  0.0 I<   [kworker/3:1H-kblockd]
+    356 2143416  0.0 I<   [kworker/8:1H-kblockd]
+    357 2143416  0.0 I<   [kworker/6:1H-kblockd]
+    358 2143416  0.0 I<   [kworker/15:1H-kblockd]
+    360 2143416  0.0 I<   [kworker/11:1H-kblockd]
+    366 2143416  0.0 I<   [kworker/9:1H-kblockd]
+    370 2143416  0.0 I<   [kworker/12:1H-kblockd]
+    412 2143416  0.0 I<   [kworker/14:1H-kblockd]
+    413 2143416  0.0 S    [scsi_eh_0]
+    414 2143416  0.0 I<   [kworker/R-scsi_]
+    423 2143416  0.0 S    [aacraid]
+    424 2143416  0.0 S    [scsi_eh_1]
+    425 2143416  0.0 I<   [kworker/R-scsi_]
+    426 2143416  0.0 S    [scsi_eh_2]
+    427 2143416  0.0 I<   [kworker/R-scsi_]
+    428 2143416  0.0 S    [scsi_eh_3]
+    429 2143416  0.0 I<   [kworker/R-scsi_]
+    430 2143416  0.0 S    [scsi_eh_4]
+    431 2143416  0.0 I<   [kworker/R-scsi_]
+    432 2143416  0.0 S    [scsi_eh_5]
+    433 2143416  0.0 I<   [kworker/R-scsi_]
+    434 2143416  0.0 S    [scsi_eh_6]
+    435 2143416  0.0 I<   [kworker/R-scsi_]
+    443 2143416  0.0 S    [scsi_eh_7]
+    444 2143416  0.0 I<   [kworker/R-scsi_]
+    445 2143416  0.0 S    [scsi_eh_8]
+    446 2143416  0.0 I<   [kworker/R-scsi_]
+    447 2143416  0.0 S    [scsi_eh_9]
+    448 2143416  0.0 I<   [kworker/R-scsi_]
+    449 2143416  0.0 S    [scsi_eh_10]
+    450 2143416  0.0 I<   [kworker/R-scsi_]
+    451 2143416  0.0 S    [scsi_eh_11]
+    452 2143416  0.0 I<   [kworker/R-scsi_]
+    453 2143416  0.0 S    [scsi_eh_12]
+    454 2143416  0.0 I<   [kworker/R-scsi_]
+    455 2143416  0.0 S    [scsi_eh_13]
+    456 2143416  0.0 I<   [kworker/R-scsi_]
+    457 2143416  0.0 S    [scsi_eh_14]
+    458 2143416  0.0 I<   [kworker/R-scsi_]
+    495 2143414  0.0 I<   [kworker/R-uas]
+    515 2143414  0.0 S    [jbd2/sda2-8]
+    516 2143414  0.0 I<   [kworker/R-ext4-]
+    698 2143414  0.0 I<   [kworker/R-ipmi-]
+    729 2143413  0.0 I<   [kworker/R-ib-co]
+    730 2143413  0.0 I<   [kworker/R-ib-co]
+    731 2143413  0.0 I<   [kworker/R-ib_mc]
+    732 2143413  0.0 I<   [kworker/R-ib_nl]
+    757 2143413  0.0 I<   [kworker/R-crypt]
+    790 2143413  0.0 SN   [kipmi0]
+    860 2143413  0.0 I<   [kworker/R-nfit]
+    878 2143413  0.0 I<   [kworker/u65:1-cqp_cmpl_wq]
+    977 2143413  0.0 Ss   /usr/sbin/acpid
+    981 2143413  0.0 Ss   /usr/sbin/cron -f -P
+    983 2143413  0.0 Ss   @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    985 2143413  0.0 Ssl  /usr/sbin/NetworkManager --no-daemon
+    991 2143413  0.0 Ssl  /usr/sbin/irqbalance --foreground
+    993 2143413  0.0 Ss   /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    997 2143413  0.0 Ssl  /usr/libexec/power-profiles-daemon
+   1001 2143413  0.0 Ssl  /usr/local/awesun/bin/awesun_daemon -m server -name awesun
+   1008 2143413  0.0 Ssl  /usr/libexec/switcheroo-control
+   1011 2143413  0.0 Ss   /lib/systemd/systemd-logind
+   1015 2143413  0.0 Ssl  /usr/libexec/udisks2/udisksd
+   1017 2143413  0.0 Ss   /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+   1021 2143413  0.0 S    avahi-daemon: chroot helper
+   1086 2143413  0.0 Ssl  /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1113 2143413  0.0 Ssl  /usr/sbin/gdm3
+   1194 2143412  0.0 I<   [kworker/R-cfg80]
+   1204 2143412  0.0 S    [aicwf_busrx_thread]
+   1205 2143412  0.0 S    [aicwf_bustx_thread]
+   1231 2143412  0.0 SNsl /usr/libexec/rtkit-daemon
+   1261 2143412  0.0 S    [aicwf_msg_busrx_thread]
+   1262 2143412  0.0 I<   [kworker/R-cmd_w]
+   1263 2143412  0.0 I<   [kworker/R-apmSt]
+   1733 2143410  0.0 Ssl  /usr/libexec/upowerd
+   1737 2143410  0.0 Ssl  /usr/libexec/packagekitd
+   1846 2143410  0.0 Ssl  /usr/libexec/colord
+   2046 2143353  0.0 Ss   /usr/sbin/kerneloops --test
+   2055 2143353  0.0 Ss   /usr/sbin/kerneloops
+   3980 2140514  0.0 Sl   gdm-session-worker [pam/gdm-password]
+   3996 2140510  0.0 Ss   /lib/systemd/systemd --user
+   3997 2140510  0.0 S    (sd-pam)
+   4003 2140510  0.0 S<sl /usr/bin/pipewire
+   4004 2140510  0.0 Ssl  /usr/bin/pipewire-media-session
+   4005 2140510  0.0 S<sl /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   4014 2140510  0.0 Sl   /usr/bin/gnome-keyring-daemon --daemonize --login
+   4022 2140510  0.0 Ssl+ /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   4030 2140510  0.0 Sl+  /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+   4048 2140509  0.0 Ss   /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   4116 2140509  0.0 Ssl  /usr/libexec/xdg-document-portal
+   4119 2140509  0.0 Ssl  /usr/libexec/xdg-permission-store
+   4125 2140509  0.0 Ss   fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   4177 2140509  0.0 Sl+  /usr/libexec/gnome-session-binary --session=ubuntu
+   4250 2140509  0.0 Ssl  /usr/libexec/at-spi-bus-launcher
+   4256 2140509  0.0 S    /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_1
+   4394 2140509  0.0 Ssl  /usr/libexec/gnome-session-ctl --monitor
+   4404 2140509  0.0 Ssl  /usr/libexec/gvfsd
+   4412 2140509  0.0 Sl   /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   4414 2140509  0.0 Ssl  /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   4522 2140508  0.0 Sl   /usr/libexec/gnome-shell-calendar-server
+   4530 2140508  0.0 Ssl  /usr/libexec/evolution-source-registry
+   4537 2140508  0.0 Sl   /usr/libexec/goa-daemon
+   4541 2140508  0.0 Ssl  /usr/libexec/evolution-calendar-factory
+   4544 2140508  0.0 Ssl  /usr/libexec/gvfs-udisks2-volume-monitor
+   4556 2140508  0.0 Sl   /usr/libexec/goa-identity-service
+   4560 2140508  0.0 Ssl  /usr/libexec/gvfs-goa-volume-monitor
+   4572 2140508  0.0 Ssl  /usr/libexec/dconf-service
+   4574 2140508  0.0 Ssl  /usr/libexec/gvfs-mtp-volume-monitor
+   4579 2140508  0.0 Ssl  /usr/libexec/evolution-addressbook-factory
+   4583 2140508  0.0 Ssl  /usr/libexec/gvfs-afc-volume-monitor
+   4590 2140508  0.0 Ssl  /usr/libexec/gvfs-gphoto2-volume-monitor
+   4604 2140508  0.0 Sl   /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+   4616 2140507  0.0 Sl   /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   4618 2140507  0.0 Sl   /usr/libexec/at-spi2-registryd --use-gnome-session
+   4632 2140507  0.0 Ssl  /usr/libexec/xdg-desktop-portal
+   4641 2140507  0.0 Ssl  /usr/libexec/xdg-desktop-portal-gnome
+   4724 2140507  0.0 Ss   sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+   4725 2140507  0.0 Ssl  /usr/libexec/gsd-a11y-settings
+   4727 2140507  0.0 Sl   /usr/bin/ibus-daemon --panel disable --xim
+   4728 2140507  0.0 Ssl  /usr/libexec/gsd-color
+   4730 2140507  0.0 Ssl  /usr/libexec/gsd-datetime
+   4732 2140507  0.0 Ssl  /usr/libexec/gsd-housekeeping
+   4734 2140507  0.0 Ssl  /usr/libexec/gsd-keyboard
+   4737 2140507  0.0 Ssl  /usr/libexec/gsd-media-keys
+   4739 2140507  0.0 Ssl  /usr/libexec/gsd-power
+   4741 2140507  0.0 Ssl  /usr/libexec/gsd-print-notifications
+   4745 2140507  0.0 Ssl  /usr/libexec/gsd-rfkill
+   4747 2140507  0.0 Ssl  /usr/libexec/gsd-screensaver-proxy
+   4748 2140507  0.0 Ssl  /usr/libexec/gsd-sharing
+   4750 2140507  0.0 Ssl  /usr/libexec/gsd-smartcard
+   4751 2140507  0.0 Ssl  /usr/libexec/gsd-sound
+   4754 2140507  0.0 Ssl  /usr/libexec/gsd-wacom
+   4758 2140507  0.0 Ssl  /usr/libexec/gsd-xsettings
+   4787 2140507  0.0 Sl   /usr/libexec/evolution-data-server/evolution-alarm-notify
+   4791 2140507  0.0 Sl   /usr/libexec/ibus-memconf
+   4793 2140507  0.0 Sl   /usr/libexec/ibus-extension-gtk3
+   4794 2140507  0.0 Sl   /usr/libexec/gsd-disk-utility-notify
+   4798 2140507  0.0 Sl   /usr/libexec/ibus-x11 --kill-daemon
+   4804 2140507  0.0 Sl   /usr/libexec/ibus-portal
+   4836 2140507  0.0 Sl   /usr/libexec/gsd-printer
+   4874 2140507  0.0 Ssl  /usr/libexec/xdg-desktop-portal-gtk
+   4892 2140507  0.0 Sl   /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+   4912 2140507  0.0 Sl   /usr/libexec/ibus-engine-simple
+   4913 2140507  0.0 SNsl /usr/libexec/tracker-miner-fs-3
+   5101 2140506  0.0 Ssl  /usr/libexec/gvfsd-metadata
+   5380 2140447  0.0 Sl   update-notifier
+   5676 2140347  0.0 S    /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+   6161 2140326  0.0 Sl   /snap/snapd/current/usr/bin/snap userd
+  11212 2135755  0.0 Sl   /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+  11227 2135754  0.0 Sl   /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+  14058 2135561  0.0 S    /usr/bin/python3 /usr/bin/gnome-terminal --wait
+  14059 2135561  0.0 Sl   /usr/bin/gnome-terminal.real --wait
+  14062 2135561  0.0 Ssl  /usr/libexec/gnome-terminal-server
+  14084 2135561  0.0 Ss   bash
+  14574 2135443  0.0 S+   python3 1.py
+  14630 2135425  0.0 S    /usr/bin/python3 /usr/bin/gnome-terminal --wait
+  14631 2135425  0.0 Sl   /usr/bin/gnome-terminal.real --wait
+  14635 2135425  0.0 Ss+  bash
+  78169 2099140  0.0 Ssl  /usr/libexec/polkitd --no-debug
+  78173 2099140  0.0 Ssl  /usr/sbin/ModemManager
+ 104756 2098723  0.0 Ssl  /usr/libexec/accounts-daemon
+ 109854 2098581  0.0 Ssl  /usr/sbin/rsyslogd -n -iNONE
+ 113416 2098511  0.0 Ssl  /snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+ 113658 2098510  0.0 Sl   /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+ 488149 1838072  0.0 Ssl  /usr/bin/python3 /usr/lib/ubuntu-release-upgrader/check-new-release-gtk
+ 562703 1785980  0.0 Ss+  /bin/bash
+ 986799 1493338  0.0 SNl  /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+1041704 1455507  0.0 I<   [kworker/R-tls-s]
+1110267 1409539  0.0 Ssl  /snap/snapd/current/usr/lib/snapd/snapd
+1434001 1186945  0.0 Ss+  /bin/bash
+1827884  934666  0.0 Ss   /bin/bash
+1837183  930246  0.0 S    /bin/sh -c /usr/lib/ubuntu-release-upgrader/check-new-release-gtk
+1837184  930246  0.0 Sl   /usr/bin/python3 /usr/lib/ubuntu-release-upgrader/check-new-release-gtk
+2040014  802549  0.0 Ss   /lib/systemd/systemd-resolved
+2040020  802549  0.0 S<s  /lib/systemd/systemd-journald
+2040077  802549  0.0 Ssl  /lib/systemd/systemd-timesyncd
+2040119  802548  0.0 Ss   /lib/systemd/systemd-oomd
+2040568  802540  0.0 Ss   sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+2040866  802533  0.0 Ss   /lib/systemd/systemd-udevd
+3128825  226936  0.0 I    [kworker/22:1-mm_percpu_wq]
+3238414  166254  0.0 I    [kworker/25:0-mm_percpu_wq]
+3303851  133069  0.0 I    [kworker/17:3-mm_percpu_wq]
+3309901  130246  0.0 I    [kworker/5:0-mm_percpu_wq]
+3331543  119069  0.0 I    [kworker/13:1-events]
+3337395  116358  0.0 I    [kworker/12:2-events]
+3353347  110535  0.0 I    [kworker/11:0-mm_percpu_wq]
+3359218  109175  0.0 I    [kworker/30:2-events]
+3360641  108442  0.0 I    [kworker/14:2-events]
+3365136  106986  0.0 Sl   /usr/bin/python3 /usr/share/apport/apport-gtk
+3392227   94822  0.0 I    [kworker/23:1-mm_percpu_wq]
+3420913   81738  0.0 I    [kworker/29:0-mm_percpu_wq]
+3426972   78870  0.0 I    [kworker/7:1-events]
+3438638   72769  0.0 I    [kworker/9:1-mm_percpu_wq]
+3441204   71745  0.0 I    [kworker/18:1-mm_percpu_wq]
+3469216   55244  0.0 I    [kworker/6:1-events]
+3470145   54603  0.0 I    [kworker/1:2-events]
+3478469   49139  0.0 Ss   /usr/sbin/cupsd -l
+3478483   49139  0.0 Ssl  /usr/sbin/cups-browsed
+3482340   47137  0.0 I    [kworker/2:0-mm_percpu_wq]
+3493726   41326  0.0 I    [kworker/20:2-rcu_gp]
+3497860   39295  0.0 I    [kworker/31:3-events]
+3498042   39253  0.0 I    [kworker/4:1-events]
+3499290   38831  0.0 I    [kworker/24:2-events]
+3504923   37248  0.0 I    [kworker/28:2-events]
+3518864   29508  0.0 I    [kworker/10:1-events]
+3523719   26107  0.0 Ss   sshd: lhj [priv]
+3523779   26106  0.0 S    sshd: lhj@notty
+3523788   26105  0.0 Ssl  /home/lhj/.local/bin/herdr remote-client-bridge --idle-timeout-v1
+3524686   25517  0.0 I    [kworker/27:0-events]
+3532377   20462  0.0 Ssl  /home/lhj/.local/bin/herdr remote-client-bridge --idle-timeout-v1
+3533595   19636  0.0 I    [kworker/3:1-mm_percpu_wq]
+3536150   18235  0.0 I    [kworker/8:2-events]
+3542693   14300  0.0 I    [kworker/21:0-events]
+3542696   14300  0.0 I    [kworker/26:0-events]
+3548772   10062  0.0 I    [kworker/0:2-cgroup_free]
+3558852    4863  0.0 I    [kworker/19:2-events]
+3559118    4790  0.0 I    [kworker/23:2-cgroup_free]
+3559498    4549  0.0 I    [kworker/27:1-cgroup_free]
+3561589    3235  0.0 I    [kworker/20:1]
+3563492    2172  0.0 I    [kworker/21:2-cgroup_free]
+3567048    2061  0.0 I    [kworker/4:2]
+3567104    2025  0.0 I    [kworker/29:2-cgroup_free]
+3567240    1966  0.0 I    [kworker/12:0-cgroup_free]
+3567376    1900  0.0 I    [kworker/3:2]
+3567515    1812  0.0 I    [kworker/13:2]
+3568549    1298  0.0 I    [kworker/8:1-cgroup_free]
+3568634    1266  0.0 I    [kworker/1:0-cgroup_free]
+3568771    1198  0.0 I    [kworker/11:2-cgroup_free]
+3568779    1192  0.0 I    [kworker/2:2-cgroup_free]
+3569098    1028  0.0 I    [kworker/22:2]
+3569391    1008  0.0 I    [kworker/10:3-cgroup_free]
+3569424     985  0.0 I    [kworker/16:2-i40e]
+3569462     960  0.0 I    [kworker/8:0-cgroup_free]
+3569498     933  0.0 I    [kworker/24:1-cgroup_free]
+3569736     790  0.0 I    [kworker/u64:2-flush-8:0]
+3569822     761  0.0 I    [kworker/15:1-mm_percpu_wq]
+3569832     755  0.0 I    [kworker/u64:6-events_freezable_power_]
+3569862     737  0.0 I    [kworker/9:2-cgroup_free]
+3569877     726  0.0 I    [kworker/5:2]
+3569931     688  0.0 I    [kworker/6:2]
+3569946     678  0.0 I    [kworker/18:2]
+3569976     656  0.0 I    [kworker/19:0]
+3569984     647  0.0 I    [kworker/31:0-cgroup_free]
+3570084     635  0.0 I    [kworker/15:3-cgroup_free]
+3570091     635  0.0 I    [kworker/17:0]
+3570203     625  0.0 I    [kworker/21:1]
+3570218     619  0.0 I    [kworker/26:2-cgroup_free]
+3570250     598  0.0 I    [kworker/27:2-cgroup_free]
+3570304     557  0.0 I    [kworker/30:1-rcu_par_gp]
+3570338     539  0.0 I    [kworker/7:0-cgroup_free]
+3570446     492  0.0 I    [kworker/28:0-cgroup_free]
+3570454     486  0.0 I    [kworker/14:0]
+3570532     428  0.0 I    [kworker/25:2-cgroup_free]
+3570547     418  0.0 I    [kworker/0:0-kacpi_notify]
+3570818     359  0.0 I    [kworker/u64:4-events_unbound]
+3570830     349  0.0 I    [kworker/16:1-mm_percpu_wq]
+3570931     285  0.0 I    [kworker/15:0-cgroup_free]
+3571001     237  0.0 I    [kworker/12:1]
+3571029     222  0.0 I    [kworker/31:1-rcu_par_gp]
+3571040     216  0.0 I    [kworker/7:2-cgroup_free]
+3571109     167  0.0 I    [kworker/30:0-cgroup_free]
+3571165     137  0.0 I    [kworker/26:1-cgroup_free]
+3571389      48  0.0 I    [kworker/25:1]
+3571412      32  0.0 I    [kworker/0:1-cgroup_free]
+3571468      18  0.0 S    sshd: lhj@notty
+3571469      17  0.0 Ss   bash -c cd /home/lhj/lhjwork/eda2026/research/exp714 && python3 -u validation/exp714_curve_pipeline.py run >run.stdout 2>run.stderr
+3571498       1  0.0 S+   ping -c 2 -W 5 223.5.5.5
+3571506       0  0.0 R    ps -eo pid,etimes,pcpu,stat,args --sort=-pcpu

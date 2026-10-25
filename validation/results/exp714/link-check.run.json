@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-I",
+    "../exp589/src",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "tests/exp714_curve_check.cpp",
+    "build/exp714/baseline-checked.o",
+    "build/exp714/C/checked.o",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "../exp654/build/exp654/codes.o",
+    "../exp652/build/exp652/compressed.o",
+    "../exp646/build/exp646/deps/libzstd.a",
+    "-static",
+    "-o",
+    "build/exp714/component-check"
+  ],
+  "exit_code": 0,
+  "user_s": 0.719196,
+  "sys_s": 0.20188499999999998,
+  "cpu_s": 0.9210809999999999,
+  "wall_s": 0.9219368770718575,
+  "rss_bytes": 147525632,
+  "threads": 1
+}

@@ -1,0 +1,22 @@
+{
+  "file": {
+    "path": "build/exp720/100m-4-A.csv",
+    "bytes": 4013568911,
+    "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+  },
+  "identical_to": {
+    "path": "build/exp720/100m-0-A.csv",
+    "bytes": 4013568911,
+    "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+  },
+  "rebuild_command": [
+    "taskset",
+    "-c",
+    "8",
+    "../exp707/build/exp707/M/estimate",
+    "-in",
+    "build/exp720/u-role/requests.csv",
+    "-out",
+    "build/exp720/100m-4-A.csv"
+  ]
+}

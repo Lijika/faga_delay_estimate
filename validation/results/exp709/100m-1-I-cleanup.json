@@ -1,0 +1,23 @@
+{
+  "file": {
+    "path": "build/exp709/100m-1-I.csv",
+    "bytes": 4019782971,
+    "sha256": "7b59064f38bf04baab2117ee8f77beda90b3f93aded7ef46cbf01877ecf5e8c2"
+  },
+  "retained": {
+    "path": "build/exp709/100m-0-I.csv",
+    "bytes": 4019782971,
+    "sha256": "7b59064f38bf04baab2117ee8f77beda90b3f93aded7ef46cbf01877ecf5e8c2"
+  },
+  "rebuild_command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp709/I/estimate",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp709/100m-1-I.csv"
+  ],
+  "deleted": true
+}

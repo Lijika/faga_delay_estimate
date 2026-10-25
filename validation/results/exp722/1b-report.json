@@ -1,0 +1,195 @@
+{
+  "all_checks_passed": true,
+  "binary": {
+    "path": "../exp720/build/exp720/estimate",
+    "bytes": 93360152,
+    "sha256": "1facd3b259664eb614878e036c56c8c8810d345dbf6f99ec90f8547e2351aef0"
+  },
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "rows": 1000000000,
+  "unique_rows": 1000000000,
+  "port_pairs": 59904,
+  "run": {
+    "command": [
+      "taskset",
+      "-c",
+      "8",
+      "../exp720/build/exp720/estimate",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp722/1b.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 184.357089,
+    "sys_s": 22.161885,
+    "cpu_s": 206.51897400000001,
+    "wall_s": 221.89349944563583,
+    "rss_bytes": 206372864,
+    "threads": 1,
+    "stderr": "validation/results/exp722/1b.stderr"
+  },
+  "output": {
+    "path": "build/exp722/1b.csv",
+    "bytes": 40135646544,
+    "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+  },
+  "sample": {
+    "path": "build/exp722/1b-sample.csv",
+    "bytes": 191795083,
+    "sha256": "d2d720d58edd83fdf4644cdb65f1eed9acbb1b4b1d04f74cf27748e98b36fb37"
+  },
+  "evidence": {
+    "A": {
+      "output": {
+        "path": "build/exp708/1b-C.csv",
+        "bytes": 40135645803,
+        "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+      },
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp707/build/exp707/M/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp708/1b-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 226.157413,
+        "wall_s": 256.97211284702644,
+        "rss_bytes": 206385152,
+        "threads": 1,
+        "stderr": "validation/results/exp708/1b-C.stderr"
+      },
+      "sample": {
+        "path": "../exp688/build/exp688/1b-sample.csv",
+        "bytes": 191795088,
+        "sha256": "3ab7c420e59997e0c4a7f7130db175871ee2b484eb587c4def283cc038bf499b"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135645803,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp688/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp688/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 120.145748,
+        "wall_s": 140.10539168212563,
+        "rss_bytes": 432893952,
+        "threads": 1,
+        "stderr": "validation/results/exp688/1b-contract.stderr"
+      }
+    },
+    "C": {
+      "output": {
+        "path": "build/exp722/1b.csv",
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp720/build/exp720/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp722/1b.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 184.357089,
+        "sys_s": 22.161885,
+        "cpu_s": 206.51897400000001,
+        "wall_s": 221.89349944563583,
+        "rss_bytes": 206372864,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b.stderr"
+      },
+      "sample": {
+        "path": "build/exp722/1b-sample.csv",
+        "bytes": 191795083,
+        "sha256": "d2d720d58edd83fdf4644cdb65f1eed9acbb1b4b1d04f74cf27748e98b36fb37"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135646544,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp722/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp722/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 95.067072,
+        "sys_s": 23.240312,
+        "cpu_s": 118.307384,
+        "wall_s": 146.49473100760952,
+        "rss_bytes": 432635904,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b-contract.stderr"
+      }
+    }
+  },
+  "contract": {
+    "rows": 1000000000,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135646544,
+    "sample_rows": 3833856,
+    "contract_passed": true
+  },
+  "contract_run": {
+    "command": [
+      "../exp580/build/exp580/contract-check",
+      "check",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "build/exp722/1b.csv",
+      "1000000000",
+      "../exp683/build/exp683/1b/positions.txt",
+      "build/exp722/1b-sample.csv"
+    ],
+    "exit_code": 0,
+    "user_s": 95.067072,
+    "sys_s": 23.240312,
+    "cpu_s": 118.307384,
+    "wall_s": 146.49473100760952,
+    "rss_bytes": 432635904,
+    "threads": 1,
+    "stderr": "validation/results/exp722/1b-contract.stderr"
+  },
+  "exact_sample_rows": 3833856,
+  "new_exact_rows": 0,
+  "input_previously_observed": true,
+  "one_candidate_run": true,
+  "baseline_cpu_historical": true,
+  "cpu_200s_goal": false,
+  "cpu_100s_goal": false,
+  "platform_verified": false,
+  "disk_free_end_bytes": 2451550208
+}

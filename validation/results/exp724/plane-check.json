@@ -1,0 +1,24 @@
+{
+  "normal_rank": 3,
+  "independent_lstsq_checks": 64,
+  "coefficient_min": [
+    -18638,
+    -1192,
+    -224
+  ],
+  "coefficient_max": [
+    4500,
+    738,
+    265
+  ],
+  "fixedpoint_max_error_ps": 0.9240082443760791,
+  "fixedpoint_bound_ps": 0.9453125,
+  "exact_decomposition": true,
+  "residual_min": -257,
+  "residual_max": 273,
+  "asset": {
+    "path": "build/exp724/pair-plane.i32",
+    "bytes": 718848,
+    "sha256": "f022afb54b1597196d4e0cb298c71150358f0aa91333f4443b6b0af68ae29254"
+  }
+}

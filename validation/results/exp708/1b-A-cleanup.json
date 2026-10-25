@@ -1,0 +1,43 @@
+{
+  "file": {
+    "path": "build/exp708/1b-A.csv",
+    "bytes": 40135645803,
+    "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+  },
+  "retained": {
+    "all_checks_passed": true,
+    "archive_path": "/home/lhjysyx/EDA2026/build/retained-outputs/exp688/1b.csv.zst",
+    "archive_bytes": 14978060187,
+    "uncompressed": {
+      "path": "build/exp688/1b.csv",
+      "bytes": 40135645803,
+      "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+    },
+    "elapsed_s": 137.88547682762146,
+    "tool": "build/exp641/zstd",
+    "first_attempt": "system zstd unavailable; used existing project executable",
+    "remote_source": "research/exp688/build/exp688/1b.csv",
+    "remote_verified_sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9",
+    "remote_source_stat": "40135645803 1792858320 22295244",
+    "rebuild_cwd": "/home/lhj/lhjwork/eda2026/research/exp688",
+    "rebuild_command": [
+      "../exp686/build/exp686/N",
+      "-in",
+      "../../build/hidden-suite-v1/role-1b/requests.csv",
+      "-out",
+      "build/exp688/1b.csv"
+    ],
+    "restore_command": "build/exp641/zstd -d -q -c build/retained-outputs/exp688/1b.csv.zst | ssh r9r4900 \"cd ~/lhjwork/eda2026 && cat >research/exp688/build/exp688/1b.csv\""
+  },
+  "rebuild_command": [
+    "taskset",
+    "-c",
+    "8",
+    "../exp704/build/exp704/C",
+    "-in",
+    "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "-out",
+    "build/exp708/1b-A.csv"
+  ],
+  "deleted": true
+}

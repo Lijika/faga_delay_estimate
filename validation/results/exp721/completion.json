@@ -1,0 +1,17 @@
+{
+  "all_checks_passed": true,
+  "run": {
+    "command": [
+      "/usr/bin/python3",
+      "/home/lhjysyx/EDA2026/validation/exp721_line_normalization.py",
+      "compute"
+    ],
+    "exit_code": 0,
+    "user_s": 138.206297,
+    "sys_s": 0.12217499999999999,
+    "cpu_s": 138.328472,
+    "wall_s": 126.81003662500007,
+    "rss_bytes": 64421888,
+    "threads": 1
+  }
+}

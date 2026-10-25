@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "component_equal": true,
+  "audited_full_runs": 21,
+  "all_outputs_match_frozen_reference": true,
+  "stats": {
+    "V": {
+      "saved_s": 0.362756833333334,
+      "simultaneous_ci95_s": [
+        0.3092361600801375,
+        0.41627750658653045
+      ],
+      "qualifies": false
+    },
+    "W": {
+      "saved_s": -2.374464499999999,
+      "simultaneous_ci95_s": [
+        -2.4811972343520066,
+        -2.267731765647991
+      ],
+      "qualifies": false
+    }
+  },
+  "selected": "A",
+  "removed_bytes": 84284860065,
+  "duplicate_checks_reused": true,
+  "independent_raw_output_rehash": false,
+  "generic_startup_disassembly_checked": false,
+  "masked_cpu_execution_checked": false,
+  "report_sha256": "8dcb2e81b647de40ffb326e09d2a80b71ab57c551567b84a291ee36906ac231f"
+}

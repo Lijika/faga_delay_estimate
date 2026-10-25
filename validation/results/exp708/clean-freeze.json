@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp708/validation/exp708_release.py",
+      "bytes": 15212,
+      "sha256": "c1db912ce492fcb179d244c24b1c760e0fa52a1ee80084228268c9235477847b"
+    },
+    {
+      "path": "experiment/实验708-准备编译阶段接入与完整1B.md",
+      "bytes": 1736,
+      "sha256": "b1c7b4234a9b4f88e01e5029f5785c9b40cbaf263d8d23d70c301a87a3f2699a"
+    },
+    {
+      "path": "validation/results/exp708/protocol-original.md",
+      "bytes": 1736,
+      "sha256": "b1c7b4234a9b4f88e01e5029f5785c9b40cbaf263d8d23d70c301a87a3f2699a"
+    }
+  ],
+  "disk_free_start_bytes": 46256877568
+}

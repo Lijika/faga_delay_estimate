@@ -1,10 +1,10 @@
 {
   "snapshot_date": "2026-10-25",
-  "research_commit": "4579febb69486f043666401d5928f0817bed714b",
-  "consultation_source_version": "exp688",
-  "research_worktree_includes_uncommitted_logs": true,
+  "research_commit": "ee7275c7c69ffc64acba9196d588633eba01b880",
+  "consultation_source_version": "exp728",
+  "history_base_commit": "fed4155",
   "logs_copied_without_edits": true,
-  "log_count": 851,
+  "log_count": 877,
   "experiment_numbers": [
     1,
     2,
@@ -703,7 +703,33 @@
     703,
     704,
     705,
-    706
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720,
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730,
+    731,
+    732
   ],
   "files": [
     {
@@ -5573,10 +5599,88 @@
       "sha256": "d4aebc674fa51c119a53ee014dc2d27ca34d4b9531abb9e8032d797934d67fca"
     },
     {
+      "path": "experiment/实验707-固定架构准备编译与完整100M.md",
+      "experiment": 707,
+      "bytes": 6864,
+      "sha256": "3c40f924228d1b65aa0cc45b277ce4254d26dacabd545cbf31997a4d50effc67"
+    },
+    {
+      "path": "experiment/实验708-准备编译阶段接入与完整1B.md",
+      "experiment": 708,
+      "bytes": 3139,
+      "sha256": "a1e2fd1de4816a225afa4934f82cff2ac9211dc06d454af0da8616dac4fb3d0f"
+    },
+    {
+      "path": "experiment/实验709-完整100M公共处理骨架与预测成本.md",
+      "experiment": 709,
+      "bytes": 4459,
+      "sha256": "4ba3f89840eb7f0fc0c231ada491aa1f0a30845d4d0ece5f77152d5d1381fbfe"
+    },
+    {
       "path": "experiment/实验71-查询表透明大页.md",
       "experiment": 71,
       "bytes": 5614,
       "sha256": "535e2b6b4972cba606f6d623706863452f247eec230beecd595bcb3af664a22d"
+    },
+    {
+      "path": "experiment/实验710-端口见证与几何词支持的共享容量.md",
+      "experiment": 710,
+      "bytes": 4905,
+      "sha256": "51406f1e4784b0799a5a683bd3f15ef564507d3b6fec901f63726b6ca2d68296"
+    },
+    {
+      "path": "experiment/实验711-纯支持函数的语义合并与跨词共享.md",
+      "experiment": 711,
+      "bytes": 2950,
+      "sha256": "4718c10e1f68ccc51b74fb1e2b58f0b1827b6ecc325a0bc490567ce67e913a1a"
+    },
+    {
+      "path": "experiment/实验712-真实最优词的平局选择与跨位置支持.md",
+      "experiment": 712,
+      "bytes": 4659,
+      "sha256": "5da279ab9434d9b03236249ca1b75760ca41c0953f66bbd6a98f671b19c3120d"
+    },
+    {
+      "path": "experiment/实验713-端口兼容的首尾局部支持与同预算残差.md",
+      "experiment": 713,
+      "bytes": 5097,
+      "sha256": "c82cd9d71362c4ff8247e3b69852d981566ce5a3157e3f305c0f95c4669f6f1b"
+    },
+    {
+      "path": "experiment/实验714-批内曲线目录与正文的三阶段求值.md",
+      "experiment": 714,
+      "bytes": 3941,
+      "sha256": "985bbde43b954eba34b00f8e40aa30a018b4c6c9ba9cb3235871662cd933f78f"
+    },
+    {
+      "path": "experiment/实验715-完整端口多Net重复片段的执行复杂度.md",
+      "experiment": 715,
+      "bytes": 4060,
+      "sha256": "435669628e853e81925d4e4d898067907d730eb6df05ee20c741b967f63b10b4"
+    },
+    {
+      "path": "experiment/实验716-共享资产的整查询EVEX与VNNI.md",
+      "experiment": 716,
+      "bytes": 5235,
+      "sha256": "b20fbb8f5f67681edc3e22074e877d3073816c8888de2793f6a0ddb6faf775f7"
+    },
+    {
+      "path": "experiment/实验717-跨词固定连接片段的共享几何程序.md",
+      "experiment": 717,
+      "bytes": 5319,
+      "sha256": "aad1dd9cf8399a14229e25f54ed5ae963ebd866ab3a5a4a4c54ce2c191c3ba4d"
+    },
+    {
+      "path": "experiment/实验718-共享片段稠密行的直接寻址成本.md",
+      "experiment": 718,
+      "bytes": 4979,
+      "sha256": "b67f3aa38b79a085f5f88e49a6ffffbd7932b9d2ef34cb8f84ce33a70deca369"
+    },
+    {
+      "path": "experiment/实验719-同叶值预算的少树深层残差.md",
+      "experiment": 719,
+      "bytes": 5626,
+      "sha256": "e922d89397de3942efcb5060bf37a80152897a8da4d7440b07a4ed559ee5fc2d"
     },
     {
       "path": "experiment/实验72-端口ID类别切分.md",
@@ -5585,10 +5689,88 @@
       "sha256": "e66721a2cf7bf5a526143957daabe19c1daedabb12e9bbb222945866b78fb48e"
     },
     {
+      "path": "experiment/实验720-T2D6静态部署与新100M联合验证.md",
+      "experiment": 720,
+      "bytes": 7413,
+      "sha256": "d65648fd5c8feb87892a9da32967d7b941803f2fd5fbfb9bc36617d871286f29"
+    },
+    {
+      "path": "experiment/实验721-完整词Line归一化与共享行偏置.md",
+      "experiment": 721,
+      "bytes": 4717,
+      "sha256": "a900ef41bbb4b0c875245251715999c4f223c2ef04a27b24eef5545c64e8cef8"
+    },
+    {
+      "path": "experiment/实验722-T2D6阶段接入与完整1B.md",
+      "experiment": 722,
+      "bytes": 5920,
+      "sha256": "4183ecc1d85965270c3617f9ea08fdd32f110f007f147b0735253b138e17fc84"
+    },
+    {
+      "path": "experiment/实验723-规范请求行扫描与双端点解析融合.md",
+      "experiment": 723,
+      "bytes": 4559,
+      "sha256": "a24d08ba63ed436f42f5f018fd411e546c54442b5e0500a8af0465bd7510316e"
+    },
+    {
+      "path": "experiment/实验724-端口对仿射主体与双码距离形状.md",
+      "experiment": 724,
+      "bytes": 5369,
+      "sha256": "47f604047012e341a62bfaef076d63b83bafd7dfc304d715f6cb35f733933c4c"
+    },
+    {
+      "path": "experiment/实验725-融合解析阶段接入与完整1B.md",
+      "experiment": 725,
+      "bytes": 4121,
+      "sha256": "795ba643c8f27d9a4887e237762dbd1424ff78e2e8769d4127c109fe0555d6cd"
+    },
+    {
+      "path": "experiment/实验726-完整延迟监督与评分分母的四格对照.md",
+      "experiment": 726,
+      "bytes": 4747,
+      "sha256": "dc2a2ffc0f8d465df523e8cd4623116564e4487692ca7e70594690e2c1c31655"
+    },
+    {
+      "path": "experiment/实验727-固定树一元判定的坐标掩码编译.md",
+      "experiment": 727,
+      "bytes": 4078,
+      "sha256": "d73365673cb2577e93552bfdec9150ff1f4c61cc3db029b45c540d34617b3d1d"
+    },
+    {
+      "path": "experiment/实验728-坐标掩码阶段接入与完整1B.md",
+      "experiment": 728,
+      "bytes": 4083,
+      "sha256": "a921e63ed157fd5ff9ac452776246f0644d5b67790e75bda1d850a1af6c8b558"
+    },
+    {
+      "path": "experiment/实验729-固定词周期核与有限边界守卫分离.md",
+      "experiment": 729,
+      "bytes": 4425,
+      "sha256": "9f269eb20782b845011908ac0bd74c26a7b06d7158cc5b978cc0a2bf03768149"
+    },
+    {
       "path": "experiment/实验73-固定预算LightGBM残差.md",
       "experiment": 73,
       "bytes": 3319,
       "sha256": "7f3682a79675cf8d82c3c11d71475b72907b337e72a6566849d917d0c3686060"
+    },
+    {
+      "path": "experiment/实验730-判定编译后扩大条件叶空间.md",
+      "experiment": 730,
+      "bytes": 4065,
+      "sha256": "105393f979ecb3743637e9955eea64b2e315e49ee1b51cfb6cbb29866cb0d5fc"
+    },
+    {
+      "path": "experiment/实验731-近最优词的几何切换惩罚与支持复杂度.md",
+      "experiment": 731,
+      "bytes": 5611,
+      "sha256": "b58f0cb07b9909e3e712b6cfb06b52c2a602bb49669faeb041293a7a2ff6510d"
+    },
+    {
+      "path": "experiment/实验732-固定斜率端口闭包与当前模型安全投影.md",
+      "experiment": 732,
+      "bytes": 5811,
+      "sha256": "e004b1ab9cfc9acba3167e3aaba2cd124594bebdfa7d300880a448d4f2b849bd"
     },
     {
       "path": "experiment/实验74-查询表无损整数编码.md",

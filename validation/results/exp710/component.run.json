@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp710/compile-words",
+    "/home/lhjysyx/exp688-supplement-work/replay-check/data",
+    "build/exp710/samples.u32",
+    "build/exp710",
+    "doc/eda比赛文件/arch"
+  ],
+  "exit_code": 0,
+  "user_s": 13.131317,
+  "sys_s": 0.08291599999999999,
+  "cpu_s": 13.214233,
+  "wall_s": 12.115174875001685,
+  "rss_bytes": 77615104,
+  "threads": 1
+}

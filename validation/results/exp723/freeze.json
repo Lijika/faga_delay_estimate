@@ -1,0 +1,393 @@
+{
+  "sources": [
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "current": {
+        "path": "build/exp723/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "current": {
+        "path": "build/exp723/exp614_geometry_features.h",
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/symmetric640.h",
+        "bytes": 203222,
+        "sha256": "f42e0eecf8203241cae3b98bdcfa3dbdcc99eaa03e1f8cb55630c5a80401bd9b"
+      },
+      "current": {
+        "path": "build/exp723/symmetric640.h",
+        "bytes": 203222,
+        "sha256": "f42e0eecf8203241cae3b98bdcfa3dbdcc99eaa03e1f8cb55630c5a80401bd9b"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "current": {
+        "path": "build/exp723/exp652_distance_curve_lookup.h",
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/model-check.cpp",
+        "bytes": 2365,
+        "sha256": "8d5c0b78f5a8822181bd7413b822485ebca88f92827ec8b147dcdd99ec557ec1"
+      },
+      "current": {
+        "path": "build/exp723/model-check.cpp",
+        "bytes": 2365,
+        "sha256": "8d5c0b78f5a8822181bd7413b822485ebca88f92827ec8b147dcdd99ec557ec1"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "current": {
+        "path": "build/exp723/curve_origin654.h",
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp652_geometry_restore.h",
+        "bytes": 1243,
+        "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+      },
+      "current": {
+        "path": "build/exp723/exp652_geometry_restore.h",
+        "bytes": 1243,
+        "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/worker.cpp",
+        "bytes": 12465,
+        "sha256": "7699796095893f2648276283d36402a65484568de443b5258f815a44d6bfe204"
+      },
+      "current": {
+        "path": "build/exp723/worker.cpp",
+        "bytes": 12484,
+        "sha256": "61cc836b059b0a648176c68b5b93f0273be87e9e72ff5bcf4f7212e29252870e"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "current": {
+        "path": "build/exp723/exp601_port_parser.h",
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp707_prepare_metadata.h",
+        "bytes": 4447,
+        "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+      },
+      "current": {
+        "path": "build/exp723/exp707_prepare_metadata.h",
+        "bytes": 4447,
+        "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "current": {
+        "path": "build/exp723/exp579-models.h",
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp596_csv_batch.h",
+        "bytes": 3225,
+        "sha256": "73eb2e3c29b9d638f02687872e59055602d933c60eec7da86af7a90ff0133896"
+      },
+      "current": {
+        "path": "build/exp723/exp596_csv_batch.h",
+        "bytes": 3242,
+        "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "current": {
+        "path": "build/exp723/exp679_hv_events.h",
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "current": {
+        "path": "build/exp723/exp608_geometry.h",
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      },
+      "current": {
+        "path": "build/exp723/expert-check.cpp",
+        "bytes": 3134,
+        "sha256": "09130e4515a999d7e7da2ee30637a50e09032d8321ea21c13b1f67c7586492f7"
+      }
+    },
+    {
+      "original": {
+        "path": "../exp720/build/exp720/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      },
+      "current": {
+        "path": "build/exp723/replacement679.h",
+        "bytes": 39054,
+        "sha256": "0d92e8dd3540fcfcfa7e024a6af992b1c92977739d68da75a685864608a1e507"
+      }
+    }
+  ],
+  "commands": [
+    [
+      "g++",
+      "-I",
+      "../exp619/tests",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp723",
+      "-I",
+      "build/exp723",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-c",
+      "build/exp723/worker.cpp",
+      "-o",
+      "build/exp723/C.o",
+      "-DEXP640_TREES=8",
+      "-I",
+      "../exp646/build/exp646/deps",
+      "-DEXP684_V_ONLY"
+    ],
+    [
+      "g++",
+      "../exp654/build/exp654/codes.o",
+      "../exp652/build/exp652/entry.cpp",
+      "build/exp723/C.o",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-fno-exceptions",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-I",
+      "../exp589/src",
+      "-I",
+      "build/exp723",
+      "-I",
+      "build/exp723",
+      "-I",
+      "../exp595/tests",
+      "-I",
+      "../exp594/tests",
+      "-I",
+      "../exp589/tests",
+      "-DEXP596_BATCH=8",
+      "../exp580/build/exp580/architecture-resolver.o",
+      "../exp579/build/exp579/arch-text.o",
+      "../exp652/build/exp652/compressed.o",
+      "../exp646/build/exp646/deps/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "build/exp723/estimate"
+    ]
+  ],
+  "input": {
+    "path": "../exp720/build/exp720/u-role/requests.csv",
+    "bytes": 3519786871,
+    "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+  },
+  "reference": {
+    "path": "../exp720/build/exp720/100m-0-C.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp720/build/exp720/estimate",
+      "bytes": 93360152,
+      "sha256": "1facd3b259664eb614878e036c56c8c8810d345dbf6f99ec90f8547e2351aef0"
+    },
+    "C": {
+      "path": "build/exp723/estimate",
+      "bytes": 93364248,
+      "sha256": "b5956be4421df7537f3251bc9f1b7a5fe9b51a1638c3e64d57a54e67e4bc2902"
+    }
+  },
+  "component": {
+    "all_equal": true,
+    "checks": 1775888,
+    "fast_accepted": 265824,
+    "reader_rows": 45003,
+    "reader_fast_rows": 12857,
+    "guard_pages_passed": true
+  },
+  "schedule": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ]
+  ],
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp723/validation/exp723_fused_csv.py",
+      "bytes": 11234,
+      "sha256": "7ebfad3564738dca3bd90914d23ec71b0fad307783edc02da54664024335ca4c"
+    },
+    {
+      "path": "experiment/实验723-规范请求行扫描与双端点解析融合.md",
+      "bytes": 3462,
+      "sha256": "069ed594219d0b60490d7da28c32069689794f5b6d833b745ec9e00349ee184d"
+    },
+    {
+      "path": "validation/results/exp723/protocol-original.md",
+      "bytes": 3462,
+      "sha256": "069ed594219d0b60490d7da28c32069689794f5b6d833b745ec9e00349ee184d"
+    },
+    {
+      "path": "tests/exp723_fused_parse.h",
+      "bytes": 1400,
+      "sha256": "dd63bf68cf5dc171baccf257a7866bcf478d6145e29bd84348e6c7ec677cd72d"
+    },
+    {
+      "path": "tests/exp723_fused_csv.cpp",
+      "bytes": 6707,
+      "sha256": "1b4a03d6b9f09b1c37aafe0196da032420a4f99b9d9397b965070b6360593521"
+    }
+  ],
+  "score_reused": {
+    "path": "../exp720/validation/results/exp720/score/accuracy.json",
+    "bytes": 1724488,
+    "sha256": "2ad1b24b23f8564e28f9ae1314649181ce7e32018dee84b4ff6922cd3f2e7dd9"
+  },
+  "contract_reused": {
+    "rows": 100000000,
+    "input_bytes": 3519786871,
+    "output_bytes": 4013569067,
+    "sample_rows": 1916928,
+    "contract_passed": true
+  },
+  "disk_free_start_bytes": 44217380864
+}

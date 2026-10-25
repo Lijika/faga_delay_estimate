@@ -1,0 +1,19 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp716/estimate-W",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp685/build/exp685/u-role/requests.csv",
+    "-out",
+    "build/exp716/100m-1-W.csv"
+  ],
+  "exit_code": 0,
+  "user_s": 21.869582,
+  "sys_s": 2.248648,
+  "cpu_s": 24.11823,
+  "wall_s": 24.19318276597187,
+  "rss_bytes": 207351808,
+  "threads": 1
+}

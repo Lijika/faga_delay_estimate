@@ -1,0 +1,255 @@
+{
+  "source": "validation/results/exp722/score-1b/accuracy.json",
+  "exp728_accuracy_pp": 98.6448996487895,
+  "delta_needed_to_reach_99_pp": 0.35510035121049555,
+  "strict_target_requires_more": true,
+  "groups": {
+    "distance": [
+      {
+        "group": "0",
+        "population_fraction": 0.016163310125,
+        "accuracy_pp": 96.22909976037609,
+        "population_loss_pp": 0.060950230023478116
+      },
+      {
+        "group": "1",
+        "population_fraction": 0.18967172165625,
+        "accuracy_pp": 97.45761040221555,
+        "population_loss_pp": 0.48221941213271746
+      },
+      {
+        "group": "2",
+        "population_fraction": 0.524294504890625,
+        "accuracy_pp": 98.84307399370437,
+        "population_loss_pp": 0.6065699476658578
+      },
+      {
+        "group": "3",
+        "population_fraction": 0.269870463328125,
+        "accuracy_pp": 99.23903950488294,
+        "population_loss_pp": 0.20536076139164064
+      }
+    ],
+    "near_axis": [
+      {
+        "group": "0",
+        "population_fraction": 0.63901882471875,
+        "accuracy_pp": 99.00182229835718,
+        "population_loss_pp": 0.6378543417642559
+      },
+      {
+        "group": "1",
+        "population_fraction": 0.36098117528125,
+        "accuracy_pp": 98.01306533812692,
+        "population_loss_pp": 0.7172460094499971
+      }
+    ],
+    "event": [
+      {
+        "group": "0",
+        "population_fraction": 0.979141405984375,
+        "accuracy_pp": 98.75014426206548,
+        "population_loss_pp": 1.2237855045188488
+      },
+      {
+        "group": "1",
+        "population_fraction": 0.018191668296875,
+        "accuracy_pp": 93.83238025148589,
+        "population_loss_pp": 0.11219929264622436
+      },
+      {
+        "group": "2",
+        "population_fraction": 0.00266692571875,
+        "accuracy_pp": 92.83236353590966,
+        "population_loss_pp": 0.01911555402873283
+      }
+    ],
+    "direction": [
+      {
+        "group": "0",
+        "population_fraction": 0.243228910703125,
+        "accuracy_pp": 98.71591263569667,
+        "population_loss_pp": 0.31232717086714623
+      },
+      {
+        "group": "1",
+        "population_fraction": 0.2616429210625,
+        "accuracy_pp": 98.57299642784751,
+        "population_loss_pp": 0.3733653829845985
+      },
+      {
+        "group": "2",
+        "population_fraction": 0.25774215940625,
+        "accuracy_pp": 98.74134094691017,
+        "population_loss_pp": 0.3244095022995984
+      },
+      {
+        "group": "3",
+        "population_fraction": 0.237386008828125,
+        "accuracy_pp": 98.54667805923917,
+        "population_loss_pp": 0.34499829505955815
+      }
+    ],
+    "source_family": [
+      {
+        "group": "0",
+        "population_fraction": 0.038780403,
+        "accuracy_pp": 98.61806208284295,
+        "population_loss_pp": 0.053592109348330856
+      },
+      {
+        "group": "1",
+        "population_fraction": 0.038784809,
+        "accuracy_pp": 98.62840858145398,
+        "population_loss_pp": 0.053196911194346365
+      },
+      {
+        "group": "2",
+        "population_fraction": 0.039019704,
+        "accuracy_pp": 98.6514302911933,
+        "population_loss_pp": 0.0526207908610039
+      },
+      {
+        "group": "3",
+        "population_fraction": 0.039015876,
+        "accuracy_pp": 98.63801488022216,
+        "population_loss_pp": 0.05313904254709741
+      },
+      {
+        "group": "4",
+        "population_fraction": 0.039018028,
+        "accuracy_pp": 98.65141263194558,
+        "population_loss_pp": 0.052619219687193845
+      },
+      {
+        "group": "5",
+        "population_fraction": 0.039021993,
+        "accuracy_pp": 98.65392185981271,
+        "population_loss_pp": 0.052526651763841366
+      },
+      {
+        "group": "6",
+        "population_fraction": 0.038781427,
+        "accuracy_pp": 98.6319131239572,
+        "population_loss_pp": 0.05305636131291173
+      },
+      {
+        "group": "7",
+        "population_fraction": 0.038774978,
+        "accuracy_pp": 98.62155911404604,
+        "population_loss_pp": 0.05344901502716546
+      },
+      {
+        "group": "8",
+        "population_fraction": 0.038423552,
+        "accuracy_pp": 98.58824732031096,
+        "population_loss_pp": 0.054244552499171345
+      },
+      {
+        "group": "9",
+        "population_fraction": 0.038903749,
+        "accuracy_pp": 98.47546251193118,
+        "population_loss_pp": 0.05931022377691972
+      },
+      {
+        "group": "10",
+        "population_fraction": 0.038904512,
+        "accuracy_pp": 98.52636736601326,
+        "population_loss_pp": 0.05733095849252869
+      },
+      {
+        "group": "11",
+        "population_fraction": 0.038415095,
+        "accuracy_pp": 98.57946675086869,
+        "population_loss_pp": 0.054569919716037946
+      },
+      {
+        "group": "12",
+        "population_fraction": 0.037705607,
+        "accuracy_pp": 98.54818153409038,
+        "population_loss_pp": 0.05474169651093122
+      },
+      {
+        "group": "13",
+        "population_fraction": 0.038677473,
+        "accuracy_pp": 98.5414242339465,
+        "population_loss_pp": 0.05641402480998854
+      },
+      {
+        "group": "14",
+        "population_fraction": 0.038679117,
+        "accuracy_pp": 98.49568384195896,
+        "population_loss_pp": 0.0581856206818597
+      },
+      {
+        "group": "15",
+        "population_fraction": 0.037702987,
+        "accuracy_pp": 98.58926954754268,
+        "population_loss_pp": 0.05318875190950227
+      },
+      {
+        "group": "16",
+        "population_fraction": 0.035563098,
+        "accuracy_pp": 98.68190865388065,
+        "population_loss_pp": 0.04687541171499421
+      },
+      {
+        "group": "17",
+        "population_fraction": 0.037758358,
+        "accuracy_pp": 98.64451224361368,
+        "population_loss_pp": 0.05118099197025162
+      },
+      {
+        "group": "18",
+        "population_fraction": 0.037743614,
+        "accuracy_pp": 98.62213465923547,
+        "population_loss_pp": 0.052005617565794866
+      },
+      {
+        "group": "19",
+        "population_fraction": 0.035550739,
+        "accuracy_pp": 98.72622479562804,
+        "population_loss_pp": 0.04528364983529914
+      },
+      {
+        "group": "20",
+        "population_fraction": 0.039122503,
+        "accuracy_pp": 98.78115550338119,
+        "population_loss_pp": 0.04768424747550306
+      },
+      {
+        "group": "21",
+        "population_fraction": 0.039131857,
+        "accuracy_pp": 98.78587183577683,
+        "population_loss_pp": 0.04751108970205356
+      },
+      {
+        "group": "22",
+        "population_fraction": 0.039136594,
+        "accuracy_pp": 98.7526838658551,
+        "population_loss_pp": 0.048815705131678315
+      },
+      {
+        "group": "23",
+        "population_fraction": 0.039127279,
+        "accuracy_pp": 98.77186723860918,
+        "population_loss_pp": 0.048053493203979225
+      },
+      {
+        "group": "24",
+        "population_fraction": 0.039128798,
+        "accuracy_pp": 98.79435375664958,
+        "population_loss_pp": 0.04717548831551724
+      },
+      {
+        "group": "25",
+        "population_fraction": 0.03912785,
+        "accuracy_pp": 98.76484892073958,
+        "population_loss_pp": 0.04832880615663977
+      }
+    ]
+  },
+  "scope": "Historical 1B stratified estimate; partitions overlap across group types",
+  "oracle_interpretation": "Perfect predictions only in a group recover its population_loss_pp",
+  "complete_estimator_runs": 0
+}

@@ -1,0 +1,51 @@
+{
+  "all_checks_passed": true,
+  "quality_gate": true,
+  "minimum_group_delta_pp": -0.04753466461929179,
+  "delta": {
+    "point_pp": -0.013162008273153562,
+    "stratified_variance_pp2": 6.598694603184533e-08,
+    "stratified_ci975_pp": [
+      -0.013737778111467867,
+      -0.012586238434839256
+    ],
+    "family_ci975_pp": [
+      -0.015696547645294007,
+      -0.010996692261049629
+    ],
+    "conservative_ci975_pp": [
+      -0.015696547645294007,
+      -0.010996692261049629
+    ]
+  },
+  "accuracy": {
+    "point_pp": 98.6448996487895,
+    "stratified_variance_pp2": 1.708112629698821e-06,
+    "stratified_ci975_pp": [
+      98.64197025235906,
+      98.64782904521995
+    ],
+    "family_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ],
+    "conservative_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ]
+  },
+  "score": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/results/exp722/score-1b/accuracy.json",
+    "bytes": 1727926,
+    "sha256": "5d358c3f2eb8cd191ccf2fe1579d8cf46c84c6e8fa7c1184479945cbb1b19063"
+  },
+  "report": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/results/exp722/1b-report.json",
+    "bytes": 5634,
+    "sha256": "cb5e98bcaed6e061a648d2060dc5ee88f09c966ebfb0f130f91ca0ffb416e477"
+  },
+  "final_accuracy_above_99_verified": false,
+  "platform_verified": false,
+  "scoring_cpu_s": 155.507949125,
+  "scoring_wall_s": 168.37754748389125
+}

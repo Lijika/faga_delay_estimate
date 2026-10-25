@@ -1,0 +1,18 @@
+{
+  "command": [
+    "../../build/hidden-suite-v1/check_hidden_suite",
+    "../exp679/doc/eda比赛文件/arch",
+    "../../build/hidden-suite-v1/reach.bin",
+    "../../build/hidden-suite-v1/independent/eligibility.bin",
+    "U-role",
+    "100000000",
+    "build/exp720/u-role/requests.csv",
+    "build/exp720/u-role/check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 50.513064,
+  "wall_s": 50.52209775801748,
+  "rss_bytes": 3478609920,
+  "threads": 1,
+  "stderr": "validation/results/exp720/input-check.stderr"
+}

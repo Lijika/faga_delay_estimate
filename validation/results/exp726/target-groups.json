@@ -1,0 +1,126 @@
+{
+  "source_family": {
+    "0": {
+      "rows": 38571,
+      "mean_target_delta": 0.5711544943091961
+    },
+    "1": {
+      "rows": 38981,
+      "mean_target_delta": 0.5860034375721506
+    },
+    "2": {
+      "rows": 38902,
+      "mean_target_delta": 0.476299419053005
+    },
+    "3": {
+      "rows": 38922,
+      "mean_target_delta": 0.46824418066903034
+    },
+    "4": {
+      "rows": 39014,
+      "mean_target_delta": 0.4777515763572051
+    },
+    "5": {
+      "rows": 38848,
+      "mean_target_delta": 0.4461490939044481
+    },
+    "6": {
+      "rows": 38969,
+      "mean_target_delta": 0.4623418614796377
+    },
+    "7": {
+      "rows": 38508,
+      "mean_target_delta": 0.5063363456944011
+    },
+    "8": {
+      "rows": 38479,
+      "mean_target_delta": 0.37064372774760257
+    },
+    "9": {
+      "rows": 38981,
+      "mean_target_delta": 0.45696621430953543
+    },
+    "10": {
+      "rows": 38749,
+      "mean_target_delta": 0.4770703760097035
+    },
+    "11": {
+      "rows": 38630,
+      "mean_target_delta": 0.4053326430235568
+    },
+    "12": {
+      "rows": 37756,
+      "mean_target_delta": 0.48360525479394
+    },
+    "13": {
+      "rows": 38791,
+      "mean_target_delta": 0.3846510788584981
+    },
+    "14": {
+      "rows": 38635,
+      "mean_target_delta": 0.3831758767956516
+    },
+    "15": {
+      "rows": 37675,
+      "mean_target_delta": 0.433921698739217
+    },
+    "16": {
+      "rows": 35653,
+      "mean_target_delta": 0.2703278826466216
+    },
+    "17": {
+      "rows": 37533,
+      "mean_target_delta": 0.39858258066235047
+    },
+    "18": {
+      "rows": 37799,
+      "mean_target_delta": 0.39053943226011273
+    },
+    "19": {
+      "rows": 35769,
+      "mean_target_delta": 0.28572227347703316
+    },
+    "20": {
+      "rows": 39454,
+      "mean_target_delta": 0.3546661935418462
+    },
+    "21": {
+      "rows": 39096,
+      "mean_target_delta": 0.334305299774913
+    },
+    "22": {
+      "rows": 39190,
+      "mean_target_delta": 0.35799948966573103
+    },
+    "23": {
+      "rows": 39035,
+      "mean_target_delta": 0.36743947739208405
+    },
+    "24": {
+      "rows": 38889,
+      "mean_target_delta": 0.2950962997248579
+    },
+    "25": {
+      "rows": 39171,
+      "mean_target_delta": 0.37956651604503333
+    }
+  },
+  "distance": {
+    "0": {
+      "rows": 17326,
+      "mean_target_delta": 1.3564585016737851
+    },
+    "1": {
+      "rows": 192243,
+      "mean_target_delta": 0.5264170867079686
+    },
+    "2": {
+      "rows": 523148,
+      "mean_target_delta": 0.37026998096141056
+    },
+    "3": {
+      "rows": 267283,
+      "mean_target_delta": 0.36895724756157333
+    }
+  }
+}

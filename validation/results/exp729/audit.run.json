@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "validation/exp729_periodic_words.py",
+    "audit"
+  ],
+  "exit_code": 0,
+  "user_s": 5.539348,
+  "sys_s": 0.139574,
+  "cpu_s": 5.678922,
+  "wall_s": 5.2064476939995075,
+  "rss_bytes": 56684544,
+  "threads": 1
+}

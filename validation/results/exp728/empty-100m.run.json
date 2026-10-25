@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/usr/bin/env",
+    "-i",
+    "/bin/sh",
+    "-c",
+    "cd \"$1\" && exec ./estimate -in \"$2\" -out \"$3\"",
+    "--",
+    "/home/lhj/lhjwork/eda2026/research/exp728/build/exp728/empty",
+    "/home/lhj/lhjwork/eda2026/research/exp720/build/exp720/u-role/requests.csv",
+    "/home/lhj/lhjwork/eda2026/research/exp728/build/exp728/empty-100m.csv"
+  ],
+  "exit_code": 0,
+  "user_s": 15.792942,
+  "sys_s": 2.035863,
+  "cpu_s": 17.828805,
+  "wall_s": 17.830708255060017,
+  "rss_bytes": 206639104,
+  "threads": 1
+}

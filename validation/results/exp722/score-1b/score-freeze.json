@@ -1,0 +1,206 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_score.py",
+      "bytes": 15346,
+      "sha256": "ed21f1bb5a1fad098c898a09dcc4f123e79ba0a97149b52d06cdb71a41f9f367"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp683/validation/exp683_expanded_exact.py",
+      "bytes": 14181,
+      "sha256": "cd3a40465ea89e9b10fcf61aea30d9d2d015509c1c45e85222509a52b13a3080"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp642/validation/exp642_fresh_symmetric.py",
+      "bytes": 23262,
+      "sha256": "1ceafd7f8da442922c1febbda3778a2edefaea9927beb850c3b18838164052ee"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp652/validation/exp652_curve_scale.py",
+      "bytes": 18342,
+      "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp722/validation/results/exp722/1b-report.json",
+      "bytes": 5634,
+      "sha256": "cb5e98bcaed6e061a648d2060dc5ee88f09c966ebfb0f130f91ca0ffb416e477"
+    },
+    {
+      "path": "../exp708/validation/results/exp708/1b-report.json",
+      "bytes": 2905,
+      "sha256": "07cabab3b01c3e69ba33cf03bb585e53a4bb8f54a9c152def72cb373fbe34c75"
+    },
+    {
+      "path": "../exp688/validation/results/exp688/1b-accuracy.json",
+      "bytes": 1708050,
+      "sha256": "846c92bdf8d353614baaf7f6a769ff43b146469db387515f48dea29e308151bf"
+    },
+    {
+      "path": "validation/results/exp683/1b/freeze.json",
+      "bytes": 6262,
+      "sha256": "4896dca0188e8923bb586aa31caf2b648b838df36c7439099b2a91809245b000"
+    },
+    {
+      "path": "validation/results/exp683/1b/label-freeze.json",
+      "bytes": 1984,
+      "sha256": "9cbf7b3ab0009d8872dd4caa87902cd0e74e6f61d5dfa42aaa8d04b0786c713f"
+    },
+    {
+      "path": "validation/results/exp683/1b/report.json",
+      "bytes": 2603,
+      "sha256": "18a732296c00352937ea63fe35f14f4001f59fdc33619150744f5154f4aaaeb7"
+    },
+    {
+      "path": "validation/results/exp683/1b/input.json",
+      "bytes": 763911,
+      "sha256": "044ec0a456f749329e7a1f56dcb27ef54fae17229aefa3141c5f28643f43b023"
+    },
+    {
+      "path": "build/exp683/1b/positions.txt",
+      "bytes": 37913274,
+      "sha256": "bf20b3dfaaf02be8ba186446b514eb9e457c073dca8586d7c96f4d6a05dc99f8"
+    },
+    {
+      "path": "build/exp683/1b/pair-populations.json",
+      "bytes": 359426,
+      "sha256": "5b4139051086db486bfe73400f4bbc049a191a6b6d716f48901bfc2cc5fded49"
+    },
+    {
+      "path": "build/exp683/1b/sources",
+      "bytes": 1456,
+      "sha256": "344a88233f073993a61c3a0779134cc5885c28b669278a8381e84adea03a56b2"
+    },
+    {
+      "path": "build/exp683/1b/targets",
+      "bytes": 1824,
+      "sha256": "4d8a2e4dc277636c014f4cd6d7f843765710e922300bd8225824d5a3d16666cf"
+    },
+    {
+      "path": "../exp575/offline/validation/results/exp575/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    }
+  ],
+  "input": {
+    "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+    "bytes": 35197849579,
+    "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+  },
+  "seed": 20261025683,
+  "sample_rows": 3833856,
+  "complete_estimator_runs": 0,
+  "cached_evidence": {
+    "A": {
+      "source_output": {
+        "path": "build/exp708/1b-C.csv",
+        "bytes": 40135645803,
+        "sha256": "48341077a285b50acbaedd771419849550f141c569020b6eb9d4248a7e1754a9"
+      },
+      "source_run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp707/build/exp707/M/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp708/1b-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 226.157413,
+        "wall_s": 256.97211284702644,
+        "rss_bytes": 206385152,
+        "threads": 1,
+        "stderr": "validation/results/exp708/1b-C.stderr"
+      },
+      "sample": {
+        "path": "/home/lhj/lhjwork/eda2026/research/exp688/build/exp688/1b-sample.csv",
+        "bytes": 191795088,
+        "sha256": "3ab7c420e59997e0c4a7f7130db175871ee2b484eb587c4def283cc038bf499b"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135645803,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp688/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp688/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 120.145748,
+        "wall_s": 140.10539168212563,
+        "rss_bytes": 432893952,
+        "threads": 1,
+        "stderr": "validation/results/exp688/1b-contract.stderr"
+      }
+    },
+    "C": {
+      "source_output": {
+        "path": "build/exp722/1b.csv",
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "source_run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "../exp720/build/exp720/estimate",
+          "-in",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "-out",
+          "build/exp722/1b.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 184.357089,
+        "sys_s": 22.161885,
+        "cpu_s": 206.51897400000001,
+        "wall_s": 221.89349944563583,
+        "rss_bytes": 206372864,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b.stderr"
+      },
+      "sample": {
+        "path": "/home/lhj/lhjwork/eda2026/research/exp722/build/exp722/1b-sample.csv",
+        "bytes": 191795083,
+        "sha256": "d2d720d58edd83fdf4644cdb65f1eed9acbb1b4b1d04f74cf27748e98b36fb37"
+      },
+      "contract": {
+        "rows": 1000000000,
+        "input_bytes": 35197849579,
+        "output_bytes": 40135646544,
+        "sample_rows": 3833856,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "../../build/hidden-suite-v1/role-1b/requests.csv",
+          "build/exp722/1b.csv",
+          "1000000000",
+          "../exp683/build/exp683/1b/positions.txt",
+          "build/exp722/1b-sample.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 95.067072,
+        "sys_s": 23.240312,
+        "cpu_s": 118.307384,
+        "wall_s": 146.49473100760952,
+        "rss_bytes": 432635904,
+        "threads": 1,
+        "stderr": "validation/results/exp722/1b-contract.stderr"
+      }
+    }
+  }
+}

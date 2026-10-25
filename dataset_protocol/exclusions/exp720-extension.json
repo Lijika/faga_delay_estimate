@@ -1,0 +1,19 @@
+{
+  "protocol": "exp720",
+  "original_exp685_pairs": 20391557,
+  "added_pairs": 1916928,
+  "combined_pairs": 22308485,
+  "source_pin_overlap": 0,
+  "original_input": {
+    "path": "../exp685/build/exp685/expanded/sample-requests.csv",
+    "bytes": 67474987,
+    "sha256": "934dd151ae28dada21c22fb5eee196e866b4c13a2aa33dee76400a5146fa4e60"
+  },
+  "output": {
+    "path": "exp720-additional.npz",
+    "bytes": 10402311,
+    "sha256": "b7b2d576dcf43a6a277b4a3e420cb5a58d22ba663abf190357fb165114e1ab3f"
+  },
+  "labels_included": false,
+  "complete_estimator_runs": 0
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/lhj/lhjwork/eda2026/research/exp713/validation/exp713_audit.py", line 120, in <module>
+    main()
+  File "/home/lhj/lhjwork/eda2026/research/exp713/validation/exp713_audit.py", line 58, in main
+    assert np.array_equal(bits.mean(axis=0), population)
+AssertionError

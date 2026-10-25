@@ -1,0 +1,58 @@
+{
+  "all_checks_passed": true,
+  "cpu_s": 192.88004999999998,
+  "historical_cpu_saved_s": 13.638924000000031,
+  "accuracy": {
+    "point_pp": 98.6448996487895,
+    "stratified_variance_pp2": 1.708112629698821e-06,
+    "stratified_ci975_pp": [
+      98.64197025235906,
+      98.64782904521995
+    ],
+    "family_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ],
+    "conservative_ci975_pp": [
+      98.60589533737603,
+      98.68470419505437
+    ]
+  },
+  "exact_sample_rows": 3833856,
+  "accuracy_delta_pp": 0,
+  "raw_runs_reconciled": 2,
+  "same_complete_output_identity": true,
+  "scoring_and_full_contract_reused": true,
+  "deleted_csv_reread": false,
+  "archive_hash_reused_from_release": true,
+  "archive_size_rechecked": true,
+  "one_1b_candidate_run": true,
+  "baseline_cpu_historical": true,
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp725/validation/exp725_audit.py",
+      "bytes": 5414,
+      "sha256": "4462f291b3c0effb367f316570dfa1838970bd3530d71135a2d20f95c661fea2"
+    },
+    {
+      "path": "validation/results/exp725/1b-report.json",
+      "bytes": 2640,
+      "sha256": "e06b5eee03f86c73cef4903af4af1bf6ac6676493810767c91eb576e957151af"
+    },
+    {
+      "path": "validation/results/exp725/1b-freeze.json",
+      "bytes": 28733,
+      "sha256": "3f217d9ac357d21d1eb33bcaa2bd4d89f9350b16b208ad167c2d94bded6898ca"
+    },
+    {
+      "path": "../exp722/validation/results/exp722/close-audit.json",
+      "bytes": 2062,
+      "sha256": "90d72538798e98aadaad4474c51f3ec60c53ec4441832f199185ed6eda9f3964"
+    },
+    {
+      "path": "../exp722/validation/results/exp722/score-1b/accuracy.json",
+      "bytes": 1727926,
+      "sha256": "5d358c3f2eb8cd191ccf2fe1579d8cf46c84c6e8fa7c1184479945cbb1b19063"
+    }
+  ]
+}

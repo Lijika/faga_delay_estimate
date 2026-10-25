@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp717/shared-fragments",
+    "../exp705/build/exp705",
+    "build/exp717",
+    "../../doc/eda比赛文件/arch",
+    "../exp715/build/exp715/counts.u32"
+  ],
+  "exit_code": 0,
+  "user_s": 8.16705,
+  "sys_s": 0.056999999999999995,
+  "cpu_s": 8.22405,
+  "wall_s": 8.224626491311938,
+  "rss_bytes": 103833600,
+  "threads": 1
+}

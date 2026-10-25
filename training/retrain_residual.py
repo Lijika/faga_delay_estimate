@@ -39,30 +39,33 @@ def load():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", choices=("s8", "v8"), required=True)
+    parser.add_argument("--model", choices=("t2d6", "s8", "v8"), required=True)
     parser.add_argument("--fold", type=int, choices=(-1, 0, 1, 2), default=-1,
                         help="-1 trains the final model; 0..2 excludes that source-pin fold")
     parser.add_argument("--route", type=int, choices=range(16),
-                        help="required for S8")
+                        help="required for T2D6 and historical S8")
     parser.add_argument("--background", choices=("q4", "curve", "d64"),
                         help="defaults to the original background for the selected expert")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     assert cb.__version__ == "1.2.8", cb.__version__
-    if (args.model == "s8") != (args.route is not None):
-        parser.error("--route is required only for S8")
+    ordinary = args.model in ("t2d6", "s8")
+    if ordinary != (args.route is not None):
+        parser.error("--route is required for T2D6 and S8, and omitted for V8")
     args.output.mkdir(parents=True, exist_ok=False)
     data = load()
     background = args.background or ("q4" if args.model == "s8" else "curve")
     base = data["base_" + background]
-    mask = data["routes"] == args.route if args.model == "s8" else data["event"] == 2
+    mask = data["routes"] == args.route if ordinary else data["event"] == 2
     heldout = mask & (data["folds"] == args.fold) if args.fold >= 0 else np.zeros(len(mask), bool)
     train = mask & ~heldout
     if args.fold >= 0:
         assert not np.intersect1d(data["clusters"][train], data["clusters"][heldout]).size
-    features = data["features"] if args.model == "s8" else np.column_stack((data["features"], data["extra"]))
-    original = HERE.parent / "validation/results" / ("exp640/prepare.json" if args.model == "s8"
-                                                    else "exp678/freeze.json")
+    features = data["features"] if ordinary else np.column_stack((data["features"], data["extra"]))
+    original = HERE.parent / "validation/results" / {
+        "t2d6": "exp720/final-training.json", "s8": "exp640/prepare.json",
+        "v8": "exp678/freeze.json",
+    }[args.model]
     params = json.loads(original.read_text())["params"]
     model = cb.CatBoostRegressor(**params)
     target = (data["d0"] - base).astype("<f4")
@@ -71,24 +74,33 @@ def main():
     model.fit(features[train], target[train], sample_weight=weight[train])
     model.save_model(str(args.output / "model.json"), format="json")
     dumped = json.loads((args.output / "model.json").read_text())
-    decoder = historical_definitions("exp640_symmetric_residual.py",
-                                     ("json_prediction", "self_check"), dict(np=np))
-    decoder["self_check"]()
     audit = features[heldout if args.fold >= 0 else train]
-    decoded, leaves = decoder["json_prediction"](dumped, audit, 8)
-    assert np.array_equal(leaves, model.calc_leaf_indexes(audit, ntree_end=8, thread_count=1))
-    native = model.predict(audit, ntree_end=8, thread_count=1)
+    trees = 2 if args.model == "t2d6" else 8
+    if args.model == "t2d6":
+        decoder = historical_definitions("exp719_leaf_budget.py", ("predict", "self_check"),
+            dict(np=np, ARMS={"T2D6": (2, 6, .7599), "T4D5": (4, 5, .51)}))
+        decoder["self_check"]()
+        decoded, leaves = decoder["predict"](dumped, audit, 2, 6)
+    else:
+        decoder = historical_definitions("exp640_symmetric_residual.py",
+                                         ("json_prediction", "self_check"), dict(np=np))
+        decoder["self_check"]()
+        decoded, leaves = decoder["json_prediction"](dumped, audit, trees)
+    assert np.array_equal(leaves, model.calc_leaf_indexes(audit, ntree_end=trees, thread_count=1))
+    native = model.predict(audit, ntree_end=trees, thread_count=1)
     assert np.allclose(decoded, native, rtol=0, atol=1e-10)
     frozen_equal = None
     if args.fold == -1 and args.background is None:
-        name = f"S16-final-{args.route}.json" if args.model == "s8" else "V64-final.json"
-        frozen = json.loads((HERE.parent / "source/models" / name).read_text())
+        frozen_path = (HERE / "baselines/exp688" / f"S16-final-{args.route}.json"
+                       if args.model == "s8" else HERE.parent / "source/models" /
+                       (f"T2D6-final-{args.route}.json" if args.model == "t2d6" else "V64-final.json"))
+        frozen = json.loads(frozen_path.read_text())
         frozen_equal = all(dumped[k] == frozen[k]
                            for k in ("oblivious_trees", "features_info", "scale_and_bias"))
         assert frozen_equal, "trained model differs from frozen model; inspect toolchain/data"
     report = dict(model=args.model, route=args.route, fold=args.fold, background=background,
                   train_rows=int(train.sum()), heldout_rows=int(heldout.sum()),
-                  training_trees=params["iterations"], deployment_trees=8, params=params,
+                  training_trees=params["iterations"], deployment_trees=trees, params=params,
                   leaf_ids_equal=True, raw_max_abs_difference=float(abs(decoded - native).max()),
                   matches_frozen_model_fields=frozen_equal, wall_s=time.monotonic() - started,
                   source_pin_overlap=0 if args.fold >= 0 else None,

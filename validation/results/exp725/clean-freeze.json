@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp725/validation/exp725_release.py",
+      "bytes": 12958,
+      "sha256": "82fa844e70894dc7d81ed4954c42744b48e966fea7714f7f0cb8ff39c0d283f5"
+    },
+    {
+      "path": "experiment/实验725-融合解析阶段接入与完整1B.md",
+      "bytes": 1921,
+      "sha256": "1d168c82fba84cef4f14ef7ffc62c2f1c801bec1e873c3c1c0eab9d2c233cc7e"
+    },
+    {
+      "path": "validation/results/exp725/protocol-original.md",
+      "bytes": 1921,
+      "sha256": "1d168c82fba84cef4f14ef7ffc62c2f1c801bec1e873c3c1c0eab9d2c233cc7e"
+    }
+  ],
+  "candidate": {
+    "path": "../exp723/build/exp723/estimate",
+    "bytes": 93364248,
+    "sha256": "b5956be4421df7537f3251bc9f1b7a5fe9b51a1638c3e64d57a54e67e4bc2902"
+  },
+  "audit": {
+    "all_checks_passed": true,
+    "selected": true,
+    "mean_cpu_s": {
+      "A": 20.260530333333335,
+      "C": 18.635817333333335
+    },
+    "saved_s": 1.6247129999999999,
+    "ci95_saved_s": [
+      1.511410753387532,
+      1.7380152466124676
+    ],
+    "maximum_rss_bytes": 206532608,
+    "complete_runs": 14,
+    "exact_sample_rows": 1916928,
+    "released_duplicate_bytes": 56189966938,
+    "output_hash_evidence_reused": true,
+    "deleted_outputs_reread": false,
+    "report": {
+      "path": "validation/results/exp723/100m-report.json",
+      "bytes": 11006,
+      "sha256": "9961eef20bf88e43215f4b1bd900e0d3762147654f9522967baf8f30af9aa512"
+    },
+    "freeze": {
+      "path": "validation/results/exp723/freeze.json",
+      "bytes": 11142,
+      "sha256": "10cb69aa97c11af3c1d68e67377da85348ad08b372607a99c8a3d2a4cfd9cda7"
+    },
+    "auditor": {
+      "path": "/home/lhjysyx/EDA2026/validation/exp723_audit.py",
+      "bytes": 3778,
+      "sha256": "5e5b18e1efce90af25abf3d0780d534a11a2530d5cb53fc20ab2c40dee0acf8f"
+    }
+  },
+  "disk_free_start_bytes": 44208308224
+}

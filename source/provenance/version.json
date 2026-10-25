@@ -1,6 +1,6 @@
 {
-  "version_label": "exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
-  "algorithm_version": "D64-curves-u8-S8-V8-noinline-generic-SSE2",
+  "version_label": "exp728-coordinate-masks-generic-1b184s-20261025",
+  "algorithm_version": "D64-curves-T2D6-V8-compiled-M-fused-csv-coordinate-masks-SSE2",
   "publication_status": "stage_release",
   "complete_1b_measured": true,
   "final_accuracy_goal_verified": false,
@@ -8,53 +8,59 @@
   "platform_score_verified": false,
   "other_cpu_performance_verified": false,
   "full_1b_exact_accuracy_verified": false,
-  "git_commit": "350ba5051da558407d2f8ee44458e0f35dd18441",
+  "git_commit": "8f2fd9723758c37aedf285a8ec65e53afee17e0a",
   "git_working_tree_dirty": true,
-  "bin_sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3",
-  "bin_bytes": 93402392,
-  "packaged_utc": "2026-10-24T16:24:03.266615+00:00",
-  "link_mode": "static; five architectures, compressed geometry and fixed models embedded",
+  "bin_sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f",
+  "bin_bytes": 93442072,
+  "packaged_utc": "2026-10-25T11:44:55.411581+00:00",
   "generic_entry": true,
   "selected_kernel": "SSE2",
   "optional_isa_not_required": true,
+  "link_mode": "static; all architecture and model assets embedded",
   "paired_100m": {
     "all_checks_passed": true,
-    "joint_gate": true,
-    "complete_100m_runs": 21,
-    "identical_outputs_per_arm": 7,
-    "exact_sample_rows": 1916928,
+    "selected": true,
     "mean_cpu_s": {
-      "A": 23.484331166666667,
-      "V": 23.963173333333334,
-      "N": 23.521296833333334
+      "A": 18.635379666666665,
+      "C": 17.879823333333334
     },
-    "accuracy_pp": 98.66046105614241,
-    "score": 0.013465134310019734,
-    "score_lower": 9.595256802205632e-06,
+    "saved_s": 0.7555563333333334,
+    "ci95_saved_s": [
+      0.632248121283453,
+      0.8788645453832138
+    ],
+    "maximum_rss_bytes": 206802944,
+    "complete_runs": 14,
+    "exact_sample_rows": 1916928,
+    "released_duplicate_bytes": 56189966938,
+    "output_hash_evidence_reused": true,
+    "deleted_outputs_reread": false,
     "report": {
-      "path": "validation/results/exp686/100m-report.json",
-      "bytes": 45204,
-      "sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419"
+      "path": "validation/results/exp727/100m-report.json",
+      "bytes": 11002,
+      "sha256": "bd4505112371bdc99e62185b29d961b029506da462dfe71cae943dd469429494"
     },
     "freeze": {
-      "path": "validation/results/exp686/freeze.json",
-      "bytes": 10036,
-      "sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5"
+      "path": "validation/results/exp727/freeze.json",
+      "bytes": 34462,
+      "sha256": "bedc413024ae6c215adda74e9edc91279d5f885d297f034f95a692ac244c9cfb"
     },
-    "accuracy": {
-      "path": "validation/results/exp685/score/accuracy.json",
-      "bytes": 1989099,
-      "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
+    "auditor": {
+      "path": "/home/lhjysyx/EDA2026/validation/exp727_audit.py",
+      "bytes": 4086,
+      "sha256": "7ba371f631374a4da78d43ead5efdeb3f5ac16d2267c1e4e65cdf6989f634bc2"
     }
   },
   "previous_entry": {
     "path": "estimate",
-    "bytes": 93402392,
-    "sha256": "66fb0307d24b4ce2fa4514350e97420acf9de37171419f15c6001ac15dc985e3"
+    "bytes": 93442072,
+    "sha256": "9c05eb2ce01450f58ffa6d2adaa6793f307f44d8962a66e5d36453be32c5c68f"
   },
-  "previous_package": "exp688-v8-boundary-generic-100m23s-957e5f93-dirty-20261025-0012",
-  "commands": {
-    "compile": [
+  "previous_package": "exp728-coordinate-masks-generic-100m-20261025",
+  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp727",
+  "build_driver": "validation/exp727_coordinate_masks.py build",
+  "compile_and_link_commands": [
+    [
       "g++",
       "-I",
       "../exp619/tests",
@@ -79,9 +85,9 @@
       "-I",
       "../exp589/src",
       "-I",
-      "build/exp686",
+      "build/exp727",
       "-I",
-      "build/exp686",
+      "build/exp727",
       "-I",
       "../exp595/tests",
       "-I",
@@ -92,19 +98,19 @@
       "-DEXP608_SIMD=0",
       "-Dmain=worker608_F",
       "-c",
-      "build/exp686/worker.cpp",
+      "build/exp727/worker.cpp",
       "-o",
-      "build/exp686/C.o",
+      "build/exp727/C.o",
       "-DEXP640_TREES=8",
       "-I",
       "../exp646/build/exp646/deps",
       "-DEXP684_V_ONLY"
     ],
-    "link": [
+    [
       "g++",
       "../exp654/build/exp654/codes.o",
       "../exp652/build/exp652/entry.cpp",
-      "build/exp686/C.o",
+      "build/exp727/C.o",
       "-DEXP607_ARM=0",
       "-DEXP607_AVX_CHOICE=0",
       "-DEXP607_SSE_CHOICE=0",
@@ -129,9 +135,9 @@
       "-I",
       "../exp589/src",
       "-I",
-      "build/exp686",
+      "build/exp727",
       "-I",
-      "build/exp686",
+      "build/exp727",
       "-I",
       "../exp595/tests",
       "-I",
@@ -147,134 +153,76 @@
       "-s",
       "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
       "-o",
-      "build/exp686/N"
+      "build/exp727/estimate"
     ]
-  },
-  "build_directory": "r9r4900:~/lhjwork/eda2026/research/exp686",
-  "build_driver": "validation/exp686_event_boundary.py build",
-  "package_command": "python3 validation/exp688_package.py billion exp688-v8-boundary-generic-1b243s-1965119f-dirty-20261025-0035",
+  ],
+  "package_command": "python3 validation/exp728_release.py publish-billion exp728-coordinate-masks-generic-1b184s-20261025",
   "evidence": [
     {
-      "path": "validation/results/exp688/exp686-audit.json",
-      "bytes": 902,
-      "sha256": "1771bfca8d067ba2b394a9491f6c7121fc9955c27c6f6d590c451e8b82587467"
+      "path": "validation/results/exp727/freeze.json",
+      "bytes": 34462,
+      "sha256": "bedc413024ae6c215adda74e9edc91279d5f885d297f034f95a692ac244c9cfb"
     },
     {
-      "path": "validation/results/exp688/package-check.json",
-      "bytes": 5000,
-      "sha256": "078603275ac6831fe71e330c9ca387b9b6dcfdb5a27d1792ebd572425568e6db"
+      "path": "validation/results/exp727/100m-report.json",
+      "bytes": 11002,
+      "sha256": "bd4505112371bdc99e62185b29d961b029506da462dfe71cae943dd469429494"
     },
     {
-      "path": "validation/results/exp688/protocol-original.md",
-      "bytes": 3563,
-      "sha256": "b0cb8ffb1a13e97ad5c208e52f4f52243ffa1d1997012b406e67732a0e510dfe"
+      "path": "validation/results/exp727/independent-audit.json",
+      "bytes": 977,
+      "sha256": "5e9bd1591ba2e5de665c10a1645e427e66b754c0146f91d3855ca06dc1c20fc7"
     },
     {
-      "path": "validation/results/exp688/clean-freeze.json",
-      "bytes": 802,
-      "sha256": "0cc84b7f98a13d3364c9f73459e1b150fdcf17bd7b12e83a79dd3a359e7f80ff"
+      "path": "validation/results/exp728/protocol-original.md",
+      "bytes": 2148,
+      "sha256": "9a239903bbb32709273ff58c63dbe2e7063f64ab9064719a8c6d880e3343fc84"
     },
     {
-      "path": "validation/results/exp686/freeze.json",
-      "bytes": 10036,
-      "sha256": "05c2f2a0fbf1565c956d14199515d04112d876bca19d951f467a5d4f7d466cd5"
+      "path": "validation/results/exp728/clean-freeze.json",
+      "bytes": 1869,
+      "sha256": "5e90985a7c5b3786a5ad189a52d112433ba3146fddee28a10651d5042597b0e6"
     },
     {
-      "path": "validation/results/exp686/100m-report.json",
-      "bytes": 45204,
-      "sha256": "ad33449cd907273b80b6fe9461d65ccd3f6dce5c4811621b33796d9f25d16419"
+      "path": "validation/results/exp728/package-check.json",
+      "bytes": 1246,
+      "sha256": "b1add8efbe6f05ce9ba745f1635701a737343e1e94fdc539228855ab47aed888"
     },
     {
-      "path": "validation/results/exp686/protocol-original.md",
-      "bytes": 3601,
-      "sha256": "364c93104385573bfd41c7840272a5aa3c40ab3c6563f471a94d6fe33908c1ac"
+      "path": "validation/results/exp728/1b-freeze.json",
+      "bytes": 29140,
+      "sha256": "8c6f6939a01bc6c3b1e86de2ae2be0e9d46fdb60556bb6906c7332f243c8677e"
     },
     {
-      "path": "validation/results/exp686/compile.run.json",
-      "bytes": 1083,
-      "sha256": "fe636bccdf230b48ad572c0f1e79f9270e218054f48e07eeef8d84e660db829b"
+      "path": "validation/results/exp728/1b-report.json",
+      "bytes": 2578,
+      "sha256": "227336c754bb734cfe82c3b585aefddc7b40ad206eef8b3baa86c72a5a69a917"
     },
     {
-      "path": "validation/results/exp686/link.run.json",
-      "bytes": 1308,
-      "sha256": "1e699258c75f87ab343e0d078ed1d5e25b424aaae10328bd6a1af85b93500119"
-    },
-    {
-      "path": "validation/results/exp685/score/accuracy.json",
-      "bytes": 1989099,
-      "sha256": "2f177a72d550ec7f0c1191ea889b27ad3197d9a6cfec1ea3b6192062413e303a"
-    },
-    {
-      "path": "validation/results/exp685/close-audit-local.json",
-      "bytes": 121377,
-      "sha256": "879a437bb781228eb8d21945eb8e378a709163c5db175cadd11c4af038fd8d0a"
-    },
-    {
-      "path": "validation/results/exp684/close-audit-local.json",
-      "bytes": 1499,
-      "sha256": "9df3c0f80a0fbea57d0bedce48cc32b07e183a9bc1db551f5ec252a81c7a492b"
-    },
-    {
-      "path": "validation/results/exp688/1b-freeze.json",
-      "bytes": 1722,
-      "sha256": "598f9f9ee5ceb45d852fe7529decf25df9c7a25ae2d29488cf74a82b88ca240c"
-    },
-    {
-      "path": "validation/results/exp688/1b-report.json",
-      "bytes": 2042,
-      "sha256": "e0e33bc7d6652f16af489e85138c535a9fb04be618e64cf8ca19065e05ba1390"
-    },
-    {
-      "path": "validation/results/exp688/1b-accuracy.json",
-      "bytes": 1708050,
-      "sha256": "846c92bdf8d353614baaf7f6a769ff43b146469db387515f48dea29e308151bf"
-    },
-    {
-      "path": "validation/results/exp688/close-audit.json",
-      "bytes": 985,
-      "sha256": "0da9ddc913e7bc6a244e9e1558b0ed011b4bbf8805b6d43a701babc11b7d7230"
-    },
-    {
-      "path": "validation/results/exp688/score-reuse-freeze.json",
-      "bytes": 4467,
-      "sha256": "1228d07ee4a23809e8fa595879c3ab9455d36ce85b6ebeed9f802d410abd81f6"
+      "path": "validation/results/exp728/independent-audit.json",
+      "bytes": 1949,
+      "sha256": "c60a9faa1357b92de3c21410526605091b5964328c8eea69b06ff0b2d3035a58"
     }
   ],
-  "cpu_1b_s": 243.302538,
-  "cpu_200s_goal": false,
+  "cpu_1b_s": 184.190953,
   "accuracy_1b": {
-    "point_pp": 98.65806165706272,
-    "stratified_variance_pp2": 1.6572428571478838e-06,
+    "point_pp": 98.6448996487895,
+    "stratified_variance_pp2": 1.708112629698821e-06,
     "stratified_ci975_pp": [
-      98.6551762109102,
-      98.66094710321524
+      98.64197025235906,
+      98.64782904521995
     ],
     "family_ci975_pp": [
-      98.61793714350914,
-      98.69872988287216
+      98.60589533737603,
+      98.68470419505437
     ],
     "conservative_ci975_pp": [
-      98.61793714350914,
-      98.69872988287216
+      98.60589533737603,
+      98.68470419505437
     ]
   },
-  "delta_accuracy_1b": {
-    "point_pp": 0.020594342860070336,
-    "stratified_variance_pp2": 1.2201687374321446e-07,
-    "stratified_ci975_pp": [
-      0.019811400405851713,
-      0.02137728531428896
-    ],
-    "family_ci975_pp": [
-      0.01915885017852251,
-      0.022113456830820364
-    ],
-    "conservative_ci975_pp": [
-      0.01915885017852251,
-      0.022113456830820364
-    ]
-  },
-  "quality_1b_gate": true,
-  "zip_sha256": "fb39a2476d0d2ea99d2cf6c29536a63383bfed0a8174505db1a5f8c601a5f94c",
-  "zip_bytes": 81369669
+  "exact_sample_rows": 3833856,
+  "one_1b_candidate_run": true,
+  "zip_sha256": "9bb01e1ca3c5a2e57f65a4ddc2408f537ff7e73dd31d6f54668c88e668618081",
+  "zip_bytes": 81350223
 }

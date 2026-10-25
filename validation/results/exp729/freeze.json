@@ -1,0 +1,75 @@
+{
+  "inputs": [
+    {
+      "path": "build/exp710/full.bin",
+      "bytes": 2210204,
+      "sha256": "3240a82a49cf7af12c90e27de3d1b429cbb8d259d74015c3b2e09e8187a60be6"
+    },
+    {
+      "path": "build/exp710/catalogue.i32",
+      "bytes": 5750784,
+      "sha256": "5d09a7355eb845d1198b5b3f357451cf386aee42fb92d315d6784198bcf60e2c"
+    },
+    {
+      "path": "build/exp710/samples.u32",
+      "bytes": 4160,
+      "sha256": "3c1389ea8d3b72d29510bdcd0193be323ca7b680f24d5461d2d2c6a998569b2c"
+    },
+    {
+      "path": "build/exp710/strata.u16",
+      "bytes": 479232,
+      "sha256": "ec9de4109c758d9f587280f526434c3822684d8281865721bf4294ccce355f97"
+    },
+    {
+      "path": "validation/results/exp710/freeze.json",
+      "bytes": 7260,
+      "sha256": "95887ccc7e438076bf9b47c147a5ea783e91aae71d7663954c0e1652b6b20063"
+    },
+    {
+      "path": "validation/results/exp710/report.json",
+      "bytes": 2943,
+      "sha256": "72efa4db566d0f5e61076fbefbc974211c587c4995a29dba555b08388af8320c"
+    },
+    {
+      "path": "validation/results/exp710/independent-audit.json",
+      "bytes": 352,
+      "sha256": "6ff005b4c29171ea17eb66517ada7a5b67728c0139a08d04e7413fb9280dfb09"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp729_periodic_words.py",
+      "bytes": 10905,
+      "sha256": "4deb5ca42228286cd24a348ad3af7b963791a79147f13b0b02a3ae6b40b8e1f6"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp721_line_normalization.py",
+      "bytes": 12274,
+      "sha256": "cf0df0e10d2f358fb52209141475bbf6b9e3477a0c364d2966bf0875a03fc930"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp711_support_functions.py",
+      "bytes": 9593,
+      "sha256": "c732ef2ab8028ef25b510ff075078e092106b659ba26f6f3fd2947c709329943"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp709_cost_skeleton.py",
+      "bytes": 11857,
+      "sha256": "5f58693c0fb39b04b81fdb0c5cacc1e179249e2b36e591544dbaa7cca4ff46be"
+    },
+    {
+      "path": "experiment/实验729-固定词周期核与有限边界守卫分离.md",
+      "bytes": 3018,
+      "sha256": "8f35d372e39477bb2acd88cb2673ad016ed7b5bfc109029440f81e32d214bd85"
+    },
+    {
+      "path": "validation/results/exp729/protocol-original.md",
+      "bytes": 3018,
+      "sha256": "8f35d372e39477bb2acd88cb2673ad016ed7b5bfc109029440f81e32d214bd85"
+    }
+  ],
+  "disk_free_start_bytes": 295344779264
+}

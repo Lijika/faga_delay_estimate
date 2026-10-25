@@ -1,0 +1,35 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "8",
+    "build/exp720/estimate",
+    "-in",
+    "build/exp720/u-role/requests.csv",
+    "-out",
+    "build/exp720/100m-5-C.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 20.231541,
+  "wall_s": 20.234871696215123,
+  "rss_bytes": 206372864,
+  "threads": 1,
+  "stderr": "validation/results/exp720/100m-5-C.stderr",
+  "arm": "C",
+  "iteration": 5,
+  "input": {
+    "path": "build/exp720/u-role/requests.csv",
+    "bytes": 3519786871,
+    "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+  },
+  "output": {
+    "path": "build/exp720/100m-5-C.csv",
+    "bytes": 4013569067,
+    "sha256": "fd8a62e50bb28fb082665e07a21f8b12ec24958b11e6ec1e9a83def6315ff63c"
+  },
+  "counters": {
+    "rows": 100000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  }
+}

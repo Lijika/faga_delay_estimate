@@ -1,0 +1,144 @@
+{
+  "inputs": [
+    {
+      "path": "../exp717/build/exp717/bindings.bin",
+      "bytes": 3833856,
+      "sha256": "4d872759f9bd0bf057c9d3fa4e1773db7aeba7810c15ecc7d0e0f90e9d0e5ff4"
+    },
+    {
+      "path": "../exp717/build/exp717/counts.u32",
+      "bytes": 5750784,
+      "sha256": "7400c0daf906bb3e648a4372ea1eeb928754a138ffdde3b52c6a7e461404893d"
+    },
+    {
+      "path": "../exp717/build/exp717/maps.bin",
+      "bytes": 1446112,
+      "sha256": "49a37e51ab2f5dfd4c3ca9403cc4ba51a4a36e7a2330323a850da8a7cd719c32"
+    },
+    {
+      "path": "../exp717/build/exp717/terms.u16",
+      "bytes": 2367636,
+      "sha256": "d4a48533ad1975323ec45b8f73a194f34463c8f719933b3989cd7575305a86dc"
+    },
+    {
+      "path": "../exp705/build/exp705/queries.bin",
+      "bytes": 9584652,
+      "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b"
+    }
+  ],
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "build/exp718",
+    "tests/exp718_dense_fragments.cpp",
+    "-static",
+    "-o",
+    "build/exp718/dense-fragments"
+  ],
+  "binary": {
+    "path": "build/exp718/dense-fragments",
+    "bytes": 2414976,
+    "sha256": "bb9a6dd1e33b1a9bac83e9b105a0ed412135fa2767ff24bac306d299e8811e6f"
+  },
+  "arguments": [
+    "../exp717/build/exp717",
+    "../exp705/build/exp705/queries.bin",
+    "build/exp718/order.u32"
+  ],
+  "component": {
+    "all_equal": true,
+    "grid_points": 64284000,
+    "queries": 239616,
+    "negative_cases": 479232,
+    "dense_bytes": 3634696,
+    "shared_rows": 1550,
+    "initialization_cpu_s": 0.053652582
+  },
+  "seed": 20261025718,
+  "round_rotation": 9973,
+  "evaluations": 15335424,
+  "schedule": [
+    [
+      "A",
+      "D"
+    ],
+    [
+      "A",
+      "D"
+    ],
+    [
+      "D",
+      "A"
+    ],
+    [
+      "A",
+      "D"
+    ],
+    [
+      "D",
+      "A"
+    ],
+    [
+      "A",
+      "D"
+    ],
+    [
+      "D",
+      "A"
+    ]
+  ],
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp718/validation/exp718_dense_fragments.py",
+      "bytes": 8936,
+      "sha256": "69c8d6fca76c1f576f6971789afd61fd1b4e32d53705fa133f60739a1ef1e843"
+    },
+    {
+      "path": "experiment/实验718-共享片段稠密行的直接寻址成本.md",
+      "bytes": 2874,
+      "sha256": "1b550b68cd40d0ddaf2ad24bb32afb94460edb31a5687b251351df015b565a43"
+    },
+    {
+      "path": "validation/results/exp718/protocol-original.md",
+      "bytes": 2874,
+      "sha256": "1b550b68cd40d0ddaf2ad24bb32afb94460edb31a5687b251351df015b565a43"
+    },
+    {
+      "path": "tests/exp710_motion_words.cpp",
+      "bytes": 11655,
+      "sha256": "7e7384bfbd1529cc6dea118592b71a7b9af098d795458384a92df55272c4388a"
+    },
+    {
+      "path": "tests/exp717_shared_fragments.cpp",
+      "bytes": 11379,
+      "sha256": "521420d6ebcaabaa8bb1e4629d2bf000eac2a84732912a3f07442e936dd29f1b"
+    },
+    {
+      "path": "tests/exp718_dense_fragments.cpp",
+      "bytes": 8687,
+      "sha256": "594646131015b2b38786102d7c0f56b9e65e1bbf8882c0b37d87188d25218800"
+    },
+    {
+      "path": "build/exp718/exp718_records.h",
+      "bytes": 1514,
+      "sha256": "be45dd9c8e3c60b7108de9ff29baa529fa1135c69dcf0aa4a9894a1600aa617e"
+    },
+    {
+      "path": "build/exp718/order.u32",
+      "bytes": 958464,
+      "sha256": "4fdac243b8ed2309f2ecb3eb538b07370c3e97d9bbd437cfe23146c491b491c4"
+    }
+  ],
+  "cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 85\nmodel name\t: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz\nstepping\t: 7\nmicrocode\t: 0x5003901\ncpu MHz\t\t: 1200.000\ncache size\t: 22528 KB\nphysical id\t: 0\nsiblings\t: 32\ncore id\t\t: 0\ncpu cores\t: 16\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 22\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi pku ospke avx512_vnni md_clear flush_l1d arch_capabilities ibpb_exit_to_user\nvmx flags\t: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec tsc_scaling\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit mmio_stale_data retbleed eibrs_pbrsb gds bhi its vmscape\nbogomips\t: 5800.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "disk_free_start_bytes": 40110133248
+}

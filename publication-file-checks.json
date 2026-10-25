@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "python_files_parsed": 61,
+  "json_files_parsed": 758,
+  "relative_links_checked": 104,
+  "question_bytes": 33607,
+  "question_sha256": "f0b579ff6b8d221539c3d5d9ec1b0911d16bc8b80776098ac4d06ce465842afe",
+  "obsidian_copy_identical": true,
+  "single_files_below_100mb": true,
+  "whitespace_check": {
+    "current_code_and_docs_passed": true,
+    "unscoped_check_passed": false,
+    "original_artifacts_preserved": [
+      "docs/research/previous-review/code/synthetic_accuracy.csv",
+      "validation/results/exp713/installed-catboost-help.txt",
+      "validation/results/exp719/installed-catboost-help.txt",
+      "validation/results/exp722/column-archive-command-help.txt",
+      "validation/results/exp724/installed-help.txt",
+      "validation/results/exp726/installed-catboost-help.txt",
+      "validation/results/exp730/installed-catboost-help.txt"
+    ],
+    "original_byte_identity_verified": true,
+    "reason": "Original CSV CRLF and captured help trailing spaces are retained verbatim"
+  }
+}

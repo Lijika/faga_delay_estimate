@@ -1,0 +1,12 @@
+{
+  "source": {
+    "path": "build/exp689/assign",
+    "bytes": 1870480,
+    "sha256": "d47196db422fc012c932eaca48975cd8eb43529becce14dc4276397b8cc84a26"
+  },
+  "copied": {
+    "path": "build/exp724/assign",
+    "bytes": 1870480,
+    "sha256": "d47196db422fc012c932eaca48975cd8eb43529becce14dc4276397b8cc84a26"
+  }
+}

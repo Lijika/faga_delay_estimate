@@ -1,0 +1,33 @@
+{
+  "link_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/src",
+    "tests/exp707_prepare_compare.cpp",
+    "/home/lhjysyx/EDA2026/build/exp707/local/A/checked.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/M/checked.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/C/checked.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/architecture.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/embedded.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/codes.o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/compressed.o",
+    "/home/lhjysyx/faga_delay_estimate_exp688/source/third_party/zstd/libzstd.a",
+    "-static",
+    "-o",
+    "/home/lhjysyx/EDA2026/build/exp707/local/compare-check"
+  ],
+  "runtime_wall_s": 0.7427609250007663,
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "role": "component check of production fold=0; no full CSV execution"
+}

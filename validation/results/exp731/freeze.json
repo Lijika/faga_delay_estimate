@@ -1,0 +1,434 @@
+{
+  "inputs": [
+    {
+      "path": "../exp712/build/exp712/queries.bin",
+      "bytes": 166412,
+      "sha256": "df3879eea644eb2eb61ad63defab2c73f73a5e4f323ffd847747d90c0c083481"
+    },
+    {
+      "path": "../exp712/build/exp712/selected.u32",
+      "bytes": 16640,
+      "sha256": "aaefe6a7f1d28c51bfb49c82a69cd4ad5b818875df799c5ec912b540d0fac8f0"
+    },
+    {
+      "path": "../exp712/build/exp712/strata.u16",
+      "bytes": 2080,
+      "sha256": "dbae673e6cc51403a38035222030967a73fa9090b3f3f1172a2bbb962db38172"
+    },
+    {
+      "path": "../exp712/build/exp712/gold.i32",
+      "bytes": 16640,
+      "sha256": "f30b8fc284b9f2ec3ae60c7de6a71f13e4611918ad018b62166cba7f491216a3"
+    },
+    {
+      "path": "../exp712/build/exp712/O.lengths.u32",
+      "bytes": 16640,
+      "sha256": "a3dbca1a7e44f6ff14486b0635cf7b403c95bb8f26630d553efaefb22c60ebd3"
+    },
+    {
+      "path": "../exp712/build/exp712/O.words.u8",
+      "bytes": 95729,
+      "sha256": "64daf5ec7d130e43057781a77e76959781f9d09c5c2cccdfee7879fcd03e19a0"
+    },
+    {
+      "path": "../exp712/build/exp712/O.summary.i32",
+      "bytes": 133120,
+      "sha256": "64ec8edfc096d9d8854a2963fea26003b932ba23fbb379eea786ee5b60fccbc1"
+    },
+    {
+      "path": "../exp552/build/exp552/trace/src/router.cpp",
+      "bytes": 22079,
+      "sha256": "87b1a6598727d18aa14a7b509ecb53f3868f1c6774447d460cb0910e5c9a3101"
+    },
+    {
+      "path": "../exp552/tests/exp552_real_paths.cpp",
+      "bytes": 8827,
+      "sha256": "200749310a1124a862b5caa72ae517cf577f73b33f4b6e78000ca9a9dbb7b5e7"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp712/validation/exp712_tie_support.py",
+      "bytes": 17895,
+      "sha256": "fa79445df67a727f0dfae84cd6be20d973981066c5c8c3b6bc69322fb4220811"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp705/validation/exp705_matched_positions.py",
+      "bytes": 15958,
+      "sha256": "48b0c547f2aabdd491b19b726a9d5bf0ceb3e5ef26960c11872a001c7e153f43"
+    },
+    {
+      "path": "../exp712/validation/results/exp712/independent-audit.json",
+      "bytes": 405,
+      "sha256": "3bc82c835f70b574f3e33d422f1ac7ddc118ec64af20b808c45259d1c57568af"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Gap.json",
+      "bytes": 3959,
+      "sha256": "ac008920989cb2486b2b6ec0a1e953390cc0f3b8eaf914637bf7a6e366f91a12"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "../exp553/build/exp553/no-line-arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    }
+  ],
+  "files": [
+    {
+      "path": "experiment/实验731-近最优词的几何切换惩罚与支持复杂度.md",
+      "bytes": 3071,
+      "sha256": "82035b04e50ab8c4ccebdc1973a7e3a3cbdd348612eac3ee1b7acd54cc5038a2"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp731/validation/exp731_regularized_words.py",
+      "bytes": 14910,
+      "sha256": "0ffcb49c878d879d7e403fbfe24f0d77dea1d305382d80b2412e5b33e2edbd0b"
+    },
+    {
+      "path": "validation/results/exp731/protocol-original.md",
+      "bytes": 3071,
+      "sha256": "82035b04e50ab8c4ccebdc1973a7e3a3cbdd348612eac3ee1b7acd54cc5038a2"
+    },
+    {
+      "path": "build/exp731/trace/scaffold.cpp",
+      "bytes": 10252,
+      "sha256": "1b9602ee949182aa97f1b0b0274ae492117e65fbfcaed1bfb25a101239144843"
+    },
+    {
+      "path": "build/exp731/trace/trace731.cpp",
+      "bytes": 9829,
+      "sha256": "c0847be62a883d4bd7ca0d4d80e78eced9150f21fe1feee13c5391bb5e473737"
+    },
+    {
+      "path": "build/exp731/trace/exp147_orbit_access.cpp",
+      "bytes": 27310,
+      "sha256": "b433cb497d8beb81b70cd99c30fd4b9807c1e832a7b3e510e627c5baf10f24cd"
+    },
+    {
+      "path": "build/exp731/trace/src/embedded_residue.h",
+      "bytes": 2287,
+      "sha256": "3ec8598d4180198ce49c28224f094899a09cdabb1360806d5cf1b4f8992a7d75"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base47_fast_model.h",
+      "bytes": 10164410,
+      "sha256": "1e96563432104b87a16901b95469cb9b266c2d1bf4a69825f73afd78de2a8919"
+    },
+    {
+      "path": "build/exp731/trace/src/hybrid_estimator.h",
+      "bytes": 3217,
+      "sha256": "8b714f798e5e58d2ccb1f332adf55ce922b39bc45c9171b9425b84134fcab3d8"
+    },
+    {
+      "path": "build/exp731/trace/src/main.cpp",
+      "bytes": 33578,
+      "sha256": "b5091a0dd8f2b34adc13aa31997424bcbf81ca060d39f55705117ceb054727d6"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base.h",
+      "bytes": 1917,
+      "sha256": "4be6d41e800f59d94492e230e96693ef7d459118a03644ffe9b75e09f7a46e92"
+    },
+    {
+      "path": "build/exp731/trace/src/csv.h",
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    {
+      "path": "build/exp731/trace/src/fast_estimator.cpp",
+      "bytes": 18070,
+      "sha256": "ca8c3609b5e1812c953ea5e7ca5e4e0d5f98d2576d7056a112b2a2ab4be5b0fb"
+    },
+    {
+      "path": "build/exp731/trace/src/router.h",
+      "bytes": 10927,
+      "sha256": "3e9f2b8d1002281ae5a21eefb9cb6976061332766f955c01772f8788ddb788a8"
+    },
+    {
+      "path": "build/exp731/trace/src/architecture.h",
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual.h",
+      "bytes": 7543,
+      "sha256": "a57a0fae44b162b9689f5d5ec9f49193aa7637b35a863e664b282c567f9cf164"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base47_model.h",
+      "bytes": 384571,
+      "sha256": "afb318fc50b3b394dab2c16fc0c8c68ea23328dbbb6a3f1ad846b8babe386810"
+    },
+    {
+      "path": "build/exp731/trace/src/router.cpp",
+      "bytes": 22438,
+      "sha256": "adc3d8d7d3f28a9349631c22edf1fbd5190beb28c64ee4be4b83b19d0c1b79b1"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base47.h",
+      "bytes": 2109,
+      "sha256": "c634d84c77560a3a332c80eb9463e86e8e544ccdf84179280fac42aaf63c2d80"
+    },
+    {
+      "path": "build/exp731/trace/src/query_cache.h",
+      "bytes": 2568,
+      "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386"
+    },
+    {
+      "path": "build/exp731/trace/src/embedded_arch.cpp",
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    {
+      "path": "build/exp731/trace/src/pattern_database.h",
+      "bytes": 20223,
+      "sha256": "ab57e90eaed93d1eb2bf0ce7013ee0e8cdc43726ae0ae60564f22ee06c913dd8"
+    },
+    {
+      "path": "build/exp731/trace/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    {
+      "path": "build/exp731/trace/src/residue_estimator.h",
+      "bytes": 20291,
+      "sha256": "7992e96b2c15e50d0d8bc967503ce8b2deb67be8f55f4ff0a93e539c15f901f5"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_model.h",
+      "bytes": 47465,
+      "sha256": "8b3087ae61167211053f3bf9cdd991848352b2351dc46cb849e5f943ad6e5fc2"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_bounds_model.h",
+      "bytes": 46977,
+      "sha256": "6286deb164030b04aea3cda48c00b6499eb20cf18821945b8cb4b87182a7c378"
+    },
+    {
+      "path": "build/exp731/trace/src/embedded_arch.h",
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_bounds.h",
+      "bytes": 1707,
+      "sha256": "627aaa9d0e7a57d03e2f17000533f55685b3ee932f360fb55dbf6a770cc0ffec"
+    },
+    {
+      "path": "build/exp731/trace/src/bias_correction.h",
+      "bytes": 2416,
+      "sha256": "eeffffe4703d68c2e14822bca61082b0f35dda294d4e5e72a4ef7054edea0b8f"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base_model.h",
+      "bytes": 47096,
+      "sha256": "8db2cf586822cf870adaa561ffbc496e74fb298a12f4ad46e03d4e6427163cbe"
+    },
+    {
+      "path": "build/exp731/trace/src/residue_estimator.cpp",
+      "bytes": 50739,
+      "sha256": "db3628a038fecb8c15e78f1f645fea3ca8428ddf879f804ee296a5ae84432993"
+    },
+    {
+      "path": "build/exp731/trace/src/embedded_templates.h",
+      "bytes": 3042,
+      "sha256": "0c8ce73f4fb6e2db87c4b28eed0da9d1b263fc49cfe51668e99ad568a890b66f"
+    },
+    {
+      "path": "build/exp731/trace/src/architecture.cpp",
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    {
+      "path": "build/exp731/trace/src/xgb_residual_base47_fast.h",
+      "bytes": 739,
+      "sha256": "d92a67df30cc74324fb65b3258b49fec20d97dbfcb70e7bf3b7625535c066684"
+    },
+    {
+      "path": "build/exp731/trace/src/fast_estimator.h",
+      "bytes": 4238,
+      "sha256": "4070f7ac68be948a5b90b3dd93d1ef3a9e7bd55a24a082397adf504bc7579cf5"
+    },
+    {
+      "path": "build/exp731/queries.bin",
+      "bytes": 166412,
+      "sha256": "df3879eea644eb2eb61ad63defab2c73f73a5e4f323ffd847747d90c0c083481"
+    },
+    {
+      "path": "build/exp731/selected.u32",
+      "bytes": 16640,
+      "sha256": "aaefe6a7f1d28c51bfb49c82a69cd4ad5b818875df799c5ec912b540d0fac8f0"
+    },
+    {
+      "path": "build/exp731/strata.u16",
+      "bytes": 2080,
+      "sha256": "dbae673e6cc51403a38035222030967a73fa9090b3f3f1172a2bbb962db38172"
+    },
+    {
+      "path": "build/exp731/gold.i32",
+      "bytes": 16640,
+      "sha256": "f30b8fc284b9f2ec3ae60c7de6a71f13e4611918ad018b62166cba7f491216a3"
+    },
+    {
+      "path": "build/exp731/gold.i32.changes.u32",
+      "bytes": 16640,
+      "sha256": "0fde08a5633832c1a25a018da1c3d1e4ed151ee9d6b9a0a3276805cf8da3f22c"
+    }
+  ],
+  "binaries": {
+    "O": {
+      "path": "build/exp731/trace-O",
+      "bytes": 4891896,
+      "sha256": "4d589ac17d44df35909fe16fba433cee702e25e0b382bfb8089d7151dba53d1b"
+    },
+    "E1": {
+      "path": "build/exp731/trace-E1",
+      "bytes": 4891896,
+      "sha256": "e518c292f6d57b1ebc7a4d61bf9efa49de7bab707bcce55f8edb98a94670a0c2"
+    },
+    "E4": {
+      "path": "build/exp731/trace-E4",
+      "bytes": 4891896,
+      "sha256": "afba811f423b7918be6d2367442a42f8b9595f00aeb2ebe6f2d522720c16aaec"
+    }
+  },
+  "orbit": {
+    "path": "../exp501/build/exp501/tools/orbit.i16",
+    "bytes": 17694720,
+    "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+  },
+  "population_strata": [
+    586,
+    567,
+    599,
+    552,
+    553,
+    601,
+    629,
+    521,
+    530,
+    605,
+    575,
+    594,
+    579,
+    596,
+    594,
+    535,
+    587,
+    619,
+    546,
+    552,
+    560,
+    585,
+    605,
+    554,
+    554,
+    608,
+    592,
+    550,
+    566,
+    565,
+    601,
+    572,
+    577,
+    621,
+    563,
+    543,
+    569,
+    620,
+    588,
+    527,
+    543,
+    618,
+    595,
+    548,
+    583,
+    608,
+    580,
+    533,
+    581,
+    627,
+    592,
+    504,
+    551,
+    622,
+    577,
+    554,
+    536,
+    617,
+    605,
+    546,
+    542,
+    578,
+    591,
+    593,
+    619,
+    648,
+    548,
+    489,
+    576,
+    576,
+    590,
+    562,
+    608,
+    594,
+    536,
+    566,
+    524,
+    534,
+    648,
+    598,
+    575,
+    582,
+    577,
+    570,
+    567,
+    600,
+    588,
+    549,
+    570,
+    609,
+    589,
+    536,
+    533,
+    579,
+    639,
+    553,
+    535,
+    624,
+    590,
+    555,
+    547,
+    609,
+    583,
+    565
+  ],
+  "rows": 4160,
+  "pair_groups": 1040,
+  "penalties": {
+    "O": 0,
+    "E1": 1,
+    "E4": 4
+  },
+  "excess_limit_ps": 8,
+  "toy_check_passed": true,
+  "disk_free_start_bytes": 43775311872
+}

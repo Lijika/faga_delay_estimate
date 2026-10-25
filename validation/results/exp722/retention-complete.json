@@ -1,0 +1,94 @@
+{
+  "all_checks_passed": true,
+  "files": [
+    {
+      "source": "../exp720/build/exp720/100m-0-A.csv",
+      "original": {
+        "path": "build/exp720/100m-0-A.csv",
+        "bytes": 4013568911,
+        "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+      },
+      "input": {
+        "path": "build/exp720/u-role/requests.csv",
+        "bytes": 3519786871,
+        "sha256": "922c4ea35138501ae5014db483e9f2cfad3d28f226e5ee19d33eec07e1d9a2e3"
+      },
+      "archive": {
+        "path": "build/exp722/column-archives/exp720-A-100m-delay.csv.zst",
+        "bytes": 207217166,
+        "sha256": "c28b6d1b6b5490501f69af91eb547d47ad9131a646aa153ab7ba39bed4c2002b"
+      },
+      "restored": {
+        "bytes": 4013568911,
+        "sha256": "71e9a0f3235e301c8d808ac752bfed24e0f6bda5ad34ccda94bacd2f1e06aa3d"
+      },
+      "full_roundtrip_passed": true,
+      "source_metadata": [
+        4013568911,
+        1792917739179216050,
+        22299261
+      ],
+      "rebuild_cwd": "../exp720",
+      "rebuild_command": [
+        "taskset",
+        "-c",
+        "8",
+        "../exp707/build/exp707/M/estimate",
+        "-in",
+        "build/exp720/u-role/requests.csv",
+        "-out",
+        "build/exp720/100m-0-A.csv"
+      ],
+      "restore_shell": "bash",
+      "restore_command": "paste -d, ../exp720/build/exp720/u-role/requests.csv <(zstd -dq -c build/exp722/column-archives/exp720-A-100m-delay.csv.zst) > ../exp720/build/exp720/100m-0-A.csv",
+      "deleted": true,
+      "net_released_bytes": 3806351745
+    },
+    {
+      "source": "build/exp722/1b.csv",
+      "original": {
+        "path": "build/exp722/1b.csv",
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "input": {
+        "path": "../../build/hidden-suite-v1/role-1b/requests.csv",
+        "bytes": 35197849579,
+        "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+      },
+      "archive": {
+        "path": "build/exp722/column-archives/exp722-1b-delay.csv.zst",
+        "bytes": 2072166660,
+        "sha256": "8b093aaf0ca018ac4c940866e10b495350465f4cd96d20549c36291a3b4c8c7f"
+      },
+      "restored": {
+        "bytes": 40135646544,
+        "sha256": "3941db6915d506359cbba376dd71a0896f1db49a5b49a14711d7716d3f14e122"
+      },
+      "full_roundtrip_passed": true,
+      "source_metadata": [
+        40135646544,
+        1792921537774868291,
+        22299391
+      ],
+      "rebuild_cwd": ".",
+      "rebuild_command": [
+        "taskset",
+        "-c",
+        "8",
+        "../exp720/build/exp720/estimate",
+        "-in",
+        "../../build/hidden-suite-v1/role-1b/requests.csv",
+        "-out",
+        "build/exp722/1b.csv"
+      ],
+      "restore_shell": "bash",
+      "restore_command": "paste -d, ../../build/hidden-suite-v1/role-1b/requests.csv <(zstd -dq -c build/exp722/column-archives/exp722-1b-delay.csv.zst) > build/exp722/1b.csv",
+      "deleted": true,
+      "net_released_bytes": 38063479884
+    }
+  ],
+  "net_released_bytes": 41869831629,
+  "disk_free_end_bytes": 44319264768,
+  "wall_s": 630.1562546249479
+}
