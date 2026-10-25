@@ -1,0 +1,49 @@
+{
+  "pids": [
+    {
+      "pid": 3424535,
+      "shard": 0,
+      "command": [
+        "build/exp679/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp679/labels-0.csv",
+        "build/exp679/tools/orbit.i16",
+        "build/exp679/exact-0.csv"
+      ]
+    },
+    {
+      "pid": 3424536,
+      "shard": 1,
+      "command": [
+        "build/exp679/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp679/labels-1.csv",
+        "build/exp679/tools/orbit.i16",
+        "build/exp679/exact-1.csv"
+      ]
+    },
+    {
+      "pid": 3424537,
+      "shard": 2,
+      "command": [
+        "build/exp679/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp679/labels-2.csv",
+        "build/exp679/tools/orbit.i16",
+        "build/exp679/exact-2.csv"
+      ]
+    },
+    {
+      "pid": 3424538,
+      "shard": 3,
+      "command": [
+        "build/exp679/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp679/labels-3.csv",
+        "build/exp679/tools/orbit.i16",
+        "build/exp679/exact-3.csv"
+      ]
+    }
+  ],
+  "hard_timeout_wall_s": 2400
+}

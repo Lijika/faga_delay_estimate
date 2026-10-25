@@ -1,0 +1,24 @@
+{
+  "header": {
+    "path": "build/exp623/exp579-models.h",
+    "bytes": 230811,
+    "sha256": "6d1320cb0200f433f7904cd63950ab5905cf4e0faea76aa8b674b14378cf4a83"
+  },
+  "original": {
+    "path": "../exp589/build/exp589/D64-assets/exp579-models.h",
+    "bytes": 228386,
+    "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+  },
+  "thresholds_unchanged": true,
+  "features_unchanged": true,
+  "raw_final": {
+    "path": "build/exp623/C-final.f32",
+    "bytes": 4000000,
+    "sha256": "cfcf8dc9eaf32fdf58eb5a21f4ec05bcdbb747b99f6c69d2ec081cc1b562cc73"
+  },
+  "raw_oof": {
+    "path": "build/exp623/C-oof.f32",
+    "bytes": 4000000,
+    "sha256": "2e601a43c8e41200ae4616bf7c6bd5847839bdf561d44f37da9ba04963bf7dde"
+  }
+}

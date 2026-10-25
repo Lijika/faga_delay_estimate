@@ -1,0 +1,84 @@
+{
+  "binary": {
+    "path": "build/exp553/no-line-paths",
+    "bytes": 4891896,
+    "sha256": "ee414e4c2ad98d7842cc439c72dfef035b6228b3fa0afaedb5e42be6c38bfd72"
+  },
+  "orbit": {
+    "path": "../exp552/../exp552-replay-failure-01/../exp501/build/exp501/tools/orbit.i16",
+    "bytes": 17694720,
+    "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+  },
+  "shards": [
+    {
+      "number": 0,
+      "rows": 333304,
+      "pairs": 59904,
+      "min_pair_rows": 1,
+      "queries": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-0.queries.bin",
+        "bytes": 13332172,
+        "sha256": "57232ad0dea2d0fe733167bb69ee30d12c052d0fadcdc5834e18e16abfaae066"
+      },
+      "gold": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-0.gold.i32",
+        "bytes": 1333216,
+        "sha256": "bb800bca696cdb734b7459b68a43df66d44a3cb38481a39a90c585e76f950520"
+      },
+      "indices": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-0.indices.u32",
+        "bytes": 1333216,
+        "sha256": "fd0c7727e92b7dbd2432683d2cdd24248ff426021ff0018038d82941125d3556"
+      },
+      "stem": "build/exp553/trace-0"
+    },
+    {
+      "number": 1,
+      "rows": 333385,
+      "pairs": 59904,
+      "min_pair_rows": 1,
+      "queries": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-1.queries.bin",
+        "bytes": 13335412,
+        "sha256": "20c22ef396cf963def8cce8890dec651608a76f34d7831ac4f051f4058595e21"
+      },
+      "gold": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-1.gold.i32",
+        "bytes": 1333540,
+        "sha256": "7dff9523fd885fb14b2fc42c821e95cdf87e08e6660387b65187352b43da35ea"
+      },
+      "indices": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-1.indices.u32",
+        "bytes": 1333540,
+        "sha256": "e52cdb6b77b2451e3fbe9382302fea004173309f55ed7d942906a039d5119bc3"
+      },
+      "stem": "build/exp553/trace-1"
+    },
+    {
+      "number": 2,
+      "rows": 333311,
+      "pairs": 59904,
+      "min_pair_rows": 1,
+      "queries": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-2.queries.bin",
+        "bytes": 13332452,
+        "sha256": "c153d3874bf8de543b6374b307aed605ba652321f835d2f534cec09bd5313280"
+      },
+      "gold": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-2.gold.i32",
+        "bytes": 1333244,
+        "sha256": "6d5a56bb3c198d0629ea90da3dbfb59c790d8afbec564a80667e5befd9188512"
+      },
+      "indices": {
+        "path": "../exp552/../exp552-replay-failure-01/build/exp552/trace-2.indices.u32",
+        "bytes": 1333244,
+        "sha256": "7f8e84d5058a6f2d81416b375268ce2baa31970b634f1ca8bec1db6087ea7e7a"
+      },
+      "stem": "build/exp553/trace-2"
+    }
+  ],
+  "architecture": "build/exp553/no-line-arch",
+  "rows": 1000000,
+  "mutually_disjoint": true,
+  "complete_pair_coverage_per_shard": true
+}

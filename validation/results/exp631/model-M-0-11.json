@@ -1,0 +1,26 @@
+{
+  "arm": "M",
+  "fold": 0,
+  "route": 11,
+  "trained": true,
+  "source": null,
+  "train_rows": 111996,
+  "test_rows": 55962,
+  "train_pairs": 50672,
+  "test_pairs": 36501,
+  "assets": {
+    "json": {
+      "path": "build/exp631/M-0-11.json",
+      "bytes": 16824,
+      "sha256": "875366f0fc67c26e115de46a8f0fe74179f4ab1904382c599ef4e7fe466fb4c7"
+    },
+    "binary": {
+      "path": "build/exp631/M-0-11.bin",
+      "bytes": 4020,
+      "sha256": "c86dcb2878ae3a42f54c1cb03519d8d4a1890beb6212b8be69cee04a6feb6b34"
+    },
+    "trees": 8,
+    "nodes": 248
+  },
+  "cpu_s": 2.1806842559999993
+}

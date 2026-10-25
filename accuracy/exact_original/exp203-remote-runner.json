@@ -1,0 +1,14 @@
+{
+  "experiment": 203,
+  "runner": {
+    "path": "validation/exp203_remote.sh",
+    "bytes": 5802,
+    "sha256": "3b13b6c4d2af2c14edd44fd91e6ff3eaeae5009c1c48462f7ede5ab35fd67fb9"
+  },
+  "required_compile_definition": "MADV_COLLAPSE=25",
+  "primary_source": "https://github.com/torvalds/linux/blob/master/include/uapi/asm-generic/mman-common.h",
+  "reason": "Remote Ubuntu 22.04 headers lack MADV_COLLAPSE; Linux UAPI value 25 confirmed. Frozen safe-exact code unchanged; runtime kernel handles advice. Prior compile failed before regression or new label output.",
+  "prior_runner_git": "57fea45:validation/exp203_remote.sh",
+  "sample_sha256": "090d5f4b8a4ddd02eae9003f484a60655ba5f98ecf67e4fee14545a6562cde59",
+  "model_sha256": "7fedd313cf80893da4231e0bac638c0b415011d3bd9948ba59f4e007b49aa527"
+}

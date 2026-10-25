@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "host": "lhj-R4900-G3",
+  "wall_s": 6.732498656958342,
+  "measured": "user=6.50 sys=0.21 wall=6.73 rss_kib=289848 exit=0\n"
+}

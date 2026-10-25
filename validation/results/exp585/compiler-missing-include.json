@@ -1,0 +1,22 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "tests/exp576_routed_residual.cpp",
+    "-o",
+    "build/exp585/routed-predict"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "tests/exp576_routed_residual.cpp:2:10: fatal error: exp554_real_kernel_function.cpp: No such file or directory\n    2 | #include \"exp554_real_kernel_function.cpp\"\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n"
+}

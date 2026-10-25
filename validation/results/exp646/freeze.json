@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp646/validation/exp646_asset_restore.py",
+      "bytes": 9657,
+      "sha256": "21aafa3bd95f2d00e4cd235f21130dcdf90f14a63b2d7398a146869bdbc2ef36"
+    },
+    {
+      "path": "tests/exp646_asset_restore.cpp",
+      "bytes": 3990,
+      "sha256": "c32f52b72a3abd155bfbc7aa2a40c03fa93ee7300b2e63848f012bf01ad827c0"
+    },
+    {
+      "path": "experiment/实验646-压缩资产到原INT8布局的静态启动恢复.md",
+      "bytes": 4157,
+      "sha256": "a750fcee09abd4ca5338100e16b623a88968fba3ed0d7fdd424dbec62dd7823c"
+    },
+    {
+      "path": "validation/results/exp646/protocol-original.md",
+      "bytes": 4157,
+      "sha256": "a750fcee09abd4ca5338100e16b623a88968fba3ed0d7fdd424dbec62dd7823c"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp580/validation/exp580_complete_speed.py",
+      "bytes": 8504,
+      "sha256": "bda1692a41b9c16b11517ffa78acbde40b029d718cd6b40c3b667569d759c76a"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "build/exp646/deps/libzstd.a",
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    {
+      "path": "build/exp646/deps/zstd.h",
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    },
+    {
+      "path": "build/exp646/deps/COPYRIGHT.libzstd",
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    }
+  ],
+  "models": {
+    "D64": {
+      "path": "build/exp589/D64-geometry.bin",
+      "bytes": 69303616,
+      "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+    },
+    "D96": {
+      "path": "build/exp589/D96-geometry.bin",
+      "bytes": 87295552,
+      "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+    }
+  },
+  "self_check": {
+    "modular_wraparound": true,
+    "ranks": [
+      64,
+      96
+    ]
+  },
+  "reference": {
+    "path": "build/exp640/S8",
+    "bytes": 91039000,
+    "sha256": "893d35c08ee9ec3e38f923d5e2cf64beca8acfe615d4c6ee16c280952cad28a2"
+  },
+  "previous_decision": {
+    "path": "../exp645/validation/results/exp645/decision.json",
+    "bytes": 1375,
+    "sha256": "dd70339e6a8e9f37b08e6b2366f79f8b41683623e2ced42864d8700d5216da85"
+  },
+  "compressor_version": "*** zstd command line interface 64-bits v1.4.8, by Yann Collet ***",
+  "compiler_version": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "disk_free_start_bytes": 72473448448,
+  "measured_queries": false
+}

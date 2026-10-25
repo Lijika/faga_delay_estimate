@@ -1,0 +1,65 @@
+{
+  "only_line_delays_changed": true,
+  "files": [
+    {
+      "original": {
+        "path": "doc/eda比赛文件/arch/SRB_Arc.json",
+        "bytes": 837145,
+        "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+      },
+      "ablated": {
+        "path": "build/exp553/no-line-arch/SRB_Arc.json",
+        "bytes": 837145,
+        "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+      }
+    },
+    {
+      "original": {
+        "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+        "bytes": 3969,
+        "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+      },
+      "ablated": {
+        "path": "build/exp553/no-line-arch/SRB_Gap.json",
+        "bytes": 3959,
+        "sha256": "ac008920989cb2486b2b6ec0a1e953390cc0f3b8eaf914637bf7a6e366f91a12"
+      }
+    },
+    {
+      "original": {
+        "path": "doc/eda比赛文件/arch/SRB_Inst.json",
+        "bytes": 4266018,
+        "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+      },
+      "ablated": {
+        "path": "build/exp553/no-line-arch/SRB_Inst.json",
+        "bytes": 4266018,
+        "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+      }
+    },
+    {
+      "original": {
+        "path": "doc/eda比赛文件/arch/SRB_Net.json",
+        "bytes": 21062,
+        "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+      },
+      "ablated": {
+        "path": "build/exp553/no-line-arch/SRB_Net.json",
+        "bytes": 21062,
+        "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+      }
+    },
+    {
+      "original": {
+        "path": "doc/eda比赛文件/arch/SRB_Port.json",
+        "bytes": 31858,
+        "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+      },
+      "ablated": {
+        "path": "build/exp553/no-line-arch/SRB_Port.json",
+        "bytes": 31858,
+        "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+      }
+    }
+  ]
+}

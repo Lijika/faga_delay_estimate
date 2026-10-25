@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rows": 479232,
+  "port_pairs": 59904,
+  "rows_per_pair": 8,
+  "unique_requests": 479232,
+  "weighted_accuracy_pp": 98.65904797906295,
+  "weight_sum": 1000000000.0,
+  "stratified_standard_error_pp": 0.003644263619090022,
+  "source_pin_seen_rows": 37264,
+  "exact_generation_rerun": false,
+  "predictions_from_original_complete_exp688_run": true
+}

@@ -1,0 +1,30 @@
+{
+  "arm": "TW32",
+  "fold": 1,
+  "route": 14,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 32,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 9618,
+  "port_pairs": 8852,
+  "model": {
+    "path": "build/exp593/TW32-1-14.json",
+    "bytes": 13666,
+    "sha256": "ee3f6b1b3210aa75e79edc03855c5c178dc97e88c162407acf8b5758d4a10a7d"
+  },
+  "cpu_s": 0.10850201700000639,
+  "wall_s": 0.10852611297741532,
+  "offline_only": true
+}

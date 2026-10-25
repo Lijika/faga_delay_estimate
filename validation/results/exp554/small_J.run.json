@@ -1,0 +1,28 @@
+{
+  "name": "small_J",
+  "command": [
+    "build/exp554/predict",
+    "build/exp554/features.f32",
+    "build/exp554/folds.u8",
+    "build/exp554/small_J-0.bin",
+    "build/exp554/small_J-1.bin",
+    "build/exp554/small_J-2.bin",
+    "build/exp554/small_J.independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.510366,
+  "wall_s": 0.5278987411875278,
+  "rss_bytes": 1287450624,
+  "threads": 1,
+  "counters": {
+    "rows": 1000000,
+    "threads": 1,
+    "comparisons": 99369042
+  },
+  "output": {
+    "path": "build/exp554/small_J.independent.f32",
+    "bytes": 4000000,
+    "sha256": "0497316dbd734f129436534bef986315f3c3f6270f3b426b7df666fa05f0b257"
+  },
+  "bitwise_equal": true
+}

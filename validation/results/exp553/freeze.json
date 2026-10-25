@@ -1,0 +1,277 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp553/validation/exp553_no_line.py",
+      "bytes": 17998,
+      "sha256": "453a0aed4f4b625b5222930a4eda3e49135a410f69526d282484df4d35be977d"
+    },
+    {
+      "path": "tests/exp553_no_line_paths.cpp",
+      "bytes": 9387,
+      "sha256": "560af6ee062d91abfd4cc78c2119272a710798fcc7a50551a1b172db8b5b81f1"
+    },
+    {
+      "path": "validation/results/exp553/protocol-original.md",
+      "bytes": 5048,
+      "sha256": "20d1bfb36b3b5b1a81a12a6011580c0370b03728dc2907f6f5ef8d74d1477a3c"
+    },
+    {
+      "path": "validation/exp535_real_map.py",
+      "bytes": 19095,
+      "sha256": "813cd1c938252760a43904094091d38c372c3c286e7914a1e8ff45fc32f5ccce"
+    },
+    {
+      "path": "validation/exp536_first_net.py",
+      "bytes": 17525,
+      "sha256": "b5a373e6f52f4d4c1137ee9b6e6d6d1a0c170d3cc37a34de354214506cb97a28"
+    },
+    {
+      "path": "validation/exp549_complementarity.py",
+      "bytes": 13617,
+      "sha256": "32b1aeaffc7811b867767734de2b309958e22b4a14a122c2d03e30c74bcee270"
+    },
+    {
+      "path": "validation/exp552_real_paths.py",
+      "bytes": 29147,
+      "sha256": "044dbaf6d27298b10ac1e983d907f5c4fa2e1a3891d77c930c5beb36f011a922"
+    },
+    {
+      "path": "validation/exp208_nominal_parent_tree.py",
+      "bytes": 26843,
+      "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+    },
+    {
+      "path": "../exp500/validation/results/exp500-preparation/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "../exp501/validation/results/exp501/report.json",
+      "bytes": 2447,
+      "sha256": "6938f738db9ffb71d0f60ebbf07cd36291b2fac2fc3a3f418d18e5e107220d16"
+    },
+    {
+      "path": "../exp502/validation/results/exp502/report.json",
+      "bytes": 3572,
+      "sha256": "f4d17a3e6433f17db39a042dbbe9908905bf65333a45a3eba4521aa32aa00ad8"
+    },
+    {
+      "path": "../exp536/build/exp536/events.i32",
+      "bytes": 36000000,
+      "sha256": "710a781b2b093bd1a867c24218c14875e6aa0414a7c18455f7494f02ee182538"
+    },
+    {
+      "path": "../exp536/build/exp536/predictions.i32",
+      "bytes": 24000000,
+      "sha256": "2ea01e1153869a10169fd2226d94b71e4e92579f02b3847c3a5caab76064b32b"
+    },
+    {
+      "path": "build/exp552/trace/exp147_orbit_access.cpp",
+      "bytes": 27310,
+      "sha256": "b433cb497d8beb81b70cd99c30fd4b9807c1e832a7b3e510e627c5baf10f24cd"
+    },
+    {
+      "path": "build/exp552/trace/scaffold.cpp",
+      "bytes": 10252,
+      "sha256": "1b9602ee949182aa97f1b0b0274ae492117e65fbfcaed1bfb25a101239144843"
+    },
+    {
+      "path": "build/exp552/trace/src/architecture.cpp",
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    {
+      "path": "build/exp552/trace/src/architecture.h",
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    {
+      "path": "build/exp552/trace/src/bias_correction.h",
+      "bytes": 2416,
+      "sha256": "eeffffe4703d68c2e14822bca61082b0f35dda294d4e5e72a4ef7054edea0b8f"
+    },
+    {
+      "path": "build/exp552/trace/src/csv.h",
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    {
+      "path": "build/exp552/trace/src/embedded_arch.cpp",
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    {
+      "path": "build/exp552/trace/src/embedded_arch.h",
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    {
+      "path": "build/exp552/trace/src/embedded_residue.h",
+      "bytes": 2287,
+      "sha256": "3ec8598d4180198ce49c28224f094899a09cdabb1360806d5cf1b4f8992a7d75"
+    },
+    {
+      "path": "build/exp552/trace/src/embedded_templates.h",
+      "bytes": 3042,
+      "sha256": "0c8ce73f4fb6e2db87c4b28eed0da9d1b263fc49cfe51668e99ad568a890b66f"
+    },
+    {
+      "path": "build/exp552/trace/src/fast_estimator.cpp",
+      "bytes": 18070,
+      "sha256": "ca8c3609b5e1812c953ea5e7ca5e4e0d5f98d2576d7056a112b2a2ab4be5b0fb"
+    },
+    {
+      "path": "build/exp552/trace/src/fast_estimator.h",
+      "bytes": 4238,
+      "sha256": "4070f7ac68be948a5b90b3dd93d1ef3a9e7bd55a24a082397adf504bc7579cf5"
+    },
+    {
+      "path": "build/exp552/trace/src/hybrid_estimator.h",
+      "bytes": 3217,
+      "sha256": "8b714f798e5e58d2ccb1f332adf55ce922b39bc45c9171b9425b84134fcab3d8"
+    },
+    {
+      "path": "build/exp552/trace/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    {
+      "path": "build/exp552/trace/src/main.cpp",
+      "bytes": 33578,
+      "sha256": "b5091a0dd8f2b34adc13aa31997424bcbf81ca060d39f55705117ceb054727d6"
+    },
+    {
+      "path": "build/exp552/trace/src/pattern_database.h",
+      "bytes": 20223,
+      "sha256": "ab57e90eaed93d1eb2bf0ce7013ee0e8cdc43726ae0ae60564f22ee06c913dd8"
+    },
+    {
+      "path": "build/exp552/trace/src/query_cache.h",
+      "bytes": 2568,
+      "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386"
+    },
+    {
+      "path": "build/exp552/trace/src/residue_estimator.cpp",
+      "bytes": 50739,
+      "sha256": "db3628a038fecb8c15e78f1f645fea3ca8428ddf879f804ee296a5ae84432993"
+    },
+    {
+      "path": "build/exp552/trace/src/residue_estimator.h",
+      "bytes": 20291,
+      "sha256": "7992e96b2c15e50d0d8bc967503ce8b2deb67be8f55f4ff0a93e539c15f901f5"
+    },
+    {
+      "path": "build/exp552/trace/src/router.cpp",
+      "bytes": 22079,
+      "sha256": "87b1a6598727d18aa14a7b509ecb53f3868f1c6774447d460cb0910e5c9a3101"
+    },
+    {
+      "path": "build/exp552/trace/src/router.h",
+      "bytes": 10927,
+      "sha256": "3e9f2b8d1002281ae5a21eefb9cb6976061332766f955c01772f8788ddb788a8"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual.h",
+      "bytes": 7543,
+      "sha256": "a57a0fae44b162b9689f5d5ec9f49193aa7637b35a863e664b282c567f9cf164"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base.h",
+      "bytes": 1917,
+      "sha256": "4be6d41e800f59d94492e230e96693ef7d459118a03644ffe9b75e09f7a46e92"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base47.h",
+      "bytes": 2109,
+      "sha256": "c634d84c77560a3a332c80eb9463e86e8e544ccdf84179280fac42aaf63c2d80"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base47_fast.h",
+      "bytes": 739,
+      "sha256": "d92a67df30cc74324fb65b3258b49fec20d97dbfcb70e7bf3b7625535c066684"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base47_fast_model.h",
+      "bytes": 10164410,
+      "sha256": "1e96563432104b87a16901b95469cb9b266c2d1bf4a69825f73afd78de2a8919"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base47_model.h",
+      "bytes": 384571,
+      "sha256": "afb318fc50b3b394dab2c16fc0c8c68ea23328dbbb6a3f1ad846b8babe386810"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_base_model.h",
+      "bytes": 47096,
+      "sha256": "8db2cf586822cf870adaa561ffbc496e74fb298a12f4ad46e03d4e6427163cbe"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_bounds.h",
+      "bytes": 1707,
+      "sha256": "627aaa9d0e7a57d03e2f17000533f55685b3ee932f360fb55dbf6a770cc0ffec"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_bounds_model.h",
+      "bytes": 46977,
+      "sha256": "6286deb164030b04aea3cda48c00b6499eb20cf18821945b8cb4b87182a7c378"
+    },
+    {
+      "path": "build/exp552/trace/src/xgb_residual_model.h",
+      "bytes": 47465,
+      "sha256": "8b3087ae61167211053f3bf9cdd991848352b2351dc46cb849e5f943ad6e5fc2"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp552/build/exp552/components.i32",
+      "bytes": 24000000,
+      "sha256": "a1b41e83774ecf2a5426e2e8751948c8b1ca41c0bd80a3f55dc4918c7660acdb"
+    },
+    {
+      "path": "../exp552/build/exp552/summary.i32",
+      "bytes": 32000000,
+      "sha256": "0c8f4652e3f7016b7ab09f3a426e51a4aa86b5d21e392d883f3dd21583e1a060"
+    },
+    {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    {
+      "path": "../exp501/build/exp501/exact.csv",
+      "bytes": 72686142,
+      "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+    },
+    {
+      "path": "../exp502/build/exp502/C1.csv",
+      "bytes": 40136506,
+      "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+    }
+  ],
+  "seed": 20261020553,
+  "draws": 2000,
+  "disk_free_start": 25087787008
+}

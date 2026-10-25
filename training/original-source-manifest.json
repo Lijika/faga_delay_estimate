@@ -1,0 +1,782 @@
+[
+  {
+    "source": "tests/exp167_explicit_path_directory.cpp",
+    "published": "training/original/tests/exp167_explicit_path_directory.cpp",
+    "bytes": 11680,
+    "sha256": "6ba7c1f36eeb679d8a8e593f7d2e4143e47bb0fc1dcce76bad5519a4235a4d8e"
+  },
+  {
+    "source": "tests/exp198_mapped_parent_paths.cpp",
+    "published": "training/original/tests/exp198_mapped_parent_paths.cpp",
+    "bytes": 12923,
+    "sha256": "5a304c5398f0f8f4935f65654e9aff4e5b48f879edfd8fc1333273fc64653bf3"
+  },
+  {
+    "source": "tests/exp208_nominal_parent_tree_2400.cpp",
+    "published": "training/original/tests/exp208_nominal_parent_tree_2400.cpp",
+    "bytes": 15556,
+    "sha256": "e0697e9b5420d4ee3b5a355816ef698a3d78ce9a0dfda23b96e4a606ce7c1c41"
+  },
+  {
+    "source": "tests/exp462_unique_stream.cpp",
+    "published": "training/original/tests/exp462_unique_stream.cpp",
+    "bytes": 8219,
+    "sha256": "60b8d711f7b7edc8788b81f2dfcb3a6655ae28b63702679be09aa87ddb93427e"
+  },
+  {
+    "source": "tests/exp483_role_field.cpp",
+    "published": "training/original/tests/exp483_role_field.cpp",
+    "bytes": 7613,
+    "sha256": "0e73e8993973e0dd32fe6b7ad20436a5622d814930be96696b16ad67c980cb47"
+  },
+  {
+    "source": "tests/exp499_full_residue_field.cpp",
+    "published": "training/original/tests/exp499_full_residue_field.cpp",
+    "bytes": 3855,
+    "sha256": "de2418df1f8202ded90753ed4b2f8851dad4f495c802cf97e0f5300a2e0ff89d"
+  },
+  {
+    "source": "tests/exp500_stream_decode.cpp",
+    "published": "training/original/tests/exp500_stream_decode.cpp",
+    "bytes": 7243,
+    "sha256": "161140e02dfb782d3f170bbf5fba5d2417693d5e9693ed86303bedb530807199"
+  },
+  {
+    "source": "tests/exp510_stream_decode.cpp",
+    "published": "training/original/tests/exp510_stream_decode.cpp",
+    "bytes": 8668,
+    "sha256": "c4efa2e46842c111645cf61005d4961615c9b696609843044b409f2aec92ad6b"
+  },
+  {
+    "source": "tests/exp535_real_map.cpp",
+    "published": "training/original/tests/exp535_real_map.cpp",
+    "bytes": 3872,
+    "sha256": "0ff4fe8e3e08c42e274c389f69b2a0afbf537b4e5f5fce4b414f2f9d90532e46"
+  },
+  {
+    "source": "tests/exp552_real_paths.cpp",
+    "published": "training/original/tests/exp552_real_paths.cpp",
+    "bytes": 8827,
+    "sha256": "200749310a1124a862b5caa72ae517cf577f73b33f4b6e78000ca9a9dbb7b5e7"
+  },
+  {
+    "source": "tests/exp554_real_kernel_function.cpp",
+    "published": "training/original/tests/exp554_real_kernel_function.cpp",
+    "bytes": 4050,
+    "sha256": "c351737cc4af04035b66c9c6c138aad1d6b524886ed27a0d4cda7d52fc834554"
+  },
+  {
+    "source": "tests/exp556_trend_decode.cpp",
+    "published": "training/original/tests/exp556_trend_decode.cpp",
+    "bytes": 2524,
+    "sha256": "131b644200df3d261697329aefd1f94e0cc4af906eea877ad385dd7e404ea96d"
+  },
+  {
+    "source": "tests/exp557_geometry_decode.cpp",
+    "published": "training/original/tests/exp557_geometry_decode.cpp",
+    "bytes": 4069,
+    "sha256": "a6a6a70e9fe70fb269610fa4772aafc006788b624732ee7f166dac40f0662c8c"
+  },
+  {
+    "source": "tests/exp567_leaf_decode.cpp",
+    "published": "training/original/tests/exp567_leaf_decode.cpp",
+    "bytes": 3493,
+    "sha256": "995cfe415becf7681c64599084e48b0dafac87a1a32c172b9ca814a30c84dee0"
+  },
+  {
+    "source": "tests/exp575_geometry_decode.cpp",
+    "published": "training/original/tests/exp575_geometry_decode.cpp",
+    "bytes": 5350,
+    "sha256": "38af0b74b61c324207830520858b2b00405f51229ce5361590afda736ae88e85"
+  },
+  {
+    "source": "tests/exp576_routed_residual.cpp",
+    "published": "training/original/tests/exp576_routed_residual.cpp",
+    "bytes": 4025,
+    "sha256": "2412c864ec3eb0063b28579eb52e6150e8665263d8fe0248997710da0db263d6"
+  },
+  {
+    "source": "tests/exp579_complete_candidate.cpp",
+    "published": "training/original/tests/exp579_complete_candidate.cpp",
+    "bytes": 12285,
+    "sha256": "a3949ad9552dde0743a9b31dd3c456c223f179c8b8c3470ff7756f7277b44e18"
+  },
+  {
+    "source": "tests/exp580_port_parser.h",
+    "published": "training/original/tests/exp580_port_parser.h",
+    "bytes": 3313,
+    "sha256": "aac53261d4974d933edd8b2d605949125a31486ee9ed7432edeefb2cb2682dd8"
+  },
+  {
+    "source": "tests/exp582_int8_geometry.h",
+    "published": "training/original/tests/exp582_int8_geometry.h",
+    "bytes": 3891,
+    "sha256": "aa225b83365fa576b9cc71f863c1095de7f367ac90af5067c9db6a535c6963c2"
+  },
+  {
+    "source": "tests/exp595_static_geometry.h",
+    "published": "training/original/tests/exp595_static_geometry.h",
+    "bytes": 2813,
+    "sha256": "13f036ae69a4c525094a41a37b941a179535dcb8818f6e74e748ef28d27a261b"
+  },
+  {
+    "source": "tests/exp614_geometry_features.h",
+    "published": "training/original/tests/exp614_geometry_features.h",
+    "bytes": 1852,
+    "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+  },
+  {
+    "source": "tests/exp615_phase_codes.cpp",
+    "published": "training/original/tests/exp615_phase_codes.cpp",
+    "bytes": 3032,
+    "sha256": "247c33c427823caf35727730eea68d3f8c76d4c9b78537cbcf3fcf11d6366d2e"
+  },
+  {
+    "source": "tests/exp615_phase_lookup.h",
+    "published": "training/original/tests/exp615_phase_lookup.h",
+    "bytes": 959,
+    "sha256": "6d578ed071d2cc5e6180def3eba4db990f20b9be690a70540aabb608f0e80773"
+  },
+  {
+    "source": "tests/exp619_phase_codes.cpp",
+    "published": "training/original/tests/exp619_phase_codes.cpp",
+    "bytes": 2341,
+    "sha256": "cd66ff31758fff743c55fd6ee14c2494c91cf207efeed74f4ccadc7b0593070f"
+  },
+  {
+    "source": "tests/exp619_phase_lookup.h",
+    "published": "training/original/tests/exp619_phase_lookup.h",
+    "bytes": 995,
+    "sha256": "56b8c8225f9cc816c9bf1da3cc2800c1926d9bd2172106b92e08cbb1b39bf4f8"
+  },
+  {
+    "source": "tests/exp631_event_route.h",
+    "published": "training/original/tests/exp631_event_route.h",
+    "bytes": 1220,
+    "sha256": "c291612aa7abbb5e26ba2d80487df89281625df7dd832ff24f270f18149ceee2"
+  },
+  {
+    "source": "tests/exp646_asset_restore.cpp",
+    "published": "training/original/tests/exp646_asset_restore.cpp",
+    "bytes": 3990,
+    "sha256": "c32f52b72a3abd155bfbc7aa2a40c03fa93ee7300b2e63848f012bf01ad827c0"
+  },
+  {
+    "source": "tests/exp649_geometry_restore.h",
+    "published": "training/original/tests/exp649_geometry_restore.h",
+    "bytes": 1243,
+    "sha256": "0186c2b6e8623e663e99ceee2a465a103df11c98f2ea76aaf9a316fe3ffe11f5"
+  },
+  {
+    "source": "tests/exp652_distance_curve_lookup.h",
+    "published": "training/original/tests/exp652_distance_curve_lookup.h",
+    "bytes": 1094,
+    "sha256": "9e6cf25f0b8e5b9f657fcbbd196c8cf0195eb1611aec8071777f1cbaf366702f"
+  },
+  {
+    "source": "tests/exp654_distance_curve_bytes.h",
+    "published": "training/original/tests/exp654_distance_curve_bytes.h",
+    "bytes": 1181,
+    "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+  },
+  {
+    "source": "tests/exp679_hv_events.h",
+    "published": "training/original/tests/exp679_hv_events.h",
+    "bytes": 573,
+    "sha256": "fa991b15864e9f11e06cddaf663e1cbe97c60680d1ebf04de80f2dce7cfc37e4"
+  },
+  {
+    "source": "tests/exp684_hv_events.h",
+    "published": "training/original/tests/exp684_hv_events.h",
+    "bytes": 495,
+    "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+  },
+  {
+    "source": "tests/exp704_port_decoder.cpp",
+    "published": "training/original/tests/exp704_port_decoder.cpp",
+    "bytes": 2553,
+    "sha256": "486feeff87a863c033cfbc368c46c7c9afdb7a94d402153ce01210a6894ec5df"
+  },
+  {
+    "source": "tests/periodic_theory_probe.cpp",
+    "published": "training/original/tests/periodic_theory_probe.cpp",
+    "bytes": 59537,
+    "sha256": "a0290642c7e7a09c408e72780128687b5dc2e6728400b45d6d16176eca345d4a"
+  },
+  {
+    "source": "validation/exp129_zstd_capacity.cpp",
+    "published": "training/original/validation/exp129_zstd_capacity.cpp",
+    "bytes": 3977,
+    "sha256": "733a96b95cf05f53a99b2072ee16dd3a33934b6008b7a43aa6a799b3aefdad07"
+  },
+  {
+    "source": "validation/exp198_mapped_parent.py",
+    "published": "training/original/validation/exp198_mapped_parent.py",
+    "bytes": 9837,
+    "sha256": "21dd8fff54802eae656e5415b03df6b49d4bf558f3e069a9b8d3214766604077"
+  },
+  {
+    "source": "validation/exp208_nominal_parent_tree.py",
+    "published": "training/original/validation/exp208_nominal_parent_tree.py",
+    "bytes": 26843,
+    "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+  },
+  {
+    "source": "validation/exp413_affine_tail.py",
+    "published": "training/original/validation/exp413_affine_tail.py",
+    "bytes": 9248,
+    "sha256": "8cd3b14a4b85aee68c6a27e3c71f207cdf4b1527cd49806eba3f1b7b24d3a6ea"
+  },
+  {
+    "source": "validation/exp416_geometry_residual.py",
+    "published": "training/original/validation/exp416_geometry_residual.py",
+    "bytes": 4999,
+    "sha256": "c2bd874b7a4c9d3fc1c690db6c86de090677108e637aa277fcde6f9a69f48cc2"
+  },
+  {
+    "source": "validation/exp417_first_net.py",
+    "published": "training/original/validation/exp417_first_net.py",
+    "bytes": 7949,
+    "sha256": "df8ca7bc77187ee693daf9baa0d7182d8a5a1b2df3dbb0850f82314c7a6e0c94"
+  },
+  {
+    "source": "validation/exp462_unique_1b.py",
+    "published": "training/original/validation/exp462_unique_1b.py",
+    "bytes": 18519,
+    "sha256": "3e70ba9c650290ca5478c6364dc00f6aacb7907201ce4f6de873e9ba788e588e"
+  },
+  {
+    "source": "validation/exp482_full_role_baseline.py",
+    "published": "training/original/validation/exp482_full_role_baseline.py",
+    "bytes": 13475,
+    "sha256": "1d841d224ee93ccee68c3d8c34e2dee63cd7a4f3266a4a294b86171bade06222"
+  },
+  {
+    "source": "validation/exp499_full_residues.py",
+    "published": "training/original/validation/exp499_full_residues.py",
+    "bytes": 11209,
+    "sha256": "69395f3524fb1bc351f731b94a16f0a3b0452f3aebe9044100903b237ded0561"
+  },
+  {
+    "source": "validation/exp500_evaluate.py",
+    "published": "training/original/validation/exp500_evaluate.py",
+    "bytes": 19160,
+    "sha256": "0cfd39b79f824ce71a1d1bd58bfdf731b7eb7f8e8bbef169bb11524262eb9bb8"
+  },
+  {
+    "source": "validation/exp500_split_residues.py",
+    "published": "training/original/validation/exp500_split_residues.py",
+    "bytes": 11943,
+    "sha256": "f5721a2370a704d65d80a4a2dd3ae4600d59d730e7afa59a293841b24015d8af"
+  },
+  {
+    "source": "validation/exp501_fresh_full_labels.py",
+    "published": "training/original/validation/exp501_fresh_full_labels.py",
+    "bytes": 12292,
+    "sha256": "2ab485b36229fec9be2d504f019d5bbbbe00a9025677fc8855ad756c128c08e9"
+  },
+  {
+    "source": "validation/exp504_tail_rectangles.py",
+    "published": "training/original/validation/exp504_tail_rectangles.py",
+    "bytes": 5812,
+    "sha256": "b4059c621bb66c919ec8df72c7138c357784fb2c5a8c7fa8ec874100b1d99501"
+  },
+  {
+    "source": "validation/exp510_pair_geometry.py",
+    "published": "training/original/validation/exp510_pair_geometry.py",
+    "bytes": 11076,
+    "sha256": "5dcd8bbdaba5f428ef7f34edf297c9380d549755f10dedcfedc86208c932e62d"
+  },
+  {
+    "source": "validation/exp535_evidence_check.py",
+    "published": "training/original/validation/exp535_evidence_check.py",
+    "bytes": 5494,
+    "sha256": "5acdb148a0cd691b03017e0269484e44ffbd73854fcc6c283422099ebfda9769"
+  },
+  {
+    "source": "validation/exp535_real_map.py",
+    "published": "training/original/validation/exp535_real_map.py",
+    "bytes": 19095,
+    "sha256": "813cd1c938252760a43904094091d38c372c3c286e7914a1e8ff45fc32f5ccce"
+  },
+  {
+    "source": "validation/exp549_complementarity.py",
+    "published": "training/original/validation/exp549_complementarity.py",
+    "bytes": 13617,
+    "sha256": "32b1aeaffc7811b867767734de2b309958e22b4a14a122c2d03e30c74bcee270"
+  },
+  {
+    "source": "validation/exp554_evidence_check.py",
+    "published": "training/original/validation/exp554_evidence_check.py",
+    "bytes": 4294,
+    "sha256": "d312700822cb11635d3b604353b8d33728dbb46d77f23aee6f7fda1c47179ece"
+  },
+  {
+    "source": "validation/exp554_real_kernel_function.py",
+    "published": "training/original/validation/exp554_real_kernel_function.py",
+    "bytes": 21715,
+    "sha256": "fe8de74eb4453cc62fa455cc3f412199027b64b20b7b103034a007c88185ea92"
+  },
+  {
+    "source": "validation/exp556_xgb_residual.py",
+    "published": "training/original/validation/exp556_xgb_residual.py",
+    "bytes": 21425,
+    "sha256": "0fbc66973bda9db18f6bbd31e41377abbbb9900415ba6022e44704bc616fa0e5"
+  },
+  {
+    "source": "validation/exp557_conditional_geometry.py",
+    "published": "training/original/validation/exp557_conditional_geometry.py",
+    "bytes": 12034,
+    "sha256": "7fe3978cc02a2a70ec10018c3dc26cad608d2a3173e4aef553b4dda796032500"
+  },
+  {
+    "source": "validation/exp557_evaluate.py",
+    "published": "training/original/validation/exp557_evaluate.py",
+    "bytes": 19750,
+    "sha256": "e56198b193b732b124be5f5f539b8cde83fd222267dd64d6cea57cff0439dbd2"
+  },
+  {
+    "source": "validation/exp567_evaluate.py",
+    "published": "training/original/validation/exp567_evaluate.py",
+    "bytes": 15753,
+    "sha256": "87dd27ab8ddf65856740cf53d641df571fcffd7b07bbae93cc196b74a6b37f9e"
+  },
+  {
+    "source": "validation/exp567_leaf_aggregate.cpp",
+    "published": "training/original/validation/exp567_leaf_aggregate.cpp",
+    "bytes": 943,
+    "sha256": "107daf7695e820eabd1cff8a4d47669b73e85fedc9f9e7432600336f7cbd6933"
+  },
+  {
+    "source": "validation/exp567_leaf_dictionary.py",
+    "published": "training/original/validation/exp567_leaf_dictionary.py",
+    "bytes": 10587,
+    "sha256": "064a345a841a49f06f22f86fd87a8f841df76d157caa9c8f8aa3d7822910f7b9"
+  },
+  {
+    "source": "validation/exp568_additive_geometry.py",
+    "published": "training/original/validation/exp568_additive_geometry.py",
+    "bytes": 12206,
+    "sha256": "a954ff7c8f87534ac3166db315b5e5d2c26a1f68f88c60caefad8a2cd273591d"
+  },
+  {
+    "source": "validation/exp569_joint_geometry.py",
+    "published": "training/original/validation/exp569_joint_geometry.py",
+    "bytes": 14405,
+    "sha256": "5160134ac59cf9f05df2d3b0fd4badac6c6344bbfe410ce2fa9c06808f47ade4"
+  },
+  {
+    "source": "validation/exp571_local_subspaces.py",
+    "published": "training/original/validation/exp571_local_subspaces.py",
+    "bytes": 14513,
+    "sha256": "a0e7a97c7c16391ada91392669dd0c2d03bae1a2d83e6227e250b1da06483df3"
+  },
+  {
+    "source": "validation/exp571_resume.py",
+    "published": "training/original/validation/exp571_resume.py",
+    "bytes": 5165,
+    "sha256": "5f71c2bf085fac4b78a27c6c8da46b3f8c9012ee30bebb1915c4c9b216c47ffc"
+  },
+  {
+    "source": "validation/exp571_sampling_diagnostic.py",
+    "published": "training/original/validation/exp571_sampling_diagnostic.py",
+    "bytes": 3483,
+    "sha256": "ed1a9abf4d10919c00c77734cd058e008a00575e72de423ed2c3a6c96d288910"
+  },
+  {
+    "source": "validation/exp571_saved_evidence.py",
+    "published": "training/original/validation/exp571_saved_evidence.py",
+    "bytes": 8376,
+    "sha256": "7fd5cf2878e6263c08a6e79d07e45619007ddf89bf9d3f7297cb7a1c82fc9a29"
+  },
+  {
+    "source": "validation/exp575_distance_budget.py",
+    "published": "training/original/validation/exp575_distance_budget.py",
+    "bytes": 9456,
+    "sha256": "601af468c7a1f77dc556ddd74db1f26d627ba4f8dddf2840fb09e0c0db079264"
+  },
+  {
+    "source": "validation/exp575_evaluate.py",
+    "published": "training/original/validation/exp575_evaluate.py",
+    "bytes": 12109,
+    "sha256": "c44e3f216a241d4e345363932b352334269c96ab975306a4b34c7ded7475dd93"
+  },
+  {
+    "source": "validation/exp575_saved_evidence.py",
+    "published": "training/original/validation/exp575_saved_evidence.py",
+    "bytes": 8424,
+    "sha256": "b06d53a73bf8684dce25f5f6566d7a0721a86c3d52472d9723914170d00752bf"
+  },
+  {
+    "source": "validation/exp576_routed_residual.py",
+    "published": "training/original/validation/exp576_routed_residual.py",
+    "bytes": 17020,
+    "sha256": "94226a5702118f9d449bf827132f973605caf3b456beb898d26fad0b81c565a6"
+  },
+  {
+    "source": "validation/exp579_complete_candidate.py",
+    "published": "training/original/validation/exp579_complete_candidate.py",
+    "bytes": 24505,
+    "sha256": "6ae708b5a9bae771b6041c00d1835dbba46759dc78771e4a5349d5f3fac1110f"
+  },
+  {
+    "source": "validation/exp580_complete_speed.py",
+    "published": "training/original/validation/exp580_complete_speed.py",
+    "bytes": 8504,
+    "sha256": "bda1692a41b9c16b11517ffa78acbde40b029d718cd6b40c3b667569d759c76a"
+  },
+  {
+    "source": "validation/exp582_int8_geometry.py",
+    "published": "training/original/validation/exp582_int8_geometry.py",
+    "bytes": 16333,
+    "sha256": "bd96716ec0a7e94d35a5f38bea6fe09ad49c8a334cf7ca3d8f98097206258dcc"
+  },
+  {
+    "source": "validation/exp585_teacher_distillation.py",
+    "published": "training/original/validation/exp585_teacher_distillation.py",
+    "bytes": 16427,
+    "sha256": "5bc0b982d4def4ed99193edb667fab4862401ddc6dbb41ca90481d520b974ae3"
+  },
+  {
+    "source": "validation/exp586_complete_candidate.py",
+    "published": "training/original/validation/exp586_complete_candidate.py",
+    "bytes": 16489,
+    "sha256": "b2891f85ad71446f03a1f418a12722592f00157f9237a7cab1962b6eaa440792"
+  },
+  {
+    "source": "validation/exp586_near_capacity.py",
+    "published": "training/original/validation/exp586_near_capacity.py",
+    "bytes": 3833,
+    "sha256": "5fa34d631bf19f240901d3b18b5b48c8fe483390c0f86fc05414b0791d9a2237"
+  },
+  {
+    "source": "validation/exp587_background_adaptation.py",
+    "published": "training/original/validation/exp587_background_adaptation.py",
+    "bytes": 14556,
+    "sha256": "d3f56322c7c8800817570b457585fb73e097c43538685b7953cc6e09b3ac4b58"
+  },
+  {
+    "source": "validation/exp589_complete_candidate.py",
+    "published": "training/original/validation/exp589_complete_candidate.py",
+    "bytes": 16557,
+    "sha256": "c6dce6daafe1bea3555643e2584de383a0546e66bfa304aed5b9d12db87e8468"
+  },
+  {
+    "source": "validation/exp589_directional_far.py",
+    "published": "training/original/validation/exp589_directional_far.py",
+    "bytes": 5097,
+    "sha256": "caf3694c8afb2e8636c23a174d1932919d15bcfdc2eebd9730009296103d804e"
+  },
+  {
+    "source": "validation/exp590_metric_diagnosis.py",
+    "published": "training/original/validation/exp590_metric_diagnosis.py",
+    "bytes": 11981,
+    "sha256": "505bd3145c31f994f90eedfebdee0a3e5fb45cf4b2c9abe17d394db5a8b7dcde"
+  },
+  {
+    "source": "validation/exp592_xgb_audit.py",
+    "published": "training/original/validation/exp592_xgb_audit.py",
+    "bytes": 13767,
+    "sha256": "da17bb631d5d2ca82aeeaf593aecc845fa940b52e2c8dbd38eeacd967753ab90"
+  },
+  {
+    "source": "validation/exp593_target_support.py",
+    "published": "training/original/validation/exp593_target_support.py",
+    "bytes": 11225,
+    "sha256": "64878b1efb36a0832232d164308c569561f2dcf5dccb4eecb018d0eef1e68d4f"
+  },
+  {
+    "source": "validation/exp602_package.py",
+    "published": "training/original/validation/exp602_package.py",
+    "bytes": 5881,
+    "sha256": "d08ff003148414d3a5eafae477d8ab8c508d418a7069e82e30119d572e114f4a"
+  },
+  {
+    "source": "validation/exp603_rank_cost.py",
+    "published": "training/original/validation/exp603_rank_cost.py",
+    "bytes": 12184,
+    "sha256": "e37148b8b24f58db08218f2282209c0f3681a25b11dbc70cb750b283f52f7ce3"
+  },
+  {
+    "source": "validation/exp614_gemini_features.py",
+    "published": "training/original/validation/exp614_gemini_features.py",
+    "bytes": 16043,
+    "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+  },
+  {
+    "source": "validation/exp615_complete_candidate.py",
+    "published": "training/original/validation/exp615_complete_candidate.py",
+    "bytes": 12027,
+    "sha256": "20a65c66cb8e0ba4a6cf702fe217c94c1030d348250406db5f3b52f5fbee04ca"
+  },
+  {
+    "source": "validation/exp615_phase_codes.py",
+    "published": "training/original/validation/exp615_phase_codes.py",
+    "bytes": 18557,
+    "sha256": "8a133a6c0e3ffe02858243ae642556a469939c2ce0ea08a59aaedb9d276897c6"
+  },
+  {
+    "source": "validation/exp619_complete_candidate.py",
+    "published": "training/original/validation/exp619_complete_candidate.py",
+    "bytes": 12556,
+    "sha256": "864d3d2695d11f0470b79c93103c533ef01771eab66f15a2c59139b1f0940137"
+  },
+  {
+    "source": "validation/exp619_scalar_phase.py",
+    "published": "training/original/validation/exp619_scalar_phase.py",
+    "bytes": 11019,
+    "sha256": "cd72f8fe5b67e6cf78c128f9b39b8ed9fbb9c7eb3e0356ecbab5c5ef9959c83f"
+  },
+  {
+    "source": "validation/exp620_frozen_q4.py",
+    "published": "training/original/validation/exp620_frozen_q4.py",
+    "bytes": 12782,
+    "sha256": "ad0309a952e74d5344ba6d26cc2274d855e1aaa54cc150dc730d7ab87ef83552"
+  },
+  {
+    "source": "validation/exp622_r8_specialization.py",
+    "published": "training/original/validation/exp622_r8_specialization.py",
+    "bytes": 19923,
+    "sha256": "4c65d86d98dc74e78d34cba323f0aa279feec70ddc49ccf528a7b92333cbfd42"
+  },
+  {
+    "source": "validation/exp623_leaf_calibration.py",
+    "published": "training/original/validation/exp623_leaf_calibration.py",
+    "bytes": 17437,
+    "sha256": "be07d8ff8482221bd6a0123109a7109b3a3bf2493f98fa06968c6d168a8f133e"
+  },
+  {
+    "source": "validation/exp624_fresh_leaf_validation.py",
+    "published": "training/original/validation/exp624_fresh_leaf_validation.py",
+    "bytes": 14343,
+    "sha256": "6e39ed6fe105b76a8f83e5934a6bcbf4c4915fe036453160a24158c3c7875c0e"
+  },
+  {
+    "source": "validation/exp631_event_experts.py",
+    "published": "training/original/validation/exp631_event_experts.py",
+    "bytes": 13984,
+    "sha256": "e0281d1c5af1669fc29e84a36217a394cb0a6d8ca3135177fab2576076a55cb6"
+  },
+  {
+    "source": "validation/exp639_fused_axis.py",
+    "published": "training/original/validation/exp639_fused_axis.py",
+    "bytes": 14859,
+    "sha256": "6646a69afd83ecef3b45015bcfb1b34ab5e1bfa893f588401edacbed97b609e7"
+  },
+  {
+    "source": "validation/exp640_symmetric_cli.py",
+    "published": "training/original/validation/exp640_symmetric_cli.py",
+    "bytes": 15434,
+    "sha256": "7147f3e2719a1999d736a0588f763ce6fa03631dca4934d0d5041e080c14f561"
+  },
+  {
+    "source": "validation/exp640_symmetric_residual.py",
+    "published": "training/original/validation/exp640_symmetric_residual.py",
+    "bytes": 11617,
+    "sha256": "ab35fde1eb0bd004625c3c2fcb2f60d0773963ce61d71484a503fb93bda61e89"
+  },
+  {
+    "source": "validation/exp640_symmetric_timing.py",
+    "published": "training/original/validation/exp640_symmetric_timing.py",
+    "bytes": 5710,
+    "sha256": "c1cb69da06b365e5050f3b5b8c5d3fc2b0ce7eb64d9f218a293a0a422d47c7bb"
+  },
+  {
+    "source": "validation/exp642_fresh_symmetric.py",
+    "published": "training/original/validation/exp642_fresh_symmetric.py",
+    "bytes": 23262,
+    "sha256": "1ceafd7f8da442922c1febbda3778a2edefaea9927beb850c3b18838164052ee"
+  },
+  {
+    "source": "validation/exp646_asset_restore.py",
+    "published": "training/original/validation/exp646_asset_restore.py",
+    "bytes": 9657,
+    "sha256": "21aafa3bd95f2d00e4cd235f21130dcdf90f14a63b2d7398a146869bdbc2ef36"
+  },
+  {
+    "source": "validation/exp650_curve_assign.cpp",
+    "published": "training/original/validation/exp650_curve_assign.cpp",
+    "bytes": 3876,
+    "sha256": "566aa6e0cad849b3c5d5c247761b592b6698d8fb604c735c40f4d23c1bdd936e"
+  },
+  {
+    "source": "validation/exp650_distance_curves.py",
+    "published": "training/original/validation/exp650_distance_curves.py",
+    "bytes": 15342,
+    "sha256": "ef9545a24b94ee2082983000cdd1158ba9d9d927f877b393759e069a3a48da87"
+  },
+  {
+    "source": "validation/exp651_full_distance_curves.py",
+    "published": "training/original/validation/exp651_full_distance_curves.py",
+    "bytes": 22339,
+    "sha256": "8d0ef4d25fffb9032b9f874a86ef1ff99e04d9dce25f1469d53abd76edcc1fb6"
+  },
+  {
+    "source": "validation/exp652_curve_cli.py",
+    "published": "training/original/validation/exp652_curve_cli.py",
+    "bytes": 10692,
+    "sha256": "27c6657afa71bda0bf594f9caf887fad7db1d7a899d6f60e1d588ddf3240cb0d"
+  },
+  {
+    "source": "validation/exp652_curve_scale.py",
+    "published": "training/original/validation/exp652_curve_scale.py",
+    "bytes": 18342,
+    "sha256": "a438987599a9ff17575fafbe28d25e82abeaf447692c48ab7065739ce3bf7920"
+  },
+  {
+    "source": "validation/exp654_curve_bytes.py",
+    "published": "training/original/validation/exp654_curve_bytes.py",
+    "bytes": 11017,
+    "sha256": "f6795e42d5872ea500c60f45cd860f2ee84e5aa86eb515c33feed9130dfaa5ee"
+  },
+  {
+    "source": "validation/exp663_sample_groups.cpp",
+    "published": "training/original/validation/exp663_sample_groups.cpp",
+    "bytes": 1976,
+    "sha256": "7d8118c2c08fc30ba1979c4e2e8de83e7ded559c3b82187d5339a9b379321403"
+  },
+  {
+    "source": "validation/exp677_map_events.py",
+    "published": "training/original/validation/exp677_map_events.py",
+    "bytes": 12796,
+    "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+  },
+  {
+    "source": "validation/exp677_run.sh",
+    "published": "training/original/validation/exp677_run.sh",
+    "bytes": 974,
+    "sha256": "e6bcf6116005f836995f4f944baebfb6b9e78d6e8d306e742b37dcb5e34323ff"
+  },
+  {
+    "source": "validation/exp678_hv_replacement.py",
+    "published": "training/original/validation/exp678_hv_replacement.py",
+    "bytes": 13700,
+    "sha256": "77579ec452b7753622eb75e19a11466f6e584ba8b271fcadfb358b8fc96a80bd"
+  },
+  {
+    "source": "validation/exp678_run.sh",
+    "published": "training/original/validation/exp678_run.sh",
+    "bytes": 570,
+    "sha256": "0d473e8e05ffe02536ec1e945f31e2f2d89d9d8d926b01d42227b32f1cd01534"
+  },
+  {
+    "source": "validation/exp679_hv_cli.py",
+    "published": "training/original/validation/exp679_hv_cli.py",
+    "bytes": 21067,
+    "sha256": "e72b8a8b0e394b362aa15dc1640ba62730f6375398326459a770b4476c521086"
+  },
+  {
+    "source": "validation/exp679_hv_scale.py",
+    "published": "training/original/validation/exp679_hv_scale.py",
+    "bytes": 15925,
+    "sha256": "2bf8521ea3e68f2023f0f94cd21ecf082cd884f0791c794acfbafc2e14af8ee2"
+  },
+  {
+    "source": "validation/exp679_run.sh",
+    "published": "training/original/validation/exp679_run.sh",
+    "bytes": 695,
+    "sha256": "05ed78f5f58483222cebcffc1990ab4899bd701693ddaee3448b31f44594e0bb"
+  },
+  {
+    "source": "validation/exp683_archived_sample.py",
+    "published": "training/original/validation/exp683_archived_sample.py",
+    "bytes": 4671,
+    "sha256": "37590bdbdb2c5d4200e84d57cab24b4094d2c4ea0a37bb2f4eb75377be9ee7e7"
+  },
+  {
+    "source": "validation/exp683_exact_audit.py",
+    "published": "training/original/validation/exp683_exact_audit.py",
+    "bytes": 3682,
+    "sha256": "62c85785241eaa8520479dd1c7804f2e679d75d2ab08112a6f905eaae6e8003c"
+  },
+  {
+    "source": "validation/exp683_expanded_exact.py",
+    "published": "training/original/validation/exp683_expanded_exact.py",
+    "bytes": 14181,
+    "sha256": "cd3a40465ea89e9b10fcf61aea30d9d2d015509c1c45e85222509a52b13a3080"
+  },
+  {
+    "source": "validation/exp683_expanded_score.py",
+    "published": "training/original/validation/exp683_expanded_score.py",
+    "bytes": 15346,
+    "sha256": "ed21f1bb5a1fad098c898a09dcc4f123e79ba0a97149b52d06cdb71a41f9f367"
+  },
+  {
+    "source": "validation/exp683_stratified_sample.cpp",
+    "published": "training/original/validation/exp683_stratified_sample.cpp",
+    "bytes": 5039,
+    "sha256": "9d06f837dc9794eb4edcbad4294428eef1d5ff2f223cba382de2ec24cac938ac"
+  },
+  {
+    "source": "validation/exp684_event_prefix.py",
+    "published": "training/original/validation/exp684_event_prefix.py",
+    "bytes": 8819,
+    "sha256": "8172133a135ad9a0ad18db757fea981821e4c1ffc96c82fed962d21d422efdd8"
+  },
+  {
+    "source": "validation/exp684_run.sh",
+    "published": "training/original/validation/exp684_run.sh",
+    "bytes": 655,
+    "sha256": "ce171b78f23f7de02b93a18181e9261f481263df3c52bfd06785ac2397f915ed"
+  },
+  {
+    "source": "validation/exp685_close_audit.py",
+    "published": "training/original/validation/exp685_close_audit.py",
+    "bytes": 6714,
+    "sha256": "9b25b0c5b9ecc30bc1abe125c8e0cc7a304c7c07beeaae92cdef497449b3a339"
+  },
+  {
+    "source": "validation/exp685_data_run.sh",
+    "published": "training/original/validation/exp685_data_run.sh",
+    "bytes": 585,
+    "sha256": "23565fd9e9c993968fe5c10e50f91f36af688f41f05facd8143050aaefe1dbcd"
+  },
+  {
+    "source": "validation/exp685_event_data.py",
+    "published": "training/original/validation/exp685_event_data.py",
+    "bytes": 8478,
+    "sha256": "043f4638ff6f42806f4ac86a16286cfa2773e9f23310f17833ac982782a1f988"
+  },
+  {
+    "source": "validation/exp685_event_scale.py",
+    "published": "training/original/validation/exp685_event_scale.py",
+    "bytes": 14096,
+    "sha256": "3ee30f4a703597ea487d64a62524a4673d7ee8a99da7e592608f739d6771a064"
+  },
+  {
+    "source": "validation/exp685_scale_run.sh",
+    "published": "training/original/validation/exp685_scale_run.sh",
+    "bytes": 920,
+    "sha256": "825ad567b4abe3f881f40360fff9c9188a6ae95295bca5aa2cdbe05b7b051614"
+  },
+  {
+    "source": "validation/exp686_event_boundary.py",
+    "published": "training/original/validation/exp686_event_boundary.py",
+    "bytes": 9777,
+    "sha256": "1091474ef4b8d45dfeda128eaea6434a45b32befa8aca2fad22ec81c3e1eeb15"
+  },
+  {
+    "source": "validation/exp704_direct_port.py",
+    "published": "training/original/validation/exp704_direct_port.py",
+    "bytes": 9486,
+    "sha256": "3fd7f59c2b0c32204879c609b9dcdbd213f0fe898b46cc799e201a40c30ab511"
+  },
+  {
+    "source": "validation/exp705_matched_positions.py",
+    "published": "training/original/validation/exp705_matched_positions.py",
+    "bytes": 15958,
+    "sha256": "48b0c547f2aabdd491b19b726a9d5bf0ceb3e5ef26960c11872a001c7e153f43"
+  },
+  {
+    "source": "validation/exp706_package.py",
+    "published": "training/original/validation/exp706_package.py",
+    "bytes": 8041,
+    "sha256": "529654f45177621a18670baf9e8797f07fdb891820fcf5c5eb6ba26e6213925e"
+  },
+  {
+    "source": "validation/exp706_release.py",
+    "published": "training/original/validation/exp706_release.py",
+    "bytes": 11451,
+    "sha256": "590865724c69c2d481782314d6e77d1af731006a426a3ec4cfe515cf6225dace"
+  }
+]

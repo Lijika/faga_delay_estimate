@@ -1,0 +1,15 @@
+{
+  "profile": "U-role",
+  "rows": 1000000000,
+  "bytes": 35197849579,
+  "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474",
+  "endpoint_rule": "uniform valid tile and concrete port proposals; reachable; directed unique; From != To",
+  "proposal_seed": 2026101202,
+  "shuffle_seed": 2026101302,
+  "proposed_rows": 1017454020,
+  "rejected_self_rows": 48,
+  "rejected_unreachable_rows": 17451627,
+  "duplicate_proposals": 2345,
+  "duplicate_rows": 0,
+  "unique_rows": 1000000000
+}

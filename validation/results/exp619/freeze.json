@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp619/validation/exp619_scalar_phase.py",
+      "bytes": 11019,
+      "sha256": "cd72f8fe5b67e6cf78c128f9b39b8ed9fbb9c7eb3e0356ecbab5c5ef9959c83f"
+    },
+    {
+      "path": "tests/exp619_phase_codes.cpp",
+      "bytes": 2341,
+      "sha256": "cd66ff31758fff743c55fd6ee14c2494c91cf207efeed74f4ccadc7b0593070f"
+    },
+    {
+      "path": "tests/exp619_phase_lookup.h",
+      "bytes": 995,
+      "sha256": "56b8c8225f9cc816c9bf1da3cc2800c1926d9bd2172106b92e08cbb1b39bf4f8"
+    },
+    {
+      "path": "experiment/实验619-有限周期残量的四位标量量化.md",
+      "bytes": 4834,
+      "sha256": "3f170defeed9f14e094f86dca205499dbef8c9d5f67c1dbda750f9fd2d447e2d"
+    },
+    {
+      "path": "validation/results/exp619/protocol-original.md",
+      "bytes": 4834,
+      "sha256": "3f170defeed9f14e094f86dca205499dbef8c9d5f67c1dbda750f9fd2d447e2d"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp615/validation/exp615_phase_codes.py",
+      "bytes": 18557,
+      "sha256": "8a133a6c0e3ffe02858243ae642556a469939c2ce0ea08a59aaedb9d276897c6"
+    },
+    {
+      "path": "../exp615/build/exp615/P.p5",
+      "bytes": 17971217,
+      "sha256": "250f5175785d61479064ba03ee73fd7fdd5a64a93a32c6a674f61323d758f62a"
+    },
+    {
+      "path": "../exp616/validation/results/exp616/diagnostic.json",
+      "bytes": 2655,
+      "sha256": "f89e6094a49296bf544616c0d4bfbdeaa0307cbd9d3b0a1985002ed1b1a88127"
+    }
+  ],
+  "source": {
+    "path": "../exp615/build/exp615/P.p5",
+    "bytes": 17971217,
+    "sha256": "250f5175785d61479064ba03ee73fd7fdd5a64a93a32c6a674f61323d758f62a"
+  },
+  "baseline_head": "841fc74f",
+  "seed": 20261023619,
+  "disk_free_start": 39390519296
+}

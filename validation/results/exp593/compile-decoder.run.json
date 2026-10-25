@@ -1,0 +1,25 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "../exp587/tests/exp576_routed_residual.cpp",
+    "-o",
+    "build/exp593/routed-predict"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.5310579999999999,
+  "wall_s": 0.5320973538327962,
+  "rss_bytes": 532099072,
+  "threads": 1,
+  "stderr": "validation/results/exp593/compile-decoder.stderr"
+}

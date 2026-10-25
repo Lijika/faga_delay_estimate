@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "compiled": true,
+  "help_verified": true,
+  "full_fields_regenerated": false,
+  "self_check_rerun": false,
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "binary_sha256": "2a6e6c9d2576d20195e36fa53a91e778c980974eeb469c656fa2132958198eac",
+  "compiler_warning": "GCC 13 range-loop-copy in unchanged historical code",
+  "source": "nominal_source/build.sh",
+  "complete_estimator_runs": 0
+}

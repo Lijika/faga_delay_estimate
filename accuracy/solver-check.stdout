@@ -1,0 +1,5 @@
+labels_progress rows=256 known_checks=244 span_checks=12
+labels_progress rows=512 known_checks=500 span_checks=12
+labels_progress rows=768 known_checks=756 span_checks=12
+labels_progress rows=1024 known_checks=1012 span_checks=12
+labels_done rows=1035 known_checks=1022 span_checks=13 threads=1

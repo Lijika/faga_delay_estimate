@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "rows": 333385,
+  "hops": 7717608,
+  "independent_closed_form_replay": true,
+  "all_exact_and_summary_checks": true,
+  "assets": [
+    {
+      "path": "build/exp553/trace-1.lengths.u32",
+      "bytes": 1333540,
+      "sha256": "e77604f6335d7259c7bb036698dcd1851b2e48b52890d16e3b95208923d4b0c7"
+    },
+    {
+      "path": "build/exp553/trace-1.words.u8",
+      "bytes": 7717608,
+      "sha256": "eb4715611dbe239e884f55543b46b72cb2328e9cbb55e6954db3d44ef21e135c"
+    },
+    {
+      "path": "build/exp553/trace-1.summary.i32",
+      "bytes": 10668320,
+      "sha256": "dcf6f9f7461475483f10b9632080e8a966c784acb32a8b3f33b62618bcaf9565"
+    }
+  ]
+}

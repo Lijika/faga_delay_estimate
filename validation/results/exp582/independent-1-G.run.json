@@ -1,0 +1,15 @@
+{
+  "command": [
+    "../exp581/build/exp581/G",
+    "-in",
+    "../exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "build/exp582/independent-1-G.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.451943,
+  "wall_s": 0.45245304284617305,
+  "rss_bytes": 468721664,
+  "threads": 1,
+  "stderr": "validation/results/exp582/independent-1-G.stderr"
+}

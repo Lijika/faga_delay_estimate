@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp589/development-4-D96.csv",
+    "bytes": 40136210,
+    "sha256": "11dec6c6e9c51307cbd5fd66c1f61b804935616c80ee2f2c81ebaaa6ca5d1d64"
+  },
+  "identical_to": {
+    "path": "build/exp589/development-0-D96.csv",
+    "bytes": 40136210,
+    "sha256": "11dec6c6e9c51307cbd5fd66c1f61b804935616c80ee2f2c81ebaaa6ca5d1d64"
+  },
+  "rebuild_command": [
+    "build/exp589/D96",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp589/development-4-D96.csv"
+  ]
+}

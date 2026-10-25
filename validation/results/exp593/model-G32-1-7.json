@@ -1,0 +1,30 @@
+{
+  "arm": "G32",
+  "fold": 1,
+  "route": 7,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 32,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 112034,
+  "port_pairs": 50696,
+  "model": {
+    "path": "build/exp593/G32-1-7.json",
+    "bytes": 14944,
+    "sha256": "3c7e3ec3a9b755b9bd1619a39dd18e05657fa6350dd6a56f6ed7e05f5c3b2124"
+  },
+  "cpu_s": 0.8986029379999962,
+  "wall_s": 0.8986838951241225,
+  "offline_only": true
+}

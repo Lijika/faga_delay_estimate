@@ -1,0 +1,39 @@
+{
+  "independent_run": {
+    "command": [
+      "build/exp585/routed-predict",
+      "build/exp585/features.f32",
+      "build/exp585/folds.u8",
+      "build/exp585/routes.u8",
+      "build/exp585/T128-models.txt",
+      "build/exp585/T128-independent.f32"
+    ],
+    "exit_code": 0,
+    "cpu_s": 5.912893,
+    "wall_s": 5.9138100480195135,
+    "rss_bytes": 490860544,
+    "threads": 1,
+    "stderr": "validation/results/exp585/T128-independent.stderr"
+  },
+  "counters": {
+    "rows": 1000000,
+    "port_pairs": 59904,
+    "groups": 16,
+    "threads": 1,
+    "kernel_allocations": 0,
+    "comparisons": 764761887,
+    "kernel_cpu_s": 5.741592399
+  },
+  "complete_bitwise_equal": true,
+  "predictions": {
+    "path": "build/exp585/T128-prediction.i32",
+    "bytes": 4000000,
+    "sha256": "3b506d00a0171847b9d5967bc592f850ff569101303c4b60ea681f0180b5e550"
+  },
+  "raw": {
+    "path": "build/exp585/T128-raw.f32",
+    "bytes": 4000000,
+    "sha256": "e59b0e8a414f0543c8c2c565349f050df0b649dea39b9bb37be625667d0266ea"
+  },
+  "reused_after_summary_failure": true
+}

@@ -1,0 +1,30 @@
+{
+  "arm": "K1",
+  "fold": 2,
+  "route": 12,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 4039,
+  "port_pairs": 3898,
+  "model": {
+    "path": "build/exp593/K1-2-12.json",
+    "bytes": 15993,
+    "sha256": "0a949c14bdd95b2db8805c4f5e2d3a4226ad2d545070336eaa35f5e4b40e3fe6"
+  },
+  "cpu_s": 0.05432692500000158,
+  "wall_s": 0.05434359214268625,
+  "offline_only": true
+}

@@ -1,0 +1,70 @@
+{
+  "N512": {
+    "run": {
+      "command": [
+        "build/exp586/N512-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp586/N512-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.46646,
+      "wall_s": 0.46822334988974035,
+      "rss_bytes": 352612352,
+      "threads": 1,
+      "stderr": "validation/results/exp586/audit-N512.stderr"
+    },
+    "trace": {
+      "path": "build/exp586/N512-trace.bin",
+      "bytes": 240000000,
+      "sha256": "a5edaf47be7bce6f40c6d281ac12e1b5062b1316b2ac9fe66ad40e8427c16b4e"
+    },
+    "expected": {
+      "path": "build/exp586/N512-expected.i32",
+      "bytes": 4000000,
+      "sha256": "3e498cfe056f7c0502393907d58c6a686b08bab0afa2fe1b423c9324052ae37c"
+    },
+    "bitwise_response": true,
+    "bitwise_features": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "port_pairs": 59904,
+    "rows": 1000000,
+    "near_rows": 60655
+  },
+  "N768": {
+    "run": {
+      "command": [
+        "build/exp586/N768-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp586/N768-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.47298999999999997,
+      "wall_s": 0.4740433238912374,
+      "rss_bytes": 673292288,
+      "threads": 1,
+      "stderr": "validation/results/exp586/audit-N768.stderr"
+    },
+    "trace": {
+      "path": "build/exp586/N768-trace.bin",
+      "bytes": 240000000,
+      "sha256": "ab86e6f146f1e2d086dcb4e75e6b16ded64022ae80a1bc14cf90156fa05793bb"
+    },
+    "expected": {
+      "path": "build/exp586/N768-expected.i32",
+      "bytes": 4000000,
+      "sha256": "37d3b0435c66ef8003a8ca60bbc8abbc31e7bb56d953996000850abaa822a878"
+    },
+    "bitwise_response": true,
+    "bitwise_features": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "port_pairs": 59904,
+    "rows": 1000000,
+    "near_rows": 60655
+  }
+}

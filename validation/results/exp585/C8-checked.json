@@ -1,0 +1,39 @@
+{
+  "independent_run": {
+    "command": [
+      "build/exp585/routed-predict",
+      "build/exp585/features.f32",
+      "build/exp585/folds.u8",
+      "build/exp585/routes.u8",
+      "build/exp585/C8-models.txt",
+      "build/exp585/C8-independent.f32"
+    ],
+    "exit_code": 0,
+    "cpu_s": 0.34654799999999997,
+    "wall_s": 0.34778510592877865,
+    "rss_bytes": 503889920,
+    "threads": 1,
+    "stderr": "validation/results/exp585/C8-independent.stderr"
+  },
+  "counters": {
+    "rows": 1000000,
+    "port_pairs": 59904,
+    "groups": 16,
+    "threads": 1,
+    "kernel_allocations": 0,
+    "comparisons": 31961273,
+    "kernel_cpu_s": 0.181549316
+  },
+  "complete_bitwise_equal": true,
+  "predictions": {
+    "path": "build/exp585/C8-prediction.i32",
+    "bytes": 4000000,
+    "sha256": "1ac2e7187017cad4047ac4f9e63c4eca1c3bb6d95005e4a9fa8322db599a2370"
+  },
+  "raw": {
+    "path": "build/exp585/C8-raw.f32",
+    "bytes": 4000000,
+    "sha256": "a2570b3d8588fdc67107958ecd06bd2c71a47192425acf6582c5540541bd04b9"
+  },
+  "reused_after_summary_failure": true
+}

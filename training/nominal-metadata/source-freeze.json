@@ -1,0 +1,73 @@
+{
+  "commit": "98f38bcc0f908dbcda3f5248c96e073442643156",
+  "files": [
+    {
+      "path": "validation/exp500_split_residues.py",
+      "bytes": 11943,
+      "sha256": "f5721a2370a704d65d80a4a2dd3ae4600d59d730e7afa59a293841b24015d8af"
+    },
+    {
+      "path": "validation/exp208_nominal_parent_tree.py",
+      "bytes": 26843,
+      "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+    },
+    {
+      "path": "experiment/\u5b9e\u9a8c500-\u5168\u7aef\u53e3\u5b8c\u6574\u4f59\u7c7b\u7684\u5206\u7ec4\u53d7\u9650\u6295\u5f71.md",
+      "bytes": 5300,
+      "sha256": "2a8aff02a4cafd1dc7553ae7f9e7bf738d873d657abd55096b4de59e070f0ca7"
+    },
+    {
+      "path": "validation/results/exp500-preparation/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "validation/results/exp500-preparation/fields.json",
+      "bytes": 287293,
+      "sha256": "fe7c99b945842f342801a3750ab5c0b600a611624d10bc8812ac2396755c1654"
+    },
+    {
+      "path": "validation/results/exp500-preparation/label-report.json",
+      "bytes": 36963,
+      "sha256": "dee867ce87b64398bfad3ecfaa63a7bae19481412a17372e2ece5a2fa92f6967"
+    }
+  ],
+  "protected": [
+    {
+      "path": "estimate",
+      "bytes": 94087824,
+      "sha256": "ff34d70a00aebda6ef2b0c554cc588501fa436bc9057df3dd6225dd1bdc339d1"
+    },
+    {
+      "path": "src/residue_estimator.cpp",
+      "bytes": 52188,
+      "sha256": "676ecf26513f2398a66e005799886de0d146221765e509eff195b149251bf732"
+    },
+    {
+      "path": "src/residue_estimator.h",
+      "bytes": 21403,
+      "sha256": "e36df9e5424599c6b88ce1ff632fa57885237aea092bcb8a9800be3e04beee2b"
+    },
+    {
+      "path": "src/xgb_residual_base47_fast.h",
+      "bytes": 1065,
+      "sha256": "0a3d62a65df8507ea35c743f9d03084c6849ca491932e3b8190c6c7df3f636de"
+    }
+  ],
+  "algorithm_test_host": "r9r4900",
+  "training_shards": {
+    "l7claude": [
+      0,
+      9
+    ],
+    "r9r4900": [
+      9,
+      18
+    ]
+  },
+  "previous_source_freeze": {
+    "path": "validation/results/exp499-preparation/source-freeze.json",
+    "bytes": 7442,
+    "sha256": "369f3fffaaf691881dc8afd87d9fecd01eacce6074d76130ebaf3684c033bd7d"
+  }
+}

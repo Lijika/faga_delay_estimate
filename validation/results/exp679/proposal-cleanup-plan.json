@@ -1,0 +1,3147 @@
+{
+  "records": [
+    {
+      "experiment": 652,
+      "cwd": "research/exp652",
+      "rebuild_command": [
+        "../../build/hidden-suite-v1/make_hidden_suite",
+        "doc/eda\u6bd4\u8d5b\u6587\u4ef6/arch",
+        "../../build/hidden-suite-v1/reach.bin",
+        "U-role",
+        "120000000",
+        "20261025652",
+        "20261026652",
+        "build/exp652/proposal"
+      ],
+      "files": [
+        {
+          "path": "research/exp652/build/exp652/proposal/accepted.bin",
+          "bytes": 1920000000,
+          "sha256": "0c944aeb815cc4afcc01571be264a79434beac7db81f73d1da5532fce51f558f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/requests.csv",
+          "bytes": 4223750680,
+          "sha256": "0f5cf922ac9b5b24c793b93dfd875a22ad172fc2038468a5c8fa6c395b8e8448",
+          "mtime_ns": 1792788541511835384
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-0.bin",
+          "bytes": 11255520,
+          "sha256": "8d83d402977ab45df77c524c8fc024a7b6788b23a9bec5610f40ab580144a44c",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-1.bin",
+          "bytes": 11250792,
+          "sha256": "40f6be932530da0fa5cfe00665c58b6f5a50457320b6d9a8a08590620b57109d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-10.bin",
+          "bytes": 11251296,
+          "sha256": "0406db96b552969a467ef60db3ea6ca379b615525e697ece87f545842f145968",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-100.bin",
+          "bytes": 11242344,
+          "sha256": "b9b4bec270363ea46decfaed93a66ecfe0540310c0017075fcefb55d40767993",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-101.bin",
+          "bytes": 11219664,
+          "sha256": "6d3d392293e19aef707ec8f1f96be70b8739ffdaa27f5892c928b7e6d823bddd",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-102.bin",
+          "bytes": 11258136,
+          "sha256": "f05a56039741f06534fc3b046c2cf7d2a17d3d4fa4ab84ede11b4f9e8b9f3fa6",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-103.bin",
+          "bytes": 11233920,
+          "sha256": "8c7f245292e9e2b6d2c779af8a07b3540a8b8922964ea79eb4de9e3007ee8e4e",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-104.bin",
+          "bytes": 11242728,
+          "sha256": "22dce2b776ca596e8b1010a9e412e3f328130fab341d98c60db9cfec2e077727",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-105.bin",
+          "bytes": 11247984,
+          "sha256": "05421333e666c1783b9d0410d6a8f63a94fb1ab694dfac587c508e529c78e574",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-106.bin",
+          "bytes": 11237352,
+          "sha256": "457b5e7313a4b53f9b25e4306c4ada284a176d6679b5fc895dd0463c609b0857",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-107.bin",
+          "bytes": 11259456,
+          "sha256": "4fd579f80826b7ca412cc76472b7a7849bf36bb5c355dcaa260b77b76a9ed8e0",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-108.bin",
+          "bytes": 11255784,
+          "sha256": "641339963cbc8c16c65d358c906edbc4e399001f0e9aa061f9b2e6e38d76201b",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-109.bin",
+          "bytes": 11279208,
+          "sha256": "93d2444c51ceb5edc0d4e1d91de1179becd2a3a815ac6e316e76b4db7568cbd0",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-11.bin",
+          "bytes": 11246208,
+          "sha256": "3b49af94fc5ba69c37d4f704dbf037ba45fb29cf9f8d00263fa9e6bad88c17c5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-110.bin",
+          "bytes": 11231472,
+          "sha256": "5b4a96baace0d8aefb6167859b886bbc61cd01b1f7e9d3b7851eeef5effb79f3",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-111.bin",
+          "bytes": 11282520,
+          "sha256": "d4029f3a836860d20761c0b52cf3ff137ec6bd99660731275fa5b887147d7f2b",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-112.bin",
+          "bytes": 11231904,
+          "sha256": "eb9f2a4da0ff9eefeb8b84376059b41a8750eef52b4c9b55ce2a1f1c4fe123d5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-113.bin",
+          "bytes": 11264736,
+          "sha256": "a5206ecefe50ae25895053f0d5a59055654a10bb0dba5a3d27f9fdb89efe338d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-114.bin",
+          "bytes": 11263344,
+          "sha256": "69a4d4f7353c6dd92f8ac45a8945ef542e9ae3840c2b79a9a0bd0828d280b7e2",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-115.bin",
+          "bytes": 11235144,
+          "sha256": "48cdf5444e2978f4fc522036c1f2bff37adfc8ebadf8ed47e527c7027c194e03",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-116.bin",
+          "bytes": 11263728,
+          "sha256": "4486c18bf07c4d75948958d72166c3488fbf847669b337c14d02356cd91df573",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-117.bin",
+          "bytes": 11275632,
+          "sha256": "c5285d0876c69f4c1afb0413eed2538a628740a04d2c5b16a6961654e6fce3f5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-118.bin",
+          "bytes": 11236392,
+          "sha256": "d21f65f442a4f995694e87161a38ccc9fb69967789ad5fecff5f3e78ce13aaff",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-119.bin",
+          "bytes": 11262600,
+          "sha256": "7a509c61104dfb7830354b55cea028a64d853bab4a202683575b41515c27a407",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-12.bin",
+          "bytes": 11253360,
+          "sha256": "15da825b43d64f3520d575e4917caab627226aa4b05d158684a7319e2950ae21",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-120.bin",
+          "bytes": 11271288,
+          "sha256": "416b3d5d9ec954b256da72949dcf1e8ce8fb3a3b337b72ea45417dcf29d69027",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-121.bin",
+          "bytes": 11287368,
+          "sha256": "f0c210da2872f77bcc657f946174da1a815b6fd9db5980ac711e017a76e5c99f",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-122.bin",
+          "bytes": 11271672,
+          "sha256": "b5602f26c6bcbd9291fe9034f415837ee03e726fa9cd622e1cc446a0af37864c",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-123.bin",
+          "bytes": 11223144,
+          "sha256": "09b91ddf039d4c1f37184fedcdacb180045ce56a9f4c632e8dc4daff74c0fae5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-124.bin",
+          "bytes": 11259936,
+          "sha256": "57c570d1fab9172a41d31f1c9b74c2de29297e5f9a4ca696a2858901f1bd0bed",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-125.bin",
+          "bytes": 11237616,
+          "sha256": "ac40f50e300a7d1b886a28cb6af038563a2873c65c6a377d7d6a318f1ef778e9",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-126.bin",
+          "bytes": 11263944,
+          "sha256": "67aafca1e03739bf3d0342103f7b049c9050ac958cff0a73b4a1ce30223ff82f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-127.bin",
+          "bytes": 11250696,
+          "sha256": "8244d73b35809760a3d890c171b25eff00e33f17faba7cd3e580d9eb8a450986",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-128.bin",
+          "bytes": 11248320,
+          "sha256": "3dca6fb6d4e807f0f9fc0f3c5794e72d19d725751e71b5446fc170729c32b9ba",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-129.bin",
+          "bytes": 11263368,
+          "sha256": "23a1a2f49e0f2871f8818dc9432f2bb761a1f2724561215eb41e4436435de0ec",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-13.bin",
+          "bytes": 11290896,
+          "sha256": "aac6e008295626bbd657a52f9865ce85fb35952bd2a2e60ceb775b11d580309d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-130.bin",
+          "bytes": 11233968,
+          "sha256": "55c15603afe73e7459a3ab654334adbf54481317e371cd165da5d54562d191be",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-131.bin",
+          "bytes": 11228208,
+          "sha256": "2f719abe4966f526d9f3cb63f48653105f38171c080e081dc1f9da7c35c93a1f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-132.bin",
+          "bytes": 11234400,
+          "sha256": "25c3dbdb866b8cf0324387135a3db0083c8eeb99605ae2d362752ee520d8cbad",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-133.bin",
+          "bytes": 11250024,
+          "sha256": "00a447d92d02aa798a03a386eab4b8a06c70e89efad20358994eb27da99b2865",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-134.bin",
+          "bytes": 11243136,
+          "sha256": "631963e3ef825a778f6cffe1dda5f8a9e7989da62585a49b8aa1366e1207a2c0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-135.bin",
+          "bytes": 11253432,
+          "sha256": "45dcd5cd7e04ca78576081aefcf4c5608ccb1c69430513e4e7e79cd313f69adc",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-136.bin",
+          "bytes": 11253240,
+          "sha256": "dc95f689e5acfc68d78ffed76ed73ca47ba80b20c40bfeee324375aeda3cab94",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-137.bin",
+          "bytes": 11273712,
+          "sha256": "e4251a0cb14add83b6a07425c07c9de84e5a95a8fac647772e7da02c5566adbb",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-138.bin",
+          "bytes": 11271360,
+          "sha256": "3ca57a63d1402cc987927fe55a098fb7bc3f295ea89fec67a0d23aafc8c344cb",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-139.bin",
+          "bytes": 11276088,
+          "sha256": "7e91cdd77a316abfae15e61133efd81b8da70ca842ed9183db5a0a6c99140413",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-14.bin",
+          "bytes": 11266824,
+          "sha256": "fb14cddfbc8a14432f2fd9a8c65895a9dc81dc255e7d11889a2e08e2cb187368",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-140.bin",
+          "bytes": 11254008,
+          "sha256": "f165eb882572e9e05654131feeefa8dad063bd2a3820f40af356f18911d0c486",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-141.bin",
+          "bytes": 11264688,
+          "sha256": "24f3dc4f933f9de026741adbf955700fff47925da6eba9ff07c9da6d54378a49",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-142.bin",
+          "bytes": 11243496,
+          "sha256": "177f1183ca1c0c22ea7f0232975c367dcb0267bd65e492e7453562e15d79e8c0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-143.bin",
+          "bytes": 11228256,
+          "sha256": "f5bbb5eb86d7c6c1d89136f88281bf9c0899ec2363aafc677bed9e7edce21d5c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-144.bin",
+          "bytes": 11232168,
+          "sha256": "ef6afac8cd6dec3155c929825959ef39c34786e6391581641456579e35ec7132",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-145.bin",
+          "bytes": 11216448,
+          "sha256": "34916159b538f2d8b819989d92455697751e5afd5c3a751e5b852facd33c28ec",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-146.bin",
+          "bytes": 11235576,
+          "sha256": "e6234d46bae29ad3eb015c2963568a189fccb27537666ed6a4b8ff7a375eceda",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-147.bin",
+          "bytes": 11250792,
+          "sha256": "7971cafb764c3e53842f94597b0821590003779ea2f190f61a617325d59f6255",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-148.bin",
+          "bytes": 11276568,
+          "sha256": "b878b6c06798ee9b42f3786275745e3f5f536712b5b778510d7877aa2a41bcef",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-149.bin",
+          "bytes": 11249448,
+          "sha256": "055ef5d0c6be8d9d2f23521a00a64363ff168246bd8be992372f6aa173765cbe",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-15.bin",
+          "bytes": 11232312,
+          "sha256": "a330fe09b916ffbbad1006ddb8cbe4107eb093b273179058891b069ba238c068",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-150.bin",
+          "bytes": 11237688,
+          "sha256": "f1fa080070152455a709c18e13dca65dcd84a3a7ec34b093a992a44e6506c452",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-151.bin",
+          "bytes": 11235600,
+          "sha256": "82efb21a6aa61e3ababb16741aaf43516ab2cd457fa1cbbfffda80a41da29792",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-152.bin",
+          "bytes": 11278512,
+          "sha256": "1ce6e4fc60a80f4c150eaa3c574a8a356abd523de05b68acb477c74faf1749bc",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-153.bin",
+          "bytes": 11227224,
+          "sha256": "a46e37834685b98ce2edc2338e0c1305b1f311593803ea09c73e5390827d69e3",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-154.bin",
+          "bytes": 11236992,
+          "sha256": "ca76f1c028d4b3cb4abd9882bd86b7759e8fa2bf751eb966b66cf52dab15e466",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-155.bin",
+          "bytes": 11253288,
+          "sha256": "fee70c93682d123c1e1c53e2a292f8642cdeaaa5554ca15e4f864a5973fe02ca",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-156.bin",
+          "bytes": 11286600,
+          "sha256": "0ae0cbf32ba13ea7d6c0137651f6cbb89279ae9fc4832d61a950f1addb5ec4a8",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-157.bin",
+          "bytes": 11281248,
+          "sha256": "29aca97ea058f0229fe08dbd3a05fa01ac65d3749dfaf29e75e14e1583c3ed25",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-158.bin",
+          "bytes": 11271168,
+          "sha256": "3ac9bc1fbd77739904d83a657fcd927c19a0b23db7c42db892d31470f7867e60",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-159.bin",
+          "bytes": 11211240,
+          "sha256": "1d7bf3db7f5b68f09751b419520a2ef3fbc79ffcf402d85618f353eefc7e8c93",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-16.bin",
+          "bytes": 11259864,
+          "sha256": "b044e81cd35e2b0470596f3d383408154c0b2376ddfdf30420097e356739cad8",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-160.bin",
+          "bytes": 11246208,
+          "sha256": "28965a1db0ed3ade6c8f6153f4cc1e8bb292aab5a7ed933c0544d79ac33b59db",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-161.bin",
+          "bytes": 11232936,
+          "sha256": "1382d330807068d78a6f212ba02a126f639f59632a1cce658ef8b32044c5e6d6",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-162.bin",
+          "bytes": 11252568,
+          "sha256": "dc0ae58876cab8e8151c2465936c549af2a3a5cdacfc6ab5e974f6ab5859821a",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-163.bin",
+          "bytes": 11235120,
+          "sha256": "d38170d110ba54b7d30e192549b6bd0940c5eadc803a12ac7c09bc0109a5ce3f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-164.bin",
+          "bytes": 11243904,
+          "sha256": "9792c7bb16eed447828c382644c35ccef32d9b6edb4eb2d74f63f1a75cbcefc0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-165.bin",
+          "bytes": 11232696,
+          "sha256": "53c0220408b549bd1dac3a2e769f06e54692f9e8dfea866ccea0490a01a2d1f1",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-166.bin",
+          "bytes": 11228400,
+          "sha256": "0f3070e5e62e4ed07bf31765e0b9270ebb6c1d05fe8e74d4e9d583a4ff42747b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-167.bin",
+          "bytes": 11217552,
+          "sha256": "63ddc3b9a01387611924998c11f038b8ff9275389f2ebd3cbd7376815f7a6a1d",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-168.bin",
+          "bytes": 11246640,
+          "sha256": "2173bc6ed9d560f0c717998dbc36ce963ae9c8fab628bd73bd7a040b91cc9b8c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-169.bin",
+          "bytes": 11232216,
+          "sha256": "1828dc7a398f61f6fedbf4f065cea1df239db4819e4858a86bed91170a693849",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-17.bin",
+          "bytes": 11259000,
+          "sha256": "4d3178907af36d54f95794e5fda7099538f7ed059b0424291192fc59a4071805",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-170.bin",
+          "bytes": 11260608,
+          "sha256": "b5e72a5a4a09aee9e5dedfe1581835c8872b147bd7d4910b1f80d37c7aa4fd3b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-171.bin",
+          "bytes": 11247528,
+          "sha256": "5f56e3ea0cc9a8c89fcefcb2b75b6fe9606205f777ec4f79f9ae6bccada81ed6",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-172.bin",
+          "bytes": 11253408,
+          "sha256": "345cf02b00188d7cc339ea155e59d3ca7e22abfa929eec44cce6f67f0ed9150d",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-173.bin",
+          "bytes": 11240064,
+          "sha256": "a94dc787a0669956eb283b665fb0eee46956686fa3fa686e967445fa48ec2fe2",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-174.bin",
+          "bytes": 11227728,
+          "sha256": "52894a4a8ded481516ece8e3098290f0fb8978e69667e3f5543a18c3afb3d51b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-175.bin",
+          "bytes": 11242872,
+          "sha256": "718438e4d70b798fb71a82fe78b9d34a8d4af69ff66a6523718d96c755b0111e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-176.bin",
+          "bytes": 11245848,
+          "sha256": "e11588284b39208dbe045e914b063b87ed4f3d87eea2845b5261f82d27d596ee",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-177.bin",
+          "bytes": 11240280,
+          "sha256": "0be6cfabf84840fe1603098369be1a79eaac94060b550bc364144e924854aced",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-178.bin",
+          "bytes": 11283456,
+          "sha256": "d71f2b0d6d787dea5a1a3be7d1f55fb2f4069e17c7cbaecf39fcfd9f6bdd4331",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-179.bin",
+          "bytes": 11206560,
+          "sha256": "2bda3bfd21ec6dfc20d46339034743e678d2633f1927b4a3e557510c09546ce3",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-18.bin",
+          "bytes": 11223960,
+          "sha256": "b0024bafddda12d2bfc4b634d1fabeb77553da58d5ac09a51734ff1293d716a9",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-180.bin",
+          "bytes": 11256168,
+          "sha256": "ca2507d7fa9b5f0247d26ea150ad50f41b788a6eab6fdac19f03cb6caa1c75a0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-181.bin",
+          "bytes": 11253096,
+          "sha256": "ba88841502affd4c9296329c76f3bae46af0aad04128e0f359fec0f204725891",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-182.bin",
+          "bytes": 11280192,
+          "sha256": "57225840d71eaca570c39c7abea8f39ba279acee49f213ea5fdc779a9c7de817",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-183.bin",
+          "bytes": 11282040,
+          "sha256": "b542403f22e5f022a92a990f7c8525886c261763c9e5e8b62e75416dbab28623",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-184.bin",
+          "bytes": 11274576,
+          "sha256": "5c80bf72bea02203e45aa41a0b75458bc765e84397ab534dd7719921fbae91aa",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-185.bin",
+          "bytes": 11254488,
+          "sha256": "cd5605c5589507ba2b6eca48e67f21649b82d71f4d9d50d9f0f34c6b8b116c3e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-186.bin",
+          "bytes": 11219352,
+          "sha256": "bd8127226477ddf575da1e6fefa67cf2d219d6cda1f3d2f1fdf5598ecab01635",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-187.bin",
+          "bytes": 11241552,
+          "sha256": "f23ce07dc30d818d39b9a915e68d0d1284a33c274941235e6a8f4ff863ccfec9",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-188.bin",
+          "bytes": 11266008,
+          "sha256": "add6e337ee9057c69ad0df5b98da26bd7e18f0cb6c73d3a504c404f39efcbee8",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-189.bin",
+          "bytes": 11250768,
+          "sha256": "0ee09bbea2c181b4938a48d0da3bf38c4eba58c0f1c99d9f76b09e5812a8e90c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-19.bin",
+          "bytes": 11221224,
+          "sha256": "cd617c85ed6a8f1b163c4f1be05e0192f47d227d3daf837a8dfe16c906f8095f",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-190.bin",
+          "bytes": 11235288,
+          "sha256": "a8a5a1cfb0e18d6c42292bba40a7675e3b10e1b7b71321deaca04044b21bcacc",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-191.bin",
+          "bytes": 11241744,
+          "sha256": "4abda2c9d601e83df050ac0e98db1f0c8d37fcc2cc945e6e8395c0078362c91c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-192.bin",
+          "bytes": 11249520,
+          "sha256": "9618e0b5eb1d217f2277541d5d2945cf73517e457f702395c81727030c97f13c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-193.bin",
+          "bytes": 11239680,
+          "sha256": "7c4587b09a7cee31d6d36429d31ad49abe67e54a1bf4dce0a72ce89553921a22",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-194.bin",
+          "bytes": 11251872,
+          "sha256": "631e83abd30c637e1b456d490e04e0765b9d80dbce1309b617d21f013143ff5c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-195.bin",
+          "bytes": 11272776,
+          "sha256": "cb1746774c7a5049f937e52b2e9b8031eb2a3fa21c6bdf4c18535804fdb2ac12",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-196.bin",
+          "bytes": 11238072,
+          "sha256": "43f47ba3fc1aa6d1cf2a8d8939142d1924ea4313e97059d53eaf9f1585cfca4e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-197.bin",
+          "bytes": 11232192,
+          "sha256": "2ddf233d93d85382b9b490138212ea7dc40ce13e5e66ac0bc4f9c498379a67be",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-198.bin",
+          "bytes": 11244432,
+          "sha256": "9e0005af4f484f06f57147b521e73563e8614b9415032ebd8d9915b9bc04105e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-199.bin",
+          "bytes": 11230608,
+          "sha256": "2c90394e7f4da66c3260667fbe3ea5eb1cfc2c4399d8db14e9a5a441d355c7b3",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-2.bin",
+          "bytes": 11231688,
+          "sha256": "96d9a884624aba9566d290406437a9c29de9200d210bc41cd6deec0d7968d071",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-20.bin",
+          "bytes": 11270184,
+          "sha256": "3923a71a4fa35e7867a55eb552e33d003e605b4b2dddbcfa61891d1c86632323",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-200.bin",
+          "bytes": 11260248,
+          "sha256": "7b9400a227889df8a9a8debecc95512afff0890c190dffe556e307488cc24601",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-201.bin",
+          "bytes": 11238648,
+          "sha256": "c10c08665147574b2b1abb1f08854c1470c8d17d6e5723d08cdaf38a3cb34829",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-202.bin",
+          "bytes": 11259408,
+          "sha256": "d2c9d7d65f9cf138c5cce4dcc6f8e702b515c2a3b9ba9db0c1ef2b3215a3ec45",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-203.bin",
+          "bytes": 11251392,
+          "sha256": "dbd63fb2aac9ec67613b2d786f87c023a5d88578e5c0daa2ff64e357d3fd7ad5",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-204.bin",
+          "bytes": 11259936,
+          "sha256": "3f35c5b0d44b9306a9155578609f3aff4ef5532d2919480de788d6cf73e20ecd",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-205.bin",
+          "bytes": 11195328,
+          "sha256": "b8351236d24b9ebe36a0ddc6e17566f622033af2af26e9b3638fbb1c3449feda",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-206.bin",
+          "bytes": 11246472,
+          "sha256": "212d08877c27a41a50c68110967e3bc45c8d4c902b3ffb2341f8d56207b64274",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-207.bin",
+          "bytes": 11269248,
+          "sha256": "01cc5a21bad4e1ea93a45bff629b06da2bea4ab94e75e5a0a2382ea27144a1ab",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-208.bin",
+          "bytes": 11260368,
+          "sha256": "440d9f9fa3aae4bb59ca71200578b0cd2d512d6a4dc451887772c19c415f8a1e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-209.bin",
+          "bytes": 11269872,
+          "sha256": "eaa76354fce7ea77b25d367b729b30cb0c9ca004b7f9b53eb5bba129361b068b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-21.bin",
+          "bytes": 11259024,
+          "sha256": "3552b5e4bf75d5894aafd93bd043af585c5f335e7ec2bdece9f39ee726f42edc",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-210.bin",
+          "bytes": 11234808,
+          "sha256": "1681e97f4f5fd3ed370e49e6a8d4e5a547a52bf3d041b1a3761d05380590530f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-211.bin",
+          "bytes": 11243016,
+          "sha256": "cd50a779303b22cd264d2fe4dfd3448b60b49fd6030e992370d96829d4731d6b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-212.bin",
+          "bytes": 11264208,
+          "sha256": "222f380a76c31b8e17110c7420a99ad3dac30715021866979f2e1b63222c439e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-213.bin",
+          "bytes": 11254704,
+          "sha256": "3b40011ca362673ad0e0020c871196b020ae4bf501f52347d68da1834af46080",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-214.bin",
+          "bytes": 11268384,
+          "sha256": "0518dd870ae0c09f2386b3daabc268eb4013391952c7a818ac157a5f5528e187",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-215.bin",
+          "bytes": 11247432,
+          "sha256": "dd56616f7c33ee87168f8a5fc2e50f9d80b22324d325f1b1378879ced90f8ce0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-216.bin",
+          "bytes": 11226384,
+          "sha256": "dfce7b7d3e0797bdf33efa4a502cd587128f6f5bcbd6d1915fa7dd2b756a6de5",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-217.bin",
+          "bytes": 11237856,
+          "sha256": "b531a536861ca5e4a47f98a6bc7a636a843e18120ea2208b9a52f0320a431354",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-218.bin",
+          "bytes": 11245080,
+          "sha256": "a5ab84eaaa2838f83945fda382d7d41bad1a93401b2425fdf02f71540cfe9fcf",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-219.bin",
+          "bytes": 11228472,
+          "sha256": "ba826b06fb57fecaca5b1c0b42b22dd3aaeef28af6d53ec5f02d316d4b84189e",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-22.bin",
+          "bytes": 11249400,
+          "sha256": "0f39c2228020c447affcad9dd8179bef58862fd21bfc019d7724466fc7179ffc",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-220.bin",
+          "bytes": 11262768,
+          "sha256": "9a5006bd31312b6ade9ff9ee73c04b3d5f3bd2659469ea1194bf1e6ce86d4b51",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-221.bin",
+          "bytes": 11256888,
+          "sha256": "f435ba9d7e69d52c26f39337e91ade39f30eddf7248e1600b449c74c412aa97b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-222.bin",
+          "bytes": 11230944,
+          "sha256": "d9c3b7f53e36b5047d0af7fd924c6137a5afce45a2b9185a001a7ad01491d00b",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-223.bin",
+          "bytes": 11251032,
+          "sha256": "4d92b43c12acbf5c65bbb5a99f7b86f36aad660b4106beebd7b02909561090c6",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-224.bin",
+          "bytes": 11257248,
+          "sha256": "a0e038ed0513b3296012f6c5d33767bbb34ea45280079b93369e3abce206b326",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-225.bin",
+          "bytes": 11250672,
+          "sha256": "9d06c2b23162bb73adbd14636afa374dfcc352a51e8abaa2851e00c1f6b28a80",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-226.bin",
+          "bytes": 11237136,
+          "sha256": "f01574b73458524ba8f3b7182b05779c8c69ff988d3a53a784d6b2ef1f500022",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-227.bin",
+          "bytes": 11258280,
+          "sha256": "f1da14b6480a39c02ca8ec5d28f5ee4ee032ff63e330321aa8ed436612a89ce9",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-228.bin",
+          "bytes": 11259072,
+          "sha256": "d91184155a0e274e7dbeddc1d94f0340a2e3bde51e6641084df03c0a84758617",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-229.bin",
+          "bytes": 11264064,
+          "sha256": "baee3023c5dfa101a0063d6ed35246fb74f0852013c97c1cbd736d00c737174a",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-23.bin",
+          "bytes": 11280432,
+          "sha256": "64b6b5bbd6d5d853595e4599b678c503cb69820278e23fc28e59ab7bb6c21474",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-230.bin",
+          "bytes": 11247072,
+          "sha256": "3bcba2eea8ef5940570e670b26f041eaf39fe10a979f2248c9d686e0db81803f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-231.bin",
+          "bytes": 11240424,
+          "sha256": "1fe5ff14b1735b8e6100a320fdb482a2a9b1d2954998a365a2e1746cb4f1296a",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-232.bin",
+          "bytes": 11243760,
+          "sha256": "14e0ecb7d52cd7636a934766676b0020227b39fa0f800be8eaa95ddb56f84dd1",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-233.bin",
+          "bytes": 11254752,
+          "sha256": "978faf9e79d85f37f12113af57710cce80c005262ba857f00b3eae730ab681f0",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-234.bin",
+          "bytes": 11239656,
+          "sha256": "d1bfd49a2ea07fac17c17b6d40e3e800a23855fc5bf6ccacb0f056aac2fcbfa5",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-235.bin",
+          "bytes": 11262072,
+          "sha256": "4eda43ddd9e553654257abc1199d888e7c6232964fa7cc41ae383edbc56e6522",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-236.bin",
+          "bytes": 11249256,
+          "sha256": "ca632cfb44730521048a65d477b34cc897f403c66528bf1892a72b0b976e9ccf",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-237.bin",
+          "bytes": 11272392,
+          "sha256": "faa44abc07f86c1b55468ef2522a41d1856fb850aa6b76de26f4c0d83e5a0c07",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-238.bin",
+          "bytes": 11266512,
+          "sha256": "3b39bdb0585e4415a8d15a5193bd4e016104a44e3d2beb0d48a441522c7ad888",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-239.bin",
+          "bytes": 11288184,
+          "sha256": "3093f545e41365b933249f67fcab2651f0de0e5174f03425857275d7e7e69ed2",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-24.bin",
+          "bytes": 11265072,
+          "sha256": "ae8da51b8545c08ff10492cd14546b6d7da3c69c63f8f0e8e55c531673953bbc",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-240.bin",
+          "bytes": 11242440,
+          "sha256": "4de8dd8608650a64e10c2ca958ec853ce78669af842e9e92e4dc0196522d6257",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-241.bin",
+          "bytes": 11257008,
+          "sha256": "6f4d41637bc27661d49b0e3fefc63af1bffd8ec3a04fb1dceadedc1b7a7d565f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-242.bin",
+          "bytes": 11241552,
+          "sha256": "13e16cd13d2879716b0ac58598c158b9971d2dd0223be9f741833b37f98e5d48",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-243.bin",
+          "bytes": 11242920,
+          "sha256": "dbf425e19ed468caa803faba84218b4afeaf15dcc9221be95a78f6687c16399f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-244.bin",
+          "bytes": 11248272,
+          "sha256": "16f5cf9bad4bb47fd3a78553b403ea40089cd133811f60a2bb6302be45299631",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-245.bin",
+          "bytes": 11263656,
+          "sha256": "3c0d2f61c9ef92440a150f3092b11cb97bc5babf69896ad623961d9e42edc51d",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-246.bin",
+          "bytes": 11258832,
+          "sha256": "a87b6896ee5fab15141828a725d1b7059879aa687cb4e174cda0d49498b1035f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-247.bin",
+          "bytes": 11247000,
+          "sha256": "f23abb60832d3d059f9ea4ab06e7b01773737263eed8443ee084e7d139a480ac",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-248.bin",
+          "bytes": 11239008,
+          "sha256": "1ee7d516c96e90540a23fc2382cf8d52d1ff69e7fa7bc3804729d5e05c4f3842",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-249.bin",
+          "bytes": 11245896,
+          "sha256": "ca49c90b929755813039ac491497b9aa3cfa4b47a424a1a243c4bc391b4df60d",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-25.bin",
+          "bytes": 11270256,
+          "sha256": "944441587f46148c8970542e19942da8dabc56e93a905625adf55f41078e866c",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-250.bin",
+          "bytes": 11220600,
+          "sha256": "fd92b9c07e249e8589a5cabb85ea6c279dcc86c2561be77d66b0ec7e33e6be80",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-251.bin",
+          "bytes": 11275752,
+          "sha256": "e72713dd6f158e012e0a01cf2a559baa9ea1028a5630677b8fda64e0297a8ff7",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-252.bin",
+          "bytes": 11221536,
+          "sha256": "7f8b79ab98a9ded8ac8617cb3d9219a9df1de2bf952a40a6772ea55faa97fb9f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-253.bin",
+          "bytes": 11235168,
+          "sha256": "38bdbdc3f1064537995e6e8ea21917a746df2073be1a3487ae7503f8cd7fb48c",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-254.bin",
+          "bytes": 11260416,
+          "sha256": "2b927427cfc4afa7f373901e39a958c88f48a9a27938239fb1dbe7d554d5527f",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-255.bin",
+          "bytes": 11229624,
+          "sha256": "5dbddb4ce872cb058dc7adc0e59adbd41f4c405c7e28f741068f2bb38aa14af6",
+          "mtime_ns": 1792788472290108414
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-26.bin",
+          "bytes": 11242776,
+          "sha256": "a776fb780eb397335882ad9c13ffe3f2dc37b639945b32f915326ee4e94ae0e0",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-27.bin",
+          "bytes": 11246064,
+          "sha256": "1fb1a6c0cafbfd8646bde98d2168ddeaf1830d49870fd2229f6f4c75b6a074fc",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-28.bin",
+          "bytes": 11250696,
+          "sha256": "5f337302adab893c53879455ba0390d3b332cf63aa1b221f3851ab6f766862d2",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-29.bin",
+          "bytes": 11247336,
+          "sha256": "c6326c014c8abff5c569101dd1c54c1289ad680fc169029ba947566c6a541372",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-3.bin",
+          "bytes": 11248512,
+          "sha256": "350116b4d458e39804049ea4e368010b9991a020b9446cddcfa0b1a9982356ad",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-30.bin",
+          "bytes": 11256984,
+          "sha256": "b636fc454ba6e82df881af99274d8fcb81130e1c046c4bef554b1b2e8a1a5c74",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-31.bin",
+          "bytes": 11269752,
+          "sha256": "bb618ae7a70ffa6a6e74b9acff209ce7959ac3f872c05b12431ffe0d9303c330",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-32.bin",
+          "bytes": 11246640,
+          "sha256": "ac9b9da3e892dd3dc15add1272deaf69c9564e708df718d597c01e0a4eb7bf19",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-33.bin",
+          "bytes": 11251464,
+          "sha256": "60b0c47d650a2ea61cc927c0a5e7498bad94c1a2c946235831e4aa2a66bbe77d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-34.bin",
+          "bytes": 11268792,
+          "sha256": "3642d5dc6bd57b8adc905185e225a6fdfe1383532d215c2759d7329be9c133a5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-35.bin",
+          "bytes": 11250072,
+          "sha256": "cf3a3a98ce281a224c7ab1b53735f611a1901412230ab9ab33ac4d97e006b06a",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-36.bin",
+          "bytes": 11243016,
+          "sha256": "e5b244544f92d313468403fd008e3497d5d122dfce403e9632e5fa3893ff04a6",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-37.bin",
+          "bytes": 11245944,
+          "sha256": "66bb9718f5b01fa4fdac78dfd132c15d48a65e92e62cf716d6a5062f7aed88eb",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-38.bin",
+          "bytes": 11250576,
+          "sha256": "d91a4e1943176e6c2ffada775b26de461902f2f58162c3881be7caca88bc0b2d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-39.bin",
+          "bytes": 11263752,
+          "sha256": "3a5f9977a8ee8ec47d17e01d9dfd07045237dfbe3d30ba87e815c9b654169a67",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-4.bin",
+          "bytes": 11254224,
+          "sha256": "245a307539981fddf884735e2b59a4f6e9a1384ae96478c94b13c5023a933579",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-40.bin",
+          "bytes": 11267064,
+          "sha256": "03074fc52fd1cf38cc6e7e54743eee45d2d36793f240aaefb6b3924ef14dd7f0",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-41.bin",
+          "bytes": 11233584,
+          "sha256": "ea9e392eab051c2d81db850c70eded2acc8090400737cff252d783cae9ae41a3",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-42.bin",
+          "bytes": 11232648,
+          "sha256": "47f39df5c4f857499b8199eeaf7be53c7b2386d5c9059f22fc00ec04c35a35a0",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-43.bin",
+          "bytes": 11243400,
+          "sha256": "714ad0806790343aca7325cb366f5ccee5fcdac7c4b0b1a74a1cb955e2d43531",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-44.bin",
+          "bytes": 11224896,
+          "sha256": "5b80787d6a2214feebaa4b3c5d3cb62e5925e6f71d982e5808418f31db56969b",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-45.bin",
+          "bytes": 11267568,
+          "sha256": "96e3bed9c94e431b104f262e70f167f1f72dee4bdf4c1cb3422bb50851d1d252",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-46.bin",
+          "bytes": 11226456,
+          "sha256": "ba73376265fe88107a03c1e42f144e7ec8ef93d9417657849b632efcf8f410df",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-47.bin",
+          "bytes": 11249136,
+          "sha256": "b8c0a9ff6f2a531653062e0cb65d96cb62efa1a986cf5d21d50756f6947f02b2",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-48.bin",
+          "bytes": 11245488,
+          "sha256": "221508ebc4b09f8da5d839cc559f939dbdc0752db9e64c7754061c3f5e740a2f",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-49.bin",
+          "bytes": 11251248,
+          "sha256": "72aaeb67a3407d5bc0c02b94f13378878e67c129f81304a61924b4560cd9fa9e",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-5.bin",
+          "bytes": 11233824,
+          "sha256": "038658ee96f2aaf8a429e1214f79c3a553ec28e02c9cc91292f374b648dd65d4",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-50.bin",
+          "bytes": 11254704,
+          "sha256": "e977db2e8acfc77672df17f2362b97b3283f55667162ba5d9b68101d411015de",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-51.bin",
+          "bytes": 11280504,
+          "sha256": "5ad7daaa7003b41ba7c133aad85db2d70033524b9fb494c5d76bcca954b352c1",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-52.bin",
+          "bytes": 11238168,
+          "sha256": "ac2b323edc9b6ad1b55cba3a9259911b7bb70dbbf5e87356215fee28df777974",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-53.bin",
+          "bytes": 11251440,
+          "sha256": "3772715cce1f3842d80a7a6a543102a158e92bd46834ae173ce1f3ba6740222e",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-54.bin",
+          "bytes": 11236152,
+          "sha256": "8a92429901a7a53b1898cafaf7b0eca6fa48459b470aaa7f45490e3540f543d9",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-55.bin",
+          "bytes": 11251536,
+          "sha256": "06f4db77ec0df768b91da7bd780e45274c8254f86a9c1df4ca72805c3d935301",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-56.bin",
+          "bytes": 11236152,
+          "sha256": "802b4d12b8a83a4102525b7f2cf835ca09970124563e6758422b32c0ff74b2cb",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-57.bin",
+          "bytes": 11244936,
+          "sha256": "a4fe8a5ce6e07ae56f0ed5c061869073bc2bf8792e3ade1d5acf90351d3a8ab5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-58.bin",
+          "bytes": 11265456,
+          "sha256": "a290fd04fb0e0f76af6f87a2a86ed6dabc60efd897e7fd0db81b596a3cf225cb",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-59.bin",
+          "bytes": 11277768,
+          "sha256": "def2526c613d7e8734d7194020cd9b614c17933e906e1e37ee0008f3d6db5a5c",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-6.bin",
+          "bytes": 11250408,
+          "sha256": "8ca31aaeb91f5d37b3fdf46ef3534b7d43fd2396b222b17ad04c15ee4dace39b",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-60.bin",
+          "bytes": 11255088,
+          "sha256": "0b4958218cd7f1549fdfd890f3ea7f48a26c7b6d48046ab58c07ecb9b12b1eed",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-61.bin",
+          "bytes": 11246448,
+          "sha256": "210e12a7d6fba7ad0e98c2727ff70f476b0726c4c9c83a4058dd87aab4c246e6",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-62.bin",
+          "bytes": 11287224,
+          "sha256": "aaed645deafb6cc40aa96f96fe6cb50fb46da4e409e7d1515f996c22eb780625",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-63.bin",
+          "bytes": 11257008,
+          "sha256": "ae0de59e698b2620629d5d8c39636ccd67290d4ad6ad34a58f3369fd7b4c27ae",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-64.bin",
+          "bytes": 11231808,
+          "sha256": "0489145050fe594f60961db997e13673ef457698db9fe4b67529e5d4bb8410b9",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-65.bin",
+          "bytes": 11215440,
+          "sha256": "c3688c0d79d3f26d2b8308862b970d35a493dba9eab1231679b9fcd4caebbd80",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-66.bin",
+          "bytes": 11274552,
+          "sha256": "4cde41ea5e8a57a78f18b6d285d3e0a59bcccfd1db78bac46a36d1882fd252e1",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-67.bin",
+          "bytes": 11243160,
+          "sha256": "c4108cc2f06c3d331f8099a5fc7258e354b5859de806f124653f53bf8be9a5d7",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-68.bin",
+          "bytes": 11245584,
+          "sha256": "c3093f0bd2a9a12254fcd83252dcb2c8995d512bf3cef751825466f6512b7219",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-69.bin",
+          "bytes": 11217120,
+          "sha256": "57cebefa4b1db00fef8a1d7a47866685d45695dc108e4f69b8d98db91a550010",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-7.bin",
+          "bytes": 11239824,
+          "sha256": "754d8fa25fcadb6ecba55a0fd37bd744672d2b200678dd337bcd6eef5c92be68",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-70.bin",
+          "bytes": 11239944,
+          "sha256": "fe5c55172b6d287a7d8ce87ed5a4cb1e594467e34a1cdfcf726bf603684e4b9e",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-71.bin",
+          "bytes": 11257104,
+          "sha256": "92512c97ec1a0b47a92063eb29880f05b29bef51a5d74ff4c8e233944b8ab928",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-72.bin",
+          "bytes": 11241696,
+          "sha256": "02aa84938558ac4d0fc6cc87040e3da7742cb0445fc352c7998235ca31a1bb84",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-73.bin",
+          "bytes": 11239488,
+          "sha256": "5df929c4bb09fd1b87cbad56a7f720927b07b1fa8939ebd167ad45772e9ee632",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-74.bin",
+          "bytes": 11250648,
+          "sha256": "9f6be53447f3cf321fb2915f076c056b543b2bed0a99a53a235fd7d07496d903",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-75.bin",
+          "bytes": 11246088,
+          "sha256": "05b514fc6a917e6768cd219d9bca3c0698d4510eabda824a6c5a031543629191",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-76.bin",
+          "bytes": 11218200,
+          "sha256": "3a50d93c62222fcd5959ecdd39469b750ac433ddabf9bc7f6e2f0323bac16faf",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-77.bin",
+          "bytes": 11229768,
+          "sha256": "c01b80be8de8376743e2f6d73bc550ef3d5eaa5cfc372da2173c218a63bf7bad",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-78.bin",
+          "bytes": 11229984,
+          "sha256": "9a98e82374f17089237096d32ab4a05f30af7d1e9ad5e81379565a34c520daf4",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-79.bin",
+          "bytes": 11253192,
+          "sha256": "20c00f9c1ca4b6cdce2e2ef5bf5ac926eb536a947667ce3067809b755a78eb11",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-8.bin",
+          "bytes": 11249784,
+          "sha256": "91096875d788884d0cf9340718e8fec4ff1ec39fbcb8bccb4fb230ea26ef8fed",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-80.bin",
+          "bytes": 11262408,
+          "sha256": "28e8413e1ec0f94c06625c11509e728a9d5b5747510977c05cbada2e13177ebb",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-81.bin",
+          "bytes": 11246448,
+          "sha256": "0db9ebe9b00f40cadadba6fca759e544d3bb69965ac82c5b83c54ecb20780645",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-82.bin",
+          "bytes": 11252304,
+          "sha256": "2841f3ecbcb600033ad44345c189b9f1a506f3d603a88afeadd4ad4aefe619e1",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-83.bin",
+          "bytes": 11243496,
+          "sha256": "e72cda2843c6ac8d3ab3f60a31d060e44ff56ce3cba0ed50760c98b058f16374",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-84.bin",
+          "bytes": 11251896,
+          "sha256": "26040ed411d054606d4580805e74d7ca557eb125188ff29502bb29fff7da25f5",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-85.bin",
+          "bytes": 11250456,
+          "sha256": "d8745058abbc59411c4076825bc7971d00159eb0ab219e795db546c169913885",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-86.bin",
+          "bytes": 11270640,
+          "sha256": "348f2e2bf6535b5e1fa89ab426c506881d822a0376a27fe4dd58b4c88b2fa04f",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-87.bin",
+          "bytes": 11267112,
+          "sha256": "53bb3ee978ae3d7f9aa36bf7154d114ff5a050651bec9e05885f3965bb8539ea",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-88.bin",
+          "bytes": 11272200,
+          "sha256": "a26c579888fa8ef8a699a64760ee624db68cb32de00f762cd37377fc0a0eb3a3",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-89.bin",
+          "bytes": 11250168,
+          "sha256": "e4b91271d3e536ff5a2342c6386cf8961c7d11d56af26baad461df647b8fb231",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-9.bin",
+          "bytes": 11293008,
+          "sha256": "d48038c32f0221dada78b30789156de0f57bd7e7f2a5c23257ed22dc85cd2236",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-90.bin",
+          "bytes": 11243064,
+          "sha256": "7f01599ffc8d048a958e090935d37c6310093b064c03c30411c59f39cc3f0a8e",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-91.bin",
+          "bytes": 11283984,
+          "sha256": "30a1ece68b7e86214c014327fa7b5796b5688173dfff352be93c24965bb475a7",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-92.bin",
+          "bytes": 11254296,
+          "sha256": "9686242761e1c30673b8ff44af957419e3812d9b14422dc78efb0329142376da",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-93.bin",
+          "bytes": 11251176,
+          "sha256": "86dde29845a96987c02b7fd13c882ce8df1eb3268f1204d636598b65924a7771",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-94.bin",
+          "bytes": 11235888,
+          "sha256": "247da4116b8b3a15ac52f7d77d4d8debc514a7bfced6498451186cdc76d0b008",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-95.bin",
+          "bytes": 11241312,
+          "sha256": "8f3d9169703c0b216233ca2f5ac3fc00ffa75c427281fe51c33b17b984cb805d",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-96.bin",
+          "bytes": 11266584,
+          "sha256": "5743ea2adea0bbc05fc24756450b8f9da077fc2a9ca66e39f779f63eff7ec3ae",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-97.bin",
+          "bytes": 11258640,
+          "sha256": "505cffd920ce92fd7a9bf3b2c94ccb25e2b5dd9724879fa82394c8e83b3d90d9",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-98.bin",
+          "bytes": 11250816,
+          "sha256": "d40a44100c4e847bf8b0c5c39d61ee947707a0c904fc0e32a997fd23f31eecf6",
+          "mtime_ns": 1792788472289108389
+        },
+        {
+          "path": "research/exp652/build/exp652/proposal/shuffle-99.bin",
+          "bytes": 11244384,
+          "sha256": "3d365d86045397b8c1b6e18102a34fd970cd36d0e19f69ba5780569a060223d1",
+          "mtime_ns": 1792788472289108389
+        }
+      ],
+      "retained": [
+        "research/exp652/build/exp652/u-role/requests.csv",
+        "research/exp652/build/exp652/proposal/generation.json"
+      ],
+      "completed_report": "research/exp652/validation/results/exp652/100m-report.json",
+      "live_reproduction_input": false
+    },
+    {
+      "experiment": 663,
+      "cwd": "research/exp663",
+      "rebuild_command": [
+        "../../build/hidden-suite-v1/make_hidden_suite",
+        "doc/eda\u6bd4\u8d5b\u6587\u4ef6/arch",
+        "../../build/hidden-suite-v1/reach.bin",
+        "U-role",
+        "120000000",
+        "20261025663",
+        "20261026663",
+        "build/exp663/proposal"
+      ],
+      "files": [
+        {
+          "path": "research/exp663/build/exp663/proposal/accepted.bin",
+          "bytes": 1920000000,
+          "sha256": "761b3a02078c2bc212723e536001e951e4d50304f3a5fb4e66c3295aab101792",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/requests.csv",
+          "bytes": 4223768272,
+          "sha256": "cc2e719263dce8269fddd7478498e2ac0c8872ef0e044e67b49c742cd9fe3054",
+          "mtime_ns": 1792800526507981111
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-0.bin",
+          "bytes": 11231904,
+          "sha256": "ca091c63792654d4522e87c5695d87eebb544ba2348334f8a45d4e954570e599",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-1.bin",
+          "bytes": 11248056,
+          "sha256": "1b54c7a85dc4037f5a4cde1471824185ac08f0df14c0550c9b19ba040881ddff",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-10.bin",
+          "bytes": 11237160,
+          "sha256": "8f91b9e11faa1c2987cfd9dd5de8609e0a014a23ca70f11725ca72348e2181e6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-100.bin",
+          "bytes": 11228976,
+          "sha256": "a4d8d983147518a9a6d6ddaa7eadee6670cec027d417888baf8f3ff89258b95d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-101.bin",
+          "bytes": 11233536,
+          "sha256": "5de059c2164cf41627542d6ae7fd9bf597ccf56daab17608c8596fc846af41e5",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-102.bin",
+          "bytes": 11234568,
+          "sha256": "fef595fd67bbf1fff01eec6fbb842725656fd0b4ccdb1bc5ba0a8c11a38203a8",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-103.bin",
+          "bytes": 11243352,
+          "sha256": "b4cefa19d0f7fa046f5453396edca90b1443c558160c6f2af8646dd8eeb11763",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-104.bin",
+          "bytes": 11237568,
+          "sha256": "30b018cc14d4e4ace1965d92c7e64ed833feff6cf764f5f313366ad3bfe53a6f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-105.bin",
+          "bytes": 11249736,
+          "sha256": "8b9f019ba734b37691a55997dcded72c1ccdae950083a1806b845fc534dd2fbc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-106.bin",
+          "bytes": 11268000,
+          "sha256": "3437413183e4ad9c5efefaca31e2580648237e420a8640aa19faa86ff0346a2b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-107.bin",
+          "bytes": 11241456,
+          "sha256": "f577a1a096a17f76ecbcad7c4c5688f35ae1ba6368cc58fe6176344c39007a35",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-108.bin",
+          "bytes": 11229696,
+          "sha256": "5bc01d0b1c6327d6a5505153dfb942fd5667e9337146abe7c30fe84d089b5ff0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-109.bin",
+          "bytes": 11230416,
+          "sha256": "cf0b984af8bfd933e6fc3d951d1cae20843fd9e6d89622230d573dcc3cddbe22",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-11.bin",
+          "bytes": 11268552,
+          "sha256": "122496338fe4a6810f6ba95581ea40cc7680706fee62ab18a8f483fc12183a9a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-110.bin",
+          "bytes": 11212296,
+          "sha256": "788cff2b676d14afe2723f758ca163ece91d451d8fd3243281e45959cdfb4f2f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-111.bin",
+          "bytes": 11220984,
+          "sha256": "439b93d62ffa092b726eb2ad97c428ccf216a2f8f9ecaedce5bb67ee2eba057b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-112.bin",
+          "bytes": 11253408,
+          "sha256": "687bc231009d8ee056d3b280f149eb58ccb1069fbdec4e2503f4b07230862421",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-113.bin",
+          "bytes": 11251392,
+          "sha256": "957c845e36e61806225177a6066b400036fb55e0f3d90d1023bd903cf8b3d143",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-114.bin",
+          "bytes": 11228808,
+          "sha256": "7f9d03c7ee92adcb126bbda4032b377d297f3964f09cc0d625a83ef726522987",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-115.bin",
+          "bytes": 11248896,
+          "sha256": "360ca1ad094246b84074cf3bbf67c9227c10446dd240b066ed7647b423cb5287",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-116.bin",
+          "bytes": 11293128,
+          "sha256": "3ca45d48bd1b8a470397102cd3107c7a88c486d3040b8f42f88aba0c40711944",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-117.bin",
+          "bytes": 11247552,
+          "sha256": "8e2c4c6503108e46c6b933c68a901a7b57b5aa2800dc886aa1fd3e178cf957d7",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-118.bin",
+          "bytes": 11262024,
+          "sha256": "e91856114c51f1bf0856e7f0f7e2322813438054d3238f964b66c7f700634e9e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-119.bin",
+          "bytes": 11238816,
+          "sha256": "1329fa164713d1e00601deb70777b3fb3e9b0adcffa12e9a77622fde396f5574",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-12.bin",
+          "bytes": 11272488,
+          "sha256": "49ac6c312eb17c59d3da9fdc730e5dc0cdff7ad597609faaf33515d2ad9eb5c6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-120.bin",
+          "bytes": 11253696,
+          "sha256": "2a5c669b655a9ece86dd29ed4c70f5e73d9bee26c4e1c40b0e97a44c42f42bc6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-121.bin",
+          "bytes": 11256096,
+          "sha256": "da401372faea519764668c98b6b86427e28857c4b83e3b011c44df267bc55d89",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-122.bin",
+          "bytes": 11239560,
+          "sha256": "e7f1065db7a05736f2724e46a894c8587fa4c4ad5de74b14efe43af2ddfe47a4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-123.bin",
+          "bytes": 11260440,
+          "sha256": "dcc220092f50d8d10c9a92929fcb44a030ee6b69f710582e0628cf0ef09a53bd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-124.bin",
+          "bytes": 11257368,
+          "sha256": "879826b22a4aec266995e000cdf997cc10e81ac277d6da559f1fbaf1e3b0e473",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-125.bin",
+          "bytes": 11283192,
+          "sha256": "8bd9cc1289a3e0dfe507e9cde40902f628b416c3341abaffd298dd6f96388e46",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-126.bin",
+          "bytes": 11240520,
+          "sha256": "68e78b72a1c43a205f9e7fa3cc570ceb236fd4479c7bdffe0409b438391f2bc2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-127.bin",
+          "bytes": 11239032,
+          "sha256": "e63f9d399f4d3ed745406b99d3e271c85feb0bca60a4f6e6066507a874f25cdc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-128.bin",
+          "bytes": 11248608,
+          "sha256": "930da1f4054a43b7812db3c8a993aab79d63d5ed03ae31e4f13ea0d01dcdbbec",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-129.bin",
+          "bytes": 11248272,
+          "sha256": "4679dad80a2d28bf2e3a993f3473018a783d4fe2d3f9178d4b3402c6a6f030d8",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-13.bin",
+          "bytes": 11247432,
+          "sha256": "ff9b90d5e8886584794dad056906cf8a72835a2d2cdf4810383069ad7f9df358",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-130.bin",
+          "bytes": 11240808,
+          "sha256": "d305242076635ff16192159a2a0e61523c523c66a01c13e7209f37ea533474a3",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-131.bin",
+          "bytes": 11254992,
+          "sha256": "f31532a9eac34fed064ce126d3611435c3e5d49d1929fdfb7ef3f6cf68e79e75",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-132.bin",
+          "bytes": 11241168,
+          "sha256": "197a19642ca54a9fd3559b30a85286f2c3d233b12ad96e63ddffa679c68ceea9",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-133.bin",
+          "bytes": 11241912,
+          "sha256": "228c83354c2133a120357586586dbb735450718c3e89695dcc9185da67ed21b9",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-134.bin",
+          "bytes": 11239392,
+          "sha256": "92e796de28ed4a68904b828ddb721cd0c457cd8af1dec1ca29226e3021ea6eac",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-135.bin",
+          "bytes": 11270808,
+          "sha256": "6cd3dc35ba1dccb024c24a304ffc715657fad07fd509f11f7708122242001fd4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-136.bin",
+          "bytes": 11288616,
+          "sha256": "2c463848b237e7707b0c8da787b7fec3c9a3ae1d88417138c43633663bc5bd95",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-137.bin",
+          "bytes": 11255040,
+          "sha256": "e771510d8986e27148c09bee0068a848a96dcd71e9f6e45ce27bf5299c709e82",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-138.bin",
+          "bytes": 11254416,
+          "sha256": "4e67fafbc9037a450bed13267fdd53c1d5609dd326c2b0dbdf8c3f48983e2a96",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-139.bin",
+          "bytes": 11258088,
+          "sha256": "1fa3bf5398c38b9b98008f52abcb850fe33deb52aa2c93bfe0b5ea714f20363f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-14.bin",
+          "bytes": 11235864,
+          "sha256": "0eee5b3453eaa22ce136471b53d93d9af0235de0fe411fb9c309dd0b03f82e37",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-140.bin",
+          "bytes": 11270544,
+          "sha256": "72d64d02a9ae7b9f389787d70da73766ad1190a03227a33f32794ce8f107a709",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-141.bin",
+          "bytes": 11235240,
+          "sha256": "dab6c6090353034f691db9a34dd8b705ca4660cf24209416cd82b116158f6be6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-142.bin",
+          "bytes": 11253984,
+          "sha256": "99f3ae782088db8d0ce1a562ed3cbd1e7c8741c779e712a6d2619c915721ea41",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-143.bin",
+          "bytes": 11219952,
+          "sha256": "075071b4f787bf097bed9f12bf49ebfcdf3ae31e8cbe6a55ef2f1e4f55d591d5",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-144.bin",
+          "bytes": 11239704,
+          "sha256": "cfaf922df3e51b99bb9e71ce5d1e1ffdec8c342491efb54cd926c18db9672e21",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-145.bin",
+          "bytes": 11227800,
+          "sha256": "ec6d302a7b648a983a49048639a852d0161174e9c0a147d7b715681de21988de",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-146.bin",
+          "bytes": 11245272,
+          "sha256": "caa44e1c225ad6895ab3f91feb34dc79cb496d3a04f67436d403610fc832229d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-147.bin",
+          "bytes": 11292720,
+          "sha256": "1a3a7065fb446aace594e447fafce6336444ece1b090da7246813b899a187eb2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-148.bin",
+          "bytes": 11246880,
+          "sha256": "c0ef9ef987ba2daf204041d500e461bb7df3a8168dbf40ac2dba9ba34a94616a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-149.bin",
+          "bytes": 11248944,
+          "sha256": "bed1b2f2b612c424474052133a9c378a275f7eab56af156c01d64005a32f100c",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-15.bin",
+          "bytes": 11230560,
+          "sha256": "dd211aaea4c1b3bd42386583fd56347050c2a431f26698db2e7dc940f80e5534",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-150.bin",
+          "bytes": 11230296,
+          "sha256": "0cc0bf0d3a7e485ddcae3d3e5af87923bc328f27dc364a8926dc0115af77492e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-151.bin",
+          "bytes": 11279616,
+          "sha256": "94223420e2355641d036d79ed0d25bbe06ae22ce472d7c5c55d4a02fe4ac37e0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-152.bin",
+          "bytes": 11246352,
+          "sha256": "093960db37b6ca6c0c4432a11b58db6f484c5c81f1cd34a47ff690d2ee0198b4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-153.bin",
+          "bytes": 11263032,
+          "sha256": "7c8a8e091fa21547626fc0425b9e63c5c17bb79bf09bce7736d5c93aaa41f0b7",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-154.bin",
+          "bytes": 11247408,
+          "sha256": "73f7f0e50f24b7167a2e56ee84e1ebbef0f694e07f489158e4b24a1f3ec0b444",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-155.bin",
+          "bytes": 11244816,
+          "sha256": "95714c82f7f59ece3a0dbc64e546ae20e74644decfc1e50dd9adb13dcc956dcf",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-156.bin",
+          "bytes": 11255280,
+          "sha256": "e397b845151a61f6f95c218dd135a9c9a23e902e3f6a6e4538f388ce5359a186",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-157.bin",
+          "bytes": 11260368,
+          "sha256": "38b7068e61ad63443d7b11023908ddfbbf87361b8b1e3563eb52669e73262b52",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-158.bin",
+          "bytes": 11231904,
+          "sha256": "627af3a634ba8d1ae1f53932ff212024ccab94b9e96259a72c94a0a6402d2732",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-159.bin",
+          "bytes": 11234160,
+          "sha256": "d5c7bded75e81b6862edbac1c27ce47cbe6952b52b709901ef7717ce1270c760",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-16.bin",
+          "bytes": 11233104,
+          "sha256": "127d62cfb2565e17953da1c4235526e9c93b854d7394dd173faaa46aa4f215de",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-160.bin",
+          "bytes": 11257296,
+          "sha256": "f8dedcf3a9264f421118890353b93df59863b5445056d8b7a3ff1a4eb16c0c74",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-161.bin",
+          "bytes": 11269416,
+          "sha256": "e0dea47d343ce9c22f5e915918e51393d7db7b52235bf3ab4fd059dfa89dfd2f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-162.bin",
+          "bytes": 11243208,
+          "sha256": "cd17f8da7e25f54f507a882a239dee5a3e20fce865b3cf1ad2ef74c98096ff50",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-163.bin",
+          "bytes": 11231040,
+          "sha256": "eca42d78fafc9ca24c3bb93cd0b6cc42c91a2e11027a6b3be61640e178397ac8",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-164.bin",
+          "bytes": 11265576,
+          "sha256": "d7aaf860698ab4442cf33a41c9bcabaef9b0919a06dcff988c10ef649211b781",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-165.bin",
+          "bytes": 11252568,
+          "sha256": "07a41b3158584873b348c81a93affe54e127e01e9e5acc8cf64cc88644b9eb56",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-166.bin",
+          "bytes": 11246112,
+          "sha256": "a2cfc07ea67425daf1000bafc0027478e458f8433a518eaa3efcce0308c98ba8",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-167.bin",
+          "bytes": 11241480,
+          "sha256": "de45dfae4c8bdbc53f86698d4abc35d13ee061eea3e5181d09dda843736c7a3a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-168.bin",
+          "bytes": 11275536,
+          "sha256": "878138ce9851dbac374bec9314445e3a5f7bae3864e044ecac2ba00b8d68346b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-169.bin",
+          "bytes": 11246976,
+          "sha256": "30d29ef302853ce68928679d6316be91995af36dcb1de094f1a9f72d5125b371",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-17.bin",
+          "bytes": 11268624,
+          "sha256": "79588951497b6bed940ffd9c5cd29310774ebb9e0130f7c264322a3af63335d2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-170.bin",
+          "bytes": 11266728,
+          "sha256": "a9f4643b10773a46e1eecf3520e10f1530b151d51bbff6acefac426b57669723",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-171.bin",
+          "bytes": 11233392,
+          "sha256": "6513d6acbe7b8907ce943b1838a1739f7869ee5df21ae221bdaeef367a1c41b2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-172.bin",
+          "bytes": 11266032,
+          "sha256": "48e16b819132db482a7bb2095ef17e83316edafacabb64f9d0a8575687ac9141",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-173.bin",
+          "bytes": 11252856,
+          "sha256": "d8cd25dfeb234570fdbcfbc7d7811a75862a39d421003b26be2f5216f509af2d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-174.bin",
+          "bytes": 11281944,
+          "sha256": "76c29f008a70caafb548afa2425555086b090e03a256fc66d38c8e393fdc7930",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-175.bin",
+          "bytes": 11256432,
+          "sha256": "26a15ea242687344fd8372bf795e8da7801f53c57534fcff18680899a45e4dfb",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-176.bin",
+          "bytes": 11249736,
+          "sha256": "a50d19abe2bb69b9cb3cddd610304f45a6857a6c89332a1430f3e36528c31784",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-177.bin",
+          "bytes": 11237328,
+          "sha256": "0ec42e3cd24c7591478b520e6e7ce26430588362b058afe390bad88f776708ed",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-178.bin",
+          "bytes": 11215104,
+          "sha256": "76cfd85f8ac1a14bfad5b2883f1ea4f4bf93b57683eaaefcbc34a62c9bc46ced",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-179.bin",
+          "bytes": 11224152,
+          "sha256": "3ac056ab9118beaf0128c513d0841c576573cd78fadf884a20ccc2dab52c35ce",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-18.bin",
+          "bytes": 11248512,
+          "sha256": "38f1baec19dc90b3648df3584345fa79a66b3ecc7a0446cc0eed8d3c19a9714d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-180.bin",
+          "bytes": 11240112,
+          "sha256": "48ef9d5aae4de23f56f5c08a27dab757aa065092ef6a17decfeada2d58d5f5af",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-181.bin",
+          "bytes": 11278536,
+          "sha256": "daf51b96bec13d9693842945fb304030193ba3c0ed0bfac0c331c462efc70efa",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-182.bin",
+          "bytes": 11242224,
+          "sha256": "54ebdb00a8d42ba3942c3e5f5676de059ca15077a4f0cfdfd9cd0819d22aa3ee",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-183.bin",
+          "bytes": 11251032,
+          "sha256": "90267afdf8677c09280bc93d9208a4f89563dc4cc63d2d4751c5b2d4dda1d08f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-184.bin",
+          "bytes": 11258376,
+          "sha256": "5391ffd940a6e8168e7b780d9234140fa7760140619b76d8f67dcee036063f74",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-185.bin",
+          "bytes": 11216376,
+          "sha256": "6817f5cd849e0b21c623bade01f5ab3a52c0eca4f7b11fd79b95685515e3dae0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-186.bin",
+          "bytes": 11257680,
+          "sha256": "e0b1a57f43b4729d0eee7d884ea151a611fff524a98c288479f429123ffe7a46",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-187.bin",
+          "bytes": 11262960,
+          "sha256": "8d0c2260443c74dcec6d75a152c93c200a95596cc9ebf9ec7918bb2b86fac421",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-188.bin",
+          "bytes": 11255832,
+          "sha256": "a5500141077489f0839489539e40041fd99ed32cdac7ec56945fb834f12a2225",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-189.bin",
+          "bytes": 11254512,
+          "sha256": "f93255fff8145554e112195163c037ccfe50ee45a86c77044478c95fbd3af216",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-19.bin",
+          "bytes": 11258976,
+          "sha256": "ab12d75b5069e7b0aa03178315370233e91828de170d5b667643f07a047525c6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-190.bin",
+          "bytes": 11245056,
+          "sha256": "7b2186b5bf004f3a775913f82ab2eb238994a2152af5ddc59f10291aff90f2dd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-191.bin",
+          "bytes": 11235648,
+          "sha256": "9128544f8fe1121966103957c31b45441ba3e97c31510a502db5db4eae1d78b7",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-192.bin",
+          "bytes": 11253240,
+          "sha256": "594ce8ce7e3886d27c6a4feba96afe58aa9ee5ae64e08ef035bb57f3148f457b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-193.bin",
+          "bytes": 11261424,
+          "sha256": "914bfa7f8ff47489eaa0154ffddedc16c56db833b3a844691ad22d70fa3b4741",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-194.bin",
+          "bytes": 11249616,
+          "sha256": "bc82e5b3267b3880800d850c32f045bcc5190b9c5670d6577f3243299389eacd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-195.bin",
+          "bytes": 11257320,
+          "sha256": "cd4ec2c56fa35fd08a29f073be4ef84d78182a01f15bc20b24767326ff8d345f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-196.bin",
+          "bytes": 11246064,
+          "sha256": "9855de3ce2aad9c8fd0f8678f7ca88f1b5952a8984861adc7963a07cd0412484",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-197.bin",
+          "bytes": 11282208,
+          "sha256": "3ba99f864c2f62ffd7cc258900e9719c7a21d8106c79bc7ad1464859e5776e7d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-198.bin",
+          "bytes": 11263176,
+          "sha256": "477814a38602b1ff9c31ece38b59762a31c644e53671e31cbf7acc8deb06298a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-199.bin",
+          "bytes": 11286552,
+          "sha256": "ca0edbb30655fee76747939b870f6b613a85db71929627f13aa7d866d3f4197a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-2.bin",
+          "bytes": 11251344,
+          "sha256": "11c9d6f9b05db42349828c9a82124f83cff87e3e1f5f2f7de45f5733821a8a49",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-20.bin",
+          "bytes": 11251416,
+          "sha256": "32701285245e92ad6731b88cf08a27b3e6030ff836dc6611490f34fc14051270",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-200.bin",
+          "bytes": 11262792,
+          "sha256": "4969e356d01a133b2311796461c02a6d25cfae5d1b701d0fb963ff1864637192",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-201.bin",
+          "bytes": 11268672,
+          "sha256": "8cacf19c488969b464b1afc34b108ce9ccb0fd4bdc656a17ee44716d6815bdab",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-202.bin",
+          "bytes": 11233416,
+          "sha256": "c45af7109fb3b718132308e6ebd6888b4bab9c76dcaff247d5eb48c3c3b939cd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-203.bin",
+          "bytes": 11247840,
+          "sha256": "0093177cefdb65068d64ed8e5aae9919188224fd02e646a427a006fb6a684462",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-204.bin",
+          "bytes": 11247144,
+          "sha256": "71513749dc04f501927e77f3281dfcb65eafd7e3c2579a93e50d471aac76ca8a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-205.bin",
+          "bytes": 11233968,
+          "sha256": "001ae42faa332694690afd859620500ec6e858957f011f7b4710dcb390d9362a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-206.bin",
+          "bytes": 11248968,
+          "sha256": "d0dbcaed23b400f917f53e90e1016f2bef24f0534ec9120768f595ad40840715",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-207.bin",
+          "bytes": 11250672,
+          "sha256": "2b7eeb204ddb601d9f0493ed3acfa74158e0ea3e7c3b6bc8f61c5dfce383c0ab",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-208.bin",
+          "bytes": 11258112,
+          "sha256": "7003979a4f39d8158b77fcb9965ad1458c55bef5c6bdf778b5c2ac465d12914a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-209.bin",
+          "bytes": 11250504,
+          "sha256": "b0e5111f393733433ce86136a46e3c9e00987bf8f772767c727379f3bbc3e93d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-21.bin",
+          "bytes": 11257368,
+          "sha256": "75d292d66f56157195636546e16fc300fc454e28118d156a803126eac6b75cf3",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-210.bin",
+          "bytes": 11258040,
+          "sha256": "74d6de9dd0df09a46d481b384637eb41efeabcdd2c87c5a318f093bd32d3b030",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-211.bin",
+          "bytes": 11252808,
+          "sha256": "eed6e8c8a5d34430bb717c0641282e02775b1a5a127f068be8f20fdf09818738",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-212.bin",
+          "bytes": 11249424,
+          "sha256": "13c394688ca9fb8d999c487640bf69182bf9d853e6a12d1241a68d23d29cfe95",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-213.bin",
+          "bytes": 11233272,
+          "sha256": "4069b5eb9f82bd178ecbf9ea1b1d13561c151d9b4930863c014a83efa8dff31a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-214.bin",
+          "bytes": 11223624,
+          "sha256": "210939c806773b6d27540d4d1093c1f3ffb27e74b1f97ac631d45cf972cbaa54",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-215.bin",
+          "bytes": 11252040,
+          "sha256": "57c0cceaaaa2822db86bcbf331f86c0c0ec32cb0c6549dc86e0ecf50804d6fbd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-216.bin",
+          "bytes": 11258448,
+          "sha256": "b77749412d8bfa572b6bbe5da3497b588375e6326d25acf53d08e1b5f1e6e56e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-217.bin",
+          "bytes": 11246400,
+          "sha256": "452ef251368b332b5f665a00629a6da5d239f04b37d43d49e0e9016a49adf7f5",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-218.bin",
+          "bytes": 11254200,
+          "sha256": "a0de1c047c83e623e9d596ae34781ddb36f7b8a46f206760894ce1aa387746a0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-219.bin",
+          "bytes": 11253768,
+          "sha256": "8cee05998614dea28d7aded41f897a0c119967d037bf31e3e65dfc713e0354a1",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-22.bin",
+          "bytes": 11236368,
+          "sha256": "10bcf9d193aa28fdd33c4aa4ab3ceda9fb56117f48e0113fedfdec9891c0a406",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-220.bin",
+          "bytes": 11295840,
+          "sha256": "2dcb1bc8722796e0ddff1b206824c29022092f25725b149432488d420d09276a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-221.bin",
+          "bytes": 11225856,
+          "sha256": "cee45dc92a34fcbdcbaf20971dafc05df2eec621791b2e30c91c18e7d674c31c",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-222.bin",
+          "bytes": 11238216,
+          "sha256": "d29cd8889d9d61968cbbf4458bc4ebf439954ac463704b880c6df20b370d83d6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-223.bin",
+          "bytes": 11242368,
+          "sha256": "066398ffbd7d98ac9099d2caf02be6f762f71f2c9a01e8b5412477f66c6ba6ff",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-224.bin",
+          "bytes": 11246760,
+          "sha256": "1020669e175fdd9e65b91e879cedcc275110d66fec01669a8208cad41f1cbb7a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-225.bin",
+          "bytes": 11266104,
+          "sha256": "d795279c2bf908ca757418085b36a629206ef9c90fa676c3408889e80720cff4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-226.bin",
+          "bytes": 11223792,
+          "sha256": "373cb383043ff09192db5c5f5163cefbe0a364cd979bb817209a1044acae84cf",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-227.bin",
+          "bytes": 11258184,
+          "sha256": "2831eb3ca2f24cd5034c0be8249d27b40305771196af9200efd7d85b2032409e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-228.bin",
+          "bytes": 11252520,
+          "sha256": "0e25f6d07d694313f8e2d5414f7d345dc1fcf773c3814979ec5b501c97528e8f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-229.bin",
+          "bytes": 11283096,
+          "sha256": "7a24b19524ec281cf073f6d8d4eaf43d6ec0d75d7873c26d592bef27ce5b86e8",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-23.bin",
+          "bytes": 11253264,
+          "sha256": "85f17463864b58acd2ea74109d7c515a0409a69755b9ca84482671f17f12fd19",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-230.bin",
+          "bytes": 11269272,
+          "sha256": "7c9e48f5269c095d6b69194d157be572173c15a4f9c815c9728754c00219e60d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-231.bin",
+          "bytes": 11234088,
+          "sha256": "dc3f45a67bc09f1cc7bd21d9cad69e54f9f4e5dfbbe4c3d9809d0340184905dc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-232.bin",
+          "bytes": 11266368,
+          "sha256": "eb11f829394782d1bd953c2cc42ee47793352f85726f5a7e78f5350af5c72ee3",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-233.bin",
+          "bytes": 11243208,
+          "sha256": "41dc151b407c0922b6cf19e988e4ed191d939880fedc799bfcdee3a921ffb708",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-234.bin",
+          "bytes": 11246424,
+          "sha256": "f0fd9cbcc1f627790bea6a7e3ce796e254faa541c1b6e53e4974a070f12c8c9b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-235.bin",
+          "bytes": 11249904,
+          "sha256": "885ba5a89b79bb54c48073115469c4bded37fcfe9cc45c89538e316004da73d0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-236.bin",
+          "bytes": 11280096,
+          "sha256": "67d577cb6d9ae662c14ffe29f761296825e9b642e2fdeb00254f3a11ed65a7f2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-237.bin",
+          "bytes": 11266008,
+          "sha256": "ab0856e40e012f681c5b7733614b7717f5edfafe7b3edea32249ff4cf5da0009",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-238.bin",
+          "bytes": 11251416,
+          "sha256": "a1c65c6df0883c8e6692e8bd32a8b3886f9f19c38267570b74fadd57de2a8b03",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-239.bin",
+          "bytes": 11257488,
+          "sha256": "9d1b14fb61fb8e798e82ee420869e2ff2d8e300a5f8fd71431c8786b34d28529",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-24.bin",
+          "bytes": 11261400,
+          "sha256": "85f0a6c5fdf1b0dbb71c1dfd9decd0d282c1851a031c328e5672baf7a32f5749",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-240.bin",
+          "bytes": 11218872,
+          "sha256": "0172b5a1afdc9533829e0376151f5908d1472dda210d880e8e7d351d2fffd462",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-241.bin",
+          "bytes": 11262720,
+          "sha256": "27319040c8c58e1722ddb091a34400b5dbd1b95eca283aeb6915ee24f5619b05",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-242.bin",
+          "bytes": 11260272,
+          "sha256": "f6dcf4d4901650912b5103afcd6b69d4dbf9c8f1e0939a6804971edc9d8c3db7",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-243.bin",
+          "bytes": 11225016,
+          "sha256": "81d3d5990e18aa1b78dfadc350bec41f57eea7e4d4750580e444a7ae30c99fc4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-244.bin",
+          "bytes": 11261592,
+          "sha256": "7bdd50abddb7d9ea9bb9ce0d9d7931531c08f9802ef0f8a23d8e009335fc2dc7",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-245.bin",
+          "bytes": 11245416,
+          "sha256": "58a68e84166b67f5097733208fdba29d864e9eaeb324b62c3ddbf82e9627d085",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-246.bin",
+          "bytes": 11246832,
+          "sha256": "0022e1d345ba75fedb891b4cc810caf01e08c009e22f76de8b6dc6fb80ae6585",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-247.bin",
+          "bytes": 11233200,
+          "sha256": "aa8a3f337aa4dc3546be854d305fbf48fbb1110caa1dbdf6ce2346faefd4b06c",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-248.bin",
+          "bytes": 11265192,
+          "sha256": "30566f429acdaa22169cef959a1ea1930127205166887fc7b9e68c14cd42dd03",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-249.bin",
+          "bytes": 11261976,
+          "sha256": "ae69c41a5d3cf16649b84616f506221b5dad34cef62ea2a5d91517fd53177421",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-25.bin",
+          "bytes": 11262024,
+          "sha256": "fd1de3317f5ccf901e964a20c59e576e69d59600ffdea9d1cf512b02da1b139d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-250.bin",
+          "bytes": 11271600,
+          "sha256": "6dfefb8e2b0e5cc6b1bc636e0152278d8ea1ca25077a7e9497b450b31c45fe93",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-251.bin",
+          "bytes": 11232960,
+          "sha256": "5e613528b01b9d20dc3df1e57f7514f3956d4b645b6a1238558167e444f8bcd7",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-252.bin",
+          "bytes": 11259240,
+          "sha256": "505bd9a21f13133999b05fec8b0b6eccbfcefff7da32bb3795429e240aef4dfe",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-253.bin",
+          "bytes": 11243664,
+          "sha256": "2bc9f75da39af49bc28395fea4ae91fa0a6945481ea1f4c8270a5ecf774db06f",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-254.bin",
+          "bytes": 11236128,
+          "sha256": "dcbe6057f30291fa9a9cd1c0982b89fa910c1193cf088303a7ac2a3153acd052",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-255.bin",
+          "bytes": 11234184,
+          "sha256": "bb16257c6a242d0c5ee748e31779a5fbb40b3ee15ada13fa01664373fdf50bd7",
+          "mtime_ns": 1792800457521454142
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-26.bin",
+          "bytes": 11232696,
+          "sha256": "235338d66bb08ee1e842d392e1fad497ae17b1a8692d3933db5b2083bdc31a4d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-27.bin",
+          "bytes": 11234400,
+          "sha256": "bbb8194a4b8adfa0312a446746168f4e1bc64ce446736e22b44229c40b6d45dc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-28.bin",
+          "bytes": 11240856,
+          "sha256": "2c72f934c98f679e38efcd3f005f7dc556995f371eb063e6525b98222da373f2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-29.bin",
+          "bytes": 11221536,
+          "sha256": "248ba9b26aa05184dba6a38a95337bb8b62ce47bdd1e441a8ac17a779fc7f3d6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-3.bin",
+          "bytes": 11257128,
+          "sha256": "9bff4bddbd155389f7ec45510fe477c69ad96a1515c101df897ed396c3d2a15b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-30.bin",
+          "bytes": 11254344,
+          "sha256": "47bb65d518446154d2355dd6bf22c0222b083bb9b2bcf48fb80d69504ace7562",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-31.bin",
+          "bytes": 11262360,
+          "sha256": "9a6235bc0c8631de211da72e7273049857de6512f42a746b439bc804b517510f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-32.bin",
+          "bytes": 11223360,
+          "sha256": "7554b248ba7b8242b8f1ea0d1bbbe15206a214d929fa4cae4ef9f8e92927daba",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-33.bin",
+          "bytes": 11235576,
+          "sha256": "4261917a98597c18ff36506ae4fe819117299fbf92fc1d9ca4491f209d74da22",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-34.bin",
+          "bytes": 11258040,
+          "sha256": "c7acc5f244dd5f41ed87872fbe9c5a14355ef71cebe8fc165e78e171c28b716c",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-35.bin",
+          "bytes": 11227728,
+          "sha256": "146dfcda660ee4c2102075bdabc1ae05bbe9e1010b4684c0963e41e0bbe0591f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-36.bin",
+          "bytes": 11244456,
+          "sha256": "241681ba7c8d2d46627f60f86c6d236ced6c5b3ed1b380ffd1c9f037d7b7724d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-37.bin",
+          "bytes": 11243904,
+          "sha256": "f4c90354b8e57e08bb08f7c9d0ed11d70658492f2efafafcf079436f3b14c6d9",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-38.bin",
+          "bytes": 11254392,
+          "sha256": "c3b57e08c404e590d9128e090975619aa05b8493366e2bd54800258d6eed7846",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-39.bin",
+          "bytes": 11224680,
+          "sha256": "a86326bb4602ffa05fe3fb68c088d50dfdb0fea9afd57e5eb0c6433514ac9eb4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-4.bin",
+          "bytes": 11280792,
+          "sha256": "c3a4d5d20473c66df8e85ec0292261a5f2f57e89b0e658ce21dbcdfe91d125c0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-40.bin",
+          "bytes": 11259720,
+          "sha256": "250c8a29a55d36a3bd2188412d21dacdc228131f3ba68cf17a8dc3083ab8ef84",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-41.bin",
+          "bytes": 11240760,
+          "sha256": "049dd65d7e04a8912ea752630f1fc21266df842dc3f91e6d63a96280e88d3b68",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-42.bin",
+          "bytes": 11237592,
+          "sha256": "2067201e1971b1cba89d74c63b38f08ea0a5d9b8279e168da1e87ef221b0e47d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-43.bin",
+          "bytes": 11260440,
+          "sha256": "7059a39a5dfbd8cea2a989ab768ccdcdc976896f4f535d84cfbf4eb187a3bcf9",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-44.bin",
+          "bytes": 11243904,
+          "sha256": "118268e44b7a058b18fc6cb1c1332fe10fb74d672f705b8915eca1b9ba33835c",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-45.bin",
+          "bytes": 11235504,
+          "sha256": "4450273a08f2c0fa4252c41c1cda5a8b8ea63f239183322fdfbf3dca61e73490",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-46.bin",
+          "bytes": 11272632,
+          "sha256": "ffebe7e34bc0d16c570bde1aeca79813c7cb9c1647b0e3553e01301ea1269ff3",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-47.bin",
+          "bytes": 11261760,
+          "sha256": "d04b30bf2dbd112e4f30be6642fb87aa9507aca154f2b06a6650ee651aa55856",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-48.bin",
+          "bytes": 11228832,
+          "sha256": "03f82b08da333c866e621a1618f9196407cb4f39ca2c792cdd17f2b07af5781e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-49.bin",
+          "bytes": 11218080,
+          "sha256": "4b3a5a06fe9d49b4a3c322f0779af2b522c8c0c6a8bf7b1b12e1bb655d3e78df",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-5.bin",
+          "bytes": 11258568,
+          "sha256": "136e3b99021ecc6f2ba080621215a43d86fb4e13926c565878f1a4c27c513d3b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-50.bin",
+          "bytes": 11244912,
+          "sha256": "e029c0b00d00dff7af9c9c2b09dcfdeffc5a1da52dffd109bcdc09e7bd969085",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-51.bin",
+          "bytes": 11260056,
+          "sha256": "cd525ecb4c94cd39eda32b471eb6bcf1c8d2f97fb7a82d2ef5b3a39e0fbfadcf",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-52.bin",
+          "bytes": 11262048,
+          "sha256": "85e01e013bb08d240d4797e7436e66d2a3695f74020ebf1d03bd3f5d4b7008ab",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-53.bin",
+          "bytes": 11253264,
+          "sha256": "e7cf8c7c7333f557f549f9421eb70b56e4d1fccd35a7a00130ed562932ad0120",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-54.bin",
+          "bytes": 11252088,
+          "sha256": "2b25d4e23be3acd71039e357c6899973230fae5bd11d34045a3ecc0ca2b6f5a7",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-55.bin",
+          "bytes": 11248752,
+          "sha256": "d3adc38d249b952a0ae55b6651056c32e83ab11ef5f5ce5e2a31a1d6cc9b03a2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-56.bin",
+          "bytes": 11229840,
+          "sha256": "48b3a3c742d51259cea39485115266b5692e169fe47f563948e55430677d09f2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-57.bin",
+          "bytes": 11259528,
+          "sha256": "23914f9444af577906f67a9720e1dddc5a942f685992a7619f88e2d4f9fa59c6",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-58.bin",
+          "bytes": 11254344,
+          "sha256": "a3b35646e216be0a6643afa69794afc904602c5f23c548ea0279f29bef56c8db",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-59.bin",
+          "bytes": 11262528,
+          "sha256": "5cbf155381abef92e4cac8d80af802145070003b6d9af0290b852fd8e931e041",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-6.bin",
+          "bytes": 11266920,
+          "sha256": "e5812c75d2ee2c9ae83b656e2b0fea78c39b1317918935fe4744c739227a2193",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-60.bin",
+          "bytes": 11248848,
+          "sha256": "cecebbc5e661d2f712f18cbc2958d8a66415ab495627e154ac967d88f39a505b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-61.bin",
+          "bytes": 11260632,
+          "sha256": "38064b86d61c690e20feff781f3be0c56cee6eaa8bcb464b1d9a907829d5a38f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-62.bin",
+          "bytes": 11262216,
+          "sha256": "e27493b04888a23db0510b2a924687e93dab43a96d059d3948f0036ea7c5115b",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-63.bin",
+          "bytes": 11261736,
+          "sha256": "54d75c8b2bc944871bfcaf1f7453b79641e0f2ad1856b6932c06a5ec44f2ebdf",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-64.bin",
+          "bytes": 11228808,
+          "sha256": "bf9b5dfb5b284dea4e0bf6826f934b77069eb538b30ca591cae96e9a6d7b0f20",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-65.bin",
+          "bytes": 11229720,
+          "sha256": "2c9025f22b5d342805ba797fa164e5cfb93fa5b8e97af399d2697ef919652d09",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-66.bin",
+          "bytes": 11255784,
+          "sha256": "5b9f121bd24c44636f8c284c82148cb69cec39d990f5a0499027940ca1421330",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-67.bin",
+          "bytes": 11251176,
+          "sha256": "66f1785c8fe208f78cce2987054acdcb8b764a6a1329df283b2fcc9944ec1c44",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-68.bin",
+          "bytes": 11241528,
+          "sha256": "f2b59ae29125db768f322a7f41c9cd9d61fbf25e3b50a233aa21501f031ad6cc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-69.bin",
+          "bytes": 11254080,
+          "sha256": "636361523fd251d271bd5712e1a0374da346b775ee5c101d632cf2239c8b50d2",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-7.bin",
+          "bytes": 11240880,
+          "sha256": "b130c168f27ac871a134f63edfeb475e2bfa6aae424e7a89aacfb2eb4f0d9aa0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-70.bin",
+          "bytes": 11270976,
+          "sha256": "3aa1022f87e17d345a4c7c0750655585da174ae8669b440e086150b47bd42093",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-71.bin",
+          "bytes": 11252208,
+          "sha256": "8861ec990f27e11e5fdfe35395f676ff4525930fc86841f57ac6549cd2cb0ec0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-72.bin",
+          "bytes": 11266560,
+          "sha256": "79b176365bf669b50ba611fe96c13f3673e789036a50448cb15d33ed77e37ee0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-73.bin",
+          "bytes": 11284248,
+          "sha256": "2223a00d866c716dbff41cef8d581d111c797f95dc952aa8f8de711d006cc0e5",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-74.bin",
+          "bytes": 11250480,
+          "sha256": "fc3b38176faaf1463806e126dcead8bdba081af75f2c78b026a841ab7ccc600d",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-75.bin",
+          "bytes": 11278752,
+          "sha256": "b2baed3fa87e81f2e368b04842728b3baff7540e3bc64e023e3ab202d8c2a4bc",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-76.bin",
+          "bytes": 11248728,
+          "sha256": "e1b9318411bcd98b4d2e026c91a2d6752f4f93b61003c12e78925c59f5d12540",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-77.bin",
+          "bytes": 11252160,
+          "sha256": "54f33bc6e3fee0ec256c9bf4019db536b7d0df337d8f9bed23cffef5e61f94ae",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-78.bin",
+          "bytes": 11244720,
+          "sha256": "164a2fdc22aa46125bb622f5dc78dcc92bead2f67b836b008b49dff2f9f6c1cd",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-79.bin",
+          "bytes": 11267208,
+          "sha256": "31c1eedc4bd5164279c8b227e37257db9dda04519426f64593836fe8632c3a08",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-8.bin",
+          "bytes": 11263584,
+          "sha256": "8b4226b29b4f530e40a4fe71769d0c84c878f93719036c692946ba7406a18136",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-80.bin",
+          "bytes": 11247072,
+          "sha256": "6a30501b80215f8202045d6d4efdcfba3dbec7450c58ed2e37aadf089cda7e58",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-81.bin",
+          "bytes": 11267760,
+          "sha256": "d718860cfa455e0a58d95897c7b16965db83b9cb573ac6640e2ebb58d3b4f7e0",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-82.bin",
+          "bytes": 11221224,
+          "sha256": "ed493aa365735ad93ce9e814167a9a9ba6f6083f3140d61d53ec86260f60231f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-83.bin",
+          "bytes": 11240736,
+          "sha256": "ac0c9327af443a3b99fcfdf1233bab7d33909d674605771ea7bbbc2f64ee7bc1",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-84.bin",
+          "bytes": 11220792,
+          "sha256": "25f5de9bd90d926f2ebf79334efbfcf3eee63dd9c0c5f22181f2fa3a87d58070",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-85.bin",
+          "bytes": 11261040,
+          "sha256": "1cd228462711b4a7c790d29e26ad6b5ce9840474e2937c30437798c0d625ccd4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-86.bin",
+          "bytes": 11210040,
+          "sha256": "2586e31ed0384b09b6d906494f9e8e1e26350eeac02563238cc57357b637079a",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-87.bin",
+          "bytes": 11218320,
+          "sha256": "dcba32740cdeb932803e544a0298ba62d55dd3534ed53913ad36df16bee4cf2f",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-88.bin",
+          "bytes": 11234544,
+          "sha256": "5f4994208a1c09809b14f45ed6ac38f5b874949bafa5dde8bb7cb14a2ceb8463",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-89.bin",
+          "bytes": 11264184,
+          "sha256": "6aa1174b8a49a1e5545b0c0a22225ff1a008ae8c4b8653d6a0442cf8a6a4d239",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-9.bin",
+          "bytes": 11264760,
+          "sha256": "e1952ce8aefe65a1cc811b90d0b115c064e90a4194618292c3a458bc3889f617",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-90.bin",
+          "bytes": 11283000,
+          "sha256": "5ce5d2497401ff5fc8c294004673be91cf90b63cad9a428ccab37a320fdd05d4",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-91.bin",
+          "bytes": 11255808,
+          "sha256": "d5891aca24cde8064a6da27a43645077578ac82fec9973b04f1647aa5d94edb1",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-92.bin",
+          "bytes": 11263944,
+          "sha256": "e26d662982a6217fa6bc9cb9170fbbe9777851b9e4a52fa9ad9e8d205c613806",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-93.bin",
+          "bytes": 11239464,
+          "sha256": "39a00e8d441081a715d27ef17931f5506e70d2bb687e495ee1e80b2e919b9132",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-94.bin",
+          "bytes": 11255880,
+          "sha256": "847ec2ae1796a641ecea677f8c029279e7f1c4428d539c036930d47b23720b1e",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-95.bin",
+          "bytes": 11265216,
+          "sha256": "961255fb1ed1bee3caef1dd35d569f1d9ec83017d836226d6885248deac0c8ea",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-96.bin",
+          "bytes": 11238168,
+          "sha256": "9bcee05e56ae34c7eb96a5db4f501229cad761f1ca667e955ff690b7b1e81cf5",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-97.bin",
+          "bytes": 11239944,
+          "sha256": "99dde3d1ac8f865107611ee324a3250e36705b52455fdc53677adf2c41da37cb",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-98.bin",
+          "bytes": 11256768,
+          "sha256": "62108ba33e49fc7e8a6488bbabb979316b4ba43eda639a7b0a631027cce0bded",
+          "mtime_ns": 1792800457520454120
+        },
+        {
+          "path": "research/exp663/build/exp663/proposal/shuffle-99.bin",
+          "bytes": 11221824,
+          "sha256": "01b4cf8bffa3e31ea9ddef730628909e9756e4253fd7fb968e8cd6399df53a04",
+          "mtime_ns": 1792800457520454120
+        }
+      ],
+      "retained": [
+        "research/exp663/build/exp663/u-role/requests.csv",
+        "research/exp663/build/exp663/proposal/generation.json"
+      ],
+      "completed_report": "research/exp663/validation/results/exp663/100m-report.json",
+      "live_reproduction_input": false
+    }
+  ],
+  "bytes": 18047518952,
+  "free_start_bytes": 15197679616,
+  "reference_review": "Current experiment drivers and logs use retained u-role input and frozen input identities; proposal files are reproducible generation intermediates."
+}

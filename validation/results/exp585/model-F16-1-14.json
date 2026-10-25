@@ -1,0 +1,28 @@
+{
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "base_score": 0,
+    "colsample_bytree": 1.0,
+    "seed": 20261021585,
+    "nthread": 16,
+    "max_depth": 4,
+    "eta": 0.3,
+    "max_bin": 256,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "subsample": 1.0
+  },
+  "rounds": 16,
+  "columns": 54,
+  "rows": 9618,
+  "port_pairs": 8852,
+  "wall_s": 0.04722424107603729,
+  "cpu_s": 0.7363952329999961,
+  "offline_only": true,
+  "model": {
+    "path": "build/exp585/F16-1-14.json",
+    "bytes": 32010,
+    "sha256": "1a9e6bcd7f180284ea81671a18c1bd2d1ed0a7beca18a8c6c4252519715dad0a"
+  }
+}

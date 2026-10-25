@@ -1,0 +1,357 @@
+[
+  {
+    "index": 0,
+    "name": "sf",
+    "origin": "exp554"
+  },
+  {
+    "index": 1,
+    "name": "sl",
+    "origin": "exp554"
+  },
+  {
+    "index": 2,
+    "name": "tf",
+    "origin": "exp554"
+  },
+  {
+    "index": 3,
+    "name": "tl",
+    "origin": "exp554"
+  },
+  {
+    "index": 4,
+    "name": "source_logic",
+    "origin": "exp554"
+  },
+  {
+    "index": 5,
+    "name": "target_logic",
+    "origin": "exp554"
+  },
+  {
+    "index": 6,
+    "name": "first_dx",
+    "origin": "exp554"
+  },
+  {
+    "index": 7,
+    "name": "first_dy",
+    "origin": "exp554"
+  },
+  {
+    "index": 8,
+    "name": "dx",
+    "origin": "exp554"
+  },
+  {
+    "index": 9,
+    "name": "dy",
+    "origin": "exp554"
+  },
+  {
+    "index": 10,
+    "name": "abs_dx",
+    "origin": "exp554"
+  },
+  {
+    "index": 11,
+    "name": "abs_dy",
+    "origin": "exp554"
+  },
+  {
+    "index": 12,
+    "name": "neg_dx",
+    "origin": "exp554"
+  },
+  {
+    "index": 13,
+    "name": "neg_dy",
+    "origin": "exp554"
+  },
+  {
+    "index": 14,
+    "name": "rx",
+    "origin": "exp554"
+  },
+  {
+    "index": 15,
+    "name": "ry",
+    "origin": "exp554"
+  },
+  {
+    "index": 16,
+    "name": "abs_rx",
+    "origin": "exp554"
+  },
+  {
+    "index": 17,
+    "name": "abs_ry",
+    "origin": "exp554"
+  },
+  {
+    "index": 18,
+    "name": "qx",
+    "origin": "exp554"
+  },
+  {
+    "index": 19,
+    "name": "qy",
+    "origin": "exp554"
+  },
+  {
+    "index": 20,
+    "name": "lane_xor",
+    "origin": "exp554"
+  },
+  {
+    "index": 21,
+    "name": "lane_difference",
+    "origin": "exp554"
+  },
+  {
+    "index": 22,
+    "name": "trend",
+    "origin": "exp554"
+  },
+  {
+    "index": 23,
+    "name": "lane_pair_0",
+    "origin": "exp554"
+  },
+  {
+    "index": 24,
+    "name": "lane_pair_1",
+    "origin": "exp554"
+  },
+  {
+    "index": 25,
+    "name": "lane_pair_2",
+    "origin": "exp554"
+  },
+  {
+    "index": 26,
+    "name": "sx",
+    "origin": "exp554"
+  },
+  {
+    "index": 27,
+    "name": "sy",
+    "origin": "exp554"
+  },
+  {
+    "index": 28,
+    "name": "ax",
+    "origin": "exp554"
+  },
+  {
+    "index": 29,
+    "name": "ay",
+    "origin": "exp554"
+  },
+  {
+    "index": 30,
+    "name": "tx",
+    "origin": "exp554"
+  },
+  {
+    "index": 31,
+    "name": "ty",
+    "origin": "exp554"
+  },
+  {
+    "index": 32,
+    "name": "sx_right",
+    "origin": "exp554"
+  },
+  {
+    "index": 33,
+    "name": "ax_right",
+    "origin": "exp554"
+  },
+  {
+    "index": 34,
+    "name": "tx_right",
+    "origin": "exp554"
+  },
+  {
+    "index": 35,
+    "name": "sy_top",
+    "origin": "exp554"
+  },
+  {
+    "index": 36,
+    "name": "ay_top",
+    "origin": "exp554"
+  },
+  {
+    "index": 37,
+    "name": "ty_top",
+    "origin": "exp554"
+  },
+  {
+    "index": 38,
+    "name": "source_side",
+    "origin": "exp554"
+  },
+  {
+    "index": 39,
+    "name": "arrival_side",
+    "origin": "exp554"
+  },
+  {
+    "index": 40,
+    "name": "target_side",
+    "origin": "exp554"
+  },
+  {
+    "index": 41,
+    "name": "source_band",
+    "origin": "exp554"
+  },
+  {
+    "index": 42,
+    "name": "arrival_band",
+    "origin": "exp554"
+  },
+  {
+    "index": 43,
+    "name": "target_band",
+    "origin": "exp554"
+  },
+  {
+    "index": 44,
+    "name": "source_block_row",
+    "origin": "exp554"
+  },
+  {
+    "index": 45,
+    "name": "arrival_block_row",
+    "origin": "exp554"
+  },
+  {
+    "index": 46,
+    "name": "target_block_row",
+    "origin": "exp554"
+  },
+  {
+    "index": 47,
+    "name": "source_ycell",
+    "origin": "exp554"
+  },
+  {
+    "index": 48,
+    "name": "arrival_ycell",
+    "origin": "exp554"
+  },
+  {
+    "index": 49,
+    "name": "target_ycell",
+    "origin": "exp554"
+  },
+  {
+    "index": 50,
+    "name": "first_block",
+    "origin": "exp554"
+  },
+  {
+    "index": 51,
+    "name": "compressed_dx",
+    "origin": "exp554"
+  },
+  {
+    "index": 52,
+    "name": "forced_detour",
+    "origin": "exp554"
+  },
+  {
+    "index": 53,
+    "name": "compressed_dx_mod10",
+    "origin": "exp614"
+  },
+  {
+    "index": 54,
+    "name": "abs_compressed_dx_mod10",
+    "origin": "exp614"
+  },
+  {
+    "index": 55,
+    "name": "compressed_qx",
+    "origin": "exp614"
+  },
+  {
+    "index": 56,
+    "name": "compressed_dx_negative",
+    "origin": "exp614"
+  },
+  {
+    "index": 57,
+    "name": "ax_mod10",
+    "origin": "exp614"
+  },
+  {
+    "index": 58,
+    "name": "tx_mod10",
+    "origin": "exp614"
+  },
+  {
+    "index": 59,
+    "name": "ay_mod12",
+    "origin": "exp614"
+  },
+  {
+    "index": 60,
+    "name": "ty_mod12",
+    "origin": "exp614"
+  },
+  {
+    "index": 61,
+    "name": "line_x_9",
+    "origin": "exp614"
+  },
+  {
+    "index": 62,
+    "name": "line_x_78",
+    "origin": "exp614"
+  },
+  {
+    "index": 63,
+    "name": "line_x_98",
+    "origin": "exp614"
+  },
+  {
+    "index": 64,
+    "name": "line_x_177",
+    "origin": "exp614"
+  },
+  {
+    "index": 65,
+    "name": "line_y_8",
+    "origin": "exp614"
+  },
+  {
+    "index": 66,
+    "name": "crossed_block_count",
+    "origin": "exp614"
+  },
+  {
+    "index": 67,
+    "name": "block_edge_extra_rows",
+    "origin": "exp614"
+  },
+  {
+    "index": 68,
+    "name": "qx_compression_difference",
+    "origin": "exp614"
+  },
+  {
+    "index": 69,
+    "name": "vertical_full_block_bands",
+    "origin": "exp677"
+  },
+  {
+    "index": 70,
+    "name": "endpoints_in_central_corridor",
+    "origin": "exp677"
+  }
+]

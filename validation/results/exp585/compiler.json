@@ -1,0 +1,22 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "tests/exp576_routed_residual.cpp",
+    "-o",
+    "build/exp585/routed-predict"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,40 @@
+{
+  "captured_date": "2026-10-25",
+  "purpose": "External AI supplemental evidence for frozen exp688",
+  "published_repository": "https://github.com/Lijika/faga_delay_estimate",
+  "publication_base_commit": "6c71de95ab770ceb561d7d4cc8c3559638d6d4a2",
+  "source_snapshot_unchanged": true,
+  "origins": {
+    "path_witness": "Frozen exp705 data and exact path tracer; archived input/source identities in path_witness/manifest.json",
+    "accuracy": "Original exp688 full 1B output paired with exp683 exact labels; deterministic subset without new estimator runs",
+    "dataset_protocol": "Generator sources from 26f0b04; original reachability indexes; exp685 exclusion sets from 16 SHA-verified historical files",
+    "training": "Historical research working-tree scripts with per-file identities; million-row dataset exported by original exp679 loader",
+    "stage_changes": "Frozen exp704 parser change and exp706 stage ELF; separate from source/",
+    "benchmark": "Historical exp703/704/706 results and current r9 machine capture",
+    "validation/results": "Missing historical JSON/Markdown evidence copied without changing existing files; exp703 counters.csv also restored"
+  },
+  "data_manifests": [
+    "path_witness/manifest.json",
+    "accuracy/subset-manifest.json",
+    "accuracy/exact_original/manifest.json",
+    "dataset_protocol/data/manifest.json",
+    "dataset_protocol/exclusions/manifest.json",
+    "dataset_protocol/generator/toolchain-original.json",
+    "training/original-source-manifest.json",
+    "training/data/export-manifest.json",
+    "stage_changes/parser-identities.json"
+  ],
+  "full_estimator_runs_added": 0,
+  "omitted_large_rebuildable_data": [
+    "Full 100M and 1B request populations and output CSV files",
+    "Full 3833856-row exact text corpus (a deterministic 479232-row subset is included)",
+    "Full nominal fields and materialized 59904x264960 matrices (generation code and historical identities are included)"
+  ],
+  "unverified": [
+    "6242R performance",
+    "exp704/706 full 1B performance",
+    "All S8 routes and all OOF models retrained in this publication",
+    "Full nominal matrix and full curve retraining in this publication",
+    "Official legal request domain restricted to 208x288 roles"
+  ]
+}

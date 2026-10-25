@@ -1,0 +1,11 @@
+[
+  {
+    "path": "delay_estimate_ans.csv",
+    "rows": 1000000,
+    "source_ports": 113,
+    "target_ports": 256,
+    "outside_role_rows": 0,
+    "examples": [],
+    "sha256": "2d3350b1aed4b7489fbd2fc361b2d680a422db218159a07938782ed850b4c19f"
+  }
+]

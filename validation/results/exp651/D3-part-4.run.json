@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../exp650/build/exp650/assign",
+    "build/exp651/assign-values.i16",
+    "build/exp651/D3-part-4-centers.i16",
+    "build/exp651/weights.f64",
+    "718848",
+    "44",
+    "build/exp651/D3-part-4"
+  ],
+  "exit_code": 0,
+  "cpu_s": 8.154551999999999,
+  "wall_s": 8.157359146978706,
+  "rss_bytes": 6561099776,
+  "threads": 1,
+  "stderr": "validation/results/exp651/D3-part-4.stderr"
+}

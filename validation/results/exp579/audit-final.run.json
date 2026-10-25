@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp579/audit",
+    "build/exp579/queries.bin",
+    "build/exp579/folds.u8",
+    "build/exp579/final-trace.bin",
+    "1"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 0.590255,
+  "wall_s": 0.5915423990227282,
+  "rss_bytes": 859652096
+}

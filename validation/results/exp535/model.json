@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "predictions_checked": 2000000,
+  "threads": 1,
+  "output": {
+    "path": "build/exp535/model.i32",
+    "bytes": 8000000,
+    "sha256": "bffb238c32fe725d03c0266f370a86c54bd4a8e42422143f489d1d228b044c0b"
+  },
+  "binary": {
+    "path": "build/exp535/predict",
+    "bytes": 2382776,
+    "sha256": "c49dd2ab32a4b9a778839386b1ded55d12cf019b48e91728e6b523cfaf2cb44f"
+  }
+}

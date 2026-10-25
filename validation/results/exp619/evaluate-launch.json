@@ -1,0 +1,9 @@
+{
+  "pid": 3143187,
+  "command": [
+    "../exp491/build/venv/bin/python",
+    "validation/exp619_scalar_phase.py",
+    "evaluate"
+  ],
+  "started_unix": 1792688456.1614704
+}

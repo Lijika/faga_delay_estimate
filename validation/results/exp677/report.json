@@ -1,0 +1,44 @@
+{
+  "all_checks_passed": true,
+  "self_check_passed": true,
+  "historical_statistics_replayed": true,
+  "full_partitions_verified": true,
+  "horizontal_equals_feature52": true,
+  "horizontal_vertical_disjoint": true,
+  "priorities": {
+    "H": {
+      "rows": 18064,
+      "global_delta_accuracy_pp": 0.08221316487762295,
+      "simultaneous_ci95_pp": [
+        0.08000480368137418,
+        0.08443922946656292
+      ],
+      "priority": true
+    },
+    "V": {
+      "rows": 2613,
+      "global_delta_accuracy_pp": 0.035641132629980886,
+      "simultaneous_ci95_pp": [
+        0.03297806958366451,
+        0.03823781578658225
+      ],
+      "priority": true
+    }
+  },
+  "metrics": {
+    "accuracy_pp": 98.632628741737,
+    "mae_ps": 8.057336,
+    "relative_l1": 0.0034363828479141794,
+    "exact_rows": 65389
+  },
+  "complete_program_runs": 0,
+  "new_exact_rows": 0,
+  "training_runs": 0,
+  "independent_requests": false,
+  "cpu_s": 7.383870787,
+  "wall_s": 7.385064792819321,
+  "rss_bytes": 550711296,
+  "resource_gate": true,
+  "released_bytes": 0,
+  "disk_free_end_bytes": 16063270912
+}

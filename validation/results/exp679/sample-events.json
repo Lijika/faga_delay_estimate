@@ -1,0 +1,30 @@
+{
+  "asset": {
+    "path": "build/exp679/sample-events.u8",
+    "bytes": 239616,
+    "sha256": "65ce83cdf83b7b85d7cbe467468ad77d1e4a30f7fea63e5b9a8376bbffd8617e"
+  },
+  "binary": {
+    "path": "build/exp679/sample-events",
+    "bytes": 7271672,
+    "sha256": "8c2d418b85e08928160c1af5f4a9072189a0e73e60f6cfe3d3a3f601711ccc5c"
+  },
+  "source": {
+    "path": "build/exp679/sample-events.cpp",
+    "bytes": 2113,
+    "sha256": "4624dd64e71aeb301e64492bffdc2e21410ec452d73c23eff9913718a0c96719"
+  },
+  "original_source": {
+    "path": "../exp663/validation/exp663_sample_groups.cpp",
+    "bytes": 1976,
+    "sha256": "7d8118c2c08fc30ba1979c4e2e8de83e7ded559c3b82187d5339a9b379321403"
+  },
+  "counts": [
+    234688,
+    4297,
+    631
+  ],
+  "cached_self_check_rows": 768,
+  "cached_self_check_per_event": 256,
+  "first_net_resolution": true
+}

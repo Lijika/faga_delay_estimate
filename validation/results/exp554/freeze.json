@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp554/validation/exp554_real_kernel_function.py",
+      "bytes": 21715,
+      "sha256": "fe8de74eb4453cc62fa455cc3f412199027b64b20b7b103034a007c88185ea92"
+    },
+    {
+      "path": "tests/exp554_real_kernel_function.cpp",
+      "bytes": 4017,
+      "sha256": "23587c9e34c6bf1ce7e84f20f3d051fda3e2457a9ec760c263f36ebc33bea226"
+    },
+    {
+      "path": "validation/results/exp554/protocol-original.md",
+      "bytes": 5116,
+      "sha256": "0b0161e5cb0d9e81c9cf2edf3915f4cdc2aa8209aed29ed7f9e9be4ffb6a8638"
+    },
+    {
+      "path": "validation/exp535_real_map.py",
+      "bytes": 19095,
+      "sha256": "813cd1c938252760a43904094091d38c372c3c286e7914a1e8ff45fc32f5ccce"
+    },
+    {
+      "path": "validation/exp549_complementarity.py",
+      "bytes": 13617,
+      "sha256": "32b1aeaffc7811b867767734de2b309958e22b4a14a122c2d03e30c74bcee270"
+    },
+    {
+      "path": "validation/exp208_nominal_parent_tree.py",
+      "bytes": 26843,
+      "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+    },
+    {
+      "path": "../exp500/validation/results/exp500-preparation/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "../exp501/validation/results/exp501/report.json",
+      "bytes": 2447,
+      "sha256": "6938f738db9ffb71d0f60ebbf07cd36291b2fac2fc3a3f418d18e5e107220d16"
+    },
+    {
+      "path": "../exp502/validation/results/exp502/report.json",
+      "bytes": 3572,
+      "sha256": "f4d17a3e6433f17db39a042dbbe9908905bf65333a45a3eba4521aa32aa00ad8"
+    },
+    {
+      "path": "../exp536/build/exp536/events.i32",
+      "bytes": 36000000,
+      "sha256": "710a781b2b093bd1a867c24218c14875e6aa0414a7c18455f7494f02ee182538"
+    },
+    {
+      "path": "../exp536/build/exp536/predictions.i32",
+      "bytes": 24000000,
+      "sha256": "2ea01e1153869a10169fd2226d94b71e4e92579f02b3847c3a5caab76064b32b"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "../exp553/build/exp553/components.i32",
+      "bytes": 32000000,
+      "sha256": "01436f3e28418efc5a4d56fdace716e813c3404a5c6e7266e8e7b0f7b2cd0c63"
+    },
+    {
+      "path": "../exp553/build/exp553/distance.i32",
+      "bytes": 4000000,
+      "sha256": "07f21455d7b1d8f8589cdb3dfec84c310551854ad571fcb5e96b2a26aed3b873"
+    },
+    {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    {
+      "path": "../exp501/build/exp501/exact.csv",
+      "bytes": 72686142,
+      "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+    },
+    {
+      "path": "../exp502/build/exp502/C1.csv",
+      "bytes": 40136506,
+      "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+    }
+  ],
+  "seed": 20261020554,
+  "draws": 2000,
+  "xgboost": "3.0.5",
+  "disk_free_start": 24878264320
+}

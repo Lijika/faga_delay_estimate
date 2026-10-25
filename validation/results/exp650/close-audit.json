@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "frozen_files_verified": 14,
+  "full_error_and_asset_sha_verified": true,
+  "raw_source_identities_verified": 208,
+  "primary_relative_to_old": 0.6744757465407895,
+  "primary_relative_to_matched": 0.7100503484314032,
+  "resources": {
+    "cpu_s": 393.09973533,
+    "wall_s": 254.81066280417144,
+    "own_rss_bytes": 1418784768,
+    "child_rss_bytes": 1418784768,
+    "new_file_bytes": 854626968,
+    "complete_program_runs": 0,
+    "disk_free_end_bytes": 89046036480
+  },
+  "deleted_bytes": 0,
+  "disk_free_end_bytes": 89045807104,
+  "complete_program_measured": false,
+  "final_accuracy_goal_verified": false
+}

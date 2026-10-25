@@ -1,0 +1,177 @@
+{
+  "records": [
+    {
+      "path": "../exp554/build/exp554/labels.i32",
+      "bytes": 16000000,
+      "sha256": "959c0cd1a1a8b7746fec609bdfe6b739bc3057172bbc39c8fe370f03d90339a3"
+    },
+    {
+      "path": "../exp554/build/exp554/predictions.i32",
+      "bytes": 36000000,
+      "sha256": "9f9c6b2a64072db75e16c2753d2351020ee5ced09c8579f769387ac8aee418a8"
+    },
+    {
+      "path": "../exp554/build/exp554/queries.bin",
+      "bytes": 40000012,
+      "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1"
+    },
+    {
+      "path": "../exp554/build/exp554/folds.u8",
+      "bytes": 1000000,
+      "sha256": "82270339155c7c8d933da8f2af3315e892110ddcd4ae38d96ff8fb7804c864c2"
+    },
+    {
+      "path": "../exp554/build/exp554/clusters.i32",
+      "bytes": 4000000,
+      "sha256": "81e63281315b64ef3aabf9dd9ec40b295f51c0f3ccc3a65bd521b0aee68b653d"
+    },
+    {
+      "path": "../exp554/build/exp554/ports.i32",
+      "bytes": 8000000,
+      "sha256": "b42c493e743afbbb5ebdf733585e6e3764321547fbfc05b7eeb7794a8d8ec89e"
+    },
+    {
+      "path": "../exp554/build/exp554/features.f32",
+      "bytes": 212000016,
+      "sha256": "9b7534f83d9136a1df9e9d4f822d3e6273dd869f7065e6aae491969ce312b62a"
+    },
+    {
+      "path": "../exp536/build/exp536/events.i32",
+      "bytes": 36000000,
+      "sha256": "710a781b2b093bd1a867c24218c14875e6aa0414a7c18455f7494f02ee182538"
+    }
+  ],
+  "partitions": [
+    {
+      "fold": 0,
+      "name": "test",
+      "rows": 333644,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 19
+    },
+    {
+      "fold": 0,
+      "name": "full",
+      "rows": 666356,
+      "pairs": 59904,
+      "minimum": 2,
+      "maximum": 27
+    },
+    {
+      "fold": 0,
+      "name": "half",
+      "rows": 332722,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 19
+    },
+    {
+      "fold": 1,
+      "name": "test",
+      "rows": 332722,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 19
+    },
+    {
+      "fold": 1,
+      "name": "full",
+      "rows": 667278,
+      "pairs": 59904,
+      "minimum": 2,
+      "maximum": 29
+    },
+    {
+      "fold": 1,
+      "name": "half",
+      "rows": 333634,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 18
+    },
+    {
+      "fold": 2,
+      "name": "test",
+      "rows": 333634,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 18
+    },
+    {
+      "fold": 2,
+      "name": "full",
+      "rows": 666366,
+      "pairs": 59904,
+      "minimum": 2,
+      "maximum": 30
+    },
+    {
+      "fold": 2,
+      "name": "half",
+      "rows": 333644,
+      "pairs": 59904,
+      "minimum": 1,
+      "maximum": 19
+    }
+  ],
+  "unique_rows": 1000000,
+  "pairs": 59904,
+  "cluster_disjoint": true,
+  "development_only": true,
+  "source_names": [
+    "sf",
+    "sl",
+    "tf",
+    "tl",
+    "source_logic",
+    "target_logic",
+    "first_dx",
+    "first_dy",
+    "dx",
+    "dy",
+    "abs_dx",
+    "abs_dy",
+    "neg_dx",
+    "neg_dy",
+    "rx",
+    "ry",
+    "abs_rx",
+    "abs_ry",
+    "qx",
+    "qy",
+    "lane_xor",
+    "lane_difference",
+    "trend",
+    "lane_pair_0",
+    "lane_pair_1",
+    "lane_pair_2",
+    "sx",
+    "sy",
+    "ax",
+    "ay",
+    "tx",
+    "ty",
+    "sx_right",
+    "ax_right",
+    "tx_right",
+    "sy_top",
+    "ay_top",
+    "ty_top",
+    "source_side",
+    "arrival_side",
+    "target_side",
+    "source_band",
+    "arrival_band",
+    "target_band",
+    "source_block_row",
+    "arrival_block_row",
+    "target_block_row",
+    "source_ycell",
+    "arrival_ycell",
+    "target_ycell",
+    "first_block",
+    "compressed_dx",
+    "forced_detour"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "build/exp501/tools/exact_labels",
+    "doc/eda比赛文件/arch",
+    "build/exp501/labels-0.csv",
+    "build/exp501/tools/orbit.i16",
+    "build/exp501/exact-0.csv"
+  ],
+  "exit_code": 0,
+  "wall_s": 1058.5843714040238,
+  "host": "lhj-NF5280M5",
+  "measured": "user=1057.47 sys=1.10 wall=1058.58 rss_kib=802460 exit=0\n"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "D64-2",
+  "full_port_pairs": 59904,
+  "geometries": 65040,
+  "values": 3896156160,
+  "input_energy": 7303730.719104794,
+  "squared": 74601.09327770742,
+  "absolute": 10412501.262057431,
+  "by_quotient_sum": [
+    {
+      "band": 0,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 1,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 2,
+      "values": 833863680,
+      "squared": 51225.48423251709,
+      "absolute": 4359454.650378484
+    },
+    {
+      "band": 3,
+      "values": 3062292480,
+      "squared": 23375.609045190333,
+      "absolute": 6053046.611678948
+    }
+  ]
+}

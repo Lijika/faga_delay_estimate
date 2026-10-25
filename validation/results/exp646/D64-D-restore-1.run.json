@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp646/D64-D/restore",
+    "build/exp646/D64-D/restored.bin"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.182244,
+  "wall_s": 0.27151322294957936,
+  "rss_bytes": 201945088,
+  "threads": 1,
+  "stderr": "validation/results/exp646/D64-D-restore-1.stderr"
+}

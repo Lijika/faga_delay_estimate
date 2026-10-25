@@ -1,0 +1,55 @@
+{
+  "candidate": {
+    "path": "build/exp579/estimate",
+    "bytes": 93648120,
+    "sha256": "b77088009fda2e03c5fb7fd6e5f2646e1ea31d3f97f4ae4302d56b28cdd5f7af"
+  },
+  "baseline": {
+    "path": "../../build/exp320/narrow/estimate",
+    "bytes": 94083728,
+    "sha256": "14b6fea221e7158c6acab1a51768a9e83ba7e570f5744e6416490cd1ffae1b1a"
+  },
+  "baseline_flags": [
+    "-cache-mb",
+    "0",
+    "-quiet"
+  ],
+  "schedule": [
+    "CA",
+    "AC",
+    "CA",
+    "AC",
+    "CA",
+    "AC"
+  ],
+  "cases": [
+    {
+      "name": "development",
+      "input": {
+        "path": "../exp501/build/exp501/u-role/requests.csv",
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      },
+      "exact": {
+        "path": "../exp501/build/exp501/exact.csv",
+        "bytes": 72686142,
+        "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+      }
+    },
+    {
+      "name": "independent",
+      "input": {
+        "path": "../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      "exact": {
+        "path": "../exp562/build/exp562/exact.csv",
+        "bytes": 72674703,
+        "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+      }
+    }
+  ],
+  "independent_scores_seen": false,
+  "static_elf_passed": true
+}

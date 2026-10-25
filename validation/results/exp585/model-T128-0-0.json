@@ -1,0 +1,28 @@
+{
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "base_score": 0,
+    "colsample_bytree": 1.0,
+    "seed": 20261021585,
+    "nthread": 16,
+    "max_depth": 6,
+    "eta": 0.05,
+    "max_bin": 1024,
+    "min_child_weight": 20,
+    "reg_lambda": 5,
+    "subsample": 0.85
+  },
+  "rounds": 128,
+  "columns": 54,
+  "rows": 4453,
+  "port_pairs": 4279,
+  "wall_s": 0.24507760698907077,
+  "cpu_s": 3.823187897,
+  "offline_only": true,
+  "model": {
+    "path": "build/exp585/T128-0-0.json",
+    "bytes": 494278,
+    "sha256": "0d1bd4d525722d910b3c5b064f583ec79d0b82205b9d374deec5ac911c668d89"
+  }
+}

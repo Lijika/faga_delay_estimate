@@ -1,0 +1,103 @@
+{
+  "files": [
+    {
+      "path": "validation/exp535_real_map.py",
+      "bytes": 19095,
+      "sha256": "813cd1c938252760a43904094091d38c372c3c286e7914a1e8ff45fc32f5ccce"
+    },
+    {
+      "path": "validation/exp208_nominal_parent_tree.py",
+      "bytes": 26843,
+      "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+    },
+    {
+      "path": "tests/exp535_real_map.cpp",
+      "bytes": 3872,
+      "sha256": "0ff4fe8e3e08c42e274c389f69b2a0afbf537b4e5f5fce4b414f2f9d90532e46"
+    },
+    {
+      "path": "experiment/实验535-全端口真实地图的表示误差与几何误差.md",
+      "bytes": 3349,
+      "sha256": "fb9608bfb7209757fd5ef2f702d6e1933279f3f590308ef8ad8bcbc695fdf1a6"
+    },
+    {
+      "path": "../exp532/validation/results/exp532/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "../exp532/validation/results/exp532/construction.json",
+      "bytes": 7270,
+      "sha256": "a0e21167caefd85e065146ca9eb511eda64996f7ae5b7bb349146b5b069f27e0"
+    },
+    {
+      "path": "../exp534/validation/results/exp534/report.json",
+      "bytes": 7571,
+      "sha256": "b475240299bc2a100ef210807bf3ade3624fedfa02320b722c84ebcba32d483a"
+    },
+    {
+      "path": "validation/results/exp501/report.json",
+      "bytes": 2447,
+      "sha256": "6938f738db9ffb71d0f60ebbf07cd36291b2fac2fc3a3f418d18e5e107220d16"
+    },
+    {
+      "path": "validation/results/exp502/report.json",
+      "bytes": 3572,
+      "sha256": "f4d17a3e6433f17db39a042dbbe9908905bf65333a45a3eba4521aa32aa00ad8"
+    },
+    {
+      "path": "validation/results/exp506/report.json",
+      "bytes": 388768,
+      "sha256": "a5e8ef3d44c8ab0f6eddb6a934dcc53fea5c77885ed7349e56cab82d41963fab"
+    },
+    {
+      "path": "validation/results/exp500-preparation/fields.json",
+      "bytes": 287293,
+      "sha256": "fe7c99b945842f342801a3750ab5c0b600a611624d10bc8812ac2396755c1654"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    }
+  ],
+  "rows": 1000000,
+  "sources": 208,
+  "targets": 288,
+  "pairs": 59904,
+  "modes": [
+    "original",
+    "compressed"
+  ],
+  "threads": 1,
+  "host": "lhj-R4900-G3",
+  "arms": [
+    "oracle_original",
+    "oracle_compressed",
+    "model_original",
+    "model_compressed",
+    "exp354"
+  ],
+  "new_labels": 0,
+  "new_training": 0
+}

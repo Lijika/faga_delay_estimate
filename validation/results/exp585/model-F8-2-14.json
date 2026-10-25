@@ -1,0 +1,9 @@
+{
+  "prefix_of": "F16-2-14",
+  "rounds": 8,
+  "model": {
+    "path": "build/exp585/F8-2-14.json",
+    "bytes": 16160,
+    "sha256": "59fb6682c0a74252c113364284a0331c6bfaf9925915913d900298ab9e49abe3"
+  }
+}

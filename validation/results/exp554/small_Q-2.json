@@ -1,0 +1,78 @@
+{
+  "name": "small_Q",
+  "fold": 2,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_Q-2.json",
+      "bytes": 63872,
+      "sha256": "4dcfacce12f6a5c402634ab6035d3297a1501dbaf721cf237f7e6ee165926517"
+    },
+    "binary": {
+      "path": "build/exp554/small_Q-2.bin",
+      "bytes": 15700,
+      "sha256": "bed5a5f77af289a091256da07a80bc77765562e9c1f49df061c67da9d001fba9"
+    },
+    "trees": 32,
+    "nodes": 972
+  },
+  "cpu_s": 13.814329028000017,
+  "wall_s": 4.803805052069947,
+  "train_raw": {
+    "path": "build/exp554/small_Q-2.train.f32",
+    "bytes": 2665464,
+    "sha256": "b9cb094f225b9467219924a5f808f93a9efcdae9051c7189da4187aa29842561"
+  },
+  "train": {
+    "rows": 666366,
+    "accuracy_pp": 99.3357589112096,
+    "mean_error_ps": -3.7698547044717166,
+    "mae_ps": 4.062231566436463,
+    "squared_ps": 141763787,
+    "exact_rows": 470446,
+    "under_rows": 158307,
+    "over_rows": 37613
+  },
+  "validation": {
+    "rows": 333634,
+    "accuracy_pp": 99.33443391509427,
+    "mean_error_ps": -3.754503437899015,
+    "mae_ps": 4.059652193721264,
+    "squared_ps": 69462084,
+    "exact_rows": 235407,
+    "under_rows": 79394,
+    "over_rows": 18833
+  },
+  "train_kernel": {
+    "rows": 666366,
+    "accuracy_pp": 99.31874593715486,
+    "mean_error_ps": -3.355060132119586,
+    "mae_ps": 3.6738489058565413,
+    "squared_ps": 129456902,
+    "exact_rows": 483819,
+    "under_rows": 144109,
+    "over_rows": 38438
+  },
+  "validation_kernel": {
+    "rows": 333634,
+    "accuracy_pp": 99.31548107630256,
+    "mean_error_ps": -3.333026609997782,
+    "mae_ps": 3.6652709256250864,
+    "squared_ps": 63009093,
+    "exact_rows": 242111,
+    "under_rows": 72274,
+    "over_rows": 19249
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp646/D64-Z/restore",
+    "build/exp646/D64-Z/restored.bin"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.17271599999999998,
+  "wall_s": 0.2633610921911895,
+  "rss_bytes": 126615552,
+  "threads": 1,
+  "stderr": "validation/results/exp646/D64-Z-restore-3.stderr"
+}

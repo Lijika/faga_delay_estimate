@@ -1,0 +1,78 @@
+{
+  "name": "capacity_J",
+  "fold": 2,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 8,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 128,
+  "assets": {
+    "json": {
+      "path": "build/exp554/capacity_J-2.json",
+      "bytes": 3320088,
+      "sha256": "6b0e6f458d799a407d7d899d0b22e959c81ae8b60efd9a388efc19e3e65b91cc"
+    },
+    "binary": {
+      "path": "build/exp554/capacity_J-2.bin",
+      "bytes": 906900,
+      "sha256": "ffbb155610bc9c1cc5e47ae11e986d24f4ae7f9555169e424886f7bd3bc3c773"
+    },
+    "trees": 128,
+    "nodes": 56648
+  },
+  "cpu_s": 58.222528754999985,
+  "wall_s": 20.921807741979137,
+  "train_raw": {
+    "path": "build/exp554/capacity_J-2.train.f32",
+    "bytes": 2665464,
+    "sha256": "6f3beda33b4d267f5fb036d939859cc1a71000e24bb4aeebf0db91f50bdd8171"
+  },
+  "train": {
+    "rows": 666366,
+    "accuracy_pp": 96.00155229473133,
+    "mean_error_ps": -2.088497912558564,
+    "mae_ps": 21.68833643973432,
+    "squared_ps": 578218516,
+    "exact_rows": 12890,
+    "under_rows": 333964,
+    "over_rows": 319512
+  },
+  "validation": {
+    "rows": 333634,
+    "accuracy_pp": 95.83970502815352,
+    "mean_error_ps": -2.022587625961383,
+    "mae_ps": 22.26976267406799,
+    "squared_ps": 301816780,
+    "exact_rows": 5671,
+    "under_rows": 167329,
+    "over_rows": 160634
+  },
+  "train_kernel": {
+    "rows": 666366,
+    "accuracy_pp": 95.43119409326678,
+    "mean_error_ps": -1.6737033402064332,
+    "mae_ps": 21.473176902783155,
+    "squared_ps": 562875667,
+    "exact_rows": 12959,
+    "under_rows": 331010,
+    "over_rows": 322397
+  },
+  "validation_kernel": {
+    "rows": 333634,
+    "accuracy_pp": 95.24217641722913,
+    "mean_error_ps": -1.6011107980601498,
+    "mae_ps": 22.054565781664937,
+    "squared_ps": 294014911,
+    "exact_rows": 5696,
+    "under_rows": 165939,
+    "over_rows": 161999
+  }
+}

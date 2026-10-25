@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    {
+      "path": "../exp501/build/exp501/exact.csv",
+      "bytes": 72686142,
+      "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+    },
+    {
+      "path": "../exp502/build/exp502/C1.csv",
+      "bytes": 40136506,
+      "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+    }
+  ],
+  "unique_rows": 1000000,
+  "min_pair_rows": 3,
+  "clusters": 960505,
+  "pairs": 59904,
+  "rows": 1000000,
+  "queries": {
+    "path": "build/exp553/queries.bin",
+    "bytes": 40000012,
+    "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1"
+  }
+}

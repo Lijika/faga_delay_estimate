@@ -1,0 +1,7 @@
+{
+  "check": "close-audit",
+  "exception": "FileNotFoundError",
+  "path": "validation/results/exp650/run.stderr",
+  "actual_path": "run.stderr",
+  "algorithm_results_changed": false
+}

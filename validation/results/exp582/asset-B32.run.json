@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp582/B32-assets/geometry.S",
+    "-o",
+    "build/exp582/B32-assets/geometry.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.069924,
+  "wall_s": 0.0710951539222151,
+  "rss_bytes": 1212268544,
+  "threads": 1,
+  "stderr": "validation/results/exp582/asset-B32.stderr"
+}

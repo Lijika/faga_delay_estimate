@@ -1,0 +1,28 @@
+{
+  "name": "small_Q",
+  "command": [
+    "build/exp554/predict",
+    "build/exp554/features.f32",
+    "build/exp554/folds.u8",
+    "build/exp554/small_Q-0.bin",
+    "build/exp554/small_Q-1.bin",
+    "build/exp554/small_Q-2.bin",
+    "build/exp554/small_Q.independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.423139,
+  "wall_s": 0.4475234339479357,
+  "rss_bytes": 1287450624,
+  "threads": 1,
+  "counters": {
+    "rows": 1000000,
+    "threads": 1,
+    "comparisons": 127945339
+  },
+  "output": {
+    "path": "build/exp554/small_Q.independent.f32",
+    "bytes": 4000000,
+    "sha256": "2d58ce5ee933d963a76379ad6f95f666ba4561932d9c968224c872811f10099d"
+  },
+  "bitwise_equal": true
+}

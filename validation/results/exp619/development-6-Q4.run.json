@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp619/Q4",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp619/development-6-Q4.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.33490999999999993,
+  "wall_s": 0.3352718739770353,
+  "rss_bytes": 460312576,
+  "threads": 1,
+  "stderr": "validation/results/exp619/development-6-Q4.stderr"
+}

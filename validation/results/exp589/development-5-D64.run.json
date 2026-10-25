@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp589/D64",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp589/development-5-D64.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.43784599999999996,
+  "wall_s": 0.43888475303538144,
+  "rss_bytes": 468516864,
+  "threads": 1,
+  "stderr": "validation/results/exp589/development-5-D64.stderr"
+}

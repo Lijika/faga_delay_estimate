@@ -1,0 +1,81 @@
+{
+  "all_complete_label_checks": true,
+  "rows": 1000000,
+  "unique_rows": 1000000,
+  "source_ports": 208,
+  "target_ports": 288,
+  "port_pairs": 59904,
+  "span_checks": 12,
+  "exact": {
+    "path": "build/exp501/exact.csv",
+    "bytes": 72686142,
+    "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+  },
+  "input": {
+    "path": "build/exp501/u-role/requests.csv",
+    "bytes": 35198280,
+    "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+  },
+  "input_check": {
+    "path": "validation/results/exp501/input.json",
+    "bytes": 731810,
+    "sha256": "396d5d5acfdad85542b2ba0f4524526331629743c08f02646925c16182443449"
+  },
+  "runs": [
+    {
+      "command": [
+        "build/exp501/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp501/labels-0.csv",
+        "build/exp501/tools/orbit.i16",
+        "build/exp501/exact-0.csv"
+      ],
+      "exit_code": 0,
+      "wall_s": 1058.5843714040238,
+      "host": "lhj-NF5280M5",
+      "measured": "user=1057.47 sys=1.10 wall=1058.58 rss_kib=802460 exit=0\n"
+    },
+    {
+      "command": [
+        "build/exp501/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp501/labels-1.csv",
+        "build/exp501/tools/orbit.i16",
+        "build/exp501/exact-1.csv"
+      ],
+      "exit_code": 0,
+      "wall_s": 1056.2685549051967,
+      "host": "lhj-NF5280M5",
+      "measured": "user=1055.11 sys=1.09 wall=1056.26 rss_kib=821204 exit=0\n"
+    },
+    {
+      "command": [
+        "build/exp501/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp501/labels-2.csv",
+        "build/exp501/tools/orbit.i16",
+        "build/exp501/exact-2.csv"
+      ],
+      "exit_code": 0,
+      "wall_s": 1066.3160091422033,
+      "host": "lhj-NF5280M5",
+      "measured": "user=1065.20 sys=1.10 wall=1066.31 rss_kib=839684 exit=0\n"
+    },
+    {
+      "command": [
+        "build/exp501/tools/exact_labels",
+        "doc/eda比赛文件/arch",
+        "build/exp501/labels-3.csv",
+        "build/exp501/tools/orbit.i16",
+        "build/exp501/exact-3.csv"
+      ],
+      "exit_code": 0,
+      "wall_s": 1066.3477389030159,
+      "host": "lhj-NF5280M5",
+      "measured": "user=1065.27 sys=1.04 wall=1066.34 rss_kib=795556 exit=0\n"
+    }
+  ],
+  "host": "lhj-R4900-G3",
+  "disk_end_bytes": 3458654208,
+  "scope": "Complete fresh real-graph labels. Candidate accuracy and CPU remain unverified."
+}

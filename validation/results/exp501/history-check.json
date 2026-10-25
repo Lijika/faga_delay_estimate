@@ -1,0 +1,346 @@
+{
+  "remote": {
+    "files": [
+      {
+        "path": "build/exp203/exact-labels.csv",
+        "bytes": 424259,
+        "sha256": "90706e349b791999cff2a8b0a516221b8d004fdb65be305dc2f274395411c887"
+      },
+      {
+        "path": "build/exp215/exact-labels.csv",
+        "bytes": 425800,
+        "sha256": "71642bee869ff8f255019771a8aa9d48d3ce6ad02fe1432b5f25d6d5d4d7ef7a"
+      },
+      {
+        "path": "build/exp226/exact-labels.csv",
+        "bytes": 424506,
+        "sha256": "e17b66b542b114d9d0489715b64c859fbd04c0d48388355d32a1b32b41b138c4"
+      },
+      {
+        "path": "build/exp228/exact-labels.csv",
+        "bytes": 424733,
+        "sha256": "7cc0802e9d2cc36170deeb301235615578fc4366338041ee961b1ecf3ac93b6b"
+      },
+      {
+        "path": "build/exp231/exact-labels.csv",
+        "bytes": 852225,
+        "sha256": "0ae51e10bd8e2923b15cce668bb0cf84083ccf4737f7ed88606326e69c11698d"
+      },
+      {
+        "path": "build/exp234/exact-labels.csv",
+        "bytes": 852075,
+        "sha256": "79bf87c489d57cb32027095327c7dfdc2db8a4d8073febc014d35f0c733fa1ba"
+      },
+      {
+        "path": "build/exp239/exact-labels.csv",
+        "bytes": 852577,
+        "sha256": "418ee2647355f1fe5931d7edd8c1cc824b384eaeb3adae0fe41366f932128911"
+      },
+      {
+        "path": "build/exp243/exact-labels.csv",
+        "bytes": 852145,
+        "sha256": "1759c4211167815f5d433a799f6923ca09dc5bc10286fda264e24cd7af293400"
+      },
+      {
+        "path": "build/exp255/exact-labels.csv",
+        "bytes": 852448,
+        "sha256": "fd14cf79e2fc35cc09d2a50d342af1cbcea784a1ebedae6dd72b31694e71d9ac"
+      },
+      {
+        "path": "build/exp258/exact-labels.csv",
+        "bytes": 852131,
+        "sha256": "7e41e3c868b98e863af662ce452e7031b50f25be9495bb086a4f7b860a97f52c"
+      },
+      {
+        "path": "build/exp420/exact.csv",
+        "bytes": 1429400,
+        "sha256": "1ac5984c117a5db1bffc551cb9dfa8c8d9c453b3968ffa820f08e92eac2e8972"
+      },
+      {
+        "path": "build/exp425/exact.csv",
+        "bytes": 1428141,
+        "sha256": "fa2c50f05a8e5129d5103ad2d86c7b1c0e8f8f14e0300de0f5e8a368d7cf1dfa"
+      },
+      {
+        "path": "build/exp429/exact.csv",
+        "bytes": 2881843,
+        "sha256": "3e337ddf493b7f5156c25e82f800bff2291db5ffdc0b9f08299fe2a726731346"
+      },
+      {
+        "path": "build/exp432/exact.csv",
+        "bytes": 2882918,
+        "sha256": "94349dba3e7022293dfe3a12dc4afb426adf7497f5aecd475635908d72330da1"
+      },
+      {
+        "path": "build/exp437/exact.csv",
+        "bytes": 2880766,
+        "sha256": "79d73a0192c91bce6d25e755bf9db173e5723fd3d7360e26472560b22a2f1f56"
+      },
+      {
+        "path": "build/exp442/exact.csv",
+        "bytes": 2881552,
+        "sha256": "10f83d0a20b2f97ffff6c9a72c9e51064d214544cf91a6f71664097385dd37d8"
+      },
+      {
+        "path": "build/exp443/exact.csv",
+        "bytes": 2882471,
+        "sha256": "44d1b0ab7d085e3b22265277f69af161ef79e6fbccc3b19db77805af138327e8"
+      },
+      {
+        "path": "build/exp462/exact.csv",
+        "bytes": 2882009,
+        "sha256": "b0d6a571cfa265321b702c8152be0b452d1e614f087943cf97b5467a76e17708"
+      },
+      {
+        "path": "build/exp482/exact.csv",
+        "bytes": 2827387,
+        "sha256": "1b38ef1523b8db3ee81ca1afc49a3ee82e4454272d11015bf0bdf8c344a2cac3"
+      },
+      {
+        "path": "validation/results/exp284/raw-labels/exact.csv",
+        "bytes": 852411,
+        "sha256": "d0e0522dfc11afc6671981ce7fe2d1115202ee04f2f37ded7a16727a6374d8c3"
+      },
+      {
+        "path": "validation/results/exp288/raw-labels/exact.csv",
+        "bytes": 850984,
+        "sha256": "1f05eca8e3bbce46f8bfdc3e9382e8cd09daa710ca97462404a8db4e973718bc"
+      },
+      {
+        "path": "validation/results/exp291/raw-labels/exact.csv",
+        "bytes": 851370,
+        "sha256": "4aa8ca7d3c28e214acf2bbde3bb235d6fd32f98c7096a11f326c23f387bf447b"
+      },
+      {
+        "path": "validation/results/exp292/cli-exact-fixed.csv",
+        "bytes": 276,
+        "sha256": "072c254776c189fbf64b75dfbd36e4e4407dba918f64c03c38e0144640fbf15b"
+      },
+      {
+        "path": "validation/results/exp292/cli-exact-reference.csv",
+        "bytes": 276,
+        "sha256": "072c254776c189fbf64b75dfbd36e4e4407dba918f64c03c38e0144640fbf15b"
+      },
+      {
+        "path": "validation/results/exp295/raw-labels/exact.csv",
+        "bytes": 850843,
+        "sha256": "d8c835a5fdbfe17bb88eb38999901610619acdee486132f6444265594691eb1b"
+      },
+      {
+        "path": "validation/results/exp299/raw-labels/exact.csv",
+        "bytes": 851925,
+        "sha256": "a86091aa521a762aba611a5571f85b56333664891194320ce3b568a5e8a8f1a2"
+      },
+      {
+        "path": "validation/results/exp303/raw-labels/exact.csv",
+        "bytes": 850860,
+        "sha256": "1ea69a1f447d70db8bf9e9d3dcb710fc97c544bc1e9250c8d81e3154a1cfdee2"
+      },
+      {
+        "path": "validation/results/exp313/raw-labels/exact.csv",
+        "bytes": 851291,
+        "sha256": "b63ace30799a5ff5f4e1f6c47ed5e8f4504ce8311384985377d73d99488e794a"
+      },
+      {
+        "path": "validation/results/exp319/raw-labels/exact.csv",
+        "bytes": 851301,
+        "sha256": "e3b94488e6ecb7455ab0bf15984eef16e87e7d42942c6796cd7fa9c403f7049c"
+      },
+      {
+        "path": "validation/results/exp331/exact-exp258-off.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp331/exact-fresh319-off.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp331/exact-output-off.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp331/exact-role-off.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp332/consumer-exact-baseline.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp332/consumer-exact-fifo.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp332/consumer-exact-grouped.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp347/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp347/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp347/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp347/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp347/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp348/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp348/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp348/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp348/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp348/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp349/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp349/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp349/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp349/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp349/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp350/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp350/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp350/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp350/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp350/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp352/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp352/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp352/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp352/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp352/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      },
+      {
+        "path": "validation/results/exp353/audit-exact-exp258.csv",
+        "bytes": 495768,
+        "sha256": "4bcc37786bbc74f1af9b55500b8fb44e740f8fb03f0a4b7d93d20d8a2bd8acd0"
+      },
+      {
+        "path": "validation/results/exp353/audit-exact-fresh319.csv",
+        "bytes": 495335,
+        "sha256": "3bf9614178b42821b4847b868a843dbef13a264598c68d2856bfc2bb44342a3c"
+      },
+      {
+        "path": "validation/results/exp353/audit-exact-output.csv",
+        "bytes": 375158,
+        "sha256": "de99c7ad24cb8e2531fd55c5da35314cc0b60c19610bce22a653ceaa3dd8a81d"
+      },
+      {
+        "path": "validation/results/exp353/audit-exact-role.csv",
+        "bytes": 541604,
+        "sha256": "e7b73110a5e166b6c55fc3856695dfb4eb9a81550842104f7e2cc5f202a9822f"
+      },
+      {
+        "path": "validation/results/exp353/consumer-exact.csv",
+        "bytes": 10031,
+        "sha256": "ddea0a187f1ba9ca428b53153f023bd047b72b34661735d72d4b71451729236f"
+      }
+    ],
+    "unsupported_headers": [],
+    "unique_pairs": 540686,
+    "reference_root": "/home/lhj/lhjwork/eda2026"
+  },
+  "local": {
+    "path": "validation/results/exp501/history-local.json",
+    "bytes": 41230,
+    "sha256": "635ee7e40c0f38786c48c231e50710a1aa7e3ac0297122ba8876443dbf667d60"
+  },
+  "combined_known_pairs": 780046,
+  "overlap": []
+}

@@ -1,0 +1,312 @@
+{
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.3,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 8,
+  "records": [
+    {
+      "route": 0,
+      "rows": 6714,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-0.json",
+          "bytes": 13126,
+          "sha256": "7862b2aaa82bfae2ab925cf5be1ca8c879dae12b4385979371f85197191a2559"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-0.bin",
+          "bytes": 2964,
+          "sha256": "2af886ba6b6a5830ce6b92b6ee2ab13391b9597b7e9897f7478fa90a337bb220"
+        },
+        "trees": 8,
+        "nodes": 182
+      }
+    },
+    {
+      "route": 1,
+      "rows": 69990,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-1.json",
+          "bytes": 15049,
+          "sha256": "0ddef5815321f15cc743f5243df6a1d239635dd34ce5feaf1b4835df907d5004"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-1.bin",
+          "bytes": 3508,
+          "sha256": "58a9f8bcc71e004938649c317c65bb2e83bbb6f32090c4ff99f1d08ef7e544c7"
+        },
+        "trees": 8,
+        "nodes": 216
+      }
+    },
+    {
+      "route": 2,
+      "rows": 14970,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-2.json",
+          "bytes": 16321,
+          "sha256": "e9c394926a7395409b60206b499ede1944a6722b35feac04eae936f9da62ce0a"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-2.bin",
+          "bytes": 3860,
+          "sha256": "289478b6166f0c0ad620ffa60386e8d365b55e14bd0de1b1e44240cb73587a85"
+        },
+        "trees": 8,
+        "nodes": 238
+      }
+    },
+    {
+      "route": 3,
+      "rows": 151472,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-3.json",
+          "bytes": 16534,
+          "sha256": "7f7bb1d1d26760950e099c432b29a973d9f5fe13ca00097e7d6a01e956a02355"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-3.bin",
+          "bytes": 3924,
+          "sha256": "f9a2b4ebae58be7aefdb6029049c2fe55e22d0db7d65c598ed82c9a6d0bd4c4b"
+        },
+        "trees": 8,
+        "nodes": 242
+      }
+    },
+    {
+      "route": 4,
+      "rows": 6419,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-4.json",
+          "bytes": 13006,
+          "sha256": "89bc6f4c2de42622f47826fad6304b54e450ecb7484c5e9e72aa3b1f58a86e98"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-4.bin",
+          "bytes": 2932,
+          "sha256": "30fd9699360ed143c4d6eb76c279b99f104c3d22bf94d6164111ef9e28860cdb"
+        },
+        "trees": 8,
+        "nodes": 180
+      }
+    },
+    {
+      "route": 5,
+      "rows": 72552,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-5.json",
+          "bytes": 15307,
+          "sha256": "30fa35e8abb227e0f84febbfe8d8bfeabdb2ff1368019f9f0946e7438a178f8f"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-5.bin",
+          "bytes": 3572,
+          "sha256": "5b8f3e62ab832199b43c7be71cd6039f27c442b9ab6bdf32df653d18f82cc53b"
+        },
+        "trees": 8,
+        "nodes": 220
+      }
+    },
+    {
+      "route": 6,
+      "rows": 14284,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-6.json",
+          "bytes": 16442,
+          "sha256": "3c81fe4bcdac24e0c3981539aaddb7908cc1d910a0b9350511b04de45b01a029"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-6.bin",
+          "bytes": 3892,
+          "sha256": "7fdb17de921b41b6da20d8ddab7676f1d4d6ef10b80693c6f3b7819d57a70ca5"
+        },
+        "trees": 8,
+        "nodes": 240
+      }
+    },
+    {
+      "route": 7,
+      "rows": 168058,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-7.json",
+          "bytes": 16660,
+          "sha256": "862afc47cd08e62fa7b55545a6f5d90e4178fb818d9fe86d67ce1bc19b2a7eb7"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-7.bin",
+          "bytes": 3956,
+          "sha256": "f25c913dee29fbe576e67acfd5563d0b72d51f7fb6da630a0aa6575b9415ff4c"
+        },
+        "trees": 8,
+        "nodes": 244
+      }
+    },
+    {
+      "route": 8,
+      "rows": 6391,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-8.json",
+          "bytes": 13516,
+          "sha256": "8ecd31ce1e0e933a024421447377918450f9d735ca8afa478c9bf72c5bb9fab6"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-8.bin",
+          "bytes": 3028,
+          "sha256": "c0074485c3b6aa312ef5d8e85ba65cba502cebb62fd0037795f2ce748546c64e"
+        },
+        "trees": 8,
+        "nodes": 186
+      }
+    },
+    {
+      "route": 9,
+      "rows": 67952,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-9.json",
+          "bytes": 13586,
+          "sha256": "38534f0bade7a6985d3880c5ad5f57dd48ec297df257fcaebf95e61a9b619a64"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-9.bin",
+          "bytes": 3092,
+          "sha256": "96900bc483bcd868f4c9ee254852925d00d0d62c9d973008824aacbd3a9ce0c5"
+        },
+        "trees": 8,
+        "nodes": 190
+      }
+    },
+    {
+      "route": 10,
+      "rows": 14979,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-10.json",
+          "bytes": 16042,
+          "sha256": "dd280a206820673a4f426e7a8c713cb0e669372e81769b34a2ab3bb6d5eb752e"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-10.bin",
+          "bytes": 3796,
+          "sha256": "09238767f6bb309c5eeac6793c849c826f63b2d10618a55917999ac37fafa05c"
+        },
+        "trees": 8,
+        "nodes": 234
+      }
+    },
+    {
+      "route": 11,
+      "rows": 167958,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-11.json",
+          "bytes": 16279,
+          "sha256": "b877ff4318c47568b618a33f791180c02a67873d903d61bf0f2b64252ed3ea5a"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-11.bin",
+          "bytes": 3860,
+          "sha256": "751b6bacd6270c35613c667a9bf1fe52d909f20f2f94b47317a71c6810cf66ae"
+        },
+        "trees": 8,
+        "nodes": 238
+      }
+    },
+    {
+      "route": 12,
+      "rows": 6101,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-12.json",
+          "bytes": 14045,
+          "sha256": "54081eca3d7fb789d9105208466af6b90f2dfbf958f5601aa9f9773aceb0c761"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-12.bin",
+          "bytes": 3188,
+          "sha256": "f862729c40b301894a3a1101c1d97302a0f2caf121232282a6c36d745d5af457"
+        },
+        "trees": 8,
+        "nodes": 196
+      }
+    },
+    {
+      "route": 13,
+      "rows": 66602,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-13.json",
+          "bytes": 13590,
+          "sha256": "789bd6629b1e8c4d6865f1299337dc1c316c55753e0ba3dd92284b34f322d980"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-13.bin",
+          "bytes": 3060,
+          "sha256": "8427b643d2126a8feef0974336df5dbb221c35dea758d03bb4d7738d10357c28"
+        },
+        "trees": 8,
+        "nodes": 188
+      }
+    },
+    {
+      "route": 14,
+      "rows": 14320,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-14.json",
+          "bytes": 16172,
+          "sha256": "f02623b4ec8a979df147a36a5fd4f3279f918358193f4ba54a7d3476a0c5a794"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-14.bin",
+          "bytes": 3796,
+          "sha256": "6d9f2b22962419c9cd07af821ec31038f8d422506f933e7328f6767c42f09608"
+        },
+        "trees": 8,
+        "nodes": 234
+      }
+    },
+    {
+      "route": 15,
+      "rows": 151238,
+      "assets": {
+        "json": {
+          "path": "build/exp579/R8-final-15.json",
+          "bytes": 16860,
+          "sha256": "4f12291342c271cc127d1b5d95a67025447d03208c52f681d8f788766c3ee0f7"
+        },
+        "binary": {
+          "path": "build/exp579/R8-final-15.bin",
+          "bytes": 4020,
+          "sha256": "9c378da60d39c095dd5277b82447adab09ebf2a8d1af308aca96cb8d45787418"
+        },
+        "trees": 8,
+        "nodes": 248
+      }
+    }
+  ],
+  "native": {
+    "path": "build/exp579/final-native.f32",
+    "bytes": 4000000,
+    "sha256": "0b8453507cf6f5157d6816b640159e4939ec74c0feb53eb8042ea93a5c22bf92"
+  },
+  "heldout_used_for_training": false,
+  "xgboost_version": "3.0.5"
+}

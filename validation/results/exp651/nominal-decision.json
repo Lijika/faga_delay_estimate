@@ -1,0 +1,19 @@
+{
+  "direction_gates": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "continue_cached": true,
+  "asset": {
+    "path": "build/exp651/D64.curves",
+    "bytes": 29864000,
+    "sha256": "95057aa38fd4f0d4811c424d119cb1471a279978a52180d54d4c6981787f2bd7"
+  },
+  "full_roundtrip": true,
+  "all_phases_and_directions": true,
+  "new_exact_labels": 0,
+  "complete_program_runs": 0,
+  "final_accuracy_goal_verified": false
+}

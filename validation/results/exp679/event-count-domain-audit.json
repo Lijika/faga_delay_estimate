@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "map": {
+    "path": "doc/eda\u6bd4\u8d5b\u6587\u4ef6/arch/SRB_Gap.json",
+    "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+  },
+  "legal_central_y_count": 250,
+  "ordered_y_pairs": 62500,
+  "ordered_x_pairs": 14400,
+  "band_count_equal": true,
+  "event_predicate_equal": true,
+  "complete_estimator_runs": 0,
+  "scope": "Fixed map and two legal real SRB endpoints; unchanged event meaning; deployment CPU not measured"
+}

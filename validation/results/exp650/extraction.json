@@ -1,0 +1,2304 @@
+{
+  "errors": {
+    "path": "build/exp650/errors.i16",
+    "bytes": 779231232,
+    "sha256": "405edb66413bc9bb6e1f6bd0c2ae79b33e4955984378965f5984764f6f78afcd"
+  },
+  "cells": 718848,
+  "nominal_values": 389615616,
+  "source_records": [
+    {
+      "source": 0,
+      "asset": {
+        "path": "build/exp499/fields/000.bin.xz",
+        "bytes": 7729528,
+        "sha256": "182c4dcd788e5f711ff3b22a05d7f6acfbc10a2d0c79b82342045a892e0b6b5e"
+      },
+      "raw_sha256": "a4242c9181b0134d9b99206bcbf0ec04e591c40c38e54404cd3ef44580957367",
+      "residual_min": -79,
+      "residual_max": 77
+    },
+    {
+      "source": 1,
+      "asset": {
+        "path": "build/exp499/fields/001.bin.xz",
+        "bytes": 8132832,
+        "sha256": "c13398c24379546a09f5bbb654d194dbbc670ec254562c2461e19ceb511daf14"
+      },
+      "raw_sha256": "5ca7ebccf347f565cfba60100a47dc65500c800c66698c5edc9cadcca587e29f",
+      "residual_min": -88,
+      "residual_max": 63
+    },
+    {
+      "source": 2,
+      "asset": {
+        "path": "build/exp499/fields/002.bin.xz",
+        "bytes": 7781348,
+        "sha256": "b55b15628596117b71c0cc4f94b659034b1830c0593358b282d38e4d22fe1fb9"
+      },
+      "raw_sha256": "8cd262b706409e5b7af04a9fb657e4bbcfdbc2a0f795cb4704a6da1b32ac7536",
+      "residual_min": -67,
+      "residual_max": 79
+    },
+    {
+      "source": 3,
+      "asset": {
+        "path": "build/exp499/fields/003.bin.xz",
+        "bytes": 7242396,
+        "sha256": "9eba0e93d339dcd1a2887a565a942af62b13e6a0b2a51022fc6399250a7869e0"
+      },
+      "raw_sha256": "7dc0db0687677e445b94cba4bee0bb29344abe0d810f01af2e861fad0753441e",
+      "residual_min": -78,
+      "residual_max": 63
+    },
+    {
+      "source": 4,
+      "asset": {
+        "path": "build/exp499/fields/004.bin.xz",
+        "bytes": 6835168,
+        "sha256": "cdd18c8439563a03d0827da3c864d62caa3c5fae270578f79b40d8cbd1b6755b"
+      },
+      "raw_sha256": "208be885c4016b269a98fdb00b75c8556463eee1fd7f585acfd40d229f7db2b6",
+      "residual_min": -79,
+      "residual_max": 101
+    },
+    {
+      "source": 5,
+      "asset": {
+        "path": "build/exp499/fields/005.bin.xz",
+        "bytes": 6705756,
+        "sha256": "380bca2ceb64f7b02607f689d298768e20384a49344d2f538018bb49324fecba"
+      },
+      "raw_sha256": "57958fffbdd6158678bedc81a20f92e035b885e6ed80252a3e3daad01943bd9a",
+      "residual_min": -80,
+      "residual_max": 81
+    },
+    {
+      "source": 6,
+      "asset": {
+        "path": "build/exp499/fields/006.bin.xz",
+        "bytes": 6142536,
+        "sha256": "89cd25377093ef7bd939c6d8b009c87387c1b168a1ece6ba0b2db8d8c497a656"
+      },
+      "raw_sha256": "870f0cc880397d087693e719f0233f57dcf1501df680e1316d751d1c8785868a",
+      "residual_min": -60,
+      "residual_max": 76
+    },
+    {
+      "source": 7,
+      "asset": {
+        "path": "build/exp499/fields/007.bin.xz",
+        "bytes": 6832532,
+        "sha256": "aec1ffc116ba823f279bc0646bc1013087dc111c89161c240feebe2b300a97fd"
+      },
+      "raw_sha256": "fb70c5c297c6e7018936ab7691a910d10fad06c59b67fd5a8684be1135f2ba8d",
+      "residual_min": -64,
+      "residual_max": 64
+    },
+    {
+      "source": 8,
+      "asset": {
+        "path": "build/exp499/fields/008.bin.xz",
+        "bytes": 7700248,
+        "sha256": "3afaddc56d3583c3f4c7f36db6b8f3d57330da9573041022ca305613f432063e"
+      },
+      "raw_sha256": "5065a166ed869625186a0e57b1348eaedb40d1cf61fad2f2236b7c75e7a9ae87",
+      "residual_min": -78,
+      "residual_max": 76
+    },
+    {
+      "source": 9,
+      "asset": {
+        "path": "build/exp499/fields/009.bin.xz",
+        "bytes": 8060916,
+        "sha256": "18b7ea6e6f751333b59c1e639c3a3e67455a786aecc6ca15fe75461f1436a8ca"
+      },
+      "raw_sha256": "a31919ad8161663057c709c732d1b9e159a7174b6694243e830b69d5117627bb",
+      "residual_min": -88,
+      "residual_max": 67
+    },
+    {
+      "source": 10,
+      "asset": {
+        "path": "build/exp499/fields/010.bin.xz",
+        "bytes": 7782672,
+        "sha256": "6e240463c37fb23b8a929dc9c35ddb89227ae3dc1a187e9e4433dfd68eebb674"
+      },
+      "raw_sha256": "51d1e180d7d1cb93c7ace6e149b2f54c72a28affd72155f65eb03ed733660518",
+      "residual_min": -66,
+      "residual_max": 79
+    },
+    {
+      "source": 11,
+      "asset": {
+        "path": "build/exp499/fields/011.bin.xz",
+        "bytes": 7316232,
+        "sha256": "ba88006ab48d45327f093f98320d11a3b9922bbf0d30e1d7697dd835ab8ea503"
+      },
+      "raw_sha256": "8b922be4cb8165f1bbcfadf547f62670f4fdeb6eb0d26ed48f336b70add731e7",
+      "residual_min": -79,
+      "residual_max": 65
+    },
+    {
+      "source": 12,
+      "asset": {
+        "path": "build/exp499/fields/012.bin.xz",
+        "bytes": 6889984,
+        "sha256": "6e219b6c999c07cf1c36c3f3f972fe3ba25317ecd02340730f1eb0611e31f600"
+      },
+      "raw_sha256": "64f884bbac255991025a4457b41bf8970144b496968db1a8fbde02a2e43c905e",
+      "residual_min": -80,
+      "residual_max": 100
+    },
+    {
+      "source": 13,
+      "asset": {
+        "path": "build/exp499/fields/013.bin.xz",
+        "bytes": 6606340,
+        "sha256": "4616913d04521cd184ec1c1a04067f231be5fd2edf95217358a9dedae714dbbe"
+      },
+      "raw_sha256": "ee47c897c87fa1570dd5a77c1e76164232cd02d14cad6a349e4e8543df9c820f",
+      "residual_min": -76,
+      "residual_max": 80
+    },
+    {
+      "source": 14,
+      "asset": {
+        "path": "build/exp499/fields/014.bin.xz",
+        "bytes": 6168408,
+        "sha256": "b5431a15776c235e10ddc83f36818214622dcf4f57d56c0d18674051c63ae740"
+      },
+      "raw_sha256": "d5f22a891a83300e7813789608d91f6258ac005d26ace2401e0c223e6d8b2c76",
+      "residual_min": -57,
+      "residual_max": 76
+    },
+    {
+      "source": 15,
+      "asset": {
+        "path": "build/exp499/fields/015.bin.xz",
+        "bytes": 6820312,
+        "sha256": "8762c927a862c543348dde28d0ad6c6708e889c61f83844b51a307436c8d9a7d"
+      },
+      "raw_sha256": "a962bef3669dd8504a76c3dc92ec4a742116ec783f4c90223ba2f25001cc6f0a",
+      "residual_min": -63,
+      "residual_max": 63
+    },
+    {
+      "source": 16,
+      "asset": {
+        "path": "build/exp499/fields/016.bin.xz",
+        "bytes": 7845652,
+        "sha256": "ed18feb1015ffd8de96ee9fcbb1e458c16499b7a21a72e26cf40b086a2d2d502"
+      },
+      "raw_sha256": "a07ec81895518f22270e96df7d5a42a4901842cc110af917137c790a62983dbd",
+      "residual_min": -83,
+      "residual_max": 80
+    },
+    {
+      "source": 17,
+      "asset": {
+        "path": "build/exp499/fields/017.bin.xz",
+        "bytes": 8144176,
+        "sha256": "7f28dc62c9d9ed56dd2087202e740667bc5c2381fb96e7c61ce15ec39cfd7071"
+      },
+      "raw_sha256": "a92ec1bdcd8add4e5b66e0ad461c56d0b562f22a44e0c9fbb79a817812127bbb",
+      "residual_min": -93,
+      "residual_max": 93
+    },
+    {
+      "source": 18,
+      "asset": {
+        "path": "build/exp499/fields/018.bin.xz",
+        "bytes": 7809876,
+        "sha256": "0922576e22c835923790f12efefd10648f016bc9e4a3f3107ba68ca8b29e6d7c"
+      },
+      "raw_sha256": "3a9d484ac3badd60bfdfead2a45b2151734ffe2ff065801d6e3466017ac0b4c1",
+      "residual_min": -77,
+      "residual_max": 122
+    },
+    {
+      "source": 19,
+      "asset": {
+        "path": "build/exp499/fields/019.bin.xz",
+        "bytes": 7234968,
+        "sha256": "1b8e6db19b4d35c7a7d68d533c008acee4923470b28bc3d49e09dbb9dfbd651a"
+      },
+      "raw_sha256": "31e00c63e613f65a9de7c0cd3fd5f1ecb1f498289f12288c055a9af39a99fd8d",
+      "residual_min": -107,
+      "residual_max": 88
+    },
+    {
+      "source": 20,
+      "asset": {
+        "path": "build/exp499/fields/020.bin.xz",
+        "bytes": 6925636,
+        "sha256": "61311a66fee8a25430adafa47381df9639cdba413de8fbebbe7d9cb000757ac4"
+      },
+      "raw_sha256": "9a3fdf5a5c4da9107cdc2686fe572270a50a9fa57507ccd29ee81ba71e13bcf7",
+      "residual_min": -101,
+      "residual_max": 131
+    },
+    {
+      "source": 21,
+      "asset": {
+        "path": "build/exp499/fields/021.bin.xz",
+        "bytes": 6236992,
+        "sha256": "cc47a06a63a78a6aa0010a681a99c07261c59f150baddce84bc9fd6f57dae7ca"
+      },
+      "raw_sha256": "1b7d999982394fa614a5d6ade765e5f2bbcf2efafa3a5668254f41737035cff0",
+      "residual_min": -95,
+      "residual_max": 121
+    },
+    {
+      "source": 22,
+      "asset": {
+        "path": "build/exp499/fields/022.bin.xz",
+        "bytes": 5839232,
+        "sha256": "2bc4dd7d7d5a5ba6d8c49434d9295d9a2ba5f361cd5a844c25280f4cee9a7b91"
+      },
+      "raw_sha256": "fb5689135c162a2bc0c1d96a67c03b40238b0ef59a6a042e9fd33783a2905d49",
+      "residual_min": -84,
+      "residual_max": 91
+    },
+    {
+      "source": 23,
+      "asset": {
+        "path": "build/exp499/fields/023.bin.xz",
+        "bytes": 6730448,
+        "sha256": "12acca25dc5cb7a9097d8d8a3e0cb1f92b5d7ffb3308cac1cfcaa8b9f40f3451"
+      },
+      "raw_sha256": "9ea5e509b5aa75edfd5bcd20ca27dc1e5e5ef41320a2c26197d88ec2a17a288f",
+      "residual_min": -81,
+      "residual_max": 74
+    },
+    {
+      "source": 24,
+      "asset": {
+        "path": "build/exp499/fields/024.bin.xz",
+        "bytes": 7901272,
+        "sha256": "bdc314f2e975264d2cdc2077d61e3b5dc6317f836f2bb8edbd641da2021e692d"
+      },
+      "raw_sha256": "adcb0deaf5c3e3fcdde9ad7aed106615873f7d5f84dba0dcec660c0985025f74",
+      "residual_min": -84,
+      "residual_max": 82
+    },
+    {
+      "source": 25,
+      "asset": {
+        "path": "build/exp499/fields/025.bin.xz",
+        "bytes": 8246564,
+        "sha256": "0669b4036f5e30a02612dd4e2bd85df943b0fcdfb47071ef0f07584092423d70"
+      },
+      "raw_sha256": "4996b6f36583f5f1bca78b3b03e29d3c5e8a16320f2c3d6ae40455e7e37d138f",
+      "residual_min": -90,
+      "residual_max": 93
+    },
+    {
+      "source": 26,
+      "asset": {
+        "path": "build/exp499/fields/026.bin.xz",
+        "bytes": 7804384,
+        "sha256": "9eade080876d6b3a194c83953104bacb2c138244e8ea2701d1436f7f96a65f5d"
+      },
+      "raw_sha256": "4ea1a88c85288e0184d3eb69538243b532d99f6e89c024a52ea313bcea89b20f",
+      "residual_min": -79,
+      "residual_max": 124
+    },
+    {
+      "source": 27,
+      "asset": {
+        "path": "build/exp499/fields/027.bin.xz",
+        "bytes": 7256400,
+        "sha256": "ecf098f5f1cb99f75c003935d10f017421c17284c6dc9895b43c69c740acf62c"
+      },
+      "raw_sha256": "0c13c5e094bfea4373c06fea7560b45f2a89fe39e77295728b636d2b89ac6c2e",
+      "residual_min": -107,
+      "residual_max": 88
+    },
+    {
+      "source": 28,
+      "asset": {
+        "path": "build/exp499/fields/028.bin.xz",
+        "bytes": 6958956,
+        "sha256": "032f5089182897241eac9a04b538431298b0293935f98fe8a44e840bb5771f35"
+      },
+      "raw_sha256": "96288af3123591cc2ab227ef81c4fa33c58a5684d91d1e681d32e78a310fb490",
+      "residual_min": -100,
+      "residual_max": 130
+    },
+    {
+      "source": 29,
+      "asset": {
+        "path": "build/exp499/fields/029.bin.xz",
+        "bytes": 6199872,
+        "sha256": "dfbbf22613f50a382ad1eaf4f50e2719e8b71e95c303b6a79478f2ce900f4a9f"
+      },
+      "raw_sha256": "4a31f68c082df1494b806f201fafdeb846ed1180432fddb1a80df112c180d470",
+      "residual_min": -97,
+      "residual_max": 118
+    },
+    {
+      "source": 30,
+      "asset": {
+        "path": "build/exp499/fields/030.bin.xz",
+        "bytes": 5847284,
+        "sha256": "98b8a0637fa2abc428ca1b3b9ba7b5d743f21bf3df6e4888c8e34112689ed600"
+      },
+      "raw_sha256": "f085f55d54cb2e7e3817393164a8358f4000a8954121eec2263f66dec7da859b",
+      "residual_min": -80,
+      "residual_max": 89
+    },
+    {
+      "source": 31,
+      "asset": {
+        "path": "build/exp499/fields/031.bin.xz",
+        "bytes": 6758868,
+        "sha256": "233e9b26e23f7ca5850afeb0f3df0cad16c6a1f54e1f768afed73802a0e87c30"
+      },
+      "raw_sha256": "1e29ce8ee87254d81aa258463219c521ccd6dd9a4c4314a0b2eb034662c66fc1",
+      "residual_min": -79,
+      "residual_max": 74
+    },
+    {
+      "source": 32,
+      "asset": {
+        "path": "build/exp499/fields/032.bin.xz",
+        "bytes": 7474344,
+        "sha256": "b220ca414fce724643f58647c8d505b91bc33bfeaa99c4107e923fea67a702b8"
+      },
+      "raw_sha256": "984bc53d0ae21834c7e594e1f562e050b835d65402caa6c15df29e3972a110a2",
+      "residual_min": -74,
+      "residual_max": 78
+    },
+    {
+      "source": 33,
+      "asset": {
+        "path": "build/exp499/fields/033.bin.xz",
+        "bytes": 7973252,
+        "sha256": "9d7a90054e5df17f75edf9f6c5514c8297351d49b3be296c2b3ccf59a29443a6"
+      },
+      "raw_sha256": "2549fc7a278c0370e95422c87f30a38be2c7b98a539443bf7d363c393f867f51",
+      "residual_min": -91,
+      "residual_max": 72
+    },
+    {
+      "source": 34,
+      "asset": {
+        "path": "build/exp499/fields/034.bin.xz",
+        "bytes": 7658984,
+        "sha256": "a06167d432ca6e96bd5490eca78713db6169b1050cbd7af5dd7c3568003ab8b3"
+      },
+      "raw_sha256": "01d5669ef34411f038545225f779822da2e3400bb479b25415325bd1be416ce1",
+      "residual_min": -86,
+      "residual_max": 82
+    },
+    {
+      "source": 35,
+      "asset": {
+        "path": "build/exp499/fields/035.bin.xz",
+        "bytes": 7187548,
+        "sha256": "14194e769291b0bdba9ee21d305a500d86f4a8ac2ecdd3ed20d52234ba263209"
+      },
+      "raw_sha256": "ac4c155198f36579d2ec7e1e1edc7b5e5c0a8c5d270795c3912172b937fcb1ea",
+      "residual_min": -70,
+      "residual_max": 68
+    },
+    {
+      "source": 36,
+      "asset": {
+        "path": "build/exp499/fields/036.bin.xz",
+        "bytes": 7389112,
+        "sha256": "d8373118837db580ae83344c7c1b0962a315de75afea650a46e74ae4477d2454"
+      },
+      "raw_sha256": "02020cb11257ee55cc7d7412e7f6227991d98ffa2d6dcb0ea95d68099baa689f",
+      "residual_min": -67,
+      "residual_max": 107
+    },
+    {
+      "source": 37,
+      "asset": {
+        "path": "build/exp499/fields/037.bin.xz",
+        "bytes": 6593632,
+        "sha256": "598559a9671ad47c5c7241cb62610edbf632767d57a60f17184208d8f5e5907d"
+      },
+      "raw_sha256": "823aff35b2adb43ea641eb43f03978511584da9d76b0cc417e6c7b8d2fd4ae15",
+      "residual_min": -78,
+      "residual_max": 93
+    },
+    {
+      "source": 38,
+      "asset": {
+        "path": "build/exp499/fields/038.bin.xz",
+        "bytes": 6052040,
+        "sha256": "d995a69588dfb7094055cd87915f30fd62297cb83e9ebb8d5dd12d1bddb6111f"
+      },
+      "raw_sha256": "8043954f9072aa66582f1745173e582142748db1816d544604a33a5d188ed3e9",
+      "residual_min": -71,
+      "residual_max": 91
+    },
+    {
+      "source": 39,
+      "asset": {
+        "path": "build/exp499/fields/039.bin.xz",
+        "bytes": 6721396,
+        "sha256": "ddee90fb41aed79dea8792f6ecfe49e19d9286eb7d69de994d42517f8e9d2904"
+      },
+      "raw_sha256": "669e9d1cb8258374b9c674f9b4f0a5a119eae9c2a8d6c9bf47d05d0c75d9632c",
+      "residual_min": -67,
+      "residual_max": 75
+    },
+    {
+      "source": 40,
+      "asset": {
+        "path": "build/exp499/fields/040.bin.xz",
+        "bytes": 7421840,
+        "sha256": "530e83bac91fd2188c328067069714e330b134320c93157605f15e2ca9ab66a9"
+      },
+      "raw_sha256": "b4c130a6852a2ce2b80584f1050405f0a366b0a4df8df08b05a8162de726cf9f",
+      "residual_min": -73,
+      "residual_max": 75
+    },
+    {
+      "source": 41,
+      "asset": {
+        "path": "build/exp499/fields/041.bin.xz",
+        "bytes": 7951644,
+        "sha256": "bfaeee2ef45e380b37ef0fab5378422c94161e783d6de7da3d478301528a3a51"
+      },
+      "raw_sha256": "86b5f55516a491bd93ec740fa6600ab4b56ae2f578e59fc4edf1c73c1b50c783",
+      "residual_min": -92,
+      "residual_max": 70
+    },
+    {
+      "source": 42,
+      "asset": {
+        "path": "build/exp499/fields/042.bin.xz",
+        "bytes": 7711672,
+        "sha256": "6cc52ed209837e0904289e061f9ce088eba90e19e12d04d273f63065c9785b28"
+      },
+      "raw_sha256": "8d26b81b04b2d46a71e495af5804c6ef968b5054fc8c28f58a4bdf542cfa8e81",
+      "residual_min": -88,
+      "residual_max": 84
+    },
+    {
+      "source": 43,
+      "asset": {
+        "path": "build/exp499/fields/043.bin.xz",
+        "bytes": 7168384,
+        "sha256": "c0e472e77e1a571457a078c397428e92062b73924fe15d63c0ab32e06353402c"
+      },
+      "raw_sha256": "79d424d154df602cdc9af9a2ee47d5120f606645af6253f3e1b3807ce7ecc4ed",
+      "residual_min": -69,
+      "residual_max": 71
+    },
+    {
+      "source": 44,
+      "asset": {
+        "path": "build/exp499/fields/044.bin.xz",
+        "bytes": 7350972,
+        "sha256": "d973c0778d6183f0d688055ece8b443e5edbefe0b397c2977982ade15e1d84d4"
+      },
+      "raw_sha256": "6df51fdf53e657514f8e5f73008c5792bc3ef2ded86c1793548aa7094fc1537a",
+      "residual_min": -61,
+      "residual_max": 111
+    },
+    {
+      "source": 45,
+      "asset": {
+        "path": "build/exp499/fields/045.bin.xz",
+        "bytes": 6576896,
+        "sha256": "8b2be48c6ac5875f9e4db17a84e6448256754b5b1bb73a4e148afe2ab5b72c14"
+      },
+      "raw_sha256": "0d63f5f82841724359bfd66f4c39f48b3b45bc92df83b8509c90159f2533f994",
+      "residual_min": -75,
+      "residual_max": 98
+    },
+    {
+      "source": 46,
+      "asset": {
+        "path": "build/exp499/fields/046.bin.xz",
+        "bytes": 6127208,
+        "sha256": "ef82937c48381a70c56e5009665fcf85990de2392360d854a8643f8c9c0772b5"
+      },
+      "raw_sha256": "f4edd8a06157d2c387feac4301d4c9a2dcb0950556ed3e4df549a097492d9cbf",
+      "residual_min": -72,
+      "residual_max": 92
+    },
+    {
+      "source": 47,
+      "asset": {
+        "path": "build/exp499/fields/047.bin.xz",
+        "bytes": 6815248,
+        "sha256": "d96e187683863e709d3ecc7d952c7a431f285874047324286257a94dcd7f9204"
+      },
+      "raw_sha256": "167f65c244c8672735846241c7e52e341261e9471a59c3f9c2ce577ad7266642",
+      "residual_min": -70,
+      "residual_max": 74
+    },
+    {
+      "source": 48,
+      "asset": {
+        "path": "build/exp499/fields/048.bin.xz",
+        "bytes": 7582356,
+        "sha256": "febc44e71cc937b27e55bcf8c3652d1ac63ea244ed54960b4d774fa88a8e4161"
+      },
+      "raw_sha256": "f004973fb641837ec65ace4d381d239eaf9b4438434613415924ee741db05acc",
+      "residual_min": -78,
+      "residual_max": 66
+    },
+    {
+      "source": 49,
+      "asset": {
+        "path": "build/exp499/fields/049.bin.xz",
+        "bytes": 7964824,
+        "sha256": "9fe53da6e65672c2b46a538470ee5fc5b8ec37efad81306977ec23e03f15b5e1"
+      },
+      "raw_sha256": "0f2a3844f805d260ee4fda979d126cde6847e84aa02584df5ce91d3718ae5ee1",
+      "residual_min": -60,
+      "residual_max": 66
+    },
+    {
+      "source": 50,
+      "asset": {
+        "path": "build/exp499/fields/050.bin.xz",
+        "bytes": 7545216,
+        "sha256": "be2c643b47656f0ba05f2e2e20bc9976c08e8b22701dcdc8d2f6d7cfb78bc896"
+      },
+      "raw_sha256": "4a79730d0b59d175f27b6e4c64489cf7e9802974ca6dc2ae89ce12c905be207f",
+      "residual_min": -61,
+      "residual_max": 92
+    },
+    {
+      "source": 51,
+      "asset": {
+        "path": "build/exp499/fields/051.bin.xz",
+        "bytes": 7606872,
+        "sha256": "4b5e61ac69a9290184ced25adb783cb692c099f7c182f0a98f67f93c7b40cf1d"
+      },
+      "raw_sha256": "d03158c0543598080ac5cecd2600c4c67a2f0d2a192af848afc8b2018d7acf31",
+      "residual_min": -66,
+      "residual_max": 82
+    },
+    {
+      "source": 52,
+      "asset": {
+        "path": "build/exp499/fields/052.bin.xz",
+        "bytes": 7264444,
+        "sha256": "41e0703e47033908d1ae0eb1d4ff50243d4892fe104ea28db8f6119069938eb9"
+      },
+      "raw_sha256": "41dfe45cf8fc5d2346a3f02ac27cbcc54b5ba1002e5f026de982aea169dacd2a",
+      "residual_min": -82,
+      "residual_max": 71
+    },
+    {
+      "source": 53,
+      "asset": {
+        "path": "build/exp499/fields/053.bin.xz",
+        "bytes": 6454308,
+        "sha256": "663f8098ad74092a34e053fda591d058a4066b0c3ff54cba08ad0c5604e6afdc"
+      },
+      "raw_sha256": "da73b2f2dd8c87fb8515f4f29f75d9ede3c6cd1eece27d8f01ae19cf3f89d678",
+      "residual_min": -85,
+      "residual_max": 73
+    },
+    {
+      "source": 54,
+      "asset": {
+        "path": "build/exp499/fields/054.bin.xz",
+        "bytes": 5916180,
+        "sha256": "0cdc7ad297ddc65a06cff97869773995e9a3df8b008888fe2797acd746678582"
+      },
+      "raw_sha256": "3fd54a1ba9218c9d937238283584fde66f829250c0676467bb41603f5cc1412e",
+      "residual_min": -63,
+      "residual_max": 63
+    },
+    {
+      "source": 55,
+      "asset": {
+        "path": "build/exp499/fields/055.bin.xz",
+        "bytes": 6454836,
+        "sha256": "c3f71b4ee556ddd98ee2d78363f0fdc802a6de3046d57bdfbd4723cb294cf8e9"
+      },
+      "raw_sha256": "ff620e30a149198cd57325c3da5ca897aed2943cedd4c1ab72c5a45ea71b3c64",
+      "residual_min": -64,
+      "residual_max": 67
+    },
+    {
+      "source": 56,
+      "asset": {
+        "path": "build/exp499/fields/056.bin.xz",
+        "bytes": 7455920,
+        "sha256": "e4a71b917d2e7ee68f8ce20da778578ed0082b91c43f15ff34fd015f91e3d222"
+      },
+      "raw_sha256": "e5daf13fae6c142360b2729b66944f8dd31e267a7b6002cdf5337070c3a98dd7",
+      "residual_min": -77,
+      "residual_max": 67
+    },
+    {
+      "source": 57,
+      "asset": {
+        "path": "build/exp499/fields/057.bin.xz",
+        "bytes": 7937980,
+        "sha256": "8b2b4eacabbdcb7b892f96209a761735868caaf05f9581e1e57a4e51da457d68"
+      },
+      "raw_sha256": "efd8d6f9b3decc80daa788dc99377bf130690e4ae3e56b9a4d1b47aece729957",
+      "residual_min": -61,
+      "residual_max": 66
+    },
+    {
+      "source": 58,
+      "asset": {
+        "path": "build/exp499/fields/058.bin.xz",
+        "bytes": 7514228,
+        "sha256": "6c8301dcf0a7082fad4452db802cf943c205a1b7e501d83c051bc93b10f2489b"
+      },
+      "raw_sha256": "7092ba2c516c8de54b4bf472e33cf7536ffb418f64c95fa499f485fe90699c18",
+      "residual_min": -59,
+      "residual_max": 89
+    },
+    {
+      "source": 59,
+      "asset": {
+        "path": "build/exp499/fields/059.bin.xz",
+        "bytes": 7474900,
+        "sha256": "45a74c7442bc073f056a3fb17fd2d0ebc9fd22b0b8b69232217daeb1d22439e4"
+      },
+      "raw_sha256": "31513adb398100b8993e3d7734a2f203a91c3f2929ba0acd816239ae96ec68de",
+      "residual_min": -63,
+      "residual_max": 75
+    },
+    {
+      "source": 60,
+      "asset": {
+        "path": "build/exp499/fields/060.bin.xz",
+        "bytes": 7260136,
+        "sha256": "646ed04ed40d500365c81e5512a96d2243f8bf61f94c62ae10abd041558b0520"
+      },
+      "raw_sha256": "72c421e26e761a4a511fc270b50b18000e0ad5088e77b7dee2eb81ef10b76c69",
+      "residual_min": -81,
+      "residual_max": 73
+    },
+    {
+      "source": 61,
+      "asset": {
+        "path": "build/exp499/fields/061.bin.xz",
+        "bytes": 6464428,
+        "sha256": "a315d227318356d9a2a8fe5fc362e838adaba7edf4686682fcc4a046c80fd5cb"
+      },
+      "raw_sha256": "2d1c285ce6fffd8fbb63e51a43f4a2b0e7e82bce31aa1a1741a5208386155714",
+      "residual_min": -85,
+      "residual_max": 73
+    },
+    {
+      "source": 62,
+      "asset": {
+        "path": "build/exp499/fields/062.bin.xz",
+        "bytes": 5992192,
+        "sha256": "9f7974bacc96dac32e104eddc3abbca9818c23fb667ead7a72ea4f38b556ee2a"
+      },
+      "raw_sha256": "c5512729996b1fc68074061ac5a9b5cd8a61b0b122c69ddf9082a106f09721f0",
+      "residual_min": -63,
+      "residual_max": 62
+    },
+    {
+      "source": 63,
+      "asset": {
+        "path": "build/exp499/fields/063.bin.xz",
+        "bytes": 6467876,
+        "sha256": "e67c64739af6c033701f196b03a567bd8e24f3b9eab4846ba8cee415d9167e0a"
+      },
+      "raw_sha256": "3d0776fd5b61948418713644e38eb82ea9977b5f4955c4a4fc07cbce0abf3b22",
+      "residual_min": -65,
+      "residual_max": 66
+    },
+    {
+      "source": 64,
+      "asset": {
+        "path": "build/exp499/fields/064.bin.xz",
+        "bytes": 7528808,
+        "sha256": "060767bcea17a0805e4236bc604a3579d338bcd6c06041099833fad100dc8ba4"
+      },
+      "raw_sha256": "41d68e1162ddf7bac426c319c7c23970961c0695f495299504ea2e4bfe911d24",
+      "residual_min": -74,
+      "residual_max": 82
+    },
+    {
+      "source": 65,
+      "asset": {
+        "path": "build/exp499/fields/065.bin.xz",
+        "bytes": 7521408,
+        "sha256": "7491d37850886b0d5b9c0ef88ef6f89a8a636daa5e5442bcce2985210f55d1dc"
+      },
+      "raw_sha256": "41861c936264a0ee08b892484fa997cc833383f91302639baaf72c7b49523603",
+      "residual_min": -74,
+      "residual_max": 88
+    },
+    {
+      "source": 66,
+      "asset": {
+        "path": "build/exp499/fields/066.bin.xz",
+        "bytes": 7899212,
+        "sha256": "322b218c7f7452e92c1462580756db128ccfe6504b12fc934a558b03796d2e28"
+      },
+      "raw_sha256": "f1fa2a729f9277d05c2ffd08ce4fc329367dd29ef0ed5b3522c091cab0d7825a",
+      "residual_min": -93,
+      "residual_max": 96
+    },
+    {
+      "source": 67,
+      "asset": {
+        "path": "build/exp499/fields/067.bin.xz",
+        "bytes": 7167752,
+        "sha256": "9c0bb9da764187c3d8b5a636a558443468fb2a09aec7226e52b216aaa6a8452c"
+      },
+      "raw_sha256": "613629cee3ee05aee30ab139114ea897560dfdbba92d3c4567d025cd430a1850",
+      "residual_min": -72,
+      "residual_max": 89
+    },
+    {
+      "source": 68,
+      "asset": {
+        "path": "build/exp499/fields/068.bin.xz",
+        "bytes": 6895268,
+        "sha256": "4e66da38dc38973326b771ce5b47b0d889d30bcc55d0196a224b7f7ac17faa7d"
+      },
+      "raw_sha256": "321874284ec0a195fbee7a881dd4a753a44931eb1c3db6b787839d262271cd0a",
+      "residual_min": -66,
+      "residual_max": 107
+    },
+    {
+      "source": 69,
+      "asset": {
+        "path": "build/exp499/fields/069.bin.xz",
+        "bytes": 7123516,
+        "sha256": "9610300f4d2352de94210f205eff52c2a864881ed914e3573f262630c1e5f72b"
+      },
+      "raw_sha256": "d8cffa251fc72bfe75f24466a4009ecf434717004ec043fa8142aad06c74164f",
+      "residual_min": -69,
+      "residual_max": 105
+    },
+    {
+      "source": 70,
+      "asset": {
+        "path": "build/exp499/fields/070.bin.xz",
+        "bytes": 6794756,
+        "sha256": "94ae68cebac3b65bc2521bdc42635b169c36ff778969139104b0b50f3d59f02e"
+      },
+      "raw_sha256": "d6dafc29c663f2a08dde7bbf10812c3a970987ce52d72f1d6d76f6d64f657f7e",
+      "residual_min": -63,
+      "residual_max": 97
+    },
+    {
+      "source": 71,
+      "asset": {
+        "path": "build/exp499/fields/071.bin.xz",
+        "bytes": 7215924,
+        "sha256": "7cbea3d1b73080a8589380dedfb72f9969fe8d2ad3b1a6f8331da6a2696493a4"
+      },
+      "raw_sha256": "678518f4ae51c71a87d87002626c4dbb14a3557b337b747a07c6c8208982cb60",
+      "residual_min": -61,
+      "residual_max": 85
+    },
+    {
+      "source": 72,
+      "asset": {
+        "path": "build/exp499/fields/072.bin.xz",
+        "bytes": 7810676,
+        "sha256": "18e0b4bc27879f25f2a796d029d9ee745318010f5a72626ae179ce78543caf5f"
+      },
+      "raw_sha256": "bcd266faef8474b64bb6267ac85a1e4b6b8da61bda4a5b4ddcf23fbd7d8a16d0",
+      "residual_min": -76,
+      "residual_max": 82
+    },
+    {
+      "source": 73,
+      "asset": {
+        "path": "build/exp499/fields/073.bin.xz",
+        "bytes": 7982548,
+        "sha256": "a35746864c4c842365d598a2ea4ca1553d248339bfa3126188d2c4aa20cc7927"
+      },
+      "raw_sha256": "3751591d16d1248e9ded5564164a303f63a4c75daf69000e933761337462b9f6",
+      "residual_min": -93,
+      "residual_max": 93
+    },
+    {
+      "source": 74,
+      "asset": {
+        "path": "build/exp499/fields/074.bin.xz",
+        "bytes": 8124448,
+        "sha256": "6fdf900b6c37f42853816a2befb086a41dd40757a20ecd6e74f8667764b64d07"
+      },
+      "raw_sha256": "bb8c776074e8d892397ed005c1976608e7ff4292bfda76b01652607206ee3c05",
+      "residual_min": -88,
+      "residual_max": 132
+    },
+    {
+      "source": 75,
+      "asset": {
+        "path": "build/exp499/fields/075.bin.xz",
+        "bytes": 7449924,
+        "sha256": "e2c30b170c52877e69fdeff4f7a7b2818be79387360f2708c604af3836fcb216"
+      },
+      "raw_sha256": "f6863a62a690df81fa13d47ff7e8e24254b7bee1a025e430ea8a5d4ed5b8fa68",
+      "residual_min": -104,
+      "residual_max": 101
+    },
+    {
+      "source": 76,
+      "asset": {
+        "path": "build/exp499/fields/076.bin.xz",
+        "bytes": 6125996,
+        "sha256": "bd6e1de7e68d5c52d0bca8f9bf74c535ba045fe1d6d8e0604cf7f35d91084248"
+      },
+      "raw_sha256": "ad4c4b9961b6777fae558a6f968a0973f6c2e820d41cb9b079d09674523661c7",
+      "residual_min": -101,
+      "residual_max": 126
+    },
+    {
+      "source": 77,
+      "asset": {
+        "path": "build/exp499/fields/077.bin.xz",
+        "bytes": 6378108,
+        "sha256": "cf7312ecc85d333175bae78a3991b07be4715bacd9588e244467c4567f32a911"
+      },
+      "raw_sha256": "80abf9c04d0859573b0b20cf52cb68d48822680e8bfad2a2d16ab784f7ac8d95",
+      "residual_min": -87,
+      "residual_max": 108
+    },
+    {
+      "source": 78,
+      "asset": {
+        "path": "build/exp499/fields/078.bin.xz",
+        "bytes": 5967844,
+        "sha256": "8c13d27ae391a96de31715eba69db2274d4f462cf6f706e133fd41a16c50d121"
+      },
+      "raw_sha256": "512de9822811e4b2f3ed44d73cf2d8aaf3d988afc60a061c62aaa227ff37c746",
+      "residual_min": -72,
+      "residual_max": 90
+    },
+    {
+      "source": 79,
+      "asset": {
+        "path": "build/exp499/fields/079.bin.xz",
+        "bytes": 6342892,
+        "sha256": "99f8bd021ebc6e92b0916ecf97b967ef1575f458f5fa3d5f7fa8693b468c958b"
+      },
+      "raw_sha256": "f67f3d96afe803cd4d72e6bb5eca36addd92d7c7b564c0f4ccecac46a30fdf01",
+      "residual_min": -75,
+      "residual_max": 86
+    },
+    {
+      "source": 80,
+      "asset": {
+        "path": "build/exp499/fields/080.bin.xz",
+        "bytes": 6924736,
+        "sha256": "446a1c81cef9ef92bf89f67333dfd747e282f8d6ea400869862a6fb8c783487d"
+      },
+      "raw_sha256": "0e04e0ab243c44f8128bb50caf42e98739b204107f75842cd35b879cb15122e3",
+      "residual_min": -76,
+      "residual_max": 79
+    },
+    {
+      "source": 81,
+      "asset": {
+        "path": "build/exp499/fields/081.bin.xz",
+        "bytes": 7802228,
+        "sha256": "119f2206ffe537460b6f604896c036eb89dbaed363d8fffd9c75eda5e5759ec6"
+      },
+      "raw_sha256": "d67f5f4a45c863539fc117b6a43cf628443f0a3f3d5a3bd42152068fcde7e8b5",
+      "residual_min": -72,
+      "residual_max": 77
+    },
+    {
+      "source": 82,
+      "asset": {
+        "path": "build/exp499/fields/082.bin.xz",
+        "bytes": 7646660,
+        "sha256": "97135c80c19284fdc706d20b907bd98ad81e0a42870eecaa58e4f50862f0b762"
+      },
+      "raw_sha256": "9a7e467bdc8e5679cf0fd9c48b0fb750fdbde4495ce670993a6c714592605400",
+      "residual_min": -68,
+      "residual_max": 88
+    },
+    {
+      "source": 83,
+      "asset": {
+        "path": "build/exp499/fields/083.bin.xz",
+        "bytes": 7176568,
+        "sha256": "8308618cb79fc763c9e6b0f2b213a41c8f9c6ac84b64ffad54e9e7db919e500f"
+      },
+      "raw_sha256": "320f0a31f2fdbf37b954554603ea63d3163a7c0d90a26b9037f1fa2bc512906f",
+      "residual_min": -73,
+      "residual_max": 78
+    },
+    {
+      "source": 84,
+      "asset": {
+        "path": "build/exp499/fields/084.bin.xz",
+        "bytes": 7644140,
+        "sha256": "c07805c2c06d7e52b073791f6e42708e4b74f01bb1a2cbb8d9631ff5e5b4dd6f"
+      },
+      "raw_sha256": "d87061a91c39d4552a354b5f9cb11c604038c0c86ea06730c397758f61233868",
+      "residual_min": -83,
+      "residual_max": 119
+    },
+    {
+      "source": 85,
+      "asset": {
+        "path": "build/exp499/fields/085.bin.xz",
+        "bytes": 7327092,
+        "sha256": "574f362ca00f0f79ff81ec2c069319cc93d8b4bee40a41f5b583a927be99756c"
+      },
+      "raw_sha256": "6f61af8ed4147ab21a4457c3e9027c92409359fd7e5dddbcb8a034b95a34763f",
+      "residual_min": -95,
+      "residual_max": 79
+    },
+    {
+      "source": 86,
+      "asset": {
+        "path": "build/exp499/fields/086.bin.xz",
+        "bytes": 5475644,
+        "sha256": "b94d2ddeec09129afa7c50ff2c2c6cc8113834f8d01799d1eb93fad100806a79"
+      },
+      "raw_sha256": "b53aac6ec298e5754d2c55a26fcb35e7bb65a7ac033b2b3f5b6bb8c7e4f2ce24",
+      "residual_min": -87,
+      "residual_max": 79
+    },
+    {
+      "source": 87,
+      "asset": {
+        "path": "build/exp499/fields/087.bin.xz",
+        "bytes": 6360972,
+        "sha256": "56ccde7d7978cc8d4ed0adbbfc003612aa7538dc47f8e00239565084f42c9dd3"
+      },
+      "raw_sha256": "ac8209f3d8eb041505d573b034c16cbf7f2de4d62ce1488bd387e1ded449f0f9",
+      "residual_min": -69,
+      "residual_max": 80
+    },
+    {
+      "source": 88,
+      "asset": {
+        "path": "build/exp499/fields/088.bin.xz",
+        "bytes": 7459272,
+        "sha256": "5b8b1a5da4ed634b1cea1199f830ca4d5f2c14ca637f576cbef96dd215abf300"
+      },
+      "raw_sha256": "0b5393cb34b60bf439849db0a7fea094b57e1379a6322b6645362a0496fb923e",
+      "residual_min": -65,
+      "residual_max": 69
+    },
+    {
+      "source": 89,
+      "asset": {
+        "path": "build/exp499/fields/089.bin.xz",
+        "bytes": 8363696,
+        "sha256": "90c0725b2d2bbf4c32aa9753852045338c71d770776accb69c631c526e50997e"
+      },
+      "raw_sha256": "b4e40156d2f41b849d889f7e219bc1cddbc6193cdd62074eeaca29b0d1a1a995",
+      "residual_min": -68,
+      "residual_max": 63
+    },
+    {
+      "source": 90,
+      "asset": {
+        "path": "build/exp499/fields/090.bin.xz",
+        "bytes": 8080572,
+        "sha256": "4b7465c6a19376eb9b51c74b228b34707e77c1193e601954c9e1bb4a221ffcde"
+      },
+      "raw_sha256": "f671cdd982d9aaa08f274c2af38f5da21c2e6793787131238b19e6b810313b1f",
+      "residual_min": -67,
+      "residual_max": 71
+    },
+    {
+      "source": 91,
+      "asset": {
+        "path": "build/exp499/fields/091.bin.xz",
+        "bytes": 7856052,
+        "sha256": "bc860753a8696c0aa6e31de74d42ce80278d64d93b27fbfaf73d6d5e3951dee0"
+      },
+      "raw_sha256": "4eae189051d2f56aeb3091e7c055334fbc074ddb2e60dd990feaab7c006225c6",
+      "residual_min": -77,
+      "residual_max": 77
+    },
+    {
+      "source": 92,
+      "asset": {
+        "path": "build/exp499/fields/092.bin.xz",
+        "bytes": 7536280,
+        "sha256": "7b708d41c0b360ffde5dac1bc4533fc85d01c0e8e8a9c803570294c383a5113f"
+      },
+      "raw_sha256": "fe90c5b4b616884bf7321b9329fc3d3fb919d86092fa8f1f8a8c8508e18bdd4c",
+      "residual_min": -113,
+      "residual_max": 111
+    },
+    {
+      "source": 93,
+      "asset": {
+        "path": "build/exp499/fields/093.bin.xz",
+        "bytes": 7219616,
+        "sha256": "2b11ee164dfcfd8779691abd736a1253a120e63a62209d6ca8b03b6c71524aae"
+      },
+      "raw_sha256": "cfcf7f642a773427aadc6f812de350841e7db64dde20bacee3a3d46f684feb15",
+      "residual_min": -119,
+      "residual_max": 85
+    },
+    {
+      "source": 94,
+      "asset": {
+        "path": "build/exp499/fields/094.bin.xz",
+        "bytes": 5794964,
+        "sha256": "0cd35d2e305b565010e4bb289e36d1a1a9424a584f7ae4707e7eec1ea9eb5ab2"
+      },
+      "raw_sha256": "04896af008ec0180ccbcd7fdfe21524a0eb59158ff44013d0977f815f008350b",
+      "residual_min": -80,
+      "residual_max": 90
+    },
+    {
+      "source": 95,
+      "asset": {
+        "path": "build/exp499/fields/095.bin.xz",
+        "bytes": 5537104,
+        "sha256": "48a7fff8b7ecf80c53e55127f45c6860cba7d1500f4578b28bcd90c5efb8315e"
+      },
+      "raw_sha256": "975bb642c880dbdd24d8a025e8b721a4f2ee2953fe696f2c4cfb453e6d238cf1",
+      "residual_min": -62,
+      "residual_max": 67
+    },
+    {
+      "source": 96,
+      "asset": {
+        "path": "build/exp499/fields/096.bin.xz",
+        "bytes": 7939988,
+        "sha256": "91a7d7b6bb5d3e93d163b3e08e4cc6257416d1cfc69c8ded58a968765e105103"
+      },
+      "raw_sha256": "5eb84fb95c0be46e27e5f9650173e66bed0e2134b24200b4d6b4a53ddf339265",
+      "residual_min": -64,
+      "residual_max": 74
+    },
+    {
+      "source": 97,
+      "asset": {
+        "path": "build/exp499/fields/097.bin.xz",
+        "bytes": 8000624,
+        "sha256": "0f0c037907e9e6ed83fc634b2f8f48f226637a3e95bd82b8c7c24d257ff47c9f"
+      },
+      "raw_sha256": "da77bc087e45c54f56a0ac94c884daee99d325ac64e781813d239379273bf68d",
+      "residual_min": -75,
+      "residual_max": 71
+    },
+    {
+      "source": 98,
+      "asset": {
+        "path": "build/exp499/fields/098.bin.xz",
+        "bytes": 7501280,
+        "sha256": "3c1540d55c1ab0cd82dade9aed8b287d2113598127f711b995bf8ffab48eba5d"
+      },
+      "raw_sha256": "efbacb16e5daf3ae2690f32d2ce69773745c00956ef14b340c4edf441034e7f2",
+      "residual_min": -62,
+      "residual_max": 77
+    },
+    {
+      "source": 99,
+      "asset": {
+        "path": "build/exp499/fields/099.bin.xz",
+        "bytes": 7332980,
+        "sha256": "c0a2dcdd2e0a1703f39f7b2ab83f30c91da24119cf5dad20dbd36f66f43dc485"
+      },
+      "raw_sha256": "f14f6fd0dbadae62085eb082a49bd74d1e75141377cc894a9afc6028a71ab0a0",
+      "residual_min": -62,
+      "residual_max": 76
+    },
+    {
+      "source": 100,
+      "asset": {
+        "path": "build/exp499/fields/100.bin.xz",
+        "bytes": 7435512,
+        "sha256": "5b5675276080bc11139c50ffc85056b01b2fc77c71db4f513867102ee9ad1776"
+      },
+      "raw_sha256": "e392b861e3729f37cece1c5ff3db096e5d204aae0c0fc5fc2069cc0e663faea4",
+      "residual_min": -74,
+      "residual_max": 116
+    },
+    {
+      "source": 101,
+      "asset": {
+        "path": "build/exp499/fields/101.bin.xz",
+        "bytes": 5556176,
+        "sha256": "7ca58c558e8a9443f6876057b98ce190125ab3045e13fcaa615d122433a9aaa3"
+      },
+      "raw_sha256": "4fb26d6797b9c1daa62abd66a4dd3211536f460384da7f2ea1fbf08b787dd43f",
+      "residual_min": -74,
+      "residual_max": 83
+    },
+    {
+      "source": 102,
+      "asset": {
+        "path": "build/exp499/fields/102.bin.xz",
+        "bytes": 5820864,
+        "sha256": "4af9ab325f11b34b9adff6aa91258467ce50ad09cec624db71f5528a0dfb6bc4"
+      },
+      "raw_sha256": "dd06fdec37f7548791032fe666ff3ae77093b8b98c653d3e44afc2de2c4c1927",
+      "residual_min": -66,
+      "residual_max": 83
+    },
+    {
+      "source": 103,
+      "asset": {
+        "path": "build/exp499/fields/103.bin.xz",
+        "bytes": 7272848,
+        "sha256": "24376b95e857df1bba170a1099f787ec9d71404af3d1876019dacaac8ab01871"
+      },
+      "raw_sha256": "1845c685827434dbfc9dfc3d39094a1f4a15d1671c9f15f9090f5b8dbfc7190f",
+      "residual_min": -63,
+      "residual_max": 74
+    },
+    {
+      "source": 104,
+      "asset": {
+        "path": "build/exp499/fields/104.bin.xz",
+        "bytes": 7461140,
+        "sha256": "a2a4e278c2a3b778bba90c93d11befb4e65f9f008ee8bbadd5422b38fddc286d"
+      },
+      "raw_sha256": "591a837748c14b98c9fbba3771f6e3bf22c2e8cc1b0916b5f55c64bf6f5aa9ea",
+      "residual_min": -104,
+      "residual_max": 91
+    },
+    {
+      "source": 105,
+      "asset": {
+        "path": "build/exp499/fields/105.bin.xz",
+        "bytes": 8001428,
+        "sha256": "436d4856d15c308f42f7ab26513e21a8e22a0dfeb7cb0ac797cbeb3cffc9f82e"
+      },
+      "raw_sha256": "3355facc3e07e417a72b82e3ffafe22f9a34735845d5e266350e8d5be8060d1d",
+      "residual_min": -78,
+      "residual_max": 100
+    },
+    {
+      "source": 106,
+      "asset": {
+        "path": "build/exp499/fields/106.bin.xz",
+        "bytes": 7409996,
+        "sha256": "d67382679b78d64970a8976b52c32ad743e185803e1d13659e0d410f2579446f"
+      },
+      "raw_sha256": "f7e38d5c15a34fc27cb396e91eb9f8bb0b88732aa6effd5deda75e51ec80c7b1",
+      "residual_min": -86,
+      "residual_max": 120
+    },
+    {
+      "source": 107,
+      "asset": {
+        "path": "build/exp499/fields/107.bin.xz",
+        "bytes": 7154064,
+        "sha256": "2a9a4269bc9b72d6e6b57a81890e2a6c6150ca47a7070f4df114d9df349d96c6"
+      },
+      "raw_sha256": "f53c0b2983f8f653476f80d85403a1249f873c04e6be977adbc3c9a2f06667ab",
+      "residual_min": -120,
+      "residual_max": 98
+    },
+    {
+      "source": 108,
+      "asset": {
+        "path": "build/exp499/fields/108.bin.xz",
+        "bytes": 7419520,
+        "sha256": "82216780e8606d66feb1f20b0a453097adaff08ecdd2677e4429c7ad10515c54"
+      },
+      "raw_sha256": "47fbcc2bc97eb29e3fd474069f432436e86a577d378e73b6f760793e5ba37a40",
+      "residual_min": -128,
+      "residual_max": 113
+    },
+    {
+      "source": 109,
+      "asset": {
+        "path": "build/exp499/fields/109.bin.xz",
+        "bytes": 5586812,
+        "sha256": "0ca66c53374bc6f6585d292290e7f0348e9abd085f7c9cf9d1f4972499b4aa80"
+      },
+      "raw_sha256": "3d9adff41267be8171b76616b41b0a0c60304646ac6e923435535c705a73ac2e",
+      "residual_min": -105,
+      "residual_max": 113
+    },
+    {
+      "source": 110,
+      "asset": {
+        "path": "build/exp499/fields/110.bin.xz",
+        "bytes": 5732968,
+        "sha256": "b74e1caa56ad59ae01ede697f8b60eb3ed708d27b9e2e248e03c2e7d6aba4608"
+      },
+      "raw_sha256": "6fb2e460386d94971834618138c3e4616c18d436f7015e63d8e27dec49fbf98c",
+      "residual_min": -94,
+      "residual_max": 111
+    },
+    {
+      "source": 111,
+      "asset": {
+        "path": "build/exp499/fields/111.bin.xz",
+        "bytes": 6379972,
+        "sha256": "5d953aa456daecd26300022ec1de30a884fa426d063ef365813408c7f6e4095e"
+      },
+      "raw_sha256": "ff928ab9e85deafc03a9221e5d937eab15bae86d1beff338c6b0e5814e33e373",
+      "residual_min": -95,
+      "residual_max": 95
+    },
+    {
+      "source": 112,
+      "asset": {
+        "path": "build/exp499/fields/112.bin.xz",
+        "bytes": 7447880,
+        "sha256": "a27ce1d12dcd68ba17a89b542d7bb1e7e910050564ff74338e40c7d151671ea2"
+      },
+      "raw_sha256": "657c092b8d720140ebdd2b6908a635867d977488dbbe3603872e5e6361ab1c11",
+      "residual_min": -76,
+      "residual_max": 72
+    },
+    {
+      "source": 113,
+      "asset": {
+        "path": "build/exp499/fields/113.bin.xz",
+        "bytes": 8037140,
+        "sha256": "e0c708459b311f2ab9e88d6ddca17637c87a8c6e5d9674ca408e8cca6eb0a8cd"
+      },
+      "raw_sha256": "09b01749012146adf76bdc5fe8d4528eaeb869cc0a3f3c1fc3d44984ebd01a41",
+      "residual_min": -91,
+      "residual_max": 63
+    },
+    {
+      "source": 114,
+      "asset": {
+        "path": "build/exp499/fields/114.bin.xz",
+        "bytes": 7425968,
+        "sha256": "21f2089dba1486fab4dc2b63da6e14a7786d2bd1056da4887457b35df938adcc"
+      },
+      "raw_sha256": "5bed69410a670930c8c7da6d641746212105b7f5db24eff5aee41e3d917e3958",
+      "residual_min": -81,
+      "residual_max": 85
+    },
+    {
+      "source": 115,
+      "asset": {
+        "path": "build/exp499/fields/115.bin.xz",
+        "bytes": 6841084,
+        "sha256": "5905fba3534b6dd3dc9e2cffce06bf46bd4b72a221d1858107b2d4d703b8006a"
+      },
+      "raw_sha256": "614fe7ff1ca28e8f5aa41e88ceeb0454af768c7ac4eb064fc2df01d875055118",
+      "residual_min": -78,
+      "residual_max": 76
+    },
+    {
+      "source": 116,
+      "asset": {
+        "path": "build/exp499/fields/116.bin.xz",
+        "bytes": 7642584,
+        "sha256": "cb07a7d69b46d27c0483e6a9f716be6a842005209d2baeb31a1954a3df14c560"
+      },
+      "raw_sha256": "41f69b1c1b6dc0b8cfda0b0393c9ec7a4fbe6ee3e5565fc3c657a64574bf4623",
+      "residual_min": -76,
+      "residual_max": 112
+    },
+    {
+      "source": 117,
+      "asset": {
+        "path": "build/exp499/fields/117.bin.xz",
+        "bytes": 5856044,
+        "sha256": "9f4f1429e1e0368950bb35b15640729ef9ae427b0cd44e32b316cb48af9f709b"
+      },
+      "raw_sha256": "895ae887443670fd200c93f8fd8756abb80638605fbea81e57d5ea8af9556e88",
+      "residual_min": -81,
+      "residual_max": 95
+    },
+    {
+      "source": 118,
+      "asset": {
+        "path": "build/exp499/fields/118.bin.xz",
+        "bytes": 5424064,
+        "sha256": "dea939b32053c17f31677d55b8c900ee69acbf2e2fb046a91bd0ab9c3450fd46"
+      },
+      "raw_sha256": "4351ef2b7dc35f5d65900aebff993e7be562b64fa73773b64332d70e3cf42ab3",
+      "residual_min": -76,
+      "residual_max": 81
+    },
+    {
+      "source": 119,
+      "asset": {
+        "path": "build/exp499/fields/119.bin.xz",
+        "bytes": 7024828,
+        "sha256": "e40384c3ecd46601ad6fe93c28278f0a9ca3120aa40295918bb5199e3ca69ef4"
+      },
+      "raw_sha256": "bad49d33c1656e6debb1fe43fba888d331fd94526a98a07ce0fb3e5d1a110dab",
+      "residual_min": -76,
+      "residual_max": 69
+    },
+    {
+      "source": 120,
+      "asset": {
+        "path": "build/exp499/fields/120.bin.xz",
+        "bytes": 7127004,
+        "sha256": "4f579e72266b5b3b736b4efde389670f5b70520bdedd7da3d615b94dba638666"
+      },
+      "raw_sha256": "ef55972ef8eb46be513ecd697711f806839704cd3134c8ee728425e285d42b27",
+      "residual_min": -53,
+      "residual_max": 96
+    },
+    {
+      "source": 121,
+      "asset": {
+        "path": "build/exp499/fields/121.bin.xz",
+        "bytes": 8324232,
+        "sha256": "271fa176eaad90860ede827c92f8fa72c30399a600be178c13fd34a9e0d62491"
+      },
+      "raw_sha256": "b49199f9ab535da82199f269007e5884bfdf798056493049b514cb1995297e01",
+      "residual_min": -60,
+      "residual_max": 89
+    },
+    {
+      "source": 122,
+      "asset": {
+        "path": "build/exp499/fields/122.bin.xz",
+        "bytes": 7710216,
+        "sha256": "ef6d85758d072c7db6c57583678bb89a3b119fedb6c274ce914118b4d4d69647"
+      },
+      "raw_sha256": "7361a6f69225bbe526d99b2f5363a918371d99bbeb857ef0267ec8c83fe23b1c",
+      "residual_min": -54,
+      "residual_max": 86
+    },
+    {
+      "source": 123,
+      "asset": {
+        "path": "build/exp499/fields/123.bin.xz",
+        "bytes": 6953704,
+        "sha256": "b36c9263342ba47d5cf6c719fb944580bd4b661095f46641d6d0c3385a08e52f"
+      },
+      "raw_sha256": "19a2e79d1324970d4aa46bd03370d7b103f3c9074c90aaa601fcea24ce49e062",
+      "residual_min": -87,
+      "residual_max": 99
+    },
+    {
+      "source": 124,
+      "asset": {
+        "path": "build/exp499/fields/124.bin.xz",
+        "bytes": 7486664,
+        "sha256": "571cdf7cf5cd43df3ade252a1f3444bc09e562ac9d336774779edcc0ca0f17f7"
+      },
+      "raw_sha256": "451ea3e3c7ad4f3b47d505a2d1c2048c55a13677cecf0fc3b52c1ace918692fc",
+      "residual_min": -71,
+      "residual_max": 92
+    },
+    {
+      "source": 125,
+      "asset": {
+        "path": "build/exp499/fields/125.bin.xz",
+        "bytes": 6465064,
+        "sha256": "e0d90b7944bf35393af92d02861feca98a379de252d21badfc4bf12ec14fe276"
+      },
+      "raw_sha256": "d9d6aad632463f49fcfed4a8c8962dbeb346259a2f367a0e99b56c98b0758ed6",
+      "residual_min": -66,
+      "residual_max": 105
+    },
+    {
+      "source": 126,
+      "asset": {
+        "path": "build/exp499/fields/126.bin.xz",
+        "bytes": 5689792,
+        "sha256": "f84f0d14fb4852181d3781bd4794fd7d40ad3d4d87ec0a0ec2948d97a294d809"
+      },
+      "raw_sha256": "55b7acbfc9f804510739769b38b9c2fc8b4b05c7a8b623b6aaec55722aa1e093",
+      "residual_min": -55,
+      "residual_max": 107
+    },
+    {
+      "source": 127,
+      "asset": {
+        "path": "build/exp499/fields/127.bin.xz",
+        "bytes": 6547184,
+        "sha256": "715f597bc37f4e0add397f4293ecba93d860b86ed86976fc854834be2050568e"
+      },
+      "raw_sha256": "0d4126ffe40b08b6b603bb633d6320f69c5940b01fd203d72ae4cf2bd633dafe",
+      "residual_min": -61,
+      "residual_max": 88
+    },
+    {
+      "source": 128,
+      "asset": {
+        "path": "build/exp499/fields/128.bin.xz",
+        "bytes": 7672428,
+        "sha256": "c382ad8f4a66d74ec552cb1cc82864f3e82cd6f08e0e88b99c62b8df3933d3cd"
+      },
+      "raw_sha256": "259aba928677391e63b678cb78eb90486bfecf686f3b8a3bf8874e8a3c0e4690",
+      "residual_min": -94,
+      "residual_max": 89
+    },
+    {
+      "source": 129,
+      "asset": {
+        "path": "build/exp499/fields/129.bin.xz",
+        "bytes": 7822248,
+        "sha256": "59b48d56c9a927d34b7d7bb8af933b6553d7bb5c3a6fcda384d8aca7ddb20c44"
+      },
+      "raw_sha256": "d798b201e1a8b2a2c008d4ebc16d0cdcad1295dc284139ce0d576848063941a6",
+      "residual_min": -92,
+      "residual_max": 91
+    },
+    {
+      "source": 130,
+      "asset": {
+        "path": "build/exp499/fields/130.bin.xz",
+        "bytes": 7245828,
+        "sha256": "9a962949d99f6d83a6365f3f89292ce9b2f38a90d89514e067f9c3e11143a0ac"
+      },
+      "raw_sha256": "b9e8bca450470a6e3be0b1a2f0a0e294245305935b81c7536cd188fa414cf0c3",
+      "residual_min": -88,
+      "residual_max": 91
+    },
+    {
+      "source": 131,
+      "asset": {
+        "path": "build/exp499/fields/131.bin.xz",
+        "bytes": 6880664,
+        "sha256": "51435710bb010ebb5d411152d403dea0b09a687becc6aa097d67513277508d32"
+      },
+      "raw_sha256": "f461df5d9e0c886b36bdf646844f31817dfa9051dc81aff80b41699547a6ab38",
+      "residual_min": -87,
+      "residual_max": 100
+    },
+    {
+      "source": 132,
+      "asset": {
+        "path": "build/exp499/fields/132.bin.xz",
+        "bytes": 7551584,
+        "sha256": "a3f726771aa3eb60a9529fcfa20b17cfab778db7bbc030add83c119f41b21595"
+      },
+      "raw_sha256": "3d700d147ecdd1418f8487777e4f593f5262c7f2672f07c7966a3c585f8e46af",
+      "residual_min": -86,
+      "residual_max": 112
+    },
+    {
+      "source": 133,
+      "asset": {
+        "path": "build/exp499/fields/133.bin.xz",
+        "bytes": 5428972,
+        "sha256": "03bcc9847c92886b91f7ecd9f89a1c9d087bb14b3bf5c627716aa1a7e2f20292"
+      },
+      "raw_sha256": "c18475c1961c6e4c59e3be525cffdd31fb5faf02acf5246defb86bc1955dd56d",
+      "residual_min": -84,
+      "residual_max": 129
+    },
+    {
+      "source": 134,
+      "asset": {
+        "path": "build/exp499/fields/134.bin.xz",
+        "bytes": 5739148,
+        "sha256": "a0e3bb3b84247fb8f570e85666da3b5dc00eac5c367fa3b2b19726f5ca22f98b"
+      },
+      "raw_sha256": "71833acbfe0393527516947242f5da6d9ba07663de5780acf35ef0b780d8dbca",
+      "residual_min": -86,
+      "residual_max": 86
+    },
+    {
+      "source": 135,
+      "asset": {
+        "path": "build/exp499/fields/135.bin.xz",
+        "bytes": 6920144,
+        "sha256": "d98f4bc7357f2df893d8336d869a9d068ccf1aeb4d3629234d0f307a3695b1a3"
+      },
+      "raw_sha256": "444cdd9d8282881881d34ff6a15237a75adc67b8be05bff9908d6ebf3038ea3f",
+      "residual_min": -98,
+      "residual_max": 85
+    },
+    {
+      "source": 136,
+      "asset": {
+        "path": "build/exp499/fields/136.bin.xz",
+        "bytes": 7155616,
+        "sha256": "5c8a26a1b089d1b714e3ab89952301b2e371b1ac577fbb0f4e55f4190c1359bb"
+      },
+      "raw_sha256": "b8806411d2454eef5bb66ac0cc5a0424b543f434adb1037ece34731b84cc1c63",
+      "residual_min": -104,
+      "residual_max": 97
+    },
+    {
+      "source": 137,
+      "asset": {
+        "path": "build/exp499/fields/137.bin.xz",
+        "bytes": 7959936,
+        "sha256": "579c50e7b796804f24373a2b4086fcd90f7ec1a1ee01ce056598731af2b32c1a"
+      },
+      "raw_sha256": "7f74681f072e73dc0bfe41477ef5064e572bca1d2344f3638e8084bf8176d73b",
+      "residual_min": -80,
+      "residual_max": 90
+    },
+    {
+      "source": 138,
+      "asset": {
+        "path": "build/exp499/fields/138.bin.xz",
+        "bytes": 7265156,
+        "sha256": "dfe4f4cfb6fb3e4abeec539563c5b9ce570456bb7f3dbe02895e1e87c60652b3"
+      },
+      "raw_sha256": "2f54941d088e9f1a1cf04315a2eddf520c835e5710864b7108b4402347c9f36c",
+      "residual_min": -92,
+      "residual_max": 115
+    },
+    {
+      "source": 139,
+      "asset": {
+        "path": "build/exp499/fields/139.bin.xz",
+        "bytes": 6747788,
+        "sha256": "56e6623740061c9b310c2d4f3d2a33fe337b4f08952cf11701d0840aac679e73"
+      },
+      "raw_sha256": "f637b8e72ef5118e85c8d5a6ce3a12ed3b956bc78ff7675a4d333e11e7ee013a",
+      "residual_min": -101,
+      "residual_max": 113
+    },
+    {
+      "source": 140,
+      "asset": {
+        "path": "build/exp499/fields/140.bin.xz",
+        "bytes": 7349064,
+        "sha256": "db88b6ce774cdfc57b521a81f71feedfb8ca07e7ce148c2d96769c43c183b79c"
+      },
+      "raw_sha256": "14a8871359c3a327e03d5cde6d472963c0514231edc9d53f6f1da098826e91bc",
+      "residual_min": -110,
+      "residual_max": 134
+    },
+    {
+      "source": 141,
+      "asset": {
+        "path": "build/exp499/fields/141.bin.xz",
+        "bytes": 5821008,
+        "sha256": "4171ee4772e59f39d2d983819e9d3bb4b2c2a2d002960fe9be5eb5da6a53d106"
+      },
+      "raw_sha256": "31830ffbca0fe6ab1b504a23bcb9bebcc2f49999a8a24e0c73daa532444fca16",
+      "residual_min": -99,
+      "residual_max": 117
+    },
+    {
+      "source": 142,
+      "asset": {
+        "path": "build/exp499/fields/142.bin.xz",
+        "bytes": 5331964,
+        "sha256": "7d60be93511a7a04d617544041c680a034a77b5959e07cc97a847ca38d187b78"
+      },
+      "raw_sha256": "9e956af77c29bf4206147d55b61894c63ca531141aa2046d164507fee4d40f4c",
+      "residual_min": -100,
+      "residual_max": 99
+    },
+    {
+      "source": 143,
+      "asset": {
+        "path": "build/exp499/fields/143.bin.xz",
+        "bytes": 6463948,
+        "sha256": "81b6558e06d024b7644c582eb275bc0bbbd3e694ade27be0206d6c860967c909"
+      },
+      "raw_sha256": "6523af68c3cdf34766305cb31195e2190a2c4a579494696396815cf0bc0d718e",
+      "residual_min": -101,
+      "residual_max": 92
+    },
+    {
+      "source": 144,
+      "asset": {
+        "path": "build/exp499/fields/144.bin.xz",
+        "bytes": 7400804,
+        "sha256": "7809ab22e03f0e487eaa064fa0d0e5f3e8d5ab35bce3e27088a93ccc21d4cbf8"
+      },
+      "raw_sha256": "f93c62faf0efc56328ede9b3dc7ccfa7abcd3e3cd73343a2fdcd06adaaf20e03",
+      "residual_min": -65,
+      "residual_max": 60
+    },
+    {
+      "source": 145,
+      "asset": {
+        "path": "build/exp499/fields/145.bin.xz",
+        "bytes": 7865032,
+        "sha256": "dbbcd781408e45867793ba3a2947846b755693c03219c95d5265d52fe678dcfb"
+      },
+      "raw_sha256": "1897d9fc8ea5cfbe395a480673705c2529ef5557cf0f16becb5cbf90da2d1a9f",
+      "residual_min": -99,
+      "residual_max": 66
+    },
+    {
+      "source": 146,
+      "asset": {
+        "path": "build/exp499/fields/146.bin.xz",
+        "bytes": 7133100,
+        "sha256": "8f8fe7f389a4a53ff8e4bea1ed409c133bca81025ff225a4faf0a8d7ee3d1fe9"
+      },
+      "raw_sha256": "161d31e32a435a0b5ee2459d61a2528691f6b7cf4b7ec7b95105a7868c7b2a6d",
+      "residual_min": -62,
+      "residual_max": 75
+    },
+    {
+      "source": 147,
+      "asset": {
+        "path": "build/exp499/fields/147.bin.xz",
+        "bytes": 6728884,
+        "sha256": "4d23dfa0607219d40fe8440e4e1f4505a12ed9827807edfa4f5c840650b5db68"
+      },
+      "raw_sha256": "ca3072fecd911d5f4458cd6aa83a94a9ea0b880c93d641c7546167638b5d6250",
+      "residual_min": -98,
+      "residual_max": 72
+    },
+    {
+      "source": 148,
+      "asset": {
+        "path": "build/exp499/fields/148.bin.xz",
+        "bytes": 7505208,
+        "sha256": "71c160724c31286319fbd01e1b2d5c073ab84a04bdbf1adaa50c86e1a15db6cd"
+      },
+      "raw_sha256": "b5aaa8fd9546d37d16df16157c78580a216b21d85b6449ac0943124c0a1c6f88",
+      "residual_min": -68,
+      "residual_max": 124
+    },
+    {
+      "source": 149,
+      "asset": {
+        "path": "build/exp499/fields/149.bin.xz",
+        "bytes": 5412912,
+        "sha256": "6cd0e5cffdd6bbec8c0d1b912160d6ea18720611c9fdf08ef911312911aa6c43"
+      },
+      "raw_sha256": "d8178a664e5c82ba413235d56436d874847a2ede5ca0a09bd568ddafea5a85b2",
+      "residual_min": -71,
+      "residual_max": 117
+    },
+    {
+      "source": 150,
+      "asset": {
+        "path": "build/exp499/fields/150.bin.xz",
+        "bytes": 5245028,
+        "sha256": "21729c8c09efaca6fb095533607d27c6eb30f6b9dbf54b8377b0fccd8a405e36"
+      },
+      "raw_sha256": "520cb93195946edeb27b8bb6548cd0dadf0a76b8601fe4e69a36db5437db7cc8",
+      "residual_min": -60,
+      "residual_max": 90
+    },
+    {
+      "source": 151,
+      "asset": {
+        "path": "build/exp499/fields/151.bin.xz",
+        "bytes": 6845244,
+        "sha256": "d58855466f0eddf4ee38120d162e12657b54b5b44d1a5cdacee48c7b51c00d1f"
+      },
+      "raw_sha256": "fa5e04db2eecc0ce11d6496a673a2cf4465cb9c67907a3e3344e726ed367e020",
+      "residual_min": -67,
+      "residual_max": 66
+    },
+    {
+      "source": 152,
+      "asset": {
+        "path": "build/exp499/fields/152.bin.xz",
+        "bytes": 7273644,
+        "sha256": "c100d174dde3857f15f2cd04f0dce4eaca063a2229414d9406c0d742972c0231"
+      },
+      "raw_sha256": "1c037a1ee17f44356d84ca852c1ee790baf40e79cdb4bd41f8cd878c9f2f2d83",
+      "residual_min": -87,
+      "residual_max": 76
+    },
+    {
+      "source": 153,
+      "asset": {
+        "path": "build/exp499/fields/153.bin.xz",
+        "bytes": 8191676,
+        "sha256": "85d4a3f697be5871346feaa4d1057b40f19ed2b728e8d6d856ca328cec964b50"
+      },
+      "raw_sha256": "fd10b018bb09683b4806145eb94a22fb26abb30f8605a4b61f808f1bcde04c7e",
+      "residual_min": -81,
+      "residual_max": 77
+    },
+    {
+      "source": 154,
+      "asset": {
+        "path": "build/exp499/fields/154.bin.xz",
+        "bytes": 7388712,
+        "sha256": "d849b535eeec3dd7ddd53f3dabe7acfe8bea189779bd7b7108f3701710f3d5e5"
+      },
+      "raw_sha256": "6c247c554300f44e9e161b6507ac7386414048700371a0814bb89ed578acaa82",
+      "residual_min": -77,
+      "residual_max": 89
+    },
+    {
+      "source": 155,
+      "asset": {
+        "path": "build/exp499/fields/155.bin.xz",
+        "bytes": 6646812,
+        "sha256": "c0df5776d596693b133e1280d7a33fc549a1ebeda6b16779d4a266d029571b9b"
+      },
+      "raw_sha256": "1289525bc8bf4a4a42811e6080ddf054f449863dad21759d81d6c34593f6811d",
+      "residual_min": -83,
+      "residual_max": 81
+    },
+    {
+      "source": 156,
+      "asset": {
+        "path": "build/exp499/fields/156.bin.xz",
+        "bytes": 7458260,
+        "sha256": "b91ec2893d89852d8d72e774dda05cc6720498ddeeb1c266fb056f054559067d"
+      },
+      "raw_sha256": "6c60fa164630eee62add3b533f73c9add8eb7f5c70dc252a8a1ceee7a8c61af9",
+      "residual_min": -74,
+      "residual_max": 76
+    },
+    {
+      "source": 157,
+      "asset": {
+        "path": "build/exp499/fields/157.bin.xz",
+        "bytes": 5892472,
+        "sha256": "aad191ebb7a1f08703e7b2c67e67ab72510498f65ed4c296a2e2c79d183a2a1c"
+      },
+      "raw_sha256": "d12e9e88ade64c93485ca7578f6368a6fd571da576fd6b371c9b7975ff75bf49",
+      "residual_min": -78,
+      "residual_max": 73
+    },
+    {
+      "source": 158,
+      "asset": {
+        "path": "build/exp499/fields/158.bin.xz",
+        "bytes": 5462492,
+        "sha256": "37615b8a282a9e5b070cfa826e231632f91228d789154c427301502d01e46ca9"
+      },
+      "raw_sha256": "d261e2fe937a0f198bb943f3f4ec9b5fd00e68f4a29df9ef390319fafe3d163e",
+      "residual_min": -73,
+      "residual_max": 77
+    },
+    {
+      "source": 159,
+      "asset": {
+        "path": "build/exp499/fields/159.bin.xz",
+        "bytes": 7017996,
+        "sha256": "cf4021b72fde9a00d5f2d126213c4a0ad7c95c4686492b618de861a7032d19e7"
+      },
+      "raw_sha256": "452772bb3cf68bde35a85bc64f35e5c3dc870e5ac0cacd50a90efb7e8aadda2d",
+      "residual_min": -71,
+      "residual_max": 81
+    },
+    {
+      "source": 160,
+      "asset": {
+        "path": "build/exp499/fields/160.bin.xz",
+        "bytes": 6977320,
+        "sha256": "9ebf67fe4e3d1a385d51079d0384e7cb981bb6f3c33261df2b76106693649176"
+      },
+      "raw_sha256": "6fd238708a940a80349c317a3b99670d07a7e629b14f0c3df87955fefea41713",
+      "residual_min": -98,
+      "residual_max": 83
+    },
+    {
+      "source": 161,
+      "asset": {
+        "path": "build/exp499/fields/161.bin.xz",
+        "bytes": 7929252,
+        "sha256": "e426aec596010a902960fd48afc16c713b06bbec32df636ce52f47bd31e8ecd8"
+      },
+      "raw_sha256": "517d0976eb1e55955a35582f2b7777633dcd753c4bc8e2da2bd65450de7f9391",
+      "residual_min": -66,
+      "residual_max": 85
+    },
+    {
+      "source": 162,
+      "asset": {
+        "path": "build/exp499/fields/162.bin.xz",
+        "bytes": 7788056,
+        "sha256": "2084d9e344e499f14780ecdce0b7181268cd16d32f9c4f7bdf9b3c6fda24d4d2"
+      },
+      "raw_sha256": "d6c425ea5c8592cba6f529b40cb959bf7a401c7431cbd0b5a22fd5f3430227c9",
+      "residual_min": -68,
+      "residual_max": 63
+    },
+    {
+      "source": 163,
+      "asset": {
+        "path": "build/exp499/fields/163.bin.xz",
+        "bytes": 8121396,
+        "sha256": "30fec86a63548fd5738f893401ad73fb6353b6ece94b668edf3ce6c8005096b5"
+      },
+      "raw_sha256": "e8491e10599480035fa2558efc4962ec71f2d2982cd44c6c992e0ec6ab9557f0",
+      "residual_min": -80,
+      "residual_max": 81
+    },
+    {
+      "source": 164,
+      "asset": {
+        "path": "build/exp499/fields/164.bin.xz",
+        "bytes": 8005576,
+        "sha256": "b86d8dcd7df2f555460de725c9101cb9626cc4293074c61457c7c3a30783cfaa"
+      },
+      "raw_sha256": "86492fc61339d7d141d891dd1a481572f1bd8241bc1a5eba973a236c40a84b3f",
+      "residual_min": -81,
+      "residual_max": 118
+    },
+    {
+      "source": 165,
+      "asset": {
+        "path": "build/exp499/fields/165.bin.xz",
+        "bytes": 7854584,
+        "sha256": "bea13f3628e8649d36eeba1eca1db18a5a97439e9b2b9880ce6d6961925a1905"
+      },
+      "raw_sha256": "8e75386afc9ff81c7dd886aaf81cfc5998b9bdbb3839dfd0497dec2318c9f3f5",
+      "residual_min": -89,
+      "residual_max": 101
+    },
+    {
+      "source": 166,
+      "asset": {
+        "path": "build/exp499/fields/166.bin.xz",
+        "bytes": 7493000,
+        "sha256": "240c832ea39ddc5e94896d928b6e0adbdc5ea7d59ba64c4e2f23458b896b2771"
+      },
+      "raw_sha256": "946d82d733215ece90ad0a7e1a63b811a09a144a16bcc14a78d1e149384eede8",
+      "residual_min": -86,
+      "residual_max": 75
+    },
+    {
+      "source": 167,
+      "asset": {
+        "path": "build/exp499/fields/167.bin.xz",
+        "bytes": 7246872,
+        "sha256": "645386dd5e36b38184b2681a420c0fbf8106b8e03ef00dae1f8561c1c422705b"
+      },
+      "raw_sha256": "4f986f092cc3b6616292fc2fe801c65ad3f85b21e60de1ced6b58a05e8ff8032",
+      "residual_min": -63,
+      "residual_max": 112
+    },
+    {
+      "source": 168,
+      "asset": {
+        "path": "build/exp499/fields/168.bin.xz",
+        "bytes": 7530972,
+        "sha256": "8fc4cbc5c4a3ba8f977adf42099227494597d930d27aeb6504f0b66aedfc666b"
+      },
+      "raw_sha256": "83996a10061255df358336ccba45555e5357969f21f7d9f67e9853d354637fe6",
+      "residual_min": -80,
+      "residual_max": 96
+    },
+    {
+      "source": 169,
+      "asset": {
+        "path": "build/exp499/fields/169.bin.xz",
+        "bytes": 6634120,
+        "sha256": "db423a5a55f5b942f7436b94d6cadcfd6d1d2c3d603ab87941500f585afcd441"
+      },
+      "raw_sha256": "cf0851c86ee6be0785028b68c80bdec0ab045433215ce8d64df2a8d08ec77ca6",
+      "residual_min": -89,
+      "residual_max": 111
+    },
+    {
+      "source": 170,
+      "asset": {
+        "path": "build/exp499/fields/170.bin.xz",
+        "bytes": 7281032,
+        "sha256": "2dd65bbaabc721f954a6af72286f747a5a32af1a607f8e30eb9e48f65fef97c4"
+      },
+      "raw_sha256": "d7031bb0a3650caf0df65fdcf9b67e0d84264a38ed03045d0015233d836563bf",
+      "residual_min": -93,
+      "residual_max": 76
+    },
+    {
+      "source": 171,
+      "asset": {
+        "path": "build/exp499/fields/171.bin.xz",
+        "bytes": 7228172,
+        "sha256": "a56ac6eabea1032836e75aefb7555d48186003a83423c8acab9bed48a0c78766"
+      },
+      "raw_sha256": "7400e68919375a8b8bf245eac84d60206523722fe4724ed5fb60d671bc2fbc32",
+      "residual_min": -93,
+      "residual_max": 88
+    },
+    {
+      "source": 172,
+      "asset": {
+        "path": "build/exp499/fields/172.bin.xz",
+        "bytes": 7246336,
+        "sha256": "3e3af1610451945e954e43837da368742da269f70ae456e536d02f7fac6ccec9"
+      },
+      "raw_sha256": "e65c68e58ae7c197b55602a9f26137e3617945298ebab976b009bfde74d791c2",
+      "residual_min": -103,
+      "residual_max": 120
+    },
+    {
+      "source": 173,
+      "asset": {
+        "path": "build/exp499/fields/173.bin.xz",
+        "bytes": 7428952,
+        "sha256": "1588c34b7b026ee7b69f24fe00a122b799c9bd4b950238917960a8e8a24e23ca"
+      },
+      "raw_sha256": "20c6cf3360480686dc901917e8763339b1d13a35f0521180eb21527c25aeee90",
+      "residual_min": -91,
+      "residual_max": 121
+    },
+    {
+      "source": 174,
+      "asset": {
+        "path": "build/exp499/fields/174.bin.xz",
+        "bytes": 7089744,
+        "sha256": "0ebc5a5ed4d55df676b20da942d543c7998f8bcbc874d7351b99146c0d906d64"
+      },
+      "raw_sha256": "71caf96d0aba7454e6ae4145819b330215a1dfbf81bf10a7bfca16e99344c3d7",
+      "residual_min": -98,
+      "residual_max": 114
+    },
+    {
+      "source": 175,
+      "asset": {
+        "path": "build/exp499/fields/175.bin.xz",
+        "bytes": 6414196,
+        "sha256": "43d7b91e146dc9f29e538da5969618f0c93eb8752c14b4c94b600447c774cf40"
+      },
+      "raw_sha256": "daad281390b3a9a1c07845120072101ad89d86749e94b7f1117c0d7b580e91a3",
+      "residual_min": -88,
+      "residual_max": 95
+    },
+    {
+      "source": 176,
+      "asset": {
+        "path": "build/exp499/fields/176.bin.xz",
+        "bytes": 5361364,
+        "sha256": "126c78fd02ec13763cb03040d3e497f185cf720d9fa98a58463678cff861cd4b"
+      },
+      "raw_sha256": "89308aedd44f9486f1a13e510ae9fb0e0d9ebcfdd72ef55f95faebd0a6083be2",
+      "residual_min": -86,
+      "residual_max": 87
+    },
+    {
+      "source": 177,
+      "asset": {
+        "path": "build/exp499/fields/177.bin.xz",
+        "bytes": 6431900,
+        "sha256": "47b6eb2934e53af4770172ca53a0fcaf4cc182501927c2f921181cf02d1f11f4"
+      },
+      "raw_sha256": "bbd82a507a769daacc1ae4e9d416b879d2a6a8f45b4b51406ba7b897f854558f",
+      "residual_min": -84,
+      "residual_max": 98
+    },
+    {
+      "source": 178,
+      "asset": {
+        "path": "build/exp499/fields/178.bin.xz",
+        "bytes": 5587956,
+        "sha256": "2f93ca9c74a990e7bfd8043437abd40e6149ae40cec08156e952b760464e5484"
+      },
+      "raw_sha256": "eb07d813a213ab2e7e1c2c2f6ae70a10f99681d17598fdc8ed8f2cee325ffb23",
+      "residual_min": -92,
+      "residual_max": 80
+    },
+    {
+      "source": 179,
+      "asset": {
+        "path": "build/exp499/fields/179.bin.xz",
+        "bytes": 5480460,
+        "sha256": "a0d2a0fd511dd2b5820103d0c27e71d606f1b8509631199e1d84435b7c1b7f63"
+      },
+      "raw_sha256": "032eeb21031c3b43f3172b6acb99341d7388f9f114a9a9a32f4f081a51a1a8a9",
+      "residual_min": -84,
+      "residual_max": 94
+    },
+    {
+      "source": 180,
+      "asset": {
+        "path": "build/exp499/fields/180.bin.xz",
+        "bytes": 5893664,
+        "sha256": "5a9656dd64b31773566324a79e48b0c9c2f2205a4301471343b8658944ff14e7"
+      },
+      "raw_sha256": "ff9a839f1ff3372cc6b9fa09aaae515c23d1ded023a44095cd7798175ae5c9cb",
+      "residual_min": -86,
+      "residual_max": 87
+    },
+    {
+      "source": 181,
+      "asset": {
+        "path": "build/exp499/fields/181.bin.xz",
+        "bytes": 6717400,
+        "sha256": "8988f38d5a27b82a29429f08b68d6ef2f2c0ab95a47f4415f82e3ec5afd0d97c"
+      },
+      "raw_sha256": "abf06ea0c42c50d048d3677b90a0790c03b5121590ce2537e4eb6a65cb09c722",
+      "residual_min": -96,
+      "residual_max": 79
+    },
+    {
+      "source": 182,
+      "asset": {
+        "path": "build/exp499/fields/182.bin.xz",
+        "bytes": 6834604,
+        "sha256": "e4dcf78950b4b62531b7bfd3395e568494ae79155194d9b16d348143a99ab41b"
+      },
+      "raw_sha256": "d7e589d05e88c0801c136e6976b08b1e16f9d781419dbb2dc83b2557eaa995e8",
+      "residual_min": -78,
+      "residual_max": 86
+    },
+    {
+      "source": 183,
+      "asset": {
+        "path": "build/exp499/fields/183.bin.xz",
+        "bytes": 6803516,
+        "sha256": "fa73224c582cd7471a294a2ad2d7ea78cc33456c13b8dfe286f01cf6dd9f088e"
+      },
+      "raw_sha256": "49a6a84567b344b2634a86e7c7ac9b81936adb9a38e3a7ca830defa792b385fb",
+      "residual_min": -80,
+      "residual_max": 69
+    },
+    {
+      "source": 184,
+      "asset": {
+        "path": "build/exp499/fields/184.bin.xz",
+        "bytes": 7712780,
+        "sha256": "4b3c9d00996567228ec67dfb2e2b65d826df7299eff5de186856a7abb0dbbaf6"
+      },
+      "raw_sha256": "a8764913c0312398f07aef0e8b0e25bfda4e5e6e0c1a82dd2be0fc42d25a2368",
+      "residual_min": -62,
+      "residual_max": 86
+    },
+    {
+      "source": 185,
+      "asset": {
+        "path": "build/exp499/fields/185.bin.xz",
+        "bytes": 7050732,
+        "sha256": "5e490833f16bcce2a4f8ba9e44e53392519b1b51f2afba351c11ce4d258532d2"
+      },
+      "raw_sha256": "404029bc169eb27dc36a99fa87fba8f607edfebff5bc4642516540b83c9bb3ac",
+      "residual_min": -102,
+      "residual_max": 81
+    },
+    {
+      "source": 186,
+      "asset": {
+        "path": "build/exp499/fields/186.bin.xz",
+        "bytes": 7592272,
+        "sha256": "09f1f164152a574f6edf0a91ce8d96ef3b7c8380c8d4931c0d0ee28e419dd5fd"
+      },
+      "raw_sha256": "a396e773d0e200b9bbdce605b5568a2a45f53484d23fbc9829282ae1bd4206b7",
+      "residual_min": -70,
+      "residual_max": 65
+    },
+    {
+      "source": 187,
+      "asset": {
+        "path": "build/exp499/fields/187.bin.xz",
+        "bytes": 7925596,
+        "sha256": "fa096b437bae11186e0ebf905cf56b938ca6b083c3f62d6305062258f8b12d19"
+      },
+      "raw_sha256": "455ddb234ffef1f7e91eb7cf274155357dd2ade45ea0fbcde4bb4a7762630db4",
+      "residual_min": -76,
+      "residual_max": 103
+    },
+    {
+      "source": 188,
+      "asset": {
+        "path": "build/exp499/fields/188.bin.xz",
+        "bytes": 8191496,
+        "sha256": "8d09f42f55ce457b26372e59f7197adf7eab98ecf704c6ec682c9348b0a196c4"
+      },
+      "raw_sha256": "3f74b29b5f29825fd4a1cd0fd50299dc3a6e75d44479a4169e183c3516f37aa5",
+      "residual_min": -77,
+      "residual_max": 77
+    },
+    {
+      "source": 189,
+      "asset": {
+        "path": "build/exp499/fields/189.bin.xz",
+        "bytes": 8010956,
+        "sha256": "2405867d594bc0513c2e979bbfb4acd636c201697f17eaf328349d3ed0079f95"
+      },
+      "raw_sha256": "fd691cf7108bc660f1ebf5c9fb003baf0d512542e1ffdab9b298fbe185de5275",
+      "residual_min": -75,
+      "residual_max": 88
+    },
+    {
+      "source": 190,
+      "asset": {
+        "path": "build/exp499/fields/190.bin.xz",
+        "bytes": 7360276,
+        "sha256": "5355ff5fa8445b74537aa3799c319a81da683af13075409644ebc69d92941bba"
+      },
+      "raw_sha256": "361fe8c6b7d8f3f77d491cc305da020cd70ebb84eaec560ac2d5fae6ef940562",
+      "residual_min": -70,
+      "residual_max": 104
+    },
+    {
+      "source": 191,
+      "asset": {
+        "path": "build/exp499/fields/191.bin.xz",
+        "bytes": 7434220,
+        "sha256": "eb990d9ef0c588516bf18f33a8c7b2c7e89bbf2a28e0bd6026e88b0d672c986a"
+      },
+      "raw_sha256": "cccea5b21cc0c2acf48497daae386231eada06b025c3e652dbffb3dd9b04d45e",
+      "residual_min": -87,
+      "residual_max": 75
+    },
+    {
+      "source": 192,
+      "asset": {
+        "path": "build/exp499/fields/192.bin.xz",
+        "bytes": 7680772,
+        "sha256": "ca2be3898ab12ea0fb5a809317ba82221ea0b81a5a281d4de4a14cadd3aa39fc"
+      },
+      "raw_sha256": "876a40f6b294c28fda5c18e4ad40afc50c67c0aed9b2aec4b1335d6744c3a78b",
+      "residual_min": -68,
+      "residual_max": 94
+    },
+    {
+      "source": 193,
+      "asset": {
+        "path": "build/exp499/fields/193.bin.xz",
+        "bytes": 7353440,
+        "sha256": "b82d1d3a6d05c2e15962d603a9fefe25c3af9e9c38fbad63e98ecd99b06ff0d0"
+      },
+      "raw_sha256": "7883963d8e0cf365611f6137d10138a30bf3629f3b1f2cbbb811d113b2816823",
+      "residual_min": -87,
+      "residual_max": 89
+    },
+    {
+      "source": 194,
+      "asset": {
+        "path": "build/exp499/fields/194.bin.xz",
+        "bytes": 6682992,
+        "sha256": "662667e62c2540e0b037cab3cd0b971841a454bd799a04a437b628f07b5de2b3"
+      },
+      "raw_sha256": "dd6a305652beb5f4c5354e6b05ba51f2bcbe99effef4ed4530e1fc99af7a2e6b",
+      "residual_min": -95,
+      "residual_max": 108
+    },
+    {
+      "source": 195,
+      "asset": {
+        "path": "build/exp499/fields/195.bin.xz",
+        "bytes": 7061652,
+        "sha256": "258dcf6024985f2ca087f1474b9e3e88ad7d646e2506a22a985649b3c8fefb9c"
+      },
+      "raw_sha256": "6cd4d44f4d63425f30866955e4dbeb2035c50a4f97ae2940e23c1b5c6e9da64d",
+      "residual_min": -74,
+      "residual_max": 89
+    },
+    {
+      "source": 196,
+      "asset": {
+        "path": "build/exp499/fields/196.bin.xz",
+        "bytes": 7286128,
+        "sha256": "b5e905f2f102f2e005a742d4f91bd362f214b7792ebf6cfaa366c88318530500"
+      },
+      "raw_sha256": "c623f23554fde55f6a0c3e3986bc9b0df3216ac8ce12108868e1418f38c09479",
+      "residual_min": -82,
+      "residual_max": 134
+    },
+    {
+      "source": 197,
+      "asset": {
+        "path": "build/exp499/fields/197.bin.xz",
+        "bytes": 7093440,
+        "sha256": "f1949646c1786b0ed62a618ecd0e03f02710caf07a71f3b8b02c6b5ff78067c5"
+      },
+      "raw_sha256": "0a8db5b3695726930846727d90ee2f62843f2a9f2d16077ab26497cf6d972f55",
+      "residual_min": -103,
+      "residual_max": 137
+    },
+    {
+      "source": 198,
+      "asset": {
+        "path": "build/exp499/fields/198.bin.xz",
+        "bytes": 6744208,
+        "sha256": "478712edc115de3c814abed08aae04f6650cea0fc69fa4f397785aa4a0305cb8"
+      },
+      "raw_sha256": "1349f7d3709253c02160d603dc5b237e56978572fd53deb2f2be076824eef00d",
+      "residual_min": -67,
+      "residual_max": 130
+    },
+    {
+      "source": 199,
+      "asset": {
+        "path": "build/exp499/fields/199.bin.xz",
+        "bytes": 5369944,
+        "sha256": "1d51af5a0d563b0dc4f80d573e9a180394ad104cefb1c0e9319c05310a69641d"
+      },
+      "raw_sha256": "742fa1b1d0a87c7bce0c6480b37aebf37f5bd6a30b143e6b7c1d51f93a42ccec",
+      "residual_min": -78,
+      "residual_max": 126
+    },
+    {
+      "source": 200,
+      "asset": {
+        "path": "build/exp499/fields/200.bin.xz",
+        "bytes": 6585124,
+        "sha256": "636e81060e383d3f827611a9d2040cbd48bf712f8fcc6d3390b80aa1b9816267"
+      },
+      "raw_sha256": "4ac380193d44061557fe8ab0f670774e47cb01649c393cdf6732355bcd306ded",
+      "residual_min": -88,
+      "residual_max": 121
+    },
+    {
+      "source": 201,
+      "asset": {
+        "path": "build/exp499/fields/201.bin.xz",
+        "bytes": 6636928,
+        "sha256": "c441395e4920316054e02647455f6a574b28314604179194187a961b9810a19f"
+      },
+      "raw_sha256": "39967932971223d9a6951a29581324b0d253372aa67dc1ad69147033bc9a9245",
+      "residual_min": -78,
+      "residual_max": 127
+    },
+    {
+      "source": 202,
+      "asset": {
+        "path": "build/exp499/fields/202.bin.xz",
+        "bytes": 5441756,
+        "sha256": "abeffb5a7f083d1256b9f18ac1ea6c28e09530f38d30a4916f220a732d3b4c88"
+      },
+      "raw_sha256": "465eed2d62643d7743e696a22d007f96b4dd83f1574838027a9b5165075112aa",
+      "residual_min": -60,
+      "residual_max": 105
+    },
+    {
+      "source": 203,
+      "asset": {
+        "path": "build/exp499/fields/203.bin.xz",
+        "bytes": 5905648,
+        "sha256": "08f09d3196169895cea8fa479f38175530ca1ab1c261f22575b99b6f2a42be7e"
+      },
+      "raw_sha256": "6a207c8dd167484463f050922a5aaa53aaca108e85aadb6a9fc8f1ed498c5996",
+      "residual_min": -99,
+      "residual_max": 76
+    },
+    {
+      "source": 204,
+      "asset": {
+        "path": "build/exp499/fields/204.bin.xz",
+        "bytes": 6195144,
+        "sha256": "cf1623625ae07caf04dfdd99e4c54756bb0909decc130c7145246dd1d4d2f658"
+      },
+      "raw_sha256": "12a0b0db37203272dd38401478335657646039c2b0e9fd647a1bf0ed4d691c1b",
+      "residual_min": -62,
+      "residual_max": 103
+    },
+    {
+      "source": 205,
+      "asset": {
+        "path": "build/exp499/fields/205.bin.xz",
+        "bytes": 6894400,
+        "sha256": "05887823f25f6431072acb3b00470a64cf8a956d5791448b9611346b622a3359"
+      },
+      "raw_sha256": "eb130100a5c1f2f3585eaeda207b624681a9c9a6bde2abdf7bba2ae7f6c3910e",
+      "residual_min": -66,
+      "residual_max": 85
+    },
+    {
+      "source": 206,
+      "asset": {
+        "path": "build/exp499/fields/206.bin.xz",
+        "bytes": 6709976,
+        "sha256": "43c8ab6077b3bc3ae83aba63307e4ee2303d0d8b0ce1cb81918f4416bb3222a0"
+      },
+      "raw_sha256": "0fb3b4bcf6e7c4e42137757c86ffa5093c3e0a7edd8fd70c65876c8a472a172c",
+      "residual_min": -99,
+      "residual_max": 79
+    },
+    {
+      "source": 207,
+      "asset": {
+        "path": "build/exp499/fields/207.bin.xz",
+        "bytes": 6723188,
+        "sha256": "8ed3c45e3b18a6faef3f75cb399bcb08555efc41674a019eda7ef55c4962cfc3"
+      },
+      "raw_sha256": "a7c118a32f36bc19898904ef1739e65c4afd6d3bd11aa7180d816819a8bea3c7",
+      "residual_min": -68,
+      "residual_max": 72
+    }
+  ],
+  "independent_dot_and_field_audits": 8,
+  "directions": 1,
+  "rx": [
+    0
+  ]
+}

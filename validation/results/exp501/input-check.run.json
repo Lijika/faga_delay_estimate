@@ -1,0 +1,16 @@
+{
+  "command": [
+    "../../build/hidden-suite-v1/check_hidden_suite",
+    "doc/eda比赛文件/arch",
+    "../../build/hidden-suite-v1/reach.bin",
+    "../../build/hidden-suite-v1/independent/eligibility.bin",
+    "U-role",
+    "1000000",
+    "build/exp501/u-role/requests.csv",
+    "build/exp501/u-role/check"
+  ],
+  "exit_code": 0,
+  "wall_s": 1.7971352150198072,
+  "host": "lhj-R4900-G3",
+  "measured": "user=1.68 sys=0.11 wall=1.79 rss_kib=218796 exit=0\n"
+}

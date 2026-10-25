@@ -1,0 +1,164 @@
+{
+  "rows": 1000000,
+  "groups": {
+    "M": 16,
+    "E": 20
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp631/validation/exp631_event_experts.py",
+      "bytes": 13984,
+      "sha256": "e0281d1c5af1669fc29e84a36217a394cb0a6d8ca3135177fab2576076a55cb6"
+    },
+    {
+      "path": "experiment/实验631-Q4背景的嵌套地图事件专家.md",
+      "bytes": 4110,
+      "sha256": "9abd881c2361edd23d31b6da1f3c02e78e0ce76a92b15bd209f1941465a9334d"
+    },
+    {
+      "path": "tests/exp631_event_route.h",
+      "bytes": 1220,
+      "sha256": "c291612aa7abbb5e26ba2d80487df89281625df7dd832ff24f270f18149ceee2"
+    },
+    {
+      "path": "validation/event-experts-theory.md",
+      "bytes": 2931,
+      "sha256": "6d9bcb4acd52fe69e5b013601ef57c351daa00a411dc776ae04b9ae9ffa76aeb"
+    },
+    {
+      "path": "../exp614/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp587/tests/exp576_routed_residual.cpp",
+      "bytes": 4025,
+      "sha256": "2412c864ec3eb0063b28579eb52e6150e8665263d8fe0248997710da0db263d6"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp554/validation/exp554_real_kernel_function.py",
+      "bytes": 21715,
+      "sha256": "fe8de74eb4453cc62fa455cc3f412199027b64b20b7b103034a007c88185ea92"
+    },
+    {
+      "path": "../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "build/exp631/features.f32",
+      "bytes": 212000016,
+      "sha256": "9b7534f83d9136a1df9e9d4f822d3e6273dd869f7065e6aae491969ce312b62a"
+    },
+    {
+      "path": "build/exp631/folds.u8",
+      "bytes": 1000000,
+      "sha256": "82270339155c7c8d933da8f2af3315e892110ddcd4ae38d96ff8fb7804c864c2"
+    },
+    {
+      "path": "build/exp631/M-routes.u8",
+      "bytes": 1000000,
+      "sha256": "6b7c27bf53bd23fe11119cbdb30fc13187bd6a01084888b73b917d137626d608"
+    },
+    {
+      "path": "build/exp631/E-routes.u8",
+      "bytes": 1000000,
+      "sha256": "55acac8fa30264694ebfbb62426cc5a30f11ed21d3359f459b9933655d74a6c4"
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    },
+    {
+      "fold": 1,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    },
+    {
+      "fold": 2,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    }
+  ],
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rounds": 8,
+  "compile_records": [
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-static",
+        "-s",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DEXP631_EVENT=0",
+        "-Itests",
+        "-I/home/lhj/lhjwork/eda2026/research/exp587/tests",
+        "build/exp631/predict.cpp",
+        "-o",
+        "build/exp631/M-predict"
+      ],
+      "binary": {
+        "path": "build/exp631/M-predict",
+        "bytes": 1086360,
+        "sha256": "a117644b03d51c2cafbd2357425630dbd22c38c6e10a95527f462554f1fdfdd1"
+      },
+      "usage": "usage: routed-predict FEATURES FOLDS ROUTES MODEL_LIST OUTPUT\n"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-static",
+        "-s",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DEXP631_EVENT=1",
+        "-Itests",
+        "-I/home/lhj/lhjwork/eda2026/research/exp587/tests",
+        "build/exp631/predict.cpp",
+        "-o",
+        "build/exp631/E-predict"
+      ],
+      "binary": {
+        "path": "build/exp631/E-predict",
+        "bytes": 1086360,
+        "sha256": "e349d6a06f4bbf6e2071dfde16bfc26fcf015d9fe2a1c7445674eaa303cc91d1"
+      },
+      "usage": "usage: routed-predict FEATURES FOLDS ROUTES MODEL_LIST OUTPUT\n"
+    }
+  ],
+  "fixture_route_equal": true,
+  "disk_free_start_bytes": 17553932288
+}

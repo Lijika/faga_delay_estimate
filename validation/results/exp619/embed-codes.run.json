@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp619/codes.S",
+    "-o",
+    "build/exp619/codes.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.040555,
+  "wall_s": 0.04141145292669535,
+  "rss_bytes": 70496256,
+  "threads": 1,
+  "stderr": "validation/results/exp619/embed-codes.stderr"
+}

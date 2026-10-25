@@ -1,0 +1,78 @@
+{
+  "name": "small_T",
+  "fold": 1,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_T-1.json",
+      "bytes": 54194,
+      "sha256": "afa29ef2a2b2ab05aea406f90795b45c7eda9593fad991ecb82a632b6eddb59b"
+    },
+    "binary": {
+      "path": "build/exp554/small_T-1.bin",
+      "bytes": 12500,
+      "sha256": "897817688505623c5ac5f0317dceb3302b5397977062ff2bc8a11c60fd0b8313"
+    },
+    "trees": 32,
+    "nodes": 772
+  },
+  "cpu_s": 11.567266086,
+  "wall_s": 4.036682617850602,
+  "train_raw": {
+    "path": "build/exp554/small_T-1.train.f32",
+    "bytes": 2669112,
+    "sha256": "7461b1b985631c2562b9804201a318baf49913761deea64b50c44b5a38f96fc9"
+  },
+  "train": {
+    "rows": 667278,
+    "accuracy_pp": 92.49203733744868,
+    "mean_error_ps": -21.453966712524615,
+    "mae_ps": 42.494075932370016,
+    "squared_ps": 2086054838,
+    "exact_rows": 5516,
+    "under_rows": 428164,
+    "over_rows": 233598
+  },
+  "validation": {
+    "rows": 332722,
+    "accuracy_pp": 92.50627487057669,
+    "mean_error_ps": -21.452371649605375,
+    "mae_ps": 42.42500345633893,
+    "squared_ps": 1036611996,
+    "exact_rows": 2802,
+    "under_rows": 213297,
+    "over_rows": 116623
+  },
+  "train_kernel": {
+    "rows": 667278,
+    "accuracy_pp": 91.40149329011335,
+    "mean_error_ps": -21.041336594342987,
+    "mae_ps": 42.17965076025285,
+    "squared_ps": 2047236899,
+    "exact_rows": 5521,
+    "under_rows": 426935,
+    "over_rows": 234822
+  },
+  "validation_kernel": {
+    "rows": 332722,
+    "accuracy_pp": 91.41627865859118,
+    "mean_error_ps": -21.0265356664122,
+    "mae_ps": 42.10008655874874,
+    "squared_ps": 1016509531,
+    "exact_rows": 2811,
+    "under_rows": 212651,
+    "over_rows": 117260
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "oof": {
+    "run": {
+      "command": [
+        "build/exp579/audit",
+        "build/exp579/queries.bin",
+        "build/exp579/folds.u8",
+        "build/exp579/oof-trace.bin",
+        "0"
+      ],
+      "exit_code": 0,
+      "threads": 1,
+      "cpu_s": 0.593996,
+      "wall_s": 0.5950162189546973,
+      "rss_bytes": 578801664
+    },
+    "trace": {
+      "path": "build/exp579/oof-trace.bin",
+      "bytes": 240000000,
+      "sha256": "d10b3adf88fdfb36823dacf96e635a5c07f2f30231b82eb5fc60f1de5d2ecaa9"
+    },
+    "exact_features": true,
+    "bitwise_background": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "statistics": {
+      "rows": 1000000,
+      "accuracy_pp": 98.06071188232993,
+      "mean_error_ps": -1.976613,
+      "mae_ps": 11.230685,
+      "squared_ps": 293829133,
+      "exact_rows": 36714,
+      "under_rows": 498873,
+      "over_rows": 464413
+    },
+    "expected": {
+      "path": "build/exp579/oof-expected.i32",
+      "bytes": 4000000,
+      "sha256": "ee94528013e1dd892898bd8225248f57223b7a26761ee407a6087e488f352b27"
+    }
+  },
+  "final": {
+    "run": {
+      "command": [
+        "build/exp579/audit",
+        "build/exp579/queries.bin",
+        "build/exp579/folds.u8",
+        "build/exp579/final-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "threads": 1,
+      "cpu_s": 0.590255,
+      "wall_s": 0.5915423990227282,
+      "rss_bytes": 859652096
+    },
+    "trace": {
+      "path": "build/exp579/final-trace.bin",
+      "bytes": 240000000,
+      "sha256": "a7b66307fd92bad00a36e9f182d4dffc243e6f79e25c437389a5067248b40e70"
+    },
+    "exact_features": true,
+    "bitwise_background": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "statistics": {
+      "rows": 1000000,
+      "accuracy_pp": 98.08138803816345,
+      "mean_error_ps": -1.931626,
+      "mae_ps": 11.149374,
+      "squared_ps": 286171822,
+      "exact_rows": 37568,
+      "under_rows": 498233,
+      "over_rows": 464199
+    },
+    "expected": {
+      "path": "build/exp579/final-expected.i32",
+      "bytes": 4000000,
+      "sha256": "6979006f8bced026b19372e3cb58224e894128fb741c2d83fdc12c71bd66cc66"
+    }
+  }
+}

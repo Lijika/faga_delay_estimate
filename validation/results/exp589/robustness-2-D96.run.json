@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp589/D96",
+    "-in",
+    "../exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "build/exp589/robustness-2-D96.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.451752,
+  "wall_s": 0.4522850690409541,
+  "rss_bytes": 473284608,
+  "threads": 1,
+  "stderr": "validation/results/exp589/robustness-2-D96.stderr"
+}

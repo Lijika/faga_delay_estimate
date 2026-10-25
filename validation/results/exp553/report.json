@@ -1,0 +1,240 @@
+{
+  "all_passed": true,
+  "rows": 1000000,
+  "full_path_replay_passed": true,
+  "all_distance_and_integer_identities_passed": true,
+  "decomposition": {
+    "rows": 1000000,
+    "sum_ps": [
+      5242949,
+      417024
+    ],
+    "gram_ps2": [
+      [
+        410067561,
+        2960327
+      ],
+      [
+        2960327,
+        16810720
+      ]
+    ],
+    "nonzero_rows": [
+      231167,
+      27188
+    ],
+    "gap_sum_ps": 5659973,
+    "gap_squared_ps": 432798935,
+    "gap_nonzero_rows": 252153
+  },
+  "interaction": {
+    "rows": 1000000,
+    "sum_ps": [
+      349936,
+      67088
+    ],
+    "gram_ps2": [
+      [
+        14875284,
+        45442
+      ],
+      [
+        45442,
+        1844552
+      ]
+    ],
+    "nonzero_rows": [
+      23628,
+      3712
+    ],
+    "gap_sum_ps": 417024,
+    "gap_squared_ps": 16810720,
+    "gap_nonzero_rows": 27188
+  },
+  "component_columns": [
+    "D0",
+    "F",
+    "L",
+    "H0",
+    "C",
+    "X",
+    "ell",
+    "U0"
+  ],
+  "components": {
+    "path": "build/exp553/components.i32",
+    "bytes": 32000000,
+    "sha256": "01436f3e28418efc5a4d56fdace716e813c3404a5c6e7266e8e7b0f7b2cd0c63"
+  },
+  "statistics": {
+    "O": {
+      "rows": 1000000,
+      "accuracy_pp": 98.9954867612586,
+      "mean_error_ps": -5.659973,
+      "mae_ps": 5.659973,
+      "squared_ps": 432798935,
+      "exact_rows": 747847,
+      "under_rows": 252153,
+      "over_rows": 0
+    },
+    "L": {
+      "rows": 1000000,
+      "accuracy_pp": 99.90987371326909,
+      "mean_error_ps": -0.417024,
+      "mae_ps": 0.417024,
+      "squared_ps": 16810720,
+      "exact_rows": 972812,
+      "under_rows": 27188,
+      "over_rows": 0
+    },
+    "line": {
+      "rows": 1000000,
+      "accuracy_pp": 99.08503860141926,
+      "mean_error_ps": -5.242949,
+      "mae_ps": 5.242949,
+      "squared_ps": 410067561,
+      "exact_rows": 768833,
+      "under_rows": 231167,
+      "over_rows": 0
+    },
+    "selection": {
+      "rows": 1000000,
+      "accuracy_pp": 99.07038802082839,
+      "mean_error_ps": -5.310037,
+      "mae_ps": 5.310037,
+      "squared_ps": 414606881,
+      "exact_rows": 766506,
+      "under_rows": 233494,
+      "over_rows": 0
+    },
+    "U0": {
+      "rows": 1000000,
+      "accuracy_pp": 99.43183356071575,
+      "mean_error_ps": 3.302376,
+      "mae_ps": 3.302376,
+      "squared_ps": 642082744,
+      "exact_rows": 974955,
+      "under_rows": 0,
+      "over_rows": 25045
+    },
+    "exact": {
+      "rows": 1000000,
+      "accuracy_pp": 100.0,
+      "mean_error_ps": 0.0,
+      "mae_ps": 0.0,
+      "squared_ps": 0,
+      "exact_rows": 1000000,
+      "under_rows": 0,
+      "over_rows": 0
+    },
+    "exp354": {
+      "rows": 1000000,
+      "accuracy_pp": 99.08092943070483,
+      "mean_error_ps": -1.203776,
+      "mae_ps": 7.846038,
+      "squared_ps": 328564382,
+      "exact_rows": 494508,
+      "under_rows": 153706,
+      "over_rows": 351786
+    }
+  },
+  "paired": {
+    "L": {
+      "delta_pp": 0.9143869520104623,
+      "ci95_pp": [
+        0.9062414104596903,
+        0.9227524161571073
+      ],
+      "better_rows": 231167,
+      "worse_rows": 0,
+      "tied_rows": 768833,
+      "draws": 2000,
+      "seed": 20261020553,
+      "unit": "complete source pin",
+      "clusters": 960505
+    },
+    "line": {
+      "delta_pp": 0.08955184016060445,
+      "ci95_pp": [
+        0.08729148042500087,
+        0.09181455171432687
+      ],
+      "better_rows": 27188,
+      "worse_rows": 0,
+      "tied_rows": 972812,
+      "draws": 2000,
+      "seed": 20261020553,
+      "unit": "complete source pin",
+      "clusters": 960505
+    },
+    "selection": {
+      "delta_pp": 0.07490125956976257,
+      "ci95_pp": [
+        0.07281057455774113,
+        0.0770211077448182
+      ],
+      "better_rows": 23628,
+      "worse_rows": 0,
+      "tied_rows": 976372,
+      "draws": 2000,
+      "seed": 20261020553,
+      "unit": "complete source pin",
+      "clusters": 960505
+    },
+    "U0": {
+      "delta_pp": 0.43634679945713095,
+      "ci95_pp": [
+        0.42471014741525026,
+        0.4479412164249103
+      ],
+      "better_rows": 230713,
+      "worse_rows": 22241,
+      "tied_rows": 747046,
+      "draws": 2000,
+      "seed": 20261020553,
+      "unit": "complete source pin",
+      "clusters": 960505
+    }
+  },
+  "counterfactual_clipped_rows": {
+    "O": 0,
+    "L": 0,
+    "line": 0,
+    "selection": 0,
+    "U0": 0,
+    "exact": 0,
+    "exp354": 0
+  },
+  "hypotheses": {
+    "line": false,
+    "kernel": true
+  },
+  "coverage": {
+    "slack_rows": 234006,
+    "coupling_on_slack_rows": 24700,
+    "fraction": 0.105552849072246
+  },
+  "partition_families": [
+    "source_family",
+    "target_family",
+    "role",
+    "direction",
+    "near_axis",
+    "distance",
+    "boundary",
+    "block_sides",
+    "first_skip",
+    "forced_detour",
+    "source_port",
+    "target_port",
+    "remaining_skips",
+    "slack_nonzero"
+  ],
+  "new_training_runs": 0,
+  "new_estimator_runs": 0,
+  "new_ablated_exact_rows": 1000000,
+  "label_scope": "previously viewed complete full-port unique 1M",
+  "production_cpu_validated": false,
+  "independent_holdout_validated": false,
+  "final_elf_validated": false
+}

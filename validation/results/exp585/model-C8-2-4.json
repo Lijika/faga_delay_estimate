@@ -1,0 +1,28 @@
+{
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "base_score": 0,
+    "colsample_bytree": 1.0,
+    "seed": 20261021585,
+    "nthread": 16,
+    "max_depth": 4,
+    "eta": 0.3,
+    "max_bin": 256,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "subsample": 1.0
+  },
+  "rounds": 8,
+  "columns": 53,
+  "rows": 4254,
+  "port_pairs": 4108,
+  "wall_s": 0.019666101085022092,
+  "cpu_s": 0.2264340039999979,
+  "offline_only": true,
+  "model": {
+    "path": "build/exp585/C8-2-4.json",
+    "bytes": 12578,
+    "sha256": "dd8a0e0594a6273003db54c1715429f7997aa2dd1819e40c206d9dc6e4970494"
+  }
+}

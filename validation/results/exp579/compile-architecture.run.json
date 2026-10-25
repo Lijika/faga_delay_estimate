@@ -1,0 +1,29 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-I",
+    "src",
+    "-I",
+    "build/exp579",
+    "-c",
+    "src/architecture.cpp",
+    "-o",
+    "build/exp579/architecture.o"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 1.7798809999999998,
+  "wall_s": 1.79516964382492,
+  "rss_bytes": 183296000
+}

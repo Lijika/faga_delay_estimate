@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_pins": 960505,
+  "historical_pairs": 20391557,
+  "exclusion_hashes_passed": true,
+  "filter_fixture": {
+    "accepted": 16,
+    "visited_proposal_rows": 228,
+    "rejected_source_rows": 101,
+    "rejected_history_rows": 111,
+    "rows": 16,
+    "independent_uniqueness_check_required": true
+  },
+  "filter_output_matches_original": true,
+  "sampling_plans": {
+    "100m": {
+      "sha256": "c0a679bb53ad278c905ff8effa5f327d6a34c8681e86149ec2bc4f3bf0593a17",
+      "matches_historical": true
+    },
+    "1b": {
+      "sha256": "91ea34cd3cce700fbcb2f1b33ea58fd3878243a867017f2044dc2498d6ff2acf",
+      "matches_historical": true
+    }
+  },
+  "sampler_self_check_passed": true,
+  "complete_request_populations_generated": 0,
+  "complete_estimator_runs": 0
+}

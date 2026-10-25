@@ -1,0 +1,100 @@
+{
+  "arms": {
+    "N512": {
+      "rank": 512,
+      "binary": {
+        "path": "build/exp586/N512",
+        "bytes": 75932952,
+        "sha256": "35e7856e096bb2e44bfba15ab2660b6c3adfa785de195a99627f5383809b0f03"
+      },
+      "geometry": {
+        "path": "build/exp586/N512-geometry.bin",
+        "bytes": 68605504,
+        "sha256": "166c7163f30cafd1ee1c72de40567c664c50041b385de0481d76ab0c95358221"
+      },
+      "left": {
+        "rows": 59904,
+        "rank": 512,
+        "block": 64,
+        "blocks": 8,
+        "max_abs_reconstruction_error": 0.005342621186262858
+      },
+      "right": {
+        "rows": 4800,
+        "rank": 512,
+        "block": 64,
+        "blocks": 8,
+        "max_abs_reconstruction_error": 0.0053437763188636245
+      },
+      "far_bitwise_unchanged": true,
+      "header": {
+        "path": "build/exp586/N512-assets/exp582_int8_geometry.h",
+        "bytes": 3891,
+        "sha256": "2177453fa05344adfd5a9af1117d529ed5f32a93f2cc14e2b2587ac794e0c5ac"
+      }
+    },
+    "N768": {
+      "rank": 768,
+      "binary": {
+        "path": "build/exp586/N768",
+        "bytes": 93533464,
+        "sha256": "c45c11bd07940a57bd76a8814c33bcb1279d6d3466c8abf0f44ef1935f10fb21"
+      },
+      "geometry": {
+        "path": "build/exp586/N768-geometry.bin",
+        "bytes": 86204992,
+        "sha256": "bb22b37d7aa8ec2b0378a020147e87ee196e0ae26a2142980893ca8c0f421397"
+      },
+      "left": {
+        "rows": 59904,
+        "rank": 768,
+        "block": 64,
+        "blocks": 12,
+        "max_abs_reconstruction_error": 0.005342621186262858
+      },
+      "right": {
+        "rows": 4800,
+        "rank": 768,
+        "block": 64,
+        "blocks": 12,
+        "max_abs_reconstruction_error": 0.0053437763188636245
+      },
+      "far_bitwise_unchanged": true,
+      "header": {
+        "path": "build/exp586/N768-assets/exp582_int8_geometry.h",
+        "bytes": 3891,
+        "sha256": "3d0face4012f9f87e8c625ed4a2293e16f67884b684bfffdde1d7d833412eae8"
+      }
+    }
+  },
+  "baseline": {
+    "path": "../exp582/build/exp582/B64",
+    "bytes": 53933336,
+    "sha256": "816b6309d3726814c74f78905cb6d8b50be6f5849905a2338b9b5b13b2f65d05"
+  },
+  "baseline_geometry": {
+    "path": "../exp582/build/exp582/B64-geometry.bin",
+    "bytes": 46606144,
+    "sha256": "a62e3a18ec1cccfd2e2a32c592688b31547c51baea7384d5b7df0fbba6849833"
+  },
+  "training": {
+    "path": "offline/validation/results/exp586/training.json",
+    "bytes": 24353,
+    "sha256": "9806849768dc674cdc96ee3c3b6d3b6bd3db38f8e7fbdc8bcf03c82645e3dae9"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp586/validation/exp586_complete_candidate.py",
+    "bytes": 16200,
+    "sha256": "67c6985ac8a769f628353877da99b58b3027b769828408cb930e18ce0d51681d"
+  },
+  "source": {
+    "path": "build/exp586/candidate.cpp",
+    "bytes": 10212,
+    "sha256": "d1fb25984799d163c436c3f1f5dca9e2be1bd8ecbd7034155f247c58c3e50f4a"
+  },
+  "protocol": {
+    "path": "experiment/实验586-短距名义背景的INT8容量再分配.md",
+    "bytes": 4889,
+    "sha256": "d12a89d85f87ae47218eb9fe20963236cb04497f72f3ae3a7969ce52e8ebbee4"
+  }
+}

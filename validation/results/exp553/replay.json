@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "rows": 1000000,
+  "full_port_shards": 3,
+  "total_hops": 23153131,
+  "max_hops": 63,
+  "summary": {
+    "path": "build/exp553/summary.i32",
+    "bytes": 32000000,
+    "sha256": "4fd837f4c624b658383a5990f42cc65be6106a5d923b2816a0fb70624355508c"
+  },
+  "distance": {
+    "path": "build/exp553/distance.i32",
+    "bytes": 4000000,
+    "sha256": "07f21455d7b1d8f8589cdb3dfec84c310551854ad571fcb5e96b2a26aed3b873"
+  },
+  "cpp_and_independent_replay_equal": true
+}

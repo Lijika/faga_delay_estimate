@@ -1,0 +1,2090 @@
+{
+  "complete": true,
+  "sources": [
+    {
+      "source": 0,
+      "rows": 4840,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/000.bin.xz",
+        "bytes": 7729528,
+        "sha256": "182c4dcd788e5f711ff3b22a05d7f6acfbc10a2d0c79b82342045a892e0b6b5e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 1,
+      "rows": 4840,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/001.bin.xz",
+        "bytes": 8132832,
+        "sha256": "c13398c24379546a09f5bbb654d194dbbc670ec254562c2461e19ceb511daf14"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 2,
+      "rows": 4906,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/002.bin.xz",
+        "bytes": 7781348,
+        "sha256": "b55b15628596117b71c0cc4f94b659034b1830c0593358b282d38e4d22fe1fb9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 3,
+      "rows": 4738,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/003.bin.xz",
+        "bytes": 7242396,
+        "sha256": "9eba0e93d339dcd1a2887a565a942af62b13e6a0b2a51022fc6399250a7869e0"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 4,
+      "rows": 4894,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/004.bin.xz",
+        "bytes": 6835168,
+        "sha256": "cdd18c8439563a03d0827da3c864d62caa3c5fae270578f79b40d8cbd1b6755b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 5,
+      "rows": 4799,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/005.bin.xz",
+        "bytes": 6705756,
+        "sha256": "380bca2ceb64f7b02607f689d298768e20384a49344d2f538018bb49324fecba"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 6,
+      "rows": 4811,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/006.bin.xz",
+        "bytes": 6142536,
+        "sha256": "89cd25377093ef7bd939c6d8b009c87387c1b168a1ece6ba0b2db8d8c497a656"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 7,
+      "rows": 4743,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/007.bin.xz",
+        "bytes": 6832532,
+        "sha256": "aec1ffc116ba823f279bc0646bc1013087dc111c89161c240feebe2b300a97fd"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 8,
+      "rows": 4888,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/008.bin.xz",
+        "bytes": 7700248,
+        "sha256": "3afaddc56d3583c3f4c7f36db6b8f3d57330da9573041022ca305613f432063e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 9,
+      "rows": 4896,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/009.bin.xz",
+        "bytes": 8060916,
+        "sha256": "18b7ea6e6f751333b59c1e639c3a3e67455a786aecc6ca15fe75461f1436a8ca"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 10,
+      "rows": 4826,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/010.bin.xz",
+        "bytes": 7782672,
+        "sha256": "6e240463c37fb23b8a929dc9c35ddb89227ae3dc1a187e9e4433dfd68eebb674"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 11,
+      "rows": 5018,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/011.bin.xz",
+        "bytes": 7316232,
+        "sha256": "ba88006ab48d45327f093f98320d11a3b9922bbf0d30e1d7697dd835ab8ea503"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 12,
+      "rows": 4880,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/012.bin.xz",
+        "bytes": 6889984,
+        "sha256": "6e219b6c999c07cf1c36c3f3f972fe3ba25317ecd02340730f1eb0611e31f600"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 13,
+      "rows": 4791,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/013.bin.xz",
+        "bytes": 6606340,
+        "sha256": "4616913d04521cd184ec1c1a04067f231be5fd2edf95217358a9dedae714dbbe"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 14,
+      "rows": 4762,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/014.bin.xz",
+        "bytes": 6168408,
+        "sha256": "b5431a15776c235e10ddc83f36818214622dcf4f57d56c0d18674051c63ae740"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 15,
+      "rows": 4920,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/015.bin.xz",
+        "bytes": 6820312,
+        "sha256": "8762c927a862c543348dde28d0ad6c6708e889c61f83844b51a307436c8d9a7d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 16,
+      "rows": 4897,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/016.bin.xz",
+        "bytes": 7845652,
+        "sha256": "ed18feb1015ffd8de96ee9fcbb1e458c16499b7a21a72e26cf40b086a2d2d502"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 17,
+      "rows": 4820,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/017.bin.xz",
+        "bytes": 8144176,
+        "sha256": "7f28dc62c9d9ed56dd2087202e740667bc5c2381fb96e7c61ce15ec39cfd7071"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 18,
+      "rows": 4834,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/018.bin.xz",
+        "bytes": 7809876,
+        "sha256": "0922576e22c835923790f12efefd10648f016bc9e4a3f3107ba68ca8b29e6d7c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 19,
+      "rows": 4968,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/019.bin.xz",
+        "bytes": 7234968,
+        "sha256": "1b8e6db19b4d35c7a7d68d533c008acee4923470b28bc3d49e09dbb9dfbd651a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 20,
+      "rows": 4888,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/020.bin.xz",
+        "bytes": 6925636,
+        "sha256": "61311a66fee8a25430adafa47381df9639cdba413de8fbebbe7d9cb000757ac4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 21,
+      "rows": 4953,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/021.bin.xz",
+        "bytes": 6236992,
+        "sha256": "cc47a06a63a78a6aa0010a681a99c07261c59f150baddce84bc9fd6f57dae7ca"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 22,
+      "rows": 4817,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/022.bin.xz",
+        "bytes": 5839232,
+        "sha256": "2bc4dd7d7d5a5ba6d8c49434d9295d9a2ba5f361cd5a844c25280f4cee9a7b91"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 23,
+      "rows": 4725,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/023.bin.xz",
+        "bytes": 6730448,
+        "sha256": "12acca25dc5cb7a9097d8d8a3e0cb1f92b5d7ffb3308cac1cfcaa8b9f40f3451"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 24,
+      "rows": 4908,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/024.bin.xz",
+        "bytes": 7901272,
+        "sha256": "bdc314f2e975264d2cdc2077d61e3b5dc6317f836f2bb8edbd641da2021e692d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 25,
+      "rows": 4866,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/025.bin.xz",
+        "bytes": 8246564,
+        "sha256": "0669b4036f5e30a02612dd4e2bd85df943b0fcdfb47071ef0f07584092423d70"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 26,
+      "rows": 4781,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/026.bin.xz",
+        "bytes": 7804384,
+        "sha256": "9eade080876d6b3a194c83953104bacb2c138244e8ea2701d1436f7f96a65f5d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 27,
+      "rows": 4858,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/027.bin.xz",
+        "bytes": 7256400,
+        "sha256": "ecf098f5f1cb99f75c003935d10f017421c17284c6dc9895b43c69c740acf62c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 28,
+      "rows": 4904,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/028.bin.xz",
+        "bytes": 6958956,
+        "sha256": "032f5089182897241eac9a04b538431298b0293935f98fe8a44e840bb5771f35"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 29,
+      "rows": 4878,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/029.bin.xz",
+        "bytes": 6199872,
+        "sha256": "dfbbf22613f50a382ad1eaf4f50e2719e8b71e95c303b6a79478f2ce900f4a9f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 30,
+      "rows": 4908,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/030.bin.xz",
+        "bytes": 5847284,
+        "sha256": "98b8a0637fa2abc428ca1b3b9ba7b5d743f21bf3df6e4888c8e34112689ed600"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 31,
+      "rows": 4819,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/031.bin.xz",
+        "bytes": 6758868,
+        "sha256": "233e9b26e23f7ca5850afeb0f3df0cad16c6a1f54e1f768afed73802a0e87c30"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 32,
+      "rows": 4927,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/032.bin.xz",
+        "bytes": 7474344,
+        "sha256": "b220ca414fce724643f58647c8d505b91bc33bfeaa99c4107e923fea67a702b8"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 33,
+      "rows": 4773,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/033.bin.xz",
+        "bytes": 7973252,
+        "sha256": "9d7a90054e5df17f75edf9f6c5514c8297351d49b3be296c2b3ccf59a29443a6"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 34,
+      "rows": 4920,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/034.bin.xz",
+        "bytes": 7658984,
+        "sha256": "a06167d432ca6e96bd5490eca78713db6169b1050cbd7af5dd7c3568003ab8b3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 35,
+      "rows": 4920,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/035.bin.xz",
+        "bytes": 7187548,
+        "sha256": "14194e769291b0bdba9ee21d305a500d86f4a8ac2ecdd3ed20d52234ba263209"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 36,
+      "rows": 4871,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/036.bin.xz",
+        "bytes": 7389112,
+        "sha256": "d8373118837db580ae83344c7c1b0962a315de75afea650a46e74ae4477d2454"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 37,
+      "rows": 4899,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/037.bin.xz",
+        "bytes": 6593632,
+        "sha256": "598559a9671ad47c5c7241cb62610edbf632767d57a60f17184208d8f5e5907d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 38,
+      "rows": 4786,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/038.bin.xz",
+        "bytes": 6052040,
+        "sha256": "d995a69588dfb7094055cd87915f30fd62297cb83e9ebb8d5dd12d1bddb6111f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 39,
+      "rows": 4918,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/039.bin.xz",
+        "bytes": 6721396,
+        "sha256": "ddee90fb41aed79dea8792f6ecfe49e19d9286eb7d69de994d42517f8e9d2904"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 40,
+      "rows": 4900,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/040.bin.xz",
+        "bytes": 7421840,
+        "sha256": "530e83bac91fd2188c328067069714e330b134320c93157605f15e2ca9ab66a9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 41,
+      "rows": 4772,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/041.bin.xz",
+        "bytes": 7951644,
+        "sha256": "bfaeee2ef45e380b37ef0fab5378422c94161e783d6de7da3d478301528a3a51"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 42,
+      "rows": 4929,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/042.bin.xz",
+        "bytes": 7711672,
+        "sha256": "6cc52ed209837e0904289e061f9ce088eba90e19e12d04d273f63065c9785b28"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 43,
+      "rows": 4848,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/043.bin.xz",
+        "bytes": 7168384,
+        "sha256": "c0e472e77e1a571457a078c397428e92062b73924fe15d63c0ab32e06353402c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 44,
+      "rows": 4857,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/044.bin.xz",
+        "bytes": 7350972,
+        "sha256": "d973c0778d6183f0d688055ece8b443e5edbefe0b397c2977982ade15e1d84d4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 45,
+      "rows": 4876,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/045.bin.xz",
+        "bytes": 6576896,
+        "sha256": "8b2be48c6ac5875f9e4db17a84e6448256754b5b1bb73a4e148afe2ab5b72c14"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 46,
+      "rows": 4758,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/046.bin.xz",
+        "bytes": 6127208,
+        "sha256": "ef82937c48381a70c56e5009665fcf85990de2392360d854a8643f8c9c0772b5"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 47,
+      "rows": 4908,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/047.bin.xz",
+        "bytes": 6815248,
+        "sha256": "d96e187683863e709d3ecc7d952c7a431f285874047324286257a94dcd7f9204"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 48,
+      "rows": 4762,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/048.bin.xz",
+        "bytes": 7582356,
+        "sha256": "febc44e71cc937b27e55bcf8c3652d1ac63ea244ed54960b4d774fa88a8e4161"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 49,
+      "rows": 4909,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/049.bin.xz",
+        "bytes": 7964824,
+        "sha256": "9fe53da6e65672c2b46a538470ee5fc5b8ec37efad81306977ec23e03f15b5e1"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 50,
+      "rows": 4863,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/050.bin.xz",
+        "bytes": 7545216,
+        "sha256": "be2c643b47656f0ba05f2e2e20bc9976c08e8b22701dcdc8d2f6d7cfb78bc896"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 51,
+      "rows": 4826,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/051.bin.xz",
+        "bytes": 7606872,
+        "sha256": "4b5e61ac69a9290184ced25adb783cb692c099f7c182f0a98f67f93c7b40cf1d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 52,
+      "rows": 4861,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/052.bin.xz",
+        "bytes": 7264444,
+        "sha256": "41e0703e47033908d1ae0eb1d4ff50243d4892fe104ea28db8f6119069938eb9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 53,
+      "rows": 4862,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/053.bin.xz",
+        "bytes": 6454308,
+        "sha256": "663f8098ad74092a34e053fda591d058a4066b0c3ff54cba08ad0c5604e6afdc"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 54,
+      "rows": 4913,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/054.bin.xz",
+        "bytes": 5916180,
+        "sha256": "0cdc7ad297ddc65a06cff97869773995e9a3df8b008888fe2797acd746678582"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 55,
+      "rows": 4973,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/055.bin.xz",
+        "bytes": 6454836,
+        "sha256": "c3f71b4ee556ddd98ee2d78363f0fdc802a6de3046d57bdfbd4723cb294cf8e9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 56,
+      "rows": 4834,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/056.bin.xz",
+        "bytes": 7455920,
+        "sha256": "e4a71b917d2e7ee68f8ce20da778578ed0082b91c43f15ff34fd015f91e3d222"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 57,
+      "rows": 4815,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/057.bin.xz",
+        "bytes": 7937980,
+        "sha256": "8b2b4eacabbdcb7b892f96209a761735868caaf05f9581e1e57a4e51da457d68"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 58,
+      "rows": 4821,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/058.bin.xz",
+        "bytes": 7514228,
+        "sha256": "6c8301dcf0a7082fad4452db802cf943c205a1b7e501d83c051bc93b10f2489b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 59,
+      "rows": 4809,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/059.bin.xz",
+        "bytes": 7474900,
+        "sha256": "45a74c7442bc073f056a3fb17fd2d0ebc9fd22b0b8b69232217daeb1d22439e4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 60,
+      "rows": 4857,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/060.bin.xz",
+        "bytes": 7260136,
+        "sha256": "646ed04ed40d500365c81e5512a96d2243f8bf61f94c62ae10abd041558b0520"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 61,
+      "rows": 4870,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/061.bin.xz",
+        "bytes": 6464428,
+        "sha256": "a315d227318356d9a2a8fe5fc362e838adaba7edf4686682fcc4a046c80fd5cb"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 62,
+      "rows": 4771,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/062.bin.xz",
+        "bytes": 5992192,
+        "sha256": "9f7974bacc96dac32e104eddc3abbca9818c23fb667ead7a72ea4f38b556ee2a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 63,
+      "rows": 4731,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/063.bin.xz",
+        "bytes": 6467876,
+        "sha256": "e67c64739af6c033701f196b03a567bd8e24f3b9eab4846ba8cee415d9167e0a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 64,
+      "rows": 4879,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/064.bin.xz",
+        "bytes": 7528808,
+        "sha256": "060767bcea17a0805e4236bc604a3579d338bcd6c06041099833fad100dc8ba4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 65,
+      "rows": 4790,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/065.bin.xz",
+        "bytes": 7521408,
+        "sha256": "7491d37850886b0d5b9c0ef88ef6f89a8a636daa5e5442bcce2985210f55d1dc"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 66,
+      "rows": 4781,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/066.bin.xz",
+        "bytes": 7899212,
+        "sha256": "322b218c7f7452e92c1462580756db128ccfe6504b12fc934a558b03796d2e28"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 67,
+      "rows": 4825,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/067.bin.xz",
+        "bytes": 7167752,
+        "sha256": "9c0bb9da764187c3d8b5a636a558443468fb2a09aec7226e52b216aaa6a8452c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 68,
+      "rows": 4848,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/068.bin.xz",
+        "bytes": 6895268,
+        "sha256": "4e66da38dc38973326b771ce5b47b0d889d30bcc55d0196a224b7f7ac17faa7d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 69,
+      "rows": 4722,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/069.bin.xz",
+        "bytes": 7123516,
+        "sha256": "9610300f4d2352de94210f205eff52c2a864881ed914e3573f262630c1e5f72b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 70,
+      "rows": 4833,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/070.bin.xz",
+        "bytes": 6794756,
+        "sha256": "94ae68cebac3b65bc2521bdc42635b169c36ff778969139104b0b50f3d59f02e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 71,
+      "rows": 4801,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/071.bin.xz",
+        "bytes": 7215924,
+        "sha256": "7cbea3d1b73080a8589380dedfb72f9969fe8d2ad3b1a6f8331da6a2696493a4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 72,
+      "rows": 4894,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/072.bin.xz",
+        "bytes": 7810676,
+        "sha256": "18e0b4bc27879f25f2a796d029d9ee745318010f5a72626ae179ce78543caf5f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 73,
+      "rows": 4845,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/073.bin.xz",
+        "bytes": 7982548,
+        "sha256": "a35746864c4c842365d598a2ea4ca1553d248339bfa3126188d2c4aa20cc7927"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 74,
+      "rows": 4862,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/074.bin.xz",
+        "bytes": 8124448,
+        "sha256": "6fdf900b6c37f42853816a2befb086a41dd40757a20ecd6e74f8667764b64d07"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 75,
+      "rows": 4862,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/075.bin.xz",
+        "bytes": 7449924,
+        "sha256": "e2c30b170c52877e69fdeff4f7a7b2818be79387360f2708c604af3836fcb216"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 76,
+      "rows": 4924,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/076.bin.xz",
+        "bytes": 6125996,
+        "sha256": "bd6e1de7e68d5c52d0bca8f9bf74c535ba045fe1d6d8e0604cf7f35d91084248"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 77,
+      "rows": 4860,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/077.bin.xz",
+        "bytes": 6378108,
+        "sha256": "cf7312ecc85d333175bae78a3991b07be4715bacd9588e244467c4567f32a911"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 78,
+      "rows": 4828,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/078.bin.xz",
+        "bytes": 5967844,
+        "sha256": "8c13d27ae391a96de31715eba69db2274d4f462cf6f706e133fd41a16c50d121"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 79,
+      "rows": 4906,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/079.bin.xz",
+        "bytes": 6342892,
+        "sha256": "99f8bd021ebc6e92b0916ecf97b967ef1575f458f5fa3d5f7fa8693b468c958b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 80,
+      "rows": 4747,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/080.bin.xz",
+        "bytes": 6924736,
+        "sha256": "446a1c81cef9ef92bf89f67333dfd747e282f8d6ea400869862a6fb8c783487d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 81,
+      "rows": 4878,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/081.bin.xz",
+        "bytes": 7802228,
+        "sha256": "119f2206ffe537460b6f604896c036eb89dbaed363d8fffd9c75eda5e5759ec6"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 82,
+      "rows": 4779,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/082.bin.xz",
+        "bytes": 7646660,
+        "sha256": "97135c80c19284fdc706d20b907bd98ad81e0a42870eecaa58e4f50862f0b762"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 83,
+      "rows": 4783,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/083.bin.xz",
+        "bytes": 7176568,
+        "sha256": "8308618cb79fc763c9e6b0f2b213a41c8f9c6ac84b64ffad54e9e7db919e500f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 84,
+      "rows": 4829,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/084.bin.xz",
+        "bytes": 7644140,
+        "sha256": "c07805c2c06d7e52b073791f6e42708e4b74f01bb1a2cbb8d9631ff5e5b4dd6f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 85,
+      "rows": 4890,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/085.bin.xz",
+        "bytes": 7327092,
+        "sha256": "574f362ca00f0f79ff81ec2c069319cc93d8b4bee40a41f5b583a927be99756c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 86,
+      "rows": 4835,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/086.bin.xz",
+        "bytes": 5475644,
+        "sha256": "b94d2ddeec09129afa7c50ff2c2c6cc8113834f8d01799d1eb93fad100806a79"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 87,
+      "rows": 5008,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/087.bin.xz",
+        "bytes": 6360972,
+        "sha256": "56ccde7d7978cc8d4ed0adbbfc003612aa7538dc47f8e00239565084f42c9dd3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 88,
+      "rows": 4833,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/088.bin.xz",
+        "bytes": 7459272,
+        "sha256": "5b8b1a5da4ed634b1cea1199f830ca4d5f2c14ca637f576cbef96dd215abf300"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 89,
+      "rows": 4964,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/089.bin.xz",
+        "bytes": 8363696,
+        "sha256": "90c0725b2d2bbf4c32aa9753852045338c71d770776accb69c631c526e50997e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 90,
+      "rows": 4771,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/090.bin.xz",
+        "bytes": 8080572,
+        "sha256": "4b7465c6a19376eb9b51c74b228b34707e77c1193e601954c9e1bb4a221ffcde"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 91,
+      "rows": 4856,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/091.bin.xz",
+        "bytes": 7856052,
+        "sha256": "bc860753a8696c0aa6e31de74d42ce80278d64d93b27fbfaf73d6d5e3951dee0"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 92,
+      "rows": 4808,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/092.bin.xz",
+        "bytes": 7536280,
+        "sha256": "7b708d41c0b360ffde5dac1bc4533fc85d01c0e8e8a9c803570294c383a5113f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 93,
+      "rows": 4882,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/093.bin.xz",
+        "bytes": 7219616,
+        "sha256": "2b11ee164dfcfd8779691abd736a1253a120e63a62209d6ca8b03b6c71524aae"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 94,
+      "rows": 4807,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/094.bin.xz",
+        "bytes": 5794964,
+        "sha256": "0cd35d2e305b565010e4bb289e36d1a1a9424a584f7ae4707e7eec1ea9eb5ab2"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 95,
+      "rows": 4709,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/095.bin.xz",
+        "bytes": 5537104,
+        "sha256": "48a7fff8b7ecf80c53e55127f45c6860cba7d1500f4578b28bcd90c5efb8315e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 96,
+      "rows": 4766,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/096.bin.xz",
+        "bytes": 7939988,
+        "sha256": "91a7d7b6bb5d3e93d163b3e08e4cc6257416d1cfc69c8ded58a968765e105103"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 97,
+      "rows": 4797,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/097.bin.xz",
+        "bytes": 8000624,
+        "sha256": "0f0c037907e9e6ed83fc634b2f8f48f226637a3e95bd82b8c7c24d257ff47c9f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 98,
+      "rows": 4615,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/098.bin.xz",
+        "bytes": 7501280,
+        "sha256": "3c1540d55c1ab0cd82dade9aed8b287d2113598127f711b995bf8ffab48eba5d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 99,
+      "rows": 4631,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/099.bin.xz",
+        "bytes": 7332980,
+        "sha256": "c0a2dcdd2e0a1703f39f7b2ab83f30c91da24119cf5dad20dbd36f66f43dc485"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 100,
+      "rows": 4773,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/100.bin.xz",
+        "bytes": 7435512,
+        "sha256": "5b5675276080bc11139c50ffc85056b01b2fc77c71db4f513867102ee9ad1776"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 101,
+      "rows": 4699,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/101.bin.xz",
+        "bytes": 5556176,
+        "sha256": "7ca58c558e8a9443f6876057b98ce190125ab3045e13fcaa615d122433a9aaa3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 102,
+      "rows": 4709,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/102.bin.xz",
+        "bytes": 5820864,
+        "sha256": "4af9ab325f11b34b9adff6aa91258467ce50ad09cec624db71f5528a0dfb6bc4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 103,
+      "rows": 4766,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/103.bin.xz",
+        "bytes": 7272848,
+        "sha256": "24376b95e857df1bba170a1099f787ec9d71404af3d1876019dacaac8ab01871"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 104,
+      "rows": 4852,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/104.bin.xz",
+        "bytes": 7461140,
+        "sha256": "a2a4e278c2a3b778bba90c93d11befb4e65f9f008ee8bbadd5422b38fddc286d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 105,
+      "rows": 4902,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/105.bin.xz",
+        "bytes": 8001428,
+        "sha256": "436d4856d15c308f42f7ab26513e21a8e22a0dfeb7cb0ac797cbeb3cffc9f82e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 106,
+      "rows": 4877,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/106.bin.xz",
+        "bytes": 7409996,
+        "sha256": "d67382679b78d64970a8976b52c32ad743e185803e1d13659e0d410f2579446f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 107,
+      "rows": 4868,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/107.bin.xz",
+        "bytes": 7154064,
+        "sha256": "2a9a4269bc9b72d6e6b57a81890e2a6c6150ca47a7070f4df114d9df349d96c6"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 108,
+      "rows": 4788,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/108.bin.xz",
+        "bytes": 7419520,
+        "sha256": "82216780e8606d66feb1f20b0a453097adaff08ecdd2677e4429c7ad10515c54"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 109,
+      "rows": 4816,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/109.bin.xz",
+        "bytes": 5586812,
+        "sha256": "0ca66c53374bc6f6585d292290e7f0348e9abd085f7c9cf9d1f4972499b4aa80"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 110,
+      "rows": 4916,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/110.bin.xz",
+        "bytes": 5732968,
+        "sha256": "b74e1caa56ad59ae01ede697f8b60eb3ed708d27b9e2e248e03c2e7d6aba4608"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 111,
+      "rows": 4772,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/111.bin.xz",
+        "bytes": 6379972,
+        "sha256": "5d953aa456daecd26300022ec1de30a884fa426d063ef365813408c7f6e4095e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 112,
+      "rows": 4777,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/112.bin.xz",
+        "bytes": 7447880,
+        "sha256": "a27ce1d12dcd68ba17a89b542d7bb1e7e910050564ff74338e40c7d151671ea2"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 113,
+      "rows": 4953,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/113.bin.xz",
+        "bytes": 8037140,
+        "sha256": "e0c708459b311f2ab9e88d6ddca17637c87a8c6e5d9674ca408e8cca6eb0a8cd"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 114,
+      "rows": 4860,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/114.bin.xz",
+        "bytes": 7425968,
+        "sha256": "21f2089dba1486fab4dc2b63da6e14a7786d2bd1056da4887457b35df938adcc"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 115,
+      "rows": 4741,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/115.bin.xz",
+        "bytes": 6841084,
+        "sha256": "5905fba3534b6dd3dc9e2cffce06bf46bd4b72a221d1858107b2d4d703b8006a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 116,
+      "rows": 4820,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/116.bin.xz",
+        "bytes": 7642584,
+        "sha256": "cb07a7d69b46d27c0483e6a9f716be6a842005209d2baeb31a1954a3df14c560"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 117,
+      "rows": 4782,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/117.bin.xz",
+        "bytes": 5856044,
+        "sha256": "9f4f1429e1e0368950bb35b15640729ef9ae427b0cd44e32b316cb48af9f709b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 118,
+      "rows": 4805,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/118.bin.xz",
+        "bytes": 5424064,
+        "sha256": "dea939b32053c17f31677d55b8c900ee69acbf2e2fb046a91bd0ab9c3450fd46"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 119,
+      "rows": 4897,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/119.bin.xz",
+        "bytes": 7024828,
+        "sha256": "e40384c3ecd46601ad6fe93c28278f0a9ca3120aa40295918bb5199e3ca69ef4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 120,
+      "rows": 4706,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/120.bin.xz",
+        "bytes": 7127004,
+        "sha256": "4f579e72266b5b3b736b4efde389670f5b70520bdedd7da3d615b94dba638666"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 121,
+      "rows": 4765,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/121.bin.xz",
+        "bytes": 8324232,
+        "sha256": "271fa176eaad90860ede827c92f8fa72c30399a600be178c13fd34a9e0d62491"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 122,
+      "rows": 4829,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/122.bin.xz",
+        "bytes": 7710216,
+        "sha256": "ef6d85758d072c7db6c57583678bb89a3b119fedb6c274ce914118b4d4d69647"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 123,
+      "rows": 4679,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/123.bin.xz",
+        "bytes": 6953704,
+        "sha256": "b36c9263342ba47d5cf6c719fb944580bd4b661095f46641d6d0c3385a08e52f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 124,
+      "rows": 4651,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/124.bin.xz",
+        "bytes": 7486664,
+        "sha256": "571cdf7cf5cd43df3ade252a1f3444bc09e562ac9d336774779edcc0ca0f17f7"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 125,
+      "rows": 4738,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/125.bin.xz",
+        "bytes": 6465064,
+        "sha256": "e0d90b7944bf35393af92d02861feca98a379de252d21badfc4bf12ec14fe276"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 126,
+      "rows": 4703,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/126.bin.xz",
+        "bytes": 5689792,
+        "sha256": "f84f0d14fb4852181d3781bd4794fd7d40ad3d4d87ec0a0ec2948d97a294d809"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 127,
+      "rows": 4604,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/127.bin.xz",
+        "bytes": 6547184,
+        "sha256": "715f597bc37f4e0add397f4293ecba93d860b86ed86976fc854834be2050568e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 128,
+      "rows": 4439,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/128.bin.xz",
+        "bytes": 7672428,
+        "sha256": "c382ad8f4a66d74ec552cb1cc82864f3e82cd6f08e0e88b99c62b8df3933d3cd"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 129,
+      "rows": 4392,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/129.bin.xz",
+        "bytes": 7822248,
+        "sha256": "59b48d56c9a927d34b7d7bb8af933b6553d7bb5c3a6fcda384d8aca7ddb20c44"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 130,
+      "rows": 4472,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/130.bin.xz",
+        "bytes": 7245828,
+        "sha256": "9a962949d99f6d83a6365f3f89292ce9b2f38a90d89514e067f9c3e11143a0ac"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 131,
+      "rows": 4413,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/131.bin.xz",
+        "bytes": 6880664,
+        "sha256": "51435710bb010ebb5d411152d403dea0b09a687becc6aa097d67513277508d32"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 132,
+      "rows": 4593,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/132.bin.xz",
+        "bytes": 7551584,
+        "sha256": "a3f726771aa3eb60a9529fcfa20b17cfab778db7bbc030add83c119f41b21595"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 133,
+      "rows": 4481,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/133.bin.xz",
+        "bytes": 5428972,
+        "sha256": "03bcc9847c92886b91f7ecd9f89a1c9d087bb14b3bf5c627716aa1a7e2f20292"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 134,
+      "rows": 4412,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/134.bin.xz",
+        "bytes": 5739148,
+        "sha256": "a0e3bb3b84247fb8f570e85666da3b5dc00eac5c367fa3b2b19726f5ca22f98b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 135,
+      "rows": 4451,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/135.bin.xz",
+        "bytes": 6920144,
+        "sha256": "d98f4bc7357f2df893d8336d869a9d068ccf1aeb4d3629234d0f307a3695b1a3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 136,
+      "rows": 4757,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/136.bin.xz",
+        "bytes": 7155616,
+        "sha256": "5c8a26a1b089d1b714e3ab89952301b2e371b1ac577fbb0f4e55f4190c1359bb"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 137,
+      "rows": 4696,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/137.bin.xz",
+        "bytes": 7959936,
+        "sha256": "579c50e7b796804f24373a2b4086fcd90f7ec1a1ee01ce056598731af2b32c1a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 138,
+      "rows": 4689,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/138.bin.xz",
+        "bytes": 7265156,
+        "sha256": "dfe4f4cfb6fb3e4abeec539563c5b9ce570456bb7f3dbe02895e1e87c60652b3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 139,
+      "rows": 4806,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/139.bin.xz",
+        "bytes": 6747788,
+        "sha256": "56e6623740061c9b310c2d4f3d2a33fe337b4f08952cf11701d0840aac679e73"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 140,
+      "rows": 4679,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/140.bin.xz",
+        "bytes": 7349064,
+        "sha256": "db88b6ce774cdfc57b521a81f71feedfb8ca07e7ce148c2d96769c43c183b79c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 141,
+      "rows": 4644,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/141.bin.xz",
+        "bytes": 5821008,
+        "sha256": "4171ee4772e59f39d2d983819e9d3bb4b2c2a2d002960fe9be5eb5da6a53d106"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 142,
+      "rows": 4627,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/142.bin.xz",
+        "bytes": 5331964,
+        "sha256": "7d60be93511a7a04d617544041c680a034a77b5959e07cc97a847ca38d187b78"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 143,
+      "rows": 4635,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/143.bin.xz",
+        "bytes": 6463948,
+        "sha256": "81b6558e06d024b7644c582eb275bc0bbbd3e694ade27be0206d6c860967c909"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 144,
+      "rows": 4686,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/144.bin.xz",
+        "bytes": 7400804,
+        "sha256": "7809ab22e03f0e487eaa064fa0d0e5f3e8d5ab35bce3e27088a93ccc21d4cbf8"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 145,
+      "rows": 4710,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/145.bin.xz",
+        "bytes": 7865032,
+        "sha256": "dbbcd781408e45867793ba3a2947846b755693c03219c95d5265d52fe678dcfb"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 146,
+      "rows": 4717,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/146.bin.xz",
+        "bytes": 7133100,
+        "sha256": "8f8fe7f389a4a53ff8e4bea1ed409c133bca81025ff225a4faf0a8d7ee3d1fe9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 147,
+      "rows": 4614,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/147.bin.xz",
+        "bytes": 6728884,
+        "sha256": "4d23dfa0607219d40fe8440e4e1f4505a12ed9827807edfa4f5c840650b5db68"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 148,
+      "rows": 4711,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/148.bin.xz",
+        "bytes": 7505208,
+        "sha256": "71c160724c31286319fbd01e1b2d5c073ab84a04bdbf1adaa50c86e1a15db6cd"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 149,
+      "rows": 4821,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/149.bin.xz",
+        "bytes": 5412912,
+        "sha256": "6cd0e5cffdd6bbec8c0d1b912160d6ea18720611c9fdf08ef911312911aa6c43"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 150,
+      "rows": 4814,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/150.bin.xz",
+        "bytes": 5245028,
+        "sha256": "21729c8c09efaca6fb095533607d27c6eb30f6b9dbf54b8377b0fccd8a405e36"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 151,
+      "rows": 4726,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/151.bin.xz",
+        "bytes": 6845244,
+        "sha256": "d58855466f0eddf4ee38120d162e12657b54b5b44d1a5cdacee48c7b51c00d1f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 152,
+      "rows": 4624,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/152.bin.xz",
+        "bytes": 7273644,
+        "sha256": "c100d174dde3857f15f2cd04f0dce4eaca063a2229414d9406c0d742972c0231"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 153,
+      "rows": 4413,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/153.bin.xz",
+        "bytes": 8191676,
+        "sha256": "85d4a3f697be5871346feaa4d1057b40f19ed2b728e8d6d856ca328cec964b50"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 154,
+      "rows": 4407,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/154.bin.xz",
+        "bytes": 7388712,
+        "sha256": "d849b535eeec3dd7ddd53f3dabe7acfe8bea189779bd7b7108f3701710f3d5e5"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 155,
+      "rows": 4488,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/155.bin.xz",
+        "bytes": 6646812,
+        "sha256": "c0df5776d596693b133e1280d7a33fc549a1ebeda6b16779d4a266d029571b9b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 156,
+      "rows": 4511,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/156.bin.xz",
+        "bytes": 7458260,
+        "sha256": "b91ec2893d89852d8d72e774dda05cc6720498ddeeb1c266fb056f054559067d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 157,
+      "rows": 4437,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/157.bin.xz",
+        "bytes": 5892472,
+        "sha256": "aad191ebb7a1f08703e7b2c67e67ab72510498f65ed4c296a2e2c79d183a2a1c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 158,
+      "rows": 4538,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/158.bin.xz",
+        "bytes": 5462492,
+        "sha256": "37615b8a282a9e5b070cfa826e231632f91228d789154c427301502d01e46ca9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 159,
+      "rows": 4351,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/159.bin.xz",
+        "bytes": 7017996,
+        "sha256": "cf4021b72fde9a00d5f2d126213c4a0ad7c95c4686492b618de861a7032d19e7"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 160,
+      "rows": 4949,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/160.bin.xz",
+        "bytes": 6977320,
+        "sha256": "9ebf67fe4e3d1a385d51079d0384e7cb981bb6f3c33261df2b76106693649176"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 161,
+      "rows": 4940,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/161.bin.xz",
+        "bytes": 7929252,
+        "sha256": "e426aec596010a902960fd48afc16c713b06bbec32df636ce52f47bd31e8ecd8"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 162,
+      "rows": 4919,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/162.bin.xz",
+        "bytes": 7788056,
+        "sha256": "2084d9e344e499f14780ecdce0b7181268cd16d32f9c4f7bdf9b3c6fda24d4d2"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 163,
+      "rows": 4983,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/163.bin.xz",
+        "bytes": 8121396,
+        "sha256": "30fec86a63548fd5738f893401ad73fb6353b6ece94b668edf3ce6c8005096b5"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 164,
+      "rows": 4820,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/164.bin.xz",
+        "bytes": 8005576,
+        "sha256": "b86d8dcd7df2f555460de725c9101cb9626cc4293074c61457c7c3a30783cfaa"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 165,
+      "rows": 4931,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/165.bin.xz",
+        "bytes": 7854584,
+        "sha256": "bea13f3628e8649d36eeba1eca1db18a5a97439e9b2b9880ce6d6961925a1905"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 166,
+      "rows": 4858,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/166.bin.xz",
+        "bytes": 7493000,
+        "sha256": "240c832ea39ddc5e94896d928b6e0adbdc5ea7d59ba64c4e2f23458b896b2771"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 167,
+      "rows": 4925,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/167.bin.xz",
+        "bytes": 7246872,
+        "sha256": "645386dd5e36b38184b2681a420c0fbf8106b8e03ef00dae1f8561c1c422705b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 168,
+      "rows": 4822,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/168.bin.xz",
+        "bytes": 7530972,
+        "sha256": "8fc4cbc5c4a3ba8f977adf42099227494597d930d27aeb6504f0b66aedfc666b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 169,
+      "rows": 4915,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/169.bin.xz",
+        "bytes": 6634120,
+        "sha256": "db423a5a55f5b942f7436b94d6cadcfd6d1d2c3d603ab87941500f585afcd441"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 170,
+      "rows": 4937,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/170.bin.xz",
+        "bytes": 7281032,
+        "sha256": "2dd65bbaabc721f954a6af72286f747a5a32af1a607f8e30eb9e48f65fef97c4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 171,
+      "rows": 4944,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/171.bin.xz",
+        "bytes": 7228172,
+        "sha256": "a56ac6eabea1032836e75aefb7555d48186003a83423c8acab9bed48a0c78766"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 172,
+      "rows": 4926,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/172.bin.xz",
+        "bytes": 7246336,
+        "sha256": "3e3af1610451945e954e43837da368742da269f70ae456e536d02f7fac6ccec9"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 173,
+      "rows": 4879,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/173.bin.xz",
+        "bytes": 7428952,
+        "sha256": "1588c34b7b026ee7b69f24fe00a122b799c9bd4b950238917960a8e8a24e23ca"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 174,
+      "rows": 4864,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/174.bin.xz",
+        "bytes": 7089744,
+        "sha256": "0ebc5a5ed4d55df676b20da942d543c7998f8bcbc874d7351b99146c0d906d64"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 175,
+      "rows": 5029,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/175.bin.xz",
+        "bytes": 6414196,
+        "sha256": "43d7b91e146dc9f29e538da5969618f0c93eb8752c14b4c94b600447c774cf40"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 176,
+      "rows": 4849,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/176.bin.xz",
+        "bytes": 5361364,
+        "sha256": "126c78fd02ec13763cb03040d3e497f185cf720d9fa98a58463678cff861cd4b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 177,
+      "rows": 4969,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/177.bin.xz",
+        "bytes": 6431900,
+        "sha256": "47b6eb2934e53af4770172ca53a0fcaf4cc182501927c2f921181cf02d1f11f4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 178,
+      "rows": 4939,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/178.bin.xz",
+        "bytes": 5587956,
+        "sha256": "2f93ca9c74a990e7bfd8043437abd40e6149ae40cec08156e952b760464e5484"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 179,
+      "rows": 4822,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/179.bin.xz",
+        "bytes": 5480460,
+        "sha256": "a0d2a0fd511dd2b5820103d0c27e71d606f1b8509631199e1d84435b7c1b7f63"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 180,
+      "rows": 4846,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/180.bin.xz",
+        "bytes": 5893664,
+        "sha256": "5a9656dd64b31773566324a79e48b0c9c2f2205a4301471343b8658944ff14e7"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 181,
+      "rows": 4855,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/181.bin.xz",
+        "bytes": 6717400,
+        "sha256": "8988f38d5a27b82a29429f08b68d6ef2f2c0ab95a47f4415f82e3ec5afd0d97c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 182,
+      "rows": 4924,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/182.bin.xz",
+        "bytes": 6834604,
+        "sha256": "e4dcf78950b4b62531b7bfd3395e568494ae79155194d9b16d348143a99ab41b"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 183,
+      "rows": 4895,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/183.bin.xz",
+        "bytes": 6803516,
+        "sha256": "fa73224c582cd7471a294a2ad2d7ea78cc33456c13b8dfe286f01cf6dd9f088e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 184,
+      "rows": 4895,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/184.bin.xz",
+        "bytes": 7712780,
+        "sha256": "4b3c9d00996567228ec67dfb2e2b65d826df7299eff5de186856a7abb0dbbaf6"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 185,
+      "rows": 4720,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/185.bin.xz",
+        "bytes": 7050732,
+        "sha256": "5e490833f16bcce2a4f8ba9e44e53392519b1b51f2afba351c11ce4d258532d2"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 186,
+      "rows": 4872,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/186.bin.xz",
+        "bytes": 7592272,
+        "sha256": "09f1f164152a574f6edf0a91ce8d96ef3b7c8380c8d4931c0d0ee28e419dd5fd"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 187,
+      "rows": 4840,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/187.bin.xz",
+        "bytes": 7925596,
+        "sha256": "fa096b437bae11186e0ebf905cf56b938ca6b083c3f62d6305062258f8b12d19"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 188,
+      "rows": 4758,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/188.bin.xz",
+        "bytes": 8191496,
+        "sha256": "8d09f42f55ce457b26372e59f7197adf7eab98ecf704c6ec682c9348b0a196c4"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 189,
+      "rows": 4911,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/189.bin.xz",
+        "bytes": 8010956,
+        "sha256": "2405867d594bc0513c2e979bbfb4acd636c201697f17eaf328349d3ed0079f95"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 190,
+      "rows": 4832,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/190.bin.xz",
+        "bytes": 7360276,
+        "sha256": "5355ff5fa8445b74537aa3799c319a81da683af13075409644ebc69d92941bba"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 191,
+      "rows": 4934,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/191.bin.xz",
+        "bytes": 7434220,
+        "sha256": "eb990d9ef0c588516bf18f33a8c7b2c7e89bbf2a28e0bd6026e88b0d672c986a"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 192,
+      "rows": 4859,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/192.bin.xz",
+        "bytes": 7680772,
+        "sha256": "ca2be3898ab12ea0fb5a809317ba82221ea0b81a5a281d4de4a14cadd3aa39fc"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 193,
+      "rows": 4947,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/193.bin.xz",
+        "bytes": 7353440,
+        "sha256": "b82d1d3a6d05c2e15962d603a9fefe25c3af9e9c38fbad63e98ecd99b06ff0d0"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 194,
+      "rows": 4759,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/194.bin.xz",
+        "bytes": 6682992,
+        "sha256": "662667e62c2540e0b037cab3cd0b971841a454bd799a04a437b628f07b5de2b3"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 195,
+      "rows": 4971,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/195.bin.xz",
+        "bytes": 7061652,
+        "sha256": "258dcf6024985f2ca087f1474b9e3e88ad7d646e2506a22a985649b3c8fefb9c"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 196,
+      "rows": 4852,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/196.bin.xz",
+        "bytes": 7286128,
+        "sha256": "b5e905f2f102f2e005a742d4f91bd362f214b7792ebf6cfaa366c88318530500"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 197,
+      "rows": 4942,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/197.bin.xz",
+        "bytes": 7093440,
+        "sha256": "f1949646c1786b0ed62a618ecd0e03f02710caf07a71f3b8b02c6b5ff78067c5"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 198,
+      "rows": 4860,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/198.bin.xz",
+        "bytes": 6744208,
+        "sha256": "478712edc115de3c814abed08aae04f6650cea0fc69fa4f397785aa4a0305cb8"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 199,
+      "rows": 4978,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/199.bin.xz",
+        "bytes": 5369944,
+        "sha256": "1d51af5a0d563b0dc4f80d573e9a180394ad104cefb1c0e9319c05310a69641d"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 200,
+      "rows": 5015,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/200.bin.xz",
+        "bytes": 6585124,
+        "sha256": "636e81060e383d3f827611a9d2040cbd48bf712f8fcc6d3390b80aa1b9816267"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 201,
+      "rows": 4932,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/201.bin.xz",
+        "bytes": 6636928,
+        "sha256": "c441395e4920316054e02647455f6a574b28314604179194187a961b9810a19f"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 202,
+      "rows": 4860,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/202.bin.xz",
+        "bytes": 5441756,
+        "sha256": "abeffb5a7f083d1256b9f18ac1ea6c28e09530f38d30a4916f220a732d3b4c88"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 203,
+      "rows": 4844,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/203.bin.xz",
+        "bytes": 5905648,
+        "sha256": "08f09d3196169895cea8fa479f38175530ca1ab1c261f22575b99b6f2a42be7e"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 204,
+      "rows": 4911,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/204.bin.xz",
+        "bytes": 6195144,
+        "sha256": "cf1623625ae07caf04dfdd99e4c54756bb0909decc130c7145246dd1d4d2f658"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 205,
+      "rows": 4831,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/205.bin.xz",
+        "bytes": 6894400,
+        "sha256": "05887823f25f6431072acb3b00470a64cf8a956d5791448b9611346b622a3359"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 206,
+      "rows": 4917,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/206.bin.xz",
+        "bytes": 6709976,
+        "sha256": "43c8ab6077b3bc3ae83aba63307e4ee2303d0d8b0ce1cb81918f4416bb3222a0"
+      },
+      "complete_raw_sha_checked": true
+    },
+    {
+      "source": 207,
+      "rows": 4855,
+      "asset": {
+        "path": "../exp499/build/exp499/fields/207.bin.xz",
+        "bytes": 6723188,
+        "sha256": "8ed3c45e3b18a6faef3f75cb399bcb08555efc41674a019eda7ef55c4962cfc3"
+      },
+      "complete_raw_sha_checked": true
+    }
+  ],
+  "output": {
+    "path": "build/exp535/oracle.i32",
+    "bytes": 8000000,
+    "sha256": "ce4d2ec81ee18440e08d8552aff7997cab5d88f57bcdb43e39c969904376b2aa"
+  }
+}

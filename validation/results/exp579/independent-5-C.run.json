@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp579/estimate",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-5-C.csv"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 0.6342709999999999,
+  "wall_s": 0.6349672139622271,
+  "rss_bytes": 874008576
+}

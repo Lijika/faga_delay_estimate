@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "archived_subset_rows": 1032,
+  "source_ports": 208,
+  "target_ports": 288,
+  "all_archived_labels_equal": true,
+  "span_reference_checks": 13,
+  "edge_fixtures": [
+    {
+      "From": "SRB_20_100/IDE[0]",
+      "To": "SRB_20_100/A_A3",
+      "exact": 71
+    },
+    {
+      "From": "SRB_88_250/ILN[3]",
+      "To": "SRB_88_250/ILN[3]",
+      "exact": 0
+    },
+    {
+      "From": "SRB_66_255/IQW[4]",
+      "To": "SRB_88_250/ILN[3]",
+      "exact": -1
+    }
+  ],
+  "command": "/tmp/exp688-supplement-20261025/exact-build/build/exp203/exact_labels /tmp/exp688-supplement-20261025/repository/source/arch /tmp/exp688-supplement-20261025/solver-check-input.csv /home/lhj/lhjwork/eda2026/research/exp501/build/exp501/tools/orbit.i16 /tmp/exp688-supplement-20261025/solver-check-output.csv",
+  "solver_sha256": "3ba200cacb1f0e93485599fe0f02ddb06e4efbdf25befc9bbcba4fad7712a8d4",
+  "complete_estimator_runs": 0
+}

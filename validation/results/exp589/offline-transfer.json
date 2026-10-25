@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "build/exp589/far-left.npy",
+      "bytes": 184025216,
+      "sha256": "240bf7722c3179639dfc0c0fe5139198e2d446c42e8f60613a1f2a71c2af2a97"
+    },
+    {
+      "path": "build/exp589/far-right.npy",
+      "bytes": 199803008,
+      "sha256": "461ce59053cbaa13172eb474d64e77b500a3ba64c9858ed34c34d49292e0a18a"
+    },
+    {
+      "path": "build/exp589/center.npy",
+      "bytes": 119936,
+      "sha256": "83ad9f6d53d875c72ad71264f518ea2ba3a85aa289e13eac4c4e8fa250854670"
+    }
+  ],
+  "all_sha256_match": true,
+  "ranks": [
+    64,
+    96
+  ]
+}

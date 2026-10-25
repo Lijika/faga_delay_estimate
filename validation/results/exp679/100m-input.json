@@ -1,0 +1,98 @@
+{
+  "input": {
+    "path": "build/exp679/u-role/requests.csv",
+    "bytes": 3519741980,
+    "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+  },
+  "rows": 100000000,
+  "unique_rows": 100000000,
+  "port_pairs": 59904,
+  "proposal": {
+    "path": "build/exp679/proposal/requests.csv",
+    "bytes": 4223690283,
+    "sha256": "39f9343fd888e3ab1f0cb71fcc5158116ce4957717903ed36c60154626f28989"
+  },
+  "filtering": {
+    "visited_proposal_rows": 108469109,
+    "rejected_source_rows": 8469102,
+    "rejected_history_rows": 7
+  },
+  "training_source_pins": 960505,
+  "historical_pairs_after_source_filter": 14706043,
+  "source_pin_overlap": 0,
+  "registered_history_overlap": 0,
+  "history": [
+    {
+      "path": "../exp588/build/exp588/known-local.csv.gz",
+      "bytes": 27444728,
+      "sha256": "a6e0951b4d86766417a747744221572f2eff21f5dca05b72f6df6c2c079e9dda"
+    },
+    {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    {
+      "path": "../exp562/build/exp562/u-role/requests.csv",
+      "bytes": 35192612,
+      "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+    },
+    {
+      "path": "../exp588/build/exp588/u-role/requests.csv",
+      "bytes": 35198107,
+      "sha256": "ea48b5c5f6b92117b1a112c13c15a993daee3946deb80351662f43d164eab96a"
+    },
+    {
+      "path": "../exp624/build/exp624/u-role/requests.csv",
+      "bytes": 35199533,
+      "sha256": "31d972f235a6e91bcff80641384085753dc723c198e36dc1c7ddb60cd269b06a"
+    },
+    {
+      "path": "../exp642/build/exp642/u-role/requests.csv",
+      "bytes": 351978282,
+      "sha256": "56507ad489247b519f353764c3cb65b81f0b9987a6e85b9a780fa5342866628f"
+    },
+    {
+      "path": "../exp580/build/exp580/scale-exact.csv",
+      "bytes": 17162642,
+      "sha256": "032b458ab2bc659bb98eb47c7e5204fc38b0a01f054e9131d7d8fcc9366c6709"
+    },
+    {
+      "path": "../exp643/build/exp643/S8-sample.csv",
+      "bytes": 11185923,
+      "sha256": "5c2fbc2e5a76bd01342e18fdc1f30b97d293f0e0099b9d88e7f3bf89cf445be5"
+    },
+    {
+      "path": "../exp644/build/exp644/1b-sample.csv",
+      "bytes": 11185923,
+      "sha256": "5c2fbc2e5a76bd01342e18fdc1f30b97d293f0e0099b9d88e7f3bf89cf445be5"
+    },
+    {
+      "path": "../exp649/build/exp649/sample-requests.csv",
+      "bytes": 8434706,
+      "sha256": "70738fb122b945bcf8acca9d8e79ecff3d088c4956533003138c65c819880a41"
+    },
+    {
+      "path": "../exp652/build/exp652/sample-requests.csv",
+      "bytes": 8434355,
+      "sha256": "e9c68c61f3c9d86a9c2ba51154d3179e3b6d4fd4fc082a515da3537911983aee"
+    },
+    {
+      "path": "../exp655/build/exp655/1b-sample.csv",
+      "bytes": 11185928,
+      "sha256": "e51c32067433bb57ceaa130773f14e505044d3761cb27e541e63b984d1fdfc2b"
+    },
+    {
+      "path": "../exp663/build/exp663/sample-requests.csv",
+      "bytes": 8435034,
+      "sha256": "b086f00c3214a7796ccf9d58a6ebc2c78d9cc0a6158df02a82789d82dafb6836"
+    }
+  ],
+  "minimum_pair_rows": 1398,
+  "maximum_pair_rows": 1863,
+  "independent_checker": {
+    "path": "build/exp679/u-role/check/check.json",
+    "bytes": 631719,
+    "sha256": "8d6e4e2a6f15ff05920b290d0db6eccdd2093f8f865df10ace77ab0577021253"
+  }
+}

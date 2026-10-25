@@ -1,0 +1,824 @@
+{
+  "source_family": {
+    "0": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        54.70000000000027,
+        93.84999999999991,
+        143.9399999999996,
+        251.0
+      ],
+      "changed_pairs": 1269,
+      "range_ge20_pairs": 427,
+      "uphill_transfers": 4864,
+      "uphill_reason_counts": [
+        0,
+        936,
+        1347,
+        2574,
+        7
+      ],
+      "legal_same_endpoint_transfers": 28685
+    },
+    "1": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        1.0,
+        11.0,
+        53.0,
+        90.0,
+        149.9699999999998,
+        233.0
+      ],
+      "changed_pairs": 1221,
+      "range_ge20_pairs": 427,
+      "uphill_transfers": 4759,
+      "uphill_reason_counts": [
+        0,
+        866,
+        1428,
+        2459,
+        6
+      ],
+      "legal_same_endpoint_transfers": 28810
+    },
+    "2": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        59.70000000000027,
+        93.0,
+        149.9399999999996,
+        244.0
+      ],
+      "changed_pairs": 1249,
+      "range_ge20_pairs": 462,
+      "uphill_transfers": 4813,
+      "uphill_reason_counts": [
+        0,
+        844,
+        1343,
+        2605,
+        21
+      ],
+      "legal_same_endpoint_transfers": 28748
+    },
+    "3": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        49.70000000000027,
+        91.0,
+        138.9399999999996,
+        248.0
+      ],
+      "changed_pairs": 1221,
+      "range_ge20_pairs": 430,
+      "uphill_transfers": 4764,
+      "uphill_reason_counts": [
+        0,
+        1039,
+        1316,
+        2394,
+        15
+      ],
+      "legal_same_endpoint_transfers": 28828
+    },
+    "4": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        60.0,
+        98.84999999999991,
+        155.9699999999998,
+        223.0
+      ],
+      "changed_pairs": 1241,
+      "range_ge20_pairs": 450,
+      "uphill_transfers": 4801,
+      "uphill_reason_counts": [
+        0,
+        867,
+        1378,
+        2547,
+        9
+      ],
+      "legal_same_endpoint_transfers": 28883
+    },
+    "5": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        14.0,
+        60.0,
+        95.0,
+        150.9699999999998,
+        233.0
+      ],
+      "changed_pairs": 1307,
+      "range_ge20_pairs": 477,
+      "uphill_transfers": 5064,
+      "uphill_reason_counts": [
+        0,
+        916,
+        1453,
+        2690,
+        5
+      ],
+      "legal_same_endpoint_transfers": 28500
+    },
+    "6": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        53.0,
+        91.0,
+        152.9699999999998,
+        258.0
+      ],
+      "changed_pairs": 1264,
+      "range_ge20_pairs": 441,
+      "uphill_transfers": 4912,
+      "uphill_reason_counts": [
+        0,
+        906,
+        1493,
+        2501,
+        12
+      ],
+      "legal_same_endpoint_transfers": 28830
+    },
+    "7": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        14.0,
+        59.0,
+        95.84999999999991,
+        151.9699999999998,
+        229.0
+      ],
+      "changed_pairs": 1287,
+      "range_ge20_pairs": 464,
+      "uphill_transfers": 5055,
+      "uphill_reason_counts": [
+        0,
+        917,
+        1533,
+        2599,
+        6
+      ],
+      "legal_same_endpoint_transfers": 28522
+    },
+    "8": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        50.70000000000027,
+        93.0,
+        151.9399999999996,
+        265.0
+      ],
+      "changed_pairs": 1243,
+      "range_ge20_pairs": 424,
+      "uphill_transfers": 4800,
+      "uphill_reason_counts": [
+        0,
+        928,
+        1461,
+        2394,
+        17
+      ],
+      "legal_same_endpoint_transfers": 28657
+    },
+    "9": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        16.0,
+        62.70000000000027,
+        90.0,
+        153.9099999999994,
+        224.0
+      ],
+      "changed_pairs": 1284,
+      "range_ge20_pairs": 512,
+      "uphill_transfers": 4936,
+      "uphill_reason_counts": [
+        0,
+        991,
+        1369,
+        2567,
+        9
+      ],
+      "legal_same_endpoint_transfers": 28835
+    },
+    "10": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        14.0,
+        61.0,
+        95.0,
+        147.0,
+        266.0
+      ],
+      "changed_pairs": 1268,
+      "range_ge20_pairs": 486,
+      "uphill_transfers": 4963,
+      "uphill_reason_counts": [
+        0,
+        933,
+        1325,
+        2686,
+        19
+      ],
+      "legal_same_endpoint_transfers": 28778
+    },
+    "11": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        61.0,
+        93.0,
+        165.9099999999994,
+        299.0
+      ],
+      "changed_pairs": 1259,
+      "range_ge20_pairs": 446,
+      "uphill_transfers": 4862,
+      "uphill_reason_counts": [
+        0,
+        910,
+        1582,
+        2357,
+        13
+      ],
+      "legal_same_endpoint_transfers": 28936
+    },
+    "12": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        50.0,
+        91.0,
+        155.9699999999998,
+        230.0
+      ],
+      "changed_pairs": 1285,
+      "range_ge20_pairs": 429,
+      "uphill_transfers": 5014,
+      "uphill_reason_counts": [
+        0,
+        981,
+        1471,
+        2541,
+        21
+      ],
+      "legal_same_endpoint_transfers": 28545
+    },
+    "13": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        57.0,
+        93.0,
+        141.8799999999992,
+        220.0
+      ],
+      "changed_pairs": 1273,
+      "range_ge20_pairs": 446,
+      "uphill_transfers": 4942,
+      "uphill_reason_counts": [
+        0,
+        940,
+        1494,
+        2502,
+        6
+      ],
+      "legal_same_endpoint_transfers": 28751
+    },
+    "14": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        3.0,
+        13.0,
+        66.0,
+        98.0,
+        146.9699999999998,
+        210.0
+      ],
+      "changed_pairs": 1294,
+      "range_ge20_pairs": 459,
+      "uphill_transfers": 5042,
+      "uphill_reason_counts": [
+        0,
+        1034,
+        1408,
+        2586,
+        14
+      ],
+      "legal_same_endpoint_transfers": 28690
+    },
+    "15": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        14.0,
+        53.0,
+        94.0,
+        132.9699999999998,
+        254.0
+      ],
+      "changed_pairs": 1281,
+      "range_ge20_pairs": 477,
+      "uphill_transfers": 4956,
+      "uphill_reason_counts": [
+        0,
+        902,
+        1471,
+        2564,
+        19
+      ],
+      "legal_same_endpoint_transfers": 28835
+    },
+    "16": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        1.0,
+        10.0,
+        39.0,
+        90.84999999999991,
+        148.9399999999996,
+        248.0
+      ],
+      "changed_pairs": 1242,
+      "range_ge20_pairs": 359,
+      "uphill_transfers": 4842,
+      "uphill_reason_counts": [
+        0,
+        863,
+        1490,
+        2472,
+        17
+      ],
+      "legal_same_endpoint_transfers": 28713
+    },
+    "17": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        1.0,
+        11.0,
+        55.0,
+        93.84999999999991,
+        150.0,
+        207.0
+      ],
+      "changed_pairs": 1217,
+      "range_ge20_pairs": 408,
+      "uphill_transfers": 4796,
+      "uphill_reason_counts": [
+        0,
+        986,
+        1310,
+        2495,
+        5
+      ],
+      "legal_same_endpoint_transfers": 28775
+    },
+    "18": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        13.0,
+        48.0,
+        94.84999999999991,
+        163.9699999999998,
+        205.0
+      ],
+      "changed_pairs": 1229,
+      "range_ge20_pairs": 433,
+      "uphill_transfers": 4744,
+      "uphill_reason_counts": [
+        0,
+        885,
+        1277,
+        2572,
+        10
+      ],
+      "legal_same_endpoint_transfers": 28885
+    },
+    "19": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        1.0,
+        10.0,
+        37.0,
+        86.0,
+        148.9699999999998,
+        235.0
+      ],
+      "changed_pairs": 1214,
+      "range_ge20_pairs": 357,
+      "uphill_transfers": 4561,
+      "uphill_reason_counts": [
+        0,
+        912,
+        1470,
+        2159,
+        20
+      ],
+      "legal_same_endpoint_transfers": 29269
+    },
+    "20": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        45.0,
+        84.0,
+        146.9399999999996,
+        247.0
+      ],
+      "changed_pairs": 1292,
+      "range_ge20_pairs": 427,
+      "uphill_transfers": 5077,
+      "uphill_reason_counts": [
+        0,
+        842,
+        1453,
+        2764,
+        18
+      ],
+      "legal_same_endpoint_transfers": 28500
+    },
+    "21": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        11.0,
+        35.0,
+        89.84999999999991,
+        164.699999999998,
+        232.0
+      ],
+      "changed_pairs": 1253,
+      "range_ge20_pairs": 377,
+      "uphill_transfers": 4860,
+      "uphill_reason_counts": [
+        0,
+        948,
+        1457,
+        2452,
+        3
+      ],
+      "legal_same_endpoint_transfers": 28760
+    },
+    "22": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        50.0,
+        91.84999999999991,
+        147.9699999999998,
+        246.0
+      ],
+      "changed_pairs": 1247,
+      "range_ge20_pairs": 417,
+      "uphill_transfers": 4844,
+      "uphill_reason_counts": [
+        0,
+        921,
+        1411,
+        2505,
+        7
+      ],
+      "legal_same_endpoint_transfers": 28731
+    },
+    "23": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        41.0,
+        88.0,
+        143.0,
+        247.0
+      ],
+      "changed_pairs": 1268,
+      "range_ge20_pairs": 397,
+      "uphill_transfers": 4880,
+      "uphill_reason_counts": [
+        0,
+        860,
+        1485,
+        2521,
+        14
+      ],
+      "legal_same_endpoint_transfers": 28709
+    },
+    "24": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        11.0,
+        43.0,
+        90.0,
+        134.9699999999998,
+        212.0
+      ],
+      "changed_pairs": 1282,
+      "range_ge20_pairs": 393,
+      "uphill_transfers": 4912,
+      "uphill_reason_counts": [
+        0,
+        900,
+        1422,
+        2580,
+        10
+      ],
+      "legal_same_endpoint_transfers": 28864
+    },
+    "25": {
+      "pairs": 2304,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        54.70000000000027,
+        95.0,
+        146.9699999999998,
+        212.0
+      ],
+      "changed_pairs": 1291,
+      "range_ge20_pairs": 430,
+      "uphill_transfers": 4950,
+      "uphill_reason_counts": [
+        0,
+        973,
+        1440,
+        2515,
+        22
+      ],
+      "legal_same_endpoint_transfers": 28596
+    }
+  },
+  "direction": {
+    "0": {
+      "pairs": 14651,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        0.0,
+        9.0,
+        48.0,
+        90.0,
+        147.5,
+        265.0
+      ],
+      "changed_pairs": 7141,
+      "range_ge20_pairs": 2383,
+      "uphill_transfers": 26879,
+      "uphill_reason_counts": [
+        0,
+        7559,
+        6316,
+        12963,
+        41
+      ],
+      "legal_same_endpoint_transfers": 183718
+    },
+    "1": {
+      "pairs": 15612,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        3.0,
+        14.0,
+        47.0,
+        92.44999999999891,
+        151.0,
+        266.0
+      ],
+      "changed_pairs": 9072,
+      "range_ge20_pairs": 2964,
+      "uphill_transfers": 35557,
+      "uphill_reason_counts": [
+        0,
+        9753,
+        10811,
+        14870,
+        123
+      ],
+      "legal_same_endpoint_transfers": 195957
+    },
+    "2": {
+      "pairs": 15320,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        11.0,
+        51.0,
+        92.0,
+        148.0,
+        254.0
+      ],
+      "changed_pairs": 8797,
+      "range_ge20_pairs": 2685,
+      "uphill_transfers": 34504,
+      "uphill_reason_counts": [
+        0,
+        3860,
+        11329,
+        19188,
+        127
+      ],
+      "legal_same_endpoint_transfers": 187970
+    },
+    "3": {
+      "pairs": 14321,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        16.0,
+        62.0,
+        95.0,
+        152.79999999999927,
+        299.0
+      ],
+      "changed_pairs": 7771,
+      "range_ge20_pairs": 3223,
+      "uphill_transfers": 30073,
+      "uphill_reason_counts": [
+        0,
+        2828,
+        8631,
+        18580,
+        34
+      ],
+      "legal_same_endpoint_transfers": 179990
+    }
+  },
+  "distance": {
+    "0": {
+      "pairs": 1019,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.099999999999909,
+        123.29999999999905,
+        229.0
+      ],
+      "changed_pairs": 66,
+      "range_ge20_pairs": 45,
+      "uphill_transfers": 212,
+      "uphill_reason_counts": [
+        0,
+        56,
+        50,
+        95,
+        11
+      ],
+      "legal_same_endpoint_transfers": 16060
+    },
+    "1": {
+      "pairs": 11381,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        0.0,
+        34.0,
+        106.0,
+        133.0,
+        186.0,
+        251.0
+      ],
+      "changed_pairs": 5075,
+      "range_ge20_pairs": 3183,
+      "uphill_transfers": 18229,
+      "uphill_reason_counts": [
+        0,
+        2661,
+        3690,
+        11801,
+        77
+      ],
+      "legal_same_endpoint_transfers": 155500
+    },
+    "2": {
+      "pairs": 31483,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        2.0,
+        12.0,
+        39.0,
+        78.0,
+        131.0,
+        299.0
+      ],
+      "changed_pairs": 17979,
+      "range_ge20_pairs": 5291,
+      "uphill_transfers": 69860,
+      "uphill_reason_counts": [
+        0,
+        13703,
+        20953,
+        35036,
+        168
+      ],
+      "legal_same_endpoint_transfers": 387853
+    },
+    "3": {
+      "pairs": 16021,
+      "range_quantiles_ps": [
+        0.0,
+        0.0,
+        3.0,
+        12.0,
+        34.0,
+        59.0,
+        106.79999999999927,
+        235.0
+      ],
+      "changed_pairs": 9661,
+      "range_ge20_pairs": 2736,
+      "uphill_transfers": 38712,
+      "uphill_reason_counts": [
+        0,
+        7580,
+        12394,
+        18669,
+        69
+      ],
+      "legal_same_endpoint_transfers": 188222
+    }
+  }
+}

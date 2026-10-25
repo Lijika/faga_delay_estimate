@@ -1,0 +1,23 @@
+{
+  "inputs": [
+    {
+      "path": "../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp640/build/exp640/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "89fc9fdc6b997d32cfd2272d977af3b035aafbdad32a6f462c5e8ef0e709789e"
+    },
+    {
+      "path": "../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    }
+  ],
+  "seed": 20261026651,
+  "bootstrap": 9999,
+  "independent_requests": false,
+  "complete_program_runs": 0
+}

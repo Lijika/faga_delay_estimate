@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp586/development-1-N768.csv",
+    "bytes": 40136241,
+    "sha256": "a7560de11446b94184b48de8c3339b1ed6bf0cebd4c4d4afa6cf28b64d546524"
+  },
+  "identical_to": {
+    "path": "build/exp586/development-0-N768.csv",
+    "bytes": 40136241,
+    "sha256": "a7560de11446b94184b48de8c3339b1ed6bf0cebd4c4d4afa6cf28b64d546524"
+  },
+  "rebuild_command": [
+    "build/exp586/N768",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp586/development-1-N768.csv"
+  ]
+}

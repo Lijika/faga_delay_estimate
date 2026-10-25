@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp593/routed-predict",
+    "build/exp593/features.f32",
+    "build/exp593/folds.u8",
+    "build/exp593/routes.u8",
+    "build/exp593/G32-models.txt",
+    "build/exp593/G32-native.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.34470799999999996,
+  "wall_s": 0.3454613760113716,
+  "rss_bytes": 532099072,
+  "threads": 1,
+  "stderr": "validation/results/exp593/G32-independent.stderr"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "small_J",
+  "fold": 2,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_J-2.json",
+      "bytes": 54344,
+      "sha256": "6b8fadd272a352324476b34fee9351dc2e3f22c6e344fe31dc1a734380837498"
+    },
+    "binary": {
+      "path": "build/exp554/small_J-2.bin",
+      "bytes": 12564,
+      "sha256": "53378d265dbb682b9eff3467649454c3850f3112144f086fb9fcfe59288f0ebf"
+    },
+    "trees": 32,
+    "nodes": 776
+  },
+  "cpu_s": 13.84181295900001,
+  "wall_s": 4.749118156032637,
+  "train_raw": {
+    "path": "build/exp554/small_J-2.train.f32",
+    "bytes": 2665464,
+    "sha256": "07c82b96d114b83e5af8970c58b27d98aa6a9cd96f384da63d2471589bf968e6"
+  },
+  "train": {
+    "rows": 666366,
+    "accuracy_pp": 92.65785086042202,
+    "mean_error_ps": -21.2999822920137,
+    "mae_ps": 41.76775225626758,
+    "squared_ps": 1992426490,
+    "exact_rows": 5683,
+    "under_rows": 430234,
+    "over_rows": 230449
+  },
+  "validation": {
+    "rows": 333634,
+    "accuracy_pp": 92.64637055010405,
+    "mean_error_ps": -21.31493193139788,
+    "mae_ps": 41.84661035745757,
+    "squared_ps": 1002414306,
+    "exact_rows": 2770,
+    "under_rows": 215286,
+    "over_rows": 115578
+  },
+  "train_kernel": {
+    "rows": 666366,
+    "accuracy_pp": 91.61934440316733,
+    "mean_error_ps": -20.885187719661566,
+    "mae_ps": 41.45287274560827,
+    "squared_ps": 1953989909,
+    "exact_rows": 5700,
+    "under_rows": 428973,
+    "over_rows": 231693
+  },
+  "validation_kernel": {
+    "rows": 333634,
+    "accuracy_pp": 91.60612705803904,
+    "mean_error_ps": -20.893455103496645,
+    "mae_ps": 41.528822002553696,
+    "squared_ps": 982811003,
+    "exact_rows": 2777,
+    "under_rows": 214625,
+    "over_rows": 116232
+  }
+}

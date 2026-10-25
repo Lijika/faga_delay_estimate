@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp586/N512",
+    "-in",
+    "../exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "build/exp586/robustness-0-N512.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.43566999999999995,
+  "wall_s": 0.43658882821910083,
+  "rss_bytes": 460255232,
+  "threads": 1,
+  "stderr": "validation/results/exp586/robustness-0-N512.stderr"
+}

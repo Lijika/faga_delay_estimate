@@ -1,0 +1,10 @@
+{
+  "cpu_s": 12.829969841,
+  "peak_rss_bytes": 485703680,
+  "threads": 1,
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp623/validation/exp623_leaf_calibration.py",
+    "bytes": 17437,
+    "sha256": "be07d8ff8482221bd6a0123109a7109b3a3bf2493f98fa06968c6d168a8f133e"
+  }
+}

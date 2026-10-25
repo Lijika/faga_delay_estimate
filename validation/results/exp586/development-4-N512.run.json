@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp586/N512",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp586/development-4-N512.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.428972,
+  "wall_s": 0.43024904397316277,
+  "rss_bytes": 460255232,
+  "threads": 1,
+  "stderr": "validation/results/exp586/development-4-N512.stderr"
+}

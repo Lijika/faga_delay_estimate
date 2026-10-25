@@ -1,0 +1,17 @@
+{
+  "command": [
+    "build/exp650/assign",
+    "build/exp650/all-train.i16",
+    "build/exp650/all-centers.i16",
+    "build/exp650/weights.f64",
+    "718848",
+    "44",
+    "build/exp650/all"
+  ],
+  "exit_code": 0,
+  "cpu_s": 8.158007999999999,
+  "wall_s": 8.159255041042343,
+  "rss_bytes": 1418784768,
+  "threads": 1,
+  "stderr": "validation/results/exp650/all.stderr"
+}

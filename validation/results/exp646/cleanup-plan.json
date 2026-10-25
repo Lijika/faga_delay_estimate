@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "research/exp646/build/exp646/D64-Z/restored.bin",
+      "bytes": 69303616,
+      "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef",
+      "identical_to": "research/exp646/../exp589/build/exp589/D64-geometry.bin",
+      "rebuild_command": [
+        "build/exp646/D64-Z/restore",
+        "build/exp646/D64-Z/restored.bin"
+      ],
+      "not_named_in_longterm_inputs": true
+    },
+    {
+      "path": "research/exp646/build/exp646/D64-D/restored.bin",
+      "bytes": 69303616,
+      "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef",
+      "identical_to": "research/exp646/../exp589/build/exp589/D64-geometry.bin",
+      "rebuild_command": [
+        "build/exp646/D64-D/restore",
+        "build/exp646/D64-D/restored.bin"
+      ],
+      "not_named_in_longterm_inputs": true
+    },
+    {
+      "path": "research/exp646/build/exp646/D96-Z/restored.bin",
+      "bytes": 87295552,
+      "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a",
+      "identical_to": "research/exp646/../exp589/build/exp589/D96-geometry.bin",
+      "rebuild_command": [
+        "build/exp646/D96-Z/restore",
+        "build/exp646/D96-Z/restored.bin"
+      ],
+      "not_named_in_longterm_inputs": true
+    },
+    {
+      "path": "research/exp646/build/exp646/D96-D/restored.bin",
+      "bytes": 87295552,
+      "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a",
+      "identical_to": "research/exp646/../exp589/build/exp589/D96-geometry.bin",
+      "rebuild_command": [
+        "build/exp646/D96-D/restore",
+        "build/exp646/D96-D/restored.bin"
+      ],
+      "not_named_in_longterm_inputs": true
+    }
+  ],
+  "total_bytes": 313198336
+}

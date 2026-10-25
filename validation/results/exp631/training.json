@@ -1,0 +1,3113 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-0.json",
+        "bytes": 12611,
+        "sha256": "1f5737b9842d688ab8d833a8de4d9818b260cb36d69664cde16d58fa501ed62e"
+      },
+      "train_rows": 4453,
+      "test_rows": 2261,
+      "train_pairs": 4279,
+      "test_pairs": 2213,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-0.json",
+          "bytes": 12611,
+          "sha256": "1f5737b9842d688ab8d833a8de4d9818b260cb36d69664cde16d58fa501ed62e"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-0.bin",
+          "bytes": 2836,
+          "sha256": "ee2c1eb29b071fb17dfb6ec88c8d3a0f9e2ac52ecf0a7615d4afa80e1a8184ee"
+        },
+        "trees": 8,
+        "nodes": 174
+      },
+      "cpu_s": 0.12539115499999998
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-1.json",
+        "bytes": 15703,
+        "sha256": "94f5c3fcb2a32950e3846a2bb9bf8e33bd707da2315564e60d6641df8eebf077"
+      },
+      "train_rows": 46710,
+      "test_rows": 23280,
+      "train_pairs": 32553,
+      "test_pairs": 19292,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-1.json",
+          "bytes": 15703,
+          "sha256": "94f5c3fcb2a32950e3846a2bb9bf8e33bd707da2315564e60d6641df8eebf077"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-1.bin",
+          "bytes": 3700,
+          "sha256": "40202600ac1b9352e816977e3368ae438f3e5843e6b3c1d918c128c260d61822"
+        },
+        "trees": 8,
+        "nodes": 228
+      },
+      "cpu_s": 0.2011874370000002
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-2.json",
+        "bytes": 16229,
+        "sha256": "93e3ac1f3f3dfe68d4a70c92ac50e5c9d23271c027dd2d9c837342c68d9ffe95"
+      },
+      "train_rows": 10007,
+      "test_rows": 4963,
+      "train_pairs": 9227,
+      "test_pairs": 4769,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-2.json",
+          "bytes": 16229,
+          "sha256": "93e3ac1f3f3dfe68d4a70c92ac50e5c9d23271c027dd2d9c837342c68d9ffe95"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-2.bin",
+          "bytes": 3828,
+          "sha256": "b0bd4d93af68f1c457b6f8616f7f793e465c841255c3de697f93f8c6501f8f9f"
+        },
+        "trees": 8,
+        "nodes": 236
+      },
+      "cpu_s": 0.1386505859999998
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 100991,
+      "test_rows": 50481,
+      "train_pairs": 48770,
+      "test_pairs": 34114,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-3.json",
+          "bytes": 16699,
+          "sha256": "d34b98f3b9ee3ddd9ee93f72f18a3f1cbe43580922a1dea482c818d4ef6eed18"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-3.bin",
+          "bytes": 3988,
+          "sha256": "4eb74dabb54e51ded34f432633ee33dca77149afd650f610179cf1e5140b48e3"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 2.043162683
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-4.json",
+        "bytes": 12217,
+        "sha256": "6d060532c63832e3ea32e508b0002485bf54a8b867000241d2992f3a9736f69d"
+      },
+      "train_rows": 4316,
+      "test_rows": 2103,
+      "train_pairs": 4144,
+      "test_pairs": 2069,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-4.json",
+          "bytes": 12217,
+          "sha256": "6d060532c63832e3ea32e508b0002485bf54a8b867000241d2992f3a9736f69d"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-4.bin",
+          "bytes": 2676,
+          "sha256": "4a558d2ba8739ec2bdb2a04bb6ea414dc9907ca7e4544e85e3ba84100e1d937d"
+        },
+        "trees": 8,
+        "nodes": 164
+      },
+      "cpu_s": 0.1081250469999997
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-5.json",
+        "bytes": 14713,
+        "sha256": "1514633e03b5535455c87217d6e24d5ef4b1d70d745edd81940c15fc716d353b"
+      },
+      "train_rows": 48314,
+      "test_rows": 24238,
+      "train_pairs": 33161,
+      "test_pairs": 19883,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-5.json",
+          "bytes": 14713,
+          "sha256": "1514633e03b5535455c87217d6e24d5ef4b1d70d745edd81940c15fc716d353b"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-5.bin",
+          "bytes": 3380,
+          "sha256": "d3497e6d25c32f3ffbdd6c96bc6e1d9cb4dd879ee7f8dff3bd8fdeb218fbbc18"
+        },
+        "trees": 8,
+        "nodes": 208
+      },
+      "cpu_s": 0.17054148099999988
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-6.json",
+        "bytes": 16071,
+        "sha256": "c4c8ae6cb3e56b1b072568b910959a22118e99e15d157b8443148eb4f85abcc9"
+      },
+      "train_rows": 9497,
+      "test_rows": 4787,
+      "train_pairs": 8794,
+      "test_pairs": 4596,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-6.json",
+          "bytes": 16071,
+          "sha256": "c4c8ae6cb3e56b1b072568b910959a22118e99e15d157b8443148eb4f85abcc9"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-6.bin",
+          "bytes": 3764,
+          "sha256": "12489b65b88ac53a87e1a9d637c701a0a8510af2f3244e8bf0ccc1e2b9c0843d"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.13304575600000046
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 111889,
+      "test_rows": 56169,
+      "train_pairs": 50713,
+      "test_pairs": 36518,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-7.json",
+          "bytes": 16300,
+          "sha256": "3461893475c65434036d9cd2b876fec263a9d3d6f23f73de309acee45b842439"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-7.bin",
+          "bytes": 3860,
+          "sha256": "5b364ce14fb09a9a60fe8726082765067dae1421710819f7858c016d92e0ddfe"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 2.035221131
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-8.json",
+        "bytes": 12762,
+        "sha256": "29a38bb8b0a4bb8aca36130beb40f01787e479a0c509b857f990dc4c58229adb"
+      },
+      "train_rows": 4254,
+      "test_rows": 2137,
+      "train_pairs": 4109,
+      "test_pairs": 2102,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-8.json",
+          "bytes": 12762,
+          "sha256": "29a38bb8b0a4bb8aca36130beb40f01787e479a0c509b857f990dc4c58229adb"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-8.bin",
+          "bytes": 2836,
+          "sha256": "0343e7f5fcc7a4c28c24a200a12a7ac745863cfbff692b00bc3ffee427ac2350"
+        },
+        "trees": 8,
+        "nodes": 174
+      },
+      "cpu_s": 0.10960889999999957
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-9.json",
+        "bytes": 14174,
+        "sha256": "a938310d6d42975d3345c0b307082211dc4f0ba6d1f888a55b1d3616e3b95459"
+      },
+      "train_rows": 45279,
+      "test_rows": 22673,
+      "train_pairs": 31793,
+      "test_pairs": 18858,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-9.json",
+          "bytes": 14174,
+          "sha256": "a938310d6d42975d3345c0b307082211dc4f0ba6d1f888a55b1d3616e3b95459"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-9.bin",
+          "bytes": 3252,
+          "sha256": "02e9aa60c9bb973a954e9ea1ef50a97bb7d36e1f98487fc9e9f5aaed356c1530"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.16910654700000016
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-10.json",
+        "bytes": 16377,
+        "sha256": "73a7fd3992ac8bc40b9855a7767d971ac3cc346936da4b0f5c0e4d14bc3b16b1"
+      },
+      "train_rows": 10069,
+      "test_rows": 4910,
+      "train_pairs": 9229,
+      "test_pairs": 4699,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-10.json",
+          "bytes": 16377,
+          "sha256": "73a7fd3992ac8bc40b9855a7767d971ac3cc346936da4b0f5c0e4d14bc3b16b1"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-10.bin",
+          "bytes": 3860,
+          "sha256": "7bb15a65947e24a8f7c2088c78e602c24bada3944dc77dcd8370d62adcab688e"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.1380348050000002
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 111996,
+      "test_rows": 55962,
+      "train_pairs": 50672,
+      "test_pairs": 36501,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-11.json",
+          "bytes": 16824,
+          "sha256": "875366f0fc67c26e115de46a8f0fe74179f4ab1904382c599ef4e7fe466fb4c7"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-11.bin",
+          "bytes": 4020,
+          "sha256": "c86dcb2878ae3a42f54c1cb03519d8d4a1890beb6212b8be69cee04a6feb6b34"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 2.1806842559999993
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-12.json",
+        "bytes": 13442,
+        "sha256": "3596c6d2c28fa70165d64d98e272256058fb5c29ffbdfcd63867203b607d7e26"
+      },
+      "train_rows": 4099,
+      "test_rows": 2002,
+      "train_pairs": 3985,
+      "test_pairs": 1969,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-12.json",
+          "bytes": 13442,
+          "sha256": "3596c6d2c28fa70165d64d98e272256058fb5c29ffbdfcd63867203b607d7e26"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-12.bin",
+          "bytes": 2996,
+          "sha256": "212b9c9e7d5f85969bcffdb93823e316dd2cdc2d3210ff8da4f9d8d12680bc65"
+        },
+        "trees": 8,
+        "nodes": 184
+      },
+      "cpu_s": 0.09697397000000052
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-13.json",
+        "bytes": 14312,
+        "sha256": "46457f90c1315e7ac7c1a987be378e2a80bf8ec3e1205dc9f353728c93fc2bb2"
+      },
+      "train_rows": 44251,
+      "test_rows": 22351,
+      "train_pairs": 31319,
+      "test_pairs": 18664,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-13.json",
+          "bytes": 14312,
+          "sha256": "46457f90c1315e7ac7c1a987be378e2a80bf8ec3e1205dc9f353728c93fc2bb2"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-13.bin",
+          "bytes": 3316,
+          "sha256": "9ae4ad572dd395ba816dda51be0a3876f78d283a3680d4331f49cb81bc0f4a7a"
+        },
+        "trees": 8,
+        "nodes": 204
+      },
+      "cpu_s": 0.19495445400000122
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-14.json",
+        "bytes": 16086,
+        "sha256": "f8d45db3ea382955b9a7a282463ec33487fd5dfca0b4216ffd8101348fcdddbc"
+      },
+      "train_rows": 9570,
+      "test_rows": 4750,
+      "train_pairs": 8813,
+      "test_pairs": 4560,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-14.json",
+          "bytes": 16086,
+          "sha256": "f8d45db3ea382955b9a7a282463ec33487fd5dfca0b4216ffd8101348fcdddbc"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-14.bin",
+          "bytes": 3764,
+          "sha256": "527ecc6f6755e04302bffd73ace7ec26f81a59d911d0ec7cc26f4756bef35385"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.13697439999999972
+    },
+    {
+      "arm": "M",
+      "fold": 0,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 100661,
+      "test_rows": 50577,
+      "train_pairs": 48736,
+      "test_pairs": 34055,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-0-15.json",
+          "bytes": 16910,
+          "sha256": "701e0f969ef4349f009f80f69b0d1a5caff8322ea2fefab2267c673b437b0c66"
+        },
+        "binary": {
+          "path": "build/exp631/M-0-15.bin",
+          "bytes": 4020,
+          "sha256": "2f4a2dd1232ae13fbe9a47003436d10e7788c83034f9357a4f74074b8115f89a"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.8758458289999993
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-0.json",
+        "bytes": 13775,
+        "sha256": "3c8d710921396ce1250551766f29bc94ad614f63fe04492e73ea605bf90f36d4"
+      },
+      "train_rows": 4471,
+      "test_rows": 2243,
+      "train_pairs": 4300,
+      "test_pairs": 2207,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-0.json",
+          "bytes": 13775,
+          "sha256": "3c8d710921396ce1250551766f29bc94ad614f63fe04492e73ea605bf90f36d4"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-0.bin",
+          "bytes": 3092,
+          "sha256": "91ca5e21721586d0728267ac584aa95501276ae27f78b9b28ebd842730f0b919"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.10372912699999937
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-1.json",
+        "bytes": 14241,
+        "sha256": "ffdf8bf5a71a8f3b20f654a0698eb6e7f8571b6b9bcafc420862a6f30f725108"
+      },
+      "train_rows": 46896,
+      "test_rows": 23094,
+      "train_pairs": 32527,
+      "test_pairs": 19208,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-1.json",
+          "bytes": 14241,
+          "sha256": "ffdf8bf5a71a8f3b20f654a0698eb6e7f8571b6b9bcafc420862a6f30f725108"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-1.bin",
+          "bytes": 3252,
+          "sha256": "b93ebefd6328d0767ae4fb534e9a9b9f46d56cdeb091236f912bc4626ccb2b86"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.1546716669999988
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-2.json",
+        "bytes": 16158,
+        "sha256": "7d3580da279e7a7796a0a42e5928498a148ac8cb906b11643363999047cf558f"
+      },
+      "train_rows": 10005,
+      "test_rows": 4965,
+      "train_pairs": 9228,
+      "test_pairs": 4784,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-2.json",
+          "bytes": 16158,
+          "sha256": "7d3580da279e7a7796a0a42e5928498a148ac8cb906b11643363999047cf558f"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-2.bin",
+          "bytes": 3796,
+          "sha256": "3454e1dcba6f33f0455fa9f55e03db70ce93ec8e6ec3e1795b6d941d815b5b42"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.14539027799999893
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 100866,
+      "test_rows": 50606,
+      "train_pairs": 48862,
+      "test_pairs": 34111,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-3.json",
+          "bytes": 16575,
+          "sha256": "92f5e1782df746f86c4e561cdff9c911dbbb1a37ff18dd0762d6dddc07609970"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-3.bin",
+          "bytes": 3956,
+          "sha256": "a875e5736db1691bb899f10b0fed2049ca832e9ee707efbc21edfe7b5ce9e551"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 2.0725156499999997
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-4.json",
+        "bytes": 13074,
+        "sha256": "9b5d035153897cd1e4c9d22bb2d5ee292fa4a8acc4bdff9010f57629fa7fea98"
+      },
+      "train_rows": 4268,
+      "test_rows": 2151,
+      "train_pairs": 4103,
+      "test_pairs": 2110,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-4.json",
+          "bytes": 13074,
+          "sha256": "9b5d035153897cd1e4c9d22bb2d5ee292fa4a8acc4bdff9010f57629fa7fea98"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-4.bin",
+          "bytes": 2932,
+          "sha256": "e517254a563576962ba1ca6696790c2a65144f47f6d237641a5a154646e7eae2"
+        },
+        "trees": 8,
+        "nodes": 180
+      },
+      "cpu_s": 0.10986619999999903
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-5.json",
+        "bytes": 14997,
+        "sha256": "0b02f3bc9cd4d6ddb4c43ac8c1f5db7e3ce254f5f1b580f4ccff9fc833671801"
+      },
+      "train_rows": 48385,
+      "test_rows": 24167,
+      "train_pairs": 33163,
+      "test_pairs": 19880,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-5.json",
+          "bytes": 14997,
+          "sha256": "0b02f3bc9cd4d6ddb4c43ac8c1f5db7e3ce254f5f1b580f4ccff9fc833671801"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-5.bin",
+          "bytes": 3476,
+          "sha256": "c1e626511426429f5a6ea117f74e6335c36c879189cacc40a65089f23939842b"
+        },
+        "trees": 8,
+        "nodes": 214
+      },
+      "cpu_s": 0.18881168300000084
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-6.json",
+        "bytes": 16212,
+        "sha256": "c4315f649438e35a16483d6b8428603d7a341ef0a12fe5b1f5df821266e95594"
+      },
+      "train_rows": 9540,
+      "test_rows": 4744,
+      "train_pairs": 8814,
+      "test_pairs": 4561,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-6.json",
+          "bytes": 16212,
+          "sha256": "c4315f649438e35a16483d6b8428603d7a341ef0a12fe5b1f5df821266e95594"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-6.bin",
+          "bytes": 3796,
+          "sha256": "ab6f85ff8debadfc4112b9879d374d96d1f86cf92023d3eca77043e1c2e5f450"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.13285954700000246
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 112034,
+      "test_rows": 56024,
+      "train_pairs": 50696,
+      "test_pairs": 36459,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-7.json",
+          "bytes": 16662,
+          "sha256": "d521956ecd07b3788cd92f60af7694071e59206e2f4aa954ed74eab97a636e0b"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-7.bin",
+          "bytes": 3956,
+          "sha256": "5fd8853b840ca6fdecea03c307c11594dd203d8655116186c47f4a8d8803a014"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 2.126297710000003
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-8.json",
+        "bytes": 13491,
+        "sha256": "9ff8507fdd80618d5be98ebcb086ab6ec4650c23067394633129e0b802b1f10d"
+      },
+      "train_rows": 4207,
+      "test_rows": 2184,
+      "train_pairs": 4066,
+      "test_pairs": 2150,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-8.json",
+          "bytes": 13491,
+          "sha256": "9ff8507fdd80618d5be98ebcb086ab6ec4650c23067394633129e0b802b1f10d"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-8.bin",
+          "bytes": 2996,
+          "sha256": "006a010139b5408c59d635c97e5fd7f108c07e43423415290dc7454db9c7511c"
+        },
+        "trees": 8,
+        "nodes": 184
+      },
+      "cpu_s": 0.10569334000000197
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-9.json",
+        "bytes": 13584,
+        "sha256": "517ef8e2e9661b793c864e1fc6b4172ff32504c89c2c3b0ba636e5873512e7f2"
+      },
+      "train_rows": 45312,
+      "test_rows": 22640,
+      "train_pairs": 31811,
+      "test_pairs": 18887,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-9.json",
+          "bytes": 13584,
+          "sha256": "517ef8e2e9661b793c864e1fc6b4172ff32504c89c2c3b0ba636e5873512e7f2"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-9.bin",
+          "bytes": 3092,
+          "sha256": "733f04ef1afc124b0e6e68cb9cb481875438606c5c8c28fbd66aee54bd009690"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.1401550020000002
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-10.json",
+        "bytes": 16391,
+        "sha256": "28e7b503d00c60804f8f5b8aaafdc829e294d29e15fa7f95f17eb32829c3d850"
+      },
+      "train_rows": 10057,
+      "test_rows": 4922,
+      "train_pairs": 9236,
+      "test_pairs": 4715,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-10.json",
+          "bytes": 16391,
+          "sha256": "28e7b503d00c60804f8f5b8aaafdc829e294d29e15fa7f95f17eb32829c3d850"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-10.bin",
+          "bytes": 3860,
+          "sha256": "8f8b86b6bb7dd53b4428ea8b6a8b418b3220ac7a716c46728e364bee196257ac"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.14369551200000075
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 112010,
+      "test_rows": 55948,
+      "train_pairs": 50750,
+      "test_pairs": 36376,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-11.json",
+          "bytes": 16394,
+          "sha256": "ccb9b89628f3af1f3cab01def1290f7dadd1178d083574ad3820923c3c456d59"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-11.bin",
+          "bytes": 3892,
+          "sha256": "63f29cb279be7500629cf94d9237d808dbbe6a550b9a7906cc43358fc0df0e74"
+        },
+        "trees": 8,
+        "nodes": 240
+      },
+      "cpu_s": 2.235272021
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-12.json",
+        "bytes": 13711,
+        "sha256": "b57b21991440e471749ee0a583d842c6216922bf246cab9e9ebd02f0f1c0cb17"
+      },
+      "train_rows": 4064,
+      "test_rows": 2037,
+      "train_pairs": 3938,
+      "test_pairs": 2003,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-12.json",
+          "bytes": 13711,
+          "sha256": "b57b21991440e471749ee0a583d842c6216922bf246cab9e9ebd02f0f1c0cb17"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-12.bin",
+          "bytes": 3060,
+          "sha256": "f1901f596a767afab7f0a8f1e14acc1e5c2f8362894ba09b2c16033fd36d79da"
+        },
+        "trees": 8,
+        "nodes": 188
+      },
+      "cpu_s": 0.10111257799999862
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-13.json",
+        "bytes": 13739,
+        "sha256": "add05165005441521bfe9feb3421492f2093a0aa1ecf78ed6ad198bdd1b3210c"
+      },
+      "train_rows": 44407,
+      "test_rows": 22195,
+      "train_pairs": 31417,
+      "test_pairs": 18524,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-13.json",
+          "bytes": 13739,
+          "sha256": "add05165005441521bfe9feb3421492f2093a0aa1ecf78ed6ad198bdd1b3210c"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-13.bin",
+          "bytes": 3092,
+          "sha256": "4bb447ca699e488f182f3765e3c4e5824946d3e4e1d0381cedc22c5443b2ad3e"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.1540912470000002
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-14.json",
+        "bytes": 16152,
+        "sha256": "59da357a5cb1f21b40c3c54b46f39f22412673febc63faa3587df55fa101a44e"
+      },
+      "train_rows": 9618,
+      "test_rows": 4702,
+      "train_pairs": 8852,
+      "test_pairs": 4516,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-14.json",
+          "bytes": 16152,
+          "sha256": "59da357a5cb1f21b40c3c54b46f39f22412673febc63faa3587df55fa101a44e"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-14.bin",
+          "bytes": 3796,
+          "sha256": "92305f77ba2840c3961986b952a524408fb7cb2bdd18df332305a4556631591f"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.13724041000000042
+    },
+    {
+      "arm": "M",
+      "fold": 1,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 101138,
+      "test_rows": 50100,
+      "train_pairs": 48749,
+      "test_pairs": 33883,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-1-15.json",
+          "bytes": 16902,
+          "sha256": "239ae3d736d5292c82c3344def5c5af5b375c36910ef61da5df6163233ad1555"
+        },
+        "binary": {
+          "path": "build/exp631/M-1-15.bin",
+          "bytes": 4020,
+          "sha256": "9420e9f7cabdc472147f33bb0dd45a62dea25ebc23a188a78d0d6019b2a335fa"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 2.0308406310000002
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-0.json",
+        "bytes": 12790,
+        "sha256": "6c3ee52955b3558405c54ff3d34598280ff48dc014424c2adf5339c65eaf31e8"
+      },
+      "train_rows": 4504,
+      "test_rows": 2210,
+      "train_pairs": 4347,
+      "test_pairs": 2166,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-0.json",
+          "bytes": 12790,
+          "sha256": "6c3ee52955b3558405c54ff3d34598280ff48dc014424c2adf5339c65eaf31e8"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-0.bin",
+          "bytes": 2804,
+          "sha256": "3673a3e1c9540054d8529eb2c9b9fd3d7cfe5af2645fcfb3ab113f53d2049b3c"
+        },
+        "trees": 8,
+        "nodes": 172
+      },
+      "cpu_s": 0.105655892999998
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-1.json",
+        "bytes": 14478,
+        "sha256": "d905b64fa2d116975f2fee8cf6604b704f5ead9cf107fff2e02242736f7f6f59"
+      },
+      "train_rows": 46374,
+      "test_rows": 23616,
+      "train_pairs": 32239,
+      "test_pairs": 19521,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-1.json",
+          "bytes": 14478,
+          "sha256": "d905b64fa2d116975f2fee8cf6604b704f5ead9cf107fff2e02242736f7f6f59"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-1.bin",
+          "bytes": 3348,
+          "sha256": "b12a85566dfac4e686898705a745574ebfdafb8ed73427a973a29b816c580372"
+        },
+        "trees": 8,
+        "nodes": 206
+      },
+      "cpu_s": 0.18992976099999836
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-2.json",
+        "bytes": 16021,
+        "sha256": "6592cfc96b5cb11b5b1fa0fdbac70b958416f97a3cbc635a37f3390c476a91e7"
+      },
+      "train_rows": 9928,
+      "test_rows": 5042,
+      "train_pairs": 9179,
+      "test_pairs": 4853,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-2.json",
+          "bytes": 16021,
+          "sha256": "6592cfc96b5cb11b5b1fa0fdbac70b958416f97a3cbc635a37f3390c476a91e7"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-2.bin",
+          "bytes": 3796,
+          "sha256": "7efde3ca30f2188240f4e8dac17dff9080ad47e77475274d122ea07cfca15c75"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.13810320600000026
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 101087,
+      "test_rows": 50385,
+      "train_pairs": 48786,
+      "test_pairs": 34054,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-3.json",
+          "bytes": 16371,
+          "sha256": "88e97ec2ded5a233fc5e5bbdd82914315a3c4004ffeda56457d39a233e2a4fbf"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-3.bin",
+          "bytes": 3892,
+          "sha256": "36b983518afae0f6592fdcdb38ae537f5e9def3ccc3fec26c6efd8bd82b07cd4"
+        },
+        "trees": 8,
+        "nodes": 240
+      },
+      "cpu_s": 1.8995469840000005
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-4.json",
+        "bytes": 12694,
+        "sha256": "211376adad7f93d36f8c2df8b507d31df869232b7a751fa0c4dd8f2cf4a9f054"
+      },
+      "train_rows": 4254,
+      "test_rows": 2165,
+      "train_pairs": 4108,
+      "test_pairs": 2115,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-4.json",
+          "bytes": 12694,
+          "sha256": "211376adad7f93d36f8c2df8b507d31df869232b7a751fa0c4dd8f2cf4a9f054"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-4.bin",
+          "bytes": 2804,
+          "sha256": "7c1d5359dc14afd56709822f557b11d412ed1a99e8cb4359c95539f178c788ad"
+        },
+        "trees": 8,
+        "nodes": 172
+      },
+      "cpu_s": 0.10385051999999817
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-5.json",
+        "bytes": 16808,
+        "sha256": "ef3181f1839aa13d7efd829f0efbb40e438f4fcf7d224659a5aef6d86fe2df10"
+      },
+      "train_rows": 48405,
+      "test_rows": 24147,
+      "train_pairs": 33092,
+      "test_pairs": 19900,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-5.json",
+          "bytes": 16808,
+          "sha256": "ef3181f1839aa13d7efd829f0efbb40e438f4fcf7d224659a5aef6d86fe2df10"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-5.bin",
+          "bytes": 3956,
+          "sha256": "ffd8378699bc576efa941aaea28c3ef3bd7cc718391586ec9a561e955a6770c3"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 0.1899865130000009
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-6.json",
+        "bytes": 16355,
+        "sha256": "59a9d016f454252e33f04873f099dab839ae3c592b273aa3d39f5ff1caebce23"
+      },
+      "train_rows": 9531,
+      "test_rows": 4753,
+      "train_pairs": 8832,
+      "test_pairs": 4568,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-6.json",
+          "bytes": 16355,
+          "sha256": "59a9d016f454252e33f04873f099dab839ae3c592b273aa3d39f5ff1caebce23"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-6.bin",
+          "bytes": 3860,
+          "sha256": "bf344e3ce18d1a781f5eb7f25aef9a3e7324c459f7fee56e99861b2dde514a77"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.13955817699999784
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 112193,
+      "test_rows": 55865,
+      "train_pairs": 50674,
+      "test_pairs": 36351,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-7.json",
+          "bytes": 16739,
+          "sha256": "a342adfa36893d89053321aec8e3d7a1f32bdb908fab69bd8f20688ce501324e"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-7.bin",
+          "bytes": 3988,
+          "sha256": "dc20203a922c6f892a2f28353d7b123fc84069c949035768fd8c102189959b2c"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 2.0785060820000005
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-8.json",
+        "bytes": 14038,
+        "sha256": "24d1eaf5a83966d2b43a3f5394a7ac86e5df6920347bf0ac306e3e50555b396a"
+      },
+      "train_rows": 4321,
+      "test_rows": 2070,
+      "train_pairs": 4176,
+      "test_pairs": 2029,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-8.json",
+          "bytes": 14038,
+          "sha256": "24d1eaf5a83966d2b43a3f5394a7ac86e5df6920347bf0ac306e3e50555b396a"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-8.bin",
+          "bytes": 3188,
+          "sha256": "ee324fc2e4773b99fe029ee4ddbe54ba6c379b1ba020576a522c2b74dfce8e2b"
+        },
+        "trees": 8,
+        "nodes": 196
+      },
+      "cpu_s": 0.10293546099999773
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-9.json",
+        "bytes": 14458,
+        "sha256": "1a4ea5985beccb5d12a16d052e30a2ebfcf31300a81848474b264c8dc28e8811"
+      },
+      "train_rows": 45313,
+      "test_rows": 22639,
+      "train_pairs": 31738,
+      "test_pairs": 18882,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-9.json",
+          "bytes": 14458,
+          "sha256": "1a4ea5985beccb5d12a16d052e30a2ebfcf31300a81848474b264c8dc28e8811"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-9.bin",
+          "bytes": 3348,
+          "sha256": "21971aa663d85e2580549d41fc0b5be03fc12460318e0b370904b9590ae8597e"
+        },
+        "trees": 8,
+        "nodes": 206
+      },
+      "cpu_s": 0.19519629199999855
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-10.json",
+        "bytes": 16228,
+        "sha256": "b651a2350114a08cab27354fcba60c3cccce811f6aba7bec4a88e91c0d4ee6d0"
+      },
+      "train_rows": 9832,
+      "test_rows": 5147,
+      "train_pairs": 9036,
+      "test_pairs": 4914,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-10.json",
+          "bytes": 16228,
+          "sha256": "b651a2350114a08cab27354fcba60c3cccce811f6aba7bec4a88e91c0d4ee6d0"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-10.bin",
+          "bytes": 3828,
+          "sha256": "4fe0cc654b0e383a4123a1b9d6f81f540d12e8d512a8849c5b1df0af10c93ac8"
+        },
+        "trees": 8,
+        "nodes": 236
+      },
+      "cpu_s": 0.15213943999999913
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 111910,
+      "test_rows": 56048,
+      "train_pairs": 50645,
+      "test_pairs": 36472,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-11.json",
+          "bytes": 16638,
+          "sha256": "5b20dbc490c6fef6e9a1c52696ca5b97b8f1e93a06b82d953d80dd0bfc0e36b4"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-11.bin",
+          "bytes": 3988,
+          "sha256": "3d030080e0023a5b8f38031df65d1618554aa09aeaeff9b4931833a17e80f941"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 2.1613885439999976
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-12.json",
+        "bytes": 14313,
+        "sha256": "fa4927472bb90dd1d861d6237559aa97cd0d7fb233978c5ed1804b4103eb2625"
+      },
+      "train_rows": 4039,
+      "test_rows": 2062,
+      "train_pairs": 3898,
+      "test_pairs": 2037,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-12.json",
+          "bytes": 14313,
+          "sha256": "fa4927472bb90dd1d861d6237559aa97cd0d7fb233978c5ed1804b4103eb2625"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-12.bin",
+          "bytes": 3252,
+          "sha256": "b19de7df09c9cda5f13aa2c9a80d65d2e425cd9f489189873c12f7f4bd3781c8"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.10566700399999718
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-13.json",
+        "bytes": 13749,
+        "sha256": "1a54992173655f899083959de1279081b6457fe914b67dec17d0823c725fef29"
+      },
+      "train_rows": 44546,
+      "test_rows": 22056,
+      "train_pairs": 31333,
+      "test_pairs": 18498,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-13.json",
+          "bytes": 13749,
+          "sha256": "1a54992173655f899083959de1279081b6457fe914b67dec17d0823c725fef29"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-13.bin",
+          "bytes": 3124,
+          "sha256": "942bc3afc13fbb40194573c8bde20cd9d8552d2543590b8ad8ee67a670240fa0"
+        },
+        "trees": 8,
+        "nodes": 192
+      },
+      "cpu_s": 0.15488539299999715
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-14.json",
+        "bytes": 16057,
+        "sha256": "a645e9f90545491a42081fdea5c362098756762c3f7f551a5fc5e3b3af6d2d72"
+      },
+      "train_rows": 9452,
+      "test_rows": 4868,
+      "train_pairs": 8753,
+      "test_pairs": 4666,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-14.json",
+          "bytes": 16057,
+          "sha256": "a645e9f90545491a42081fdea5c362098756762c3f7f551a5fc5e3b3af6d2d72"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-14.bin",
+          "bytes": 3764,
+          "sha256": "3efcfe4b6cb5add347827610b54796bb4eeda3ea0cb9882589b2263c11410f69"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.1343890560000034
+    },
+    {
+      "arm": "M",
+      "fold": 2,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 100677,
+      "test_rows": 50561,
+      "train_pairs": 48670,
+      "test_pairs": 34034,
+      "assets": {
+        "json": {
+          "path": "build/exp631/M-2-15.json",
+          "bytes": 16911,
+          "sha256": "0af8ff15d7f3bb491d5ba157659704e53296bb82cd0e4aa718bdbaacdb118201"
+        },
+        "binary": {
+          "path": "build/exp631/M-2-15.bin",
+          "bytes": 4020,
+          "sha256": "817342e30ea730c964ae5285ef330a1f89aa271d10bbb5bb319d7ca28f22f04f"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.9823519869999942
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-0.json",
+        "bytes": 12611,
+        "sha256": "1f5737b9842d688ab8d833a8de4d9818b260cb36d69664cde16d58fa501ed62e"
+      },
+      "train_rows": 4453,
+      "test_rows": 2261,
+      "train_pairs": 4279,
+      "test_pairs": 2213,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-0.json",
+          "bytes": 12611,
+          "sha256": "1f5737b9842d688ab8d833a8de4d9818b260cb36d69664cde16d58fa501ed62e"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-0.bin",
+          "bytes": 2836,
+          "sha256": "ee2c1eb29b071fb17dfb6ec88c8d3a0f9e2ac52ecf0a7615d4afa80e1a8184ee"
+        },
+        "trees": 8,
+        "nodes": 174
+      },
+      "cpu_s": 0.10987780399999991
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-1.json",
+        "bytes": 15703,
+        "sha256": "94f5c3fcb2a32950e3846a2bb9bf8e33bd707da2315564e60d6641df8eebf077"
+      },
+      "train_rows": 46710,
+      "test_rows": 23280,
+      "train_pairs": 32553,
+      "test_pairs": 19292,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-1.json",
+          "bytes": 15703,
+          "sha256": "94f5c3fcb2a32950e3846a2bb9bf8e33bd707da2315564e60d6641df8eebf077"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-1.bin",
+          "bytes": 3700,
+          "sha256": "40202600ac1b9352e816977e3368ae438f3e5843e6b3c1d918c128c260d61822"
+        },
+        "trees": 8,
+        "nodes": 228
+      },
+      "cpu_s": 0.19222075399999738
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-2.json",
+        "bytes": 16229,
+        "sha256": "93e3ac1f3f3dfe68d4a70c92ac50e5c9d23271c027dd2d9c837342c68d9ffe95"
+      },
+      "train_rows": 10007,
+      "test_rows": 4963,
+      "train_pairs": 9227,
+      "test_pairs": 4769,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-2.json",
+          "bytes": 16229,
+          "sha256": "93e3ac1f3f3dfe68d4a70c92ac50e5c9d23271c027dd2d9c837342c68d9ffe95"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-2.bin",
+          "bytes": 3828,
+          "sha256": "b0bd4d93af68f1c457b6f8616f7f793e465c841255c3de697f93f8c6501f8f9f"
+        },
+        "trees": 8,
+        "nodes": 236
+      },
+      "cpu_s": 0.14604382099999924
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 47090,
+      "test_rows": 23906,
+      "train_pairs": 32565,
+      "test_pairs": 19677,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-3.json",
+          "bytes": 16488,
+          "sha256": "d46c135e9dc2e1b917ce679dd624cf5e2ea41395c7e60430f6b1c635d7d40c22"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-3.bin",
+          "bytes": 3988,
+          "sha256": "bca2cd3f80ef9406cba7c5cbd3c185ca9998308e77e4aa8fbb1d4c79add41c25"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.1161734220000028
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-4.json",
+        "bytes": 12217,
+        "sha256": "6d060532c63832e3ea32e508b0002485bf54a8b867000241d2992f3a9736f69d"
+      },
+      "train_rows": 4316,
+      "test_rows": 2103,
+      "train_pairs": 4144,
+      "test_pairs": 2069,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-4.json",
+          "bytes": 12217,
+          "sha256": "6d060532c63832e3ea32e508b0002485bf54a8b867000241d2992f3a9736f69d"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-4.bin",
+          "bytes": 2676,
+          "sha256": "4a558d2ba8739ec2bdb2a04bb6ea414dc9907ca7e4544e85e3ba84100e1d937d"
+        },
+        "trees": 8,
+        "nodes": 164
+      },
+      "cpu_s": 0.09602501400000563
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-5.json",
+        "bytes": 14713,
+        "sha256": "1514633e03b5535455c87217d6e24d5ef4b1d70d745edd81940c15fc716d353b"
+      },
+      "train_rows": 48314,
+      "test_rows": 24238,
+      "train_pairs": 33161,
+      "test_pairs": 19883,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-5.json",
+          "bytes": 14713,
+          "sha256": "1514633e03b5535455c87217d6e24d5ef4b1d70d745edd81940c15fc716d353b"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-5.bin",
+          "bytes": 3380,
+          "sha256": "d3497e6d25c32f3ffbdd6c96bc6e1d9cb4dd879ee7f8dff3bd8fdeb218fbbc18"
+        },
+        "trees": 8,
+        "nodes": 208
+      },
+      "cpu_s": 0.19472607799999508
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-6.json",
+        "bytes": 16071,
+        "sha256": "c4c8ae6cb3e56b1b072568b910959a22118e99e15d157b8443148eb4f85abcc9"
+      },
+      "train_rows": 9497,
+      "test_rows": 4787,
+      "train_pairs": 8794,
+      "test_pairs": 4596,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-6.json",
+          "bytes": 16071,
+          "sha256": "c4c8ae6cb3e56b1b072568b910959a22118e99e15d157b8443148eb4f85abcc9"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-6.bin",
+          "bytes": 3764,
+          "sha256": "12489b65b88ac53a87e1a9d637c701a0a8510af2f3244e8bf0ccc1e2b9c0843d"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.14674024400000008
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 54282,
+      "test_rows": 27275,
+      "train_pairs": 35691,
+      "test_pairs": 21932,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-7.json",
+          "bytes": 16821,
+          "sha256": "758b905c88454ade36e7f7a60f05ce9615ee2bd12ff2c45297b7f571192b8eaa"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-7.bin",
+          "bytes": 4020,
+          "sha256": "8cdcf7920dad4378040a7e0b66335e25129c4114ee9b4433dccb2b7cf8b3726a"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.2488139299999972
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-8.json",
+        "bytes": 12762,
+        "sha256": "29a38bb8b0a4bb8aca36130beb40f01787e479a0c509b857f990dc4c58229adb"
+      },
+      "train_rows": 4254,
+      "test_rows": 2137,
+      "train_pairs": 4109,
+      "test_pairs": 2102,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-8.json",
+          "bytes": 12762,
+          "sha256": "29a38bb8b0a4bb8aca36130beb40f01787e479a0c509b857f990dc4c58229adb"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-8.bin",
+          "bytes": 2836,
+          "sha256": "0343e7f5fcc7a4c28c24a200a12a7ac745863cfbff692b00bc3ffee427ac2350"
+        },
+        "trees": 8,
+        "nodes": 174
+      },
+      "cpu_s": 0.09674872800000145
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-9.json",
+        "bytes": 14174,
+        "sha256": "a938310d6d42975d3345c0b307082211dc4f0ba6d1f888a55b1d3616e3b95459"
+      },
+      "train_rows": 45279,
+      "test_rows": 22673,
+      "train_pairs": 31793,
+      "test_pairs": 18858,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-9.json",
+          "bytes": 14174,
+          "sha256": "a938310d6d42975d3345c0b307082211dc4f0ba6d1f888a55b1d3616e3b95459"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-9.bin",
+          "bytes": 3252,
+          "sha256": "02e9aa60c9bb973a954e9ea1ef50a97bb7d36e1f98487fc9e9f5aaed356c1530"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.1469090229999992
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-10.json",
+        "bytes": 16377,
+        "sha256": "73a7fd3992ac8bc40b9855a7767d971ac3cc346936da4b0f5c0e4d14bc3b16b1"
+      },
+      "train_rows": 10069,
+      "test_rows": 4910,
+      "train_pairs": 9229,
+      "test_pairs": 4699,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-10.json",
+          "bytes": 16377,
+          "sha256": "73a7fd3992ac8bc40b9855a7767d971ac3cc346936da4b0f5c0e4d14bc3b16b1"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-10.bin",
+          "bytes": 3860,
+          "sha256": "7bb15a65947e24a8f7c2088c78e602c24bada3944dc77dcd8370d62adcab688e"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.14694254300000154
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 55478,
+      "test_rows": 27317,
+      "train_pairs": 36055,
+      "test_pairs": 21976,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-11.json",
+          "bytes": 16724,
+          "sha256": "b3f911eb0b4faa7f3f9fbee0451188a9e8ed72553578ac4a4442912be2bf4293"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-11.bin",
+          "bytes": 4020,
+          "sha256": "1afef26d5d9c5634499e8dd3d4217bfe6e304b980618460747987938c1821dd9"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.2430222389999983
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-12.json",
+        "bytes": 13442,
+        "sha256": "3596c6d2c28fa70165d64d98e272256058fb5c29ffbdfcd63867203b607d7e26"
+      },
+      "train_rows": 4099,
+      "test_rows": 2002,
+      "train_pairs": 3985,
+      "test_pairs": 1969,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-12.json",
+          "bytes": 13442,
+          "sha256": "3596c6d2c28fa70165d64d98e272256058fb5c29ffbdfcd63867203b607d7e26"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-12.bin",
+          "bytes": 2996,
+          "sha256": "212b9c9e7d5f85969bcffdb93823e316dd2cdc2d3210ff8da4f9d8d12680bc65"
+        },
+        "trees": 8,
+        "nodes": 184
+      },
+      "cpu_s": 0.09452266400000298
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-13.json",
+        "bytes": 14312,
+        "sha256": "46457f90c1315e7ac7c1a987be378e2a80bf8ec3e1205dc9f353728c93fc2bb2"
+      },
+      "train_rows": 44251,
+      "test_rows": 22351,
+      "train_pairs": 31319,
+      "test_pairs": 18664,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-13.json",
+          "bytes": 14312,
+          "sha256": "46457f90c1315e7ac7c1a987be378e2a80bf8ec3e1205dc9f353728c93fc2bb2"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-13.bin",
+          "bytes": 3316,
+          "sha256": "9ae4ad572dd395ba816dda51be0a3876f78d283a3680d4331f49cb81bc0f4a7a"
+        },
+        "trees": 8,
+        "nodes": 204
+      },
+      "cpu_s": 0.16649469100000402
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-0-14.json",
+        "bytes": 16086,
+        "sha256": "f8d45db3ea382955b9a7a282463ec33487fd5dfca0b4216ffd8101348fcdddbc"
+      },
+      "train_rows": 9570,
+      "test_rows": 4750,
+      "train_pairs": 8813,
+      "test_pairs": 4560,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-14.json",
+          "bytes": 16086,
+          "sha256": "f8d45db3ea382955b9a7a282463ec33487fd5dfca0b4216ffd8101348fcdddbc"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-14.bin",
+          "bytes": 3764,
+          "sha256": "527ecc6f6755e04302bffd73ace7ec26f81a59d911d0ec7cc26f4756bef35385"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.13484461200000197
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 47750,
+      "test_rows": 24076,
+      "train_pairs": 32824,
+      "test_pairs": 19782,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-15.json",
+          "bytes": 16585,
+          "sha256": "5663a283eea70abb8dfad38c0eb8a4fb6455a72ef58ae0e601995d9bbbb5e4fc"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-15.bin",
+          "bytes": 3956,
+          "sha256": "e2033e5e2dca3ba9e2abcbd93b5344c620ce6d65677415b2ae01d65940c05405"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 1.1540832210000005
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 16,
+      "trained": true,
+      "source": null,
+      "train_rows": 53901,
+      "test_rows": 26575,
+      "train_pairs": 35465,
+      "test_pairs": 21449,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-16.json",
+          "bytes": 16492,
+          "sha256": "c43511a6027c484801a9cdbffe30957b74c75233cd11e08eb3a551c4427de27b"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-16.bin",
+          "bytes": 3892,
+          "sha256": "06cbf322aec1e462efb818776c27d642c603b0447a45540d3fb7d454cf0d7554"
+        },
+        "trees": 8,
+        "nodes": 240
+      },
+      "cpu_s": 1.3049110009999936
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 17,
+      "trained": true,
+      "source": null,
+      "train_rows": 57607,
+      "test_rows": 28894,
+      "train_pairs": 36995,
+      "test_pairs": 22914,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-17.json",
+          "bytes": 16386,
+          "sha256": "67ae3867cf2f19fd50429eca00b4539538bfa208b8b8ababd28884f4a305ca2b"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-17.bin",
+          "bytes": 3860,
+          "sha256": "a561a47bf1e25326bb8867c39bc05c0e7b918f85f7b752ba4330a253a3ecd173"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 1.3320101370000046
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 18,
+      "trained": true,
+      "source": null,
+      "train_rows": 56518,
+      "test_rows": 28645,
+      "train_pairs": 36509,
+      "test_pairs": 22887,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-18.json",
+          "bytes": 16082,
+          "sha256": "1fec2ca43795baffe1d6b6c26409c2cea56bf163a0e70562aa2053d2b347e5f5"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-18.bin",
+          "bytes": 3764,
+          "sha256": "084b89b614230058b720c7ca6909e4d355458b8f80a5466e7c4be49e69049c38"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 1.3088241379999985
+    },
+    {
+      "arm": "E",
+      "fold": 0,
+      "route": 19,
+      "trained": true,
+      "source": null,
+      "train_rows": 52911,
+      "test_rows": 26501,
+      "train_pairs": 35066,
+      "test_pairs": 21400,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-0-19.json",
+          "bytes": 16832,
+          "sha256": "e6dd83062e3322254867636e198835f93ad6e3464f0b574bb043581c1e686486"
+        },
+        "binary": {
+          "path": "build/exp631/E-0-19.bin",
+          "bytes": 3988,
+          "sha256": "e7b1e1c7eee9ea24f31abe009463acd000272533c9e50b387b2d543ff36190cb"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.2446889540000043
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-0.json",
+        "bytes": 13775,
+        "sha256": "3c8d710921396ce1250551766f29bc94ad614f63fe04492e73ea605bf90f36d4"
+      },
+      "train_rows": 4471,
+      "test_rows": 2243,
+      "train_pairs": 4300,
+      "test_pairs": 2207,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-0.json",
+          "bytes": 13775,
+          "sha256": "3c8d710921396ce1250551766f29bc94ad614f63fe04492e73ea605bf90f36d4"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-0.bin",
+          "bytes": 3092,
+          "sha256": "91ca5e21721586d0728267ac584aa95501276ae27f78b9b28ebd842730f0b919"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.10110040899999717
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-1.json",
+        "bytes": 14241,
+        "sha256": "ffdf8bf5a71a8f3b20f654a0698eb6e7f8571b6b9bcafc420862a6f30f725108"
+      },
+      "train_rows": 46896,
+      "test_rows": 23094,
+      "train_pairs": 32527,
+      "test_pairs": 19208,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-1.json",
+          "bytes": 14241,
+          "sha256": "ffdf8bf5a71a8f3b20f654a0698eb6e7f8571b6b9bcafc420862a6f30f725108"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-1.bin",
+          "bytes": 3252,
+          "sha256": "b93ebefd6328d0767ae4fb534e9a9b9f46d56cdeb091236f912bc4626ccb2b86"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.19847544599999623
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-2.json",
+        "bytes": 16158,
+        "sha256": "7d3580da279e7a7796a0a42e5928498a148ac8cb906b11643363999047cf558f"
+      },
+      "train_rows": 10005,
+      "test_rows": 4965,
+      "train_pairs": 9228,
+      "test_pairs": 4784,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-2.json",
+          "bytes": 16158,
+          "sha256": "7d3580da279e7a7796a0a42e5928498a148ac8cb906b11643363999047cf558f"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-2.bin",
+          "bytes": 3796,
+          "sha256": "3454e1dcba6f33f0455fa9f55e03db70ce93ec8e6ec3e1795b6d941d815b5b42"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.142296328999997
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 47333,
+      "test_rows": 23663,
+      "train_pairs": 32727,
+      "test_pairs": 19490,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-3.json",
+          "bytes": 16478,
+          "sha256": "19fcf097af1519bbc7af603c88823e98021a5422920a901f207025c75b8ee83c"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-3.bin",
+          "bytes": 3988,
+          "sha256": "789c42c024f16eda105be9a0979596091bd1ca090ae766777972200b3ddadb02"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.098340823000001
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-4.json",
+        "bytes": 13074,
+        "sha256": "9b5d035153897cd1e4c9d22bb2d5ee292fa4a8acc4bdff9010f57629fa7fea98"
+      },
+      "train_rows": 4268,
+      "test_rows": 2151,
+      "train_pairs": 4103,
+      "test_pairs": 2110,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-4.json",
+          "bytes": 13074,
+          "sha256": "9b5d035153897cd1e4c9d22bb2d5ee292fa4a8acc4bdff9010f57629fa7fea98"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-4.bin",
+          "bytes": 2932,
+          "sha256": "e517254a563576962ba1ca6696790c2a65144f47f6d237641a5a154646e7eae2"
+        },
+        "trees": 8,
+        "nodes": 180
+      },
+      "cpu_s": 0.10655421300000256
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-5.json",
+        "bytes": 14997,
+        "sha256": "0b02f3bc9cd4d6ddb4c43ac8c1f5db7e3ce254f5f1b580f4ccff9fc833671801"
+      },
+      "train_rows": 48385,
+      "test_rows": 24167,
+      "train_pairs": 33163,
+      "test_pairs": 19880,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-5.json",
+          "bytes": 14997,
+          "sha256": "0b02f3bc9cd4d6ddb4c43ac8c1f5db7e3ce254f5f1b580f4ccff9fc833671801"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-5.bin",
+          "bytes": 3476,
+          "sha256": "c1e626511426429f5a6ea117f74e6335c36c879189cacc40a65089f23939842b"
+        },
+        "trees": 8,
+        "nodes": 214
+      },
+      "cpu_s": 0.20042307599999987
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-6.json",
+        "bytes": 16212,
+        "sha256": "c4315f649438e35a16483d6b8428603d7a341ef0a12fe5b1f5df821266e95594"
+      },
+      "train_rows": 9540,
+      "test_rows": 4744,
+      "train_pairs": 8814,
+      "test_pairs": 4561,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-6.json",
+          "bytes": 16212,
+          "sha256": "c4315f649438e35a16483d6b8428603d7a341ef0a12fe5b1f5df821266e95594"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-6.bin",
+          "bytes": 3796,
+          "sha256": "ab6f85ff8debadfc4112b9879d374d96d1f86cf92023d3eca77043e1c2e5f450"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.1379634779999961
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 54264,
+      "test_rows": 27293,
+      "train_pairs": 35662,
+      "test_pairs": 21867,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-7.json",
+          "bytes": 16760,
+          "sha256": "5a3c29c6186fdf63fb8d3cd167ed33ecc45ef00d64972c485fbe2ecb0a672cbe"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-7.bin",
+          "bytes": 4020,
+          "sha256": "13b3cf5219c94675caf18dfc08daf4398fa04b351b87877a97d8fae558d06d69"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.256914248000001
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-8.json",
+        "bytes": 13491,
+        "sha256": "9ff8507fdd80618d5be98ebcb086ab6ec4650c23067394633129e0b802b1f10d"
+      },
+      "train_rows": 4207,
+      "test_rows": 2184,
+      "train_pairs": 4066,
+      "test_pairs": 2150,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-8.json",
+          "bytes": 13491,
+          "sha256": "9ff8507fdd80618d5be98ebcb086ab6ec4650c23067394633129e0b802b1f10d"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-8.bin",
+          "bytes": 2996,
+          "sha256": "006a010139b5408c59d635c97e5fd7f108c07e43423415290dc7454db9c7511c"
+        },
+        "trees": 8,
+        "nodes": 184
+      },
+      "cpu_s": 0.10056083700000329
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-9.json",
+        "bytes": 13584,
+        "sha256": "517ef8e2e9661b793c864e1fc6b4172ff32504c89c2c3b0ba636e5873512e7f2"
+      },
+      "train_rows": 45312,
+      "test_rows": 22640,
+      "train_pairs": 31811,
+      "test_pairs": 18887,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-9.json",
+          "bytes": 13584,
+          "sha256": "517ef8e2e9661b793c864e1fc6b4172ff32504c89c2c3b0ba636e5873512e7f2"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-9.bin",
+          "bytes": 3092,
+          "sha256": "733f04ef1afc124b0e6e68cb9cb481875438606c5c8c28fbd66aee54bd009690"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.13541014099999416
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-10.json",
+        "bytes": 16391,
+        "sha256": "28e7b503d00c60804f8f5b8aaafdc829e294d29e15fa7f95f17eb32829c3d850"
+      },
+      "train_rows": 10057,
+      "test_rows": 4922,
+      "train_pairs": 9236,
+      "test_pairs": 4715,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-10.json",
+          "bytes": 16391,
+          "sha256": "28e7b503d00c60804f8f5b8aaafdc829e294d29e15fa7f95f17eb32829c3d850"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-10.bin",
+          "bytes": 3860,
+          "sha256": "8f8b86b6bb7dd53b4428ea8b6a8b418b3220ac7a716c46728e364bee196257ac"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.15359626499999735
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 55205,
+      "test_rows": 27590,
+      "train_pairs": 36072,
+      "test_pairs": 22087,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-11.json",
+          "bytes": 16497,
+          "sha256": "f3bde24ec3ebc83f2863e4342c2ae1b9adbe981ace350ba752be073196c861f9"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-11.bin",
+          "bytes": 3988,
+          "sha256": "06f90491e51813c75b417c258e3cd862fdf81b9b6e3b70b9ad9243cebbd71505"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.3604611539999993
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-12.json",
+        "bytes": 13711,
+        "sha256": "b57b21991440e471749ee0a583d842c6216922bf246cab9e9ebd02f0f1c0cb17"
+      },
+      "train_rows": 4064,
+      "test_rows": 2037,
+      "train_pairs": 3938,
+      "test_pairs": 2003,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-12.json",
+          "bytes": 13711,
+          "sha256": "b57b21991440e471749ee0a583d842c6216922bf246cab9e9ebd02f0f1c0cb17"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-12.bin",
+          "bytes": 3060,
+          "sha256": "f1901f596a767afab7f0a8f1e14acc1e5c2f8362894ba09b2c16033fd36d79da"
+        },
+        "trees": 8,
+        "nodes": 188
+      },
+      "cpu_s": 0.15289040000000398
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-13.json",
+        "bytes": 13739,
+        "sha256": "add05165005441521bfe9feb3421492f2093a0aa1ecf78ed6ad198bdd1b3210c"
+      },
+      "train_rows": 44407,
+      "test_rows": 22195,
+      "train_pairs": 31417,
+      "test_pairs": 18524,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-13.json",
+          "bytes": 13739,
+          "sha256": "add05165005441521bfe9feb3421492f2093a0aa1ecf78ed6ad198bdd1b3210c"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-13.bin",
+          "bytes": 3092,
+          "sha256": "4bb447ca699e488f182f3765e3c4e5824946d3e4e1d0381cedc22c5443b2ad3e"
+        },
+        "trees": 8,
+        "nodes": 190
+      },
+      "cpu_s": 0.19167972399999655
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-1-14.json",
+        "bytes": 16152,
+        "sha256": "59da357a5cb1f21b40c3c54b46f39f22412673febc63faa3587df55fa101a44e"
+      },
+      "train_rows": 9618,
+      "test_rows": 4702,
+      "train_pairs": 8852,
+      "test_pairs": 4516,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-14.json",
+          "bytes": 16152,
+          "sha256": "59da357a5cb1f21b40c3c54b46f39f22412673febc63faa3587df55fa101a44e"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-14.bin",
+          "bytes": 3796,
+          "sha256": "92305f77ba2840c3961986b952a524408fb7cb2bdd18df332305a4556631591f"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.1442533829999988
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 48071,
+      "test_rows": 23755,
+      "train_pairs": 32921,
+      "test_pairs": 19548,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-15.json",
+          "bytes": 16754,
+          "sha256": "ceab925d6ba225d697c9837c223c0b6e9bdf10cfd03406ba7482d2489447fb37"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-15.bin",
+          "bytes": 4020,
+          "sha256": "cd6828efd0620b4711333462d4ffb89e4a51b9658908504f09336f2b639f0134"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.2237601550000008
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 16,
+      "trained": true,
+      "source": null,
+      "train_rows": 53533,
+      "test_rows": 26943,
+      "train_pairs": 35449,
+      "test_pairs": 21704,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-16.json",
+          "bytes": 16378,
+          "sha256": "4c9ac878fff470d228718e49da3034c40931c10812c715019996eb96832ae8b5"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-16.bin",
+          "bytes": 3860,
+          "sha256": "b9900140d9fdc5bf74362cc97cf532ca7df5de71e7b31f832a8d730701072916"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 1.2141825630000014
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 17,
+      "trained": true,
+      "source": null,
+      "train_rows": 57770,
+      "test_rows": 28731,
+      "train_pairs": 37124,
+      "test_pairs": 22786,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-17.json",
+          "bytes": 16734,
+          "sha256": "bbd58b2daa40ca9cf10c67f6da1f20dbd25eddd8a7956b2e88a4050421644c52"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-17.bin",
+          "bytes": 3956,
+          "sha256": "ac5ecbd326215dea39bf6f5f22249d23e7b6a9e5c30969b98b9c529c80868380"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 1.2933912590000034
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 18,
+      "trained": true,
+      "source": null,
+      "train_rows": 56805,
+      "test_rows": 28358,
+      "train_pairs": 36733,
+      "test_pairs": 22619,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-18.json",
+          "bytes": 16907,
+          "sha256": "67ed5a2e4871c03e25163392ba5a0c3e8fb8fd593de06c4906d7f8b2766194e1"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-18.bin",
+          "bytes": 3988,
+          "sha256": "a80d912104b4942b788bf3d5ca2281ca7e2b170d1486a574e2259acd4ba43671"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.3196984060000005
+    },
+    {
+      "arm": "E",
+      "fold": 1,
+      "route": 19,
+      "trained": true,
+      "source": null,
+      "train_rows": 53067,
+      "test_rows": 26345,
+      "train_pairs": 35123,
+      "test_pairs": 21242,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-1-19.json",
+          "bytes": 16859,
+          "sha256": "088b5d0020a5ceea8b5cee76cb2639d6b04375dc1c4dde9f04dcc52ce427606b"
+        },
+        "binary": {
+          "path": "build/exp631/E-1-19.bin",
+          "bytes": 3988,
+          "sha256": "e6e28630648fa5ae1e529bdbe66d26eacae24538972f4e438882687b65f87132"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.2005168879999957
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 0,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-0.json",
+        "bytes": 12790,
+        "sha256": "6c3ee52955b3558405c54ff3d34598280ff48dc014424c2adf5339c65eaf31e8"
+      },
+      "train_rows": 4504,
+      "test_rows": 2210,
+      "train_pairs": 4347,
+      "test_pairs": 2166,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-0.json",
+          "bytes": 12790,
+          "sha256": "6c3ee52955b3558405c54ff3d34598280ff48dc014424c2adf5339c65eaf31e8"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-0.bin",
+          "bytes": 2804,
+          "sha256": "3673a3e1c9540054d8529eb2c9b9fd3d7cfe5af2645fcfb3ab113f53d2049b3c"
+        },
+        "trees": 8,
+        "nodes": 172
+      },
+      "cpu_s": 0.10952834300000092
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 1,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-1.json",
+        "bytes": 14478,
+        "sha256": "d905b64fa2d116975f2fee8cf6604b704f5ead9cf107fff2e02242736f7f6f59"
+      },
+      "train_rows": 46374,
+      "test_rows": 23616,
+      "train_pairs": 32239,
+      "test_pairs": 19521,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-1.json",
+          "bytes": 14478,
+          "sha256": "d905b64fa2d116975f2fee8cf6604b704f5ead9cf107fff2e02242736f7f6f59"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-1.bin",
+          "bytes": 3348,
+          "sha256": "b12a85566dfac4e686898705a745574ebfdafb8ed73427a973a29b816c580372"
+        },
+        "trees": 8,
+        "nodes": 206
+      },
+      "cpu_s": 0.17169836099999713
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 2,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-2.json",
+        "bytes": 16021,
+        "sha256": "6592cfc96b5cb11b5b1fa0fdbac70b958416f97a3cbc635a37f3390c476a91e7"
+      },
+      "train_rows": 9928,
+      "test_rows": 5042,
+      "train_pairs": 9179,
+      "test_pairs": 4853,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-2.json",
+          "bytes": 16021,
+          "sha256": "6592cfc96b5cb11b5b1fa0fdbac70b958416f97a3cbc635a37f3390c476a91e7"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-2.bin",
+          "bytes": 3796,
+          "sha256": "7efde3ca30f2188240f4e8dac17dff9080ad47e77475274d122ea07cfca15c75"
+        },
+        "trees": 8,
+        "nodes": 234
+      },
+      "cpu_s": 0.14130584600000162
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 3,
+      "trained": true,
+      "source": null,
+      "train_rows": 47569,
+      "test_rows": 23427,
+      "train_pairs": 32708,
+      "test_pairs": 19410,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-3.json",
+          "bytes": 16780,
+          "sha256": "b4ea0192f920797f8c099455f0f674148e8ef8cb5716a5d0bcd9d61b408a3f5d"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-3.bin",
+          "bytes": 4020,
+          "sha256": "44bd7d00d2dd037f7feb0657d263c28d0e5420799cc3edf02e5cc8c12294e2bc"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.0558158119999987
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 4,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-4.json",
+        "bytes": 12694,
+        "sha256": "211376adad7f93d36f8c2df8b507d31df869232b7a751fa0c4dd8f2cf4a9f054"
+      },
+      "train_rows": 4254,
+      "test_rows": 2165,
+      "train_pairs": 4108,
+      "test_pairs": 2115,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-4.json",
+          "bytes": 12694,
+          "sha256": "211376adad7f93d36f8c2df8b507d31df869232b7a751fa0c4dd8f2cf4a9f054"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-4.bin",
+          "bytes": 2804,
+          "sha256": "7c1d5359dc14afd56709822f557b11d412ed1a99e8cb4359c95539f178c788ad"
+        },
+        "trees": 8,
+        "nodes": 172
+      },
+      "cpu_s": 0.10496048599999597
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 5,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-5.json",
+        "bytes": 16808,
+        "sha256": "ef3181f1839aa13d7efd829f0efbb40e438f4fcf7d224659a5aef6d86fe2df10"
+      },
+      "train_rows": 48405,
+      "test_rows": 24147,
+      "train_pairs": 33092,
+      "test_pairs": 19900,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-5.json",
+          "bytes": 16808,
+          "sha256": "ef3181f1839aa13d7efd829f0efbb40e438f4fcf7d224659a5aef6d86fe2df10"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-5.bin",
+          "bytes": 3956,
+          "sha256": "ffd8378699bc576efa941aaea28c3ef3bd7cc718391586ec9a561e955a6770c3"
+        },
+        "trees": 8,
+        "nodes": 244
+      },
+      "cpu_s": 0.19237750499999606
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 6,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-6.json",
+        "bytes": 16355,
+        "sha256": "59a9d016f454252e33f04873f099dab839ae3c592b273aa3d39f5ff1caebce23"
+      },
+      "train_rows": 9531,
+      "test_rows": 4753,
+      "train_pairs": 8832,
+      "test_pairs": 4568,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-6.json",
+          "bytes": 16355,
+          "sha256": "59a9d016f454252e33f04873f099dab839ae3c592b273aa3d39f5ff1caebce23"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-6.bin",
+          "bytes": 3860,
+          "sha256": "bf344e3ce18d1a781f5eb7f25aef9a3e7324c459f7fee56e99861b2dde514a77"
+        },
+        "trees": 8,
+        "nodes": 238
+      },
+      "cpu_s": 0.1469472329999988
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 7,
+      "trained": true,
+      "source": null,
+      "train_rows": 54568,
+      "test_rows": 26989,
+      "train_pairs": 35740,
+      "test_pairs": 21696,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-7.json",
+          "bytes": 16716,
+          "sha256": "f50325f7ab0200aaa286c9a5150185d773fb5d8568dd2b6e09f0b3c52ad68702"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-7.bin",
+          "bytes": 4020,
+          "sha256": "2e142173d6fcb3ada3e74d66efad6cb9c2e3a6d9d1e4218ee660a7c47e352b89"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.2266949039999986
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 8,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-8.json",
+        "bytes": 14038,
+        "sha256": "24d1eaf5a83966d2b43a3f5394a7ac86e5df6920347bf0ac306e3e50555b396a"
+      },
+      "train_rows": 4321,
+      "test_rows": 2070,
+      "train_pairs": 4176,
+      "test_pairs": 2029,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-8.json",
+          "bytes": 14038,
+          "sha256": "24d1eaf5a83966d2b43a3f5394a7ac86e5df6920347bf0ac306e3e50555b396a"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-8.bin",
+          "bytes": 3188,
+          "sha256": "ee324fc2e4773b99fe029ee4ddbe54ba6c379b1ba020576a522c2b74dfce8e2b"
+        },
+        "trees": 8,
+        "nodes": 196
+      },
+      "cpu_s": 0.09937717500000076
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 9,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-9.json",
+        "bytes": 14458,
+        "sha256": "1a4ea5985beccb5d12a16d052e30a2ebfcf31300a81848474b264c8dc28e8811"
+      },
+      "train_rows": 45313,
+      "test_rows": 22639,
+      "train_pairs": 31738,
+      "test_pairs": 18882,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-9.json",
+          "bytes": 14458,
+          "sha256": "1a4ea5985beccb5d12a16d052e30a2ebfcf31300a81848474b264c8dc28e8811"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-9.bin",
+          "bytes": 3348,
+          "sha256": "21971aa663d85e2580549d41fc0b5be03fc12460318e0b370904b9590ae8597e"
+        },
+        "trees": 8,
+        "nodes": 206
+      },
+      "cpu_s": 0.19963955400000089
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 10,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-10.json",
+        "bytes": 16228,
+        "sha256": "b651a2350114a08cab27354fcba60c3cccce811f6aba7bec4a88e91c0d4ee6d0"
+      },
+      "train_rows": 9832,
+      "test_rows": 5147,
+      "train_pairs": 9036,
+      "test_pairs": 4914,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-10.json",
+          "bytes": 16228,
+          "sha256": "b651a2350114a08cab27354fcba60c3cccce811f6aba7bec4a88e91c0d4ee6d0"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-10.bin",
+          "bytes": 3828,
+          "sha256": "4fe0cc654b0e383a4123a1b9d6f81f540d12e8d512a8849c5b1df0af10c93ac8"
+        },
+        "trees": 8,
+        "nodes": 236
+      },
+      "cpu_s": 0.14515509400000326
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 11,
+      "trained": true,
+      "source": null,
+      "train_rows": 54907,
+      "test_rows": 27888,
+      "train_pairs": 35835,
+      "test_pairs": 22199,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-11.json",
+          "bytes": 16558,
+          "sha256": "ff8d09f1447a00df638a257c5e20f4467479051f6272aa10d3234268a4cced7d"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-11.bin",
+          "bytes": 3988,
+          "sha256": "2bd650157dbd82a4e89ef6681d677b1b93898d6b10ceb74077a39b338e89ab1d"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.2101316159999982
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 12,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-12.json",
+        "bytes": 14313,
+        "sha256": "fa4927472bb90dd1d861d6237559aa97cd0d7fb233978c5ed1804b4103eb2625"
+      },
+      "train_rows": 4039,
+      "test_rows": 2062,
+      "train_pairs": 3898,
+      "test_pairs": 2037,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-12.json",
+          "bytes": 14313,
+          "sha256": "fa4927472bb90dd1d861d6237559aa97cd0d7fb233978c5ed1804b4103eb2625"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-12.bin",
+          "bytes": 3252,
+          "sha256": "b19de7df09c9cda5f13aa2c9a80d65d2e425cd9f489189873c12f7f4bd3781c8"
+        },
+        "trees": 8,
+        "nodes": 200
+      },
+      "cpu_s": 0.10750691700000203
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 13,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-13.json",
+        "bytes": 13749,
+        "sha256": "1a54992173655f899083959de1279081b6457fe914b67dec17d0823c725fef29"
+      },
+      "train_rows": 44546,
+      "test_rows": 22056,
+      "train_pairs": 31333,
+      "test_pairs": 18498,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-13.json",
+          "bytes": 13749,
+          "sha256": "1a54992173655f899083959de1279081b6457fe914b67dec17d0823c725fef29"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-13.bin",
+          "bytes": 3124,
+          "sha256": "942bc3afc13fbb40194573c8bde20cd9d8552d2543590b8ad8ee67a670240fa0"
+        },
+        "trees": 8,
+        "nodes": 192
+      },
+      "cpu_s": 0.17046563300000628
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 14,
+      "trained": false,
+      "source": {
+        "path": "build/exp576/R8-2-14.json",
+        "bytes": 16057,
+        "sha256": "a645e9f90545491a42081fdea5c362098756762c3f7f551a5fc5e3b3af6d2d72"
+      },
+      "train_rows": 9452,
+      "test_rows": 4868,
+      "train_pairs": 8753,
+      "test_pairs": 4666,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-14.json",
+          "bytes": 16057,
+          "sha256": "a645e9f90545491a42081fdea5c362098756762c3f7f551a5fc5e3b3af6d2d72"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-14.bin",
+          "bytes": 3764,
+          "sha256": "3efcfe4b6cb5add347827610b54796bb4eeda3ea0cb9882589b2263c11410f69"
+        },
+        "trees": 8,
+        "nodes": 232
+      },
+      "cpu_s": 0.1471652110000008
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 15,
+      "trained": true,
+      "source": null,
+      "train_rows": 47831,
+      "test_rows": 23995,
+      "train_pairs": 32831,
+      "test_pairs": 19715,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-15.json",
+          "bytes": 16906,
+          "sha256": "ef5aad1b63d41bdb5fc13c5356738eec2f6d24f92dd7971c9b33d5182b5a4c90"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-15.bin",
+          "bytes": 4020,
+          "sha256": "c7dde4b9cde9d413ed97703c60c9088505b3252b2e0707090c23a80e40085071"
+        },
+        "trees": 8,
+        "nodes": 248
+      },
+      "cpu_s": 1.16546231800001
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 16,
+      "trained": true,
+      "source": null,
+      "train_rows": 53518,
+      "test_rows": 26958,
+      "train_pairs": 35358,
+      "test_pairs": 21676,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-16.json",
+          "bytes": 16464,
+          "sha256": "6489a13ca2655b929e2f2b8642138875c059096e3a42baf1bacfda7790e4fda9"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-16.bin",
+          "bytes": 3892,
+          "sha256": "f9c8b10fb6bf4e1409806d51625d8f39f3dd6d50a15fc2db579b78bb7517ecee"
+        },
+        "trees": 8,
+        "nodes": 240
+      },
+      "cpu_s": 1.2431611050000129
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 17,
+      "trained": true,
+      "source": null,
+      "train_rows": 57625,
+      "test_rows": 28876,
+      "train_pairs": 36992,
+      "test_pairs": 22953,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-17.json",
+          "bytes": 16496,
+          "sha256": "df2da46cb1f59a9644a961acd1701fd23d3f0ffb71cd280fc2944aadb4cf5911"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-17.bin",
+          "bytes": 3892,
+          "sha256": "51677ceab7deca8b458b69308f473f8dc42a6570e473bd0e7558233f2d70a463"
+        },
+        "trees": 8,
+        "nodes": 240
+      },
+      "cpu_s": 1.336400915000013
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 18,
+      "trained": true,
+      "source": null,
+      "train_rows": 57003,
+      "test_rows": 28160,
+      "train_pairs": 36808,
+      "test_pairs": 22536,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-18.json",
+          "bytes": 16000,
+          "sha256": "81115fd4b0e84963229b8dcb6acfb07a87ff1d2d1c40f9575c90ac4fc9b0ed74"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-18.bin",
+          "bytes": 3732,
+          "sha256": "49019bf2ee6300cf38138eb70afa9cd021bab61ebe54d3f6de23c3ccc6fbf73e"
+        },
+        "trees": 8,
+        "nodes": 230
+      },
+      "cpu_s": 1.3318375489999994
+    },
+    {
+      "arm": "E",
+      "fold": 2,
+      "route": 19,
+      "trained": true,
+      "source": null,
+      "train_rows": 52846,
+      "test_rows": 26566,
+      "train_pairs": 35022,
+      "test_pairs": 21443,
+      "assets": {
+        "json": {
+          "path": "build/exp631/E-2-19.json",
+          "bytes": 16845,
+          "sha256": "461afa493e38b22f1ec64a7a89175734f7db4e8bc60ece4950dff0f8a1fb17fa"
+        },
+        "binary": {
+          "path": "build/exp631/E-2-19.bin",
+          "bytes": 3988,
+          "sha256": "3a668d72f8ddb9b8e98d5ca8feb1c4c2ec648fbe92bece9f9ee33b7ebc49ec5d"
+        },
+        "trees": 8,
+        "nodes": 246
+      },
+      "cpu_s": 1.2838915460000067
+    }
+  ],
+  "raw": {
+    "M": {
+      "path": "build/exp631/M-raw.f32",
+      "bytes": 4000000,
+      "sha256": "6d76f9b39349d0a997cf04eeb7e4894f4b6f5754fb8acdaaa8b62635900fef4f"
+    },
+    "E": {
+      "path": "build/exp631/E-raw.f32",
+      "bytes": 4000000,
+      "sha256": "c235587b39d1f42f74a6e02c03a94016cfbf866280dcd4747d7754d77b228863"
+    }
+  }
+}

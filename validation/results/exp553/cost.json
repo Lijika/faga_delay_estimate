@@ -1,0 +1,12 @@
+{
+  "cpu_s": 176.07358970800001,
+  "wall_s": 1106.097004679963,
+  "rss_bytes": 872181760,
+  "trace_cpu_s": 2753.953936,
+  "new_asset_bytes": 181205081,
+  "concurrent_rss_upper_bytes": 3253276672,
+  "disk_free_start": 25087787008,
+  "disk_free_end": 24904384512,
+  "deleted_files": [],
+  "freed_bytes": 0
+}

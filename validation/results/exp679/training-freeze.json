@@ -1,0 +1,62 @@
+{
+  "params": {
+    "iterations": 64,
+    "depth": 4,
+    "learning_rate": 0.3,
+    "loss_function": "MAE",
+    "leaf_estimation_method": "Exact",
+    "leaf_estimation_iterations": 1,
+    "grow_policy": "SymmetricTree",
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "boost_from_average": false,
+    "random_strength": 0,
+    "border_count": 256,
+    "l2_leaf_reg": 1,
+    "score_function": "L2",
+    "random_seed": 20261024678,
+    "task_type": "CPU",
+    "thread_count": 1,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "development_selection": {
+    "path": "../exp678/validation/results/exp678/evaluation.json",
+    "bytes": 80268,
+    "sha256": "810f30bee1431496b054721317b22219cfa2865aa142d160870129c5087d7e6a"
+  },
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp679/validation/exp679_hv_cli.py",
+      "bytes": 20611,
+      "sha256": "ee7f5da846ceee09df60625285693791988552e3faf976d288f347f6909c1d32"
+    },
+    {
+      "path": "experiment/实验679-HV64静态部署与新100M联合验证.md",
+      "bytes": 4106,
+      "sha256": "53ba276c70feb7973ebd0a4e117d9d5e05dc7ba58602076637dd9f87f02ea2df"
+    },
+    {
+      "path": "validation/results/exp679/protocol-original.md",
+      "bytes": 4106,
+      "sha256": "53ba276c70feb7973ebd0a4e117d9d5e05dc7ba58602076637dd9f87f02ea2df"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp678/validation/exp678_hv_replacement.py",
+      "bytes": 13700,
+      "sha256": "77579ec452b7753622eb75e19a11466f6e584ba8b271fcadfb358b8fc96a80bd"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp677/validation/exp677_map_events.py",
+      "bytes": 12796,
+      "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp614/validation/exp614_gemini_features.py",
+      "bytes": 16043,
+      "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+    }
+  ],
+  "deployment_selection": "HV64",
+  "complete_program_runs": 0
+}

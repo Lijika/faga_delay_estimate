@@ -1,0 +1,57 @@
+{
+  "schedule": [
+    [
+      "A",
+      "P",
+      "Q4"
+    ],
+    [
+      "A",
+      "P",
+      "Q4"
+    ],
+    [
+      "Q4",
+      "P",
+      "A"
+    ],
+    [
+      "A",
+      "P",
+      "Q4"
+    ],
+    [
+      "Q4",
+      "P",
+      "A"
+    ],
+    [
+      "A",
+      "P",
+      "Q4"
+    ],
+    [
+      "Q4",
+      "P",
+      "A"
+    ]
+  ],
+  "input": {
+    "path": "../exp501/build/exp501/u-role/requests.csv",
+    "bytes": 35198280,
+    "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+  },
+  "labels": {
+    "path": "../exp501/build/exp501/exact.csv",
+    "bytes": 72686142,
+    "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+  },
+  "candidate": {
+    "path": "validation/results/exp619/build-freeze.json",
+    "bytes": 4412,
+    "sha256": "ec0a3ddf167170939b50d30ce88a86253af3b3c9b557b67bf16ee870c91e6670"
+  },
+  "comparison_seed": 20261023619,
+  "bootstrap_count": 9999,
+  "joint_point_min": 0.01
+}

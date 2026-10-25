@@ -1,0 +1,58 @@
+{
+  "data": {
+    "path": "build/exp623/data.npz",
+    "bytes": 42002502,
+    "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+  },
+  "paths": {
+    "path": "build/exp623/paths.u8",
+    "bytes": 32000000,
+    "sha256": "3710dd152d6a74bd403fc03d63cb5dd04d1cd08fbdc61029ac6ec8e8dc60056f"
+  },
+  "original_values": {
+    "path": "build/exp623/original-values.npy",
+    "bytes": 32896,
+    "sha256": "e25fa3cffa90a46e1ec696d554a263220138ff1a904677745b923d84fda198bb"
+  },
+  "model_header": {
+    "path": "../exp589/build/exp589/D64-assets/exp579-models.h",
+    "bytes": 228386,
+    "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+  },
+  "reference_trace": {
+    "path": "build/exp619/audit-1-trace.bin",
+    "bytes": 240000000,
+    "sha256": "668f9046cbcf97ab7b58638eb7aea23da7ba5a397ef18ce4b5dd6c36b385d2f7"
+  },
+  "trace_path": "../exp619/build/exp619/audit-1-trace.bin",
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp623/validation/exp623_leaf_calibration.py",
+    "bytes": 14501,
+    "sha256": "fd4cc57444ac8c748e64ca60807cc5346c6de91142e622ed5774cf1cf567a674"
+  },
+  "protocol": {
+    "path": "validation/results/exp623/protocol-original.md",
+    "bytes": 3894,
+    "sha256": "438a583e900ff4fcae76ad2919d710496a69776c96acec7b8917a046aa1277ce"
+  },
+  "original_raw_bitwise": true,
+  "self_check": true,
+  "rows": 1000000,
+  "unique_rows": 1000000,
+  "port_pairs": 59904,
+  "folds": [
+    {
+      "fold": 0,
+      "source_pin_overlap": 0
+    },
+    {
+      "fold": 1,
+      "source_pin_overlap": 0
+    },
+    {
+      "fold": 2,
+      "source_pin_overlap": 0
+    }
+  ],
+  "disk_free_start": 19884802048
+}

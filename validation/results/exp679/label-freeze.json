@@ -1,0 +1,84 @@
+{
+  "shards": [
+    {
+      "shard": 0,
+      "rows": 59904,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp679/labels-0.csv",
+        "bytes": 3785775,
+        "sha256": "3718d927ca86155005d0c956a1e0090e15ab3741b71497846d149358c1890efb"
+      }
+    },
+    {
+      "shard": 1,
+      "rows": 59904,
+      "span_checks": 2,
+      "input": {
+        "path": "build/exp679/labels-1.csv",
+        "bytes": 3785843,
+        "sha256": "5061e5259fba9ed475ad6fd06a9d76d693db0e2224c30f47d3c9fb33c883a0ff"
+      }
+    },
+    {
+      "shard": 2,
+      "rows": 59904,
+      "span_checks": 3,
+      "input": {
+        "path": "build/exp679/labels-2.csv",
+        "bytes": 3785695,
+        "sha256": "01f9d8c4714225e242819cc3530c41b5ca91aa031f98121816c987a67b21a049"
+      }
+    },
+    {
+      "shard": 3,
+      "rows": 59904,
+      "span_checks": 4,
+      "input": {
+        "path": "build/exp679/labels-3.csv",
+        "bytes": 3786902,
+        "sha256": "d82f57dd96ab4087e32972b923e1887f3469a1947587e520782169d7126709ac"
+      }
+    }
+  ],
+  "rows": 239616,
+  "input": {
+    "path": "build/exp679/sample-requests.csv",
+    "bytes": 8434847,
+    "sha256": "b10b79a4dca334ecbd0c7107ed34ba8f5d7d9fa3657f1f6a2d54c071092ff5b5"
+  },
+  "population_input": {
+    "path": "build/exp679/u-role/requests.csv",
+    "bytes": 3519741980,
+    "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+  },
+  "positions": {
+    "path": "build/exp679/positions.txt",
+    "bytes": 1568550,
+    "sha256": "ab4567674cdc9c784dbb1dfa7e38f9c6fcbca261b07eb2e2f60e621a80ef12e1"
+  },
+  "population": {
+    "path": "build/exp679/pair-populations.json",
+    "bytes": 479235,
+    "sha256": "35902c0e5429f3fddfa31b02823719ff398e796f944304096e50b54e79d52d08"
+  },
+  "tools": [
+    {
+      "path": "build/exp679/tools/exact_labels",
+      "bytes": 2932040,
+      "sha256": "3ba200cacb1f0e93485599fe0f02ddb06e4efbdf25befc9bbcba4fad7712a8d4"
+    },
+    {
+      "path": "build/exp679/tools/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    }
+  ],
+  "source_freeze": {
+    "path": "validation/results/exp679/freeze.json",
+    "bytes": 15644,
+    "sha256": "b7916b9eef0c57cbf526499fb814b4241a9015de91f0dd45c911e341f321bb9c"
+  },
+  "labels_generated_on": "r9",
+  "scope": "Four offline single-thread exact shards; full-population accuracy remains unverified."
+}

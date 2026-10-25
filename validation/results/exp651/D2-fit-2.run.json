@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../exp650/build/exp650/assign",
+    "build/exp651/D2-fit-values.i16",
+    "build/exp651/D2-fit-2-centers.i16",
+    "build/exp651/weights.f64",
+    "16384",
+    "44",
+    "build/exp651/D2-fit-2"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.202757,
+  "wall_s": 0.20362969813868403,
+  "rss_bytes": 6561099776,
+  "threads": 1,
+  "stderr": "validation/results/exp651/D2-fit-2.stderr"
+}

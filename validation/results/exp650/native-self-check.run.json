@@ -1,0 +1,12 @@
+{
+  "command": [
+    "build/exp650/assign",
+    "--self-check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.0008399999999999999,
+  "wall_s": 0.0017709129024297,
+  "rss_bytes": 48377856,
+  "threads": 1,
+  "stderr": "validation/results/exp650/native-self-check.stderr"
+}

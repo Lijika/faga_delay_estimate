@@ -1,0 +1,22 @@
+{
+  "hostname": "lhj-R4900-G3",
+  "model_count": 144,
+  "fit_cpu_s": 42.84549575000002,
+  "fit_wall_s": 42.85689979791641,
+  "files": [
+    {
+      "path": "research/exp614/validation/exp614_gemini_features.py",
+      "bytes": 16043,
+      "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+    },
+    {
+      "path": "research/exp614/tests/exp614_geometry_features.h",
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    }
+  ],
+  "disk_free_end_bytes": 39807561728,
+  "large_files_over_10gb": [],
+  "deleted": [],
+  "complete_program_verified": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "direction-0-reference",
+  "full_port_pairs": 59904,
+  "geometries": 65040,
+  "values": 3896156160,
+  "input_energy": 7065104.008789775,
+  "squared": 108551.35427469647,
+  "absolute": 12830313.15429756,
+  "by_quotient_sum": [
+    {
+      "band": 0,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 1,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 2,
+      "values": 833863680,
+      "squared": 75178.2946701074,
+      "absolute": 5370206.42432364
+    },
+    {
+      "band": 3,
+      "values": 3062292480,
+      "squared": 33373.05960458906,
+      "absolute": 7460106.729973922
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "files": [
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp657/validation/exp657_curve_error_channels.py",
+      "bytes": 8866,
+      "sha256": "0addb868a21f560447bbb2ffd5d93755b5017503c25599c004e17b5bca139c94"
+    },
+    {
+      "path": "../exp657/validation/results/exp657/protocol-original.md",
+      "bytes": 2500,
+      "sha256": "c4eab510fd3fba7ae8b92e3eec12957b2cdf60e30a2a1e7e872f9117224c855d"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp631/validation/exp631_event_experts.py",
+      "bytes": 13984,
+      "sha256": "e0281d1c5af1669fc29e84a36217a394cb0a6d8ca3135177fab2576076a55cb6"
+    },
+    {
+      "path": "../exp657/../exp592/validation/exp592_xgb_audit.py",
+      "bytes": 13767,
+      "sha256": "da17bb631d5d2ca82aeeaf593aecc845fa940b52e2c8dbd38eeacd967753ab90"
+    },
+    {
+      "path": "../exp657/../exp536/build/exp536/predictions.i32",
+      "bytes": 24000000,
+      "sha256": "2ea01e1153869a10169fd2226d94b71e4e92579f02b3847c3a5caab76064b32b"
+    },
+    {
+      "path": "../exp657/../exp553/build/exp553/components.i32",
+      "bytes": 32000000,
+      "sha256": "01436f3e28418efc5a4d56fdace716e813c3404a5c6e7266e8e7b0f7b2cd0c63"
+    },
+    {
+      "path": "../exp657/../exp640/build/exp640/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "89fc9fdc6b997d32cfd2272d977af3b035aafbdad32a6f462c5e8ef0e709789e"
+    },
+    {
+      "path": "../exp657/../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp657/../exp593/validation/results/exp593/export.json",
+      "bytes": 1122,
+      "sha256": "6f3e7c4b0beb4faa5cc293d254752931ccdcea1f7f61e9da33e2a88215a9b374"
+    },
+    {
+      "path": "../exp657/../exp656/validation/results/exp656/evaluation.json",
+      "bytes": 29137,
+      "sha256": "46b85f096fbf4489891cd561acab0d07209bdbf2ccb446a5d7dc82204adc6f29"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp656/validation/exp656_curve_residual.py",
+      "bytes": 8364,
+      "sha256": "a551f853bc18f52b5f4a1be5e230bd6c97abbcb263daf0f7baa2b51f450eb1a0"
+    },
+    {
+      "path": "../exp657/../exp632/validation/exp632_error_channels.py",
+      "bytes": 9020,
+      "sha256": "c6a53eaa8ac0f931879ee28917747a229e35f355c4f0d2066b39ffa9a1531b26"
+    },
+    {
+      "path": "../exp657/../exp640/validation/exp640_symmetric_residual.py",
+      "bytes": 11617,
+      "sha256": "ab35fde1eb0bd004625c3c2fcb2f60d0773963ce61d71484a503fb93bda61e89"
+    },
+    {
+      "path": "../exp657/../exp654/build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "../exp657/../exp619/build/exp619/Q4.p4",
+      "bytes": 14377024,
+      "sha256": "8706d7752eecd7db746fe24dffd036d1f60f57329fd4b2ee6ce601a44d2da050"
+    },
+    {
+      "path": "../exp657/../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    },
+    {
+      "path": "../exp657/../exp655/validation/results/exp655/1b-report.json",
+      "bytes": 1922,
+      "sha256": "93e6b651190bb96b6931ec85c31d751a671c2018a14f8d35a83b9cce8e853e95"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "../exp652/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp677/validation/exp677_map_events.py",
+      "bytes": 12796,
+      "sha256": "6c1c72d79b959a10c3cfd90a454262635c81ef97b58923000f430c5268ece4a9"
+    },
+    {
+      "path": "experiment/实验677-横向同带与纵向走廊事件的当前误差诊断.md",
+      "bytes": 4847,
+      "sha256": "960da5782a751f7620a3ef94d606b6274ac599ae267c1bc5b6c829329dc90786"
+    },
+    {
+      "path": "validation/results/exp677/protocol-original.md",
+      "bytes": 4847,
+      "sha256": "960da5782a751f7620a3ef94d606b6274ac599ae267c1bc5b6c829329dc90786"
+    },
+    {
+      "path": "validation/exp677_run.sh",
+      "bytes": 974,
+      "sha256": "e6bcf6116005f836995f4f944baebfb6b9e78d6e8d306e742b37dcb5e34323ff"
+    },
+    {
+      "path": "../exp587/validation/exp587_background_adaptation.py",
+      "bytes": 14556,
+      "sha256": "d3f56322c7c8800817570b457585fb73e097c43538685b7953cc6e09b3ac4b58"
+    },
+    {
+      "path": "../exp593/validation/exp593_target_support.py",
+      "bytes": 11225,
+      "sha256": "64878b1efb36a0832232d164308c569561f2dcf5dccb4eecb018d0eef1e68d4f"
+    },
+    {
+      "path": "/home/lhj/lhjwork/eda2026/research/exp614/validation/exp614_gemini_features.py",
+      "bytes": 16043,
+      "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+    },
+    {
+      "path": "../exp592/validation/exp592_xgb_audit.py",
+      "bytes": 13767,
+      "sha256": "da17bb631d5d2ca82aeeaf593aecc845fa940b52e2c8dbd38eeacd967753ab90"
+    },
+    {
+      "path": "../exp656/validation/exp656_curve_residual.py",
+      "bytes": 8364,
+      "sha256": "a551f853bc18f52b5f4a1be5e230bd6c97abbcb263daf0f7baa2b51f450eb1a0"
+    },
+    {
+      "path": "../exp657/validation/exp657_curve_error_channels.py",
+      "bytes": 8866,
+      "sha256": "0addb868a21f560447bbb2ffd5d93755b5017503c25599c004e17b5bca139c94"
+    },
+    {
+      "path": "../exp657/validation/results/exp657/freeze.json",
+      "bytes": 3463,
+      "sha256": "6f769b874ec97f7e58c82fff1d6e110c26b1f3ed2253d64c44d73a921cdd456a"
+    },
+    {
+      "path": "../exp623/validation/results/exp623/prepare.json",
+      "bytes": 1679,
+      "sha256": "c4e68c1a9d6973a459817ea31ce4b45a86e6cdbc363835b7a60651cb1000acdc"
+    },
+    {
+      "path": "../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp640/build/exp640/S8-raw.f64",
+      "bytes": 8000000,
+      "sha256": "89fc9fdc6b997d32cfd2272d977af3b035aafbdad32a6f462c5e8ef0e709789e"
+    },
+    {
+      "path": "../exp654/build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "../exp619/build/exp619/Q4.p4",
+      "bytes": 14377024,
+      "sha256": "8706d7752eecd7db746fe24dffd036d1f60f57329fd4b2ee6ce601a44d2da050"
+    },
+    {
+      "path": "../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    },
+    {
+      "path": "../exp657/validation/results/exp657/report.json",
+      "bytes": 3538,
+      "sha256": "07440df70b19dcbe2a23960e056d1e78b8acbbfd0a5d518c64cd7e8f0258c837"
+    },
+    {
+      "path": "../exp657/validation/results/exp657/groups.json",
+      "bytes": 182088,
+      "sha256": "2a8f32bd87750b85ef2c73600e1365c92509d91a67199e711f93e5050f1606a8"
+    }
+  ],
+  "seed": 20261024677,
+  "rows": 1000000,
+  "new_exact_rows": 0,
+  "complete_program_runs": 0,
+  "training_runs": 0,
+  "disk_free_start_bytes": 16063328256
+}

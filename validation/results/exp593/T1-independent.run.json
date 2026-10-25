@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp593/routed-predict",
+    "build/exp593/features.f32",
+    "build/exp593/folds.u8",
+    "build/exp593/routes.u8",
+    "build/exp593/T1-models.txt",
+    "build/exp593/T1-native.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.346636,
+  "wall_s": 0.34777851682156324,
+  "rss_bytes": 532099072,
+  "threads": 1,
+  "stderr": "validation/results/exp593/T1-independent.stderr"
+}

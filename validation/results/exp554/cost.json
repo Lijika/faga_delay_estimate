@@ -1,0 +1,11 @@
+{
+  "cpu_s": 873.832401746,
+  "wall_s": 518.3068761879113,
+  "rss_bytes": 1287450624,
+  "assets_bytes": 452898511,
+  "disk_free_start": 24878264320,
+  "disk_free_end": 24423227392,
+  "deleted_files": [],
+  "freed_bytes": 0,
+  "production_runs": 0
+}

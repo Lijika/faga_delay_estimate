@@ -1,0 +1,187 @@
+{
+  "model": "D96",
+  "arm": "D",
+  "original": {
+    "path": "build/exp589/D96-geometry.bin",
+    "bytes": 87295552,
+    "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+  },
+  "compressed": {
+    "path": "build/exp646/D96-D/asset.zst",
+    "bytes": 66725451,
+    "sha256": "d2a4558f3fb213e1224e2535618332781aca97fdcbc78d8e0864923de398e271"
+  },
+  "binary": {
+    "path": "build/exp646/D96-D/restore",
+    "bytes": 67772880,
+    "sha256": "86b58d3df09410f02aaf57591ce35ae508fc6404a743d76dc74f63ffc893ea39"
+  },
+  "source": {
+    "path": "tests/exp646_asset_restore.cpp",
+    "bytes": 3990,
+    "sha256": "c32f52b72a3abd155bfbc7aa2a40c03fa93ee7300b2e63848f012bf01ad827c0"
+  },
+  "assembler": {
+    "path": "build/exp646/D96-D/asset.S",
+    "bytes": 177,
+    "sha256": "85b2b2874c09e27dc8d5c2f1b60472c72474cf6499846dba3de52209d64a9c13"
+  },
+  "generated_header": {
+    "path": "build/exp646/D96-D/asset646.h",
+    "bytes": 140,
+    "sha256": "3b21c9ff7887f8280a24cc9d17dbe5f6040fead004579ae3e9c83569140830f0"
+  },
+  "runs": [
+    {
+      "repeat": 0,
+      "warmup": true,
+      "run": {
+        "command": [
+          "build/exp646/D96-D/restore",
+          "build/exp646/D96-D/restored.bin"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.171813,
+        "wall_s": 0.1721577311400324,
+        "rss_bytes": 237903872,
+        "threads": 1,
+        "stderr": "validation/results/exp646/D96-D-restore-0.stderr"
+      },
+      "metrics": {
+        "raw_bytes": 87295552,
+        "compressed_bytes": 66725451,
+        "delta": true,
+        "decoder_version": "1.5.5",
+        "decode_cpu_s": 0.124289865,
+        "transform_cpu_s": 0.006017971,
+        "restore_cpu_s": 0.130307836,
+        "write_cpu_s": 0.036107106,
+        "self_check_passed": true
+      },
+      "output": {
+        "path": "build/exp646/D96-D/restored.bin",
+        "bytes": 87295552,
+        "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+      },
+      "sha_verification": {
+        "cpu_s": 0.21463008599999966,
+        "wall_s": 0.21444339700974524
+      }
+    },
+    {
+      "repeat": 1,
+      "warmup": false,
+      "run": {
+        "command": [
+          "build/exp646/D96-D/restore",
+          "build/exp646/D96-D/restored.bin"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.224879,
+        "wall_s": 0.37439681589603424,
+        "rss_bytes": 237903872,
+        "threads": 1,
+        "stderr": "validation/results/exp646/D96-D-restore-1.stderr"
+      },
+      "metrics": {
+        "raw_bytes": 87295552,
+        "compressed_bytes": 66725451,
+        "delta": true,
+        "decoder_version": "1.5.5",
+        "decode_cpu_s": 0.137329713,
+        "transform_cpu_s": 0.00702128,
+        "restore_cpu_s": 0.144350993,
+        "write_cpu_s": 0.066650319,
+        "self_check_passed": true
+      },
+      "output": {
+        "path": "build/exp646/D96-D/restored.bin",
+        "bytes": 87295552,
+        "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+      },
+      "sha_verification": {
+        "cpu_s": 0.21541397599999978,
+        "wall_s": 0.21520080883055925
+      }
+    },
+    {
+      "repeat": 2,
+      "warmup": false,
+      "run": {
+        "command": [
+          "build/exp646/D96-D/restore",
+          "build/exp646/D96-D/restored.bin"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.219211,
+        "wall_s": 0.36097458517178893,
+        "rss_bytes": 237903872,
+        "threads": 1,
+        "stderr": "validation/results/exp646/D96-D-restore-2.stderr"
+      },
+      "metrics": {
+        "raw_bytes": 87295552,
+        "compressed_bytes": 66725451,
+        "delta": true,
+        "decoder_version": "1.5.5",
+        "decode_cpu_s": 0.140229218,
+        "transform_cpu_s": 0.007021201,
+        "restore_cpu_s": 0.147250419,
+        "write_cpu_s": 0.066738524,
+        "self_check_passed": true
+      },
+      "output": {
+        "path": "build/exp646/D96-D/restored.bin",
+        "bytes": 87295552,
+        "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+      },
+      "sha_verification": {
+        "cpu_s": 0.21562149199999947,
+        "wall_s": 0.21498636296018958
+      }
+    },
+    {
+      "repeat": 3,
+      "warmup": false,
+      "run": {
+        "command": [
+          "build/exp646/D96-D/restore",
+          "build/exp646/D96-D/restored.bin"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.217434,
+        "wall_s": 0.36208609701134264,
+        "rss_bytes": 237903872,
+        "threads": 1,
+        "stderr": "validation/results/exp646/D96-D-restore-3.stderr"
+      },
+      "metrics": {
+        "raw_bytes": 87295552,
+        "compressed_bytes": 66725451,
+        "delta": true,
+        "decoder_version": "1.5.5",
+        "decode_cpu_s": 0.137395054,
+        "transform_cpu_s": 0.007020738,
+        "restore_cpu_s": 0.144415792,
+        "write_cpu_s": 0.066424394,
+        "self_check_passed": true
+      },
+      "output": {
+        "path": "build/exp646/D96-D/restored.bin",
+        "bytes": 87295552,
+        "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+      },
+      "sha_verification": {
+        "cpu_s": 0.22161689500000037,
+        "wall_s": 0.22117941780015826
+      }
+    }
+  ],
+  "static": true,
+  "complete_original_bytes_restored": true,
+  "median_restore_cpu_s": 0.144415792,
+  "projected_full_program_bytes": 89602411,
+  "production_cpu_measured": false,
+  "accuracy_measured": false,
+  "gate": true
+}

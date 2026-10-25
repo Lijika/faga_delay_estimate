@@ -1,0 +1,177 @@
+{
+  "totals": {
+    "all": {
+      "rectangle": {
+        "all": {
+          "old": 149723.9688917238,
+          "matched": 142889.76663728632,
+          "curves": 99490.76397831552,
+          "values": 35223552
+        },
+        "qx_short": {
+          "old": 43824.9650788011,
+          "matched": 45780.40741678627,
+          "curves": 30489.623077677872,
+          "values": 7907328
+        },
+        "qy_short": {
+          "old": 55950.81744367233,
+          "matched": 45612.898879434615,
+          "curves": 24968.125671932106,
+          "values": 5750784
+        },
+        "interior": {
+          "old": 49948.186369250434,
+          "matched": 51496.4603410655,
+          "curves": 44033.01522870551,
+          "values": 21565440
+        }
+      },
+      "physical": {
+        "all": {
+          "old": 148144.07939036324,
+          "matched": 141278.82289539455,
+          "curves": 98191.15936374117,
+          "values": 34384896
+        },
+        "qx_short": {
+          "old": 43201.5745235413,
+          "matched": 45151.24173170229,
+          "curves": 29970.16024978631,
+          "values": 7667712
+        },
+        "qy_short": {
+          "old": 55950.81744367233,
+          "matched": 45612.89887943462,
+          "curves": 24968.125671932106,
+          "values": 5750784
+        },
+        "interior": {
+          "old": 48991.68742314965,
+          "matched": 50514.682284257586,
+          "curves": 43252.873442022785,
+          "values": 20966400
+        }
+      }
+    },
+    "heldout_source": {
+      "rectangle": {
+        "all": {
+          "old": 40714.0182849164,
+          "matched": 38705.48996111439,
+          "curves": 27539.934558522247,
+          "values": 9483264
+        },
+        "qx_short": {
+          "old": 12567.529703905633,
+          "matched": 13095.460474510735,
+          "curves": 8620.075543079076,
+          "values": 2128896
+        },
+        "qy_short": {
+          "old": 14276.64003544501,
+          "matched": 11405.125002720755,
+          "curves": 6624.448104486139,
+          "values": 1548288
+        },
+        "interior": {
+          "old": 13869.848545565746,
+          "matched": 14204.90448388291,
+          "curves": 12295.410910957029,
+          "values": 5806080
+        }
+      },
+      "physical": {
+        "all": {
+          "old": 40270.885775433155,
+          "matched": 38253.253177395185,
+          "curves": 27161.735747244136,
+          "values": 9257472
+        },
+        "qx_short": {
+          "old": 12389.4437318368,
+          "matched": 12915.780615571211,
+          "curves": 8467.38980475665,
+          "values": 2064384
+        },
+        "qy_short": {
+          "old": 14276.640035445012,
+          "matched": 11405.125002720757,
+          "curves": 6624.448104486138,
+          "values": 1548288
+        },
+        "interior": {
+          "old": 13604.802008151342,
+          "matched": 13932.347559103211,
+          "curves": 12069.897838001347,
+          "values": 5644800
+        }
+      }
+    },
+    "construction_source": {
+      "rectangle": {
+        "all": {
+          "old": 109009.95060680748,
+          "matched": 104184.27667617195,
+          "curves": 71950.82941979324,
+          "values": 25740288
+        },
+        "qx_short": {
+          "old": 31257.435374895453,
+          "matched": 32684.94694227551,
+          "curves": 21869.5475345988,
+          "values": 5778432
+        },
+        "qy_short": {
+          "old": 41674.17740822734,
+          "matched": 34207.77387671387,
+          "curves": 18343.67756744596,
+          "values": 4202496
+        },
+        "interior": {
+          "old": 36078.33782368468,
+          "matched": 37291.5558571826,
+          "curves": 31737.604317748497,
+          "values": 15759360
+        }
+      },
+      "physical": {
+        "all": {
+          "old": 107873.19361493012,
+          "matched": 103025.56971799931,
+          "curves": 71029.42361649705,
+          "values": 25127424
+        },
+        "qx_short": {
+          "old": 30812.130791704483,
+          "matched": 32235.461116131108,
+          "curves": 21502.77044502965,
+          "values": 5603328
+        },
+        "qy_short": {
+          "old": 41674.17740822734,
+          "matched": 34207.773876713865,
+          "curves": 18343.67756744596,
+          "values": 4202496
+        },
+        "interior": {
+          "old": 35386.88541499831,
+          "matched": 36582.33472515437,
+          "curves": 31182.975604021434,
+          "values": 15321600
+        }
+      }
+    }
+  },
+  "primary_gate": true,
+  "overall_gate": true,
+  "group_gate": true,
+  "continue_full": true,
+  "source_split": "Codebooks fit other sources; each heldout source cell selects its code on T only.",
+  "validation_values_in_codebook_construction_sources": true,
+  "validation_values_in_heldout_codebook_training": false,
+  "full_population_scored": false,
+  "complete_program_measured": false,
+  "new_exact_labels": 0,
+  "final_accuracy_goal_verified": false
+}

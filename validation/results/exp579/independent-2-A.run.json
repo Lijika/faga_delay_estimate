@@ -1,0 +1,17 @@
+{
+  "command": [
+    "../../build/exp320/narrow/estimate",
+    "-cache-mb",
+    "0",
+    "-quiet",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-A.csv"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 115.064364,
+  "wall_s": 115.07840885198675,
+  "rss_bytes": 1669664768
+}

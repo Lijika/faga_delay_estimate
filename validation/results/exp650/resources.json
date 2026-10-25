@@ -1,0 +1,9 @@
+{
+  "cpu_s": 393.09973533,
+  "wall_s": 254.81066280417144,
+  "own_rss_bytes": 1418784768,
+  "child_rss_bytes": 1418784768,
+  "new_file_bytes": 854626968,
+  "complete_program_runs": 0,
+  "disk_free_end_bytes": 89046036480
+}

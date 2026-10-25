@@ -1,0 +1,41 @@
+{
+  "run": {
+    "command": [
+      "build/exp623/check",
+      "../exp619/build/exp619/audit-1-trace.bin",
+      "../exp579/build/exp579/queries.bin",
+      "../exp579/build/exp579/folds.u8",
+      "build/exp623/leaf-raw.bin"
+    ],
+    "exit_code": 0,
+    "cpu_s": 0.8347519999999999,
+    "wall_s": 0.835186631185934,
+    "rss_bytes": 102113280,
+    "threads": 1,
+    "stderr": "validation/results/exp623/check.stderr"
+  },
+  "output": {
+    "path": "build/exp623/leaf-raw.bin",
+    "bytes": 16000000,
+    "sha256": "aa83ba11dd105e86a23c03f2fb7dd32306c99a6831d83bddc81de733dfc0e090"
+  },
+  "counters": {
+    "rows": 1000000,
+    "leaf_ids": 16000000,
+    "raw_bitwise": true,
+    "active_features_equal": true
+  },
+  "original_tree_order": true,
+  "python_cpp_final_bitwise": true,
+  "python_cpp_oof_bitwise": true,
+  "source": {
+    "path": "build/exp623/check.cpp",
+    "bytes": 3066,
+    "sha256": "5dff10d3ac4dfae26a2d0473d59eaad5328f6e6c30767308004e4f0d982180f9"
+  },
+  "model": {
+    "path": "validation/results/exp623/model.json",
+    "bytes": 744,
+    "sha256": "b5d8fae1cdb6c6536cd3a5e8d891c172c15411853047e66f2f7348e6c60b83ba"
+  }
+}

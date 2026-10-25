@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "../../build/hidden-suite-v1/make_hidden_suite",
+      "bytes": 125584,
+      "sha256": "b777a8400c4f191e790cea364576e6a51cef9211ca6796ac7656213ded527bd7"
+    },
+    {
+      "path": "../../build/hidden-suite-v1/check_hidden_suite",
+      "bytes": 126112,
+      "sha256": "0ebfc0c748b4955d5fee4205bdde3f142cd9ce99c7c18d7602cc9bd941cd7af5"
+    },
+    {
+      "path": "../../build/hidden-suite-v1/reach.bin",
+      "bytes": 79873492,
+      "sha256": "76dffd63f45e3b1a4e512dd8753fed13f5f112b8d002d77f302bbeff0d58b746"
+    },
+    {
+      "path": "../../build/hidden-suite-v1/independent/eligibility.bin",
+      "bytes": 60205224,
+      "sha256": "5c95aeff22bb2c7471b7a3d4b0ef82e4cc7dadcd865890ac07ada34264f6b843"
+    },
+    {
+      "path": "../../build/exp203/exact_labels",
+      "bytes": 2932040,
+      "sha256": "3ba200cacb1f0e93485599fe0f02ddb06e4efbdf25befc9bbcba4fad7712a8d4"
+    },
+    {
+      "path": "../../build/exp155/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    }
+  ],
+  "host": "lhj-R4900-G3",
+  "disk_start_bytes": 5036720128
+}

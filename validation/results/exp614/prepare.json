@@ -1,0 +1,124 @@
+{
+  "protocol": {
+    "path": "validation/results/exp614/protocol-original.md",
+    "bytes": 5200,
+    "sha256": "403afa9d91bc54b96f217160399b54597f1b2ce149b1fe818abafb90d32486e6"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp614/validation/exp614_gemini_features.py",
+    "bytes": 16043,
+    "sha256": "8c8747abaf62a1728e2c18e07b0f79cc46a909da7cc728064b2de8b3fa253290"
+  },
+  "geometry_header": {
+    "path": "tests/exp614_geometry_features.h",
+    "bytes": 1852,
+    "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+  },
+  "gap": {
+    "path": "doc/eda比赛文件/arch/SRB_Gap.json",
+    "bytes": 3969,
+    "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+  },
+  "training": {
+    "path": "../exp585/build/exp585/training.npz",
+    "bytes": 76812911,
+    "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+  },
+  "targets": {
+    "path": "build/exp593/targets.npz",
+    "bytes": 4451632,
+    "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+  },
+  "evaluation": {
+    "path": "../exp585/build/exp585/evaluation.npz",
+    "bytes": 28203582,
+    "sha256": "16ac0840fc7c3870175dece5540aff97d5ce454aa59b022d6a63fee1c0c68b29"
+  },
+  "original_raw": {
+    "path": "../exp576/build/exp576/R8.f32",
+    "bytes": 4000000,
+    "sha256": "3cbcd9aa3c13512ac0910bf5a492b3e878c569af36a8f79895fd4e87632cc4ef"
+  },
+  "matched_raw": {
+    "path": "build/exp593/K1-native.f32",
+    "bytes": 4000000,
+    "sha256": "8074ff8a145e7a757c6ee91dc0521a76522c2cf29f7bb169bbcd9e464c975d94"
+  },
+  "features": {
+    "path": "build/exp614/features.f32",
+    "bytes": 276000016,
+    "sha256": "536eee94147ccf740256244ec80110b004e18fb86f87fc74df85a2e6384960fb"
+  },
+  "feature_names": [
+    "compressed_dx_mod10",
+    "abs_compressed_dx_mod10",
+    "compressed_qx",
+    "compressed_dx_negative",
+    "ax_mod10",
+    "tx_mod10",
+    "ay_mod12",
+    "ty_mod12",
+    "line_x_9",
+    "line_x_78",
+    "line_x_98",
+    "line_x_177",
+    "line_y_8",
+    "crossed_block_count",
+    "block_edge_extra_rows",
+    "qx_compression_difference"
+  ],
+  "columns": 69,
+  "rows": 1000000,
+  "unique_rows": 1000000,
+  "port_pairs": 59904,
+  "boundary_self_check": true,
+  "decoder": {
+    "path": "build/exp614/routed-predict",
+    "bytes": 1090456,
+    "sha256": "d1f7f06aecf711678c42cb6302a8a11d7fe5a5bce72c0bd22746c356c8fc04f4"
+  },
+  "compiler_command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/home/lhj/lhjwork/eda2026/research/exp587/tests",
+    "build/exp614/routed-predict.cpp",
+    "-o",
+    "build/exp614/routed-predict"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "train_rows": 666356,
+      "test_rows": 333644,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    },
+    {
+      "fold": 1,
+      "train_rows": 667278,
+      "test_rows": 332722,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    },
+    {
+      "fold": 2,
+      "train_rows": 666366,
+      "test_rows": 333634,
+      "source_pin_overlap": 0,
+      "train_port_pairs": 59904,
+      "test_port_pairs": 59904
+    }
+  ]
+}

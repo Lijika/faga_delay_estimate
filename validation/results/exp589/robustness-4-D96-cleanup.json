@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp589/robustness-4-D96.csv",
+    "bytes": 40130420,
+    "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+  },
+  "identical_to": {
+    "path": "build/exp589/robustness-0-D96.csv",
+    "bytes": 40130420,
+    "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+  },
+  "rebuild_command": [
+    "build/exp589/D96",
+    "-in",
+    "../exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "build/exp589/robustness-4-D96.csv"
+  ]
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "source": "exp705/build/exp705/delta.i32",
+    "published": "path_witness/data/delta.i32.gz",
+    "bytes": 479232,
+    "sha256": "d14a45bba2e1aec31bc6bd30f0a618d208f0b99748b6bea39af24b221312e273",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/known.i32",
+    "published": "path_witness/data/known.i32.gz",
+    "bytes": 958464,
+    "sha256": "2af6f089707661619781f193ce4d42047d367083e75c88a84c0f20630ca79a8b",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/anchors.u32",
+    "published": "path_witness/data/anchors.u32.gz",
+    "bytes": 239616,
+    "sha256": "5b15b5b36323728a33e28ecb40a9a768b0162d1e1fa7aa3144706b185d03edbf",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/cross.i32",
+    "published": "path_witness/data/cross.i32.gz",
+    "bytes": 26836992,
+    "sha256": "db42beeaa22d95d780669bd286113abbb00b08003044d5751fce302e4e67a9c5",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/normalized.i32",
+    "published": "path_witness/data/normalized.i32.gz",
+    "bytes": 958464,
+    "sha256": "bc2254a64b2273b522c29770c3d473f9bea9ce936ff304857e826a3392ed6630",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/queries.bin",
+    "published": "path_witness/data/queries.bin.gz",
+    "bytes": 9584652,
+    "sha256": "06c155d1f1a68acb583020c48a0f54c2cab2444b5ed364ac806db4d947831f6b",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/paths.lengths.u32",
+    "published": "path_witness/data/paths.lengths.u32.gz",
+    "bytes": 958464,
+    "sha256": "e61d743ed6ed37f9f0e835a3b31d12ecfd7f20263a7bc03a5f90afa7eeceb728",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/paths.words.u8",
+    "published": "path_witness/data/paths.words.u8.gz",
+    "bytes": 5558667,
+    "sha256": "ef29f577bfe18c4da40e7f38ee67f4cc036a1f8280809765bc2f497b44ec597f",
+    "compressed": true
+  },
+  {
+    "source": "exp705/build/exp705/paths.summary.i32",
+    "published": "path_witness/data/paths.summary.i32.gz",
+    "bytes": 7667712,
+    "sha256": "ed60b00a67304a9d87f37c7e9df274ef56e8ee18c2874d311351d3b1fecfc08a",
+    "compressed": true
+  },
+  {
+    "source": "exp553/build/exp553/no-line-arch/SRB_Port.json",
+    "published": "path_witness/solver/no-line-arch/SRB_Port.json",
+    "bytes": 31858,
+    "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515",
+    "compressed": false
+  },
+  {
+    "source": "exp553/build/exp553/no-line-arch/SRB_Arc.json",
+    "published": "path_witness/solver/no-line-arch/SRB_Arc.json",
+    "bytes": 837145,
+    "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff",
+    "compressed": false
+  },
+  {
+    "source": "exp553/build/exp553/no-line-arch/SRB_Inst.json",
+    "published": "path_witness/solver/no-line-arch/SRB_Inst.json",
+    "bytes": 4266018,
+    "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277",
+    "compressed": false
+  },
+  {
+    "source": "exp553/build/exp553/no-line-arch/SRB_Net.json",
+    "published": "path_witness/solver/no-line-arch/SRB_Net.json",
+    "bytes": 21062,
+    "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244",
+    "compressed": false
+  },
+  {
+    "source": "exp553/build/exp553/no-line-arch/SRB_Gap.json",
+    "published": "path_witness/solver/no-line-arch/SRB_Gap.json",
+    "bytes": 3959,
+    "sha256": "ac008920989cb2486b2b6ec0a1e953390cc0f3b8eaf914637bf7a6e366f91a12",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/exp147_orbit_access.cpp",
+    "published": "path_witness/solver/exp147_orbit_access.cpp",
+    "bytes": 27310,
+    "sha256": "b433cb497d8beb81b70cd99c30fd4b9807c1e832a7b3e510e627c5baf10f24cd",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/scaffold.cpp",
+    "published": "path_witness/solver/scaffold.cpp",
+    "bytes": 10252,
+    "sha256": "1b9602ee949182aa97f1b0b0274ae492117e65fbfcaed1bfb25a101239144843",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_model.h",
+    "published": "path_witness/solver/src/xgb_residual_model.h",
+    "bytes": 47465,
+    "sha256": "8b3087ae61167211053f3bf9cdd991848352b2351dc46cb849e5f943ad6e5fc2",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/bias_correction.h",
+    "published": "path_witness/solver/src/bias_correction.h",
+    "bytes": 2416,
+    "sha256": "eeffffe4703d68c2e14822bca61082b0f35dda294d4e5e72a4ef7054edea0b8f",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/query_cache.h",
+    "published": "path_witness/solver/src/query_cache.h",
+    "bytes": 2568,
+    "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_bounds_model.h",
+    "published": "path_witness/solver/src/xgb_residual_bounds_model.h",
+    "bytes": 46977,
+    "sha256": "6286deb164030b04aea3cda48c00b6499eb20cf18821945b8cb4b87182a7c378",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base47_model.h",
+    "published": "path_witness/solver/src/xgb_residual_base47_model.h",
+    "bytes": 384571,
+    "sha256": "afb318fc50b3b394dab2c16fc0c8c68ea23328dbbb6a3f1ad846b8babe386810",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/residue_estimator.cpp",
+    "published": "path_witness/solver/src/residue_estimator.cpp",
+    "bytes": 50739,
+    "sha256": "db3628a038fecb8c15e78f1f645fea3ca8428ddf879f804ee296a5ae84432993",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/router.cpp",
+    "published": "path_witness/solver/src/router.cpp",
+    "bytes": 22079,
+    "sha256": "87b1a6598727d18aa14a7b509ecb53f3868f1c6774447d460cb0910e5c9a3101",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base47_fast_model.h",
+    "published": "path_witness/solver/src/xgb_residual_base47_fast_model.h",
+    "bytes": 10164410,
+    "sha256": "1e96563432104b87a16901b95469cb9b266c2d1bf4a69825f73afd78de2a8919",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/residue_estimator.h",
+    "published": "path_witness/solver/src/residue_estimator.h",
+    "bytes": 20291,
+    "sha256": "7992e96b2c15e50d0d8bc967503ce8b2deb67be8f55f4ff0a93e539c15f901f5",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/router.h",
+    "published": "path_witness/solver/src/router.h",
+    "bytes": 10927,
+    "sha256": "3e9f2b8d1002281ae5a21eefb9cb6976061332766f955c01772f8788ddb788a8",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual.h",
+    "published": "path_witness/solver/src/xgb_residual.h",
+    "bytes": 7543,
+    "sha256": "a57a0fae44b162b9689f5d5ec9f49193aa7637b35a863e664b282c567f9cf164",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base47.h",
+    "published": "path_witness/solver/src/xgb_residual_base47.h",
+    "bytes": 2109,
+    "sha256": "c634d84c77560a3a332c80eb9463e86e8e544ccdf84179280fac42aaf63c2d80",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/pattern_database.h",
+    "published": "path_witness/solver/src/pattern_database.h",
+    "bytes": 20223,
+    "sha256": "ab57e90eaed93d1eb2bf0ce7013ee0e8cdc43726ae0ae60564f22ee06c913dd8",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/architecture.cpp",
+    "published": "path_witness/solver/src/architecture.cpp",
+    "bytes": 14157,
+    "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/embedded_residue.h",
+    "published": "path_witness/solver/src/embedded_residue.h",
+    "bytes": 2287,
+    "sha256": "3ec8598d4180198ce49c28224f094899a09cdabb1360806d5cf1b4f8992a7d75",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_bounds.h",
+    "published": "path_witness/solver/src/xgb_residual_bounds.h",
+    "bytes": 1707,
+    "sha256": "627aaa9d0e7a57d03e2f17000533f55685b3ee932f360fb55dbf6a770cc0ffec",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base.h",
+    "published": "path_witness/solver/src/xgb_residual_base.h",
+    "bytes": 1917,
+    "sha256": "4be6d41e800f59d94492e230e96693ef7d459118a03644ffe9b75e09f7a46e92",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base_model.h",
+    "published": "path_witness/solver/src/xgb_residual_base_model.h",
+    "bytes": 47096,
+    "sha256": "8db2cf586822cf870adaa561ffbc496e74fb298a12f4ad46e03d4e6427163cbe",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/csv.h",
+    "published": "path_witness/solver/src/csv.h",
+    "bytes": 3165,
+    "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/json.h",
+    "published": "path_witness/solver/src/json.h",
+    "bytes": 7815,
+    "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/embedded_templates.h",
+    "published": "path_witness/solver/src/embedded_templates.h",
+    "bytes": 3042,
+    "sha256": "0c8ce73f4fb6e2db87c4b28eed0da9d1b263fc49cfe51668e99ad568a890b66f",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/architecture.h",
+    "published": "path_witness/solver/src/architecture.h",
+    "bytes": 8918,
+    "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d",
+    "compressed": false
+  },
+  {
+    "source": "exp552/build/exp552/trace/src/xgb_residual_base47_fast.h",
+    "published": "path_witness/solver/src/xgb_residual_base47_fast.h",
+    "bytes": 739,
+    "sha256": "d92a67df30cc74324fb65b3258b49fec20d97dbfcb70e7bf3b7625535c066684",
+    "compressed": false
+  },
+  {
+    "source": "exp535/build/exp535/queries.bin",
+    "published": "path_witness/query_source/anchors-source-queries.bin.gz",
+    "bytes": 40000012,
+    "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1",
+    "compressed": true
+  },
+  {
+    "source": "exp553/build/exp553/components.i32",
+    "published": "path_witness/query_source/anchors-source-components.i32.gz",
+    "bytes": 32000000,
+    "sha256": "01436f3e28418efc5a4d56fdace716e813c3404a5c6e7266e8e7b0f7b2cd0c63",
+    "compressed": true
+  },
+  {
+    "source": "exp501/build/exp501/tools/orbit.i16",
+    "published": "path_witness/query_source/orbit.i16.gz",
+    "bytes": 17694720,
+    "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9",
+    "compressed": true
+  },
+  {
+    "source": "exp500/validation/results/exp500-preparation/mapping.json",
+    "published": "path_witness/query_source/mapping.json",
+    "bytes": 27560,
+    "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e",
+    "compressed": false
+  },
+  {
+    "source": "exp705/validation/exp705_matched_positions.py",
+    "published": "path_witness/original/exp705_matched_positions.py",
+    "bytes": 15958,
+    "sha256": "48b0c547f2aabdd491b19b726a9d5bf0ceb3e5ef26960c11872a001c7e153f43",
+    "compressed": false
+  },
+  {
+    "source": "exp705/validation/exp705_witness_groups.py",
+    "published": "path_witness/original/exp705_witness_groups.py",
+    "bytes": 4591,
+    "sha256": "daeeece93969ad20f2ba55757bc7a461ae84cd9c6f0eb9843de1e9d89b9f6e55",
+    "compressed": false
+  },
+  {
+    "source": "exp705/build/exp705/trace.cpp",
+    "published": "path_witness/original/trace.cpp",
+    "bytes": 8918,
+    "sha256": "a46e778ce5c6dbacef59423fa0d8c56ac034d0e828751bba18e7e969ef9f440a",
+    "compressed": false
+  },
+  {
+    "source": "/home/lhjysyx/EDA2026/validation/results/exp705/trace.json",
+    "published": "path_witness/original/trace.json",
+    "bytes": 3890,
+    "sha256": "a1b8790309de520b63a3610a3dce3624248fa23b21eff69f91fb866ed176931d",
+    "compressed": false
+  },
+  {
+    "source": "/home/lhjysyx/EDA2026/validation/results/exp705/report.json",
+    "published": "path_witness/original/report.json",
+    "bytes": 1954,
+    "sha256": "534c080cdd1a2f06bc900d34175e5456431dfd1a028b759eda821eaf2bb6e94a",
+    "compressed": false
+  },
+  {
+    "source": "/home/lhjysyx/EDA2026/validation/results/exp705/groups.json",
+    "published": "path_witness/original/groups.json",
+    "bytes": 15227,
+    "sha256": "e577e338be671d77b9d74600d0b1664cfaa4fb7e6907d851065847972d9db273",
+    "compressed": false
+  },
+  {
+    "source": "/home/lhjysyx/EDA2026/validation/results/exp705/freeze.json",
+    "published": "path_witness/original/freeze.json",
+    "bytes": 9590,
+    "sha256": "dc9a84a402a3bea1f662ed1983c5809afeeb92c23664fa3265102dcbb3f5cb19",
+    "compressed": false
+  }
+]

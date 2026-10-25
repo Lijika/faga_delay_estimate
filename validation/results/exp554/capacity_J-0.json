@@ -1,0 +1,78 @@
+{
+  "name": "capacity_J",
+  "fold": 0,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 8,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 128,
+  "assets": {
+    "json": {
+      "path": "build/exp554/capacity_J-0.json",
+      "bytes": 3329141,
+      "sha256": "ccb6bb61e2e8cc527a9d4e352fec0fb7659ff81a4a56ffd921c9de450b8a85d0"
+    },
+    "binary": {
+      "path": "build/exp554/capacity_J-0.bin",
+      "bytes": 909460,
+      "sha256": "55255482b72837e5184328042dc9fc9c9ab714a77afe123fe86580d9f0ccfb11"
+    },
+    "trees": 128,
+    "nodes": 56808
+  },
+  "cpu_s": 58.90442210600003,
+  "wall_s": 21.792683312902227,
+  "train_raw": {
+    "path": "build/exp554/capacity_J-0.train.f32",
+    "bytes": 2665424,
+    "sha256": "2c0fdf0af0ed6e08e8bf444ad90b3677fbddd4975d26cfa07fed9e8917139f4a"
+  },
+  "train": {
+    "rows": 666356,
+    "accuracy_pp": 95.99705404067973,
+    "mean_error_ps": -2.2502536181860746,
+    "mae_ps": 21.80506516036473,
+    "squared_ps": 583311722,
+    "exact_rows": 13016,
+    "under_rows": 334445,
+    "over_rows": 318895
+  },
+  "validation": {
+    "rows": 333644,
+    "accuracy_pp": 95.84883991354077,
+    "mean_error_ps": -2.2272002493675895,
+    "mae_ps": 22.33139513972977,
+    "squared_ps": 303027096,
+    "exact_rows": 5697,
+    "under_rows": 168325,
+    "over_rows": 159622
+  },
+  "train_kernel": {
+    "rows": 666356,
+    "accuracy_pp": 95.4282888917078,
+    "mean_error_ps": -1.8266001956911921,
+    "mae_ps": 21.580692602752883,
+    "squared_ps": 567247278,
+    "exact_rows": 13106,
+    "under_rows": 331413,
+    "over_rows": 321837
+  },
+  "validation_kernel": {
+    "rows": 333644,
+    "accuracy_pp": 95.2554728291606,
+    "mean_error_ps": -1.8234165757513996,
+    "mae_ps": 22.124911582405197,
+    "squared_ps": 295367382,
+    "exact_rows": 5718,
+    "under_rows": 166932,
+    "over_rows": 160994
+  }
+}

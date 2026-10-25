@@ -1,0 +1,319 @@
+{
+  "arms": {
+    "D64": {
+      "rank": 64,
+      "near_rank": 512,
+      "near_source": {
+        "path": "../exp586/build/exp586/N512-geometry.bin",
+        "bytes": 68605504,
+        "sha256": "166c7163f30cafd1ee1c72de40567c664c50041b385de0481d76ab0c95358221"
+      },
+      "binary": {
+        "path": "build/exp589/D64",
+        "bytes": 76629272,
+        "sha256": "9a62a79901bbd0d1c9b1256efd67359dc1872e0a467808199ef5a4a52375b667"
+      },
+      "geometry": {
+        "path": "build/exp589/D64-geometry.bin",
+        "bytes": 69303616,
+        "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+      },
+      "quantization": [
+        {
+          "direction": 0,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034211423450931436
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.003389818029704811
+          }
+        },
+        {
+          "direction": 1,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0033986038714645325
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0033831448484004205
+          }
+        },
+        {
+          "direction": 2,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034406713313384213
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034421410167078045
+          }
+        },
+        {
+          "direction": 3,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.002701590028344001
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0026974812377955487
+          }
+        }
+      ],
+      "near_bitwise_unchanged": true,
+      "header": {
+        "path": "build/exp589/D64-assets/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      }
+    },
+    "D96": {
+      "rank": 96,
+      "near_rank": 512,
+      "near_source": {
+        "path": "../exp586/build/exp586/N512-geometry.bin",
+        "bytes": 68605504,
+        "sha256": "166c7163f30cafd1ee1c72de40567c664c50041b385de0481d76ab0c95358221"
+      },
+      "binary": {
+        "path": "build/exp589/D96",
+        "bytes": 94623000,
+        "sha256": "189c45094845aa91d98d748af783ec905754fbde5dcdfe1d969b3c0141e17822"
+      },
+      "geometry": {
+        "path": "build/exp589/D96-geometry.bin",
+        "bytes": 87295552,
+        "sha256": "94a6c118f7db8a34627a4b669d4382996fd8b4aa7672d65f0818ac074a0e032a"
+      },
+      "quantization": [
+        {
+          "direction": 0,
+          "left": {
+            "rows": 59904,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0034211423450931436
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.003389818029704811
+          }
+        },
+        {
+          "direction": 1,
+          "left": {
+            "rows": 59904,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0033986038714645325
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0033831448484004205
+          }
+        },
+        {
+          "direction": 2,
+          "left": {
+            "rows": 59904,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0034406713313384213
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0034421410167078045
+          }
+        },
+        {
+          "direction": 3,
+          "left": {
+            "rows": 59904,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.002701590028344001
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 96,
+            "block": 64,
+            "blocks": 2,
+            "max_abs_reconstruction_error": 0.0026974812377955487
+          }
+        }
+      ],
+      "near_bitwise_unchanged": true,
+      "header": {
+        "path": "build/exp589/D96-assets/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "44d75404a5605349fdf5b9ac89728ec2ffcf771a7f4dd2ce8822bab6d5c55d44"
+      }
+    },
+    "N768D64": {
+      "rank": 64,
+      "near_rank": 768,
+      "near_source": {
+        "path": "../exp586/build/exp586/N768-geometry.bin",
+        "bytes": 86204992,
+        "sha256": "bb22b37d7aa8ec2b0378a020147e87ee196e0ae26a2142980893ca8c0f421397"
+      },
+      "binary": {
+        "path": "build/exp589/N768D64",
+        "bytes": 94229784,
+        "sha256": "404c677b4658dd265a780e57c16f8f91b3a59e68ac8a9ecbc50a5c729f6024de"
+      },
+      "geometry": {
+        "path": "build/exp589/N768D64-geometry.bin",
+        "bytes": 86903104,
+        "sha256": "a306e74952c23603d1e277149032145002ca68afe9b8a1db9c940b623caea90f"
+      },
+      "quantization": [
+        {
+          "direction": 0,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034211423450931436
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.003389818029704811
+          }
+        },
+        {
+          "direction": 1,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0033986038714645325
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0033831448484004205
+          }
+        },
+        {
+          "direction": 2,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034406713313384213
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0034421410167078045
+          }
+        },
+        {
+          "direction": 3,
+          "left": {
+            "rows": 59904,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.002701590028344001
+          },
+          "right": {
+            "rows": 65040,
+            "rank": 64,
+            "block": 64,
+            "blocks": 1,
+            "max_abs_reconstruction_error": 0.0026974812377955487
+          }
+        }
+      ],
+      "near_bitwise_unchanged": true,
+      "header": {
+        "path": "build/exp589/N768D64-assets/exp582_int8_geometry.h",
+        "bytes": 4077,
+        "sha256": "23e3ccd3bfab564cf397c0dc0fd0f77c5699fd41316fbfd747d10740efe6ee83"
+      }
+    }
+  },
+  "baseline": {
+    "path": "../exp586/build/exp586/N512",
+    "bytes": 75932952,
+    "sha256": "35e7856e096bb2e44bfba15ab2660b6c3adfa785de195a99627f5383809b0f03"
+  },
+  "baseline_geometry": {
+    "path": "../exp586/build/exp586/N512-geometry.bin",
+    "bytes": 68605504,
+    "sha256": "166c7163f30cafd1ee1c72de40567c664c50041b385de0481d76ab0c95358221"
+  },
+  "training": {
+    "path": "offline/validation/results/exp589/training.json",
+    "bytes": 30207,
+    "sha256": "28944808cf4865436476b4a81e4b9a6c495539c91afe23f5f99d0c7bc6e3863b"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp589/validation/exp589_complete_candidate.py",
+    "bytes": 16557,
+    "sha256": "c6dce6daafe1bea3555643e2584de383a0546e66bfa304aed5b9d12db87e8468"
+  },
+  "source": {
+    "path": "build/exp589/candidate.cpp",
+    "bytes": 10212,
+    "sha256": "d1fb25984799d163c436c3f1f5dca9e2be1bd8ecbd7034155f247c58c3e50f4a"
+  },
+  "protocol": {
+    "path": "experiment/实验589-远域方向子空间与近域固定背景.md",
+    "bytes": 5232,
+    "sha256": "775537b39cd5f777e34d6c4b029e4a20b69376189fea9fffaafa4eb22c392f72"
+  }
+}

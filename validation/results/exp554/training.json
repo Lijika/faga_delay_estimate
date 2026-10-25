@@ -1,0 +1,1414 @@
+{
+  "records": [
+    {
+      "name": "small_T",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_T-0.json",
+          "bytes": 54698,
+          "sha256": "5afef9552fa3f010a0c615835a4611dea5b04d856f80ebfa454d78c472005fc9"
+        },
+        "binary": {
+          "path": "build/exp554/small_T-0.bin",
+          "bytes": 12660,
+          "sha256": "57f21c818f3e9125fbf5fb8720b0459494129af275688d750c4f46e5fc2b7552"
+        },
+        "trees": 32,
+        "nodes": 782
+      },
+      "cpu_s": 11.510607420000001,
+      "wall_s": 4.062248016009107,
+      "train_raw": {
+        "path": "build/exp554/small_T-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "db1aa1b892982169d6b6437ad8379fd164a5df1ebdf54c2bfab086b1dc969739"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 92.50873815291385,
+        "mean_error_ps": -21.643333293314683,
+        "mae_ps": 42.400310044480726,
+        "squared_ps": 2075185789,
+        "exact_rows": 5672,
+        "under_rows": 428449,
+        "over_rows": 232235
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 92.50291345683311,
+        "mean_error_ps": -21.620184987591564,
+        "mae_ps": 42.405231324405655,
+        "squared_ps": 1037822527,
+        "exact_rows": 2840,
+        "under_rows": 214890,
+        "over_rows": 115914
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 91.42110737728552,
+        "mean_error_ps": -21.219679870819803,
+        "mae_ps": 42.07462227397968,
+        "squared_ps": 2035032215,
+        "exact_rows": 5707,
+        "under_rows": 427145,
+        "over_rows": 233504
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 91.41578675493425,
+        "mean_error_ps": -21.216401313975375,
+        "mae_ps": 42.094852597379244,
+        "squared_ps": 1018833715,
+        "exact_rows": 2851,
+        "under_rows": 214304,
+        "over_rows": 116489
+      }
+    },
+    {
+      "name": "small_T",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_T-1.json",
+          "bytes": 54194,
+          "sha256": "afa29ef2a2b2ab05aea406f90795b45c7eda9593fad991ecb82a632b6eddb59b"
+        },
+        "binary": {
+          "path": "build/exp554/small_T-1.bin",
+          "bytes": 12500,
+          "sha256": "897817688505623c5ac5f0317dceb3302b5397977062ff2bc8a11c60fd0b8313"
+        },
+        "trees": 32,
+        "nodes": 772
+      },
+      "cpu_s": 11.567266086,
+      "wall_s": 4.036682617850602,
+      "train_raw": {
+        "path": "build/exp554/small_T-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "7461b1b985631c2562b9804201a318baf49913761deea64b50c44b5a38f96fc9"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 92.49203733744868,
+        "mean_error_ps": -21.453966712524615,
+        "mae_ps": 42.494075932370016,
+        "squared_ps": 2086054838,
+        "exact_rows": 5516,
+        "under_rows": 428164,
+        "over_rows": 233598
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 92.50627487057669,
+        "mean_error_ps": -21.452371649605375,
+        "mae_ps": 42.42500345633893,
+        "squared_ps": 1036611996,
+        "exact_rows": 2802,
+        "under_rows": 213297,
+        "over_rows": 116623
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 91.40149329011335,
+        "mean_error_ps": -21.041336594342987,
+        "mae_ps": 42.17965076025285,
+        "squared_ps": 2047236899,
+        "exact_rows": 5521,
+        "under_rows": 426935,
+        "over_rows": 234822
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 91.41627865859118,
+        "mean_error_ps": -21.0265356664122,
+        "mae_ps": 42.10008655874874,
+        "squared_ps": 1016509531,
+        "exact_rows": 2811,
+        "under_rows": 212651,
+        "over_rows": 117260
+      }
+    },
+    {
+      "name": "small_T",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_T-2.json",
+          "bytes": 54233,
+          "sha256": "67bf79813ab3e076d12c3b86207c35ecaa59e465252b61125424e699e4968172"
+        },
+        "binary": {
+          "path": "build/exp554/small_T-2.bin",
+          "bytes": 12532,
+          "sha256": "6ec719cd86ee813966c76f3c9b1edf96640804aac4cf9dc3b7ff9156bfff5be0"
+        },
+        "trees": 32,
+        "nodes": 774
+      },
+      "cpu_s": 11.697450470999996,
+      "wall_s": 4.051904160063714,
+      "train_raw": {
+        "path": "build/exp554/small_T-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "8de9070bbf017a855ebb04ef021bb5c652fdd0207ed61018bc48199eb54d8b74"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 92.4800863509389,
+        "mean_error_ps": -21.569292250805113,
+        "mae_ps": 42.55726882824154,
+        "squared_ps": 2089140207,
+        "exact_rows": 5516,
+        "under_rows": 427965,
+        "over_rows": 232885
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 92.46874761083482,
+        "mean_error_ps": -21.59655191017702,
+        "mae_ps": 42.64086394072547,
+        "squared_ps": 1051647314,
+        "exact_rows": 2806,
+        "under_rows": 214056,
+        "over_rows": 116772
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 91.3878754833198,
+        "mean_error_ps": -21.154497678452984,
+        "mae_ps": 42.2396310736142,
+        "squared_ps": 2049828990,
+        "exact_rows": 5534,
+        "under_rows": 426697,
+        "over_rows": 234135
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 91.37514647116319,
+        "mean_error_ps": -21.175075082275786,
+        "mae_ps": 42.3190711977796,
+        "squared_ps": 1031586165,
+        "exact_rows": 2825,
+        "under_rows": 213391,
+        "over_rows": 117418
+      }
+    },
+    {
+      "name": "small_J",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_J-0.json",
+          "bytes": 54500,
+          "sha256": "61341e8337b46fb1443a538cd56c1f908f8df56b8fc43b339e22f336e7842b98"
+        },
+        "binary": {
+          "path": "build/exp554/small_J-0.bin",
+          "bytes": 12596,
+          "sha256": "26bc3dbe271773f7e205f24e870fa91744dbfe2f40fdfa0b47a446097abc1d1d"
+        },
+        "trees": 32,
+        "nodes": 778
+      },
+      "cpu_s": 13.990326045000003,
+      "wall_s": 4.843589910073206,
+      "train_raw": {
+        "path": "build/exp554/small_J-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "c017d5511e4b62a3582085152cb48b95030d2d2ea4d584160436028220a16333"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 92.62473128365485,
+        "mean_error_ps": -21.286858676143083,
+        "mae_ps": 41.96093679654719,
+        "squared_ps": 2008917244,
+        "exact_rows": 5551,
+        "under_rows": 429361,
+        "over_rows": 231444
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 92.62003373520416,
+        "mean_error_ps": -21.244173430362903,
+        "mae_ps": 41.95952272482047,
+        "squared_ps": 1004542669,
+        "exact_rows": 2762,
+        "under_rows": 215394,
+        "over_rows": 115488
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 91.58194485671316,
+        "mean_error_ps": -20.8632052536482,
+        "mae_ps": 41.63581929178997,
+        "squared_ps": 1969237016,
+        "exact_rows": 5590,
+        "under_rows": 428052,
+        "over_rows": 232714
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 91.57806493580038,
+        "mean_error_ps": -20.840389756746713,
+        "mae_ps": 41.649006126290296,
+        "squared_ps": 985747407,
+        "exact_rows": 2783,
+        "under_rows": 214788,
+        "over_rows": 116073
+      }
+    },
+    {
+      "name": "small_J",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_J-1.json",
+          "bytes": 54160,
+          "sha256": "7e87f20203b8a19c27b5c13b445e1a2472ebf26f4a2304b2e748b2ed59797475"
+        },
+        "binary": {
+          "path": "build/exp554/small_J-1.bin",
+          "bytes": 12500,
+          "sha256": "d6ada2aeb3142193f91e2846377f4e3a55537475dd54c5adf347ae004d6f9d25"
+        },
+        "trees": 32,
+        "nodes": 772
+      },
+      "cpu_s": 13.954392304999999,
+      "wall_s": 4.777938535902649,
+      "train_raw": {
+        "path": "build/exp554/small_J-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "7db96e406678b1210bb03d46b66ac5c54b631ca1f4c972bd01ef6b22c3ca8919"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 92.65057132766322,
+        "mean_error_ps": -21.20375615560531,
+        "mae_ps": 41.77325792248508,
+        "squared_ps": 1995877498,
+        "exact_rows": 5590,
+        "under_rows": 430274,
+        "over_rows": 231414
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 92.66275066834221,
+        "mean_error_ps": -21.22143110464592,
+        "mae_ps": 41.711852537553874,
+        "squared_ps": 992254921,
+        "exact_rows": 2820,
+        "under_rows": 214313,
+        "over_rows": 115589
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 91.60907515580797,
+        "mean_error_ps": -20.791126037423684,
+        "mae_ps": 41.45872484931318,
+        "squared_ps": 1957678507,
+        "exact_rows": 5626,
+        "under_rows": 428967,
+        "over_rows": 232685
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 91.62175542452239,
+        "mean_error_ps": -20.795595121452745,
+        "mae_ps": 41.38595584301609,
+        "squared_ps": 972461776,
+        "exact_rows": 2836,
+        "under_rows": 213652,
+        "over_rows": 116234
+      }
+    },
+    {
+      "name": "small_J",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_J-2.json",
+          "bytes": 54344,
+          "sha256": "6b8fadd272a352324476b34fee9351dc2e3f22c6e344fe31dc1a734380837498"
+        },
+        "binary": {
+          "path": "build/exp554/small_J-2.bin",
+          "bytes": 12564,
+          "sha256": "53378d265dbb682b9eff3467649454c3850f3112144f086fb9fcfe59288f0ebf"
+        },
+        "trees": 32,
+        "nodes": 776
+      },
+      "cpu_s": 13.84181295900001,
+      "wall_s": 4.749118156032637,
+      "train_raw": {
+        "path": "build/exp554/small_J-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "07c82b96d114b83e5af8970c58b27d98aa6a9cd96f384da63d2471589bf968e6"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 92.65785086042202,
+        "mean_error_ps": -21.2999822920137,
+        "mae_ps": 41.76775225626758,
+        "squared_ps": 1992426490,
+        "exact_rows": 5683,
+        "under_rows": 430234,
+        "over_rows": 230449
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 92.64637055010405,
+        "mean_error_ps": -21.31493193139788,
+        "mae_ps": 41.84661035745757,
+        "squared_ps": 1002414306,
+        "exact_rows": 2770,
+        "under_rows": 215286,
+        "over_rows": 115578
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 91.61934440316733,
+        "mean_error_ps": -20.885187719661566,
+        "mae_ps": 41.45287274560827,
+        "squared_ps": 1953989909,
+        "exact_rows": 5700,
+        "under_rows": 428973,
+        "over_rows": 231693
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 91.60612705803904,
+        "mean_error_ps": -20.893455103496645,
+        "mae_ps": 41.528822002553696,
+        "squared_ps": 982811003,
+        "exact_rows": 2777,
+        "under_rows": 214625,
+        "over_rows": 116232
+      }
+    },
+    {
+      "name": "small_Q",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_Q-0.json",
+          "bytes": 63911,
+          "sha256": "7ff23a0634770d9632aa8371b7c0f6d0e05e430f68fe7edb84df1af19303099d"
+        },
+        "binary": {
+          "path": "build/exp554/small_Q-0.bin",
+          "bytes": 15700,
+          "sha256": "d8989eaaadae8dc64c6cfdd525cd5f58708c67a5ef61ecd83f126ebb9d7e48f8"
+        },
+        "trees": 32,
+        "nodes": 972
+      },
+      "cpu_s": 12.06712899899999,
+      "wall_s": 4.081446990836412,
+      "train_raw": {
+        "path": "build/exp554/small_Q-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "0befcde672a2218cd85807f5444224397b32c2e14e528eef266859c4f081d5ce"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 99.33327785277613,
+        "mean_error_ps": -3.7567366392739014,
+        "mae_ps": 4.0639087814921755,
+        "squared_ps": 140078892,
+        "exact_rows": 469296,
+        "under_rows": 157443,
+        "over_rows": 39617
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 99.33574107738512,
+        "mean_error_ps": -3.7408045701406287,
+        "mae_ps": 4.061026123652756,
+        "squared_ps": 71444519,
+        "exact_rows": 235414,
+        "under_rows": 78600,
+        "over_rows": 19630
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 99.31579323322812,
+        "mean_error_ps": -3.333083216779019,
+        "mae_ps": 3.6659533342537625,
+        "squared_ps": 127148602,
+        "exact_rows": 482702,
+        "under_rows": 143170,
+        "over_rows": 40484
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 99.31497238893769,
+        "mean_error_ps": -3.337020896524439,
+        "mae_ps": 3.6843132200788866,
+        "squared_ps": 65564717,
+        "exact_rows": 242048,
+        "under_rows": 71548,
+        "over_rows": 20048
+      }
+    },
+    {
+      "name": "small_Q",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_Q-1.json",
+          "bytes": 63694,
+          "sha256": "a35d696b974573f1e9c88958fcdc3c5cb808aa87c50130f61345d0a6b0812424"
+        },
+        "binary": {
+          "path": "build/exp554/small_Q-1.bin",
+          "bytes": 15636,
+          "sha256": "a1efa3b1a788cdebe457aeb9ab14aa70c5711fd20d57d44bd8e5a9c25e52e729"
+        },
+        "trees": 32,
+        "nodes": 968
+      },
+      "cpu_s": 12.289615704,
+      "wall_s": 4.153855349868536,
+      "train_raw": {
+        "path": "build/exp554/small_Q-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "653d2a171941a64c46f8260ae1bec452969d68570e1c62c5fbf57759399bd53c"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 99.33241558289404,
+        "mean_error_ps": -3.6992273085580525,
+        "mae_ps": 4.067916220825503,
+        "squared_ps": 141422483,
+        "exact_rows": 455249,
+        "under_rows": 155021,
+        "over_rows": 57008
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 99.32915913178931,
+        "mean_error_ps": -3.728998984136907,
+        "mae_ps": 4.081473422256418,
+        "squared_ps": 70927158,
+        "exact_rows": 226723,
+        "under_rows": 77316,
+        "over_rows": 28683
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 99.31170872722745,
+        "mean_error_ps": -3.286597190376425,
+        "mae_ps": 3.6824711739335028,
+        "squared_ps": 128999300,
+        "exact_rows": 468244,
+        "under_rows": 140829,
+        "over_rows": 58205
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 99.31337211759306,
+        "mean_error_ps": -3.303163000943731,
+        "mae_ps": 3.680120340704853,
+        "squared_ps": 64441999,
+        "exact_rows": 233242,
+        "under_rows": 70193,
+        "over_rows": 29287
+      }
+    },
+    {
+      "name": "small_Q",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 32,
+      "assets": {
+        "json": {
+          "path": "build/exp554/small_Q-2.json",
+          "bytes": 63872,
+          "sha256": "4dcfacce12f6a5c402634ab6035d3297a1501dbaf721cf237f7e6ee165926517"
+        },
+        "binary": {
+          "path": "build/exp554/small_Q-2.bin",
+          "bytes": 15700,
+          "sha256": "bed5a5f77af289a091256da07a80bc77765562e9c1f49df061c67da9d001fba9"
+        },
+        "trees": 32,
+        "nodes": 972
+      },
+      "cpu_s": 13.814329028000017,
+      "wall_s": 4.803805052069947,
+      "train_raw": {
+        "path": "build/exp554/small_Q-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "b9cb094f225b9467219924a5f808f93a9efcdae9051c7189da4187aa29842561"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 99.3357589112096,
+        "mean_error_ps": -3.7698547044717166,
+        "mae_ps": 4.062231566436463,
+        "squared_ps": 141763787,
+        "exact_rows": 470446,
+        "under_rows": 158307,
+        "over_rows": 37613
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 99.33443391509427,
+        "mean_error_ps": -3.754503437899015,
+        "mae_ps": 4.059652193721264,
+        "squared_ps": 69462084,
+        "exact_rows": 235407,
+        "under_rows": 79394,
+        "over_rows": 18833
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 99.31874593715486,
+        "mean_error_ps": -3.355060132119586,
+        "mae_ps": 3.6738489058565413,
+        "squared_ps": 129456902,
+        "exact_rows": 483819,
+        "under_rows": 144109,
+        "over_rows": 38438
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 99.31548107630256,
+        "mean_error_ps": -3.333026609997782,
+        "mae_ps": 3.6652709256250864,
+        "squared_ps": 63009093,
+        "exact_rows": 242111,
+        "under_rows": 72274,
+        "over_rows": 19249
+      }
+    },
+    {
+      "name": "capacity_T",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_T-0.json",
+          "bytes": 3368964,
+          "sha256": "2187b463e50974e79f4c3f779bc5499439b00828f299d5ecc2333cba7621f946"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_T-0.bin",
+          "bytes": 921972,
+          "sha256": "b9269657dd819ff8f8f5bea6433af1f99659e77422c7b2f83256c5f6e6fd92a2"
+        },
+        "trees": 128,
+        "nodes": 57590
+      },
+      "cpu_s": 50.553156023999975,
+      "wall_s": 19.29436168796383,
+      "train_raw": {
+        "path": "build/exp554/capacity_T-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "028d6125c8c3a83cb98b8ac1f88202517e9ed2a7d2e7c821fdad7d9feb6cafc7"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 95.71774055724669,
+        "mean_error_ps": -3.4119554712496023,
+        "mae_ps": 23.000967951065196,
+        "squared_ps": 703990631,
+        "exact_rows": 12791,
+        "under_rows": 333936,
+        "over_rows": 319629
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 95.58591090960788,
+        "mean_error_ps": -3.3888845595904615,
+        "mae_ps": 23.503341885362843,
+        "squared_ps": 364642113,
+        "exact_rows": 5580,
+        "under_rows": 167978,
+        "over_rows": 160086
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 95.05777202515692,
+        "mean_error_ps": -2.98830204875472,
+        "mae_ps": 22.75929833302319,
+        "squared_ps": 686286491,
+        "exact_rows": 12871,
+        "under_rows": 331034,
+        "over_rows": 322451
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 94.90548656332398,
+        "mean_error_ps": -2.985100885974272,
+        "mae_ps": 23.27732253539701,
+        "squared_ps": 356052191,
+        "exact_rows": 5606,
+        "under_rows": 166668,
+        "over_rows": 161370
+      }
+    },
+    {
+      "name": "capacity_T",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_T-1.json",
+          "bytes": 3356051,
+          "sha256": "be572e28bd7a6439c0cc01ce20a2f5f77b5d07b4aab617c020e3698b55c59d31"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_T-1.bin",
+          "bytes": 918420,
+          "sha256": "6192f23b37568973231b540670dcf758033d56ffc4f15b083ce5d0508dddeba5"
+        },
+        "trees": 128,
+        "nodes": 57368
+      },
+      "cpu_s": 50.320761455999985,
+      "wall_s": 19.479656500043347,
+      "train_raw": {
+        "path": "build/exp554/capacity_T-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "8385c09e84c9142ddf849553811607a45576dcdbfb7979a7f14ebbc12c6214ad"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 95.70411834777772,
+        "mean_error_ps": -3.4193439615872245,
+        "mae_ps": 23.1256642658682,
+        "squared_ps": 712630971,
+        "exact_rows": 12657,
+        "under_rows": 334466,
+        "over_rows": 320155
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 95.56410085839576,
+        "mean_error_ps": -3.4947403538088855,
+        "mae_ps": 23.64953624948155,
+        "squared_ps": 366363671,
+        "exact_rows": 5627,
+        "under_rows": 167407,
+        "over_rows": 159688
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 95.04362430958679,
+        "mean_error_ps": -3.006713843405597,
+        "mae_ps": 22.892302758370572,
+        "squared_ps": 695244084,
+        "exact_rows": 12775,
+        "under_rows": 331597,
+        "over_rows": 322906
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 94.87939620232079,
+        "mean_error_ps": -3.068904370615709,
+        "mae_ps": 23.41351638905753,
+        "squared_ps": 357274898,
+        "exact_rows": 5666,
+        "under_rows": 165998,
+        "over_rows": 161058
+      }
+    },
+    {
+      "name": "capacity_T",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_T-2.json",
+          "bytes": 3362063,
+          "sha256": "e12e3afd33ac1ba7c14e1c6158e1aa25dabae597c4acd2d6eca1bcb48764264f"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_T-2.bin",
+          "bytes": 920084,
+          "sha256": "30c711163fe49e516d5abd863a18d28097133258f2ca14363a4068ae41d1ec0d"
+        },
+        "trees": 128,
+        "nodes": 57472
+      },
+      "cpu_s": 50.46655190999999,
+      "wall_s": 19.18874499690719,
+      "train_raw": {
+        "path": "build/exp554/capacity_T-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "7df70b32a3b00b632399b62960bb764804598d5a61f5af778420bb49b36f7367"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 95.71094761747972,
+        "mean_error_ps": -3.375296758838236,
+        "mae_ps": 23.02149119252783,
+        "squared_ps": 706901859,
+        "exact_rows": 12829,
+        "under_rows": 334085,
+        "over_rows": 319452
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 95.5549613817278,
+        "mean_error_ps": -3.3258930444738843,
+        "mae_ps": 23.588749947547313,
+        "squared_ps": 366858355,
+        "exact_rows": 5764,
+        "under_rows": 167318,
+        "over_rows": 160552
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 95.04994851162314,
+        "mean_error_ps": -2.960502186486105,
+        "mae_ps": 22.787579198218396,
+        "squared_ps": 689624104,
+        "exact_rows": 12903,
+        "under_rows": 331162,
+        "over_rows": 322301
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 94.86757676566428,
+        "mean_error_ps": -2.9044162165726513,
+        "mae_ps": 23.354789979438547,
+        "squared_ps": 358013156,
+        "exact_rows": 5786,
+        "under_rows": 165951,
+        "over_rows": 161897
+      }
+    },
+    {
+      "name": "capacity_J",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_J-0.json",
+          "bytes": 3329141,
+          "sha256": "ccb6bb61e2e8cc527a9d4e352fec0fb7659ff81a4a56ffd921c9de450b8a85d0"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_J-0.bin",
+          "bytes": 909460,
+          "sha256": "55255482b72837e5184328042dc9fc9c9ab714a77afe123fe86580d9f0ccfb11"
+        },
+        "trees": 128,
+        "nodes": 56808
+      },
+      "cpu_s": 58.90442210600003,
+      "wall_s": 21.792683312902227,
+      "train_raw": {
+        "path": "build/exp554/capacity_J-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "2c0fdf0af0ed6e08e8bf444ad90b3677fbddd4975d26cfa07fed9e8917139f4a"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 95.99705404067973,
+        "mean_error_ps": -2.2502536181860746,
+        "mae_ps": 21.80506516036473,
+        "squared_ps": 583311722,
+        "exact_rows": 13016,
+        "under_rows": 334445,
+        "over_rows": 318895
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 95.84883991354077,
+        "mean_error_ps": -2.2272002493675895,
+        "mae_ps": 22.33139513972977,
+        "squared_ps": 303027096,
+        "exact_rows": 5697,
+        "under_rows": 168325,
+        "over_rows": 159622
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 95.4282888917078,
+        "mean_error_ps": -1.8266001956911921,
+        "mae_ps": 21.580692602752883,
+        "squared_ps": 567247278,
+        "exact_rows": 13106,
+        "under_rows": 331413,
+        "over_rows": 321837
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 95.2554728291606,
+        "mean_error_ps": -1.8234165757513996,
+        "mae_ps": 22.124911582405197,
+        "squared_ps": 295367382,
+        "exact_rows": 5718,
+        "under_rows": 166932,
+        "over_rows": 160994
+      }
+    },
+    {
+      "name": "capacity_J",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_J-1.json",
+          "bytes": 3309985,
+          "sha256": "1b1c27940c624e4de7be2fcfad1ce5a26c34cf432c73ae61c5d266cadc92c477"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_J-1.bin",
+          "bytes": 904308,
+          "sha256": "9a638a72fff98a3d72dab3aadb06ee82296a7204a81d0995a23ad5c94c841cd3"
+        },
+        "trees": 128,
+        "nodes": 56486
+      },
+      "cpu_s": 58.218619124999975,
+      "wall_s": 21.46248623984866,
+      "train_raw": {
+        "path": "build/exp554/capacity_J-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "140ff9f7859994e02bc12d8dde9080ef7738c022e97d41ff8db541b6a0672d57"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 96.00489825034552,
+        "mean_error_ps": -2.147521722580394,
+        "mae_ps": 21.74957064371971,
+        "squared_ps": 583546912,
+        "exact_rows": 12898,
+        "under_rows": 334580,
+        "over_rows": 319800
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 95.85180652862728,
+        "mean_error_ps": -2.230528789800494,
+        "mae_ps": 22.30073154164738,
+        "squared_ps": 302095582,
+        "exact_rows": 5620,
+        "under_rows": 167525,
+        "over_rows": 159577
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 95.4379598127792,
+        "mean_error_ps": -1.7348916043987663,
+        "mae_ps": 21.533149601815136,
+        "squared_ps": 568240067,
+        "exact_rows": 13002,
+        "under_rows": 331586,
+        "over_rows": 322690
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 95.25925960020626,
+        "mean_error_ps": -1.8046928066073178,
+        "mae_ps": 22.079667109478784,
+        "squared_ps": 293980761,
+        "exact_rows": 5650,
+        "under_rows": 166091,
+        "over_rows": 160981
+      }
+    },
+    {
+      "name": "capacity_J",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_J-2.json",
+          "bytes": 3320088,
+          "sha256": "6b0e6f458d799a407d7d899d0b22e959c81ae8b60efd9a388efc19e3e65b91cc"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_J-2.bin",
+          "bytes": 906900,
+          "sha256": "ffbb155610bc9c1cc5e47ae11e986d24f4ae7f9555169e424886f7bd3bc3c773"
+        },
+        "trees": 128,
+        "nodes": 56648
+      },
+      "cpu_s": 58.222528754999985,
+      "wall_s": 20.921807741979137,
+      "train_raw": {
+        "path": "build/exp554/capacity_J-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "6f3beda33b4d267f5fb036d939859cc1a71000e24bb4aeebf0db91f50bdd8171"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 96.00155229473133,
+        "mean_error_ps": -2.088497912558564,
+        "mae_ps": 21.68833643973432,
+        "squared_ps": 578218516,
+        "exact_rows": 12890,
+        "under_rows": 333964,
+        "over_rows": 319512
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 95.83970502815352,
+        "mean_error_ps": -2.022587625961383,
+        "mae_ps": 22.26976267406799,
+        "squared_ps": 301816780,
+        "exact_rows": 5671,
+        "under_rows": 167329,
+        "over_rows": 160634
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 95.43119409326678,
+        "mean_error_ps": -1.6737033402064332,
+        "mae_ps": 21.473176902783155,
+        "squared_ps": 562875667,
+        "exact_rows": 12959,
+        "under_rows": 331010,
+        "over_rows": 322397
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 95.24217641722913,
+        "mean_error_ps": -1.6011107980601498,
+        "mae_ps": 22.054565781664937,
+        "squared_ps": 294014911,
+        "exact_rows": 5696,
+        "under_rows": 165939,
+        "over_rows": 161999
+      }
+    },
+    {
+      "name": "capacity_Q",
+      "fold": 0,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_Q-0.json",
+          "bytes": 3327136,
+          "sha256": "776ed9dd2adea4880582886563956d1c4fd8e7ead403721fbe8acc25b681de5a"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_Q-0.bin",
+          "bytes": 914132,
+          "sha256": "c912c1421cdfc56fc808d008dd8fcc4fdb543fc6913214895d1a89f01cbaca41"
+        },
+        "trees": 128,
+        "nodes": 57100
+      },
+      "cpu_s": 51.42572229899997,
+      "wall_s": 17.86344579188153,
+      "train_raw": {
+        "path": "build/exp554/capacity_Q-0.train.f32",
+        "bytes": 2665424,
+        "sha256": "443638e52e55718ef9eec0de9268b41310f27c6393b8cfdd50333186224e944d"
+      },
+      "train": {
+        "rows": 666356,
+        "accuracy_pp": 99.4223817174261,
+        "mean_error_ps": -2.626339374148353,
+        "mae_ps": 3.519903775159224,
+        "squared_ps": 95648869,
+        "exact_rows": 450021,
+        "under_rows": 136385,
+        "over_rows": 79950
+      },
+      "validation": {
+        "rows": 333644,
+        "accuracy_pp": 99.40540875741361,
+        "mean_error_ps": -2.620373811607582,
+        "mae_ps": 3.601395499394564,
+        "squared_ps": 49986480,
+        "exact_rows": 224324,
+        "under_rows": 68423,
+        "over_rows": 40897
+      },
+      "train_kernel": {
+        "rows": 666356,
+        "accuracy_pp": 99.41726543297956,
+        "mean_error_ps": -2.2026859516534705,
+        "mae_ps": 3.1315437994105255,
+        "squared_ps": 83046355,
+        "exact_rows": 462816,
+        "under_rows": 121842,
+        "over_rows": 81698
+      },
+      "validation_kernel": {
+        "rows": 333644,
+        "accuracy_pp": 99.39250542538933,
+        "mean_error_ps": -2.216590137991392,
+        "mae_ps": 3.2342916401913415,
+        "squared_ps": 44276088,
+        "exact_rows": 230651,
+        "under_rows": 61308,
+        "over_rows": 41685
+      }
+    },
+    {
+      "name": "capacity_Q",
+      "fold": 1,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_Q-1.json",
+          "bytes": 3312513,
+          "sha256": "c6b376cd2e4a54c9a75856346763cebdcdfd5171e1f544a5a2c51e755091d799"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_Q-1.bin",
+          "bytes": 912884,
+          "sha256": "e1d3971186f33beb5c095449a2a80cd66fd1f4dcf4389ccfeed82444a860ef93"
+        },
+        "trees": 128,
+        "nodes": 57022
+      },
+      "cpu_s": 52.267750836999994,
+      "wall_s": 17.21886235009879,
+      "train_raw": {
+        "path": "build/exp554/capacity_Q-1.train.f32",
+        "bytes": 2669112,
+        "sha256": "05f2c380905f46c16c82f051f8c648b70395c60e63f21be1f66e7d0d969787c0"
+      },
+      "train": {
+        "rows": 667278,
+        "accuracy_pp": 99.42566813203912,
+        "mean_error_ps": -2.6022107727214143,
+        "mae_ps": 3.5035022884015357,
+        "squared_ps": 95519472,
+        "exact_rows": 452505,
+        "under_rows": 136799,
+        "over_rows": 77974
+      },
+      "validation": {
+        "rows": 332722,
+        "accuracy_pp": 99.40810227306255,
+        "mean_error_ps": -2.6224746184502377,
+        "mae_ps": 3.5742361490974446,
+        "squared_ps": 48379377,
+        "exact_rows": 224344,
+        "under_rows": 68772,
+        "over_rows": 39606
+      },
+      "train_kernel": {
+        "rows": 667278,
+        "accuracy_pp": 99.41899199068015,
+        "mean_error_ps": -2.189580654539787,
+        "mae_ps": 3.1250558238095665,
+        "squared_ps": 83396547,
+        "exact_rows": 465277,
+        "under_rows": 122296,
+        "over_rows": 79705
+      },
+      "validation_kernel": {
+        "rows": 332722,
+        "accuracy_pp": 99.40091826545176,
+        "mean_error_ps": -2.1966386352570613,
+        "mae_ps": 3.1831679299835898,
+        "squared_ps": 42087114,
+        "exact_rows": 230738,
+        "under_rows": 61557,
+        "over_rows": 40427
+      }
+    },
+    {
+      "name": "capacity_Q",
+      "fold": 2,
+      "params": {
+        "objective": "reg:absoluteerror",
+        "tree_method": "hist",
+        "max_depth": 8,
+        "eta": 0.1,
+        "max_bin": 256,
+        "base_score": 0,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "seed": 20261020554,
+        "nthread": 4
+      },
+      "rounds": 128,
+      "assets": {
+        "json": {
+          "path": "build/exp554/capacity_Q-2.json",
+          "bytes": 3379064,
+          "sha256": "d5f7884efe086a30d467c17bef7dc787993b1fc6dfa95fcd6535b4c39ecf29d9"
+        },
+        "binary": {
+          "path": "build/exp554/capacity_Q-2.bin",
+          "bytes": 930036,
+          "sha256": "1dd4a1bb81d2a7ae26dedcca98d72b8bda74022ff8ea1c004210e51ced9788d1"
+        },
+        "trees": 128,
+        "nodes": 58094
+      },
+      "cpu_s": 52.11629580399995,
+      "wall_s": 16.953367799986154,
+      "train_raw": {
+        "path": "build/exp554/capacity_Q-2.train.f32",
+        "bytes": 2665464,
+        "sha256": "8ac3ad18793b2ad5c4555c46a99259cb27be77aabe99f105bfdb5ac6f75ddc49"
+      },
+      "train": {
+        "rows": 666366,
+        "accuracy_pp": 99.42546667038566,
+        "mean_error_ps": -2.609330307968894,
+        "mae_ps": 3.5048021657767654,
+        "squared_ps": 95108921,
+        "exact_rows": 451664,
+        "under_rows": 136739,
+        "over_rows": 77963
+      },
+      "validation": {
+        "rows": 333634,
+        "accuracy_pp": 99.40656049706215,
+        "mean_error_ps": -2.600001798377863,
+        "mae_ps": 3.584475802825851,
+        "squared_ps": 48707907,
+        "exact_rows": 224715,
+        "under_rows": 68923,
+        "over_rows": 39996
+      },
+      "train_kernel": {
+        "rows": 666366,
+        "accuracy_pp": 99.42021588993447,
+        "mean_error_ps": -2.194535735616763,
+        "mae_ps": 3.1243670895573903,
+        "squared_ps": 83074528,
+        "exact_rows": 464444,
+        "under_rows": 122240,
+        "over_rows": 79682
+      },
+      "validation_kernel": {
+        "rows": 333634,
+        "accuracy_pp": 99.3945909547627,
+        "mean_error_ps": -2.17852497047663,
+        "mae_ps": 3.2010286721377317,
+        "squared_ps": 42416688,
+        "exact_rows": 231085,
+        "under_rows": 61733,
+        "over_rows": 40816
+      }
+    }
+  ],
+  "native": {
+    "path": "build/exp554/native.f32",
+    "bytes": 24000000,
+    "sha256": "50736b6298d537739a7bf334824eb22a72088471b539379eb071649efb3ee5d0"
+  },
+  "xgboost_version": "3.0.5"
+}

@@ -1,0 +1,139 @@
+{
+  "disk_free_start": 2687107072,
+  "entries": [
+    {
+      "remove": {
+        "path": "research/exp583/build/exp583/development-0-B.csv",
+        "bytes": 40136266,
+        "sha256": "235b36a5dba821aec5901b64dff8918491cf16fc03d37ac8d481dff9c8fcbc0f"
+      },
+      "keep": {
+        "path": "research/exp582/build/exp582/development-0-B64.csv",
+        "bytes": 40136266,
+        "sha256": "235b36a5dba821aec5901b64dff8918491cf16fc03d37ac8d481dff9c8fcbc0f"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "research/exp582/build/exp582/B64",
+        "-in",
+        "research/exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "research/exp583/build/exp583/development-0-B.csv"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp584/build/exp584/development-0-B.csv",
+        "bytes": 40136266,
+        "sha256": "235b36a5dba821aec5901b64dff8918491cf16fc03d37ac8d481dff9c8fcbc0f"
+      },
+      "keep": {
+        "path": "research/exp582/build/exp582/development-0-B64.csv",
+        "bytes": 40136266,
+        "sha256": "235b36a5dba821aec5901b64dff8918491cf16fc03d37ac8d481dff9c8fcbc0f"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "research/exp582/build/exp582/B64",
+        "-in",
+        "research/exp501/build/exp501/u-role/requests.csv",
+        "-out",
+        "research/exp584/build/exp584/development-0-B.csv"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp584/build/exp584/robustness-0-B.csv",
+        "bytes": 40130426,
+        "sha256": "1fddf911d3054752c11b62bbed59184f992bd7c08ec06bde336dd6cb6f54e8cd"
+      },
+      "keep": {
+        "path": "research/exp583/build/exp583/robustness-0-B.csv",
+        "bytes": 40130426,
+        "sha256": "1fddf911d3054752c11b62bbed59184f992bd7c08ec06bde336dd6cb6f54e8cd"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "research/exp582/build/exp582/B64",
+        "-in",
+        "research/exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "research/exp584/build/exp584/robustness-0-B.csv"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp585/build/exp585/T128-independent.f32",
+        "bytes": 4000000,
+        "sha256": "e59b0e8a414f0543c8c2c565349f050df0b649dea39b9bb37be625667d0266ea"
+      },
+      "keep": {
+        "path": "research/exp585/build/exp585/T128-raw.f32",
+        "bytes": 4000000,
+        "sha256": "e59b0e8a414f0543c8c2c565349f050df0b649dea39b9bb37be625667d0266ea"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "cp",
+        "research/exp585/build/exp585/T128-raw.f32",
+        "research/exp585/build/exp585/T128-independent.f32"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp585/build/exp585/C8-independent.f32",
+        "bytes": 4000000,
+        "sha256": "a2570b3d8588fdc67107958ecd06bd2c71a47192425acf6582c5540541bd04b9"
+      },
+      "keep": {
+        "path": "research/exp585/build/exp585/C8-raw.f32",
+        "bytes": 4000000,
+        "sha256": "a2570b3d8588fdc67107958ecd06bd2c71a47192425acf6582c5540541bd04b9"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "cp",
+        "research/exp585/build/exp585/C8-raw.f32",
+        "research/exp585/build/exp585/C8-independent.f32"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp585/build/exp585/F8-independent.f32",
+        "bytes": 4000000,
+        "sha256": "c3f5e07eaefcbce4122a03118213747638199fa1d7c7431d2efdfd609acaf2f1"
+      },
+      "keep": {
+        "path": "research/exp585/build/exp585/F8-raw.f32",
+        "bytes": 4000000,
+        "sha256": "c3f5e07eaefcbce4122a03118213747638199fa1d7c7431d2efdfd609acaf2f1"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "cp",
+        "research/exp585/build/exp585/F8-raw.f32",
+        "research/exp585/build/exp585/F8-independent.f32"
+      ]
+    },
+    {
+      "remove": {
+        "path": "research/exp585/build/exp585/F16-independent.f32",
+        "bytes": 4000000,
+        "sha256": "8b491b22e9c33678cab509e2b8750f92014435aa6941bb4b6b2382192c02d40d"
+      },
+      "keep": {
+        "path": "research/exp585/build/exp585/F16-raw.f32",
+        "bytes": 4000000,
+        "sha256": "8b491b22e9c33678cab509e2b8750f92014435aa6941bb4b6b2382192c02d40d"
+      },
+      "delete": true,
+      "rebuild_command": [
+        "cp",
+        "research/exp585/build/exp585/F16-raw.f32",
+        "research/exp585/build/exp585/F16-independent.f32"
+      ]
+    }
+  ],
+  "disk_free_end": 2823499776,
+  "bytes_removed": 136402958
+}

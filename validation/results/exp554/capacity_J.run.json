@@ -1,0 +1,28 @@
+{
+  "name": "capacity_J",
+  "command": [
+    "build/exp554/predict",
+    "build/exp554/features.f32",
+    "build/exp554/folds.u8",
+    "build/exp554/capacity_J-0.bin",
+    "build/exp554/capacity_J-1.bin",
+    "build/exp554/capacity_J-2.bin",
+    "build/exp554/capacity_J.independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 8.669614000000001,
+  "wall_s": 8.695146732032299,
+  "rss_bytes": 1287450624,
+  "threads": 1,
+  "counters": {
+    "rows": 1000000,
+    "threads": 1,
+    "comparisons": 938875123
+  },
+  "output": {
+    "path": "build/exp554/capacity_J.independent.f32",
+    "bytes": 4000000,
+    "sha256": "2b17791794eeed85148918366b8191637e6f81c8b68d319eaffef764ac14d124"
+  },
+  "bitwise_equal": true
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "build/hidden-suite-v1/reach.bin",
+    "published": "dataset_protocol/data/reach.bin.gz",
+    "bytes": 79873492,
+    "sha256": "76dffd63f45e3b1a4e512dd8753fed13f5f112b8d002d77f302bbeff0d58b746",
+    "compressed_bytes": 20984038
+  },
+  {
+    "source": "build/hidden-suite-v1/independent/eligibility.bin",
+    "published": "dataset_protocol/data/eligibility.bin.gz",
+    "bytes": 60205224,
+    "sha256": "5c95aeff22bb2c7471b7a3d4b0ef82e4cc7dadcd865890ac07ada34264f6b843",
+    "compressed_bytes": 390465
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "binary": {
+    "path": "build/exp554/predict",
+    "bytes": 955288,
+    "sha256": "118eddfb12e10cb39db283af92fe448b73df9dde48351565814612b358f4386e"
+  },
+  "runs": [
+    {
+      "name": "small_T",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/small_T-0.bin",
+        "build/exp554/small_T-1.bin",
+        "build/exp554/small_T-2.bin",
+        "build/exp554/small_T.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.501501,
+      "wall_s": 0.5079352441243827,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 99382357
+      },
+      "output": {
+        "path": "build/exp554/small_T.independent.f32",
+        "bytes": 4000000,
+        "sha256": "b11598c6a64b71c627be12058a5d8c69370f635f8a9f82819eecd538d83d0f8d"
+      },
+      "bitwise_equal": true
+    },
+    {
+      "name": "small_J",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/small_J-0.bin",
+        "build/exp554/small_J-1.bin",
+        "build/exp554/small_J-2.bin",
+        "build/exp554/small_J.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.510366,
+      "wall_s": 0.5278987411875278,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 99369042
+      },
+      "output": {
+        "path": "build/exp554/small_J.independent.f32",
+        "bytes": 4000000,
+        "sha256": "0497316dbd734f129436534bef986315f3c3f6270f3b426b7df666fa05f0b257"
+      },
+      "bitwise_equal": true
+    },
+    {
+      "name": "small_Q",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/small_Q-0.bin",
+        "build/exp554/small_Q-1.bin",
+        "build/exp554/small_Q-2.bin",
+        "build/exp554/small_Q.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.423139,
+      "wall_s": 0.4475234339479357,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 127945339
+      },
+      "output": {
+        "path": "build/exp554/small_Q.independent.f32",
+        "bytes": 4000000,
+        "sha256": "2d58ce5ee933d963a76379ad6f95f666ba4561932d9c968224c872811f10099d"
+      },
+      "bitwise_equal": true
+    },
+    {
+      "name": "capacity_T",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/capacity_T-0.bin",
+        "build/exp554/capacity_T-1.bin",
+        "build/exp554/capacity_T-2.bin",
+        "build/exp554/capacity_T.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 8.729116,
+      "wall_s": 8.754880591994151,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 939044305
+      },
+      "output": {
+        "path": "build/exp554/capacity_T.independent.f32",
+        "bytes": 4000000,
+        "sha256": "4b1de76c6ee548ca32fc64713dfd7b1dee313a7c6989bbf1d2932140f85aeb49"
+      },
+      "bitwise_equal": true
+    },
+    {
+      "name": "capacity_J",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/capacity_J-0.bin",
+        "build/exp554/capacity_J-1.bin",
+        "build/exp554/capacity_J-2.bin",
+        "build/exp554/capacity_J.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 8.669614000000001,
+      "wall_s": 8.695146732032299,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 938875123
+      },
+      "output": {
+        "path": "build/exp554/capacity_J.independent.f32",
+        "bytes": 4000000,
+        "sha256": "2b17791794eeed85148918366b8191637e6f81c8b68d319eaffef764ac14d124"
+      },
+      "bitwise_equal": true
+    },
+    {
+      "name": "capacity_Q",
+      "command": [
+        "build/exp554/predict",
+        "build/exp554/features.f32",
+        "build/exp554/folds.u8",
+        "build/exp554/capacity_Q-0.bin",
+        "build/exp554/capacity_Q-1.bin",
+        "build/exp554/capacity_Q-2.bin",
+        "build/exp554/capacity_Q.independent.f32"
+      ],
+      "exit_code": 0,
+      "cpu_s": 8.645918000000002,
+      "wall_s": 8.674190614139661,
+      "rss_bytes": 1287450624,
+      "threads": 1,
+      "counters": {
+        "rows": 1000000,
+        "threads": 1,
+        "comparisons": 1023693777
+      },
+      "output": {
+        "path": "build/exp554/capacity_Q.independent.f32",
+        "bytes": 4000000,
+        "sha256": "b67093e379b4b2624d6aa55a84f77e2397938b321921e4e32b407d33650b4ec0"
+      },
+      "bitwise_equal": true
+    }
+  ],
+  "all_bitwise_equal": true,
+  "production_timing": false
+}

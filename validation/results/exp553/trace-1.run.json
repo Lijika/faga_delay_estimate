@@ -1,0 +1,17 @@
+{
+  "command": [
+    "build/exp553/no-line-paths",
+    "doc/eda比赛文件/arch",
+    "build/exp553/no-line-arch",
+    "../exp552/../exp552-replay-failure-01/build/exp552/trace-1.queries.bin",
+    "../exp552/../exp552-replay-failure-01/build/exp552/trace-1.gold.i32",
+    "../exp552/../exp552-replay-failure-01/../exp501/build/exp501/tools/orbit.i16",
+    "build/exp553/trace-1"
+  ],
+  "exit_code": 0,
+  "cpu_s": 915.2064799999999,
+  "wall_s": 915.3091587179806,
+  "rss_bytes": 771784704,
+  "threads": 1,
+  "sampled_rss_bytes": 771936256
+}

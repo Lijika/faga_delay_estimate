@@ -1,0 +1,78 @@
+{
+  "name": "capacity_J",
+  "fold": 1,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 8,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 128,
+  "assets": {
+    "json": {
+      "path": "build/exp554/capacity_J-1.json",
+      "bytes": 3309985,
+      "sha256": "1b1c27940c624e4de7be2fcfad1ce5a26c34cf432c73ae61c5d266cadc92c477"
+    },
+    "binary": {
+      "path": "build/exp554/capacity_J-1.bin",
+      "bytes": 904308,
+      "sha256": "9a638a72fff98a3d72dab3aadb06ee82296a7204a81d0995a23ad5c94c841cd3"
+    },
+    "trees": 128,
+    "nodes": 56486
+  },
+  "cpu_s": 58.218619124999975,
+  "wall_s": 21.46248623984866,
+  "train_raw": {
+    "path": "build/exp554/capacity_J-1.train.f32",
+    "bytes": 2669112,
+    "sha256": "140ff9f7859994e02bc12d8dde9080ef7738c022e97d41ff8db541b6a0672d57"
+  },
+  "train": {
+    "rows": 667278,
+    "accuracy_pp": 96.00489825034552,
+    "mean_error_ps": -2.147521722580394,
+    "mae_ps": 21.74957064371971,
+    "squared_ps": 583546912,
+    "exact_rows": 12898,
+    "under_rows": 334580,
+    "over_rows": 319800
+  },
+  "validation": {
+    "rows": 332722,
+    "accuracy_pp": 95.85180652862728,
+    "mean_error_ps": -2.230528789800494,
+    "mae_ps": 22.30073154164738,
+    "squared_ps": 302095582,
+    "exact_rows": 5620,
+    "under_rows": 167525,
+    "over_rows": 159577
+  },
+  "train_kernel": {
+    "rows": 667278,
+    "accuracy_pp": 95.4379598127792,
+    "mean_error_ps": -1.7348916043987663,
+    "mae_ps": 21.533149601815136,
+    "squared_ps": 568240067,
+    "exact_rows": 13002,
+    "under_rows": 331586,
+    "over_rows": 322690
+  },
+  "validation_kernel": {
+    "rows": 332722,
+    "accuracy_pp": 95.25925960020626,
+    "mean_error_ps": -1.8046928066073178,
+    "mae_ps": 22.079667109478784,
+    "squared_ps": 293980761,
+    "exact_rows": 5650,
+    "under_rows": 166091,
+    "over_rows": 160981
+  }
+}

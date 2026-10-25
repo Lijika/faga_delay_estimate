@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp679/100m-1-A.csv",
+    "bytes": 4013523788,
+    "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+  },
+  "identical_to": {
+    "path": "build/exp679/100m-0-A.csv",
+    "bytes": 4013523788,
+    "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+  },
+  "rebuild_command": [
+    "../exp654/build/exp654/B",
+    "-in",
+    "build/exp679/u-role/requests.csv",
+    "-out",
+    "build/exp679/100m-1-A.csv"
+  ]
+}

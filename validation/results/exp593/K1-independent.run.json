@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp593/routed-predict",
+    "build/exp593/features.f32",
+    "build/exp593/folds.u8",
+    "build/exp593/routes.u8",
+    "build/exp593/K1-models.txt",
+    "build/exp593/K1-native.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.44862,
+  "wall_s": 0.7653604280203581,
+  "rss_bytes": 532099072,
+  "threads": 1,
+  "stderr": "validation/results/exp593/K1-independent.stderr"
+}

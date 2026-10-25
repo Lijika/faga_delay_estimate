@@ -1,0 +1,78 @@
+{
+  "name": "capacity_Q",
+  "fold": 1,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 8,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 128,
+  "assets": {
+    "json": {
+      "path": "build/exp554/capacity_Q-1.json",
+      "bytes": 3312513,
+      "sha256": "c6b376cd2e4a54c9a75856346763cebdcdfd5171e1f544a5a2c51e755091d799"
+    },
+    "binary": {
+      "path": "build/exp554/capacity_Q-1.bin",
+      "bytes": 912884,
+      "sha256": "e1d3971186f33beb5c095449a2a80cd66fd1f4dcf4389ccfeed82444a860ef93"
+    },
+    "trees": 128,
+    "nodes": 57022
+  },
+  "cpu_s": 52.267750836999994,
+  "wall_s": 17.21886235009879,
+  "train_raw": {
+    "path": "build/exp554/capacity_Q-1.train.f32",
+    "bytes": 2669112,
+    "sha256": "05f2c380905f46c16c82f051f8c648b70395c60e63f21be1f66e7d0d969787c0"
+  },
+  "train": {
+    "rows": 667278,
+    "accuracy_pp": 99.42566813203912,
+    "mean_error_ps": -2.6022107727214143,
+    "mae_ps": 3.5035022884015357,
+    "squared_ps": 95519472,
+    "exact_rows": 452505,
+    "under_rows": 136799,
+    "over_rows": 77974
+  },
+  "validation": {
+    "rows": 332722,
+    "accuracy_pp": 99.40810227306255,
+    "mean_error_ps": -2.6224746184502377,
+    "mae_ps": 3.5742361490974446,
+    "squared_ps": 48379377,
+    "exact_rows": 224344,
+    "under_rows": 68772,
+    "over_rows": 39606
+  },
+  "train_kernel": {
+    "rows": 667278,
+    "accuracy_pp": 99.41899199068015,
+    "mean_error_ps": -2.189580654539787,
+    "mae_ps": 3.1250558238095665,
+    "squared_ps": 83396547,
+    "exact_rows": 465277,
+    "under_rows": 122296,
+    "over_rows": 79705
+  },
+  "validation_kernel": {
+    "rows": 332722,
+    "accuracy_pp": 99.40091826545176,
+    "mean_error_ps": -2.1966386352570613,
+    "mae_ps": 3.1831679299835898,
+    "squared_ps": 42087114,
+    "exact_rows": 230738,
+    "under_rows": 61557,
+    "over_rows": 40427
+  }
+}

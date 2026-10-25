@@ -1,0 +1,30 @@
+{
+  "arm": "T1",
+  "fold": 0,
+  "route": 11,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 111996,
+  "port_pairs": 50672,
+  "model": {
+    "path": "build/exp593/T1-0-11.json",
+    "bytes": 16380,
+    "sha256": "19cad678d300e4666490297f35e63ea0063b81dfb6e53db34eb1f854bdb5c4d5"
+  },
+  "cpu_s": 1.1281631979999958,
+  "wall_s": 1.128268089145422,
+  "offline_only": true
+}

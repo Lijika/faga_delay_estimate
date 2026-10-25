@@ -1,0 +1,1335 @@
+{
+  "comparison": {
+    "saved_cpu_s": -0.8697068333333332,
+    "ci975_saved_cpu_s": [
+      -0.9681036629824216,
+      -0.7713100036842448
+    ],
+    "score_extrapolated_1b": -0.04375270926309672,
+    "conservative_ci95_score_lower": -0.055425437505536176,
+    "score_gate": false,
+    "delta_accuracy_pp": 0.035903575226684636,
+    "accuracy_interval": {
+      "point_pp": 0.035903575226684636,
+      "family_ci975_pp": [
+        0.0316210605088917,
+        0.04022183246984697
+      ],
+      "stratified_ci975_pp": [
+        0.0315623346787487,
+        0.04024481577462057
+      ],
+      "conservative_ci975_pp": [
+        0.0315623346787487,
+        0.04024481577462057
+      ]
+    },
+    "quality_gate": true,
+    "joint_gate": false,
+    "groups": {
+      "source_family": {
+        "0": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3878814.0,
+          "delta_accuracy_pp": 0.03868438192430926,
+          "accuracy_pp": {
+            "A": 98.59874886361092,
+            "C": 98.63743324553523
+          }
+        },
+        "1": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3872306.0,
+          "delta_accuracy_pp": 0.04735753692085025,
+          "accuracy_pp": {
+            "A": 98.56430599449142,
+            "C": 98.61166353141229
+          }
+        },
+        "2": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3901389.0,
+          "delta_accuracy_pp": 0.03975363533607965,
+          "accuracy_pp": {
+            "A": 98.63330168568835,
+            "C": 98.67305532102444
+          }
+        },
+        "3": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3902119.0,
+          "delta_accuracy_pp": 0.03185934069099019,
+          "accuracy_pp": {
+            "A": 98.59641610578544,
+            "C": 98.62827544647644
+          }
+        },
+        "4": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3901894.0,
+          "delta_accuracy_pp": 0.04309893509239586,
+          "accuracy_pp": {
+            "A": 98.59573307822232,
+            "C": 98.63883201331471
+          }
+        },
+        "5": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3905039.0,
+          "delta_accuracy_pp": 0.03692470874050654,
+          "accuracy_pp": {
+            "A": 98.63339465606809,
+            "C": 98.6703193648086
+          }
+        },
+        "6": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3878026.0,
+          "delta_accuracy_pp": 0.02688647760790255,
+          "accuracy_pp": {
+            "A": 98.59617241535993,
+            "C": 98.62305889296783
+          }
+        },
+        "7": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3877534.0,
+          "delta_accuracy_pp": 0.030521611799038638,
+          "accuracy_pp": {
+            "A": 98.64249456356566,
+            "C": 98.67301617536468
+          }
+        },
+        "8": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3841226.0,
+          "delta_accuracy_pp": 0.042004443015355664,
+          "accuracy_pp": {
+            "A": 98.56246258862863,
+            "C": 98.60446703164398
+          }
+        },
+        "9": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3884907.0,
+          "delta_accuracy_pp": 0.028984621066662997,
+          "accuracy_pp": {
+            "A": 98.45391143949948,
+            "C": 98.48289606056615
+          }
+        },
+        "10": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3895768.0,
+          "delta_accuracy_pp": 0.018651602956232638,
+          "accuracy_pp": {
+            "A": 98.49440588112647,
+            "C": 98.51305748408271
+          }
+        },
+        "11": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3841998.0,
+          "delta_accuracy_pp": 0.03486906982387095,
+          "accuracy_pp": {
+            "A": 98.5582361659815,
+            "C": 98.59310523580535
+          }
+        },
+        "12": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3767947.0,
+          "delta_accuracy_pp": 0.034844439420750495,
+          "accuracy_pp": {
+            "A": 98.58366781868475,
+            "C": 98.6185122581055
+          }
+        },
+        "13": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3867473.0,
+          "delta_accuracy_pp": 0.02644564345132409,
+          "accuracy_pp": {
+            "A": 98.5502337824214,
+            "C": 98.57667942587271
+          }
+        },
+        "14": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3865117.0,
+          "delta_accuracy_pp": 0.041363282399635444,
+          "accuracy_pp": {
+            "A": 98.50735375441748,
+            "C": 98.54871703681712
+          }
+        },
+        "15": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3768072.0,
+          "delta_accuracy_pp": 0.027870337346971214,
+          "accuracy_pp": {
+            "A": 98.59478027852911,
+            "C": 98.6226506158761
+          }
+        },
+        "16": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3554282.0,
+          "delta_accuracy_pp": 0.04209909149362874,
+          "accuracy_pp": {
+            "A": 98.70609136908247,
+            "C": 98.7481904605761
+          }
+        },
+        "17": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3780495.0,
+          "delta_accuracy_pp": 0.043936557586505144,
+          "accuracy_pp": {
+            "A": 98.61480040572272,
+            "C": 98.65873696330921
+          }
+        },
+        "18": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3775383.0,
+          "delta_accuracy_pp": 0.031720700507952365,
+          "accuracy_pp": {
+            "A": 98.65471005942754,
+            "C": 98.6864307599355
+          }
+        },
+        "19": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3552802.0,
+          "delta_accuracy_pp": 0.05152494060638137,
+          "accuracy_pp": {
+            "A": 98.71212572174838,
+            "C": 98.76365066235476
+          }
+        },
+        "20": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3912833.0,
+          "delta_accuracy_pp": 0.04505111606703695,
+          "accuracy_pp": {
+            "A": 98.78819234654874,
+            "C": 98.83324346261578
+          }
+        },
+        "21": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3913427.0,
+          "delta_accuracy_pp": 0.01928448816842353,
+          "accuracy_pp": {
+            "A": 98.78725721635499,
+            "C": 98.80654170452341
+          }
+        },
+        "22": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3915292.0,
+          "delta_accuracy_pp": 0.05588953022585082,
+          "accuracy_pp": {
+            "A": 98.72851750470126,
+            "C": 98.78440703492711
+          }
+        },
+        "23": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3911514.0,
+          "delta_accuracy_pp": 0.016849925767245887,
+          "accuracy_pp": {
+            "A": 98.75036551672895,
+            "C": 98.76721544249618
+          }
+        },
+        "24": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3915845.0,
+          "delta_accuracy_pp": 0.04299312944347972,
+          "accuracy_pp": {
+            "A": 98.77071084858163,
+            "C": 98.81370397802513
+          }
+        },
+        "25": {
+          "sample_rows": 9216,
+          "source_families": 1,
+          "estimated_population_rows": 3918498.0,
+          "delta_accuracy_pp": 0.03575674578249242,
+          "accuracy_pp": {
+            "A": 98.7687989997534,
+            "C": 98.80455574553586
+          }
+        }
+      },
+      "distance": {
+        "0": {
+          "sample_rows": 3868,
+          "source_families": 26,
+          "estimated_population_rows": 1614080.75,
+          "delta_accuracy_pp": -5.6849979631870867e-05,
+          "accuracy_pp": {
+            "A": 96.29162126158042,
+            "C": 96.29156441160082
+          }
+        },
+        "1": {
+          "sample_rows": 45607,
+          "source_families": 26,
+          "estimated_population_rows": 19034527.0,
+          "delta_accuracy_pp": 0.08768226614846678,
+          "accuracy_pp": {
+            "A": 97.46761044050166,
+            "C": 97.55529270665014
+          }
+        },
+        "2": {
+          "sample_rows": 125733,
+          "source_families": 26,
+          "estimated_population_rows": 52469077.5,
+          "delta_accuracy_pp": 0.03165049304940728,
+          "accuracy_pp": {
+            "A": 98.82058016440394,
+            "C": 98.85223065745333
+          }
+        },
+        "3": {
+          "sample_rows": 64408,
+          "source_families": 26,
+          "estimated_population_rows": 26882314.75,
+          "delta_accuracy_pp": 0.009701048827258694,
+          "accuracy_pp": {
+            "A": 99.23076367965628,
+            "C": 99.24046472848354
+          }
+        }
+      },
+      "near_axis": {
+        "0": {
+          "sample_rows": 153001,
+          "source_families": 26,
+          "estimated_population_rows": 63860469.75,
+          "delta_accuracy_pp": 0.009056267431176886,
+          "accuracy_pp": {
+            "A": 99.00763731642272,
+            "C": 99.01669358385391
+          }
+        },
+        "1": {
+          "sample_rows": 86615,
+          "source_families": 26,
+          "estimated_population_rows": 36139530.25,
+          "delta_accuracy_pp": 0.08334419427966643,
+          "accuracy_pp": {
+            "A": 97.96960181340198,
+            "C": 98.05294600768165
+          }
+        }
+      },
+      "direction": {
+        "0": {
+          "sample_rows": 58101,
+          "source_families": 26,
+          "estimated_population_rows": 24247424.0,
+          "delta_accuracy_pp": 0.04769808578396199,
+          "accuracy_pp": {
+            "A": 98.69031369810834,
+            "C": 98.7380117838923
+          }
+        },
+        "1": {
+          "sample_rows": 62715,
+          "source_families": 26,
+          "estimated_population_rows": 26173037.75,
+          "delta_accuracy_pp": 0.032076272787434364,
+          "accuracy_pp": {
+            "A": 98.56930046203527,
+            "C": 98.60137673482272
+          }
+        },
+        "2": {
+          "sample_rows": 61786,
+          "source_families": 26,
+          "estimated_population_rows": 25787298.5,
+          "delta_accuracy_pp": 0.027080275964355163,
+          "accuracy_pp": {
+            "A": 98.74585980886074,
+            "C": 98.77294008482508
+          }
+        },
+        "3": {
+          "sample_rows": 57014,
+          "source_families": 26,
+          "estimated_population_rows": 23792239.75,
+          "delta_accuracy_pp": 0.03765686475046325,
+          "accuracy_pp": {
+            "A": 98.52022236515386,
+            "C": 98.5578792299043
+          }
+        }
+      },
+      "event": {
+        "0": {
+          "sample_rows": 234688,
+          "source_families": 26,
+          "estimated_population_rows": 97943504.0,
+          "delta_accuracy_pp": 0.0,
+          "accuracy_pp": {
+            "A": 98.74862395318517,
+            "C": 98.74862395318517
+          }
+        },
+        "1": {
+          "sample_rows": 4297,
+          "source_families": 26,
+          "estimated_population_rows": 1793469.75,
+          "delta_accuracy_pp": 0.7200552359432685,
+          "accuracy_pp": {
+            "A": 94.4287419106414,
+            "C": 95.14879714658467
+          },
+          "source_family_ci95_pp": [
+            0.5729484966344441,
+            0.8582608247858344
+          ]
+        },
+        "2": {
+          "sample_rows": 631,
+          "source_families": 26,
+          "estimated_population_rows": 263026.25,
+          "delta_accuracy_pp": 8.740421302722062,
+          "accuracy_pp": {
+            "A": 84.05350750998393,
+            "C": 92.793928812706
+          },
+          "source_family_ci95_pp": [
+            7.764222504160011,
+            9.717060266419256
+          ]
+        }
+      }
+    },
+    "ordinary_sample_predictions_equal": true,
+    "changed_sample_rows": 4783,
+    "improved_sample_rows": 2890,
+    "worse_sample_rows": 1854
+  },
+  "summary": {
+    "A": {
+      "accuracy": {
+        "point_pp": 98.63249616180279,
+        "family_ci975_pp": [
+          98.59154839921321,
+          98.67410017801843
+        ],
+        "stratified_ci975_pp": [
+          98.62018637509003,
+          98.64480594851555
+        ],
+        "conservative_ci975_pp": [
+          98.59154839921321,
+          98.67410017801843
+        ]
+      },
+      "mae_ps": 8.044266475,
+      "exact_fraction": 0.065595625
+    },
+    "C": {
+      "accuracy": {
+        "point_pp": 98.66839973702949,
+        "family_ci975_pp": [
+          98.62633031206614,
+          98.71154369902261
+        ],
+        "stratified_ci975_pp": [
+          98.65705618275491,
+          98.67974329130406
+        ],
+        "conservative_ci975_pp": [
+          98.62633031206614,
+          98.71154369902261
+        ]
+      },
+      "mae_ps": 7.8561581425,
+      "exact_fraction": 0.0655634925
+    }
+  },
+  "timing": {
+    "A": [
+      23.612516,
+      23.429073,
+      23.412404000000002,
+      23.659091,
+      23.655092,
+      23.58572
+    ],
+    "C": [
+      24.475032,
+      24.335083,
+      24.33205,
+      24.39187,
+      24.505065,
+      24.533037
+    ]
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-0-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.85682,
+      "wall_s": 23.896590874064714,
+      "rss_bytes": 243433472,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-0-A.stderr",
+      "arm": "A",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-0-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.421991000000002,
+      "wall_s": 24.42492936993949,
+      "rss_bytes": 243433472,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-0-C.stderr",
+      "arm": "C",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-1-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.612516,
+      "wall_s": 23.61539856903255,
+      "rss_bytes": 244985856,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-1-A.stderr",
+      "arm": "A",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp679/100m-1-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-1-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.475032,
+      "wall_s": 24.52854541898705,
+      "rss_bytes": 244985856,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-1-C.stderr",
+      "arm": "C",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp679/100m-1-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-2-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.335083,
+      "wall_s": 24.33813697611913,
+      "rss_bytes": 244985856,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-2-C.stderr",
+      "arm": "C",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp679/100m-2-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-2-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.429073,
+      "wall_s": 23.432232905877754,
+      "rss_bytes": 244985856,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-2-A.stderr",
+      "arm": "A",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp679/100m-2-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-3-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.412404000000002,
+      "wall_s": 23.415239559020847,
+      "rss_bytes": 244985856,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-3-A.stderr",
+      "arm": "A",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp679/100m-3-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-3-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.33205,
+      "wall_s": 24.33514489699155,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-3-C.stderr",
+      "arm": "C",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp679/100m-3-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-4-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.39187,
+      "wall_s": 24.395407827105373,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-4-C.stderr",
+      "arm": "C",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp679/100m-4-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-4-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.659091,
+      "wall_s": 23.662415676983073,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-4-A.stderr",
+      "arm": "A",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp679/100m-4-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-5-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.655092,
+      "wall_s": 23.657345541985705,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-5-A.stderr",
+      "arm": "A",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp679/100m-5-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-5-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.505065,
+      "wall_s": 24.50850197300315,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-5-C.stderr",
+      "arm": "C",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp679/100m-5-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-6-C.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 24.533037,
+      "wall_s": 24.58934780303389,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-6-C.stderr",
+      "arm": "C",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp679/100m-6-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-6-A.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 23.58572,
+      "wall_s": 23.64624929591082,
+      "rss_bytes": 249720832,
+      "threads": 1,
+      "stderr": "validation/results/exp679/100m-6-A.stderr",
+      "arm": "A",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp679/100m-6-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "input": {
+        "path": "build/exp679/u-role/requests.csv",
+        "bytes": 3519741980,
+        "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+      },
+      "counters": {
+        "rows": 100000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    }
+  ],
+  "evidence": {
+    "A": {
+      "output": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "sample": {
+        "path": "build/exp679/A-sample.csv",
+        "bytes": 11186444,
+        "sha256": "853806cb044b108879036b44a0a557556808b2ecdbf72e61b9ce716232bde47a"
+      },
+      "run": {
+        "command": [
+          "../exp654/build/exp654/B",
+          "-in",
+          "build/exp679/u-role/requests.csv",
+          "-out",
+          "build/exp679/100m-0-A.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 23.85682,
+        "wall_s": 23.896590874064714,
+        "rss_bytes": 243433472,
+        "threads": 1,
+        "stderr": "validation/results/exp679/100m-0-A.stderr",
+        "arm": "A",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp679/100m-0-A.csv",
+          "bytes": 4013523788,
+          "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+        },
+        "input": {
+          "path": "build/exp679/u-role/requests.csv",
+          "bytes": 3519741980,
+          "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+        },
+        "counters": {
+          "rows": 100000000,
+          "unreachable": 0,
+          "query_allocations": 0
+        }
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519741980,
+        "output_bytes": 4013523788,
+        "sample_rows": 239616,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "build/exp679/u-role/requests.csv",
+          "build/exp679/100m-0-A.csv",
+          "100000000",
+          "build/exp679/positions.txt",
+          "build/exp679/A-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 9.521113999999999,
+        "wall_s": 9.523837357992306,
+        "rss_bytes": 243433472,
+        "threads": 1,
+        "stderr": "validation/results/exp679/A-contract.stderr"
+      }
+    },
+    "C": {
+      "output": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "sample": {
+        "path": "build/exp679/C-sample.csv",
+        "bytes": 11186462,
+        "sha256": "bf8dcea379ee2113d426286b49a970a0ba6c9931cb381050190266726327acfc"
+      },
+      "run": {
+        "command": [
+          "build/exp679/C",
+          "-in",
+          "build/exp679/u-role/requests.csv",
+          "-out",
+          "build/exp679/100m-0-C.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 24.421991000000002,
+        "wall_s": 24.42492936993949,
+        "rss_bytes": 243433472,
+        "threads": 1,
+        "stderr": "validation/results/exp679/100m-0-C.stderr",
+        "arm": "C",
+        "iteration": 0,
+        "output": {
+          "path": "build/exp679/100m-0-C.csv",
+          "bytes": 4013531508,
+          "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+        },
+        "input": {
+          "path": "build/exp679/u-role/requests.csv",
+          "bytes": 3519741980,
+          "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+        },
+        "counters": {
+          "rows": 100000000,
+          "unreachable": 0,
+          "query_allocations": 0
+        }
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519741980,
+        "output_bytes": 4013531508,
+        "sample_rows": 239616,
+        "contract_passed": true
+      },
+      "contract_run": {
+        "command": [
+          "../exp580/build/exp580/contract-check",
+          "check",
+          "build/exp679/u-role/requests.csv",
+          "build/exp679/100m-0-C.csv",
+          "100000000",
+          "build/exp679/positions.txt",
+          "build/exp679/C-sample.csv"
+        ],
+        "exit_code": 0,
+        "cpu_s": 9.516237,
+        "wall_s": 9.518023208947852,
+        "rss_bytes": 244985856,
+        "threads": 1,
+        "stderr": "validation/results/exp679/C-contract.stderr"
+      }
+    }
+  },
+  "rows": 100000000,
+  "unique_rows": 100000000,
+  "port_pairs": 59904,
+  "sample_rows": 239616,
+  "source_pin_overlap": 0,
+  "registered_history_overlap": 0,
+  "heldout_used_for_selection": false,
+  "full_population_scored": false,
+  "cpu_1b_is_extrapolation": true,
+  "final_accuracy_goal_verified": false,
+  "zero_truth_sample_rows": 0,
+  "scoring_cpu_s": 0.2317922339999825,
+  "scoring_wall_s": 0.2318633459508419,
+  "deleted_duplicates": [
+    {
+      "file": {
+        "path": "build/exp679/100m-1-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-1-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-1-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-1-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-2-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-2-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-2-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-2-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-3-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-3-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-3-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-3-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-4-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-4-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-4-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-4-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-5-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-5-A.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-5-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-5-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-6-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-C.csv",
+        "bytes": 4013531508,
+        "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+      },
+      "rebuild_command": [
+        "build/exp679/C",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-6-C.csv"
+      ]
+    },
+    {
+      "file": {
+        "path": "build/exp679/100m-6-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "identical_to": {
+        "path": "build/exp679/100m-0-A.csv",
+        "bytes": 4013523788,
+        "sha256": "24ada906201fcf830e2650b08acf66c8ca992159b754cb5044974cea4f9aeee7"
+      },
+      "rebuild_command": [
+        "../exp654/build/exp654/B",
+        "-in",
+        "build/exp679/u-role/requests.csv",
+        "-out",
+        "build/exp679/100m-6-A.csv"
+      ]
+    }
+  ],
+  "released_bytes": 48162331776,
+  "disk_free_end_bytes": 50774626304
+}

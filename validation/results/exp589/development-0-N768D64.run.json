@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp589/N768D64",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp589/development-0-N768D64.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.44209,
+  "wall_s": 0.4429227220825851,
+  "rss_bytes": 460423168,
+  "threads": 1,
+  "stderr": "validation/results/exp589/development-0-N768D64.stderr"
+}

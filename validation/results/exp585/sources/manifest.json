@@ -1,0 +1,32 @@
+[
+  {
+    "file": "validation/results/exp585/sources/regression_obj.cu",
+    "url": "https://raw.githubusercontent.com/dmlc/xgboost/v3.0.5/src/objective/regression_obj.cu",
+    "bytes": 29979,
+    "sha256": "61bb3eebed91db010f5c2c5efe2ed17a6cd56e043a71da4fb44fd4cd4bc63673"
+  },
+  {
+    "file": "validation/results/exp585/sources/adaptive.cc",
+    "url": "https://raw.githubusercontent.com/dmlc/xgboost/v3.0.5/src/objective/adaptive.cc",
+    "bytes": 6555,
+    "sha256": "1a35bdeaebb0fae91e474d24bad8be01e1dca3d09207eada2a1b6459b84478ac"
+  },
+  {
+    "file": "validation/results/exp585/sources/parameter.rst",
+    "url": "https://raw.githubusercontent.com/dmlc/xgboost/v3.0.5/doc/parameter.rst",
+    "bytes": 36556,
+    "sha256": "26e1bd62ca448454763fa4dfabe3cbe27019477712bb4c7320c294de53e670b6"
+  },
+  {
+    "file": "validation/results/exp585/sources/treemethod.rst",
+    "url": "https://raw.githubusercontent.com/dmlc/xgboost/v3.0.5/doc/treemethod.rst",
+    "bytes": 8932,
+    "sha256": "b47e4b55cd2491133774685a35d6cff445e9c5c76d0b7102bed75464854ddf92"
+  },
+  {
+    "file": "validation/results/exp585/sources/distillation.html",
+    "url": "https://arxiv.org/html/1503.02531",
+    "bytes": 106909,
+    "sha256": "377ff8455af5015e7afce0fce0e6482fa359aa2d31f77ac0f05031fbe3d7e937"
+  }
+]

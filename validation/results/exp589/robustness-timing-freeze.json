@@ -1,0 +1,62 @@
+{
+  "schedule": [
+    [
+      "B",
+      "D64",
+      "D96",
+      "N768D64"
+    ],
+    [
+      "B",
+      "D64",
+      "D96",
+      "N768D64"
+    ],
+    [
+      "N768D64",
+      "D96",
+      "D64",
+      "B"
+    ],
+    [
+      "B",
+      "D64",
+      "D96",
+      "N768D64"
+    ],
+    [
+      "N768D64",
+      "D96",
+      "D64",
+      "B"
+    ],
+    [
+      "B",
+      "D64",
+      "D96",
+      "N768D64"
+    ],
+    [
+      "N768D64",
+      "D96",
+      "D64",
+      "B"
+    ]
+  ],
+  "input": {
+    "path": "../exp562/build/exp562/u-role/requests.csv",
+    "bytes": 35192612,
+    "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+  },
+  "labels": {
+    "path": "../exp562/build/exp562/exact.csv",
+    "bytes": 72674703,
+    "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+  },
+  "candidate_freeze": {
+    "path": "validation/results/exp589/candidate-freeze.json",
+    "bytes": 9221,
+    "sha256": "dc5f311eb626a81bc3ed7be3690e70ac3b8a6128aebb9e2436d8c23c799ea8fc"
+  },
+  "distribution_previously_used": true
+}

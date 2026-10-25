@@ -1,0 +1,27 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "build/exp679",
+    "build/exp679/expert-check.cpp",
+    "-static",
+    "-s",
+    "-o",
+    "build/exp679/expert-check"
+  ],
+  "exit_code": 0,
+  "cpu_s": 5.730759999999999,
+  "wall_s": 5.742963602067903,
+  "rss_bytes": 201216000,
+  "threads": 1,
+  "stderr": "validation/results/exp679/compile-expert-check.stderr"
+}

@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp582/independent-6-B32.csv",
+    "bytes": 40130417,
+    "sha256": "9ba85ca81489bf9585e4693dbbba5d2088b4e3089944256dbb83488cbb0bd421"
+  },
+  "identical_to": {
+    "path": "build/exp582/independent-0-B32.csv",
+    "bytes": 40130417,
+    "sha256": "9ba85ca81489bf9585e4693dbbba5d2088b4e3089944256dbb83488cbb0bd421"
+  },
+  "rebuild_command": [
+    "build/exp582/B32",
+    "-in",
+    "../exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "build/exp582/independent-6-B32.csv"
+  ]
+}

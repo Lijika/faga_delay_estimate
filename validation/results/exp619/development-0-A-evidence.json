@@ -1,0 +1,27 @@
+{
+  "command": [
+    "../exp609/build/exp609/F",
+    "-in",
+    "../exp501/build/exp501/u-role/requests.csv",
+    "-out",
+    "build/exp619/development-0-A.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.331625,
+  "wall_s": 0.3322649609763175,
+  "rss_bytes": 120549376,
+  "threads": 1,
+  "stderr": "validation/results/exp619/development-0-A.stderr",
+  "arm": "A",
+  "iteration": 0,
+  "output": {
+    "path": "build/exp619/development-0-A.csv",
+    "bytes": 40136231,
+    "sha256": "41e1f2085e8a999ab73e96b5f58893dc108a78a9e7ca10aec7a26ba1390dcdc0"
+  },
+  "counters": {
+    "rows": 1000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  }
+}

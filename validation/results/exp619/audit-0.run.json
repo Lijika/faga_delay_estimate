@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp619/Q4-audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp619/audit-0-trace.bin",
+    "0"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.462342,
+  "wall_s": 0.4630045078229159,
+  "rss_bytes": 531546112,
+  "threads": 1,
+  "stderr": "validation/results/exp619/audit-0.stderr"
+}

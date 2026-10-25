@@ -1,0 +1,32 @@
+{
+  "command": [
+    "build/exp679/C",
+    "-in",
+    "build/exp679/u-role/requests.csv",
+    "-out",
+    "build/exp679/100m-2-C.csv"
+  ],
+  "exit_code": 0,
+  "cpu_s": 24.335083,
+  "wall_s": 24.33813697611913,
+  "rss_bytes": 244985856,
+  "threads": 1,
+  "stderr": "validation/results/exp679/100m-2-C.stderr",
+  "arm": "C",
+  "iteration": 2,
+  "output": {
+    "path": "build/exp679/100m-2-C.csv",
+    "bytes": 4013531508,
+    "sha256": "ba6a170c6d16e04a79d7e26fb7312b2ab2a7277b09447b8fc65478d4d08758c6"
+  },
+  "input": {
+    "path": "build/exp679/u-role/requests.csv",
+    "bytes": 3519741980,
+    "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+  },
+  "counters": {
+    "rows": 100000000,
+    "unreachable": 0,
+    "query_allocations": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "zstd",
+    "--single-thread",
+    "-9",
+    "--check",
+    "--no-progress",
+    "-q",
+    "-c",
+    "../exp589/build/exp589/D64-geometry.bin"
+  ],
+  "input": {
+    "path": "../exp589/build/exp589/D64-geometry.bin",
+    "bytes": 69303616,
+    "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+  },
+  "compressed": {
+    "path": "build/exp646/D64-Z/asset.zst",
+    "bytes": 56503992,
+    "sha256": "0c199042c04bbd6ee8eadd8a7770eb88304dabab2daf9a94c78791d8ee1e5669"
+  },
+  "cpu_s": 1.5820159999999999,
+  "wall_s": 1.8770982548594475
+}

@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "report": {
+    "path": "validation/results/exp679/100m-report.json",
+    "bytes": 38496,
+    "sha256": "971dfcb0f48200f487f853522a8010102a0dae6d5c20456c0e7a9039dd9bebad"
+  },
+  "expanded": {
+    "path": "validation/results/exp683/100m/score-exp679/accuracy.json",
+    "bytes": 1717030,
+    "sha256": "ea78ed48b912d34dd183328af22f51252a5ba9693e9c9418be4c3900ce206005"
+  },
+  "raw_runs_checked": 14,
+  "repeated_hashes_per_arm": 7,
+  "deleted_duplicates_checked": 12,
+  "released_bytes": 48162331776,
+  "quality_gate": true,
+  "joint_gate": false,
+  "full_binary_reruns": 0,
+  "wrapper_exit_record_empty": true,
+  "algorithm_completion_evidence": "all 14 original runs exited zero; report and completion marker present"
+}

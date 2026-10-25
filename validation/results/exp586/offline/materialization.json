@@ -1,0 +1,20 @@
+{
+  "shape": [
+    59904,
+    264960
+  ],
+  "dtype": "<i2",
+  "matrix_sha256": "c3aaeca23271dbea1ff4badc8b65b4f60f6723291dc5da4a524ba8df25dd8f86",
+  "bytes": 31744327680,
+  "scalar_values": 15872163840,
+  "source_ports": 208,
+  "target_ports": 288,
+  "port_pairs": 59904,
+  "contexts": 480,
+  "complete_compressed_and_raw_sha": true,
+  "complete_inverse_transpose": true,
+  "coordinate_bijection": true,
+  "cpu_s": 474.362093866,
+  "wall_s": 474.416608405998,
+  "rss_bytes": 32539406336
+}

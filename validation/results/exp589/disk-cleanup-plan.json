@@ -1,0 +1,28 @@
+{
+  "host": "r9r4900",
+  "working_directory": "/home/lhj/lhjwork/eda2026",
+  "verified_sha256_before_delete": true,
+  "files": [
+    {
+      "remove": "research/exp493/build/exp493/r512/verify-output.i32",
+      "retain": "research/exp493/build/exp493/r512/tables-output.i32",
+      "bytes": 1058144256,
+      "both_full_sha256": "7ca3f9ac0c8c73454ae9b20609286879f8fa5215b7e2f7f067b3e8c83fc2dd68",
+      "rebuild_command": "cp --reflink=auto research/exp493/build/exp493/r512/tables-output.i32 research/exp493/build/exp493/r512/verify-output.i32",
+      "reason": "completed historical decoder output; retained byte-identical tables output"
+    },
+    {
+      "remove": "research/exp493/build/exp493/r1024/verify-output.i32",
+      "retain": "research/exp493/build/exp493/r1024/tables-output.i32",
+      "bytes": 1058144256,
+      "both_full_sha256": "b41e72dccd1719fe0d73b812a55e9e5ca3aa2503c30bdbc7d307fd497c219511",
+      "rebuild_command": "cp --reflink=auto research/exp493/build/exp493/r1024/tables-output.i32 research/exp493/build/exp493/r1024/verify-output.i32",
+      "reason": "completed historical decoder output; retained byte-identical tables output"
+    }
+  ],
+  "logical_removed_bytes": 2116288512,
+  "free_bytes_before": 897753088,
+  "free_bytes_after": 897753088,
+  "actual_free_delta": 0,
+  "investigation": "Removed names are absent; retained files each have nlink=1. Pre-deletion inode/link counts were not saved; matching hard links remain a possible explanation. lsof +L1 shows no deleted eda2026 file held open. Logical removed bytes do not establish disk space release."
+}

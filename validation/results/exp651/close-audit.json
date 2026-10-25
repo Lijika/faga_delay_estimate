@@ -1,0 +1,55 @@
+{
+  "all_checks_passed": true,
+  "nominal_gates": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "ratios": [
+    {
+      "direction": 0,
+      "old": 0.6789878713823356,
+      "matched": 0.7123901276121022
+    },
+    {
+      "direction": 1,
+      "old": 0.7066785240611112,
+      "matched": 0.7460002802362778
+    },
+    {
+      "direction": 2,
+      "old": 0.6989075418531651,
+      "matched": 0.7318284967064835
+    },
+    {
+      "direction": 3,
+      "old": 0.7059163205960917,
+      "matched": 0.7358261282103363
+    }
+  ],
+  "resources": {
+    "cpu_s": 1636.207355336,
+    "wall_s": 1071.1693185460754,
+    "new_file_bytes": 5782868384,
+    "own_rss_bytes": 6561099776,
+    "child_rss_bytes": 6561099776,
+    "complete_program_runs": 0,
+    "disk_free_end_bytes": 83252965376
+  },
+  "asset": {
+    "path": "build/exp651/D64.curves",
+    "bytes": 29864000,
+    "sha256": "95057aa38fd4f0d4811c424d119cb1471a279978a52180d54d4c6981787f2bd7"
+  },
+  "frozen_files_verified": 18,
+  "deleted_bytes": 0,
+  "disk_free_end_bytes": 83244507136,
+  "cached_gate": true,
+  "cached_delta_accuracy_pp": 0.1914073937184863,
+  "cached_ci95_delta_accuracy_pp": [
+    0.18193382354526172,
+    0.20069108608509773
+  ],
+  "minimum_cached_group_delta_pp": -0.013917526220689617
+}

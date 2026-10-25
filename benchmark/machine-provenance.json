@@ -1,0 +1,11 @@
+{
+  "captured_date": "2026-10-25",
+  "observed_r9_cpu": "Intel Xeon Gold 6226R",
+  "user_target_cpu": "Intel Xeon Gold 6242R",
+  "historical_measurement_cpu_claim": "r9 host; current capture identifies 6226R, historical logs alone did not store full lscpu",
+  "target_6242r_benchmarks_available": false,
+  "screenshot": "../docs/exp688/cpu-xeon-gold-6242r.png",
+  "clock_governor_during_historical_runs": "not recorded",
+  "historical_runs_affinity": "taskset -c 8",
+  "historical_estimator_threads": 1
+}

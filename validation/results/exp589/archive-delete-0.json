@@ -1,0 +1,15 @@
+{
+  "path": "research/exp494/build/exp494/residue/r512/float-output.i32",
+  "bytes": 1058144256,
+  "sha256": "4ced5b3e7a15a7733789ada01d4c3144b32a928f04e41c522605b6b0fa3874ad",
+  "free_bytes_before": 897265664,
+  "free_bytes_after": 1955414016,
+  "deleted": true,
+  "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r512/float-output.i32",
+  "restore_command": [
+    "scp",
+    "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r512/float-output.i32",
+    "r9r4900:/home/lhj/lhjwork/eda2026/research/exp494/build/exp494/residue/r512/float-output.i32"
+  ],
+  "backup_verified": true
+}

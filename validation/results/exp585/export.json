@@ -1,0 +1,59 @@
+{
+  "training": {
+    "path": "build/exp585/training.npz",
+    "bytes": 76812911,
+    "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+  },
+  "evidence": {
+    "input": {
+      "path": "../exp501/build/exp501/u-role/requests.csv",
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    },
+    "output": {
+      "path": "../exp584/build/exp584/development-0-C.csv",
+      "bytes": 40136265,
+      "sha256": "1f13d501b10570397229e7eab9cd94f219810f08a5f1bafba95787544c79bf22"
+    },
+    "labels": {
+      "path": "../exp501/build/exp501/exact.csv",
+      "bytes": 72686142,
+      "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+    },
+    "rows": 1000000,
+    "unique_rows": 1000000,
+    "port_pairs": 59904,
+    "contract_passed": true,
+    "statistics": {
+      "rows": 1000000,
+      "accuracy_pp": 98.10365434751732,
+      "mean_error_ps": -1.932412,
+      "mae_ps": 11.136778,
+      "squared_ps": 286344406,
+      "exact_rows": 41014,
+      "under_rows": 496864,
+      "over_rows": 462122
+    }
+  },
+  "trace": {
+    "path": "../exp582/build/exp582/B64-trace.bin",
+    "bytes": 240000000,
+    "sha256": "dc75c4b2f8deb9f18280a6075c2d5bf5f818016e1d4c05a122ceb0e8d67cedf4"
+  },
+  "features": {
+    "path": "build/exp585/features.f32",
+    "bytes": 216000016,
+    "sha256": "e9520ecbb5bb96c51dba5529e783a0f91a0b52750f7de53f9a8c23de671808fd"
+  },
+  "protocol": {
+    "path": "experiment/实验585-真实几何残差的教师与折外蒸馏.md",
+    "bytes": 4645,
+    "sha256": "469de17a4fcdde0d98c16ff00e6736b8d26f026cc349a8f202cbf61d081fe0da"
+  },
+  "full_port_pairs": 59904,
+  "rows": 1000000,
+  "unique_rows": 1000000,
+  "cluster_disjoint": true,
+  "base_exactly_reconstructed": true,
+  "q0_rows": 6583
+}

@@ -1,0 +1,22 @@
+{
+  "generator_commit": "26f0b04",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "compile_flags": "-O3 -std=c++17 -Wall -Wextra -Werror; no -march=native",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "files": {
+    "check_hidden_suite": "0ebfc0c748b4955d5fee4205bdde3f142cd9ce99c7c18d7602cc9bd941cd7af5",
+    "hidden_reach": "6f11bbcb376d222cbf80b2d5c145a49f9f187aa2d8de2b0fbb8a15cd28694dc7",
+    "make_hidden_suite": "b777a8400c4f191e790cea364576e6a51cef9211ca6796ac7656213ded527bd7",
+    "scripts/check_hidden_suite.cpp": "9f052ff991d779ad74e6ed52374f6bdac582a0c2101a760375c9732022132c0c",
+    "scripts/hidden_reach.cpp": "3e0d71c6777975e26b810e0449321b39f3a689139a00a5101547c779f9a2f652",
+    "scripts/hidden_suite.h": "a2f384aa094a4346d8f0fb4286be322cd6b68dab883c6df12c1115429d7d4af9",
+    "scripts/make_hidden_suite.cpp": "a5cbcde692c1401d63f3a4d9720331a4c85d97ca60b1721fb5931a16d557dba4",
+    "scripts/run_hidden_suite.sh": "ca3546f3bbab76498789f6f34a7f3eb71673b2338c518aca3900d1c925e49663",
+    "src/architecture.cpp": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8",
+    "src/architecture.h": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d",
+    "src/json.h": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013",
+    "validation/hidden_exact_sample.py": "1b64dc43d894dfde36ff4f915c6bc0d54703f52158c5f2a24d5684778ab1cf65",
+    "validation/hidden_geometry_check.py": "cf0cf2ad7e93211022bfb8a6a79d4db4e4a813d2be31b8fe18d4e52d6375f1a8",
+    "validation/hidden_suite_manifest.py": "f162daa7ac7c110c46310f7f225b63b96b52ceee62c0ff6144024889c3c81b08"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp589/N768D64-audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp589/N768D64-trace.bin",
+    "1"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.463904,
+  "wall_s": 0.464275045087561,
+  "rss_bytes": 720384000,
+  "threads": 1,
+  "stderr": "validation/results/exp589/audit-N768D64.stderr"
+}

@@ -1,0 +1,97 @@
+{
+  "rows": 1000000,
+  "numpy": "2.2.6",
+  "feature_columns": 71,
+  "lossless_integer_features": true,
+  "feature_min": -549,
+  "feature_max": 7090,
+  "folds": [
+    {
+      "fold": 0,
+      "rows": 333644,
+      "source_pin_overlap": 0,
+      "port_pairs": 59904
+    },
+    {
+      "fold": 1,
+      "rows": 332722,
+      "source_pin_overlap": 0,
+      "port_pairs": 59904
+    },
+    {
+      "fold": 2,
+      "rows": 333634,
+      "source_pin_overlap": 0,
+      "port_pairs": 59904
+    }
+  ],
+  "event_counts": [
+    979323,
+    18064,
+    2613
+  ],
+  "target_s8": "d0 - base_q4",
+  "target_v8": "d0 - base_curve",
+  "training_weight": "1000 / max(d0 + mandatory, 128)",
+  "historical_development_data": true,
+  "full_estimator_runs": 0,
+  "inputs": [
+    {
+      "path": "../exp585/build/exp585/training.npz",
+      "bytes": 76812911,
+      "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+    },
+    {
+      "path": "../exp593/build/exp593/targets.npz",
+      "bytes": 4451632,
+      "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+    },
+    {
+      "path": "../exp623/build/exp623/data.npz",
+      "bytes": 42002502,
+      "sha256": "8e08bfe4ad9c796f2070ef40639190aba052982e2cc5deaacc64aa377c999915"
+    },
+    {
+      "path": "../exp615/build/exp615/keys.bin",
+      "bytes": 16000012,
+      "sha256": "05bea860ea0e68e4a9eda0199b9bc5ef87becfd00583d3c0b927482974894912"
+    },
+    {
+      "path": "../exp619/build/exp619/Q4.p4",
+      "bytes": 14377024,
+      "sha256": "8706d7752eecd7db746fe24dffd036d1f60f57329fd4b2ee6ce601a44d2da050"
+    },
+    {
+      "path": "../exp654/build/exp654/D64.curves.u8",
+      "bytes": 29308992,
+      "sha256": "999ce719f77d3b7ada142068ca0012c0004d2ba1e6587aab9ff74a6c882b91d5"
+    },
+    {
+      "path": "../exp579/build/exp579/queries.bin",
+      "bytes": 40000012,
+      "sha256": "aa0cd63f7e83be6d5a12169f0318ae0d4cfc510aa705de1f898611524a9165c1"
+    },
+    {
+      "path": "../exp679/validation/exp679_hv_cli.py",
+      "bytes": 21067,
+      "sha256": "e72b8a8b0e394b362aa15dc1640ba62730f6375398326459a770b4476c521086"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/tmp/exp688-supplement-20261025/training/features53.npz",
+      "bytes": 50688141,
+      "sha256": "4eae4bc73ecf7f061abd8480db03494177c77f3da702e883ac16ffe2c3bc2b19"
+    },
+    {
+      "path": "/tmp/exp688-supplement-20261025/training/features_extra18.npz",
+      "bytes": 8060461,
+      "sha256": "1904ab3eaa5eeedb165a4880cc0a2c5ba8306d17dbf1277835c8a97b0e25422c"
+    },
+    {
+      "path": "/tmp/exp688-supplement-20261025/training/targets_splits.npz",
+      "bytes": 17521049,
+      "sha256": "bd309bccb09ee0167e2820ada54462143e8b5fd1221fe8ddaee42fb67555b33a"
+    }
+  ]
+}

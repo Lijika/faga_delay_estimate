@@ -1,0 +1,66 @@
+{
+  "schedule": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ]
+  ],
+  "input": {
+    "path": "build/exp679/u-role/requests.csv",
+    "bytes": 3519741980,
+    "sha256": "17df44fa02afd4fc53987f585424f7dd695ba905a14612db6e70e6a237fb5573"
+  },
+  "labels": {
+    "path": "build/exp679/exact.csv",
+    "bytes": 17162158,
+    "sha256": "dc32afb1f22ac11dbdd8a4ac619610f7dae07a6ac123a88d7e5a43282147600e"
+  },
+  "binaries": {
+    "A": {
+      "path": "../exp654/build/exp654/B",
+      "bytes": 93398296,
+      "sha256": "d9a8194584b644ffa331d31a8713a39f559b881a1fe40e8f0dce4d4ad8ff58dd"
+    },
+    "C": {
+      "path": "build/exp679/C",
+      "bytes": 93422872,
+      "sha256": "c333ae4199ba853d8b8d3aded80624a5569943f4bf452723bf5c00aeed874481"
+    }
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp679/validation/exp679_hv_scale.py",
+    "bytes": 15925,
+    "sha256": "2bf8521ea3e68f2023f0f94cd21ecf082cd884f0791c794acfbafc2e14af8ee2"
+  },
+  "seed": 20261024679,
+  "bootstrap_count": 9999,
+  "minimum_score": 0.005,
+  "minimum_accuracy_pp": 0.01,
+  "rows": 100000000,
+  "sample_rows": 239616,
+  "no_new_candidate_selection": true
+}

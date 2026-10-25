@@ -1,0 +1,16 @@
+{
+  "command": [
+    "build/exp585/routed-predict",
+    "build/exp585/features.f32",
+    "build/exp585/folds.u8",
+    "build/exp585/routes.u8",
+    "build/exp585/T128-models.txt",
+    "build/exp585/T128-independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 5.912893,
+  "wall_s": 5.9138100480195135,
+  "rss_bytes": 490860544,
+  "threads": 1,
+  "stderr": "validation/results/exp585/T128-independent.stderr"
+}

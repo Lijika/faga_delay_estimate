@@ -1,0 +1,31 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-I",
+    "../exp589/src",
+    "-I",
+    "tests",
+    "build/exp679/sample-events.cpp",
+    "../exp580/build/exp580/architecture-resolver.o",
+    "../exp579/build/exp579/arch-text.o",
+    "-static",
+    "-s",
+    "-o",
+    "build/exp679/sample-events"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.8080139999999999,
+  "wall_s": 0.80947430501692,
+  "rss_bytes": 145358848,
+  "threads": 1,
+  "stderr": "validation/results/exp679/compile-sample-events.stderr"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "capacity_T",
+  "command": [
+    "build/exp554/predict",
+    "build/exp554/features.f32",
+    "build/exp554/folds.u8",
+    "build/exp554/capacity_T-0.bin",
+    "build/exp554/capacity_T-1.bin",
+    "build/exp554/capacity_T-2.bin",
+    "build/exp554/capacity_T.independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 8.729116,
+  "wall_s": 8.754880591994151,
+  "rss_bytes": 1287450624,
+  "threads": 1,
+  "counters": {
+    "rows": 1000000,
+    "threads": 1,
+    "comparisons": 939044305
+  },
+  "output": {
+    "path": "build/exp554/capacity_T.independent.f32",
+    "bytes": 4000000,
+    "sha256": "4b1de76c6ee548ca32fc64713dfd7b1dee313a7c6989bbf1d2932140f85aeb49"
+  },
+  "bitwise_equal": true
+}

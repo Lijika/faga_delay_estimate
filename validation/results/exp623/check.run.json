@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp623/check",
+    "../exp619/build/exp619/audit-1-trace.bin",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp623/leaf-raw.bin"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.8347519999999999,
+  "wall_s": 0.835186631185934,
+  "rss_bytes": 102113280,
+  "threads": 1,
+  "stderr": "validation/results/exp623/check.stderr"
+}

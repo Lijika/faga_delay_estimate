@@ -1,0 +1,92 @@
+{
+  "R": {
+    "run": {
+      "command": [
+        "build/exp582/R-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp582/R-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.469056,
+      "wall_s": 0.4708829161245376,
+      "rss_bytes": 94126080,
+      "threads": 1,
+      "stderr": "validation/results/exp582/audit-R.stderr"
+    },
+    "trace": {
+      "path": "build/exp582/R-trace.bin",
+      "bytes": 240000000,
+      "sha256": "a4954bd95ec46390c00e248d233e698b05d7e20df403a9d276711f469083c0b6"
+    },
+    "bitwise_response": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "expected": {
+      "path": "build/exp582/R-expected.i32",
+      "bytes": 4000000,
+      "sha256": "473d713c5b5073f6fa1e7b4aea08fed445145ca4a1ac14a6a7c43586f29142af"
+    }
+  },
+  "B64": {
+    "run": {
+      "command": [
+        "build/exp582/B64-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp582/B64-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.45837,
+      "wall_s": 0.4595687419641763,
+      "rss_bytes": 671113216,
+      "threads": 1,
+      "stderr": "validation/results/exp582/audit-B64.stderr"
+    },
+    "trace": {
+      "path": "build/exp582/B64-trace.bin",
+      "bytes": 240000000,
+      "sha256": "dc75c4b2f8deb9f18280a6075c2d5bf5f818016e1d4c05a122ceb0e8d67cedf4"
+    },
+    "bitwise_response": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "expected": {
+      "path": "build/exp582/B64-expected.i32",
+      "bytes": 4000000,
+      "sha256": "121de93e9e147e5792ac67bcfc80d1155deaf0ac56f4d226060b03f2bb6950aa"
+    }
+  },
+  "B32": {
+    "run": {
+      "command": [
+        "build/exp582/B32-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp582/B32-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.46090299999999995,
+      "wall_s": 0.4612945010885596,
+      "rss_bytes": 724090880,
+      "threads": 1,
+      "stderr": "validation/results/exp582/audit-B32.stderr"
+    },
+    "trace": {
+      "path": "build/exp582/B32-trace.bin",
+      "bytes": 240000000,
+      "sha256": "71c0bdae2258f6b51f5d587c5d920b39e22c7c273cf3376424b09e376961ab1a"
+    },
+    "bitwise_response": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "expected": {
+      "path": "build/exp582/B32-expected.i32",
+      "bytes": 4000000,
+      "sha256": "a42ee76d301a1d821358fad258bc896cdeb88c0150d6f1f85e996bbf5e13a3c8"
+    }
+  }
+}

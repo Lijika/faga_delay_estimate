@@ -1,0 +1,35 @@
+{
+  "name": "D96-3",
+  "full_port_pairs": 59904,
+  "geometries": 65040,
+  "values": 3896156160,
+  "input_energy": 6833871.1812220635,
+  "squared": 75420.44002619377,
+  "absolute": 10870115.73781543,
+  "by_quotient_sum": [
+    {
+      "band": 0,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 1,
+      "values": 0,
+      "squared": 0.0,
+      "absolute": 0.0
+    },
+    {
+      "band": 2,
+      "values": 833863680,
+      "squared": 49835.84672642761,
+      "absolute": 4448170.63128792
+    },
+    {
+      "band": 3,
+      "values": 3062292480,
+      "squared": 25584.59329976615,
+      "absolute": 6421945.10652751
+    }
+  ]
+}

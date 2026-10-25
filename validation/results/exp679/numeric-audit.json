@@ -1,0 +1,40 @@
+{
+  "cached_rows": 1000000,
+  "complete_estimator_runs": 0,
+  "final_prediction_equal": true,
+  "oof_prediction_equal": true,
+  "ordinary_predictions_equal": true,
+  "base_equal": true,
+  "mandatory_equal": true,
+  "raw_bitwise_equal": true,
+  "all_leaf_ids_equal": true,
+  "all_features_equal": true,
+  "event_counts": [
+    979323,
+    18064,
+    2613
+  ],
+  "traces": [
+    {
+      "path": "build/exp679/cached-trace-0.bin",
+      "bytes": 248000000,
+      "sha256": "c2af9aaf77141fcce82ac0316a23cd2768a1f5a0f754844f232000490e1715df"
+    },
+    {
+      "path": "build/exp679/cached-trace-1.bin",
+      "bytes": 248000000,
+      "sha256": "a7f7422f8982b8cac8ff74b34fbf0e7685f95be0631609e9bbfc547f21dc6d82"
+    }
+  ],
+  "expert_check": {
+    "path": "build/exp679/expert-check.bin",
+    "bytes": 3142904,
+    "sha256": "14d12bc5d66a3ece9358c5bfa26a2a794f0ff35c1fbfca551242c3219f170e0e"
+  },
+  "restored_geometry": {
+    "path": "build/exp679/restored.bin",
+    "bytes": 69303616,
+    "sha256": "d9d2d29e52f92cff47b8e218d82dcb4afa9ef7df0a0c9b60f1602d666216c3ef"
+  },
+  "final_accuracy_goal_verified": false
+}

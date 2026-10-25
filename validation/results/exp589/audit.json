@@ -1,0 +1,110 @@
+{
+  "D64": {
+    "run": {
+      "command": [
+        "build/exp589/D64-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp589/D64-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.480263,
+      "wall_s": 0.48541659908369184,
+      "rss_bytes": 352784384,
+      "threads": 1,
+      "stderr": "validation/results/exp589/audit-D64.stderr"
+    },
+    "trace": {
+      "path": "build/exp589/D64-trace.bin",
+      "bytes": 240000000,
+      "sha256": "90f037286db468b1ffb0a24ba1933fbab5e5491f2737411a169d47aff8a7fb89"
+    },
+    "expected": {
+      "path": "build/exp589/D64-expected.i32",
+      "bytes": 4000000,
+      "sha256": "8a4d1917ce6190d30e549ea01f7a881903fb848f6d51809b6aa13334f8527407"
+    },
+    "bitwise_response": true,
+    "bitwise_features": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "port_pairs": 59904,
+    "rows": 1000000,
+    "near_rows": 60655,
+    "near_rank": 512,
+    "near_output_bitwise_unchanged": true
+  },
+  "D96": {
+    "run": {
+      "command": [
+        "build/exp589/D96-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp589/D96-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.476328,
+      "wall_s": 0.47747745807282627,
+      "rss_bytes": 679378944,
+      "threads": 1,
+      "stderr": "validation/results/exp589/audit-D96.stderr"
+    },
+    "trace": {
+      "path": "build/exp589/D96-trace.bin",
+      "bytes": 240000000,
+      "sha256": "21773576e9487c16c8365e8bbed226694c4f9da973136f1a5b8b4c384b857632"
+    },
+    "expected": {
+      "path": "build/exp589/D96-expected.i32",
+      "bytes": 4000000,
+      "sha256": "e0de9944522155684b1cb125bdd607a69262b64b0e33f0cff34df199293e93ee"
+    },
+    "bitwise_response": true,
+    "bitwise_features": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "port_pairs": 59904,
+    "rows": 1000000,
+    "near_rows": 60655,
+    "near_rank": 512,
+    "near_output_bitwise_unchanged": true
+  },
+  "N768D64": {
+    "run": {
+      "command": [
+        "build/exp589/N768D64-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp589/N768D64-trace.bin",
+        "1"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.463904,
+      "wall_s": 0.464275045087561,
+      "rss_bytes": 720384000,
+      "threads": 1,
+      "stderr": "validation/results/exp589/audit-N768D64.stderr"
+    },
+    "trace": {
+      "path": "build/exp589/N768D64-trace.bin",
+      "bytes": 240000000,
+      "sha256": "3a8c357141523347d9c0b3a891461f9e25e4a4a66b25e0eaa1977f4ba75f4e1b"
+    },
+    "expected": {
+      "path": "build/exp589/N768D64-expected.i32",
+      "bytes": 4000000,
+      "sha256": "70259a6143522d1c088956f1390d6448122ad13b3bc4b7558132a164ac2ed031"
+    },
+    "bitwise_response": true,
+    "bitwise_features": true,
+    "bitwise_residual": true,
+    "exact_integer_output": true,
+    "port_pairs": 59904,
+    "rows": 1000000,
+    "near_rows": 60655,
+    "near_rank": 768,
+    "near_output_bitwise_unchanged": true
+  }
+}

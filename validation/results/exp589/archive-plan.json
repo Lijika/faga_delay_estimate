@@ -1,0 +1,90 @@
+{
+  "host": "r9r4900",
+  "reason": "retain completed historical diagnostics locally before removing remote copies to permit complete candidate validation",
+  "files": [
+    {
+      "remote_path": "research/exp494/build/exp494/residue/r512/float-output.i32",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r512/float-output.i32",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r512/float-output.i32",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp494/build/exp494/residue/r512/float-output.i32"
+      ],
+      "backup_sha256": "4ced5b3e7a15a7733789ada01d4c3144b32a928f04e41c522605b6b0fa3874ad",
+      "backup_bytes": 1058144256
+    },
+    {
+      "remote_path": "research/exp494/build/exp494/residue/r1024/float-output.i32",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r1024/float-output.i32",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp494/build/exp494/residue/r1024/float-output.i32",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp494/build/exp494/residue/r1024/float-output.i32"
+      ],
+      "backup_sha256": "9b448ef687c5b2921d993c5d1ca9f8e4b2b2046d958b2472113c9bde48ffd424",
+      "backup_bytes": 1058144256
+    },
+    {
+      "remote_path": "research/exp582/build/exp582/R-trace.bin",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/R-trace.bin",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/R-trace.bin",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp582/build/exp582/R-trace.bin"
+      ],
+      "backup_sha256": "a4954bd95ec46390c00e248d233e698b05d7e20df403a9d276711f469083c0b6",
+      "backup_bytes": 240000000
+    },
+    {
+      "remote_path": "research/exp582/build/exp582/B32-trace.bin",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/B32-trace.bin",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/B32-trace.bin",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp582/build/exp582/B32-trace.bin"
+      ],
+      "backup_sha256": "71c0bdae2258f6b51f5d587c5d920b39e22c7c273cf3376424b09e376961ab1a",
+      "backup_bytes": 240000000
+    },
+    {
+      "remote_path": "research/exp582/build/exp582/B64-trace.bin",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/B64-trace.bin",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp582/build/exp582/B64-trace.bin",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp582/build/exp582/B64-trace.bin"
+      ],
+      "backup_sha256": "dc75c4b2f8deb9f18280a6075c2d5bf5f818016e1d4c05a122ceb0e8d67cedf4",
+      "backup_bytes": 240000000
+    },
+    {
+      "remote_path": "research/exp586/build/exp586/N512-trace.bin",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp586/build/exp586/N512-trace.bin",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp586/build/exp586/N512-trace.bin",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp586/build/exp586/N512-trace.bin"
+      ],
+      "backup_sha256": "a5edaf47be7bce6f40c6d281ac12e1b5062b1316b2ac9fe66ad40e8427c16b4e",
+      "backup_bytes": 240000000
+    },
+    {
+      "remote_path": "research/exp586/build/exp586/N768-trace.bin",
+      "local_backup": "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp586/build/exp586/N768-trace.bin",
+      "rebuild_command": [
+        "scp",
+        "/home/lhjysyx/EDA2026/build/exp589/remote-archive/research/exp586/build/exp586/N768-trace.bin",
+        "r9r4900:/home/lhj/lhjwork/eda2026/research/exp586/build/exp586/N768-trace.bin"
+      ],
+      "backup_sha256": "ab86e6f146f1e2d086dcb4e75e6b16ded64022ae80a1bc14cf90156fa05793bb",
+      "backup_bytes": 240000000
+    }
+  ],
+  "deleted": true,
+  "transfer": "scp -C; initial uncompressed transfer stopped and partial first backup replaced",
+  "all_backup_sha_verified": true,
+  "logical_removed_bytes": 3316288512,
+  "free_bytes_before": 897265664,
+  "free_bytes_after": 4213534720,
+  "actual_free_delta": 3316269056
+}

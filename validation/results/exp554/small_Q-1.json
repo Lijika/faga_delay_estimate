@@ -1,0 +1,78 @@
+{
+  "name": "small_Q",
+  "fold": 1,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_Q-1.json",
+      "bytes": 63694,
+      "sha256": "a35d696b974573f1e9c88958fcdc3c5cb808aa87c50130f61345d0a6b0812424"
+    },
+    "binary": {
+      "path": "build/exp554/small_Q-1.bin",
+      "bytes": 15636,
+      "sha256": "a1efa3b1a788cdebe457aeb9ab14aa70c5711fd20d57d44bd8e5a9c25e52e729"
+    },
+    "trees": 32,
+    "nodes": 968
+  },
+  "cpu_s": 12.289615704,
+  "wall_s": 4.153855349868536,
+  "train_raw": {
+    "path": "build/exp554/small_Q-1.train.f32",
+    "bytes": 2669112,
+    "sha256": "653d2a171941a64c46f8260ae1bec452969d68570e1c62c5fbf57759399bd53c"
+  },
+  "train": {
+    "rows": 667278,
+    "accuracy_pp": 99.33241558289404,
+    "mean_error_ps": -3.6992273085580525,
+    "mae_ps": 4.067916220825503,
+    "squared_ps": 141422483,
+    "exact_rows": 455249,
+    "under_rows": 155021,
+    "over_rows": 57008
+  },
+  "validation": {
+    "rows": 332722,
+    "accuracy_pp": 99.32915913178931,
+    "mean_error_ps": -3.728998984136907,
+    "mae_ps": 4.081473422256418,
+    "squared_ps": 70927158,
+    "exact_rows": 226723,
+    "under_rows": 77316,
+    "over_rows": 28683
+  },
+  "train_kernel": {
+    "rows": 667278,
+    "accuracy_pp": 99.31170872722745,
+    "mean_error_ps": -3.286597190376425,
+    "mae_ps": 3.6824711739335028,
+    "squared_ps": 128999300,
+    "exact_rows": 468244,
+    "under_rows": 140829,
+    "over_rows": 58205
+  },
+  "validation_kernel": {
+    "rows": 332722,
+    "accuracy_pp": 99.31337211759306,
+    "mean_error_ps": -3.303163000943731,
+    "mae_ps": 3.680120340704853,
+    "squared_ps": 64441999,
+    "exact_rows": 233242,
+    "under_rows": 70193,
+    "over_rows": 29287
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "protocol": {
+    "path": "experiment/实验586-短距名义背景的INT8容量再分配.md",
+    "bytes": 4213,
+    "sha256": "2cf4fb73465809792cbc6d9360e595728d652e01c86e094e012535743de838ec"
+  },
+  "source_assets": [
+    {
+      "path": "../exp557/build/exp557/center.npy",
+      "bytes": 119936,
+      "sha256": "83ad9f6d53d875c72ad71264f518ea2ba3a85aa289e13eac4c4e8fa250854670"
+    },
+    {
+      "path": "../exp557/build/exp557/G-left.npy",
+      "bytes": 46006400,
+      "sha256": "8f260cc71e67a4713846285e34bb66f5b8262b19c8715c1ad3546a22c4b80ad6"
+    },
+    {
+      "path": "../exp557/build/exp557/G-right.npy",
+      "bytes": 203489408,
+      "sha256": "4f9a595394e6e8bd9671611cf8a52d9a15b545a36d8f0a2de46607a299f22a3a"
+    },
+    {
+      "path": "../exp557/build/exp557/router-features.npy",
+      "bytes": 14837888,
+      "sha256": "15006c378aaca67640d0e4a5270abca660cda9ca95be419ab2199379cdb8a9ed"
+    },
+    {
+      "path": "../exp557/build/exp557/router-target.npy",
+      "bytes": 101744768,
+      "sha256": "beedd6745555c3de81079d4615e5210f123f45c65974d0caded43c5179c1939d"
+    }
+  ],
+  "files": [
+    {
+      "path": "validation/exp575_distance_budget.py",
+      "bytes": 9456,
+      "sha256": "601af468c7a1f77dc556ddd74db1f26d627ba4f8dddf2840fb09e0c0db079264"
+    },
+    {
+      "path": "validation/exp586_near_capacity.py",
+      "bytes": 3833,
+      "sha256": "5fa34d631bf19f240901d3b18b5b48c8fe483390c0f86fc05414b0791d9a2237"
+    },
+    {
+      "path": "validation/exp510_pair_geometry.py",
+      "bytes": 11076,
+      "sha256": "5dcd8bbdaba5f428ef7f34edf297c9380d549755f10dedcfedc86208c932e62d"
+    },
+    {
+      "path": "validation/exp208_nominal_parent_tree.py",
+      "bytes": 26843,
+      "sha256": "bab1d76f58edbda6c5c84ebaa3bb1acff5cc478f102c3a29d5c3dbacaebf744b"
+    },
+    {
+      "path": "validation/exp557_conditional_geometry.py",
+      "bytes": 12034,
+      "sha256": "7fe3978cc02a2a70ec10018c3dc26cad608d2a3173e4aef553b4dda796032500"
+    },
+    {
+      "path": "validation/exp568_additive_geometry.py",
+      "bytes": 12206,
+      "sha256": "a954ff7c8f87534ac3166db315b5e5d2c26a1f68f88c60caefad8a2cd273591d"
+    },
+    {
+      "path": "validation/exp571_local_subspaces.py",
+      "bytes": 14513,
+      "sha256": "a0e7a97c7c16391ada91392669dd0c2d03bae1a2d83e6227e250b1da06483df3"
+    },
+    {
+      "path": "validation/exp569_joint_geometry.py",
+      "bytes": 14405,
+      "sha256": "5160134ac59cf9f05df2d3b0fd4badac6c6344bbfe410ce2fa9c06808f47ade4"
+    },
+    {
+      "path": "validation/exp567_leaf_dictionary.py",
+      "bytes": 10587,
+      "sha256": "064a345a841a49f06f22f86fd87a8f841df76d157caa9c8f8aa3d7822910f7b9"
+    },
+    {
+      "path": "validation/exp504_tail_rectangles.py",
+      "bytes": 5812,
+      "sha256": "b4059c621bb66c919ec8df72c7138c357784fb2c5a8c7fa8ec874100b1d99501"
+    },
+    {
+      "path": "validation/exp500_split_residues.py",
+      "bytes": 11943,
+      "sha256": "f5721a2370a704d65d80a4a2dd3ae4600d59d730e7afa59a293841b24015d8af"
+    },
+    {
+      "path": "experiment/实验586-短距名义背景的INT8容量再分配.md",
+      "bytes": 4213,
+      "sha256": "2cf4fb73465809792cbc6d9360e595728d652e01c86e094e012535743de838ec"
+    },
+    {
+      "path": "validation/results/exp586/mapping.json",
+      "bytes": 27560,
+      "sha256": "cb6dea5d56ec3b140e905329b379bd429f2a194d625180abb4b685724ed6cc1e"
+    },
+    {
+      "path": "../exp575/build/exp575/group-1-r96-left.npy",
+      "bytes": 46006400,
+      "sha256": "086edbafbeddf35ee2599ca85796022299dd22fafe3c1dc9526238193cb4e90b"
+    },
+    {
+      "path": "../exp575/build/exp575/group-1-r96-right.npy",
+      "bytes": 199803008,
+      "sha256": "0a9a00b7e3df756e0ab0fba6fbd213a36358aaafa7de52c3649794abce06ddbb"
+    }
+  ],
+  "near_reference": {
+    "name": "group-0-r192",
+    "full_port_pairs": 59904,
+    "geometries": 4800,
+    "values": 287539200,
+    "input_energy": 26368869.436417323,
+    "squared": 320837.7921741562,
+    "absolute": 6494769.202608689,
+    "by_quotient_sum": [
+      {
+        "band": 0,
+        "values": 28753920,
+        "squared": 104338.70899982474,
+        "absolute": 1241812.3072254953
+      },
+      {
+        "band": 1,
+        "values": 258785280,
+        "squared": 216499.0831743314,
+        "absolute": 5252956.895383193
+      },
+      {
+        "band": 2,
+        "values": 0,
+        "squared": 0.0,
+        "absolute": 0.0
+      },
+      {
+        "band": 3,
+        "values": 0,
+        "squared": 0.0,
+        "absolute": 0.0
+      }
+    ]
+  },
+  "numpy": "2.2.6",
+  "installed_svd_signature": "(a, full_matrices=True, compute_uv=True, overwrite_a=False, check_finite=True, lapack_driver='gesdd')",
+  "hostname": "lhj-NF5280M5",
+  "seed": 20261022586
+}

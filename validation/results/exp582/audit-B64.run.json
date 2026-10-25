@@ -1,0 +1,15 @@
+{
+  "command": [
+    "build/exp582/B64-audit",
+    "../exp579/build/exp579/queries.bin",
+    "../exp579/build/exp579/folds.u8",
+    "build/exp582/B64-trace.bin",
+    "1"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.45837,
+  "wall_s": 0.4595687419641763,
+  "rss_bytes": 671113216,
+  "threads": 1,
+  "stderr": "validation/results/exp582/audit-B64.stderr"
+}

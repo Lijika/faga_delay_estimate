@@ -1,0 +1,78 @@
+{
+  "name": "small_J",
+  "fold": 1,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_J-1.json",
+      "bytes": 54160,
+      "sha256": "7e87f20203b8a19c27b5c13b445e1a2472ebf26f4a2304b2e748b2ed59797475"
+    },
+    "binary": {
+      "path": "build/exp554/small_J-1.bin",
+      "bytes": 12500,
+      "sha256": "d6ada2aeb3142193f91e2846377f4e3a55537475dd54c5adf347ae004d6f9d25"
+    },
+    "trees": 32,
+    "nodes": 772
+  },
+  "cpu_s": 13.954392304999999,
+  "wall_s": 4.777938535902649,
+  "train_raw": {
+    "path": "build/exp554/small_J-1.train.f32",
+    "bytes": 2669112,
+    "sha256": "7db96e406678b1210bb03d46b66ac5c54b631ca1f4c972bd01ef6b22c3ca8919"
+  },
+  "train": {
+    "rows": 667278,
+    "accuracy_pp": 92.65057132766322,
+    "mean_error_ps": -21.20375615560531,
+    "mae_ps": 41.77325792248508,
+    "squared_ps": 1995877498,
+    "exact_rows": 5590,
+    "under_rows": 430274,
+    "over_rows": 231414
+  },
+  "validation": {
+    "rows": 332722,
+    "accuracy_pp": 92.66275066834221,
+    "mean_error_ps": -21.22143110464592,
+    "mae_ps": 41.711852537553874,
+    "squared_ps": 992254921,
+    "exact_rows": 2820,
+    "under_rows": 214313,
+    "over_rows": 115589
+  },
+  "train_kernel": {
+    "rows": 667278,
+    "accuracy_pp": 91.60907515580797,
+    "mean_error_ps": -20.791126037423684,
+    "mae_ps": 41.45872484931318,
+    "squared_ps": 1957678507,
+    "exact_rows": 5626,
+    "under_rows": 428967,
+    "over_rows": 232685
+  },
+  "validation_kernel": {
+    "rows": 332722,
+    "accuracy_pp": 91.62175542452239,
+    "mean_error_ps": -20.795595121452745,
+    "mae_ps": 41.38595584301609,
+    "squared_ps": 972461776,
+    "exact_rows": 2836,
+    "under_rows": 213652,
+    "over_rows": 116234
+  }
+}

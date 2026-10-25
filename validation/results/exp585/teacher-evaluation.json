@@ -1,0 +1,271 @@
+{
+  "stats": {
+    "T128": {
+      "accuracy_pp": 98.1216882258979,
+      "paired_accuracy_pp": 0.03416624289790849,
+      "ci95_accuracy_pp": [
+        0.03000194157111673,
+        0.038761883705661616
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": -0.06041481203408661,
+          "1": 0.05422961508047708,
+          "2": 0.03630556335992372,
+          "3": 0.021456959848927495
+        },
+        "near_axis": {
+          "0": 0.03220164447105669,
+          "1": 0.03763955773134868
+        }
+      },
+      "changed_rows": 494368,
+      "quality_gate": false,
+      "forced_detour_accuracy_pp": {
+        "0": 98.18099662459561,
+        "1": 94.89775931847392
+      }
+    },
+    "C8": {
+      "accuracy_pp": 98.08752198299995,
+      "paired_accuracy_pp": 0.0,
+      "ci95_accuracy_pp": [
+        0.0,
+        0.0
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "near_axis": {
+          "0": 0.0,
+          "1": 0.0
+        }
+      },
+      "changed_rows": 0,
+      "quality_gate": false,
+      "forced_detour_accuracy_pp": {
+        "0": 98.15038091533668,
+        "1": 94.67059059554641
+      }
+    },
+    "F8": {
+      "accuracy_pp": 98.08532668369902,
+      "paired_accuracy_pp": -0.002195299300956401,
+      "ci95_accuracy_pp": [
+        -0.0027326832208356853,
+        -0.0016144603433829985
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": -0.001988687862518702,
+          "1": -0.0033865862323455916,
+          "2": -0.002556586189836107,
+          "3": -0.0006611155555554311
+        },
+        "near_axis": {
+          "0": -9.271237850520178e-05,
+          "1": -0.005912571109042899
+        }
+      },
+      "changed_rows": 196995,
+      "quality_gate": false,
+      "forced_detour_accuracy_pp": {
+        "0": 98.14814084667151,
+        "1": 94.67082890178068
+      }
+    },
+    "F16": {
+      "accuracy_pp": 98.0994866374194,
+      "paired_accuracy_pp": 0.011964654419472294,
+      "ci95_accuracy_pp": [
+        0.010696436377813048,
+        0.013301730822465843
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": -0.0233783208354203,
+          "1": 0.026816143327111113,
+          "2": 0.010156034581262754,
+          "3": 0.007101901399681016
+        },
+        "near_axis": {
+          "0": 0.01289158245250519,
+          "1": 0.0103258905669409
+        }
+      },
+      "changed_rows": 389781,
+      "quality_gate": false,
+      "forced_detour_accuracy_pp": {
+        "0": 98.15718213567081,
+        "1": 94.96323294106321
+      }
+    }
+  },
+  "checks": {
+    "T128": {
+      "independent_run": {
+        "command": [
+          "build/exp585/routed-predict",
+          "build/exp585/features.f32",
+          "build/exp585/folds.u8",
+          "build/exp585/routes.u8",
+          "build/exp585/T128-models.txt",
+          "build/exp585/T128-independent.f32"
+        ],
+        "exit_code": 0,
+        "cpu_s": 5.912893,
+        "wall_s": 5.9138100480195135,
+        "rss_bytes": 490860544,
+        "threads": 1,
+        "stderr": "validation/results/exp585/T128-independent.stderr"
+      },
+      "counters": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "groups": 16,
+        "threads": 1,
+        "kernel_allocations": 0,
+        "comparisons": 764761887,
+        "kernel_cpu_s": 5.741592399
+      },
+      "complete_bitwise_equal": true,
+      "predictions": {
+        "path": "build/exp585/T128-prediction.i32",
+        "bytes": 4000000,
+        "sha256": "3b506d00a0171847b9d5967bc592f850ff569101303c4b60ea681f0180b5e550"
+      },
+      "raw": {
+        "path": "build/exp585/T128-raw.f32",
+        "bytes": 4000000,
+        "sha256": "e59b0e8a414f0543c8c2c565349f050df0b649dea39b9bb37be625667d0266ea"
+      },
+      "reused_after_summary_failure": true
+    },
+    "C8": {
+      "independent_run": {
+        "command": [
+          "build/exp585/routed-predict",
+          "build/exp585/features.f32",
+          "build/exp585/folds.u8",
+          "build/exp585/routes.u8",
+          "build/exp585/C8-models.txt",
+          "build/exp585/C8-independent.f32"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.34654799999999997,
+        "wall_s": 0.34778510592877865,
+        "rss_bytes": 503889920,
+        "threads": 1,
+        "stderr": "validation/results/exp585/C8-independent.stderr"
+      },
+      "counters": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "groups": 16,
+        "threads": 1,
+        "kernel_allocations": 0,
+        "comparisons": 31961273,
+        "kernel_cpu_s": 0.181549316
+      },
+      "complete_bitwise_equal": true,
+      "predictions": {
+        "path": "build/exp585/C8-prediction.i32",
+        "bytes": 4000000,
+        "sha256": "1ac2e7187017cad4047ac4f9e63c4eca1c3bb6d95005e4a9fa8322db599a2370"
+      },
+      "raw": {
+        "path": "build/exp585/C8-raw.f32",
+        "bytes": 4000000,
+        "sha256": "a2570b3d8588fdc67107958ecd06bd2c71a47192425acf6582c5540541bd04b9"
+      },
+      "reused_after_summary_failure": true
+    },
+    "F8": {
+      "independent_run": {
+        "command": [
+          "build/exp585/routed-predict",
+          "build/exp585/features.f32",
+          "build/exp585/folds.u8",
+          "build/exp585/routes.u8",
+          "build/exp585/F8-models.txt",
+          "build/exp585/F8-independent.f32"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.344443,
+        "wall_s": 0.34572942298837006,
+        "rss_bytes": 523116544,
+        "threads": 1,
+        "stderr": "validation/results/exp585/F8-independent.stderr"
+      },
+      "counters": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "groups": 16,
+        "threads": 1,
+        "kernel_allocations": 0,
+        "comparisons": 31961460,
+        "kernel_cpu_s": 0.182118343
+      },
+      "complete_bitwise_equal": true,
+      "predictions": {
+        "path": "build/exp585/F8-prediction.i32",
+        "bytes": 4000000,
+        "sha256": "019183bd8f5bbdc9231c3d2e3e3de3a6ca6eab611cfdf40731ed8d9cb3b3e123"
+      },
+      "raw": {
+        "path": "build/exp585/F8-raw.f32",
+        "bytes": 4000000,
+        "sha256": "c3f5e07eaefcbce4122a03118213747638199fa1d7c7431d2efdfd609acaf2f1"
+      },
+      "reused_after_summary_failure": true
+    },
+    "F16": {
+      "independent_run": {
+        "command": [
+          "build/exp585/routed-predict",
+          "build/exp585/features.f32",
+          "build/exp585/folds.u8",
+          "build/exp585/routes.u8",
+          "build/exp585/F16-models.txt",
+          "build/exp585/F16-independent.f32"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.55919,
+        "wall_s": 0.5600851320195943,
+        "rss_bytes": 530980864,
+        "threads": 1,
+        "stderr": "validation/results/exp585/F16-independent.stderr"
+      },
+      "counters": {
+        "rows": 1000000,
+        "port_pairs": 59904,
+        "groups": 16,
+        "threads": 1,
+        "kernel_allocations": 0,
+        "comparisons": 63960332,
+        "kernel_cpu_s": 0.398273745
+      },
+      "complete_bitwise_equal": true,
+      "predictions": {
+        "path": "build/exp585/F16-prediction.i32",
+        "bytes": 4000000,
+        "sha256": "621447341fbdd261dc40a171dbd2915fc9c6a6b400816d7f2ec65b3e4aad2ae5"
+      },
+      "raw": {
+        "path": "build/exp585/F16-raw.f32",
+        "bytes": 4000000,
+        "sha256": "8b491b22e9c33678cab509e2b8750f92014435aa6941bb4b6b2382192c02d40d"
+      },
+      "reused_after_summary_failure": true
+    }
+  },
+  "teacher_gate": false,
+  "rows": 1000000,
+  "full_port_pairs": 59904,
+  "protocol_sha256": "469de17a4fcdde0d98c16ff00e6736b8d26f026cc349a8f202cbf61d081fe0da",
+  "complete_program_verified": false
+}

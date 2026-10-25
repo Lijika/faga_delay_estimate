@@ -1,0 +1,35 @@
+{
+  "training": {
+    "path": "../exp585/build/exp585/training.npz",
+    "bytes": 76812911,
+    "sha256": "b3a98fecb245fe0b9db9df5236fcd390be7c2588344b4a4f5c5a0da7d7206d40"
+  },
+  "targets": {
+    "path": "build/exp593/targets.npz",
+    "bytes": 4451632,
+    "sha256": "a7e593706d124893850ee76d6455afb9ec25be798f2fabf81c05edd66cf6da25"
+  },
+  "d64_trace": {
+    "path": "../exp589/build/exp589/D64-trace.bin",
+    "bytes": 240000000,
+    "sha256": "90f037286db468b1ffb0a24ba1933fbab5e5491f2737411a169d47aff8a7fb89"
+  },
+  "protocol": {
+    "path": "validation/results/exp593/protocol-original.md",
+    "bytes": 2674,
+    "sha256": "78dd5d78c4c1584e2480311f5d1370f06e93b0d65a0c05dde9114218dea2bd96"
+  },
+  "evaluation": {
+    "path": "../exp585/build/exp585/evaluation.npz",
+    "bytes": 28203582,
+    "sha256": "16ac0840fc7c3870175dece5540aff97d5ce454aa59b022d6a63fee1c0c68b29"
+  },
+  "fixed_raw": {
+    "path": "../exp576/build/exp576/R8.f32",
+    "bytes": 4000000,
+    "sha256": "3cbcd9aa3c13512ac0910bf5a492b3e878c569af36a8f79895fd4e87632cc4ef"
+  },
+  "rows": 1000000,
+  "unique_rows": 1000000,
+  "port_pairs": 59904
+}

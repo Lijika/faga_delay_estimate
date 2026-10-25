@@ -1,0 +1,30 @@
+{
+  "arm": "K32",
+  "fold": 1,
+  "route": 9,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 32,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 45312,
+  "port_pairs": 31811,
+  "model": {
+    "path": "build/exp593/K32-1-9.json",
+    "bytes": 15596,
+    "sha256": "01e5e4bb433c44f0f0bf4d3d5d027dcdc70c3038b7fb416c41a1481c6c8d5f0a"
+  },
+  "cpu_s": 0.44974349700000005,
+  "wall_s": 0.44979261490516365,
+  "offline_only": true
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-static",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-ffp-contract=off",
+    "tests/exp535_real_map.cpp",
+    "-o",
+    "build/exp535/predict"
+  ],
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

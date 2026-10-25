@@ -1,0 +1,44 @@
+{
+  "xgboost": "3.0.5",
+  "build": {
+    "BUILTIN_PREFETCH_PRESENT": true,
+    "CUDA_VERSION": [
+      12,
+      8
+    ],
+    "DEBUG": false,
+    "GCC_VERSION": [
+      10,
+      3,
+      1
+    ],
+    "GLIBC_VERSION": [
+      2,
+      28
+    ],
+    "MM_PREFETCH_PRESENT": true,
+    "NCCL_VERSION": [
+      2,
+      27,
+      7
+    ],
+    "THRUST_VERSION": [
+      2,
+      7,
+      0
+    ],
+    "USE_CUDA": true,
+    "USE_DLOPEN_NCCL": true,
+    "USE_FEDERATED": true,
+    "USE_NCCL": true,
+    "USE_OPENMP": true,
+    "USE_RMM": false,
+    "libxgboost": "/home/lhj/lhjwork/eda2026/research/exp585/build/vendor/xgboost/lib/libxgboost.so"
+  },
+  "threads": 16,
+  "protocol": {
+    "path": "validation/results/exp585/protocol-original.md",
+    "bytes": 4645,
+    "sha256": "469de17a4fcdde0d98c16ff00e6736b8d26f026cc349a8f202cbf61d081fe0da"
+  }
+}

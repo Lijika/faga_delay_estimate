@@ -1,0 +1,446 @@
+{
+  "experiment": 203,
+  "head": "10cedd62c381feb2a3599ddc81d5cce99b7c7ef9",
+  "identities": [
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp203_fresh_selector.py",
+      "bytes": 17192,
+      "sha256": "03383f8a8dc2be07c8b2e11020655cbbb11d15b164b07f46211dba82991f128e"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/experiment/实验203-C1冻结评分选择器新请求验证.md",
+      "bytes": 3558,
+      "sha256": "c8b2dabf9b4c67cdd1149d0578f55617c97c81872b7f550fa5881dc29edb1e29"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/tests/exp203_exact_labels.cpp",
+      "bytes": 3762,
+      "sha256": "13be5114d90d155071c2091e5897cd1e21bbf9eade3c0db5881bd363d41e6a9d"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp203-cheap-model.json",
+      "bytes": 39131,
+      "sha256": "7fedd313cf80893da4231e0bac638c0b415011d3bd9948ba59f4e007b49aa527"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp202-frozen.json",
+      "bytes": 16415,
+      "sha256": "0b09d33ddafed8a457ac86c6750ae7b8ecc1b266bf1b81932adb527391d722e6"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp202/features.csv",
+      "bytes": 1227652,
+      "sha256": "14010a035f6d0545b641867360bf0b507980d5d208cf8639a3a931c7975d36f0"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp202-selector.json",
+      "bytes": 9435,
+      "sha256": "5d186697e538db4b9ff3aff26c769ad50ce34c2d05308f4a0231c984262bacc3"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp202-evidence-check.json",
+      "bytes": 486,
+      "sha256": "47db14f75671c47fcac7330c63e97bb6d6de225e850fa6d344acbcbc52dc3318"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/tests/exp202_selector_features.cpp",
+      "bytes": 9247,
+      "sha256": "5e8a91e5c1172c92f6501dcd0e5e548c691e0a62f3a15fe88348f79dc01d54dc"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/tests/exp201_ablation.cpp",
+      "bytes": 16716,
+      "sha256": "383cf07986081a9d1d13e5bd5ee5cbfd0b25e5aeaca4ecc05e8e3399496eb882"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp203/selector_features.cpp",
+      "bytes": 9798,
+      "sha256": "f3720bd5f32e5980cef91eca32f3f7271c20780567b373142a8619bbd8244422"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp203/exp201_ablation.cpp",
+      "bytes": 16709,
+      "sha256": "ab36da2eed15a91e2571c59cecff7778c014623250c9d164062b8d00ecf8b6e2"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp203/selector_features",
+      "bytes": 143288,
+      "sha256": "3823e397467770ed062b963b832924225f2840557e7524a242d569f69a8208a2"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp203/control-features.csv",
+      "bytes": 1227652,
+      "sha256": "14010a035f6d0545b641867360bf0b507980d5d208cf8639a3a931c7975d36f0"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp203/make_window_requests.py",
+      "bytes": 13872,
+      "sha256": "5067c8bf9e1fbe41d4915ad35f14aa827fbae3c4df91b60729de724a2affff0c"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/scripts/make_scale_requests.py",
+      "bytes": 13861,
+      "sha256": "b7750b2e63892b308c0af4eaded04247bed4a647eaad8b3eeede3c655692b594"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/estimate",
+      "bytes": 68201104,
+      "sha256": "aed8b929957a14cd5a2ae73bf94fedfd0cfaa86732ff79a7ee08a9e7afca064c"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/src/architecture.cpp",
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/src/architecture.h",
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/scaffold.cpp",
+      "bytes": 10252,
+      "sha256": "1b9602ee949182aa97f1b0b0274ae492117e65fbfcaed1bfb25a101239144843"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/exp147_orbit_access.cpp",
+      "bytes": 27310,
+      "sha256": "b433cb497d8beb81b70cd99c30fd4b9807c1e832a7b3e510e627c5baf10f24cd"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp155/orbit.i16",
+      "bytes": 17694720,
+      "sha256": "39f382311276c8d16e69d4873cf317e0b78791b239a08baf4208e065316907c9"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp154-frozen-rows.csv",
+      "bytes": 430544,
+      "sha256": "288f993b6f245cc274519b5e1b95c0789fe237de39e301c63ec99086e7d8a689"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp157-evidence-check.json",
+      "bytes": 435,
+      "sha256": "21e7a6f75de5fcc5d33ec88a9a721b5f232ffdd38ed4d3a05ced60f1db6bf4ec"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp159-evidence-check.json",
+      "bytes": 447,
+      "sha256": "17b7ca30fc4814396183f97f95c1ea191bc7c82ba4d655fadd6c55758246c7aa"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp202/manifest.tsv",
+      "bytes": 2215,
+      "sha256": "c61c3d76cbdc1593cef8217bb6f3f347fb33f903fa02e1655e500d15093cbeaf"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp202_selector.py",
+      "bytes": 16405,
+      "sha256": "b1e0e7670f7645009db81e17ddffac8b9f738b76507f0106b5a51caf6b729d0b"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp136_competitor_fields.py",
+      "bytes": 38887,
+      "sha256": "425eeab3b6c6974b96f0f91743e65fdb4898bbdfbd616cc0d4ed8417f4e0b4e8"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_model.h",
+      "bytes": 47465,
+      "sha256": "8b3087ae61167211053f3bf9cdd991848352b2351dc46cb849e5f943ad6e5fc2"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/bias_correction.h",
+      "bytes": 2416,
+      "sha256": "eeffffe4703d68c2e14822bca61082b0f35dda294d4e5e72a4ef7054edea0b8f"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/query_cache.h",
+      "bytes": 2568,
+      "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_bounds_model.h",
+      "bytes": 46977,
+      "sha256": "6286deb164030b04aea3cda48c00b6499eb20cf18821945b8cb4b87182a7c378"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/fast_estimator.cpp",
+      "bytes": 18070,
+      "sha256": "ca8c3609b5e1812c953ea5e7ca5e4e0d5f98d2576d7056a112b2a2ab4be5b0fb"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base47_model.h",
+      "bytes": 384571,
+      "sha256": "afb318fc50b3b394dab2c16fc0c8c68ea23328dbbb6a3f1ad846b8babe386810"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/residue_estimator.cpp",
+      "bytes": 50711,
+      "sha256": "0333bc41cebb1cc75b3f49547d83ae9a660079d3a9c58d5864f25ddcf8544acc"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/router.cpp",
+      "bytes": 21448,
+      "sha256": "f13017ef27c86a2584eb220a271f919b91b8a9ee74b2514117257407bb49ed92"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/embedded_arch.cpp",
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/fast_estimator.h",
+      "bytes": 4238,
+      "sha256": "4070f7ac68be948a5b90b3dd93d1ef3a9e7bd55a24a082397adf504bc7579cf5"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base47_fast_model.h",
+      "bytes": 10164410,
+      "sha256": "1e96563432104b87a16901b95469cb9b266c2d1bf4a69825f73afd78de2a8919"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/residue_estimator.h",
+      "bytes": 20291,
+      "sha256": "7992e96b2c15e50d0d8bc967503ce8b2deb67be8f55f4ff0a93e539c15f901f5"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/router.h",
+      "bytes": 10804,
+      "sha256": "da8b00013253986af55dfb57b53d6c2636ac5fb49a7138ea4df7677d8d119ee9"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual.h",
+      "bytes": 7543,
+      "sha256": "a57a0fae44b162b9689f5d5ec9f49193aa7637b35a863e664b282c567f9cf164"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base47.h",
+      "bytes": 2109,
+      "sha256": "c634d84c77560a3a332c80eb9463e86e8e544ccdf84179280fac42aaf63c2d80"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/hybrid_estimator.h",
+      "bytes": 3217,
+      "sha256": "8b714f798e5e58d2ccb1f332adf55ce922b39bc45c9171b9425b84134fcab3d8"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/pattern_database.h",
+      "bytes": 20223,
+      "sha256": "ab57e90eaed93d1eb2bf0ce7013ee0e8cdc43726ae0ae60564f22ee06c913dd8"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/architecture.cpp",
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/embedded_residue.h",
+      "bytes": 2287,
+      "sha256": "3ec8598d4180198ce49c28224f094899a09cdabb1360806d5cf1b4f8992a7d75"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_bounds.h",
+      "bytes": 1707,
+      "sha256": "627aaa9d0e7a57d03e2f17000533f55685b3ee932f360fb55dbf6a770cc0ffec"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base.h",
+      "bytes": 1917,
+      "sha256": "4be6d41e800f59d94492e230e96693ef7d459118a03644ffe9b75e09f7a46e92"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base_model.h",
+      "bytes": 47096,
+      "sha256": "8db2cf586822cf870adaa561ffbc496e74fb298a12f4ad46e03d4e6427163cbe"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/csv.h",
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/json.h",
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/embedded_templates.h",
+      "bytes": 3042,
+      "sha256": "0c8ce73f4fb6e2db87c4b28eed0da9d1b263fc49cfe51668e99ad568a890b66f"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/main.cpp",
+      "bytes": 33578,
+      "sha256": "b5091a0dd8f2b34adc13aa31997424bcbf81ca060d39f55705117ceb054727d6"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/architecture.h",
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/xgb_residual_base47_fast.h",
+      "bytes": 739,
+      "sha256": "d92a67df30cc74324fb65b3258b49fec20d97dbfcb70e7bf3b7625535c066684"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp158/src/embedded_arch.h",
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/doc/eda比赛文件/arch/SRB_Port.json",
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/doc/eda比赛文件/arch/SRB_Arc.json",
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/doc/eda比赛文件/arch/SRB_Inst.json",
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/doc/eda比赛文件/arch/SRB_Net.json",
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/doc/eda比赛文件/arch/SRB_Gap.json",
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/results/exp18b-labels.csv",
+      "bytes": 779822,
+      "sha256": "1cb993922ab898df30b49960658a592ee58ed9d99bf9c0f90f2f0f9a51c2f596"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp56/fresh-samples.csv",
+      "bytes": 485288,
+      "sha256": "d1aefef9154af810171bb4855b1a6b8b1244bdacc7b77135b5405dcc746225bd"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp57/fresh-samples.csv",
+      "bytes": 484885,
+      "sha256": "91cc3ed895ca3ebcda911bca292d1ceb418101e521c0607debd41693f81ea85e"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp57/exp58-samples.csv",
+      "bytes": 485019,
+      "sha256": "a87aef45fe2eb8301ad7cad715259e46c57b32c821bb67e9cee0a280eb59d077"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp61/fresh-samples.csv",
+      "bytes": 484553,
+      "sha256": "a01dbaa4a8bed36240981dee9ea07bdfdc7a558cfa6d0238151ccb44886fc81e"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp77/fresh-samples.csv",
+      "bytes": 485197,
+      "sha256": "0ac17edc03ffc64411323a62000bb91108a85b58956984ae5fe002cae7c51ae4"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp78/fresh-samples.csv",
+      "bytes": 484848,
+      "sha256": "034265723cacc2cbded289e65d4579d98a58ebcc3a5b9032b8a616e51fae53d6"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/validation/exp52_hybrid_fresh_validation.py",
+      "bytes": 64115,
+      "sha256": "2f6171d3d74f29fd8fdddf2ba3e89756d873cf88baef20153912f20e12003172"
+    },
+    {
+      "path": "/home/lhjysyx/EDA2026/build/exp50/unique-10m.json",
+      "bytes": 2032,
+      "sha256": "9115dde205207119090a65ab0d8284ddd346674dbcee2a97aa980f0430d8a24a"
+    }
+  ],
+  "window": [
+    52000000,
+    54000000
+  ],
+  "sample_seed": 20261011,
+  "samples_per_band": 1024,
+  "bootstrap_seed": 20261012,
+  "bootstrap_draws": 10000,
+  "minimum_gain_pp": 0.1,
+  "params": {
+    "objective": "reg:squarederror",
+    "max_depth": 3,
+    "eta": 0.1,
+    "min_child_weight": 10,
+    "lambda": 10,
+    "tree_method": "hist",
+    "max_bin": 64,
+    "subsample": 1,
+    "colsample_bytree": 1,
+    "nthread": 1,
+    "seed": 20261011,
+    "base_score": 0
+  },
+  "rounds": 32,
+  "feature_names": [
+    "p_value",
+    "all_value",
+    "c_value",
+    "u_minus_c",
+    "u_relative",
+    "p_minus_c",
+    "dx",
+    "dy",
+    "abs_dx",
+    "abs_dy",
+    "distance",
+    "sx",
+    "sy",
+    "tx",
+    "ty",
+    "source_port",
+    "target_port",
+    "source_lane",
+    "target_lane",
+    "source_class",
+    "target_class",
+    "line_x",
+    "line_y",
+    "source_border",
+    "target_border",
+    "valid_count"
+  ],
+  "train_eligible_rows": 2099,
+  "calibration_rows": 1358,
+  "model": {
+    "path": "/home/lhjysyx/EDA2026/validation/results/exp203-cheap-model.json",
+    "bytes": 39131,
+    "sha256": "7fedd313cf80893da4231e0bac638c0b415011d3bd9948ba59f4e007b49aa527"
+  },
+  "threshold": 0.005,
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wno-unused-parameter",
+    "-Isrc",
+    "-o",
+    "build/exp203/selector_features",
+    "build/exp203/selector_features.cpp",
+    "src/architecture.cpp"
+  ],
+  "old_control_rows_passed": 6176,
+  "xgboost_version": "3.4.1",
+  "disk_available_start_gib": 445,
+  "revision": 2,
+  "previous_freeze_sha256": "ff24235d9fb2eaacc47edf58498029aceac247a06f4098858afaaa2eebf706de",
+  "previous_freeze_git": "8513f80:validation/results/exp203-frozen.json",
+  "correction": "Generation metadata differed only in absolute vs relative arch directory. Require equal resolved path, normalize its display value for existing checker. Reuse full-SHA-verified generated CSV. No sample or new labels had been selected or viewed; model and threshold unchanged."
+}

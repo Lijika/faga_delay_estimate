@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "scripts/gen_embedded_arch.py",
+    "--out",
+    "build/exp579"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 0.06812499999999999,
+  "wall_s": 0.06896223104558885,
+  "rss_bytes": 145620992
+}

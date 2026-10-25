@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp589/N768D64-assets/geometry.S",
+    "-o",
+    "build/exp589/N768D64-assets/geometry.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.095217,
+  "wall_s": 0.09587932494468987,
+  "rss_bytes": 748204032,
+  "threads": 1,
+  "stderr": "validation/results/exp589/N768D64-assemble.stderr"
+}

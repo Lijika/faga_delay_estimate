@@ -1,0 +1,30 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "build/exp646/D64-D",
+    "-I",
+    "build/exp646/deps",
+    "tests/exp646_asset_restore.cpp",
+    "build/exp646/D64-D/asset.S",
+    "build/exp646/deps/libzstd.a",
+    "-o",
+    "build/exp646/D64-D/restore"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.44987099999999997,
+  "wall_s": 0.5370561031159014,
+  "rss_bytes": 201945088,
+  "threads": 1,
+  "stderr": "validation/results/exp646/D64-D-compile.stderr"
+}

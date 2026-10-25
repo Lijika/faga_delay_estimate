@@ -1,0 +1,1035 @@
+{
+  "evidence": {
+    "B": {
+      "input": {
+        "path": "../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      "output": {
+        "path": "build/exp589/robustness-0-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "labels": {
+        "path": "../exp562/build/exp562/exact.csv",
+        "bytes": 72674703,
+        "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.16374837961496,
+        "mean_error_ps": -1.886043,
+        "mae_ps": 11.026385,
+        "squared_ps": 283190035,
+        "exact_rows": 38643,
+        "under_rows": 497855,
+        "over_rows": 463502
+      }
+    },
+    "D64": {
+      "input": {
+        "path": "../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      "output": {
+        "path": "build/exp589/robustness-0-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "labels": {
+        "path": "../exp562/build/exp562/exact.csv",
+        "bytes": 72674703,
+        "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.34061567129943,
+        "mean_error_ps": -1.891336,
+        "mae_ps": 9.856322,
+        "squared_ps": 247253950,
+        "exact_rows": 44247,
+        "under_rows": 490169,
+        "over_rows": 465584
+      }
+    },
+    "D96": {
+      "input": {
+        "path": "../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      "output": {
+        "path": "build/exp589/robustness-0-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "labels": {
+        "path": "../exp562/build/exp562/exact.csv",
+        "bytes": 72674703,
+        "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.46459339670544,
+        "mean_error_ps": -1.895702,
+        "mae_ps": 9.058808,
+        "squared_ps": 225466958,
+        "exact_rows": 49155,
+        "under_rows": 483864,
+        "over_rows": 466981
+      }
+    },
+    "N768D64": {
+      "input": {
+        "path": "../exp562/build/exp562/u-role/requests.csv",
+        "bytes": 35192612,
+        "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+      },
+      "output": {
+        "path": "build/exp589/robustness-0-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "labels": {
+        "path": "../exp562/build/exp562/exact.csv",
+        "bytes": 72674703,
+        "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+      },
+      "rows": 1000000,
+      "unique_rows": 1000000,
+      "port_pairs": 59904,
+      "contract_passed": true,
+      "statistics": {
+        "rows": 1000000,
+        "accuracy_pp": 98.36779519050974,
+        "mean_error_ps": -1.891118,
+        "mae_ps": 9.8081,
+        "squared_ps": 246458766,
+        "exact_rows": 45213,
+        "under_rows": 489808,
+        "over_rows": 464979
+      }
+    }
+  },
+  "timing_s": {
+    "B": [
+      0.425759,
+      0.429083,
+      0.428726,
+      0.43191999999999997,
+      0.434005,
+      0.43339099999999997
+    ],
+    "D64": [
+      0.43167,
+      0.43518199999999996,
+      0.433639,
+      0.43796599999999997,
+      0.43424799999999997,
+      0.43877
+    ],
+    "D96": [
+      0.451394,
+      0.451752,
+      0.455819,
+      0.455972,
+      0.45769299999999996,
+      0.458569
+    ],
+    "N768D64": [
+      0.43999299999999997,
+      0.437198,
+      0.44349799999999995,
+      0.443956,
+      0.443557,
+      0.442945
+    ]
+  },
+  "runs": [
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-0-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.429293,
+      "wall_s": 0.4301535440608859,
+      "rss_bytes": 468516864,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-0-B.stderr",
+      "arm": "B",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp589/robustness-0-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-0-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.432886,
+      "wall_s": 0.4338665020186454,
+      "rss_bytes": 468516864,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-0-D64.stderr",
+      "arm": "D64",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp589/robustness-0-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-0-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.44952099999999995,
+      "wall_s": 0.45007695187814534,
+      "rss_bytes": 468516864,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-0-D96.stderr",
+      "arm": "D96",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp589/robustness-0-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-0-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.44064999999999993,
+      "wall_s": 0.44112293398939073,
+      "rss_bytes": 468516864,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-0-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 0,
+      "output": {
+        "path": "build/exp589/robustness-0-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-1-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.425759,
+      "wall_s": 0.4268515110015869,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-1-B.stderr",
+      "arm": "B",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp589/robustness-1-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-1-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43167,
+      "wall_s": 0.432468342827633,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-1-D64.stderr",
+      "arm": "D64",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp589/robustness-1-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-1-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.451394,
+      "wall_s": 0.4521463760174811,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-1-D96.stderr",
+      "arm": "D96",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp589/robustness-1-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-1-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43999299999999997,
+      "wall_s": 0.44123385404236615,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-1-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 1,
+      "output": {
+        "path": "build/exp589/robustness-1-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-2-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.437198,
+      "wall_s": 0.43843519198708236,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-2-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp589/robustness-2-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-2-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.451752,
+      "wall_s": 0.4522850690409541,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-2-D96.stderr",
+      "arm": "D96",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp589/robustness-2-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-2-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43518199999999996,
+      "wall_s": 0.4364720471203327,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-2-D64.stderr",
+      "arm": "D64",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp589/robustness-2-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-2-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.429083,
+      "wall_s": 0.4298119740560651,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-2-B.stderr",
+      "arm": "B",
+      "iteration": 2,
+      "output": {
+        "path": "build/exp589/robustness-2-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-3-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.428726,
+      "wall_s": 0.42899140692315996,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-3-B.stderr",
+      "arm": "B",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp589/robustness-3-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-3-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.433639,
+      "wall_s": 0.434819103917107,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-3-D64.stderr",
+      "arm": "D64",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp589/robustness-3-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-3-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.455819,
+      "wall_s": 0.4566016790922731,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-3-D96.stderr",
+      "arm": "D96",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp589/robustness-3-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-3-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.44349799999999995,
+      "wall_s": 0.4448454568628222,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-3-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 3,
+      "output": {
+        "path": "build/exp589/robustness-3-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-4-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.443956,
+      "wall_s": 0.4450937130022794,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-4-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp589/robustness-4-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-4-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.455972,
+      "wall_s": 0.45686493278481066,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-4-D96.stderr",
+      "arm": "D96",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp589/robustness-4-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-4-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43796599999999997,
+      "wall_s": 0.4388523348607123,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-4-D64.stderr",
+      "arm": "D64",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp589/robustness-4-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-4-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43191999999999997,
+      "wall_s": 0.432854238897562,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-4-B.stderr",
+      "arm": "B",
+      "iteration": 4,
+      "output": {
+        "path": "build/exp589/robustness-4-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-5-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.434005,
+      "wall_s": 0.4348085660021752,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-5-B.stderr",
+      "arm": "B",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp589/robustness-5-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-5-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43424799999999997,
+      "wall_s": 0.4346986098680645,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-5-D64.stderr",
+      "arm": "D64",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp589/robustness-5-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-5-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.45769299999999996,
+      "wall_s": 0.4585130959749222,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-5-D96.stderr",
+      "arm": "D96",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp589/robustness-5-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-5-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.443557,
+      "wall_s": 0.4439313181210309,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-5-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 5,
+      "output": {
+        "path": "build/exp589/robustness-5-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/N768D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-6-N768D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.442945,
+      "wall_s": 0.44332757499068975,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-6-N768D64.stderr",
+      "arm": "N768D64",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp589/robustness-6-N768D64.csv",
+        "bytes": 40130396,
+        "sha256": "83b1bf0b1ee8365ce8e2d7502596153eeeae9039b9362cca69f34e1157e67ce6"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D96",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-6-D96.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.458569,
+      "wall_s": 0.45941108115948737,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-6-D96.stderr",
+      "arm": "D96",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp589/robustness-6-D96.csv",
+        "bytes": 40130420,
+        "sha256": "0af124d662f84a51df8fbef2e008a0f58ccc5d25c8d872c52d55da2023a92b44"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "build/exp589/D64",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-6-D64.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43877,
+      "wall_s": 0.43960401392541826,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-6-D64.stderr",
+      "arm": "D64",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp589/robustness-6-D64.csv",
+        "bytes": 40130395,
+        "sha256": "8d3d20e6f967233dc59eafbb79b2efac9d3458c86444158ddba66c81b8eb0fd1"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    },
+    {
+      "command": [
+        "../exp586/build/exp586/N512",
+        "-in",
+        "../exp562/build/exp562/u-role/requests.csv",
+        "-out",
+        "build/exp589/robustness-6-B.csv"
+      ],
+      "exit_code": 0,
+      "cpu_s": 0.43339099999999997,
+      "wall_s": 0.4345167730934918,
+      "rss_bytes": 473284608,
+      "threads": 1,
+      "stderr": "validation/results/exp589/robustness-6-B.stderr",
+      "arm": "B",
+      "iteration": 6,
+      "output": {
+        "path": "build/exp589/robustness-6-B.csv",
+        "bytes": 40130422,
+        "sha256": "319a0cf7afdcab0aef3e149fb7c6a15e1553a3512a31feb34e4ffddb4d2b4e38"
+      },
+      "counters": {
+        "rows": 1000000,
+        "unreachable": 0,
+        "query_allocations": 0
+      }
+    }
+  ],
+  "stats": {
+    "D64": {
+      "accuracy_pp": 98.34061567129943,
+      "paired_accuracy_pp": 0.1768672916844421,
+      "ci95_accuracy_pp": [
+        0.1687169820899206,
+        0.1855263557925982
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": 0.0,
+          "1": 0.2405307100447538,
+          "2": 0.18890379791281062,
+          "3": 0.11882007347289669
+        },
+        "near_axis": {
+          "0": 0.16079344719961977,
+          "1": 0.20525983838488254
+        }
+      },
+      "changed_rows": 887079,
+      "quality_gate": true,
+      "extra_cpu_s": 0.004765166666666663,
+      "ci95_extra_cpu_s": [
+        0.0023914361862531026,
+        0.007138897147080224
+      ],
+      "score_extrapolated_1b": 0.1017841111253315,
+      "ci95_score_extrapolated_1b": [
+        0.08866224788109316,
+        0.11890590615887872
+      ],
+      "score_gate": true,
+      "bootstrap": "2000 independent source-family and paired timing resamples; 26 families; 6 rounds",
+      "cpu_1b_is_extrapolation": true,
+      "matching_near_baseline": "N512",
+      "far_only_paired_accuracy_pp": 0.1768672916844421
+    },
+    "D96": {
+      "accuracy_pp": 98.46459339670544,
+      "paired_accuracy_pp": 0.3008450170904481,
+      "ci95_accuracy_pp": [
+        0.2912023154289963,
+        0.31111620626250497
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": 0.0,
+          "1": 0.43062050117700207,
+          "2": 0.3158643901853472,
+          "3": 0.19751326902066402
+        },
+        "near_axis": {
+          "0": 0.2700509196724328,
+          "1": 0.3552391509807248
+        }
+      },
+      "changed_rows": 891360,
+      "quality_gate": true,
+      "extra_cpu_s": 0.02471916666666667,
+      "ci95_extra_cpu_s": [
+        0.023066782823883306,
+        0.026371550509450035
+      ],
+      "score_extrapolated_1b": 0.03468295811680289,
+      "ci95_score_extrapolated_1b": [
+        0.02219591315742462,
+        0.04710684524849569
+      ],
+      "score_gate": true,
+      "bootstrap": "2000 independent source-family and paired timing resamples; 26 families; 6 rounds",
+      "cpu_1b_is_extrapolation": true,
+      "matching_near_baseline": "N512",
+      "far_only_paired_accuracy_pp": 0.3008450170904481
+    },
+    "N768D64": {
+      "accuracy_pp": 98.36779519050974,
+      "paired_accuracy_pp": 0.20404681089477303,
+      "ci95_accuracy_pp": [
+        0.19557581972781893,
+        0.21322513977195676
+      ],
+      "groups_delta_pp": {
+        "distance": {
+          "0": 0.6044076541337481,
+          "1": 0.3323861575865084,
+          "2": 0.18890379791281062,
+          "3": 0.11882007347289669
+        },
+        "near_axis": {
+          "0": 0.16081806711717708,
+          "1": 0.2804052780720382
+        }
+      },
+      "changed_rows": 940040,
+      "quality_gate": true,
+      "extra_cpu_s": 0.01137716666666666,
+      "ci95_extra_cpu_s": [
+        0.008506337587537225,
+        0.014247995745796096
+      ],
+      "score_extrapolated_1b": 0.06842772649359627,
+      "ci95_score_extrapolated_1b": [
+        0.04991648598211101,
+        0.0858534009522286
+      ],
+      "score_gate": true,
+      "bootstrap": "2000 independent source-family and paired timing resamples; 26 families; 6 rounds",
+      "cpu_1b_is_extrapolation": true,
+      "matching_near_baseline": "N768",
+      "far_only_paired_accuracy_pp": 0.1768672916844421
+    }
+  },
+  "input_role": "previously_used_development",
+  "full_program_verified": true
+}

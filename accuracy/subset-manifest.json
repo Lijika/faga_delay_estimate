@@ -1,0 +1,57 @@
+{
+  "seed": 202610250688,
+  "numpy": "2.2.6",
+  "original_rows": 3833856,
+  "selected_rows": 479232,
+  "port_pairs": 59904,
+  "rows_per_pair": 8,
+  "sampling": "independent SRSWOR 8 of 64 in each pair; original SRSWOR 64 of N_pair",
+  "weight": "N_pair / 8",
+  "original_weight": "N_pair / 64",
+  "selected_before_values": true,
+  "historical_split": "historical_1b_reviewed",
+  "prospective_holdout": false,
+  "full_weighted_accuracy_pp": 98.65806165706269,
+  "subset_weighted_accuracy_pp": 98.6590479790631,
+  "original_source_pin_seen_rows": 299391,
+  "subset_source_pin_seen_rows": 37264,
+  "inputs": {
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/exact.csv": {
+      "bytes": 283827264,
+      "sha256": "767999560d81772ee6048cfeecb6d9ae4b2dfe7cd88af4a75bffd356329754ae"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/positions.txt": {
+      "bytes": 37913274,
+      "sha256": "bf20b3dfaaf02be8ba186446b514eb9e457c073dca8586d7c96f4d6a05dc99f8"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/pair-populations.json": {
+      "bytes": 359426,
+      "sha256": "5b4139051086db486bfe73400f4bbc049a191a6b6d716f48901bfc2cc5fded49"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/sources": {
+      "bytes": 1456,
+      "sha256": "344a88233f073993a61c3a0779134cc5885c28b669278a8381e84adea03a56b2"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/targets": {
+      "bytes": 1824,
+      "sha256": "4d8a2e4dc277636c014f4cd6d7f843765710e922300bd8225824d5a3d16666cf"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/sampling-plan.bin": {
+      "bytes": 15575064,
+      "sha256": "91ea34cd3cce700fbcb2f1b33ea58fd3878243a867017f2044dc2498d6ff2acf"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp688/build/exp688/1b-sample.csv": {
+      "bytes": 191795088,
+      "sha256": "3ab7c420e59997e0c4a7f7130db175871ee2b484eb587c4def283cc038bf499b"
+    },
+    "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv": {
+      "bytes": 35198280,
+      "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+    }
+  },
+  "output": {
+    "bytes": 17626479,
+    "sha256": "369bf5336fe79ab903168bb886f4004f3e03f498977321bc086c9eb1e310f0d4"
+  },
+  "complete_estimator_runs": 0
+}

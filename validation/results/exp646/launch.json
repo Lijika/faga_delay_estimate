@@ -1,0 +1,32 @@
+{
+  "pid": 3315096,
+  "command": [
+    "../exp491/build/venv/bin/python",
+    "-B",
+    "validation/exp646_asset_restore.py"
+  ],
+  "started_unix": 1792779022.3287795,
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "sources": [
+    {
+      "path": "validation/exp646_asset_restore.py",
+      "bytes": 9657,
+      "sha256": "21aafa3bd95f2d00e4cd235f21130dcdf90f14a63b2d7398a146869bdbc2ef36"
+    },
+    {
+      "path": "tests/exp646_asset_restore.cpp",
+      "bytes": 3990,
+      "sha256": "c32f52b72a3abd155bfbc7aa2a40c03fa93ee7300b2e63848f012bf01ad827c0"
+    },
+    {
+      "path": "experiment/\u5b9e\u9a8c646-\u538b\u7f29\u8d44\u4ea7\u5230\u539fINT8\u5e03\u5c40\u7684\u9759\u6001\u542f\u52a8\u6062\u590d.md",
+      "bytes": 4157,
+      "sha256": "a750fcee09abd4ca5338100e16b623a88968fba3ed0d7fdd424dbec62dd7823c"
+    }
+  ],
+  "disk_free_start_bytes": 72473460736,
+  "production_test": false
+}

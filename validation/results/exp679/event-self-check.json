@@ -1,0 +1,25 @@
+{
+  "binary": {
+    "path": "build/exp679/sample-events",
+    "bytes": 7271672,
+    "sha256": "8c2d418b85e08928160c1af5f4a9072189a0e73e60f6cfe3d3a3f601711ccc5c"
+  },
+  "source": {
+    "path": "build/exp679/sample-events.cpp",
+    "bytes": 2113,
+    "sha256": "4624dd64e71aeb301e64492bffdc2e21410ec452d73c23eff9913718a0c96719"
+  },
+  "input": {
+    "path": "build/exp679/event-check.csv",
+    "bytes": 27037,
+    "sha256": "0fbf8be9c595dd43fc8a3372dca300a5234632401f2851d0754a65d3e1e22a45"
+  },
+  "output": {
+    "path": "build/exp679/event-check.u8",
+    "bytes": 768,
+    "sha256": "12524cacc4b322432d09504002c0d071b1f486e082e73efad5a4d430b80709e4"
+  },
+  "cached_rows": 768,
+  "per_event": 256,
+  "first_net_resolution": true
+}

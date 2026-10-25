@@ -1,0 +1,24 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O3",
+    "-static",
+    "-s",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-ffp-contract=off",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "validation/exp650_curve_assign.cpp",
+    "-o",
+    "build/exp650/assign"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.832805,
+  "wall_s": 0.8370877560228109,
+  "rss_bytes": 119681024,
+  "threads": 1,
+  "stderr": "validation/results/exp650/compile.stderr"
+}

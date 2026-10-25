@@ -1,0 +1,33 @@
+{
+  "pid": 3142974,
+  "command": [
+    "../exp491/build/venv/bin/python",
+    "validation/exp619_scalar_phase.py",
+    "prepare"
+  ],
+  "files": [
+    {
+      "path": "validation/exp619_scalar_phase.py",
+      "bytes": 11019,
+      "sha256": "cd72f8fe5b67e6cf78c128f9b39b8ed9fbb9c7eb3e0356ecbab5c5ef9959c83f"
+    },
+    {
+      "path": "tests/exp619_phase_codes.cpp",
+      "bytes": 2341,
+      "sha256": "cd66ff31758fff743c55fd6ee14c2494c91cf207efeed74f4ccadc7b0593070f"
+    },
+    {
+      "path": "tests/exp619_phase_lookup.h",
+      "bytes": 995,
+      "sha256": "56b8c8225f9cc816c9bf1da3cc2800c1926d9bd2172106b92e08cbb1b39bf4f8"
+    },
+    {
+      "path": "experiment/实验619-有限周期残量的四位标量量化.md",
+      "bytes": 4834,
+      "sha256": "3f170defeed9f14e094f86dca205499dbef8c9d5f67c1dbda750f9fd2d447e2d"
+    }
+  ],
+  "started_unix": 1792688363.937719,
+  "disk_free_start": 39390556160,
+  "head": "718a468931a7b26ebc365d3c4fe9de6b3f479d89"
+}

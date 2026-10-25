@@ -14,6 +14,37 @@
 - [exp610 至 exp701 的整体复盘](docs/research/exp610-701复盘与研究优先级.md)
 - [赛题解析](docs/task/EDA2026赛题一-MinerU-flash.md)及 [V0.3 原 PDF](docs/task/赛题一-V0.3.pdf)
 
+## 外部分析补充材料
+
+2026-10-25 补充逐条数据、生成和训练代码、阶段补丁及原始性能证据。
+各目录 README 给出文件结构、数据含义、复现命令和验证范围。
+
+| 目录 | 内容 |
+| --- | --- |
+| [path_witness](path_witness/README.md) | exp705 全部 239,616 条查询、五份路径见证文件、精确求解及交叉重放代码、最短路径平局策略 |
+| [accuracy](accuracy/README.md) | 479,232 条完整端点 exact/prediction、采样权重与历史划分，原 exact 求解器源码和独立重建入口 |
+| [dataset_protocol](dataset_protocol/README.md) | 冻结 100M/1B 生成器、seed、可达性索引、历史排除集合、分层 exact 抽样及源 pin 隔离 |
+| [training](training/README.md) | D64、曲线、S8、V8 的训练与导出来源，百万行训练数组、特征定义和残差重训入口 |
+| [benchmark](benchmark/README.md) | r9 机器配置、目标 6242R 截图、exp703 perf、exp704 全部十四次完整 100M 记录 |
+| [stage_changes](stage_changes/README.md) | exp704/706 的 688 槽目录补丁、候选 header、编译配置、解析对照和阶段验收 |
+
+路径见证已全部重求并核对 SHA，958,464 次交叉重放逐元素一致。
+原 exact 求解器及阶段 ELF 在 r9 上均重建为相同 SHA；
+V64 和 S16 route 0 也已从导出的数据重训，参数与冻结模型一致。
+检查总表见 [supplement-verification.json](supplement-verification.json)，
+来源说明见 [supplement-provenance.json](supplement-provenance.json)。
+
+```sh
+sha256sum -c supplement-SHA256SUMS
+```
+
+当前 r9 配置识别为 Xeon Gold 6226R，6242R 是用户指定的另一台目标机器；
+现有材料没有 6242R 实测成绩。208×288 是项目当前角色域，官方文档尚未明确
+将合法请求限定为此域，域外可达例子及实现限制已单列在请求协议中。
+本次补充没有新增完整 100M/1B 估计运行，`source/` 的冻结文件身份全部保留。
+
+## 历史记录
+
 实验原文共 851 份，包含 exp611 至 exp706 的 99 份记录。文件身份见
 `docs/experiment-log-manifest.json`。记录保留原始假设、停止条件和结果，
 其中的机器路径指向当时研究工作区。`validation/results/` 收录本轮讨论所需的主要原始证据。
@@ -39,7 +70,7 @@ exp688 ELF 为 93,402,392 B，完整 SHA-256 为
 
 ## 已有完整 1B 证据
 
-r9 Xeon 上全端口、非重复 1B 的 CPU 为 **243.302538 秒**，
+r9 上全端口、非重复 1B 的 CPU 为 **243.302538 秒**，
 wall 为 269.009493 秒，峰值 RSS 206,372,864 B，单线程且完整输出契约通过。
 同次输出的 **3,833,856 条 exact 分层样本**估计 Acc 为 **98.658061657%**。
 这套输入已被历史验证观察，官方隐藏分布的成绩仍需平台实测。

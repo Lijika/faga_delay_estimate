@@ -1,0 +1,78 @@
+{
+  "name": "small_Q",
+  "fold": 0,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "eta": 0.1,
+    "max_bin": 256,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "seed": 20261020554,
+    "nthread": 4
+  },
+  "rounds": 32,
+  "assets": {
+    "json": {
+      "path": "build/exp554/small_Q-0.json",
+      "bytes": 63911,
+      "sha256": "7ff23a0634770d9632aa8371b7c0f6d0e05e430f68fe7edb84df1af19303099d"
+    },
+    "binary": {
+      "path": "build/exp554/small_Q-0.bin",
+      "bytes": 15700,
+      "sha256": "d8989eaaadae8dc64c6cfdd525cd5f58708c67a5ef61ecd83f126ebb9d7e48f8"
+    },
+    "trees": 32,
+    "nodes": 972
+  },
+  "cpu_s": 12.06712899899999,
+  "wall_s": 4.081446990836412,
+  "train_raw": {
+    "path": "build/exp554/small_Q-0.train.f32",
+    "bytes": 2665424,
+    "sha256": "0befcde672a2218cd85807f5444224397b32c2e14e528eef266859c4f081d5ce"
+  },
+  "train": {
+    "rows": 666356,
+    "accuracy_pp": 99.33327785277613,
+    "mean_error_ps": -3.7567366392739014,
+    "mae_ps": 4.0639087814921755,
+    "squared_ps": 140078892,
+    "exact_rows": 469296,
+    "under_rows": 157443,
+    "over_rows": 39617
+  },
+  "validation": {
+    "rows": 333644,
+    "accuracy_pp": 99.33574107738512,
+    "mean_error_ps": -3.7408045701406287,
+    "mae_ps": 4.061026123652756,
+    "squared_ps": 71444519,
+    "exact_rows": 235414,
+    "under_rows": 78600,
+    "over_rows": 19630
+  },
+  "train_kernel": {
+    "rows": 666356,
+    "accuracy_pp": 99.31579323322812,
+    "mean_error_ps": -3.333083216779019,
+    "mae_ps": 3.6659533342537625,
+    "squared_ps": 127148602,
+    "exact_rows": 482702,
+    "under_rows": 143170,
+    "over_rows": 40484
+  },
+  "validation_kernel": {
+    "rows": 333644,
+    "accuracy_pp": 99.31497238893769,
+    "mean_error_ps": -3.337020896524439,
+    "mae_ps": 3.6843132200788866,
+    "squared_ps": 65564717,
+    "exact_rows": 242048,
+    "under_rows": 71548,
+    "over_rows": 20048
+  }
+}

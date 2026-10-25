@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-c",
+    "build/exp589/D64-assets/geometry.S",
+    "-o",
+    "build/exp589/D64-assets/geometry.o"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.08972899999999999,
+  "wall_s": 0.09036937216296792,
+  "rss_bytes": 689975296,
+  "threads": 1,
+  "stderr": "validation/results/exp589/D64-assemble.stderr"
+}

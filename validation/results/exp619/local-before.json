@@ -1,0 +1,214 @@
+{
+  "head": "841fc74f4e7ec9fb3bd95c2d04b22e0256cc0b27",
+  "original_changes": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 14316,
+      "sha256": "594385e37013fcb16fe5a7ba2a16c827bf132b26038e7f84ee3dd8f89010c708"
+    },
+    {
+      "path": "experiment/实验205-C1冻结选择器静态接入与完整1M.md",
+      "bytes": 7233,
+      "sha256": "f555f3d3e1ae47ca33ae79fe7d0f114512246f46642ccc37cdfe97b60d377f33"
+    },
+    {
+      "path": "experiment/实验206-C1中长距离候选覆盖淘汰诊断.md",
+      "bytes": 5153,
+      "sha256": "b250f2af2cf3c87a6b2718056323102400f9a8bd333693d9b33edc363f7e14a3"
+    },
+    {
+      "path": "experiment/实验207-C1中长距离高低损失精确路径诊断.md",
+      "bytes": 4191,
+      "sha256": "17ad51764ec73187790f66c1352a0ce80216eac3ca28ac35beeb8c555dab7c56"
+    },
+    {
+      "path": "experiment/实验261-隐藏规则1B输入生成.md",
+      "bytes": 6504,
+      "sha256": "53e5f6c487044640c50660f4f94ca0d0e7f8de9577c6b1fb7114a513641d924e"
+    },
+    {
+      "path": "experiment/实验324-选择性回退的精度成本边界.md",
+      "bytes": 5005,
+      "sha256": "0df760078bf2a8e64c9711abd9397f26efa0bc787e73e0c750630c911cbccf67"
+    },
+    {
+      "path": "experiment/实验341-budget384权重1005-结果.md",
+      "bytes": 2477,
+      "sha256": "52236a94d86723087f7bf145370f14ff17b738be0c62779de6671737f5609e43"
+    },
+    {
+      "path": "experiment/实验342-桶内Packed键-结果.md",
+      "bytes": 2129,
+      "sha256": "6a98b8f87d70cef474783d5a36bfaad68ae10a3c964be7a6476cd5feff4f262b"
+    },
+    {
+      "path": "experiment/实验409-内后桥整体架构下界.md",
+      "bytes": 6470,
+      "sha256": "33c6f7446c532283f24978a47d9bf306d220f5fed7ed529b24a8ee8c0951945d"
+    },
+    {
+      "path": "experiment/实验512-逐行压缩坐标的完整真实图证书.md",
+      "bytes": 5016,
+      "sha256": "49e7384feeb4acfc03166c2a1262ae7e54c900621777d90045d1d203077e8815"
+    },
+    {
+      "path": "experiment/实验560-XGBoost阈值秩编码与窄节点组合.md",
+      "bytes": 5271,
+      "sha256": "d2bb2bdb59e16bc528a51c96b8996c25c0d70d268c29c5348a5f2857059a5d26"
+    },
+    {
+      "path": "experiment/实验564-端口phase精确主效应与共享几何残差.md",
+      "bytes": 4927,
+      "sha256": "52459d76b057f7204d2d173d603b69e31392410f366992b25b944e7f20dda297"
+    },
+    {
+      "path": "experiment/实验573-固定短点积布局的稳健目标.md",
+      "bytes": 4606,
+      "sha256": "b22288ea770cfa5556d8e1f66b988ba3e8a095c6b8f3131c3c986af647421b48"
+    },
+    {
+      "path": "experiment/实验579-分组微型残差的完整静态程序.md",
+      "bytes": 4360,
+      "sha256": "190f3fcb4731cc821f5cd6107d9c31657c6ab0bdeba0debf19856d38fddf0480"
+    },
+    {
+      "path": "experiment/统一路径距离索引的研究判断-20261017.md",
+      "bytes": 20868,
+      "sha256": "19fb41695b456edccdcfb5cd081b060c04dd9bf8cf05ad35b6e3c7f162b22c0c"
+    },
+    {
+      "path": "scripts/build_submission.sh",
+      "bytes": 8489,
+      "sha256": "95ebce565f157b114151f277df8594a0f71393c669a5aef09363dfd1b07195f7"
+    },
+    {
+      "path": "src/residue_estimator.cpp",
+      "bytes": 52188,
+      "sha256": "676ecf26513f2398a66e005799886de0d146221765e509eff195b149251bf732"
+    },
+    {
+      "path": "src/residue_estimator.h",
+      "bytes": 21403,
+      "sha256": "e36df9e5424599c6b88ce1ff632fa57885237aea092bcb8a9800be3e04beee2b"
+    },
+    {
+      "path": "src/xgb_residual_base47_fast.h",
+      "bytes": 1065,
+      "sha256": "0a3d62a65df8507ea35c743f9d03084c6849ca491932e3b8190c6c7df3f636de"
+    },
+    {
+      "path": "subm/latest/submission.zip",
+      "bytes": 57934013,
+      "sha256": "c4636d045149c4c154dcf670714a6167cabb083f7be0f5397d9923c5de1db520"
+    },
+    {
+      "path": "subm/submission.zip",
+      "bytes": 57934013,
+      "sha256": "c4636d045149c4c154dcf670714a6167cabb083f7be0f5397d9923c5de1db520"
+    },
+    {
+      "path": "tests/exp576_routed_residual.cpp",
+      "bytes": 4025,
+      "sha256": "2412c864ec3eb0063b28579eb52e6150e8665263d8fe0248997710da0db263d6"
+    },
+    {
+      "path": "validation/exp564_evaluate.py",
+      "bytes": 10448,
+      "sha256": "145d1eeaaae05183fb1e4586f265757037bdd41a1ae388c7012056c1a22e62f8"
+    },
+    {
+      "path": "validation/exp579_complete_candidate.py",
+      "bytes": 24505,
+      "sha256": "6ae708b5a9bae771b6041c00d1835dbba46759dc78771e4a5349d5f3fac1110f"
+    },
+    {
+      "path": "validation/results/exp26-periodic-theory.json",
+      "bytes": 13641,
+      "sha256": "03c3917e9bb24500af109e9f31d96166c3033d69110a9896bb84b60e78a72ed0"
+    },
+    {
+      "path": "validation/results/pdb-audit.json",
+      "bytes": 16152,
+      "sha256": "79bdaaee27f84fa37b6fd9a108d3d97d503a7eb6f12fed7498649c05c964c124"
+    }
+  ],
+  "preexisting_deletions": [
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/.gitignore",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/README.md",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/SHA256SUMS",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/archive.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/README.md",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/SHA256SUMS",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/arch/SRB_Arc.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/arch/SRB_Gap.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/arch/SRB_Inst.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/arch/SRB_Net.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/arch/SRB_Port.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/assets/D64-geometry.bin",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/assets/geometry.S",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/build.py",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp579-models.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp582_int8_geometry.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp594_packed_output.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp596_csv_batch.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp601_port_parser.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/include/exp608_geometry.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-0.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-1.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-10.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-11.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-12.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-13.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-14.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-15.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-2.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-3.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-4.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-5.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-6.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-7.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-8.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/models/R8-final-9.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/100m-report.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/10m-report.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/1b-report.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/automatic-freeze.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/build-freeze.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp579-candidate-freeze.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp579-compile-arch-text.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp580-compile-resolver.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp580-freeze.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp588-evaluation.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp589-candidate-freeze.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp602-1b-accuracy.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp609-compile-D.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp609-compile-F.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp609-compile-S.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/exp609-link-F.run.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/final-release-check.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/fixed-report.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/identities.txt",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/original-geometry.S",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/original-object-identities.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/package-check.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/rebuilt-SHA256SUMS",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/report.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/source-origin.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/standalone-build-r9.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/provenance/version.json",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/scripts/gen_embedded_arch.py",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/architecture.cpp",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/architecture.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/csv.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/embedded_arch.cpp",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/embedded_arch.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/embedded_resolver_data.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/entry.cpp",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/json.h",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/source/src/worker.cpp",
+    "subm/version/exp610-d64-generic-1b251s-dddbb955-dirty/verification.json"
+  ],
+  "local_free_bytes": 376710938624,
+  "syntax_check": true,
+  "local_algorithm_computation": false
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "build/exp679/sample-events",
+    "build/exp679/event-check.csv",
+    "build/exp679/event-check.u8"
+  ],
+  "exit_code": 0,
+  "cpu_s": 0.079232,
+  "wall_s": 0.0813670139759779,
+  "rss_bytes": 404746240,
+  "threads": 1,
+  "stderr": "validation/results/exp679/event-self-check.stderr"
+}

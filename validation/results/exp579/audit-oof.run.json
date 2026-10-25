@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/exp579/audit",
+    "build/exp579/queries.bin",
+    "build/exp579/folds.u8",
+    "build/exp579/oof-trace.bin",
+    "0"
+  ],
+  "exit_code": 0,
+  "threads": 1,
+  "cpu_s": 0.593996,
+  "wall_s": 0.5950162189546973,
+  "rss_bytes": 578801664
+}

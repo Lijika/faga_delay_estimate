@@ -1,0 +1,55 @@
+{
+  "schedule": [
+    [
+      "B",
+      "N512",
+      "N768"
+    ],
+    [
+      "B",
+      "N512",
+      "N768"
+    ],
+    [
+      "N768",
+      "N512",
+      "B"
+    ],
+    [
+      "B",
+      "N512",
+      "N768"
+    ],
+    [
+      "N768",
+      "N512",
+      "B"
+    ],
+    [
+      "B",
+      "N512",
+      "N768"
+    ],
+    [
+      "N768",
+      "N512",
+      "B"
+    ]
+  ],
+  "input": {
+    "path": "../exp562/build/exp562/u-role/requests.csv",
+    "bytes": 35192612,
+    "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+  },
+  "labels": {
+    "path": "../exp562/build/exp562/exact.csv",
+    "bytes": 72674703,
+    "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+  },
+  "candidate_freeze": {
+    "path": "validation/results/exp586/candidate-freeze.json",
+    "bytes": 3122,
+    "sha256": "aab71e8f66b8f8d7ac02faedd80635f73a049ee23bb0b8c469ec0851315704de"
+  },
+  "distribution_previously_used": true
+}

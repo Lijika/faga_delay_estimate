@@ -1,0 +1,30 @@
+{
+  "arm": "T32",
+  "fold": 2,
+  "route": 5,
+  "rounds": 8,
+  "params": {
+    "objective": "reg:absoluteerror",
+    "tree_method": "hist",
+    "max_depth": 4,
+    "max_bin": 256,
+    "eta": 0.3,
+    "base_score": 0,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 32,
+    "reg_lambda": 1,
+    "seed": 20261020554,
+    "nthread": 16
+  },
+  "rows": 48405,
+  "port_pairs": 33092,
+  "model": {
+    "path": "build/exp593/T32-2-5.json",
+    "bytes": 15541,
+    "sha256": "8912c9466e9afc8461e6c98e7feb66a3f91976d154efaeeda5b0036f4eea3979"
+  },
+  "cpu_s": 0.4805351090000016,
+  "wall_s": 0.4805693810340017,
+  "offline_only": true
+}

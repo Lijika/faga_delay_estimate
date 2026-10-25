@@ -1,0 +1,1377 @@
+{
+  "cases": {
+    "development": {
+      "runs": [
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-0-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.632223,
+          "wall_s": 0.6324894230347127,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 0,
+          "output": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": false
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-0-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 113.642081,
+          "wall_s": 113.65360433305614,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 0,
+          "output": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": false
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-1-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.63824,
+          "wall_s": 0.639075611019507,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 1,
+          "output": {
+            "path": "build/exp579/development-1-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-1-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.79761400000001,
+          "wall_s": 114.80817082198337,
+          "rss_bytes": 1669668864,
+          "arm": "A",
+          "iteration": 1,
+          "output": {
+            "path": "build/exp579/development-1-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-2-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.117144,
+          "wall_s": 114.1297490359284,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 2,
+          "output": {
+            "path": "build/exp579/development-2-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-2-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6343949999999999,
+          "wall_s": 0.6346818800084293,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 2,
+          "output": {
+            "path": "build/exp579/development-2-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-3-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.640145,
+          "wall_s": 0.6413682049605995,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 3,
+          "output": {
+            "path": "build/exp579/development-3-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-3-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.996368,
+          "wall_s": 115.0111645439174,
+          "rss_bytes": 1669709824,
+          "arm": "A",
+          "iteration": 3,
+          "output": {
+            "path": "build/exp579/development-3-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-4-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.739821,
+          "wall_s": 114.7581703402102,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 4,
+          "output": {
+            "path": "build/exp579/development-4-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-4-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.640674,
+          "wall_s": 0.6420568199828267,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 4,
+          "output": {
+            "path": "build/exp579/development-4-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-5-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6333219999999999,
+          "wall_s": 0.6338898600079119,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 5,
+          "output": {
+            "path": "build/exp579/development-5-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-5-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.888563,
+          "wall_s": 114.90515388105996,
+          "rss_bytes": 1669877760,
+          "arm": "A",
+          "iteration": 5,
+          "output": {
+            "path": "build/exp579/development-5-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-6-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.114704,
+          "wall_s": 114.13010314712301,
+          "rss_bytes": 1669668864,
+          "arm": "A",
+          "iteration": 6,
+          "output": {
+            "path": "build/exp579/development-6-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-6-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.642814,
+          "wall_s": 0.6436374029144645,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 6,
+          "output": {
+            "path": "build/exp579/development-6-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "complete_contract_reused": true
+        }
+      ],
+      "evidence": {
+        "C": {
+          "input": {
+            "path": "../exp501/build/exp501/u-role/requests.csv",
+            "bytes": 35198280,
+            "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+          },
+          "output": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "labels": {
+            "path": "../exp501/build/exp501/exact.csv",
+            "bytes": 72686142,
+            "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+          },
+          "rows": 1000000,
+          "unique_rows": 1000000,
+          "port_pairs": 59904,
+          "contract_passed": true,
+          "statistics": {
+            "rows": 1000000,
+            "accuracy_pp": 98.08138803816345,
+            "mean_error_ps": -1.931626,
+            "mae_ps": 11.149374,
+            "squared_ps": 286171822,
+            "exact_rows": 37568,
+            "under_rows": 498233,
+            "over_rows": 464199
+          }
+        },
+        "A": {
+          "input": {
+            "path": "../exp501/build/exp501/u-role/requests.csv",
+            "bytes": 35198280,
+            "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+          },
+          "output": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "labels": {
+            "path": "../exp501/build/exp501/exact.csv",
+            "bytes": 72686142,
+            "sha256": "0af87274a9a361b8c059a3e044de9601acd1245ea0fe12bbfe6373de2c4807dc"
+          },
+          "rows": 1000000,
+          "unique_rows": 1000000,
+          "port_pairs": 59904,
+          "contract_passed": true,
+          "statistics": {
+            "rows": 1000000,
+            "accuracy_pp": 99.08092943070483,
+            "mean_error_ps": -1.203776,
+            "mae_ps": 7.846038,
+            "squared_ps": 328564382,
+            "exact_rows": 494508,
+            "under_rows": 153706,
+            "over_rows": 351786
+          }
+        }
+      },
+      "timing_s": {
+        "C": [
+          0.63824,
+          0.6343949999999999,
+          0.640145,
+          0.640674,
+          0.6333219999999999,
+          0.642814
+        ],
+        "A": [
+          114.79761400000001,
+          114.117144,
+          114.996368,
+          114.739821,
+          114.888563,
+          114.114704
+        ]
+      },
+      "saved_cpu_s": 113.97077066666668,
+      "ci95_saved_s": [
+        113.5593181102978,
+        114.38222322303557
+      ],
+      "paired_accuracy_pp": -0.9995413925413476,
+      "changed_rows": 968203,
+      "paired_accuracy_ci95_pp": [
+        -1.051899410747237,
+        -0.9471577543376756
+      ],
+      "clusters": 26,
+      "better_rows": 259319,
+      "worse_rows": 697642,
+      "deleted_duplicates": [
+        {
+          "file": {
+            "path": "build/exp579/development-1-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-1-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-1-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-1-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-2-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-2-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-2-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-2-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-3-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-3-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-3-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-3-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-4-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-4-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-4-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-4-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-5-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-5-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-5-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-5-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-6-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-A.csv",
+            "bytes": 40136506,
+            "sha256": "b3608b143d34d91597f20437c32fa38274cf2f83858877766158cbdd21e82cb2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-6-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/development-6-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "identical_to": {
+            "path": "build/exp579/development-0-C.csv",
+            "bytes": 40136263,
+            "sha256": "b3f19cdd0e865a82780e03c219ba7523a79d74dc48ab32be6d18e19b27b55146"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp501/build/exp501/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/development-6-C.csv"
+          ]
+        }
+      ],
+      "freed_duplicate_bytes": 481636614,
+      "quality_gate": true,
+      "speed_gate": true,
+      "full_program": true,
+      "independent": false
+    },
+    "independent": {
+      "runs": [
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-0-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.644403,
+          "wall_s": 0.645664171082899,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 0,
+          "output": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": false
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-0-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 115.407741,
+          "wall_s": 115.42402034206316,
+          "rss_bytes": 1669660672,
+          "arm": "A",
+          "iteration": 0,
+          "output": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": false
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-1-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.633803,
+          "wall_s": 0.6342555859591812,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 1,
+          "output": {
+            "path": "build/exp579/independent-1-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-1-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.739468,
+          "wall_s": 114.75394583097659,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 1,
+          "output": {
+            "path": "build/exp579/independent-1-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 115.064364,
+          "wall_s": 115.07840885198675,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 2,
+          "output": {
+            "path": "build/exp579/independent-2-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6309899999999999,
+          "wall_s": 0.6318320650607347,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 2,
+          "output": {
+            "path": "build/exp579/independent-2-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-3-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.627473,
+          "wall_s": 0.6284681160468608,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 3,
+          "output": {
+            "path": "build/exp579/independent-3-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-3-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 113.31354,
+          "wall_s": 113.32674601115286,
+          "rss_bytes": 1669660672,
+          "arm": "A",
+          "iteration": 3,
+          "output": {
+            "path": "build/exp579/independent-3-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-4-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 113.51733,
+          "wall_s": 113.53265681490302,
+          "rss_bytes": 1669693440,
+          "arm": "A",
+          "iteration": 4,
+          "output": {
+            "path": "build/exp579/independent-4-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-4-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6358769999999999,
+          "wall_s": 0.6372011150233448,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 4,
+          "output": {
+            "path": "build/exp579/independent-4-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-5-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6342709999999999,
+          "wall_s": 0.6349672139622271,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 5,
+          "output": {
+            "path": "build/exp579/independent-5-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-5-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 114.610425,
+          "wall_s": 114.6240240209736,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 5,
+          "output": {
+            "path": "build/exp579/independent-5-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-6-A.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 115.343149,
+          "wall_s": 115.35508673312142,
+          "rss_bytes": 1669664768,
+          "arm": "A",
+          "iteration": 6,
+          "output": {
+            "path": "build/exp579/independent-6-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "complete_contract_reused": true
+        },
+        {
+          "command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-6-C.csv"
+          ],
+          "exit_code": 0,
+          "threads": 1,
+          "cpu_s": 0.6297379999999999,
+          "wall_s": 0.6300877798348665,
+          "rss_bytes": 874008576,
+          "arm": "C",
+          "iteration": 6,
+          "output": {
+            "path": "build/exp579/independent-6-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "complete_contract_reused": true
+        }
+      ],
+      "evidence": {
+        "C": {
+          "input": {
+            "path": "../exp562/build/exp562/u-role/requests.csv",
+            "bytes": 35192612,
+            "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+          },
+          "output": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "labels": {
+            "path": "../exp562/build/exp562/exact.csv",
+            "bytes": 72674703,
+            "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+          },
+          "rows": 1000000,
+          "unique_rows": 1000000,
+          "port_pairs": 59904,
+          "contract_passed": true,
+          "statistics": {
+            "rows": 1000000,
+            "accuracy_pp": 98.07096815163732,
+            "mean_error_ps": -1.883221,
+            "mae_ps": 11.173675,
+            "squared_ps": 286495821,
+            "exact_rows": 37259,
+            "under_rows": 498385,
+            "over_rows": 464356
+          }
+        },
+        "A": {
+          "input": {
+            "path": "../exp562/build/exp562/u-role/requests.csv",
+            "bytes": 35192612,
+            "sha256": "d44f6e26dd4aec7fd8bce35e592554edefb37ad8bb7b18b4948a88fd3298917d"
+          },
+          "output": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "labels": {
+            "path": "../exp562/build/exp562/exact.csv",
+            "bytes": 72674703,
+            "sha256": "a75a750bafaf6ea9475fd47baba44b5930ab6df9c0c5567eff4ca0115f0343ce"
+          },
+          "rows": 1000000,
+          "unique_rows": 1000000,
+          "port_pairs": 59904,
+          "contract_passed": true,
+          "statistics": {
+            "rows": 1000000,
+            "accuracy_pp": 99.08525196311297,
+            "mean_error_ps": -1.177789,
+            "mae_ps": 7.811839,
+            "squared_ps": 326704845,
+            "exact_rows": 495621,
+            "under_rows": 152728,
+            "over_rows": 351651
+          }
+        }
+      },
+      "timing_s": {
+        "C": [
+          0.633803,
+          0.6309899999999999,
+          0.627473,
+          0.6358769999999999,
+          0.6342709999999999,
+          0.6297379999999999
+        ],
+        "A": [
+          114.739468,
+          115.064364,
+          113.31354,
+          113.51733,
+          114.610425,
+          115.343149
+        ]
+      },
+      "saved_cpu_s": 113.799354,
+      "ci95_saved_s": [
+        112.92832034296097,
+        114.67038765703902
+      ],
+      "paired_accuracy_pp": -1.014283811475699,
+      "changed_rows": 968978,
+      "paired_accuracy_ci95_pp": [
+        -1.0684110320964686,
+        -0.9612632198400739
+      ],
+      "clusters": 26,
+      "better_rows": 258401,
+      "worse_rows": 699260,
+      "deleted_duplicates": [
+        {
+          "file": {
+            "path": "build/exp579/independent-1-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-1-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-1-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-1-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-2-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-2-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-3-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-3-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-3-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-3-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-4-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-4-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-4-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-4-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-5-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-5-C.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-5-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-5-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-6-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-A.csv",
+            "bytes": 40130730,
+            "sha256": "5c7cee981c929a2d7a60c09401d133b96103c3eb0274263b0b45ed85b568d3e2"
+          },
+          "rebuild_command": [
+            "../../build/exp320/narrow/estimate",
+            "-cache-mb",
+            "0",
+            "-quiet",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-6-A.csv"
+          ]
+        },
+        {
+          "file": {
+            "path": "build/exp579/independent-6-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "identical_to": {
+            "path": "build/exp579/independent-0-C.csv",
+            "bytes": 40130411,
+            "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+          },
+          "rebuild_command": [
+            "build/exp579/estimate",
+            "-in",
+            "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+            "-out",
+            "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-6-C.csv"
+          ]
+        }
+      ],
+      "freed_duplicate_bytes": 481566846,
+      "quality_gate": true,
+      "speed_gate": true,
+      "full_program": true,
+      "independent": true
+    }
+  },
+  "binary": {
+    "path": "build/exp579/estimate",
+    "bytes": 93648120,
+    "sha256": "b77088009fda2e03c5fb7fd6e5f2646e1ea31d3f97f4ae4302d56b28cdd5f7af"
+  },
+  "full_port_pairs": 59904,
+  "independent_consumed": true,
+  "stage100m_verified": false,
+  "stage1b_verified": false
+}

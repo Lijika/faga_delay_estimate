@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "mode": 0,
+      "run": {
+        "command": [
+          "build/exp619/Q4-audit",
+          "../exp579/build/exp579/queries.bin",
+          "../exp579/build/exp579/folds.u8",
+          "build/exp619/audit-0-trace.bin",
+          "0"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.462342,
+        "wall_s": 0.4630045078229159,
+        "rss_bytes": 531546112,
+        "threads": 1,
+        "stderr": "validation/results/exp619/audit-0.stderr"
+      },
+      "trace": {
+        "path": "build/exp619/audit-0-trace.bin",
+        "bytes": 240000000,
+        "sha256": "89fd71de2204d71a2e9d5e299f3b9b6a6638d30e4ed487c052656cef6a8f15ee"
+      },
+      "expected": {
+        "path": "build/exp619/Q4-prediction.i32",
+        "bytes": 4000000,
+        "sha256": "5e60ce14691e237b62c6cbf08a2ad535dff0300d2409fe2c9775546eb22e8a82"
+      },
+      "all_fields_verified": true,
+      "rebuild_command": [
+        "build/exp619/Q4-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp619/audit-0-trace.bin",
+        "0"
+      ]
+    },
+    {
+      "mode": 1,
+      "run": {
+        "command": [
+          "build/exp619/Q4-audit",
+          "../exp579/build/exp579/queries.bin",
+          "../exp579/build/exp579/folds.u8",
+          "build/exp619/audit-1-trace.bin",
+          "1"
+        ],
+        "exit_code": 0,
+        "cpu_s": 0.456644,
+        "wall_s": 0.4571602870710194,
+        "rss_bytes": 844795904,
+        "threads": 1,
+        "stderr": "validation/results/exp619/audit-1.stderr"
+      },
+      "trace": {
+        "path": "build/exp619/audit-1-trace.bin",
+        "bytes": 240000000,
+        "sha256": "668f9046cbcf97ab7b58638eb7aea23da7ba5a397ef18ce4b5dd6c36b385d2f7"
+      },
+      "expected": {
+        "path": "build/exp619/final-expected.i32",
+        "bytes": 4000000,
+        "sha256": "6fb2c49124574f4360a69d5b4b00ee9b32291eec66de7cbf0ad6d39ee8ccc359"
+      },
+      "all_fields_verified": true,
+      "rebuild_command": [
+        "build/exp619/Q4-audit",
+        "../exp579/build/exp579/queries.bin",
+        "../exp579/build/exp579/folds.u8",
+        "build/exp619/audit-1-trace.bin",
+        "1"
+      ]
+    }
+  ],
+  "rows": 1000000,
+  "port_pairs": 59904,
+  "oof_prediction_bitwise": true,
+  "final_prediction_bitwise": true,
+  "near_bitwise_unchanged": true
+}

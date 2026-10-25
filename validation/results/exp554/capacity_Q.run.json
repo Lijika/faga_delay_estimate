@@ -1,0 +1,28 @@
+{
+  "name": "capacity_Q",
+  "command": [
+    "build/exp554/predict",
+    "build/exp554/features.f32",
+    "build/exp554/folds.u8",
+    "build/exp554/capacity_Q-0.bin",
+    "build/exp554/capacity_Q-1.bin",
+    "build/exp554/capacity_Q-2.bin",
+    "build/exp554/capacity_Q.independent.f32"
+  ],
+  "exit_code": 0,
+  "cpu_s": 8.645918000000002,
+  "wall_s": 8.674190614139661,
+  "rss_bytes": 1287450624,
+  "threads": 1,
+  "counters": {
+    "rows": 1000000,
+    "threads": 1,
+    "comparisons": 1023693777
+  },
+  "output": {
+    "path": "build/exp554/capacity_Q.independent.f32",
+    "bytes": 4000000,
+    "sha256": "b67093e379b4b2624d6aa55a84f77e2397938b321921e4e32b407d33650b4ec0"
+  },
+  "bitwise_equal": true
+}

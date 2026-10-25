@@ -1,0 +1,24 @@
+{
+  "command": [
+    "zstd",
+    "--single-thread",
+    "-9",
+    "--check",
+    "--no-progress",
+    "-q",
+    "-c",
+    "build/exp646/D64-D/delta.bin"
+  ],
+  "input": {
+    "path": "build/exp646/D64-D/delta.bin",
+    "bytes": 69303616,
+    "sha256": "f74ac94cd8dd9f75229f35e202b5d3125fe905737f7c85c210003abcb49ce37d"
+  },
+  "compressed": {
+    "path": "build/exp646/D64-D/asset.zst",
+    "bytes": 52353982,
+    "sha256": "0ece8c234d976ac8df95c7f9e4b35a4e714cb491dac7a6077aa5e12916501500"
+  },
+  "cpu_s": 1.8360319999999999,
+  "wall_s": 2.1214949570130557
+}

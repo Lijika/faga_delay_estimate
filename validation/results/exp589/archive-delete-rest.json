@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "path": "research/exp494/build/exp494/residue/r1024/float-output.i32",
+      "bytes": 1058144256,
+      "sha256": "9b448ef687c5b2921d993c5d1ca9f8e4b2b2046d958b2472113c9bde48ffd424",
+      "deleted": true
+    },
+    {
+      "path": "research/exp582/build/exp582/R-trace.bin",
+      "bytes": 240000000,
+      "sha256": "a4954bd95ec46390c00e248d233e698b05d7e20df403a9d276711f469083c0b6",
+      "deleted": true
+    },
+    {
+      "path": "research/exp582/build/exp582/B32-trace.bin",
+      "bytes": 240000000,
+      "sha256": "71c0bdae2258f6b51f5d587c5d920b39e22c7c273cf3376424b09e376961ab1a",
+      "deleted": true
+    },
+    {
+      "path": "research/exp582/build/exp582/B64-trace.bin",
+      "bytes": 240000000,
+      "sha256": "dc75c4b2f8deb9f18280a6075c2d5bf5f818016e1d4c05a122ceb0e8d67cedf4",
+      "deleted": true
+    },
+    {
+      "path": "research/exp586/build/exp586/N512-trace.bin",
+      "bytes": 240000000,
+      "sha256": "a5edaf47be7bce6f40c6d281ac12e1b5062b1316b2ac9fe66ad40e8427c16b4e",
+      "deleted": true
+    },
+    {
+      "path": "research/exp586/build/exp586/N768-trace.bin",
+      "bytes": 240000000,
+      "sha256": "ab86e6f146f1e2d086dcb4e75e6b16ded64022ae80a1bc14cf90156fa05793bb",
+      "deleted": true
+    }
+  ],
+  "free_bytes_before": 1955360768,
+  "free_bytes_after": 4213534720
+}

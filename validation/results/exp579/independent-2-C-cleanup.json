@@ -1,0 +1,19 @@
+{
+  "file": {
+    "path": "build/exp579/independent-2-C.csv",
+    "bytes": 40130411,
+    "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+  },
+  "identical_to": {
+    "path": "build/exp579/independent-0-C.csv",
+    "bytes": 40130411,
+    "sha256": "00266d24734e7830650d7a2a3ce6345336457f199b1039a9f58795a2675f78e5"
+  },
+  "rebuild_command": [
+    "build/exp579/estimate",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/research/exp562/build/exp562/u-role/requests.csv",
+    "-out",
+    "/home/lhj/lhjwork/eda2026/research/exp579/build/exp579/independent-2-C.csv"
+  ]
+}
