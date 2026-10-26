@@ -2,6 +2,8 @@
 
 本轮外部 AI 咨询以 **exp728 冻结阶段版**为对象。完整非重复 1B 的 CPU 为 **184.190953 秒**，同次输出的 3,833,856 条分层 exact 估计 Acc 为 **98.644899649%**。目标是总体 Acc 严格大于 99%、完整 CPU 接近 100 秒，后续争取 >99.1% / <90 秒。
 
+实验日志已补齐至 exp743，本次新增的 exp733 至 exp743 共11份记录见[历史实验索引](experiment/README.md)。此次同步包含日志及其索引和校验信息，新增实验的代码与原始结果尚未上传。
+
 ## 阅读入口
 
 - [exp728 外部 AI 提问书](docs/exp728/exp728-外部AI提问书.md)
@@ -24,8 +26,8 @@
 | [dataset_protocol](dataset_protocol/README.md) | 1B、exp720 新 100M 和旧 exp685 的完整生成与抽样协议 |
 | [benchmark](benchmark/README.md) | 机器身份、exp727 十四次 100M 记录、exp728 1B 及历史 perf |
 | [research_code](research_code/README.md) | exp707 至 exp732 研究原型、生成与审计代码 |
-| [experiment](experiment/README.md) | 877 份历史记录，原始假设、停止条件和证据 |
-| `validation/results/` | 对应原始结果、冻结身份和验收 |
+| [experiment](experiment/README.md) | 888 份历史记录，覆盖至 exp743，保留原始假设、停止条件和证据范围 |
+| `validation/results/` | exp732 及以前已收录的原始结果、冻结身份和验收 |
 
 `source/` 的五份目标文件和最终 ELF 已在 r9 独立重建为相同 SHA。逐条精度数据的端点、唯一性、角色 pair、抽样权重、历史源 pin 标记和两版 Acc 已重新计算。其余复用与新增核验见 [publication-verification.json](publication-verification.json)。
 

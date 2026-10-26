@@ -1,10 +1,10 @@
 {
-  "snapshot_date": "2026-10-25",
-  "research_commit": "ee7275c7c69ffc64acba9196d588633eba01b880",
+  "snapshot_date": "2026-10-27",
+  "research_commit": "e44287226b367afb102f63d805f876e983c9438c",
   "consultation_source_version": "exp728",
   "history_base_commit": "fed4155",
   "logs_copied_without_edits": true,
-  "log_count": 877,
+  "log_count": 888,
   "experiment_numbers": [
     1,
     2,
@@ -729,7 +729,18 @@
     729,
     730,
     731,
-    732
+    732,
+    733,
+    734,
+    735,
+    736,
+    737,
+    738,
+    739,
+    740,
+    741,
+    742,
+    743
   ],
   "files": [
     {
@@ -5773,10 +5784,76 @@
       "sha256": "e004b1ab9cfc9acba3167e3aaba2cd124594bebdfa7d300880a448d4f2b849bd"
     },
     {
+      "path": "experiment/实验733-exp728等输出回放与当前成本.md",
+      "experiment": 733,
+      "bytes": 3909,
+      "sha256": "39526ec4bb07888431623a366c092d5692349344d761659d9d8182ce0bcfce46"
+    },
+    {
+      "path": "experiment/实验734-真实损失交叉与条件表达四格.md",
+      "experiment": 734,
+      "bytes": 4988,
+      "sha256": "54313c0b20cf0676453afd11aacd2a83b8f80302fc77f8ba370f94a04ace308f"
+    },
+    {
+      "path": "experiment/实验735-同名义键完整费用与条件冲突.md",
+      "experiment": 735,
+      "bytes": 5040,
+      "sha256": "bc2485882baa10ec228d69787a24cd8995e241b3931c76ac3060ad14d30a86dc"
+    },
+    {
+      "path": "experiment/实验736-空间区域完整端口的有向下界.md",
+      "experiment": 736,
+      "bytes": 3085,
+      "sha256": "ab326276f2cff08a37f51fbbb4e657a00698dccad65d1ea988f1fd70e16f0ef2"
+    },
+    {
+      "path": "experiment/实验737-固定T2D6结构的整数评分校准.md",
+      "experiment": 737,
+      "bytes": 1945,
+      "sha256": "5f906a672f87c288b1a5e797c325a29940f769357568039ef05ca51165473ba9"
+    },
+    {
+      "path": "experiment/实验738-仿射主体与十一位共享远域形状.md",
+      "experiment": 738,
+      "bytes": 2415,
+      "sha256": "336073c4d72a552b7d530b7cef34e3616c6a25cdfc628bb9ad801978a0de7abb"
+    },
+    {
+      "path": "experiment/实验739-未知请求的四配方单调长线原型.md",
+      "experiment": 739,
+      "bytes": 2138,
+      "sha256": "ba5044f26f3c214cc713419c70bd8de07aeab3237f72cbfda87d64bbb5e0a478"
+    },
+    {
       "path": "experiment/实验74-查询表无损整数编码.md",
       "experiment": 74,
       "bytes": 3882,
       "sha256": "6ee05ec549cf8efc9dea6d19ea8c0f1150da24ba08e81e5ab41247d43f2bc85e"
+    },
+    {
+      "path": "experiment/实验740-端点域与精确索引及CPU分派边界.md",
+      "experiment": 740,
+      "bytes": 2559,
+      "sha256": "3b215062b039c18703b92a806a6a7001f3031928c2941b3143c9c5aa5f76666a"
+    },
+    {
+      "path": "experiment/实验741-当前正式核的四MiB输出缓冲.md",
+      "experiment": 741,
+      "bytes": 1841,
+      "sha256": "bff475f98f9e289c050c8f8e2b1f4b15f03f8641bbb10ba79f159eda4b6069ff"
+    },
+    {
+      "path": "experiment/实验742-物理族共享的四乘四条件面.md",
+      "experiment": 742,
+      "bytes": 2873,
+      "sha256": "dca9daccb2154ba28130d0486dc7456c52b2b6a0df1ba059bea18e7c379bf307"
+    },
+    {
+      "path": "experiment/实验743-端口前后缀分解的四配方余类选择.md",
+      "experiment": 743,
+      "bytes": 2668,
+      "sha256": "6971ab211772445e0c236f67a121e6750760517f8574e3db94afdeaa98b93664"
     },
     {
       "path": "experiment/实验75-内部斜率直接验证.md",
@@ -5994,5 +6071,28 @@
       "bytes": 48481,
       "sha256": "bf4426325c39e26834768716dacc34cea19a3a39f178ccaef14ca03b13d5a86b"
     }
-  ]
+  ],
+  "previous_snapshot": {
+    "publication_commit": "094a6b4c2412810c71ef601bd5c08f8697b63a75",
+    "snapshot_date": "2026-10-25",
+    "research_commit": "ee7275c7c69ffc64acba9196d588633eba01b880",
+    "log_count": 877
+  },
+  "latest_update": {
+    "scope": "Missing experiment logs only; existing logs preserved",
+    "added_experiments": [
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743
+    ],
+    "source_research_commit": "e44287226b367afb102f63d805f876e983c9438c"
+  }
 }

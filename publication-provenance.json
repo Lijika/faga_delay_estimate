@@ -20,5 +20,28 @@
   "omitted_empty_historical_placeholders": [
     "validation/results/exp707/compare-attempt2/local-compare-check.json"
   ],
-  "main_research_source_modified": false
+  "main_research_source_modified": false,
+  "history_updates": [
+    {
+      "date": "2026-10-27",
+      "source_research_commit": "e44287226b367afb102f63d805f876e983c9438c",
+      "previous_publication_commit": "094a6b4c2412810c71ef601bd5c08f8697b63a75",
+      "added_experiments": [
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743
+      ],
+      "logs_copied_without_edits": true,
+      "verification": "Byte-for-byte comparison with local experiment logs; updated log and publication SHA-256 manifests",
+      "new_experiment_code_and_results_uploaded": false
+    }
+  ]
 }
