@@ -1,1 +1,0 @@
-usage: make_hidden_suite <arch> <reach.bin> <U-output|U-role> <rows> <proposal-seed> <shuffle-seed> <new-directory>

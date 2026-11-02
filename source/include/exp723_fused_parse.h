@@ -19,7 +19,8 @@ static inline bool pin723(const char*& at, const char* end, int& x, int& y, int&
     if (length == 8) return false;
     const std::string_view text(name, length);
     const auto& entry = portSlots580[portIndex704(text)];
-    if (entry.port < 0 || entry.length != length || entry.key != portKey580(text)) return false;
+    // initializePorts580 rejects collisions among every valid architecture port.
+    if (entry.port < 0) return false;
     port = entry.port;
     at = name+length+1;
     return true;

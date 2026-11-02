@@ -1,4 +1,7 @@
 // Complete private candidate; generated assets include the five official JSONs.
+#undef EXP596_BATCH
+#define EXP596_BATCH 64
+
 #include <algorithm>
 #include <array>
 #include <charconv>
@@ -10,6 +13,7 @@
 #include <emmintrin.h>
 #include <string>
 #include <string_view>
+#include <sys/mman.h>
 #include <unistd.h>
 
 #include "architecture.h"
@@ -24,14 +28,7 @@ static void require(bool ok, const char* why) {
     if (!ok) { std::fprintf(stderr, "estimate: %s\n", why); std::exit(1); }
 }
 
-#include "exp652_geometry_restore.h"
-#define geometry dynamicGeometry595
-#define prefetchGeometry581 dynamicPrefetch595
-#include "exp582_int8_geometry.h"
-#undef geometry
-#undef prefetchGeometry581
-#include "exp608_geometry.h"
-#include "exp652_distance_curve_lookup.h"
+#include "exp779_surface_restore.h"
 extern delayest::Architecture arch;
 #include "exp707_prepare_metadata.h"
 #ifdef EXP580_PORT_PARSER
@@ -40,8 +37,21 @@ extern delayest::Architecture arch;
 #include "exp723_fused_parse.h"
 #include "exp596_csv_batch.h"
 
+static void adviseHugePages(void* data, size_t bytes) {
+    const uintptr_t page = 4096;
+    const uintptr_t begin = (reinterpret_cast<uintptr_t>(data) + page - 1) & ~(page - 1);
+    const uintptr_t end = (reinterpret_cast<uintptr_t>(data) + bytes) & ~(page - 1);
+    if (end > begin) {
+        // Failure only disables this optional layout hint; output is unchanged.
+        (void)madvise(reinterpret_cast<void*>(begin), end - begin, MADV_HUGEPAGE);
+    }
+}
+
 static void initialize() {
-    restoreGeometry652();
+    adviseHugePages(records779, sizeof(records779));
+    adviseHugePages(first779, sizeof(first779));
+    adviseHugePages(second779, sizeof(second779));
+    restoreSurfaces779();
     arch.loadEmbedded();
     initialize707();
 #ifdef EXP580_PORT_PARSER
@@ -52,8 +62,7 @@ static void initialize() {
 #endif
 
     require(arch.portCount() == kPortCount, "architecture identity");
-    initializeGeometry582();
-    initializePhaseCodes619();
+
 }
 
 #ifdef EXP594_PACKED
@@ -100,6 +109,7 @@ static inline int line(int x, int y, int tx, int ty) {
 
 #include "symmetric640.h"
 #include "replacement679.h"
+#include "forced_bias.h"
 #include "exp679_hv_events.h"
 
 struct Trace {
@@ -111,12 +121,14 @@ struct Trace {
 
 struct Prepared596 {
     unsigned pair=0, context=0, qx=0, qy=0;
+    uint32_t word=0;
     int fee=0, mandatory=0, dy=0, cycle=0, answer=-1;
     double raw=0.;
     bool override_cycle=false, ready=false;
 };
 
-static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& state, Trace* trace = nullptr) {
+template <bool ComputeTrace>
+static inline void prepare596Impl(const int32_t* q, unsigned fold, Prepared596& state, Trace* trace) {
     const int sx=q[0], sy=q[1], tx=q[2], ty=q[3], sp=q[8], tp=q[9];
     if (sx == tx && sy == ty && sp == tp) { state.answer=0; return; }
     const auto& sd=ports707[sp];
@@ -131,13 +143,22 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
     require(bx<=119 && by<=549, "nominal geometry domain");
     const unsigned qx=bx/10, qy=by/12, direction=2*(dx<0)+(dy<0);
     const unsigned pair=unsigned(source*288+target), context=(direction*10+bx%10)*12+by%12;
-    _mm_prefetch(reinterpret_cast<const char*>(center + pair), _MM_HINT_T0);
-    prefetchGeometry581(pair,context,qx,qy);
-    if (qx+qy>3) _mm_prefetch(reinterpret_cast<const char*>(phaseCodes619 +
-        phaseByte619(pair,context)), _MM_HINT_T0);
+    _mm_prefetch(reinterpret_cast<const char*>(records779 + pair*480 + context), _MM_HINT_T0);
     const int mandatory=firstLine+line707(ax,ay,tx,ty);
     const int sf=q[4], sl=q[5], tf=q[6], tl=q[7];
     const bool forced=forced707(ax,ay,tx,ty);
+#if defined(EXP581_INTEGER) || defined(EXP594_PACKED)
+    if constexpr (ComputeTrace) {
+        const int feature[53]={sf,sl,tf,tl,sf>=20,tf>=20,ndx,ndy,x,y,std::abs(x),std::abs(y),x<0,y<0,
+            mod(x,10),mod(y,12),std::abs(x)%10,std::abs(y)%12,std::abs(x)/10,std::abs(y)/12,
+            sl^tl,sl-tl,125*(std::abs(x)/10)+(y<0?125:127)*(std::abs(y)/12),
+            (sl&1)+2*(tl&1),((sl>>1)&1)+2*((tl>>1)&1),((sl>>2)&1)+2*((tl>>2)&1),
+            sx,sy,ax,ay,tx,ty,119-sx,119-ax,119-tx,549-sy,549-ay,549-ty,
+            side(sx),side(ax),side(tx),sy%100,ay%100,ty%100,sy%100<50,ay%100<50,ty%100<50,
+            sy/100,ay/100,ty/100,fee,(tx-14*(ty%100<50 && tx>=90))-(ax-14*(ay%100<50 && ax>=90)),forced};
+        if (trace) for (unsigned j=0;j<53;++j) trace->feature[j]=float(feature[j]);
+    }
+#else
     const int feature[53]={sf,sl,tf,tl,sf>=20,tf>=20,ndx,ndy,x,y,std::abs(x),std::abs(y),x<0,y<0,
         mod(x,10),mod(y,12),std::abs(x)%10,std::abs(y)%12,std::abs(x)/10,std::abs(y)/12,
         sl^tl,sl-tl,125*(std::abs(x)/10)+(y<0?125:127)*(std::abs(y)/12),
@@ -145,12 +166,16 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
         sx,sy,ax,ay,tx,ty,119-sx,119-ax,119-tx,549-sy,549-ay,549-ty,
         side(sx),side(ax),side(tx),sy%100,ay%100,ty%100,sy%100<50,ay%100<50,ty%100<50,
         sy/100,ay/100,ty/100,fee,(tx-14*(ty%100<50 && tx>=90))-(ax-14*(ay%100<50 && ax>=90)),forced};
-    const unsigned route=4*direction+2*(bx>=20)+(by>=24);
+    if constexpr (ComputeTrace) {
+        if (trace) for (unsigned j=0;j<53;++j) trace->feature[j]=float(feature[j]);
+    }
+#endif
+    [[maybe_unused]] const unsigned route=4*direction+2*(bx>=20)+(by>=24);
 #if defined(EXP581_INTEGER) || defined(EXP594_PACKED)
     int bands,ends;
     const unsigned event=event679(ax,ay,tx,ty,forced,bands,ends);
-    const double raw=event ? replacement679(q,ax,ay,ndx,ndy,x,y,fee,forced,fold,event,bands,ends) :
-        symmetric640(q,ax,ay,ndx,ndy,x,y,fee,forced,route,fold);
+    const double raw=(event ? replacement679(q,ax,ay,ndx,ndy,x,y,fee,forced,fold,event,bands,ends) :
+        0.0) + (event==1 ? double(kForcedBias[context*4 + (qx>11 ? 3 : int(qx)/3)]) : 0.);
 #else
     float f[53];
     for (unsigned j=0;j<53;++j) f[j]=float(feature[j]);
@@ -160,19 +185,34 @@ static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& stat
     state.fee=fee; state.mandatory=mandatory; state.dy=dy; state.raw=raw;
     state.override_cycle=dx==0 && dy==0 && sp==tp && hasNet;
     state.cycle=sd.cycle; state.ready=true;
-    if (trace) for (unsigned j=0;j<53;++j) trace->feature[j]=float(feature[j]);
+}
+
+static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& state, Trace* trace = nullptr) {
+    prepare596Impl<true>(q,fold,state,trace);
+}
+
+static inline void prepare596Production(const int32_t* q, Prepared596& state) {
+    prepare596Impl<false>(q,0,state,nullptr);
+}
+
+static inline void stageAndPrefetch806(Prepared596& state) {
+    if (!state.ready) return;
+    state.word=records779[state.pair*480+state.context];
+    const unsigned direction=state.context/120, cell=state.qx*46+state.qy;
+    const unsigned a=(state.word>>10)&4095, b=state.word>>22;
+    _mm_prefetch(reinterpret_cast<const char*>(first779+(direction*2048+a)*552+cell), _MM_HINT_T0);
+    _mm_prefetch(reinterpret_cast<const char*>(second779+(direction*256+b)*552+cell), _MM_HINT_T0);
 }
 
 static inline int finish596(const Prepared596& state, Trace* trace = nullptr) {
     if (!state.ready) return state.answer;
-    const unsigned pair=state.pair, context=state.context, qx=state.qx, qy=state.qy;
+    const unsigned context=state.context, qx=state.qx, qy=state.qy;
     const int fee=state.fee, mandatory=state.mandatory, dy=state.dy;
     const double raw=state.raw;
-    const double response=geometry(pair,context,qx,qy);
-    const double value=response*(128+125*qx+125*qy)+center[pair]+125*qx+(dy<0?125:127)*qy;
-    int nominal=int(std::max(0.,value)+.5);
+    const int response=surface779(state.word,context,qx,qy);
+    int nominal=std::max(0,response+125*int(qx)+(dy<0?125:127)*int(qy));
     if (state.override_cycle) nominal=state.cycle;
-    const int base=nominal+fee+phaseCorrection619(pair,context,qx,qy);
+    const int base=nominal+fee;
     const int answer=int(std::max(0.,double(base)+double(raw))+.5)+mandatory;
     if (trace) {
         trace->response=response;
@@ -184,6 +224,7 @@ static inline int finish596(const Prepared596& state, Trace* trace = nullptr) {
 static inline int predict(const int32_t* q, unsigned fold, Trace* trace = nullptr) {
     Prepared596 state;
     prepare596(q,fold,state,trace);
+    stageAndPrefetch806(state);
     return finish596(state,trace);
 }
 
@@ -266,13 +307,16 @@ int main(int argc, char** argv) {
                 if (s.source>=0 && t.target>=0) {
                     q[4]=s.sf; q[5]=s.sl;
                     q[6]=t.tf; q[7]=t.tl;
-                    prepare596(q,0,states[count]);
+                    prepare596Production(q,states[count]);
                 }
             }
             }
         if (!count) break;
+        for (size_t index=0;index<count;++index) stageAndPrefetch806(states[index]);
+        int answers[EXP596_BATCH];
+        for (size_t index=0;index<count;++index) answers[index]=finish596(states[index]);
         for (size_t i=0;i<count;++i) {
-            const int answer=finish596(states[i]);
+            const int answer=answers[i];
             unreachable+=answer<0;
             require(writer.row(lines[i],answer), "output write");
         }
@@ -289,12 +333,13 @@ int main(int argc, char** argv) {
 #endif
 
 #ifdef EXP707_CHECK
-extern "C" void init707_M() { initialize(); }
-extern "C" size_t size707_M() { return sizeof(Prepared596); }
-extern "C" void eval707_M(const int32_t* q, unsigned fold, int32_t* v, double* d) {
+extern "C" void init806_C() { initialize(); }
+extern "C" size_t size806_C() { return sizeof(Prepared596); }
+extern "C" void eval806_C(const int32_t* q, unsigned fold, int32_t* v, double* d) {
     Prepared596 s;
     Trace trace{};
     prepare596(q,fold,s,&trace);
+    stageAndPrefetch806(s);
     const int prediction=finish596(s,&trace);
     const int32_t fields[15]={int(s.pair),int(s.context),int(s.qx),int(s.qy),
         s.fee,s.mandatory,int(s.dy<0),int(s.cycle),s.answer,

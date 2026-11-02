@@ -1,4 +1,3 @@
 /source/build/
-/path_witness/build/
-/training/nominal_source/field
 __pycache__/
+*.pyc
