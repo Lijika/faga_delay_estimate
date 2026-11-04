@@ -1,42 +1,63 @@
-# exp853 EAT117 Frozen Source
+# EAT243 Frozen Source
 
-This directory contains the production source for `exp853-eat117-rawzero-parser-20261102`, published on 2026-11-02.
+This directory exports the compiled source of
+`exp853-eat243-lossless-directory-20261104`, published on November 4, 2026.
 
-## Source identity
+## Identity
 
-- Candidate source commit: `2d7c5625ff2da531bd37d249b5540a8c4940c6a2`.
-- Historical candidate commit and manifest `source_commit`: `e1c6ebdec412f4b1fe59960b198bbfded8452ce4`.
-- Canonical manifest: 32 files; SHA-256 `30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383`.
-- Frozen static ELF: 90,411,032 bytes; SHA-256 `8b80103cecfe7425f780f4e3497994fe55312186ec4bc80ab1ac57669241ca57`.
-- The frozen `build.py` and all 32 manifest files are copied byte-for-byte. The Zstandard library, header, and copyright notice are included in those 32 files. The five `arch/SRB_*.json` files are retained as contest assets, and the 210 surface frames are external to the canonical source manifest.
-- Generated ELF and build reports are not tracked. Run `sha256sum build/estimate` to inspect the local output identity.
+The 33 files listed in `../release/source-manifest.json` match the immutable
+formal release byte for byte, including the Zstandard static library, header,
+and copyright notice. Their canonical SHA-256 is
+`c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8`.
+The source producer commit is `e0a7a86aaec8b0939974c90456eb36439a63d6e4`.
+
+`build.py` is a repository-local build helper. It verifies the release
+manifests and uses the accepted compiler switches, asset symbol order and
+alignment. The five original `arch/SRB_*.json` files are retained as contest
+materials; their contents are already embedded by `src/embedded_arch.cpp`.
 
 ## Build
 
-The recorded byte-reproduction environment is Ubuntu 22.04 x86-64, GCC 11.4.0, binutils 2.38, glibc 2.35, and the matching static runtime libraries. The frozen build script retains historical `exp825` help text and a `FROZEN_SHA256` self-check constant; these fields do not identify EAT117. Use the 32-file manifest and `../release/identity.json` for this version's identity.
-
 ```sh
 cd source
-python3 build.py --assets assets/surface779
+python3 -B build.py
 ./build/estimate -in request.csv -out result.csv
 ```
 
-The build needs Python 3, `g++`, GNU `readelf`, and static link libraries. It writes `build/assets.S`, object files, `build/estimate`, and `build/build-report.json`. The generated executable is checked for a static ELF and size below 100,000,000 bytes. This repository-local `--assets` argument avoids the builder's original machine-specific default asset path.
+Optional paths and compiler can be selected explicitly:
 
-### Surface assets
+```sh
+python3 -B build.py --assets assets/eat243 --build-dir build --cxx g++
+```
 
-`assets/surface779/` contains the 210 compressed frames used in the frozen build: `first.zst`, `second.zst`, and `fields/000.zst` through `fields/207.zst`. The complete set totals 82,872,955 bytes. The frozen builder checks each frame against the byte size embedded in `include/surface_assets779.h`; the frame sizes and SHA-256 hashes were also compared with the EAT117 build report before publication.
+The frozen build used Ubuntu 22.04 x86-64, GCC 11.4.0, GNU ld 2.38 and the
+matching static runtime libraries. Its executable is 86,937,624 bytes with
+SHA-256 `69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02`.
+Other compiler/runtime versions can produce different ELF bytes.
+`build/build-report.json` records the actual compiler, commands, executable
+identity and `matches_frozen_eat243`.
 
-The source bundle includes the exact `third_party/zstd/libzstd.a`, header, and copyright notice used by the frozen build. The frame identities are recorded in `../release/assets-manifest.json`. No model training or external dataset directory is needed for inference build.
+The builder requires Python 3, `g++`, `readelf`, and static runtime libraries.
+It creates the assembly, objects, executable and report under the chosen
+build directory. Compiler temporary files also stay there. It checks static
+linking and the strict 100,000,000-byte ELF size limit.
 
-## Implementation
+## Assets and runtime
 
-The EAT117 change affects only the ordinary zero-event prediction branch in `src/worker.cpp`: its raw component is `0.0`. Nonzero events continue through `replacement679`; the forced-bias adjustment for `event == 1` remains active. The original 32-file source manifest includes the relevant prediction headers and build script.
+`assets/eat243/` contains `direct_exact`, `direct_keys`, `directory212`,
+`first212` and `second212`, totaling 79,398,908 bytes. The build verifies each
+size and SHA-256 against `../release/assets-manifest.json` and embeds them
+with their frozen 64-byte alignment.
 
-## Evidence and limits
+The executable accepts `estimate -in INPUT -out OUTPUT` and produces integer
+delay values with the exact header `From,To,delay`. All architecture, model,
+directory and curve assets are inside the ELF. Python is used only for the
+build.
 
-The frozen ELF passed 14 complete 1B development-input contracts, single-thread checks, and resource checks. There were six timed runs per arm and seven full-output consistency runs per arm. Mean CPU was 143.072572 seconds for the parent and 128.7717606667 seconds for EAT117. Same-run scoring used 3,833,856 exact-labeled sampled rows; estimated Acc was 98.8850673464% and 98.8548166161%, respectively. The paired score gain was 0.0949728435 with a one-sided 95% lower bound of 0.0726987000. Maximum observed RSS was 270,606,336 bytes.
+## Verification scope
 
-The exported repository was also rebuilt with GCC 13.3.0. This produced a static 90,334,640-byte ELF whose SHA differs from the GCC 11.4.0 frozen artifact. The rebuild and frozen artifact produced identical complete outputs for 1,000,000 actual requests, with output-contract and single-thread checks passing. See `../release/export-verification.json`; this was a portability check, with no new accuracy or performance claim.
-
-The Acc estimate is based on a sample, not exact labels for all 1B requests. The input is a development distribution and does not establish unknown-input generalization. Final Acc above 99%, CPU near 100 seconds, and official-platform acceptance remain unverified.
+The release's measured complete-1B CPU and sampled accuracy are documented
+in `../release/identity.json` and the repository README. The export's own
+build and complete-1M comparison against the frozen executable are recorded
+separately in `../release/export-verification.json`. Compiler parity on that
+input supplies no new accuracy or comparative performance result.

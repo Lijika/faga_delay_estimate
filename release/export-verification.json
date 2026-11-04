@@ -1,35 +1,45 @@
 {
-  "schema": "faga-delay-estimate-export-verification-v1",
-  "checked_date": "2026-11-02",
-  "canonical_source_files": 32,
-  "canonical_source_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
-  "source_files_match_frozen_snapshot": true,
-  "asset_frames": 210,
-  "asset_frame_bytes": 82872955,
+  "assembly_matches_frozen_after_asset_path_translation": true,
+  "asset_bytes": 79398908,
+  "asset_files": 5,
   "asset_sizes_and_sha256_match_frozen_build": true,
-  "protected_files_match_previous_repository_head": {
-    "task_files": 4,
-    "architecture_json_files": 5
+  "build_arguments_match_frozen_after_path_translation": true,
+  "canonical_source_files": 33,
+  "canonical_source_sha256": "c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8",
+  "checked_date": "2026-11-04",
+  "complete_request_test": {
+    "frozen_reference": {
+      "elf_sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02",
+      "receipt_sha256": "d33d83aa71eb2646ae3ba6dff5347519aa4dfcff426559d7fb6a0e041b5cf41d"
+    },
+    "full_output_contract_passed": true,
+    "input_rows": 1000000,
+    "input_sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57",
+    "max_observed_rss_bytes": 294645760,
+    "output_bytes": 40136160,
+    "output_sha256": "816dae0f769274cf2f940af92c9f538586d05599a88aa3dd3b9ee10581ec22c9",
+    "rebuilt_outputs_match_frozen_release_receipt": true,
+    "runs": 2,
+    "single_thread_passed": true
   },
   "local_build": {
+    "binary": {
+      "bytes": 86861232,
+      "sha256": "cc72bb449d0c706c37675953cc7a9a17883fc29364bacc91cc021d1911517574"
+    },
     "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
-    "command": "cd source && python3 build.py --assets assets/surface779",
-    "exit_code": 0,
-    "static_linked": true,
-    "elf_bytes": 90334640,
-    "elf_sha256": "913040523154b83577a0fb35b1075d7f59a0d86e594d9a383f3a59ae49c8094f",
-    "frozen_toolchain": "Ubuntu 22.04 x86-64, GCC 11.4.0, binutils 2.38, glibc 2.35",
-    "byte_identity_scope": "The local compiler differs from the frozen toolchain; the source and asset identities remain unchanged."
+    "elf_limit_bytes": 100000000,
+    "matches_frozen_eat243": false,
+    "static_linked": true
   },
-  "complete_request_test": {
-    "input_rows": 1000000,
-    "input_sha256": "20fb997194a91539cfbfa0231808d5a290013ac14088ac552ca035344b37b504",
-    "output_bytes": 40137497,
-    "output_sha256": "f466645d600e72a43dc83b794d824ef7c53530b7ade8a936353aaf6a3e8737f9",
-    "frozen_and_rebuilt_output_identical": true,
-    "full_output_contract_passed": true,
-    "single_thread_passed": true,
-    "max_observed_rss_bytes": 270651392
+  "modified_source_rejected_before_compile": true,
+  "protected_files_match_previous_repository_head": {
+    "architecture_json_files": 5,
+    "previous_commit": "b6fa91570c193548bf8e3b311912e9a4d0ab47f0",
+    "task_files": 4
   },
-  "scope": "Export, build, and complete-1M compiler parity check. The frozen 1B development evidence is reused for unchanged source and assets. This check makes no new accuracy or comparative-performance claim."
+  "schema": "faga-delay-estimate-export-verification-v2",
+  "scope": "Export portability verification; two complete1M runs with GCC13.3.0 match accepted EAT243 output. Frozen1B performance evidence is reused. No new1B or official-platform claim.",
+  "source_files_match_frozen_snapshot": true,
+  "version": "exp853-eat243-lossless-directory-20261104"
 }

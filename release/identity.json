@@ -1,48 +1,52 @@
 {
-  "schema": "faga-delay-estimate-release-identity-v1",
-  "version": "exp853-eat117-rawzero-parser-20261102",
-  "published_date": "2026-11-02",
-  "candidate_source_commit": "2d7c5625ff2da531bd37d249b5540a8c4940c6a2",
-  "historical_candidate_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4",
-  "source_manifest": {
-    "file": "source-manifest.json",
-    "file_count": 32,
-    "canonical_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
-    "recorded_source_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4"
-  },
+  "algorithm_version": "EAT243-lossless-full-domain-directory",
   "build": {
-    "elf_bytes": 90411032,
-    "elf_sha256": "8b80103cecfe7425f780f4e3497994fe55312186ec4bc80ab1ac57669241ca57",
-    "submission_zip_bytes": 83843929,
-    "submission_zip_sha256": "4936fe0d26e894849bec33de58049191fdfe511eef4ba1f9010849215543dd57",
-    "external_surface_frames": 210,
-    "external_surface_frames_bytes": 82872955
+    "asset_bytes": 79398908,
+    "asset_files": 5,
+    "elf_bytes": 86937624,
+    "elf_sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02",
+    "frozen_compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "frozen_linker": "GNU ld (GNU Binutils for Ubuntu) 2.38",
+    "submission_zip_bytes": 80677531,
+    "submission_zip_sha256": "990fcbd29e856fe5c75d5eead34c5534707934fb82e01ecc62ed71dd178e824a"
+  },
+  "candidate_source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+  "limitations": {
+    "filesystem_namespace_isolation": false,
+    "final_accuracy_above99_verified": false,
+    "final_cpu_approximately100s_met": false,
+    "full1b_exact_accuracy_verified": false,
+    "official_consecutive_five_verified": false,
+    "official_platform_verified": false,
+    "unknown_input_generalization_verified": false
+  },
+  "parent_version": "exp853-eat176-direct-curves-20261102",
+  "published_date": "2026-11-04",
+  "schema": "faga-delay-estimate-release-identity-v2",
+  "source_manifest": {
+    "canonical_sha256": "c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8",
+    "file": "source-manifest.json",
+    "file_count": 33
   },
   "validation": {
-    "scope": "One exposed non-repeating U-role 1B development input and its exact-labeled sample",
-    "full_runs_contract_passed": 14,
+    "complete1m_release_gate_passed": true,
     "consistent_full_outputs_per_arm": 7,
-    "timed_runs_per_arm": 6,
-    "single_thread_and_resource_gates_passed": true,
-    "mean_cpu_seconds": {
-      "parent": 143.072572,
-      "eat117": 128.77176066666667
-    },
     "exact_sample_rows": 3833856,
-    "sampled_accuracy_percent": {
-      "parent": 98.88506734641447,
-      "eat117": 98.85481661610247
+    "full_runs_contract_passed": 14,
+    "joint_score_delta_points": 0.028311659722220384,
+    "joint_score_one_sided_95_lower_points": 0.02069454135805846,
+    "mean_cpu_seconds": {
+      "eat243": 125.208939,
+      "parent": 128.60633816666666
     },
-    "joint_score_delta_points": 0.0949728435281827,
-    "joint_score_one_sided_95_lower_points": 0.0726986999684377,
-    "max_observed_rss_bytes": 270606336,
-    "unverified": [
-      "Accuracy over all 1B requests",
-      "Generalization to unknown requests",
-      "Official-platform results",
-      "Final accuracy above 99%",
-      "CPU near 100 seconds",
-      "Official five-run acceptance"
-    ]
-  }
+    "role_pairs": 59904,
+    "sampled_accuracy_percent": {
+      "eat243": 98.85534283747039,
+      "parent": 98.85534283747039
+    },
+    "scope": "Exposed development U-role1B; r9 CPU8; disk input/memfd output; six timed runs/arm.",
+    "single_thread_and_resource_gates_passed": true,
+    "timed_runs_per_arm": 6
+  },
+  "version": "exp853-eat243-lossless-directory-20261104"
 }

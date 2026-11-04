@@ -28,7 +28,7 @@ static void require(bool ok, const char* why) {
     if (!ok) { std::fprintf(stderr, "estimate: %s\n", why); std::exit(1); }
 }
 
-#include "exp779_surface_restore.h"
+#include "native_representation212.h"
 extern delayest::Architecture arch;
 #include "exp707_prepare_metadata.h"
 #ifdef EXP580_PORT_PARSER
@@ -51,7 +51,9 @@ static void initialize() {
     adviseHugePages(records779, sizeof(records779));
     adviseHugePages(first779, sizeof(first779));
     adviseHugePages(second779, sizeof(second779));
+    adviseHugePages(direct_exact, sizeof(direct_exact));
     restoreSurfaces779();
+    restoreDirectCurves();
     arch.loadEmbedded();
     initialize707();
 #ifdef EXP580_PORT_PARSER
@@ -124,7 +126,7 @@ struct Prepared596 {
     uint32_t word=0;
     int fee=0, mandatory=0, dy=0, cycle=0, answer=-1;
     double raw=0.;
-    bool override_cycle=false, ready=false;
+    bool override_cycle=false, ready=false, ordinary=false;
 };
 
 template <bool ComputeTrace>
@@ -185,6 +187,7 @@ static inline void prepare596Impl(const int32_t* q, unsigned fold, Prepared596& 
     state.fee=fee; state.mandatory=mandatory; state.dy=dy; state.raw=raw;
     state.override_cycle=dx==0 && dy==0 && sp==tp && hasNet;
     state.cycle=sd.cycle; state.ready=true;
+    state.ordinary=(event==0 && !state.override_cycle);
 }
 
 static inline void prepare596(const int32_t* q, unsigned fold, Prepared596& state, Trace* trace = nullptr) {
@@ -199,6 +202,14 @@ static inline void stageAndPrefetch806(Prepared596& state) {
     if (!state.ready) return;
     state.word=records779[state.pair*480+state.context];
     const unsigned direction=state.context/120, cell=state.qx*46+state.qy;
+    if (state.word&kDirectCurveMarker) {
+        const unsigned row=state.word&~kDirectCurveMarker;
+        if (state.ordinary) {
+            _mm_prefetch(reinterpret_cast<const char*>(direct_exact+row*552+cell), _MM_HINT_T0);
+            return;
+        }
+        state.word=direct_old_words[row];
+    }
     const unsigned a=(state.word>>10)&4095, b=state.word>>22;
     _mm_prefetch(reinterpret_cast<const char*>(first779+(direction*2048+a)*552+cell), _MM_HINT_T0);
     _mm_prefetch(reinterpret_cast<const char*>(second779+(direction*256+b)*552+cell), _MM_HINT_T0);
@@ -209,7 +220,9 @@ static inline int finish596(const Prepared596& state, Trace* trace = nullptr) {
     const unsigned context=state.context, qx=state.qx, qy=state.qy;
     const int fee=state.fee, mandatory=state.mandatory, dy=state.dy;
     const double raw=state.raw;
-    const int response=surface779(state.word,context,qx,qy);
+    const int response=(state.word&kDirectCurveMarker)
+        ? direct_exact[(state.word&~kDirectCurveMarker)*552+qx*46+qy]
+        : surface779(state.word,context,qx,qy);
     int nominal=std::max(0,response+125*int(qx)+(dy<0?125:127)*int(qy));
     if (state.override_cycle) nominal=state.cycle;
     const int base=nominal+fee;

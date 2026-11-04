@@ -1,25 +1,18 @@
 {
-  "build_py_sha256": "f4486e1cf2b123a01998a37ad01e4a6876c579e4943011b40af499935f31dfbb",
-  "candidate": "EAT097 parser plus EAT106 event0 raw-zero worker",
   "canonical_method": "sha256(json.dumps({relative_path: file_sha256}, sort_keys=True))",
-  "canonical_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
-  "changed_paths": [
-    "src/worker.cpp"
-  ],
-  "compiled_source_file_count": 31,
-  "parent_commit": "643fafbe6ede0ed9bc18146d5d6ad22f98ca135b",
-  "parser_parent_manifest_sha256": "05370d3c1c7c717949dd6b50055dd4e439f6ed59f15ac85727a8589bc4e7afbf",
-  "schema": "eat117-combined-source-manifest-v1",
-  "source_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4",
-  "source_file_count": 32,
+  "canonical_sha256": "c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8",
+  "schema": "faga-delay-estimate-source-manifest-v2",
+  "scope": "Exact 33 compiled source/library files; repository build.py and README are export helpers.",
+  "source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+  "source_file_count": 33,
   "source_files": {
-    "build.py": {
-      "bytes": 4844,
-      "sha256": "f4486e1cf2b123a01998a37ad01e4a6876c579e4943011b40af499935f31dfbb"
-    },
     "include/curve_origin654.h": {
       "bytes": 44,
       "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    "include/direct_curve_restore.h": {
+      "bytes": 1175,
+      "sha256": "d272111f95f8b40f04ae9be6d8a0a916933021ad0a1ed3316bd5d41f92ea421d"
     },
     "include/exp579-models.h": {
       "bytes": 228386,
@@ -77,6 +70,10 @@
       "bytes": 4872,
       "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
     },
+    "include/native_representation212.h": {
+      "bytes": 7792,
+      "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+    },
     "include/reference727.h": {
       "bytes": 214182,
       "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
@@ -126,8 +123,8 @@
       "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
     },
     "src/worker.cpp": {
-      "bytes": 14620,
-      "sha256": "8a5a11f57a5ee229f9e5e3ebd3e0f82db1653ed4b980086e73afc7d8b6044b6e"
+      "bytes": 15195,
+      "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
     },
     "third_party/zstd/COPYRIGHT.libzstd": {
       "bytes": 5389,
@@ -142,5 +139,5 @@
       "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
     }
   },
-  "worker_sha256": "8a5a11f57a5ee229f9e5e3ebd3e0f82db1653ed4b980086e73afc7d8b6044b6e"
+  "version": "exp853-eat243-lossless-directory-20261104"
 }
