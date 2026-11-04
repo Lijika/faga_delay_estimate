@@ -1,0 +1,91 @@
+{
+  "complete_input_construction": true,
+  "host": "lhj-NF5280M5",
+  "sources": 208,
+  "targets": 288,
+  "pairs": 59904,
+  "values": 15872163840,
+  "q": 200,
+  "dimensions": [
+    4,
+    36,
+    10,
+    12,
+    12,
+    8,
+    46
+  ],
+  "assets": [
+    {
+      "raw": {
+        "path": "build/exp528/prefix.bin",
+        "bytes": 2163770964,
+        "sha256": "30d582972bae78fa6fcee71348de5f40e376c65622c39730732b5888ef7fd038"
+      },
+      "packed": {
+        "path": "build/exp528/prefix.bin.xz",
+        "bytes": 867361884,
+        "sha256": "485fcbc0af4e97f1ac5fc34c66cd2ace13b43eb6ee4da4f2fa6913eddba78cea"
+      },
+      "compression_cpu_s": 761.130863377,
+      "compression_wall_s": 761.2174300290644
+    },
+    {
+      "raw": {
+        "path": "build/exp528/programs.bin",
+        "bytes": 452923828,
+        "sha256": "e38fdced56a709279880bd4201cad44efb17b9dc0774aea52a74d1dd1bbe25f6"
+      },
+      "packed": {
+        "path": "build/exp528/programs.bin.xz",
+        "bytes": 126549912,
+        "sha256": "ffb2ba4e1704b897062de30533fe0eb60d5e225a0e0be9aa0de952a4de651cb8"
+      },
+      "compression_cpu_s": 140.5757994229998,
+      "compression_wall_s": 140.5899446879048
+    }
+  ],
+  "nodes": [
+    208,
+    832,
+    29952,
+    299520,
+    3576128,
+    39223765,
+    0
+  ],
+  "curves": 345047040,
+  "segments": 666308369,
+  "programs": 18936352,
+  "groups": 43130880,
+  "matched_groups": 334029,
+  "constant_groups": 129869,
+  "candidate_attempts": 727244056,
+  "point_checks": 2919726616,
+  "canonical_curves": 341335856,
+  "canonical_segments": 662231774,
+  "candidate_pool_bytes": 20715264,
+  "match_positions": [
+    134585,
+    37132,
+    15860,
+    15137,
+    5156,
+    6066,
+    7985,
+    12428,
+    12211,
+    15178,
+    18515,
+    39900,
+    4767,
+    3663,
+    2533,
+    2913
+  ],
+  "preset": 3,
+  "algorithm_queries_executed": false,
+  "complete_port_validation": false,
+  "real_map_validated": false,
+  "disk_end_bytes": 360471007232
+}

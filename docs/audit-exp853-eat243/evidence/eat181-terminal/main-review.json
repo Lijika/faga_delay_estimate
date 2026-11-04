@@ -1,0 +1,56 @@
+{
+  "at_unix": 1793668030.4993842,
+  "status": "partial_protocol_at_original_deadline",
+  "completed_all_runs": 12,
+  "planned_runs": 14,
+  "timed_descriptive": {
+    "A": {
+      "completed_timed_runs": 5,
+      "cpu_s": [
+        130.26551,
+        129.386545,
+        130.029663,
+        129.758221,
+        129.907252
+      ],
+      "mean": 129.8694382,
+      "median": 129.907252,
+      "stdev": 0.32769263378309044,
+      "min": 129.386545,
+      "max": 130.26551,
+      "sampled_threads": [
+        1
+      ],
+      "rss_max": 309907456,
+      "output_sha256": [
+        "0a19ea6494a4bf9f12bb70c5f52677e326ea67429616649f55d0228c5767ef9e"
+      ]
+    },
+    "B": {
+      "completed_timed_runs": 5,
+      "cpu_s": [
+        1703.332471,
+        1703.40217,
+        1703.250239,
+        1703.934657,
+        1702.578034
+      ],
+      "mean": 1703.2995142,
+      "median": 1703.332471,
+      "stdev": 0.4842500554101657,
+      "min": 1702.578034,
+      "max": 1703.934657,
+      "sampled_threads": [
+        1
+      ],
+      "rss_max": 270569472,
+      "output_sha256": [
+        "b15848ca6d9e570f109fc4269d6119d5fbea75e6684dc00350fce5f6a6729ba4"
+      ]
+    }
+  },
+  "mean_cpu_penalty_s": 1573.430076,
+  "joint_gain_verified": false,
+  "formal_promotion": false,
+  "next": "Preserve candidate/source-specific evidence; do not restart expired protocol. Research the measured runtime cost with separately registered equivalent implementation work; exclude this measured implementation from current deployment."
+}

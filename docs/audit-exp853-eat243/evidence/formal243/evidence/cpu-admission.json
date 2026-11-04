@@ -1,0 +1,311 @@
+{
+  "status": "pass",
+  "boundary_seconds": 200.0,
+  "strictly_over_boundary": false,
+  "initialization_cpu_s": 0.42018565656565665,
+  "projected_complete1b_cpu_s": 102.4745290909091,
+  "method": "Tinit=max(0,(100*T1M-T100M)/99); T1B=Tinit+(T100M-Tinit)*10",
+  "identity": {
+    "binary": {
+      "bytes": 86937624,
+      "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+    },
+    "candidate": {
+      "bytes": 8131,
+      "sha256": "9af4ae7ea3fd1c1afdbef37d0397f130ab407d87dcc39a0c6d1eaab298095282"
+    },
+    "evaluator": {
+      "adapter": {
+        "admission.py": {
+          "bytes": 5029,
+          "sha256": "e1e0aafa27f93a62af5867ec15012e95e9d4cfee948312da3232606ff2a72d25"
+        },
+        "full_domain.py": {
+          "bytes": 2291,
+          "sha256": "301e887c27d175d031c5c8cd70b3cd2710fa4aa0bf2150f9f91b490b85a2b49d"
+        },
+        "legacy_native.py": {
+          "bytes": 32918,
+          "sha256": "0cbd02d4d93216c4bc8dcc1447e44500d3f11a2f1831b7ea5e6720cbaba34057"
+        },
+        "native_builder.py": {
+          "bytes": 1080,
+          "sha256": "5c9379752d4964704eceaeba78122f5f111cc271262e693d4c0173c8983638ac"
+        },
+        "remote_adapter.py": {
+          "bytes": 13198,
+          "sha256": "c625c66c678c62866a82f73ed6d43ecfd7578d5b067d5f5db1c50418b19900b0"
+        },
+        "score_helper.py": {
+          "bytes": 4896,
+          "sha256": "a32992b9ca79b9d61d572a92fd7b79ff1fa394ebf4ef72c43af986972ffedeb6"
+        },
+        "screening.py": {
+          "bytes": 4674,
+          "sha256": "20e5eaeb2888a2a4c514f526fe8da697091bc4cf074e2b1df4903ee6c4913ec6"
+        }
+      },
+      "shared": {
+        "pipeline.py": {
+          "bytes": 41298,
+          "sha256": "7534ac935095c4eae04ec6d4f8ab3ce9d21c6cb721c0fd56e82be43115caacf3"
+        },
+        "run_remote.py": {
+          "bytes": 13606,
+          "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+        },
+        "score.py": {
+          "bytes": 6824,
+          "sha256": "57e2103cff7106010aef1028a38661be37394174aad022083314489292ea1ad7"
+        }
+      }
+    },
+    "hardware": {
+      "cpu": 8,
+      "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a",
+      "hostname": "lhj-R4900-G3"
+    },
+    "inputs": {
+      "100m": {
+        "bytes": 3519780294,
+        "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+      },
+      "1b": {
+        "bytes": 35197849579,
+        "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+      },
+      "1m": {
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      }
+    }
+  },
+  "raw": {
+    "1m": {
+      "status": "measured",
+      "tier": "1m",
+      "rows": 1000000,
+      "all_checks_passed": true,
+      "complete_performance_measurement": true,
+      "candidate": {
+        "bytes": 8131,
+        "sha256": "9af4ae7ea3fd1c1afdbef37d0397f130ab407d87dcc39a0c6d1eaab298095282"
+      },
+      "binary": {
+        "bytes": 86937624,
+        "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+      },
+      "evaluator": {
+        "shared": {
+          "run_remote.py": {
+            "bytes": 13606,
+            "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+          },
+          "score.py": {
+            "bytes": 6824,
+            "sha256": "57e2103cff7106010aef1028a38661be37394174aad022083314489292ea1ad7"
+          },
+          "pipeline.py": {
+            "bytes": 41298,
+            "sha256": "7534ac935095c4eae04ec6d4f8ab3ce9d21c6cb721c0fd56e82be43115caacf3"
+          }
+        },
+        "adapter": {
+          "remote_adapter.py": {
+            "bytes": 13198,
+            "sha256": "c625c66c678c62866a82f73ed6d43ecfd7578d5b067d5f5db1c50418b19900b0"
+          },
+          "native_builder.py": {
+            "bytes": 1080,
+            "sha256": "5c9379752d4964704eceaeba78122f5f111cc271262e693d4c0173c8983638ac"
+          },
+          "score_helper.py": {
+            "bytes": 4896,
+            "sha256": "a32992b9ca79b9d61d572a92fd7b79ff1fa394ebf4ef72c43af986972ffedeb6"
+          },
+          "legacy_native.py": {
+            "bytes": 32918,
+            "sha256": "0cbd02d4d93216c4bc8dcc1447e44500d3f11a2f1831b7ea5e6720cbaba34057"
+          },
+          "full_domain.py": {
+            "bytes": 2291,
+            "sha256": "301e887c27d175d031c5c8cd70b3cd2710fa4aa0bf2150f9f91b490b85a2b49d"
+          },
+          "admission.py": {
+            "bytes": 5029,
+            "sha256": "e1e0aafa27f93a62af5867ec15012e95e9d4cfee948312da3232606ff2a72d25"
+          },
+          "screening.py": {
+            "bytes": 4674,
+            "sha256": "20e5eaeb2888a2a4c514f526fe8da697091bc4cf074e2b1df4903ee6c4913ec6"
+          }
+        }
+      },
+      "hardware": {
+        "hostname": "lhj-R4900-G3",
+        "cpu": 8,
+        "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a"
+      },
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      },
+      "target_input": {
+        "path": "/home/lhj/lhjwork/eda2026/build/hidden-suite-v1/role-1b/requests.csv",
+        "bytes": 35197849579,
+        "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+      },
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/proc/870081/fd/14",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+          "-out",
+          "/proc/870081/fd/5"
+        ],
+        "exit_code": 0,
+        "user_s": 0.458333,
+        "sys_s": 0.06390699999999999,
+        "cpu_s": 0.52224,
+        "wall_s": 0.5236656661145389,
+        "rss_bytes": 295337984,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35198280,
+        "output_bytes": 40136160,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "output": {
+        "path": "/proc/870081/fd/5",
+        "bytes": 40136160,
+        "sha256": "816dae0f769274cf2f940af92c9f538586d05599a88aa3dd3b9ee10581ec22c9"
+      },
+      "fitness_scope": "CPU admission only",
+      "finished_at_unix": 1793698445.3783586
+    },
+    "100m": {
+      "status": "measured",
+      "tier": "100m",
+      "rows": 100000000,
+      "all_checks_passed": true,
+      "complete_performance_measurement": true,
+      "candidate": {
+        "bytes": 8131,
+        "sha256": "9af4ae7ea3fd1c1afdbef37d0397f130ab407d87dcc39a0c6d1eaab298095282"
+      },
+      "binary": {
+        "bytes": 86937624,
+        "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+      },
+      "evaluator": {
+        "shared": {
+          "run_remote.py": {
+            "bytes": 13606,
+            "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+          },
+          "score.py": {
+            "bytes": 6824,
+            "sha256": "57e2103cff7106010aef1028a38661be37394174aad022083314489292ea1ad7"
+          },
+          "pipeline.py": {
+            "bytes": 41298,
+            "sha256": "7534ac935095c4eae04ec6d4f8ab3ce9d21c6cb721c0fd56e82be43115caacf3"
+          }
+        },
+        "adapter": {
+          "remote_adapter.py": {
+            "bytes": 13198,
+            "sha256": "c625c66c678c62866a82f73ed6d43ecfd7578d5b067d5f5db1c50418b19900b0"
+          },
+          "native_builder.py": {
+            "bytes": 1080,
+            "sha256": "5c9379752d4964704eceaeba78122f5f111cc271262e693d4c0173c8983638ac"
+          },
+          "score_helper.py": {
+            "bytes": 4896,
+            "sha256": "a32992b9ca79b9d61d572a92fd7b79ff1fa394ebf4ef72c43af986972ffedeb6"
+          },
+          "legacy_native.py": {
+            "bytes": 32918,
+            "sha256": "0cbd02d4d93216c4bc8dcc1447e44500d3f11a2f1831b7ea5e6720cbaba34057"
+          },
+          "full_domain.py": {
+            "bytes": 2291,
+            "sha256": "301e887c27d175d031c5c8cd70b3cd2710fa4aa0bf2150f9f91b490b85a2b49d"
+          },
+          "admission.py": {
+            "bytes": 5029,
+            "sha256": "e1e0aafa27f93a62af5867ec15012e95e9d4cfee948312da3232606ff2a72d25"
+          },
+          "screening.py": {
+            "bytes": 4674,
+            "sha256": "20e5eaeb2888a2a4c514f526fe8da697091bc4cf074e2b1df4903ee6c4913ec6"
+          }
+        }
+      },
+      "hardware": {
+        "hostname": "lhj-R4900-G3",
+        "cpu": 8,
+        "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a"
+      },
+      "input": {
+        "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+        "bytes": 3519780294,
+        "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+      },
+      "target_input": {
+        "path": "/home/lhj/lhjwork/eda2026/build/hidden-suite-v1/role-1b/requests.csv",
+        "bytes": 35197849579,
+        "sha256": "3e01ed8f591ca1c06e3e4c36e66853437b784efbff22d1cc9880d4baf1adc474"
+      },
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/proc/870081/fd/14",
+          "-in",
+          "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+          "-out",
+          "/proc/870081/fd/5"
+        ],
+        "exit_code": 0,
+        "user_s": 9.075822,
+        "sys_s": 1.549798,
+        "cpu_s": 10.625620000000001,
+        "wall_s": 10.62764283688739,
+        "rss_bytes": 295342080,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519780294,
+        "output_bytes": 4013551119,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "output": {
+        "path": "/proc/870081/fd/5",
+        "bytes": 4013551119,
+        "sha256": "f92c3cf70b6b0047d1c9d2902aef8721796a3ab84492e48b72a40a05473d3d61"
+      },
+      "fitness_scope": "CPU admission only",
+      "finished_at_unix": 1793698474.5191739
+    }
+  },
+  "assumptions": [
+    "Affine scaling on the recorded request distributions and r9 CPU8.",
+    "Complete-program CPU includes initialization; the intercept is inferred from both sizes."
+  ],
+  "uncertainty": "Two timing points give no statistical timing bound; 1B throughput may differ.",
+  "fitness_scope": "Admission diagnostic; only two actual complete1B runs supply fitness."
+}

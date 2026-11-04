@@ -4,6 +4,12 @@ This repository contains the formal stage release
 `exp853-eat243-lossless-directory-20261104`, its complete build inputs, and the
 official contest materials in [`docs/task/`](docs/task/).
 
+The [development-history audit](docs/audit-exp853-eat243/00-阅读入口与结论.md)
+covers the project through EAT243 with seven reports, all 1,018 experiment
+logs, selected raw evidence, resource calculations, and a SHA-256 delivery
+manifest. The reports distinguish measurements, derivations, and unverified
+claims.
+
 The estimator predicts directed routing delays between FPGA SRB ports. It
 reads CSV requests and writes `From,To,delay` rows in the original request
 order. Architecture data and prediction tables are embedded in one static

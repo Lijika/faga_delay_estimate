@@ -1,0 +1,75 @@
+{
+  "schema": "eat248-actual-release-elf-full1m-v1",
+  "at": "2026-11-04T00:43:38.825354+08:00",
+  "passed": true,
+  "rows": 1000000,
+  "binary": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat248_stage243_release/retrieved/files/bin-estimate",
+    "bytes": 86937624,
+    "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+  },
+  "input": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat176_native_representation_check/full1m-requests.csv",
+    "bytes": 35198280,
+    "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+  },
+  "output": {
+    "path": "/proc/326922/fd/4",
+    "bytes": 40136160,
+    "sha256": "816dae0f769274cf2f940af92c9f538586d05599a88aa3dd3b9ee10581ec22c9"
+  },
+  "prediction_i32_sha256": "8e0fbaa5b890ec7b130f48c09eb988456919e8969d81ec727958d3e192eb98e0",
+  "run": {
+    "command": [
+      "/usr/bin/time",
+      "-v",
+      "-o",
+      "/home/lhjysyx/EDA2026_EAT/candidate/work_eat248_stage243_release/release-gate/release-full1m.time.log",
+      "/home/lhjysyx/EDA2026_EAT/candidate/work_eat248_stage243_release/release-gate/cleanroom/estimate",
+      "-in",
+      "/home/lhjysyx/EDA2026_EAT/candidate/work_eat176_native_representation_check/full1m-requests.csv",
+      "-out",
+      "/proc/326922/fd/4"
+    ],
+    "cwd": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat248_stage243_release/release-gate/cleanroom",
+    "environment": {},
+    "user_cpu_s": 0.55,
+    "sys_cpu_s": 0.41,
+    "cpu_s": 0.96,
+    "wall_s": 0.9842332659991371,
+    "exit_code": 0,
+    "threads_observed": 1,
+    "peak_rss_bytes": 295784448
+  },
+  "contract": {
+    "header": true,
+    "all_endpoints": true,
+    "row_order": true,
+    "row_count": true,
+    "three_fields": true,
+    "canonical_integer": true,
+    "final_newline": true,
+    "exact_eof": true
+  },
+  "static_elf_lt100MB": true,
+  "output_storage": "anonymous memfd closed after full contract and SHA",
+  "cleanroom": {
+    "directory_files": [
+      "estimate"
+    ],
+    "assets_in_cwd": false,
+    "empty_environment": true,
+    "filesystem_namespace_isolation": false
+  },
+  "accuracy": {
+    "reused_from": "/home/lhjysyx/EDA2026_EAT/results/iteration-176/artifacts/native_representation_checker/checks-1m.json",
+    "complete_output_sha_equal": true,
+    "weighted_acc_percent": 98.8752701109582,
+    "scope": "Previously exposed full1M; no new accuracy sampling or tuning."
+  },
+  "consistency": {
+    "reused_remote_same_elf_full1b_runs": 7,
+    "official_consecutive_five_verified": false
+  },
+  "scope": "Local AMD/WSL release gate; CPU includes initialize/parse/predict/write and is not a r9 timing claim."
+}

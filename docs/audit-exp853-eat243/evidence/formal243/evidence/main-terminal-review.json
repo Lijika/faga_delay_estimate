@@ -1,0 +1,149 @@
+{
+  "schema": "eat243-main-terminal-review-v1",
+  "reviewed_unix": 1793721427.4126122,
+  "source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+  "remote_binding": {
+    "summary": {
+      "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-243/main-review/remote-terminal/summary.json",
+      "bytes": 255952,
+      "sha256": "0585bdee8e81b24c42d2be6f6395371f19058c15a11082d1de29e57d2a8bd3b3"
+    },
+    "binary": {
+      "bytes": 86937624,
+      "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/estimate",
+      "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+    },
+    "remote_summary_sha_matches": true,
+    "exit": {
+      "runner_exit_code": 0,
+      "timed_out": false,
+      "finished_unix": 1793720727.818746,
+      "wall_s": 3911.1220548152924,
+      "sha256": "e791290c13ae9d65d7a010dfbe73ca3a55dfd584aa3f30556b0b912e8ccdc091"
+    },
+    "rechecked_unix": 1793721739.8545513
+  },
+  "candidate_binary": {
+    "bytes": 86937624,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/estimate",
+    "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+  },
+  "baseline_binary": {
+    "bytes": 92848152,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+    "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+  },
+  "schedule": {
+    "warmups": 2,
+    "timed": 12,
+    "blocks": [
+      "ABBA",
+      "BAAB",
+      "ABBA"
+    ],
+    "original_schedule_complete": true
+  },
+  "recomputed": {
+    "mean_cpu_s": {
+      "A": 128.60633816666666,
+      "B": 125.208939
+    },
+    "block_cpu_saving_s": [
+      2.97407299999999,
+      3.577628500000003,
+      3.6404959999999846
+    ],
+    "combined_scores": {
+      "A": 98.0125547852541,
+      "B": 98.04086644497632
+    },
+    "combined_gain": 0.028311659722220384,
+    "joint_one_sided_95_lower": 0.02069454135805846,
+    "candidate_cpu_sd_s": 0.6097380518652209
+  },
+  "run_checks_passed": true,
+  "same_full_output_sha256": "0a19ea6494a4bf9f12bb70c5f52677e326ea67429616649f55d0228c5767ef9e",
+  "accuracy": {
+    "scope": "3833856 exposed exact rows,59904 role pairs; conditional on this development input",
+    "A": 98.85534283747039,
+    "B": 98.85534283747039,
+    "delta_pp": 0.0
+  },
+  "machine_review": {
+    "accepted_for_registered_comparison": true,
+    "cpu8_exclusive_estimator_affinity": true,
+    "shared_lock_held": true,
+    "max_boundary_load1": 1.7,
+    "max_boundary_cpu_pressure_avg10": 0.0,
+    "max_boundary_memory_pressure_avg10": 0.0,
+    "io_pressure_avg10_range": [
+      0.0,
+      26.72
+    ],
+    "external_boundary_top": [
+      {
+        "pid": 1006713,
+        "psr": 1,
+        "cpu_percent_lifetime": 3.0,
+        "command": "sshd"
+      },
+      {
+        "pid": 995733,
+        "psr": 6,
+        "cpu_percent_lifetime": 2.0,
+        "command": "sshd"
+      },
+      {
+        "pid": 991948,
+        "psr": 17,
+        "cpu_percent_lifetime": 1.2,
+        "command": "curl"
+      },
+      {
+        "pid": 986819,
+        "psr": 9,
+        "cpu_percent_lifetime": 1.0,
+        "command": "sshd"
+      },
+      {
+        "pid": 993352,
+        "psr": 14,
+        "cpu_percent_lifetime": 1.0,
+        "command": "sshd"
+      },
+      {
+        "pid": 995732,
+        "psr": 5,
+        "cpu_percent_lifetime": 1.0,
+        "command": "sshd"
+      },
+      {
+        "pid": 1013687,
+        "psr": 10,
+        "cpu_percent_lifetime": 0.8,
+        "command": "sshd"
+      },
+      {
+        "pid": 1827904,
+        "psr": 4,
+        "cpu_percent_lifetime": 0.5,
+        "command": "top"
+      }
+    ],
+    "limits": "Process snapshots are boundary/lifetime observations, not continuous attribution. Disk-backed input and memfd output show material IO waiting. No heavy competing workload appears in snapshots; three balanced block savings are positive. Student-t bound conditions on independent block errors and this host state; no claim of universal latency or improved variance."
+  },
+  "cleanup": {
+    "memfd_closed": true,
+    "owned_scratch_deleted": true,
+    "predictions_deleted": true
+  },
+  "promotion_accepted": true,
+  "publication_pending": true,
+  "remaining": [
+    "actual final-ELF complete1M release gate or exact matching evidence",
+    "immutable package and formal source integration",
+    "official platform and official five-run certificate",
+    "fresh hidden input and all-row exact accuracy",
+    "Acc>99 and approximately100s CPU"
+  ]
+}

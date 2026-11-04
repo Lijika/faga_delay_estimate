@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-11-04T14:30:01.830836+00:00",
+  "checks": {
+    "experiment_copies_and_zip": 1018,
+    "evidence_copy_hashes": 1109,
+    "formal243_recomputed": {
+      "A": {
+        "mean_cpu_s": 128.60633816666666,
+        "max_rss_bytes": 309907456
+      },
+      "B": {
+        "mean_cpu_s": 125.208939,
+        "max_rss_bytes": 295555072
+      }
+    },
+    "integer_formulas": {
+      "role_pairs": 59904,
+      "directory_entries": 28753920,
+      "surface_cells": 552,
+      "directory_planes": 143769600,
+      "directory_runtime": 115015680,
+      "first": 9043968,
+      "second": 1130496,
+      "direct": 36741120,
+      "direct_keys": 133120,
+      "planes_scratch": 691200,
+      "runtime_arrays": 162755584,
+      "logical_assets": 190818304,
+      "compressed_assets": 79398908,
+      "elf_other": 7538716,
+      "strict_elf_increment": 13062375,
+      "rss_headroom": 1704444928,
+      "dense_nominal": 31744327680,
+      "one_field": 21120000,
+      "field_20_projection": 92552458,
+      "parent5_stream": 548257740,
+      "parent5_dict": 5120,
+      "parent5_inverse": 40960,
+      "parent5_full": 548303820,
+      "parent5_saving": 328908500,
+      "parent5_elf_over": 8423824,
+      "rank64_factor": 41582592,
+      "phase_C": 57507840,
+      "phase_component": 70985928,
+      "sum_cartesian": 2315255808,
+      "sum_actual_pairs": 1111167,
+      "sum_table": 1226728368,
+      "sum_memory_screen": 1571275696,
+      "exp842_pairs": 1723809,
+      "exp842_runtime": 1903085136,
+      "exp842_rss_additive": 2173302352,
+      "exp842_elf_projection": 352056052,
+      "directory_29_bits": 104232960,
+      "r8_d4_payload": 992,
+      "eat181_node_dtype": 437248,
+      "eat181_offsets": 960,
+      "oneb_io_bytes": 75333425138
+    },
+    "cpu_admission_recomputed_s": 102.47452909090907,
+    "eat181_partial_protocol": "12 completed / 14 planned; 5 timed per arm",
+    "authored_markdown_files": 9,
+    "authored_relative_links": 112,
+    "original_git_status_and_root_elf_unchanged": true
+  },
+  "passed": true,
+  "not_performed": [
+    "algorithm execution",
+    "new exact labels",
+    "full result corpus re-scoring",
+    "official platform verification",
+    "full release rebuild"
+  ]
+}

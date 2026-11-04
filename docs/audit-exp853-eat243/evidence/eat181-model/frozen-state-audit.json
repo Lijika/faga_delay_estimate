@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "state_keys": [
+    "regressor",
+    "integer_offsets",
+    "magnitude_edges",
+    "raw_feature_columns",
+    "residual_cap",
+    "training_role_groups",
+    "calibration_role_groups",
+    "training_calibration_proxy_losses_and_active_cells"
+  ],
+  "regressor_type": "sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor",
+  "regressor_keys": [
+    "loss",
+    "learning_rate",
+    "max_iter",
+    "max_leaf_nodes",
+    "max_depth",
+    "min_samples_leaf",
+    "l2_regularization",
+    "max_features",
+    "max_bins",
+    "monotonic_cst",
+    "interaction_cst",
+    "categorical_features",
+    "warm_start",
+    "early_stopping",
+    "scoring",
+    "validation_fraction",
+    "n_iter_no_change",
+    "tol",
+    "verbose",
+    "random_state",
+    "quantile",
+    "is_categorical_",
+    "_preprocessor",
+    "_is_categorical_remapped",
+    "n_features_in_",
+    "n_trees_per_iteration_",
+    "_fitted_with_sw",
+    "_random_seed",
+    "_feature_subsample_rng",
+    "_n_features",
+    "_loss",
+    "do_early_stopping_",
+    "_use_validation_data",
+    "_bin_mapper",
+    "_baseline_prediction",
+    "_predictors",
+    "_scorer",
+    "train_score_",
+    "validation_score_"
+  ],
+  "regressor_direct_ndarrays": {
+    "_baseline_prediction": {
+      "shape": [
+        1,
+        1
+      ],
+      "dtype": "float64",
+      "bytes": 8
+    },
+    "train_score_": {
+      "shape": [
+        0
+      ],
+      "dtype": "float64",
+      "bytes": 0
+    },
+    "validation_score_": {
+      "shape": [
+        0
+      ],
+      "dtype": "float64",
+      "bytes": 0
+    }
+  },
+  "model_nodes_bytes": 437248,
+  "node_dtype": [
+    [
+      "value",
+      "<f8"
+    ],
+    [
+      "count",
+      "<u4"
+    ],
+    [
+      "feature_idx",
+      "<i8"
+    ],
+    [
+      "num_threshold",
+      "<f8"
+    ],
+    [
+      "missing_go_to_left",
+      "|u1"
+    ],
+    [
+      "left",
+      "<u4"
+    ],
+    [
+      "right",
+      "<u4"
+    ],
+    [
+      "gain",
+      "<f8"
+    ],
+    [
+      "depth",
+      "<u4"
+    ],
+    [
+      "is_leaf",
+      "|u1"
+    ],
+    [
+      "bin_threshold",
+      "|u1"
+    ],
+    [
+      "is_categorical",
+      "|u1"
+    ],
+    [
+      "bitset_idx",
+      "<u4"
+    ]
+  ],
+  "tree_count": 128,
+  "all_numeric_nodes": true,
+  "categorical_bitsets_empty": true,
+  "preprocessor_none": true,
+  "link": "IdentityLink",
+  "n_iter": 128,
+  "state_pickle_bytes": 475839,
+  "state_pickle_sha256": "9bcfe43998b52dc57055c05e2483e09c4645335f87fd058b73e521b9d7035a20",
+  "state_captures": "fitted numeric tree nodes, bin mapper/preprocessing metadata, offsets, edges, raw-feature columns, cap and aggregate group/calibration diagnostics; original training/query rows are absent",
+  "inference": "numeric <= nodes; float32 features widen exactly to double; leaf values already include the learner shrink; baseline then tree order as installed predictor; IdentityLink inverse returns same values"
+}

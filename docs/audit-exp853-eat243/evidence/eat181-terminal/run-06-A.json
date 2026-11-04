@@ -1,0 +1,183 @@
+{
+  "binary": {
+    "bytes": 92848152,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+    "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+  },
+  "command": [
+    "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+    "-in",
+    "/home/lhj/lhjwork/eda2026/build/hidden-suite-v1/role-1b/requests.csv",
+    "-out",
+    "/proc/759745/fd/4"
+  ],
+  "contract": {
+    "command": [
+      "/home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check",
+      "check",
+      "/home/lhj/lhjwork/eda2026/build/hidden-suite-v1/role-1b/requests.csv",
+      "/proc/759745/fd/4",
+      "1000000000",
+      "/home/lhj/lhjwork/eda2026/research/exp683/build/exp683/1b/positions.txt",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/scratch-197/eat179-native-samples-eq4epiyr/sample-0a19ea6494a4-aa82c21j.csv"
+    ],
+    "contract_passed": true,
+    "input_bytes": 35197849579,
+    "output_bytes": 40135575559,
+    "rows": 1000000000,
+    "sample_rows": 3833856
+  },
+  "contract_all_rows_passed": true,
+  "contract_reused_by_full_sha": true,
+  "cpu_affinity": [
+    8
+  ],
+  "cpu_s": 129.386545,
+  "exit_code": 0,
+  "finished_monotonic_s": 2895502.531399566,
+  "hashing_wall_s": 91.72063778201118,
+  "input_stat_after": {
+    "st_ctime_ns": 1791817995896482502,
+    "st_dev": 2050,
+    "st_ino": 22036239,
+    "st_mode": 33204,
+    "st_mtime_ns": 1791817414804497720,
+    "st_size": 35197849579
+  },
+  "interrupted": false,
+  "label": "A",
+  "load_after": {
+    "cpu_frequency_khz": "1199788",
+    "cpu_jiffies": [
+      "cpu  69876064 281459 8167306 9182581195 2183932 0 76854 0 0 0",
+      "cpu8 7268654 49945 1035085 280059609 1066526 0 1550 0 0 0"
+    ],
+    "cpu_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=949452310\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+    "io_pressure": "some avg10=23.11 avg60=23.03 avg300=12.11 total=15640233156\nfull avg10=23.11 avg60=23.03 avg300=12.11 total=15618408622",
+    "loadavg": "1.11 1.04 1.01 1/1111 772922",
+    "memory": {
+      "Dirty": 872448,
+      "MemAvailable": 16534515712,
+      "MemFree": 805306368,
+      "Shmem": 75706474496,
+      "SwapFree": 32768
+    },
+    "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=1945601478\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=1945393492",
+    "monotonic_s": 2895502.531484017,
+    "process_snapshot": [
+      "    PID    PPID PSR STAT %CPU   RSS COMMAND         COMMAND",
+      " 759745  759744   0 Ss    8.8 24600 python3         python3 -B /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_1b_runner.py --mode 1b --preflight /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/PREFLIGHT.json --assets-report /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/assets-report.json --source-manifest /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/source-manifest.json --build-report /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate/build/build-report.json --source-root /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate --tools-dir /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_100m --checker /home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check --binary-a /home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate --binary-b /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate/build/estimate --runtime-anchor /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/runtime-anchor.json --out /home/lhj/lhjwork/eda2026/eat/results/eat181-sky-boost-native-eat197-oneb-20261103",
+      "1827904 1827884  19 S+    0.5  3476 top             top",
+      " 562665       1  29 Ssl   0.4 12788 herdr           /home/lhj/.local/bin/herdr server",
+      "4103669       1   2 Ssl   0.2 41364 tailscaled      /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641",
+      "      1       0   7 Ss    0.1 10632 systemd         /lib/systemd/systemd --system --deserialize 61 splash",
+      "    980       1  13 Ss    0.1  3336 avahi-daemon    avahi-daemon: running [lhj-R4900-G3.local]",
+      "   4441    3996  16 Ssl   0.1 83572 gnome-shell     /usr/bin/gnome-shell",
+      "      2       0   9 S     0.0     0 kthreadd        [kthreadd]",
+      "      3       2  12 S     0.0     0 pool_workqueue_ [pool_workqueue_release]",
+      "      4       2   0 I<    0.0     0 kworker/R-rcu_g [kworker/R-rcu_g]",
+      "      5       2   0 I<    0.0     0 kworker/R-rcu_p [kworker/R-rcu_p]",
+      "      6       2   0 I<    0.0     0 kworker/R-slub_ [kworker/R-slub_]",
+      "      7       2   0 I<    0.0     0 kworker/R-netns [kworker/R-netns]",
+      "      9       2   0 I<    0.0     0 kworker/0:0H-ev [kworker/0:0H-events_highpri]",
+      "     12       2   0 I<    0.0     0 kworker/R-mm_pe [kworker/R-mm_pe]",
+      "     13       2   0 I     0.0     0 rcu_tasks_kthre [rcu_tasks_kthread]",
+      "     14       2   0 I     0.0     0 rcu_tasks_rude_ [rcu_tasks_rude_kthread]",
+      "     15       2  24 I     0.0     0 rcu_tasks_trace [rcu_tasks_trace_kthread]",
+      "     16       2   0 S     0.0     0 ksoftirqd/0     [ksoftirqd/0]",
+      "     17       2  14 I     0.0     0 rcu_preempt     [rcu_preempt]",
+      "     18       2   0 S     0.0     0 migration/0     [migration/0]",
+      "     19       2   0 S     0.0     0 idle_inject/0   [idle_inject/0]",
+      "     20       2   0 S     0.0     0 cpuhp/0         [cpuhp/0]",
+      "     21       2   1 S     0.0     0 cpuhp/1         [cpuhp/1]",
+      "     22       2   1 S     0.0     0 idle_inject/1   [idle_inject/1]",
+      "     23       2   1 S     0.0     0 migration/1     [migration/1]",
+      "     24       2   1 S     0.0     0 ksoftirqd/1     [ksoftirqd/1]",
+      "     26       2   1 I<    0.0     0 kworker/1:0H-ev [kworker/1:0H-events_highpri]",
+      "     27       2   2 S     0.0     0 cpuhp/2         [cpuhp/2]",
+      "     28       2   2 S     0.0     0 idle_inject/2   [idle_inject/2]",
+      "     29       2   2 S     0.0     0 migration/2     [migration/2]",
+      "     30       2   2 S     0.0     0 ksoftirqd/2     [ksoftirqd/2]"
+    ],
+    "unix": 1793658826.9166987
+  },
+  "load_before": {
+    "cpu_frequency_khz": "1200000",
+    "cpu_jiffies": [
+      "cpu  69865256 281240 8163545 9182028719 2178969 0 76849 0 0 0",
+      "cpu8 7258624 49945 1032194 280059606 1061624 0 1547 0 0 0"
+    ],
+    "cpu_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=948785081\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0",
+    "io_pressure": "some avg10=0.00 avg60=0.41 avg300=1.51 total=15595106348\nfull avg10=0.00 avg60=0.41 avg300=1.51 total=15573287581",
+    "loadavg": "1.01 1.02 1.00 1/1108 772501",
+    "memory": {
+      "Dirty": 430080,
+      "MemAvailable": 56675819520,
+      "MemFree": 40907149312,
+      "Shmem": 35570925568,
+      "SwapFree": 32768
+    },
+    "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=1945298587\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=1945090618",
+    "monotonic_s": 2895323.575092742,
+    "process_snapshot": [
+      "    PID    PPID PSR STAT %CPU   RSS COMMAND         COMMAND",
+      " 759745  759744   0 Ss    9.1 24600 python3         python3 -B /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_1b_runner.py --mode 1b --preflight /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/PREFLIGHT.json --assets-report /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/assets-report.json --source-manifest /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/source-manifest.json --build-report /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate/build/build-report.json --source-root /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate --tools-dir /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_100m --checker /home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check --binary-a /home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate --binary-b /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate/build/estimate --runtime-anchor /home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/runtime-anchor.json --out /home/lhj/lhjwork/eda2026/eat/results/eat181-sky-boost-native-eat197-oneb-20261103",
+      "1827904 1827884  19 S+    0.5  3476 top             top",
+      " 562665       1   5 Ssl   0.4 12788 herdr           /home/lhj/.local/bin/herdr server",
+      "4103669       1   2 Ssl   0.2 41312 tailscaled      /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641",
+      "      1       0   7 Ss    0.1 10632 systemd         /lib/systemd/systemd --system --deserialize 61 splash",
+      "    980       1  13 Ss    0.1  3336 avahi-daemon    avahi-daemon: running [lhj-R4900-G3.local]",
+      "   4441    3996  19 Ssl   0.1 83516 gnome-shell     /usr/bin/gnome-shell",
+      "      2       0   9 S     0.0     0 kthreadd        [kthreadd]",
+      "      3       2  12 S     0.0     0 pool_workqueue_ [pool_workqueue_release]",
+      "      4       2   0 I<    0.0     0 kworker/R-rcu_g [kworker/R-rcu_g]",
+      "      5       2   0 I<    0.0     0 kworker/R-rcu_p [kworker/R-rcu_p]",
+      "      6       2   0 I<    0.0     0 kworker/R-slub_ [kworker/R-slub_]",
+      "      7       2   0 I<    0.0     0 kworker/R-netns [kworker/R-netns]",
+      "      9       2   0 I<    0.0     0 kworker/0:0H-ev [kworker/0:0H-events_highpri]",
+      "     12       2   0 I<    0.0     0 kworker/R-mm_pe [kworker/R-mm_pe]",
+      "     13       2   0 I     0.0     0 rcu_tasks_kthre [rcu_tasks_kthread]",
+      "     14       2   0 I     0.0     0 rcu_tasks_rude_ [rcu_tasks_rude_kthread]",
+      "     15       2  24 I     0.0     0 rcu_tasks_trace [rcu_tasks_trace_kthread]",
+      "     16       2   0 S     0.0     0 ksoftirqd/0     [ksoftirqd/0]",
+      "     17       2  13 I     0.0     0 rcu_preempt     [rcu_preempt]",
+      "     18       2   0 S     0.0     0 migration/0     [migration/0]",
+      "     19       2   0 S     0.0     0 idle_inject/0   [idle_inject/0]",
+      "     20       2   0 S     0.0     0 cpuhp/0         [cpuhp/0]",
+      "     21       2   1 S     0.0     0 cpuhp/1         [cpuhp/1]",
+      "     22       2   1 S     0.0     0 idle_inject/1   [idle_inject/1]",
+      "     23       2   1 S     0.0     0 migration/1     [migration/1]",
+      "     24       2   1 S     0.0     0 ksoftirqd/1     [ksoftirqd/1]",
+      "     26       2   1 I<    0.0     0 kworker/1:0H-ev [kworker/1:0H-events_highpri]",
+      "     27       2   2 S     0.0     0 cpuhp/2         [cpuhp/2]",
+      "     28       2   2 S     0.0     0 idle_inject/2   [idle_inject/2]",
+      "     29       2   2 S     0.0     0 migration/2     [migration/2]",
+      "     30       2   2 S     0.0     0 ksoftirqd/2     [ksoftirqd/2]"
+    ],
+    "unix": 1793658647.9603074
+  },
+  "observed_max_rss_bytes": 309907456,
+  "output": {
+    "bytes": 40135575559,
+    "sha256": "0a19ea6494a4bf9f12bb70c5f52677e326ea67429616649f55d0228c5767ef9e"
+  },
+  "output_sha_bound_to_arm": true,
+  "phase": "timed",
+  "pid": 772503,
+  "rss_bytes": 309907456,
+  "ru_maxrss_bytes": 309723136,
+  "sample": {
+    "bytes": 191794886,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/scratch-197/eat179-native-samples-eq4epiyr/sample-0a19ea6494a4-aa82c21j.csv",
+    "sha256": "9e9f5ebcf20a6ac2aa35defde679a08dc49d45fcf5427aeeae5172b81eb8fdbf"
+  },
+  "sequence": 5,
+  "started_monotonic_s": 2895323.591538608,
+  "started_unix": 1793658647.9767535,
+  "sys_s": 28.950936,
+  "threads_observed": 1,
+  "timed_index": 3,
+  "timed_out": false,
+  "user_s": 100.435609,
+  "wall_s": 178.93986095814034
+}

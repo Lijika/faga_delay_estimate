@@ -1,0 +1,65 @@
+{
+  "archive": {
+    "bytes": 79431680,
+    "sha256": "1eed489b6e6f1ee9bc652691ee76cf641390bfbb8f14e2d76e1246b656846afd"
+  },
+  "bundle": {
+    "assets": {
+      "direct_exact": {
+        "bytes": 2303669,
+        "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+      },
+      "direct_keys": {
+        "bytes": 133120,
+        "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+      },
+      "directory212": {
+        "bytes": 76014929,
+        "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+      },
+      "first212": {
+        "bytes": 876616,
+        "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+      },
+      "second212": {
+        "bytes": 70574,
+        "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+      }
+    },
+    "native_files": {
+      "include/native_representation212.h": {
+        "bytes": 7792,
+        "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+      },
+      "src/worker.cpp": {
+        "bytes": 15195,
+        "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+      }
+    }
+  },
+  "candidate": {
+    "bytes": 8131,
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat243_positive/packet/candidate.py",
+    "sha256": "9af4ae7ea3fd1c1afdbef37d0397f130ab407d87dcc39a0c6d1eaab298095282"
+  },
+  "estimator_calls": 0,
+  "finished_at_unix": 1793716599.9242258,
+  "generation_wall_s": 160.86201869900015,
+  "limits": {
+    "address_space_bytes": 1900000000,
+    "cpu_s": 600,
+    "wall_s": 600
+  },
+  "manifest": {
+    "bytes": 28875,
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat243_positive/packet/source-assets-manifest.json",
+    "sha256": "bf7b1aebb9f41768336bfdf4f728950b05e444c99d6a450d9a47af4091cba3cc"
+  },
+  "memfd_closed": true,
+  "packet": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat243_positive/packet",
+  "schema": "eat243-local-bundle-v1",
+  "started_at_unix": 1793716340.0246632,
+  "status": "streamed",
+  "storage": "anonymous memfd",
+  "worker_pid": 140193
+}

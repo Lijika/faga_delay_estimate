@@ -1,0 +1,91 @@
+{
+  "schema": "eat181-final-source-evidence-v1",
+  "status": "passed",
+  "at": "2026-11-02T19:59:20.154948+08:00",
+  "source_commit": "7cec3ef61b4c36e6e7dd31422201fcea972cf66d",
+  "canonical_sha256": "e2bf6f9f5456344a0f628fc5551892938c81a809fcb62d7e010c49d772a0c23d",
+  "source_manifest": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/source-manifest.json",
+    "bytes": 5407,
+    "sha256": "8fbc26affbf115af9eabd49c8ada9779fb7d222c7605b0e7b54c23be59c54ab1"
+  },
+  "model_state": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat181_sky_boost_native/model_state.pkl",
+    "bytes": 475839,
+    "sha256": "9bcfe43998b52dc57055c05e2483e09c4645335f87fd058b73e521b9d7035a20"
+  },
+  "model_export": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat181_sky_boost_native/fitted-model.json",
+    "bytes": 3035335,
+    "sha256": "adc907b6e3ba0ab75557b92b0435ca1341e7e2158d42f671984df50f798adb88"
+  },
+  "native_header": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat181_sky_boost_native/include/sky_model181.h",
+    "bytes": 264014,
+    "sha256": "97116c8a389919b95eaaf775ede2cd7b729fa4b5a35f4ca525454fa94ce5c5d7"
+  },
+  "source_audit_initial": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/source-feature-audit.json",
+    "bytes": 3577,
+    "sha256": "30dc09968fe6ad39e3ab0b74d3ebe2b7cc25b5c0f30d517e76004df49ed41e64"
+  },
+  "initial_pending_items_resolved": [
+    "unchanged actual fixed evaluator replay accepted",
+    "installed sklearn1.7.2 node dtype/predictor.pyx read before exporter construction",
+    "one exact production fit captured unchanged model_state",
+    "all1M independent float32 feature and binary64 sklearn predictions matched bitwise",
+    "all1M native double model outputs matched accepted raw SHA",
+    "complete native request path two1M runs passed with zero integer mismatch"
+  ],
+  "original_score_invalidating_supported_defects": [],
+  "state_capture": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/frozen-state-audit.json",
+    "bytes": 2956,
+    "sha256": "30b8a974a6b35212456905f47dbcd11296a4ad1832843265d44915cf4462fe51"
+  },
+  "feature_specification": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/feature-specification.json",
+    "bytes": 4262,
+    "sha256": "b461c175160efdb357497c95585d06fd97b65465afd4cfb43018ac4fe91891e1"
+  },
+  "prediction_semantics": "Tree raw output only selects calibrated integer offsets; baseline plus raw tree prediction is not this learner function.",
+  "early_return_source": "src/worker.cpp prepare596Impl:133-140 and finish596:261 retains !ready return; no model lookup before state.ready. Self exact pin returns0; invalid endpoints/role/first-Net preserve answer-1. These conditions do not occur in full1M and are source-verified.",
+  "fp_source": "Strict generic x86-64 build, -fno-fast-math -ffp-contract=off; installed numerical <= node logic, IdentityLink and baseline-then128-tree double additions preserved. All features constructed from finite architecture integers, so missing/categorical inference branches are unreachable for valid requests; categorical flags/bitsets frozen and audited empty.",
+  "boundary_reasoning": "C++ while(abs(raw)>=edge) implements searchsorted right at equality; raw<0 matches NumPy sign including signed zero. float32 of any int32 baseline is integral, so np.rint is identity before int64 conversion; additions use int64 then clip. Coordinate/net/discount expressions are small exact integers in float32; final-output subtract-fee explicitly uses float32 intermediate. Lowest1M sign/magnitude boundary margin8.310426080626598e-8 is diagnostic; source equivalence covers valid unexercised boundaries.",
+  "native_model_size": {
+    "pickle_bytes": 475839,
+    "sklearn_node_record_bytes": 437248,
+    "header_bytes": 264014,
+    "tree_function_text_bytes": 150591,
+    "integer_offset_table_bytes": 960,
+    "whole_worker_shared_double_constant_pool_bytes": 32048,
+    "note": "Tree function and offset table sizes measured with nm/size. Double constant pool includes legacy constants and is a shared upper bound for model constants; feature/calibration code is part of the remaining worker text. Complete ELF and complete program CPU include all shared work."
+  },
+  "native_complete1m": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/full1m-parity.json",
+    "bytes": 5941,
+    "sha256": "e9d183e7890330f8de83445ef8d39b2a8b0e373da1f8b2d8e6359acdaf041f95"
+  },
+  "native_raw1m": {
+    "path": "/home/lhjysyx/EDA2026_EAT/results/iteration-181/artifacts/sky_boost_native_delivery/native-raw-parity.json",
+    "bytes": 871,
+    "sha256": "4006d19f8da0bbaf239279e8555a2b351a9ea1373d1f3dc0dd4cb55c7a36ecab"
+  },
+  "existing_embedded_assets": {
+    "count": 210,
+    "bytes": 82872955,
+    "unchanged_from_current117": true
+  },
+  "build_driver_unchanged": {
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat181_sky_boost_native/build.py",
+    "bytes": 4844,
+    "sha256": "f4486e1cf2b123a01998a37ad01e4a6876c579e4943011b40af499935f31dfbb"
+  },
+  "remaining": [
+    "Main candidate181 packet identity-hook adaptation/binding and actual remote build",
+    "GCC11 r9 actual ELF full1M parity",
+    "registered complete1B joint Acc/CPU/resource/output result",
+    "unknown nonrepeating input transfer",
+    "final>99percent/~100s and official platform/five-run acceptance"
+  ]
+}

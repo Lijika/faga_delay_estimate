@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "curves": 449350,
+  "values": 744123600,
+  "verified_groups": 96,
+  "nominal_l1": {
+    "current": 60134348509233,
+    "A": 61618451783014,
+    "AB": 46308079674346
+  },
+  "score_rows": 14731,
+  "code": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp842/validation/exp842_audit.py",
+    "bytes": 7137,
+    "sha256": "5b1bfee136f61c048022f2d2804e9f50c4ac24bb934e13ddfecc6bf8964bb8ab"
+  },
+  "resources": {
+    "cpu_s": 9.968462318,
+    "wall_s": 9.969673397950828,
+    "rss_bytes": 787025920
+  }
+}

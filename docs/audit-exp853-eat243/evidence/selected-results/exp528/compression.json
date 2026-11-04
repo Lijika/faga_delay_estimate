@@ -1,0 +1,14 @@
+[
+  {
+    "path": "build/exp528/prefix.bin",
+    "roundtrip": true,
+    "cpu_s": 59.247976545,
+    "wall_s": 59.40089970477857
+  },
+  {
+    "path": "build/exp528/programs.bin",
+    "roundtrip": true,
+    "cpu_s": 9.797184046000005,
+    "wall_s": 9.797116367844865
+  }
+]

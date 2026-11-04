@@ -1,0 +1,42 @@
+{
+  "all_passed": true,
+  "checker": {
+    "path": "/home/lhjysyx/EDA2026/validation/exp381_evidence_check.py",
+    "bytes": 5018,
+    "sha256": "676065a0de5a752bc0ddee23acc646f34357c2f3e7dd6c370c2628b58902143d"
+  },
+  "freeze": {
+    "path": "validation/results/exp381/freeze.json",
+    "bytes": 4685,
+    "sha256": "e176d8e2c6e92aec2394c91c3cd0695161186b56bc50fe3a6a921ae9b85b2110"
+  },
+  "timing": {
+    "path": "validation/results/exp381/timing.json",
+    "bytes": 39927,
+    "sha256": "d429f806aa0886fe3a46f44568beca078f9c3d290fdd3a6458d1c8ce15478929"
+  },
+  "report": {
+    "path": "validation/results/exp381/report.json",
+    "bytes": 1960,
+    "sha256": "a0689b27f887cb64bf665a9a5ac6e5dc4b33e5c5d83426c4e81054c48ba2d1e0"
+  },
+  "raw_runs_checked": 12,
+  "mean_cpu_s": {
+    "baseline": 114.3,
+    "control": 101.75333333333333,
+    "candidate": 109.29333333333334
+  },
+  "max_rss_bytes": {
+    "baseline": 1693642752,
+    "control": 1669808128,
+    "candidate": 1356599296
+  },
+  "observed_rss_saved_bytes": 313208832,
+  "nominal_headroom_bytes": {
+    "baseline": 306357248,
+    "control": 330191872,
+    "candidate": 643400704
+  },
+  "remote_output_contract_reused": true,
+  "scope": "Local raw log and identity recheck; full CSV contracts reuse the remote run evidence."
+}

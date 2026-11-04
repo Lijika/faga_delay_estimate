@@ -1,0 +1,24 @@
+{
+  "generation_passed": true,
+  "size_gate_passed": false,
+  "generated": {
+    "path": "validation/results/exp379/generated.json",
+    "bytes": 14631,
+    "sha256": "798a395ee6d62fe4db01471c84ff8a2f7474ea04a5ec97d902a9bf34e6168057"
+  },
+  "compile": {
+    "path": "validation/results/exp379/compile-estimate.json",
+    "bytes": 1199,
+    "sha256": "e9c97562a9bea09f83d81a5b3c80b6aaedcc5e8528634d6e6dd9a9f550b14bba"
+  },
+  "binary": {
+    "path": "build/exp379/estimate",
+    "bytes": 108423824,
+    "sha256": "9d2f253e63f2dae6885e97e7922d027b27bdbc46b3ad64f1144ffb281486f5d9"
+  },
+  "limit_bytes": 100000000,
+  "excess_bytes": 8423824,
+  "online_cpu_tested": false,
+  "cpp_parent_audit_tested": false,
+  "next_experiment": 380
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sources": 208,
+  "targets": 288,
+  "pairs": 59904,
+  "queries": 1018368,
+  "coordinate_seed": 519,
+  "coordinate_sha256": "fb59b90053e7c6b399cf37a5f46be0bb922de0bd53fc3b3105e231abe8ae7a6d",
+  "sha256": "6f27cb32726c7b6ef15ca52baa54a7c6982d3b9e3c7355a377bce1a029218e57",
+  "independent_integer_budget": true
+}

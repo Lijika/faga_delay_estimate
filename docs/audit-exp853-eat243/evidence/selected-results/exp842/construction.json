@@ -1,0 +1,65 @@
+{
+  "all_checks_passed": true,
+  "selected_keys": 449350,
+  "selected_pairs": 17927,
+  "global_pairs": 1723809,
+  "selected_main_codes": 128,
+  "weighted_nominal_l1": {
+    "current": 60134348509233,
+    "A": 61618451783014,
+    "AB": 46308079674346
+  },
+  "residual_range": [
+    -163,
+    316
+  ],
+  "compressed_bytes": {
+    "A": {
+      "False": 16871,
+      "True": 18561
+    },
+    "AB": {
+      "False": 2630028,
+      "True": 2791898
+    }
+  },
+  "projected_elf_bytes": {
+    "A": 91855320,
+    "AB": 352056052
+  },
+  "outputs": [
+    {
+      "path": "build/exp842/A.i16",
+      "bytes": 2260992,
+      "sha256": "afbfa9f130d7fb9158e7db09e8e66555337f38fc8b79c8722453561887f8ff4e"
+    },
+    {
+      "path": "build/exp842/AB.i16",
+      "bytes": 19791408,
+      "sha256": "93dda03a81c170703df97334848175fe4f5dfe2005cb2c0b860996565c110914"
+    },
+    {
+      "path": "build/exp842/pair-index.u16",
+      "bytes": 898700,
+      "sha256": "d30ae7ff68e2df16f067384a9108f9c1dcceec5e9a81683f1123e07180a2cb9f"
+    },
+    {
+      "path": "build/exp842/pairs.u32",
+      "bytes": 71708,
+      "sha256": "e50d77549c6996ea5d1ae58b9943c1cfd7caf05b4c609f89771c84823bdc247b"
+    },
+    {
+      "path": "build/exp842/predictions.npz",
+      "bytes": 472862,
+      "sha256": "5d8ff6a2ab717be8c49501a74acac0a2c7558cf9947bbf412b461a558ff04c2c"
+    }
+  ],
+  "resources": {
+    "cpu_s": 38.610785453,
+    "wall_s": 39.60098662180826,
+    "rss_bytes": 1100222464
+  },
+  "full_elf_built": false,
+  "full_cpu_measured": false,
+  "new_exact_labels": 0
+}

@@ -1,0 +1,513 @@
+{
+  "asset_reuse": {
+    "direct_exact": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/assets/direct-exact-l19.zst",
+    "direct_keys": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/assets/direct-keys.u32"
+  },
+  "assets": {
+    "direct_exact": {
+      "bytes": 2303669,
+      "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+    },
+    "direct_keys": {
+      "bytes": 133120,
+      "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+    },
+    "directory212": {
+      "bytes": 76014929,
+      "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+    },
+    "first212": {
+      "bytes": 876616,
+      "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+    },
+    "second212": {
+      "bytes": 70574,
+      "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+    }
+  },
+  "binary": {
+    "bytes": 86937624,
+    "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+  },
+  "commands": [
+    [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+      "-fno-exceptions",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-DEXP596_BATCH=32",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-DEXP640_TREES=8",
+      "-c",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/src/worker.cpp",
+      "-o",
+      "/proc/977286/fd/10"
+    ],
+    [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-c",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/architecture.cpp",
+      "-o",
+      "/proc/977286/fd/11"
+    ],
+    [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+      "-c",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/embedded_arch.cpp",
+      "-o",
+      "/proc/977286/fd/12"
+    ],
+    [
+      "g++",
+      "-c",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/assets.S",
+      "-o",
+      "/proc/977286/fd/9"
+    ],
+    [
+      "g++",
+      "/proc/977286/fd/9",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/entry.cpp",
+      "/proc/977286/fd/10",
+      "-DEXP607_ARM=0",
+      "-DEXP607_AVX_CHOICE=0",
+      "-DEXP607_SSE_CHOICE=0",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+      "-fno-exceptions",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-DEXP596_BATCH=32",
+      "-I",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd",
+      "/proc/977286/fd/11",
+      "/proc/977286/fd/12",
+      "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd/libzstd.a",
+      "-static",
+      "-s",
+      "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+      "-o",
+      "/proc/977286/fd/13"
+    ]
+  ],
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "evidence": {
+    "build-report.json": {
+      "bytes": 26505,
+      "sha256": "2b64b3a058731b2c3fc6d6945307e7be59c420ed23d29c8f76349fd304ef1e2a"
+    },
+    "cpu-admission.json": {
+      "bytes": 10579,
+      "sha256": "5368c9b5c196aefb75a063df3033b5ea2f2fd175cdf4b6781eba99cf2526beca"
+    },
+    "local-generation.json": {
+      "bytes": 2119,
+      "sha256": "be9d5ad7cad7567417f47753a8c6ede173a7f8f7fa85664dfd7c2c1c55a4d5b3"
+    },
+    "main-terminal-review.json": {
+      "bytes": 4554,
+      "sha256": "2f5f29197bfa575ddf3caa9b04b9bf015f7a0cf5d5e9c8683c21553aa2ad18ee"
+    },
+    "materialize-receipt.json": {
+      "bytes": 5755,
+      "sha256": "f22f150e858610c2c0411e267c03bbc67d3fbcae23c48e1f03d67524f9436cb3"
+    },
+    "native-spec.json": {
+      "bytes": 14458,
+      "sha256": "5c3f0e3a233ee899b9bdc5e8d6f9996b7e71bb97f27e9580e16d58882cb0ab26"
+    },
+    "original-assets.S": {
+      "bytes": 668,
+      "sha256": "46d980d6ee15eb95cc75b1110bec58e880203bb3c477d886493afac3b736952c"
+    },
+    "source-manifest.json": {
+      "bytes": 21662,
+      "sha256": "bf2dc08516f3d03c7b04e5df849c132377897cf41e8d54676f7a297b55d99253"
+    },
+    "summary.json": {
+      "bytes": 255952,
+      "sha256": "0585bdee8e81b24c42d2be6f6395371f19058c15a11082d1de29e57d2a8bd3b3"
+    }
+  },
+  "input_1m": {
+    "bytes": 35198280,
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat176_native_representation_check/full1m-requests.csv",
+    "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+  },
+  "label": "exp853-eat243-lossless-directory-20261104",
+  "linker": "GNU ld (GNU Binutils for Ubuntu) 2.38",
+  "main_root": "/home/lhjysyx/EDA2026",
+  "original_publisher": {
+    "bytes": 18331,
+    "path": "/home/lhjysyx/EDA2026_EAT/candidate/work_eat185_stage176_release/package_release.py",
+    "sha256": "423475fbf890f8d82feb73565398697e0990a47406af7f5790bb07b1fe97d451"
+  },
+  "output_1m": {
+    "bytes": 40136160,
+    "sha256": "816dae0f769274cf2f940af92c9f538586d05599a88aa3dd3b9ee10581ec22c9"
+  },
+  "parent_binary": {
+    "bytes": 92848152,
+    "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+  },
+  "parent_label": "exp853-eat176-direct-curves-20261102",
+  "prepared_date": "2026-11-04",
+  "publisher_support": {
+    "bytes": 62469,
+    "sha256": "a84a95e01fc85a1230f8e9e88d3b77960badbab00d720b66c22cf4e90884255c"
+  },
+  "remote_host": "r9r4900",
+  "remote_preparation": "/home/lhj/lhjwork/eda2026/eat/research/eat248-stage243-release",
+  "remote_stage": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd",
+  "schema": "eat248-release-contract-v1",
+  "source_canonical_sha256": "c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8",
+  "source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+  "sources": {
+    "include/curve_origin654.h": {
+      "identity": {
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/curve_origin654.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/curve_origin654.h"
+    },
+    "include/direct_curve_restore.h": {
+      "identity": {
+        "bytes": 1175,
+        "sha256": "d272111f95f8b40f04ae9be6d8a0a916933021ad0a1ed3316bd5d41f92ea421d"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/direct_curve_restore.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/direct_curve_restore.h"
+    },
+    "include/exp579-models.h": {
+      "identity": {
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp579-models.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp579-models.h"
+    },
+    "include/exp582_int8_geometry.h": {
+      "identity": {
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp582_int8_geometry.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp582_int8_geometry.h"
+    },
+    "include/exp594_packed_output.h": {
+      "identity": {
+        "bytes": 2233,
+        "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp594_packed_output.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp594_packed_output.h"
+    },
+    "include/exp596_csv_batch.h": {
+      "identity": {
+        "bytes": 3242,
+        "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp596_csv_batch.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp596_csv_batch.h"
+    },
+    "include/exp601_port_parser.h": {
+      "identity": {
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp601_port_parser.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp601_port_parser.h"
+    },
+    "include/exp608_geometry.h": {
+      "identity": {
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp608_geometry.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp608_geometry.h"
+    },
+    "include/exp614_geometry_features.h": {
+      "identity": {
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp614_geometry_features.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp614_geometry_features.h"
+    },
+    "include/exp652_distance_curve_lookup.h": {
+      "identity": {
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp652_distance_curve_lookup.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp652_distance_curve_lookup.h"
+    },
+    "include/exp652_geometry_restore.h": {
+      "identity": {
+        "bytes": 1243,
+        "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp652_geometry_restore.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp652_geometry_restore.h"
+    },
+    "include/exp679_hv_events.h": {
+      "identity": {
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp679_hv_events.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp679_hv_events.h"
+    },
+    "include/exp707_prepare_metadata.h": {
+      "identity": {
+        "bytes": 4447,
+        "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp707_prepare_metadata.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp707_prepare_metadata.h"
+    },
+    "include/exp723_fused_parse.h": {
+      "identity": {
+        "bytes": 1423,
+        "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp723_fused_parse.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp723_fused_parse.h"
+    },
+    "include/exp779_surface_restore.h": {
+      "identity": {
+        "bytes": 3216,
+        "sha256": "951f0def3b26f6a22768a39fbbd63f18905e8fde1ba1e0f82cf2259876e2a52d"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/exp779_surface_restore.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/exp779_surface_restore.h"
+    },
+    "include/forced_bias.h": {
+      "identity": {
+        "bytes": 4872,
+        "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/forced_bias.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/forced_bias.h"
+    },
+    "include/native_representation212.h": {
+      "identity": {
+        "bytes": 7792,
+        "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+      },
+      "local_reuse": null,
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/native_representation212.h"
+    },
+    "include/reference727.h": {
+      "identity": {
+        "bytes": 214182,
+        "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/reference727.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/reference727.h"
+    },
+    "include/replacement679.h": {
+      "identity": {
+        "bytes": 81678,
+        "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/replacement679.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/replacement679.h"
+    },
+    "include/surface_assets779.h": {
+      "identity": {
+        "bytes": 5194,
+        "sha256": "c55080a60189d7f590a0b761fdf1ef662a1be3fadaaa0d964bae8c6c8836c1f6"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/surface_assets779.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/surface_assets779.h"
+    },
+    "include/symmetric640.h": {
+      "identity": {
+        "bytes": 148840,
+        "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/include/symmetric640.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include/symmetric640.h"
+    },
+    "src/architecture.cpp": {
+      "identity": {
+        "bytes": 14497,
+        "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/architecture.cpp",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/architecture.cpp"
+    },
+    "src/architecture.h": {
+      "identity": {
+        "bytes": 10330,
+        "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/architecture.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/architecture.h"
+    },
+    "src/csv.h": {
+      "identity": {
+        "bytes": 3165,
+        "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/csv.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/csv.h"
+    },
+    "src/embedded_arch.cpp": {
+      "identity": {
+        "bytes": 5161384,
+        "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/embedded_arch.cpp",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/embedded_arch.cpp"
+    },
+    "src/embedded_arch.h": {
+      "identity": {
+        "bytes": 847,
+        "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/embedded_arch.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/embedded_arch.h"
+    },
+    "src/embedded_resolver_data.h": {
+      "identity": {
+        "bytes": 160657,
+        "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/embedded_resolver_data.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/embedded_resolver_data.h"
+    },
+    "src/entry.cpp": {
+      "identity": {
+        "bytes": 1338,
+        "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/entry.cpp",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/entry.cpp"
+    },
+    "src/json.h": {
+      "identity": {
+        "bytes": 7815,
+        "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/src/json.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/json.h"
+    },
+    "src/worker.cpp": {
+      "identity": {
+        "bytes": 15195,
+        "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+      },
+      "local_reuse": null,
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/worker.cpp"
+    },
+    "third_party/zstd/COPYRIGHT.libzstd": {
+      "identity": {
+        "bytes": 5389,
+        "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/third_party/zstd/COPYRIGHT.libzstd",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd/COPYRIGHT.libzstd"
+    },
+    "third_party/zstd/libzstd.a": {
+      "identity": {
+        "bytes": 964146,
+        "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/third_party/zstd/libzstd.a",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd/libzstd.a"
+    },
+    "third_party/zstd/zstd.h": {
+      "identity": {
+        "bytes": 171378,
+        "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+      },
+      "local_reuse": "/home/lhjysyx/EDA2026/subm/versions/exp853-eat176-direct-curves-20261102/source/third_party/zstd/zstd.h",
+      "remote": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd/zstd.h"
+    }
+  }
+}

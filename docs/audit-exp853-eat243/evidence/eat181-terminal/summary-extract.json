@@ -1,0 +1,24 @@
+{
+  "source": "/home/lhjysyx/EDA2026_EAT/results/pipeline/exp853-eat197-native181-requeue-packet/main-terminal/summary.json",
+  "source_sha256": "2d74459907186c0cc979594fe33af694186793c91a22201035183c18564c4be7",
+  "fields": {
+    "all_checks_passed": false,
+    "qualified": false,
+    "error": "Traceback (most recent call last):\n  File \"/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_1b_runner.py\", line 1324, in main\n    output_identity = file_identity(output)\n  File \"/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_1b_runner.py\", line 69, in file_identity\n    digest.update(block)\n  File \"/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/packet-197/private_1b_runner.py\", line 1028, in raise_signal\n    raise InterruptedError(f\"signal {number}\")\nInterruptedError: signal 14\n",
+    "official_five_run_certificate": false,
+    "timing_scope": "wait4 user+sys for each single estimator CLI; hashing, contract checking, and scoring are excluded."
+  },
+  "binary": {
+    "A": {
+      "bytes": 92848152,
+      "path": "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+      "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+    },
+    "B": {
+      "bytes": 90583064,
+      "path": "/home/lhj/lhjwork/eda2026/eat/research/eat181-sky-boost-native/candidate/build/estimate",
+      "sha256": "79119b6e3a563b9f76df259711d8abbb529679fe045358b30f7d0ff7200c0701"
+    }
+  },
+  "note": "Selected fields; original remains in source directory."
+}

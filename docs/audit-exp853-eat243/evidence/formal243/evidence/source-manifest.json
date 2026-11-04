@@ -1,0 +1,570 @@
+{
+  "bound_binary": {
+    "bytes": 86937624,
+    "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+  },
+  "bound_build_report": {
+    "bytes": 26505,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/build-report.json",
+    "sha256": "2b64b3a058731b2c3fc6d6945307e7be59c420ed23d29c8f76349fd304ef1e2a"
+  },
+  "candidate_name": "eat237 positive full-domain directory child",
+  "canonical_sha256": "c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8",
+  "changed_paths": [
+    "src/worker.cpp",
+    "include/native_representation212.h"
+  ],
+  "compiled_source_file_count": 33,
+  "lineage": {
+    "derived": "canonical compiled-source hash, counts, paths and grouped asset manifest",
+    "observed": "raw source report and exact commands retained by path/hash; source/asset hashes attributed in spec"
+  },
+  "native_model": {
+    "bytes": 7792,
+    "path": "include/native_representation212.h",
+    "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+  },
+  "native_spec": {
+    "bytes": 14458,
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/native-spec.json",
+    "sha256": "5c3f0e3a233ee899b9bdc5e8d6f9996b7e71bb97f27e9580e16d58882cb0ab26"
+  },
+  "native_spec_value": {
+    "asset_report_fields": [
+      "assets"
+    ],
+    "assets": [
+      {
+        "bytes": 2303669,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/generated_assets/direct_exact",
+        "relative": "direct_exact",
+        "report_field": "assets",
+        "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+      },
+      {
+        "bytes": 133120,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/generated_assets/direct_keys",
+        "relative": "direct_keys",
+        "report_field": "assets",
+        "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+      },
+      {
+        "bytes": 76014929,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/generated_assets/directory212",
+        "relative": "directory212",
+        "report_field": "assets",
+        "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+      },
+      {
+        "bytes": 876616,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/generated_assets/first212",
+        "relative": "first212",
+        "report_field": "assets",
+        "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+      },
+      {
+        "bytes": 70574,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/generated_assets/second212",
+        "relative": "second212",
+        "report_field": "assets",
+        "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+      }
+    ],
+    "binary_identity": {
+      "bytes": 86937624,
+      "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+    },
+    "binary_path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/estimate",
+    "bound_evidence": [
+      {
+        "bytes": 4524,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/PREREGISTRATION.json",
+        "sha256": "eae63381f855f89e75482a91b58e9235286333db5fc33251fe53b281d2fc3326"
+      },
+      {
+        "bytes": 14043,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/measured-request.json",
+        "sha256": "7f8eca13bdda281f48173fd1bb999e9ab842f6d071b12a706f83592f05ed0e5c"
+      },
+      {
+        "bytes": 50717,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/measured-receipt.json",
+        "sha256": "c87866073c2d364f7b97957d85ac5ca8efd252b2a2d97a35c87998b416400343"
+      },
+      {
+        "bytes": 28875,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/source-assets-manifest.json",
+        "sha256": "bf7b1aebb9f41768336bfdf4f728950b05e444c99d6a450d9a47af4091cba3cc"
+      },
+      {
+        "bytes": 2238,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/positive-screen.json",
+        "sha256": "5cfa9c16d0c3b4e3c3ebadcab44a501be057061fb844e9ddebf12e907c10f81e"
+      }
+    ],
+    "build_drivers": [
+      {
+        "bytes": 35230,
+        "executed": true,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/materialize.py",
+        "sha256": "9e4b5fe4b5e8a164a9351096d81f64fa2c43e79fc8cda0cf48c513b3a7b12ec1"
+      }
+    ],
+    "build_report_identity": {
+      "bytes": 26505,
+      "sha256": "2b64b3a058731b2c3fc6d6945307e7be59c420ed23d29c8f76349fd304ef1e2a"
+    },
+    "build_report_path": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/build-report.json",
+    "candidate_id": "eat237-positive-9af4ae7ea3fd",
+    "changed_paths": [
+      "src/worker.cpp",
+      "include/native_representation212.h"
+    ],
+    "commands": [
+      [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-pipe",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+        "-fno-exceptions",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-DEXP596_BATCH=32",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd",
+        "-DEXP608_SIMD=0",
+        "-Dmain=worker608_F",
+        "-DEXP640_TREES=8",
+        "-c",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/src/worker.cpp",
+        "-o",
+        "/proc/977286/fd/10"
+      ],
+      [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-pipe",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-c",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/architecture.cpp",
+        "-o",
+        "/proc/977286/fd/11"
+      ],
+      [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-pipe",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+        "-c",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/embedded_arch.cpp",
+        "-o",
+        "/proc/977286/fd/12"
+      ],
+      [
+        "g++",
+        "-c",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/assets.S",
+        "-o",
+        "/proc/977286/fd/9"
+      ],
+      [
+        "g++",
+        "/proc/977286/fd/9",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src/entry.cpp",
+        "/proc/977286/fd/10",
+        "-DEXP607_ARM=0",
+        "-DEXP607_AVX_CHOICE=0",
+        "-DEXP607_SSE_CHOICE=0",
+        "-std=c++17",
+        "-O3",
+        "-pipe",
+        "-fno-rtti",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-march=x86-64",
+        "-mtune=generic",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/build/overlay/include",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/src",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/include",
+        "-fno-exceptions",
+        "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+        "-DEXP580_PORT_PARSER",
+        "-DEXP581_PREFETCH",
+        "-DEXP582_BLOCK=64",
+        "-DEXP594_PACKED",
+        "-DEXP594_WRITER",
+        "-DEXP596_BATCH=32",
+        "-I",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd",
+        "/proc/977286/fd/11",
+        "/proc/977286/fd/12",
+        "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source/third_party/zstd/libzstd.a",
+        "-static",
+        "-s",
+        "-Wl,--wrap=malloc,--wrap=calloc,--wrap=realloc",
+        "-o",
+        "/proc/977286/fd/13"
+      ]
+    ],
+    "common_assets_root": "/home/lhj/lhjwork/eda2026/research/exp824/build/exp824",
+    "control_path": "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+    "formal_promotion": false,
+    "launch_request_path": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet/launch-request.json",
+    "measured_control": {
+      "elf": {
+        "bytes": 92848152,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat176-direct-curves/candidate/build/estimate",
+        "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+      },
+      "name": "EAT176",
+      "source_canonical_sha256": "fb09f4758e60407c36550db622bbdf6be10ebf98f8595769176cfd39cbaa4586"
+    },
+    "name": "eat237 positive full-domain directory child",
+    "native_model": {
+      "bytes": 7792,
+      "path": "include/native_representation212.h",
+      "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+    },
+    "original_source_id": "7c5cb26886e7e01556122a41a1f0fdb94e88444c50b181b1b2e0af990fa940b6",
+    "packet_root": "/home/lhj/lhjwork/eda2026/eat/research/eat243-positive-packet/packet",
+    "report_source_commit_observed": false,
+    "result_dir": "/home/lhj/lhjwork/eda2026/eat/results/eat239-positive-9af4ae7ea3fd-paired176",
+    "schema": "eat179-native-spec-v1",
+    "screen_only": false,
+    "source_archive": {
+      "bytes": 909188,
+      "sha256": "d2c63be2cbf4570ab02fc2b7fb86f1285516b9285dc856bb70757baecab48203"
+    },
+    "source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+    "source_files": {
+      "include/curve_origin654.h": {
+        "bytes": 44,
+        "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+      },
+      "include/direct_curve_restore.h": {
+        "bytes": 1175,
+        "sha256": "d272111f95f8b40f04ae9be6d8a0a916933021ad0a1ed3316bd5d41f92ea421d"
+      },
+      "include/exp579-models.h": {
+        "bytes": 228386,
+        "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+      },
+      "include/exp582_int8_geometry.h": {
+        "bytes": 4077,
+        "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+      },
+      "include/exp594_packed_output.h": {
+        "bytes": 2233,
+        "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+      },
+      "include/exp596_csv_batch.h": {
+        "bytes": 3242,
+        "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+      },
+      "include/exp601_port_parser.h": {
+        "bytes": 4929,
+        "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+      },
+      "include/exp608_geometry.h": {
+        "bytes": 4422,
+        "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+      },
+      "include/exp614_geometry_features.h": {
+        "bytes": 1852,
+        "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+      },
+      "include/exp652_distance_curve_lookup.h": {
+        "bytes": 1181,
+        "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+      },
+      "include/exp652_geometry_restore.h": {
+        "bytes": 1243,
+        "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+      },
+      "include/exp679_hv_events.h": {
+        "bytes": 495,
+        "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+      },
+      "include/exp707_prepare_metadata.h": {
+        "bytes": 4447,
+        "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+      },
+      "include/exp723_fused_parse.h": {
+        "bytes": 1423,
+        "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+      },
+      "include/exp779_surface_restore.h": {
+        "bytes": 3216,
+        "sha256": "951f0def3b26f6a22768a39fbbd63f18905e8fde1ba1e0f82cf2259876e2a52d"
+      },
+      "include/forced_bias.h": {
+        "bytes": 4872,
+        "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+      },
+      "include/native_representation212.h": {
+        "bytes": 7792,
+        "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+      },
+      "include/reference727.h": {
+        "bytes": 214182,
+        "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+      },
+      "include/replacement679.h": {
+        "bytes": 81678,
+        "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+      },
+      "include/surface_assets779.h": {
+        "bytes": 5194,
+        "sha256": "c55080a60189d7f590a0b761fdf1ef662a1be3fadaaa0d964bae8c6c8836c1f6"
+      },
+      "include/symmetric640.h": {
+        "bytes": 148840,
+        "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+      },
+      "src/architecture.cpp": {
+        "bytes": 14497,
+        "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03"
+      },
+      "src/architecture.h": {
+        "bytes": 10330,
+        "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+      },
+      "src/csv.h": {
+        "bytes": 3165,
+        "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+      },
+      "src/embedded_arch.cpp": {
+        "bytes": 5161384,
+        "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+      },
+      "src/embedded_arch.h": {
+        "bytes": 847,
+        "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+      },
+      "src/embedded_resolver_data.h": {
+        "bytes": 160657,
+        "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+      },
+      "src/entry.cpp": {
+        "bytes": 1338,
+        "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+      },
+      "src/json.h": {
+        "bytes": 7815,
+        "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+      },
+      "src/worker.cpp": {
+        "bytes": 15195,
+        "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+      },
+      "third_party/zstd/COPYRIGHT.libzstd": {
+        "bytes": 5389,
+        "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+      },
+      "third_party/zstd/libzstd.a": {
+        "bytes": 964146,
+        "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+      },
+      "third_party/zstd/zstd.h": {
+        "bytes": 171378,
+        "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+      }
+    },
+    "source_root": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source"
+  },
+  "schema": "eat179-native-source-manifest-v1",
+  "source_commit": "e0a7a86aaec8b0939974c90456eb36439a63d6e4",
+  "source_file_count": 33,
+  "source_files": {
+    "include/curve_origin654.h": {
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    "include/direct_curve_restore.h": {
+      "bytes": 1175,
+      "sha256": "d272111f95f8b40f04ae9be6d8a0a916933021ad0a1ed3316bd5d41f92ea421d"
+    },
+    "include/exp579-models.h": {
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    "include/exp582_int8_geometry.h": {
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    "include/exp594_packed_output.h": {
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+    },
+    "include/exp596_csv_batch.h": {
+      "bytes": 3242,
+      "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+    },
+    "include/exp601_port_parser.h": {
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    "include/exp608_geometry.h": {
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+    },
+    "include/exp614_geometry_features.h": {
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    "include/exp652_distance_curve_lookup.h": {
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    "include/exp652_geometry_restore.h": {
+      "bytes": 1243,
+      "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+    },
+    "include/exp679_hv_events.h": {
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    "include/exp707_prepare_metadata.h": {
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    "include/exp723_fused_parse.h": {
+      "bytes": 1423,
+      "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+    },
+    "include/exp779_surface_restore.h": {
+      "bytes": 3216,
+      "sha256": "951f0def3b26f6a22768a39fbbd63f18905e8fde1ba1e0f82cf2259876e2a52d"
+    },
+    "include/forced_bias.h": {
+      "bytes": 4872,
+      "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+    },
+    "include/native_representation212.h": {
+      "bytes": 7792,
+      "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+    },
+    "include/reference727.h": {
+      "bytes": 214182,
+      "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+    },
+    "include/replacement679.h": {
+      "bytes": 81678,
+      "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+    },
+    "include/surface_assets779.h": {
+      "bytes": 5194,
+      "sha256": "c55080a60189d7f590a0b761fdf1ef662a1be3fadaaa0d964bae8c6c8836c1f6"
+    },
+    "include/symmetric640.h": {
+      "bytes": 148840,
+      "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+    },
+    "src/architecture.cpp": {
+      "bytes": 14497,
+      "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03"
+    },
+    "src/architecture.h": {
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+    },
+    "src/csv.h": {
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    "src/embedded_arch.cpp": {
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    "src/embedded_arch.h": {
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    "src/embedded_resolver_data.h": {
+      "bytes": 160657,
+      "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+    },
+    "src/entry.cpp": {
+      "bytes": 1338,
+      "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+    },
+    "src/json.h": {
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    "src/worker.cpp": {
+      "bytes": 15195,
+      "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+    },
+    "third_party/zstd/COPYRIGHT.libzstd": {
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    },
+    "third_party/zstd/libzstd.a": {
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    "third_party/zstd/zstd.h": {
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    }
+  },
+  "source_parent_canonical_sha256": "fb09f4758e60407c36550db622bbdf6be10ebf98f8595769176cfd39cbaa4586"
+}

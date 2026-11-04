@@ -1,0 +1,562 @@
+{
+  "all_checks_passed": true,
+  "passed": false,
+  "warmup_futility_stop": false,
+  "warmup_cpu_s": {
+    "A": 15.918286,
+    "C": 18.227905999999997
+  },
+  "times_s": {
+    "A": [
+      15.669145,
+      15.647387,
+      15.673801999999998,
+      15.65299,
+      15.681078,
+      15.591473
+    ],
+    "C": [
+      18.15962,
+      18.170156,
+      18.211381000000003,
+      18.442016000000002,
+      18.196597,
+      18.185239
+    ]
+  },
+  "effect": {
+    "mean_s": -2.5748556666666675,
+    "ci95_s": [
+      -2.690741152839146,
+      -2.4589701804941893
+    ],
+    "paired_s": [
+      -2.490475,
+      -2.5227689999999985,
+      -2.5375790000000045,
+      -2.7890260000000016,
+      -2.515519000000001,
+      -2.5937659999999987
+    ]
+  },
+  "complete_runs": 14,
+  "evidence": [
+    {
+      "arm": "A",
+      "iteration": 0,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-0-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.346456,
+        "sys_s": 1.5718299999999998,
+        "cpu_s": 15.918286,
+        "wall_s": 15.921120062004775,
+        "rss_bytes": 269172736,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-0-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 0,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-0-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.270131,
+        "sys_s": 1.9577749999999998,
+        "cpu_s": 18.227905999999997,
+        "wall_s": 18.230765019077808,
+        "rss_bytes": 1496072192,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-0-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 1,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-1-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.098331,
+        "sys_s": 1.570814,
+        "cpu_s": 15.669145,
+        "wall_s": 15.67211304884404,
+        "rss_bytes": 269168640,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-1-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 1,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-1-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.210876,
+        "sys_s": 1.948744,
+        "cpu_s": 18.15962,
+        "wall_s": 18.16315239481628,
+        "rss_bytes": 1496068096,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-1-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 2,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-2-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.243458,
+        "sys_s": 1.926698,
+        "cpu_s": 18.170156,
+        "wall_s": 18.17380466684699,
+        "rss_bytes": 1496068096,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-2-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 2,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-2-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.155541,
+        "sys_s": 1.491846,
+        "cpu_s": 15.647387,
+        "wall_s": 15.650829150341451,
+        "rss_bytes": 269291520,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-2-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 3,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-3-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.137018,
+        "sys_s": 1.536784,
+        "cpu_s": 15.673801999999998,
+        "wall_s": 15.677262715995312,
+        "rss_bytes": 269213696,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-3-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 3,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-3-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.261662,
+        "sys_s": 1.949719,
+        "cpu_s": 18.211381000000003,
+        "wall_s": 18.21470160409808,
+        "rss_bytes": 1496068096,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-3-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 4,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-4-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.449231,
+        "sys_s": 1.992785,
+        "cpu_s": 18.442016000000002,
+        "wall_s": 18.44502385891974,
+        "rss_bytes": 1496072192,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-4-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 4,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-4-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.134088,
+        "sys_s": 1.518902,
+        "cpu_s": 15.65299,
+        "wall_s": 15.655551795847714,
+        "rss_bytes": 269172736,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-4-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 5,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-5-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 14.103272,
+        "sys_s": 1.5778059999999998,
+        "cpu_s": 15.681078,
+        "wall_s": 15.684205693658441,
+        "rss_bytes": 269172736,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-5-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 5,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-5-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.260853,
+        "sys_s": 1.935744,
+        "cpu_s": 18.196597,
+        "wall_s": 18.199699096847326,
+        "rss_bytes": 1496072192,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-5-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "C",
+      "iteration": 6,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp816-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-6-C.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 16.225429,
+        "sys_s": 1.95981,
+        "cpu_s": 18.185239,
+        "wall_s": 18.187939039897174,
+        "rss_bytes": 1496072192,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-6-C.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    },
+    {
+      "arm": "A",
+      "iteration": 6,
+      "run": {
+        "command": [
+          "taskset",
+          "-c",
+          "8",
+          "/dev/shm/eda2026-exp811-build/C",
+          "-in",
+          "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+          "-out",
+          "/dev/shm/eda2026-exp816-build/100m-6-A.csv"
+        ],
+        "exit_code": 0,
+        "user_s": 13.901747,
+        "sys_s": 1.6897259999999998,
+        "cpu_s": 15.591473,
+        "wall_s": 15.59453305695206,
+        "rss_bytes": 269172736,
+        "threads": 1
+      },
+      "output": {
+        "path": "/dev/shm/eda2026-exp816-build/100m-6-A.csv",
+        "bytes": 4013539201,
+        "sha256": "1095a3ec2191c3ed0e5b2da69f5679c5b1bb2c5be32391eccb753676536abc1c"
+      },
+      "contract": {
+        "rows": 100000000,
+        "input_bytes": 3519758631,
+        "output_bytes": 4013539201,
+        "sample_rows": 1916928,
+        "contract_passed": true
+      },
+      "contract_reused_by_full_sha": true
+    }
+  ],
+  "input": {
+    "path": "/dev/shm/eda2026-exp811-scale/u-role/requests.csv",
+    "bytes": 3519758631,
+    "sha256": "09f1ffd715b15076cbfe54707f6581db11fa516c6cb5e3f7ab873def1ed50026"
+  },
+  "same_complete_output": true,
+  "accuracy_change_pp": 0,
+  "accuracy_evidence": {
+    "path": "../exp811/validation/results/exp811/score/accuracy.json",
+    "bytes": 1721909,
+    "sha256": "2e0464108fd01d1e26eed5af7508a9a11775a0a4d8df0309e0182c6f7968a18d"
+  },
+  "platform_verified": false
+}

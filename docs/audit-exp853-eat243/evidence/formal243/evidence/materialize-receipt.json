@@ -1,0 +1,169 @@
+{
+  "main_remote_identities": {
+    "binary": {
+      "bytes": 86937624,
+      "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+    },
+    "build_report": {
+      "bytes": 26505,
+      "sha256": "2b64b3a058731b2c3fc6d6945307e7be59c420ed23d29c8f76349fd304ef1e2a"
+    },
+    "bundle": {
+      "assets": {
+        "direct_exact": {
+          "bytes": 2303669,
+          "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+        },
+        "direct_keys": {
+          "bytes": 133120,
+          "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+        },
+        "directory212": {
+          "bytes": 76014929,
+          "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+        },
+        "first212": {
+          "bytes": 876616,
+          "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+        },
+        "second212": {
+          "bytes": 70574,
+          "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+        }
+      },
+      "native_files": {
+        "include/native_representation212.h": {
+          "bytes": 7792,
+          "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+        },
+        "src/worker.cpp": {
+          "bytes": 15195,
+          "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+        }
+      }
+    },
+    "control": {
+      "bytes": 92848152,
+      "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+    },
+    "generated_assets": [
+      {
+        "bytes": 2303669,
+        "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+      },
+      {
+        "bytes": 133120,
+        "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+      },
+      {
+        "bytes": 76014929,
+        "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+      },
+      {
+        "bytes": 876616,
+        "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+      },
+      {
+        "bytes": 70574,
+        "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+      }
+    ],
+    "launch_request": {
+      "bytes": 7879,
+      "sha256": "fbc5d3502cb3275b4aac58290ea71b5def9e62a54ab2feaddeb9c769cd841364"
+    },
+    "native_spec": {
+      "bytes": 14458,
+      "sha256": "5c3f0e3a233ee899b9bdc5e8d6f9996b7e71bb97f27e9580e16d58882cb0ab26"
+    },
+    "source_root": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source",
+    "stage_root": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd"
+  },
+  "receipt": {
+    "at_unix": 1793716614.3363218,
+    "estimator_calls": 0,
+    "identities": {
+      "binary": {
+        "bytes": 86937624,
+        "sha256": "69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02"
+      },
+      "build_report": {
+        "bytes": 26505,
+        "sha256": "2b64b3a058731b2c3fc6d6945307e7be59c420ed23d29c8f76349fd304ef1e2a"
+      },
+      "bundle": {
+        "assets": {
+          "direct_exact": {
+            "bytes": 2303669,
+            "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+          },
+          "direct_keys": {
+            "bytes": 133120,
+            "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+          },
+          "directory212": {
+            "bytes": 76014929,
+            "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+          },
+          "first212": {
+            "bytes": 876616,
+            "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+          },
+          "second212": {
+            "bytes": 70574,
+            "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+          }
+        },
+        "native_files": {
+          "include/native_representation212.h": {
+            "bytes": 7792,
+            "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+          },
+          "src/worker.cpp": {
+            "bytes": 15195,
+            "sha256": "22f4a839b64b345846ade1babaf40bdacbeb5766fe969c4cb131b3a0dc1711ad"
+          }
+        }
+      },
+      "control": {
+        "bytes": 92848152,
+        "sha256": "f8b71580262a3088d7f4e15287dda9d90be586105eaf80a0d4411f3d93c4a689"
+      },
+      "generated_assets": [
+        {
+          "bytes": 2303669,
+          "sha256": "84c0c2453bdeb92c5801feec7fda407cf23580984123c61239e4f3673ecb155a"
+        },
+        {
+          "bytes": 133120,
+          "sha256": "2efc1b7208900d2a332f1abc5c992476aff8659cc8924a7178000ad0cab54170"
+        },
+        {
+          "bytes": 76014929,
+          "sha256": "b74cac540c361273eaaeb61d9162c8f50afbf13dd8fffc689512abbbc68ae2b9"
+        },
+        {
+          "bytes": 876616,
+          "sha256": "1ef0da0315ce6e434fa99be829b5fb32e91c801727183e3b83fa4e563de95cb3"
+        },
+        {
+          "bytes": 70574,
+          "sha256": "dcdb10d9450015b84a966a2811d07d02621cfab3d195a2944d256687a207493d"
+        }
+      ],
+      "launch_request": {
+        "bytes": 7879,
+        "sha256": "fbc5d3502cb3275b4aac58290ea71b5def9e62a54ab2feaddeb9c769cd841364"
+      },
+      "native_spec": {
+        "bytes": 14458,
+        "sha256": "5c3f0e3a233ee899b9bdc5e8d6f9996b7e71bb97f27e9580e16d58882cb0ab26"
+      },
+      "source_root": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd/source",
+      "stage_root": "/home/lhj/lhjwork/eda2026/eat/research/eat239-positive-9af4ae7ea3fd"
+    },
+    "remote_launches": 0,
+    "schema": "eat239-positive-materialize-receipt-v1",
+    "status": "materialized"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "all_passed": true,
+  "timing": {
+    "path": "validation/results/exp381/timing.json",
+    "bytes": 39927,
+    "sha256": "d429f806aa0886fe3a46f44568beca078f9c3d290fdd3a6458d1c8ce15478929"
+  },
+  "paired": {
+    "baseline": {
+      "a": "baseline",
+      "b": "candidate",
+      "delta_b_minus_a_s": [
+        -4.959999999999994,
+        -5.040000000000006,
+        -5.019999999999996
+      ],
+      "mean_delta_s": -5.006666666666665,
+      "ci95_with_rounding_s": [
+        -5.130089566921413,
+        -4.883243766411917
+      ],
+      "saved_fraction": 0.04380285797608631
+    },
+    "control": {
+      "a": "control",
+      "b": "candidate",
+      "delta_b_minus_a_s": [
+        7.6200000000000045,
+        7.319999999999993,
+        7.679999999999993
+      ],
+      "mean_delta_s": 7.5399999999999965,
+      "ci95_with_rounding_s": [
+        7.040876869295325,
+        8.039123130704667
+      ],
+      "saved_fraction": -0.07410076655965403
+    }
+  },
+  "mean_cpu_s": {
+    "baseline": 114.3,
+    "control": 101.75333333333333,
+    "candidate": 109.29333333333334
+  },
+  "accuracy_pp": 99.01069721418632,
+  "changed_rows": 0,
+  "new_exact_cpu_s": 0,
+  "new_scoring_cpu_s": 0,
+  "estimator_cpu_s": "992.03",
+  "max_rss_bytes": {
+    "baseline": 1693642752,
+    "control": 1669808128,
+    "candidate": 1356599296
+  },
+  "reported_init_s": {
+    "baseline": [
+      2.8,
+      2.8,
+      2.8,
+      2.8
+    ],
+    "control": [
+      2.7,
+      2.7,
+      2.7,
+      2.7
+    ],
+    "candidate": [
+      4.6,
+      4.7,
+      4.6,
+      4.6
+    ]
+  },
+  "two_size_slope_us_per_row": {
+    "baseline": 111.73469387755102,
+    "control": 99.1360544217687,
+    "candidate": 104.79931972789116
+  },
+  "two_size_assumption": "Same startup cost; 20k and public distributions differ, descriptive only.",
+  "enter_10m": false,
+  "verdict_vs_control": "slower",
+  "scope": "Public full unique 1M, three paired rounds; 10M/100M/1B and other architectures pending."
+}
