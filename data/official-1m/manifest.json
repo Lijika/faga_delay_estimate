@@ -1,0 +1,45 @@
+{
+  "schema": "eda2026-official-public-1m-v1",
+  "files": [
+    {
+      "file": "delay_estimate_request.csv.gz",
+      "bytes": 10420377,
+      "sha256": "28dc2c64c764654d9a7606732b277e9c24fbcc5f0f5e405c4eb645987a5cbaf3",
+      "uncompressed_file": "delay_estimate_request.csv",
+      "uncompressed_bytes": 35394624,
+      "uncompressed_sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510",
+      "rows_excluding_header": 1000000,
+      "source_project_path": "delay_estimate_request.csv",
+      "provenance": "Request columns From,To extracted from the official golden file in original row order; existing project request file preserved byte-for-byte."
+    },
+    {
+      "file": "delay_estimate_ans.csv.gz",
+      "bytes": 13279320,
+      "sha256": "bc911df3e366327cb225b632d7a00ee3c441d68adc6206361df8350ded575ff6",
+      "uncompressed_file": "delay_estimate_ans.csv",
+      "uncompressed_bytes": 41333954,
+      "uncompressed_sha256": "2d3350b1aed4b7489fbd2fc361b2d680a422db218159a07938782ed850b4c19f",
+      "rows_excluding_header": 1000000,
+      "source_project_path": "doc/eda比赛文件/data/delay_estimate_ans.csv",
+      "provenance": "Official public golden CSV from the contest architecture/data package; preserved byte-for-byte."
+    }
+  ],
+  "validation": {
+    "rows_per_file": 1000000,
+    "request_header": [
+      "From",
+      "To"
+    ],
+    "answer_header": [
+      "From",
+      "To",
+      "delay"
+    ],
+    "all_request_endpoints_match_answer_row_order": true,
+    "golden_delays_nonnegative_integers": true,
+    "zero_delay_rows": 1,
+    "gzip_roundtrip_sha256": "passed"
+  },
+  "scope": "Public development/test data. Contains published golden labels. This upload did not run the estimator or measure accuracy/CPU.",
+  "compression": "gzip -n -9 -c (no original filename or timestamp in gzip header)"
+}

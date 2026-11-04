@@ -46,6 +46,10 @@ static executable smaller than 100,000,000 bytes. Intermediate files stay in
 `source/build/`, which is ignored by Git. See
 [`source/README.md`](source/README.md) for source identity and build details.
 
+The [official public 1M dataset](data/official-1m/) includes the published golden
+answers and matching two-column requests as lossless gzip files, with
+decompression commands and SHA-256 checksums.
+
 ## Release identity and measured evidence
 
 - Source producer commit: `e0a7a86aaec8b0939974c90456eb36439a63d6e4`.
