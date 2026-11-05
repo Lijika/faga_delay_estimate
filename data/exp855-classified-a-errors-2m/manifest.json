@@ -1,0 +1,91 @@
+{
+  "dataset": "exp855-classified-a-errors-2m",
+  "created_date": "2026-11-05",
+  "rows": 2000000,
+  "columns": [
+    "From",
+    "To",
+    "exact",
+    "exp855_prediction",
+    "a_row_id",
+    "stratum_id"
+  ],
+  "a_row_id": "1-based data row in classified A; excludes header; sampled rows retain A order",
+  "source_dataset": "eda-classified-test-a-100m",
+  "source_input": {
+    "bytes": 3516896561,
+    "sha256": "a706caa0a655185834c5a7b7b2a6018502c43ba5d4066e9b09d051b8eb6a4986"
+  },
+  "source_exact": {
+    "bytes": 3965355027,
+    "sha256": "5a19ad55eab2f708707dbd76eded60e75da4046aaeaba1e68dba490efbdd7c42"
+  },
+  "source_prediction": {
+    "bytes": 3965305194,
+    "sha256": "5ae984464bfeeb2d49fbb99a308cca14637083135fae5afe6983708277d67d07"
+  },
+  "predictor": {
+    "version": "exp855 GPT Pro fast",
+    "elf_bytes": 99418200,
+    "elf_sha256": "4674fd2846a3e029cc6f0812da097a38c29b43e258dd86777996ebb0eda648fc"
+  },
+  "population_rows": 100000000,
+  "error_population_rows": 37892952,
+  "source_full_accuracy_pp": 98.27010331247793,
+  "comparison_B_full_accuracy_pp": 98.27052590985014,
+  "error_population_accuracy_pp": 95.434779830491,
+  "sample_unweighted_accuracy_pp": 95.416786381786,
+  "sample_weighted_error_population_accuracy_pp": 95.434010842737,
+  "selection_condition": "exp855_prediction != exact",
+  "seed": 85520261105,
+  "possible_strata": 4536,
+  "occupied_strata": 3367,
+  "stratification": [
+    "Manhattan distance",
+    "source family",
+    "target family",
+    "under/over",
+    "relative error interval"
+  ],
+  "distance_bins": [
+    "0",
+    "1-12",
+    "13-24",
+    "25-50",
+    "51-100",
+    "101-300",
+    "301+"
+  ],
+  "relative_error_bins": {
+    "1": "(0,0.1%]",
+    "2": "(0.1%,0.5%]",
+    "3": "(0.5%,1%]",
+    "4": "(1%,2%]",
+    "5": "(2%,5%]",
+    "6": "(5%,10%]",
+    "7": "(10%,20%]",
+    "8": "(20%,50%]",
+    "9": "(50%,infinity)"
+  },
+  "allocation": "one per occupied stratum, then proportional allocation of remaining slots by largest remainder (ties by stratum id)",
+  "within_stratum_sampling": "uniform reservoir sampling without replacement, SplitMix64 seed85520261105, modulo-rejection bounded draws",
+  "weight": "sampling.json inverse_probability_weight = population_rows/sample_rows in each stratum; describes erroneous A rows only",
+  "all_error_port_pairs_covered": true,
+  "raw": {
+    "file": "errors-2m.csv",
+    "bytes": 117075835,
+    "sha256": "c2cdceede2901b4e14d5abe8a104ad1f7886f99b1816a1464bf34ed5c09b7b12"
+  },
+  "compressed": {
+    "file": "errors-2m.csv.gz",
+    "bytes": 43887982,
+    "sha256": "eb2d40f47c8085af11ee2a20c9b2f42f2bccaf2aabaf70694b7cf91bdea763af"
+  },
+  "limitations": [
+    "A has already been used for training/development; this is an error-focused development dataset.",
+    "B is excluded from this sample.",
+    "Supplied exact-label solver provenance has not been independently established.",
+    "Original ten generator-class labels were absent; strata use verifiable endpoint and prediction properties.",
+    "Unweighted sample metrics describe selected errors, not complete100M accuracy."
+  ]
+}

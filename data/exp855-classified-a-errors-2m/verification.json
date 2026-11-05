@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "same_exp855_prediction_sha": true,
+  "rows": 2000000,
+  "all_predictions_differ": true,
+  "all_directed_pairs_unique": true,
+  "row_ids_unique_sorted_and_in_A": true,
+  "all_strata_recomputed_and_quotas_match": true,
+  "nonempty_strata": 3367,
+  "source_ports": 208,
+  "target_ports": 288,
+  "error_population_port_pairs": 59904,
+  "sample_port_pairs": 59904,
+  "gzip_roundtrip_sha256_equal": true,
+  "raw": {
+    "file": "errors-2m.csv",
+    "bytes": 117075835,
+    "sha256": "c2cdceede2901b4e14d5abe8a104ad1f7886f99b1816a1464bf34ed5c09b7b12"
+  },
+  "compressed": {
+    "file": "errors-2m.csv.gz",
+    "bytes": 43887982,
+    "sha256": "eb2d40f47c8085af11ee2a20c9b2f42f2bccaf2aabaf70694b7cf91bdea763af"
+  },
+  "verified_at_unix": 1793893317.2549324
+}
