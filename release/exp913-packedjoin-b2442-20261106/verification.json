@@ -1,0 +1,741 @@
+{
+  "status": "complete",
+  "pid": 2225089,
+  "phase": "gate",
+  "hardware": {
+    "hostname": "lhj-R4900-G3",
+    "cpu": 8,
+    "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a"
+  },
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/exp913_verify.py",
+    "bytes": 10700,
+    "sha256": "1c3e63bdcdb16fb327bcd9b1eccb48c528868daa522a2c317c342513a6bae5f0"
+  },
+  "evaluator": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/gpt-pro-self-contained-20261105/evaluation-tools/run_remote.py",
+    "bytes": 13606,
+    "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+  },
+  "runs": [
+    {
+      "name": "official1m_donor",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/supplied-PackedJoin",
+        "bytes": 99192872,
+        "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.31 0.13 0.28 1/1113 2225144\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_donor/clean-dgracx1f/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.559595999999999,
+        "sys_s": 0.847837,
+        "cpu_s": 13.407433,
+        "wall_s": 13.410458188969642,
+        "rss_bytes": 1950527488,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "supplied_PackedJoin",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_auto_1",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.42 0.16 0.29 1/1114 2225172\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_1/clean-h1hsfv7i/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.596936,
+        "sys_s": 0.880925,
+        "cpu_s": 13.477860999999999,
+        "wall_s": 13.480523810256273,
+        "rss_bytes": 1964847104,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_auto_2",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.55 0.20 0.30 1/1114 2225196\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_2/clean-kmy6dd4e/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.59482,
+        "sys_s": 0.9059149999999999,
+        "cpu_s": 13.500735,
+        "wall_s": 13.503819456789643,
+        "rss_bytes": 1964847104,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_auto_3",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.65 0.24 0.31 1/1114 2225214\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_3/clean-talow57b/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.499183,
+        "sys_s": 0.9248649999999999,
+        "cpu_s": 13.424048,
+        "wall_s": 13.427279681898654,
+        "rss_bytes": 1964843008,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_auto_4",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.73 0.28 0.33 1/1112 2225241\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_4/clean-9lbhrhe8/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.568047,
+        "sys_s": 0.872864,
+        "cpu_s": 13.440911,
+        "wall_s": 13.443936502560973,
+        "rss_bytes": 1964847104,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_auto_5",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.87 0.33 0.34 1/1112 2225265\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_5/clean-kcw3ly4r/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.575611,
+        "sys_s": 0.9048999999999999,
+        "cpu_s": 13.480511,
+        "wall_s": 13.482559602707624,
+        "rss_bytes": 1964900352,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "official1m_generic",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+        "bytes": 99299416,
+        "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+        "bytes": 35394624,
+        "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+      },
+      "load_before": "0.90 0.36 0.35 1/1111 2225282\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_generic/clean-vagw6_8f/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 15.619382,
+        "sys_s": 0.911847,
+        "cpu_s": 16.531229,
+        "wall_s": 16.53382969973609,
+        "rss_bytes": 1964478464,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40333592,
+        "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35394624,
+        "output_bytes": 40333592,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "exact": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+        "bytes": 40333953,
+        "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+      },
+      "accuracy": {
+        "rows": 1000000,
+        "accuracy_pp": 99.21508547390856,
+        "point_sum": 992150.8547390855,
+        "exact_rows": 394714,
+        "zero_exact_rows": 1,
+        "zero_matches": 1,
+        "missing_predictions": 0,
+        "positive_scored_rows": 999999,
+        "over_rows": 280219,
+        "under_rows": 325067,
+        "within5_rows": 995970,
+        "absolute_error_sum": 5088463,
+        "relative_error_sum": 1979.3853574024956,
+        "signed_error_sum": -3132133,
+        "max_absolute_error": 354,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "cpu_path": "generic_sse2",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "role1m_auto",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      },
+      "load_before": "0.92 0.40 0.37 1/1111 2225306\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/role1m_auto/clean-wj19l6ov/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 12.601863,
+        "sys_s": 0.8768509999999999,
+        "cpu_s": 13.478714,
+        "wall_s": 13.480713963042945,
+        "rss_bytes": 1964843008,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40136198,
+        "sha256": "2f6e5949b856c4bdcc331606219ed8251e5fdc8334e4f3aeacbcd74b361def36"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35198280,
+        "output_bytes": 40136198,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "cpu_path": "cascade6226r6242r",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    },
+    {
+      "name": "role1m_generic",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+        "bytes": 99299416,
+        "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+      },
+      "rows": 1000000,
+      "input": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+        "bytes": 35198280,
+        "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+      },
+      "load_before": "0.94 0.43 0.38 1/1111 2225329\n",
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/role1m_generic/clean-sew3ugll/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+          "-out",
+          "/proc/2225089/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 15.607222,
+        "sys_s": 0.8699,
+        "cpu_s": 16.477122,
+        "wall_s": 16.47945750784129,
+        "rss_bytes": 1964343296,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2225089/fd/4",
+        "bytes": 40136198,
+        "sha256": "2f6e5949b856c4bdcc331606219ed8251e5fdc8334e4f3aeacbcd74b361def36"
+      },
+      "contract": {
+        "rows": 1000000,
+        "input_bytes": 35198280,
+        "output_bytes": 40136198,
+        "sample_rows": 1,
+        "contract_passed": true
+      },
+      "cpu_path": "generic_sse2",
+      "query_allocations_zero": true,
+      "prediction_deleted": true
+    }
+  ],
+  "official_platform_verified": false,
+  "source_manifest": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/source/source-manifest.json",
+    "bytes": 12381,
+    "sha256": "bbd2ff64a7fec9a20d768f9a865a75a2109044cb6291f5a0b999de6076e7e206"
+  },
+  "binary": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+    "bytes": 99329624,
+    "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+  },
+  "static_linked": true,
+  "checker": {
+    "path": "/home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check",
+    "bytes": 48080,
+    "sha256": "976aecc9ec5899fc6d0ff19d0182d5f4f4e997fe63eee67002dc4ca6a56baa2b"
+  },
+  "scorer": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp858-diverse-models/tools/full-accuracy",
+    "bytes": 21072,
+    "sha256": "f434d7493232ba7005f32af89e03d8884b9d9566a1aa57efab164301b0976f1b"
+  },
+  "generic_binary": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+    "bytes": 99299416,
+    "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+  },
+  "donor_binary": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/supplied-PackedJoin",
+    "bytes": 99192872,
+    "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b"
+  },
+  "full1m_gate_passed": true,
+  "five_run_consistency_passed": true,
+  "both_paths_equal": true,
+  "supplied_packedjoin_equal": true
+}

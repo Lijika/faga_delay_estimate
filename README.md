@@ -1,8 +1,13 @@
 # FPGA SRB Delay Estimator
 
 This repository contains the formal stage release
-`exp853-eat243-lossless-directory-20261104`, its complete build inputs, and the
-official contest materials in [`docs/task/`](docs/task/).
+`exp913-packedjoin-b2442-20261106`, its complete frozen source and build assets,
+and the official contest materials in [`docs/task/`](docs/task/).
+
+The current source is in
+[`source/exp913-packedjoin-b2442-20261106/`](source/exp913-packedjoin-b2442-20261106/).
+Its 403 files match the immutable release byte for byte. The earlier EAT243
+source and assets remain at their existing paths under `source/`.
 
 The [development-history audit](docs/audit-exp853-eat243/00-阅读入口与结论.md)
 covers the project through EAT243 with seven reports, all 1,018 experiment
@@ -17,61 +22,75 @@ executable.
 
 ## Current algorithm
 
-EAT243 uses a lossless full-domain directory representation, building on
-EAT176's direct access to 33,280 nominal curves and EAT117's zero raw term for
-ordinary `event679 == 0` requests. Ordinary requests covered by the direct
-curves read one curve; other requests retain the A/B surface representation.
-Event, cycle, forced-bias and final integer-composition logic remain in the
-frozen source.
+PackedJoin uses its supplied prediction model and bounded physical-correction
+tables. The integration retains B2442 initialization, source-by-source memory
+release, batch64 parsing and output, and the existing CPU dispatch.
+Other x86-64 processors use the SSE2 path; Xeon Gold 6242R and 6226R use the
+Cascade Lake path after model and usable-instruction checks.
 
-The EAT243 release preserves EAT176's complete output on the measured 1B
-input and reduces CPU cost. Its 33 compiled source/library files and five
-generated assets are checked against their release SHA-256 manifests before
-building. The five original architecture JSON files remain in `source/arch/`.
+The frozen source includes the model, architecture and correction assets,
+static Zstandard library, XZ decoder and licenses. `model_reproduction/`
+preserves historical exp855/exp858 training material; the current model's
+provenance is recorded in `manifest.json` and
+[`release/exp913-packedjoin-b2442-20261106/supplied-PackedJoin.json`](release/exp913-packedjoin-b2442-20261106/supplied-PackedJoin.json).
 
 ## Build and run
 
 Requires Linux x86-64, Python 3, GCC/G++ with static runtime libraries, and GNU
-binutils (`readelf`). All prediction assets and the static Zstandard library
-are included.
+binutils (`readelf`). The measured build used r9, Ubuntu 22.04 and GCC 11.4.0.
 
 ```sh
-cd source
-python3 -B build.py
-./build/estimate -in request.csv -out result.csv
+cd source/exp913-packedjoin-b2442-20261106
+python3 -B build.py --variant fast --mode source --out-dir build
+./build/fast/estimate -in request.csv -out result.csv
 ```
 
-The builder checks the frozen inputs, embeds all five assets, and verifies a
-static executable smaller than 100,000,000 bytes. Intermediate files stay in
-`source/build/`, which is ignored by Git. See
-[`source/README.md`](source/README.md) for source identity and build details.
+The builder checks the assets, embeds the runtime data and verifies a static
+executable smaller than 100,000,000 bytes. Build products stay in the version's
+ignored `build/` directory. Other toolchains can produce different ELF bytes.
+The [export verification](release/exp913-packedjoin-b2442-20261106/export-verification.json)
+records file equality with the tested release and the reused build evidence.
 
-The [official public 1M dataset](data/official-1m/) includes the published golden
-answers and matching two-column requests as lossless gzip files, with
-decompression commands and SHA-256 checksums.
+The [official public 1M dataset](data/official-1m/) includes published golden
+answers and matching two-column requests. The
+[classified-A error sample](data/exp855-classified-a-errors-2m/) contains the
+representative 2M request pairs selected from exp855's errors.
 
 ## Release identity and measured evidence
 
-- Source producer commit: `e0a7a86aaec8b0939974c90456eb36439a63d6e4`.
-- Canonical 33-file source SHA-256: `c799b57b0a4b88d9ea61fb8c5af0623655238236108fc34ac1bec3f2cfc4d3f8`.
-- Frozen executable: 86,937,624 bytes, SHA-256 `69df6c6c0f8cb119e742b2662c609997be9f381681090dca1751ed4a97868c02`.
-- Build assets: five files, 79,398,908 bytes.
+- Static ELF: 99,329,624 bytes.
+- ELF SHA-256: `c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0`.
+- Maximum measured estimator RSS: 1,965,051,904 bytes.
+- Full official 1M Acc: 99.21508547390856%.
+- Five automatic official-1M runs, the generic path and the supplied PackedJoin
+  executable produced identical complete outputs.
 
-The registered r9 CPU8 comparison used one exposed, non-repeating 1B
-development input, with AB warmups and ABBA/BAAB/ABBA timed blocks. Six timed
-runs per arm measured mean CPU of 128.6063381667 seconds for EAT176 and
-125.208939 seconds for EAT243. All 14 full outputs matched. Same-output
-scoring of 3,833,856 exact-labeled samples across 59,904 role pairs gave
-unchanged Acc of 98.8553428375%. The paired score gain was 0.0283116597 points,
-with a registered joint one-sided 95% lower bound of 0.0206945414.
+| Measured input | Acc | Complete-program CPU |
+| --- | ---: | ---: |
+| Classified A, full 100M | 99.28377634074471% | 33.263258 s |
+| Classified B, full 100M | 99.28428301373597% | 33.228675 s |
+| A/B combined, full 200M | 99.28402967724034% | — |
+| Nonrepeating 1B, first run | 99.29060347284297% sampled | 142.663580 s |
+| Nonrepeating 1B, second run | 99.29060347284297% sampled | 142.605567 s |
 
-These records describe the frozen development distribution and its sampled
-exact labels. Unknown-input generalization, all-row 1B exact accuracy,
-official-platform results, Acc above 99%, approximately 100-second CPU, and
-the official consecutive-five protocol remain unverified. Source and asset
-identities are recorded in [`release/`](release/); export build and complete
-1M parity checks are recorded in
-[`release/export-verification.json`](release/export-verification.json).
+The 1B score uses 3,833,856 stratified exact labels across 59,904 role pairs,
+64 samples per pair, weighted by population. Its within-pair sampling 95%
+interval is [99.28828048856931%, 99.29292645711664%]. This interval excludes
+model-selection uncertainty and dependence between source families. These
+inputs have been observed during development.
 
-The current tree contains the latest formal source and required assets.
-Earlier algorithm versions remain available through Git history.
+The two complete 1B outputs have identical SHA-256. Mean CPU was
+142.6345735 seconds, with a 0.058013-second range. Two runs describe this
+observed spread; longer-term stability remains to be measured.
+
+All measured runs passed the output contract, single-thread, 2,000,000,000-byte
+RSS and 3,600-second limits. RSS remains above the preferred 1.9 GB, and the
+90-second CPU target is pending. Official-platform results, 6242R hardware,
+all-row 1B exact accuracy and fresh hidden-input performance remain unverified.
+Supplied A/B labels were used as provided; their solver provenance has not been
+independently verified.
+
+Frozen build and publication records are in
+[`release/exp913-packedjoin-b2442-20261106/`](release/exp913-packedjoin-b2442-20261106/).
+`version.json` preserves publication-time status; `summary.json`, `full1b.json`
+and the classified result files contain the completed measurements.

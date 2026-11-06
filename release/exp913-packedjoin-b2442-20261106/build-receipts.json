@@ -1,0 +1,11 @@
+[
+  {
+    "variant": "fast",
+    "mode": "source",
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+    "bytes": 99329624,
+    "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0",
+    "matches_historical_release_sha256": false,
+    "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0"
+  }
+]

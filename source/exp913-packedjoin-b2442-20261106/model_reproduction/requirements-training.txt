@@ -1,0 +1,8 @@
+# Full retraining requires these Python packages.
+# Original historical exact package versions are not recorded in the frozen archive.
+# Pin with `python3 -m pip freeze > training-environment.lock.txt` before experiments.
+numpy
+scipy
+scikit-learn
+pandas
+zstandard

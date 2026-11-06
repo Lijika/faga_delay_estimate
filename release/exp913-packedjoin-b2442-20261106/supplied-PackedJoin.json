@@ -1,0 +1,188 @@
+{
+ "bytes": 99192872,
+ "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b",
+ "files": {
+  "build.py": "c7cf45a49694f7a07b264761212627c4ae033a0f01f3d85c78ba9084b61a78b6",
+  "manifest.json": "b376063eb1f0f4533629c3e535f158225629bfb48e2943208b144c45a42b432a",
+  "shared/native_representation212.h": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281",
+  "shared/event_mask.inc": "61ffc716a649543bfb11533ca663f8fbba45ca2afa5a6f02b488068e6e233328",
+  "shared/entry.cpp": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655",
+  "shared/arch.cpp": "5723c460f555f10ef598850f834c7c19a86f58eebda9d22ab70c76db1de4112d",
+  "shared/mask-fns.inc": "1f8d62cac9a5fbf6d1c758e3bb465922690b8839db22c2f0e25ee8c6cf58c922",
+  "shared/post5.inc": "7694d89c6bc4ccbcb24491b9f64232830ada266ed9807f3eab0712494178e12c",
+  "shared/symmetric640.h": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744",
+  "shared/exp579-models.h": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7",
+  "shared/vector.inc": "cf67e48b5e5467d276d3229dbd1c66b03e01ef2d1bf82945732dfe32816bcc51",
+  "shared/architecture.h": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447",
+  "shared/architecture.cpp": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03",
+  "shared/forced_bias.h": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5",
+  "shared/outputWeights.inc": "638da8c097f01117fa432d85ea5041f03456ffa7ca5294cd717781b6c44f9e45",
+  "shared/nearOrder.inc": "f96c979003aad56d05db1a61bebb33c8597d9819442dee1b63d681e0cf16047f",
+  "shared/exp596_csv_batch.h": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81",
+  "shared/aqScale.inc": "4dc4d74bb5ddad5b4c2e1a78e51c813a9aa834f3ea41dc47c51309287b3cb1fd",
+  "shared/post0.inc": "5fff5636945647e3ba50a2d0d4274883c118c3825f9ec6e47fec7eb7100c5541",
+  "shared/post1.inc": "9a13ba194d63452d8e7338788d2546d4bc6abcad6324c13d380bb69d6642863b",
+  "shared/aq-kernel.inc": "fc1b454a969d6a1b14b0f61953a9fe36111f2f791cb9c465b2a9475bb6a8d3ae",
+  "shared/nearIdx.inc": "2091ac49a65e394426989324db0182c6ee4c618e8d37a90901741d4822169141",
+  "shared/compact.inc": "f0ff5f7c8f5588585c2d1cbe50eb7d99b9e8a1b9b4b97f93cab2845e20c15db0",
+  "shared/json.h": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013",
+  "shared/exp723_fused_parse.h": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1",
+  "shared/smallplan.inc": "5c5b7e45f5521f67133cc49e1efa4270fc7e72e1ec7820367db69755b88e9bac",
+  "shared/exp707_prepare_metadata.h": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed",
+  "shared/exp679_hv_events.h": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9",
+  "shared/reference727.h": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71",
+  "shared/embedded_arch.h": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea",
+  "shared/params.h": "060d79c4ea8eb124a07fc345b9dd103f60f952928168c6c969a8fca2735492e9",
+  "shared/exp614_geometry_features.h": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32",
+  "shared/treeRoots.inc": "2f21f98598ff1890b7fad317bcd0c212a88735874b5c6b1e6f285396e8f4585a",
+  "shared/post3.inc": "bf60de403ab4843af33920c3976523c5865146ac90ff0e685be21eebb483eaba",
+  "shared/post4.inc": "353bc5a7134c90b48a05aeb20f86608cdbb5946184597438ab513ec8c2dca649",
+  "shared/csv.h": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b",
+  "shared/embedded_resolver_data.h": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2",
+  "shared/exp601_port_parser.h": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf",
+  "shared/outputIdx.inc": "171c7d8313a4a6de917b1f14e13b1374df54f2dd9f8661f8737220e13999886a",
+  "shared/frameBytes.inc": "1434779136b95f83e21616763ca2be54e8f40b09ae098f2a3d7d567427f07374",
+  "shared/replacement679.h": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d",
+  "shared/nearWeights.inc": "2870ca4a7ac41a2c1fd73fcb9dcae0fcc144b8e08fc04c60d8b71445379e947e",
+  "shared/exp594_packed_output.h": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347",
+  "shared/post2.inc": "9a22e732c0f7319eb2e2ebf419a3b396021ce07281ceb8316d165c15a154e634",
+  "speed/g4.h": "488cc07bf30ed595260ca13d0e5406a1ca0b71d21b14a1cc243903acfd2f8dcb",
+  "speed/aq-modelvec.inc": "344a5f701d03e966d2ce98af61fc87a4f7e5eba3c7b5541c9f5f7c7124b3f40d",
+  "speed/stripe.inc": "35e3c695fd44e6a0088cd2a7027c99873a9d8601dbf5ef3654cf126b1e939385",
+  "speed/worker.o": "75680084d26871911e2bb79acf475e998116d403aacedb904ab98256c3c5fa7a",
+  "speed/env_margin.inc": "ed48dd4779bd478864bcbc2236edbf921cfc2320d8cc03a7fa80eb50f82233b9",
+  "speed/fargroup.inc": "e74239aa852801c1a0a8a8dffa8c19034dca51bdd730ac9c8c7298057ade3aee",
+  "speed/aqbatch.inc": "171463762e34a3f6393e489b8f065369cdb394be1c2200f093b3ef7d6e754341",
+  "speed/field_source.inc": "ed06942ced81a830a7d70000d781bb2aba51fe66d01c8e62ca6a5a4c2c580a51",
+  "speed/worker.cpp": "8f1b5c7bfe4ef7a4b0e8a2a0639003600760d25fb134556b43ca0c81fcb2e5b8",
+  "speed/cut.inc": "c83b6a30e6153653d96c3da927293cc13051a81175d5b5529165e7d8d832ed42",
+  "speed/newring.inc": "bea5416ad6e4cbb2c8cdb6325d192e06d36f3483a35826c2ead9116349d1f703",
+  "exact/aq-modelvec.inc": "3f24c3ebdf17437a3e083827d1ef7e6ff5faa1a872d888a85c79c5b26a549a4e",
+  "exact/dec-batch.inc": "0dfb283f560bd95c4c64f459ac9ecec7c90883290a030fdbaf677c431d49e38f",
+  "exact/worker.o": "977e72e297c7ee9f0eaa160a032d41492ead5d48a246d69c501b933880efceb6",
+  "exact/aqgames7.h": "eb34b52e4082740c2acc355481d4bbe180134a9c28699e23a68e20cfd190c0d1",
+  "exact/worker.cpp": "4bfac3a1e07e95947a5a9373ac7f2435f8c5f0e53f1d999459961e46d47ebd54",
+  "exact/left-vbmi.inc": "c650241e72013ec2c68edc1426977e58e494e54802437cb97a07def0d0ab9fdd",
+  "near/near40.cpp": "d94b9733f3e83d76f17de5939e10cb928d444be4389c86e09f9e24f0f8ad4ab5",
+  "near/near40.o": "cd12ab311c061031c5965b543891f0d0fc92b87bdfb4771f52e3a40adf0004cf",
+  "near/mask.zst": "750e4bb3352e516102401edd6a108da4fce701961fe05863910b58fcedf7c24b",
+  "near/topology.dat": "33f4f4ec29d4c21822b0f694fbe358337d1b49a1c1e0e67a13b4c072dba0ed99",
+  "near/near40-assets.o": "ac4476e867cbc392eb83d52aeff7550d2f35f045b4be1c6d211ea8ef6f6bc02c",
+  "near/near40.hpp": "b822a4d85731ae143f1506146679e825b12fa6fc23f677df8b843dc425c5f2d6",
+  "libraries/zstd.h": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8",
+  "libraries/libzstd.a": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab",
+  "libraries/COPYRIGHT.libzstd": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49",
+  "libraries/xz/ORIGIN.md": "6a0ccb02815314ec46661082ae10c6196eac127d90413cd08cf8867deaedd39f",
+  "libraries/xz/xz_stream.h": "89e80af27003ad39f3122ad447861ec574fa235a0c6339c26bb48a53c3d9e12b",
+  "libraries/xz/xz_dec_stream.c": "bb5d29c33bd29b7d7993ae6b1a60f1750c509b1935fe2d28d46dfd8c5f46e9ce",
+  "libraries/xz/xz.h": "59196b9c8296815f6a029f26d202bcd404078e27fc6e9bc4077db5f6865664c7",
+  "libraries/xz/xz_lzma2.h": "5681cf01bdcfab8907c02194eeaf9d4415166b3b5d48b50a34df809276f63aa1",
+  "libraries/xz/xz_config.h": "25fba71668254ba56709e9c176521a24a304b5521a9a337fb51d8334fa07e875",
+  "libraries/xz/xz_private.h": "9d8d116354cca408ef17a10cd544a955ea5d26e8f9f50885e99adab9135917d5",
+  "libraries/xz/COPYING": "d9ff4f089509582e7b197e86f3d2d66948b89169f27c1f2349eb0d1ed4459309",
+  "libraries/xz/xz_dec_lzma2.c": "248dcd23e186b179a3fd1f5150c70cde13670521251e62bc44b15c99241491c4",
+  "libraries/xz/xz_crc32.c": "e6373b6d1aa11535260e153d8d7c62485ce82fbcb1d9dd66e6d984025771eec6",
+  "model/p1.zst": "e82c025c5a0b40381333a1a9a499c8cddb41b7b819ec29217bd9b0bf40059dcb",
+  "model/newfield.zst": "eb08d26d1477df93946aade1d1324e224e3ead46a5742971853c56e91c9d83e8",
+  "model/field.zst": "c9821a70448226c6ad281279a8bbdc972e38a0a63a86b28a0b1dddd96fbc9d86",
+  "model/arch.bin": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b",
+  "model/extra-column.xz": "83cc5384158a97690eff4720c325583b80b980f539f2e9d72d2a1d83f22054ae",
+  "model/short-table.zst": "f89d9aa3903c9fde223ab38087265e94effc06b49e4dfd1452b4a909a761d6cc",
+  "model/frames.bin": "838144522d38cb92aebf16479f66ea06ddac4caf1058e324eefa1bec3aa5ebdc",
+  "model/atlas.zst": "a51ffb9a0509cd69a251af5328f90a385f4d97c487b5c51ad1762b770dbc97e8",
+  "model/env.zst": "a496789bf73016357e538f065e1f896c35ce22f6d2c9c7570cda6976b066c99c",
+  "model/books.f32": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f",
+  "objects/arch.o": "6b62b57578858ea8be9a4c96d4b295a65c0590adab671818d0df5c543dfe3669",
+  "objects/architecture-resolver.o": "e0bf9c42d4c2800211fa84533b17840bfe8c75048ba1a6851b26057909672445"
+ },
+ "recipe": [
+  [
+   "extra",
+   1781888
+  ],
+  [
+   "model/frames.bin",
+   60915660
+  ],
+  [
+   "extra",
+   52
+  ],
+  [
+   "model/books.f32",
+   1966080
+  ],
+  [
+   "extra",
+   37376
+  ],
+  [
+   "near/mask.zst",
+   1268958
+  ],
+  [
+   "near/topology.dat",
+   41216
+  ],
+  [
+   "extra",
+   54
+  ],
+  [
+   "model/arch.bin",
+   91246
+  ],
+  [
+   "extra",
+   2814
+  ],
+  [
+   "model/atlas.zst",
+   2536603
+  ],
+  [
+   "extra",
+   2917
+  ],
+  [
+   "model/field.zst",
+   3866891
+  ],
+  [
+   "extra",
+   3829
+  ],
+  [
+   "model/p1.zst",
+   3708678
+  ],
+  [
+   "extra",
+   2298
+  ],
+  [
+   "model/short-table.zst",
+   6274117
+  ],
+  [
+   "extra",
+   955
+  ],
+  [
+   "model/extra-column.xz",
+   13540104
+  ],
+  [
+   "extra",
+   5368
+  ],
+  [
+   "model/newfield.zst",
+   2519040
+  ],
+  [
+   "extra",
+   626728
+  ]
+ ]
+}

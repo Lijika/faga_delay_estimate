@@ -1,0 +1,1167 @@
+{
+  "algorithm_version": "GPT-Pro-fast-exp913-PackedJoin-b2442",
+  "bin_bytes": 99329624,
+  "bin_sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0",
+  "build": {
+    "baseline_isa": "x86-64 SSE2",
+    "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "dispatch": "6242R/6226R plus OS-enabled ISA",
+    "manifest": "source/manifest.json",
+    "mode": "source",
+    "pgo": false,
+    "reproduce": "python3 source/build.py --variant fast --mode source --out-dir rebuild",
+    "static": true,
+    "variant": "fast"
+  },
+  "created_at": "2026-11-06T19:08:39.121937+08:00",
+  "git_commit_before_integration": "2b9dafde4b8cf8e4c867524159fe255c8a04028f",
+  "limitations": {
+    "approximately100s_cpu_met": false,
+    "full1b_exact_accuracy_verified": false,
+    "full1b_runtime_and_rss_verified": false,
+    "local_1b_stability_targets_verified": false,
+    "official_consecutive_five_verified": false,
+    "official_platform_verified": false,
+    "release_elf_full200m_verified": false,
+    "supplied_label_solver_provenance_verified": false,
+    "unknown_input_accuracy_above99_verified": false
+  },
+  "measurements": {
+    "post_publication_results": "validation/results/exp913-packedjoin/",
+    "post_publication_test_plan": "Full classified A/B200M then two full nonrepeating1B",
+    "release_verification": {
+      "binary": {
+        "bytes": 99329624,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "both_paths_equal": true,
+      "checker": {
+        "bytes": 48080,
+        "path": "/home/lhj/lhjwork/eda2026/research/exp580/build/exp580/contract-check",
+        "sha256": "976aecc9ec5899fc6d0ff19d0182d5f4f4e997fe63eee67002dc4ca6a56baa2b"
+      },
+      "donor_binary": {
+        "bytes": 99192872,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/supplied-PackedJoin",
+        "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b"
+      },
+      "driver": {
+        "bytes": 10700,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/exp913_verify.py",
+        "sha256": "1c3e63bdcdb16fb327bcd9b1eccb48c528868daa522a2c317c342513a6bae5f0"
+      },
+      "evaluator": {
+        "bytes": 13606,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/gpt-pro-self-contained-20261105/evaluation-tools/run_remote.py",
+        "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+      },
+      "five_run_consistency_passed": true,
+      "full1m_gate_passed": true,
+      "generic_binary": {
+        "bytes": 99299416,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+        "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+      },
+      "hardware": {
+        "cpu": 8,
+        "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a",
+        "hostname": "lhj-R4900-G3"
+      },
+      "official_platform_verified": false,
+      "phase": "gate",
+      "pid": 2225089,
+      "runs": [
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99192872,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/supplied-PackedJoin",
+            "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "supplied_PackedJoin",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.31 0.13 0.28 1/1113 2225144\n",
+          "name": "official1m_donor",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_donor/clean-dgracx1f/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.407433,
+            "exit_code": 0,
+            "rss_bytes": 1950527488,
+            "sys_s": 0.847837,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.559595999999999,
+            "wall_s": 13.410458188969642
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.42 0.16 0.29 1/1114 2225172\n",
+          "name": "official1m_auto_1",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_1/clean-h1hsfv7i/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.477860999999999,
+            "exit_code": 0,
+            "rss_bytes": 1964847104,
+            "sys_s": 0.880925,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.596936,
+            "wall_s": 13.480523810256273
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.55 0.20 0.30 1/1114 2225196\n",
+          "name": "official1m_auto_2",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_2/clean-kmy6dd4e/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.500735,
+            "exit_code": 0,
+            "rss_bytes": 1964847104,
+            "sys_s": 0.9059149999999999,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.59482,
+            "wall_s": 13.503819456789643
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.65 0.24 0.31 1/1114 2225214\n",
+          "name": "official1m_auto_3",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_3/clean-talow57b/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.424048,
+            "exit_code": 0,
+            "rss_bytes": 1964843008,
+            "sys_s": 0.9248649999999999,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.499183,
+            "wall_s": 13.427279681898654
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.73 0.28 0.33 1/1112 2225241\n",
+          "name": "official1m_auto_4",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_4/clean-9lbhrhe8/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.440911,
+            "exit_code": 0,
+            "rss_bytes": 1964847104,
+            "sys_s": 0.872864,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.568047,
+            "wall_s": 13.443936502560973
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.87 0.33 0.34 1/1112 2225265\n",
+          "name": "official1m_auto_5",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_auto_5/clean-kcw3ly4r/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.480511,
+            "exit_code": 0,
+            "rss_bytes": 1964900352,
+            "sys_s": 0.9048999999999999,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.575611,
+            "wall_s": 13.482559602707624
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 5088463,
+            "accuracy_pp": 99.21508547390856,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 394714,
+            "max_absolute_error": 354,
+            "missing_predictions": 0,
+            "over_rows": 280219,
+            "point_sum": 992150.8547390855,
+            "positive_scored_rows": 999999,
+            "relative_error_sum": 1979.3853574024956,
+            "rows": 1000000,
+            "signed_error_sum": -3132133,
+            "under_rows": 325067,
+            "within5_rows": 995970,
+            "zero_exact_rows": 1,
+            "zero_matches": 1
+          },
+          "binary": {
+            "bytes": 99299416,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+            "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35394624,
+            "output_bytes": 40333592,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "generic_sse2",
+          "exact": {
+            "bytes": 40333953,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m-exact.csv",
+            "sha256": "43df00f037a46d5e96a1a19d15c7e7c5e249a7e4117638b2f360b315973a7533"
+          },
+          "input": {
+            "bytes": 35394624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+            "sha256": "b3b7360dcddf428ac41036bc769d78d4a54d0834a1e29b1c50c1a05595297510"
+          },
+          "load_before": "0.90 0.36 0.35 1/1111 2225282\n",
+          "name": "official1m_generic",
+          "output": {
+            "bytes": 40333592,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "d8f1585a8224cd655aa68504780e1d3d11291b1db99fc584f6baa6ea40be33da"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/official1m_generic/clean-vagw6_8f/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp873-3m-integration/data/official1m.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 16.531229,
+            "exit_code": 0,
+            "rss_bytes": 1964478464,
+            "sys_s": 0.911847,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 15.619382,
+            "wall_s": 16.53382969973609
+          }
+        },
+        {
+          "binary": {
+            "bytes": 99329624,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+            "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35198280,
+            "output_bytes": 40136198,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade6226r6242r",
+          "input": {
+            "bytes": 35198280,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+            "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+          },
+          "load_before": "0.92 0.40 0.37 1/1111 2225306\n",
+          "name": "role1m_auto",
+          "output": {
+            "bytes": 40136198,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "2f6e5949b856c4bdcc331606219ed8251e5fdc8334e4f3aeacbcd74b361def36"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/role1m_auto/clean-wj19l6ov/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 13.478714,
+            "exit_code": 0,
+            "rss_bytes": 1964843008,
+            "sys_s": 0.8768509999999999,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 12.601863,
+            "wall_s": 13.480713963042945
+          }
+        },
+        {
+          "binary": {
+            "bytes": 99299416,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/generic/build/fast/estimate",
+            "sha256": "b487bd82bbc63b6e34e8348758331414581d557ab7c072f34192c947eef9b79f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 35198280,
+            "output_bytes": 40136198,
+            "rows": 1000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "generic_sse2",
+          "input": {
+            "bytes": 35198280,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+            "sha256": "4a07a210efa8db99882ea0d5d2aae1bf75a4c5c7ec8b2b0e9751fbeb297efb57"
+          },
+          "load_before": "0.94 0.43 0.38 1/1111 2225329\n",
+          "name": "role1m_generic",
+          "output": {
+            "bytes": 40136198,
+            "path": "/proc/2225089/fd/4",
+            "sha256": "2f6e5949b856c4bdcc331606219ed8251e5fdc8334e4f3aeacbcd74b361def36"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 1000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/role1m_generic/clean-sew3ugll/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/eat180-sky-native/full1m-requests.csv",
+              "-out",
+              "/proc/2225089/fd/4"
+            ],
+            "cpu_s": 16.477122,
+            "exit_code": 0,
+            "rss_bytes": 1964343296,
+            "sys_s": 0.8699,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 15.607222,
+            "wall_s": 16.47945750784129
+          }
+        }
+      ],
+      "scorer": {
+        "bytes": 21072,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp858-diverse-models/tools/full-accuracy",
+        "sha256": "f434d7493232ba7005f32af89e03d8884b9d9566a1aa57efab164301b0976f1b"
+      },
+      "source_manifest": {
+        "bytes": 12381,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/source/source-manifest.json",
+        "sha256": "bbd2ff64a7fec9a20d768f9a865a75a2109044cb6291f5a0b999de6076e7e206"
+      },
+      "static_linked": true,
+      "status": "complete",
+      "supplied_packedjoin_equal": true
+    },
+    "supplied_report_scope": "Official1M plus selected errors2M; not full classified200M"
+  },
+  "parent_version_label": "exp873-3m-refine-b2442-20261106",
+  "schema": "gpt-pro-fast-formal-release-v6",
+  "selection": {
+    "basis": "User-selected PackedJoin with exp873 portable CPU implementation",
+    "complete1m_gate_passed": true,
+    "registered_1b_gain_gate_passed": false
+  },
+  "source_files": {
+    "README.md": {
+      "bytes": 8427,
+      "sha256": "157d720f75c705ae584da54906e9e41c19a19af5c89431fb0b7ec7901c4046ee"
+    },
+    "build.py": {
+      "bytes": 7280,
+      "sha256": "a7be35c1c7abb3bbd1ad2f77300dc6dc02fc5bc9beca218cfe37f8d2c264748e"
+    },
+    "exact/aq-modelvec.inc": {
+      "bytes": 11204,
+      "sha256": "3f24c3ebdf17437a3e083827d1ef7e6ff5faa1a872d888a85c79c5b26a549a4e"
+    },
+    "exact/aqgames7.h": {
+      "bytes": 36766,
+      "sha256": "eb34b52e4082740c2acc355481d4bbe180134a9c28699e23a68e20cfd190c0d1"
+    },
+    "exact/dec-batch.inc": {
+      "bytes": 6332,
+      "sha256": "0dfb283f560bd95c4c64f459ac9ecec7c90883290a030fdbaf677c431d49e38f"
+    },
+    "exact/left-vbmi.inc": {
+      "bytes": 1786,
+      "sha256": "c650241e72013ec2c68edc1426977e58e494e54802437cb97a07def0d0ab9fdd"
+    },
+    "exact/worker.cpp": {
+      "bytes": 21362,
+      "sha256": "4bfac3a1e07e95947a5a9373ac7f2435f8c5f0e53f1d999459961e46d47ebd54"
+    },
+    "libraries/COPYRIGHT.libzstd": {
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    },
+    "libraries/libzstd.a": {
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    "libraries/xz/COPYING": {
+      "bytes": 663,
+      "sha256": "d9ff4f089509582e7b197e86f3d2d66948b89169f27c1f2349eb0d1ed4459309"
+    },
+    "libraries/xz/ORIGIN.md": {
+      "bytes": 168,
+      "sha256": "6a0ccb02815314ec46661082ae10c6196eac127d90413cd08cf8867deaedd39f"
+    },
+    "libraries/xz/xz.h": {
+      "bytes": 19455,
+      "sha256": "59196b9c8296815f6a029f26d202bcd404078e27fc6e9bc4077db5f6865664c7"
+    },
+    "libraries/xz/xz_config.h": {
+      "bytes": 3493,
+      "sha256": "25fba71668254ba56709e9c176521a24a304b5521a9a337fb51d8334fa07e875"
+    },
+    "libraries/xz/xz_crc32.c": {
+      "bytes": 1195,
+      "sha256": "e6373b6d1aa11535260e153d8d7c62485ce82fbcb1d9dd66e6d984025771eec6"
+    },
+    "libraries/xz/xz_dec_lzma2.c": {
+      "bytes": 33495,
+      "sha256": "248dcd23e186b179a3fd1f5150c70cde13670521251e62bc44b15c99241491c4"
+    },
+    "libraries/xz/xz_dec_stream.c": {
+      "bytes": 23399,
+      "sha256": "bb5d29c33bd29b7d7993ae6b1a60f1750c509b1935fe2d28d46dfd8c5f46e9ce"
+    },
+    "libraries/xz/xz_lzma2.h": {
+      "bytes": 6049,
+      "sha256": "5681cf01bdcfab8907c02194eeaf9d4415166b3b5d48b50a34df809276f63aa1"
+    },
+    "libraries/xz/xz_private.h": {
+      "bytes": 5388,
+      "sha256": "9d8d116354cca408ef17a10cd544a955ea5d26e8f9f50885e99adab9135917d5"
+    },
+    "libraries/xz/xz_stream.h": {
+      "bytes": 1406,
+      "sha256": "89e80af27003ad39f3122ad447861ec574fa235a0c6339c26bb48a53c3d9e12b"
+    },
+    "libraries/zstd.h": {
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    },
+    "manifest.json": {
+      "bytes": 6538,
+      "sha256": "9210f69d6de9b945f849b684a140dfd87411f54686d6278fd778e18b0ae7d6cc"
+    },
+    "model/arch.bin": {
+      "bytes": 91246,
+      "sha256": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b"
+    },
+    "model/atlas.zst": {
+      "bytes": 2536603,
+      "sha256": "a51ffb9a0509cd69a251af5328f90a385f4d97c487b5c51ad1762b770dbc97e8"
+    },
+    "model/books.f32": {
+      "bytes": 1966080,
+      "sha256": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f"
+    },
+    "model/env.zst": {
+      "bytes": 1221,
+      "sha256": "a496789bf73016357e538f065e1f896c35ce22f6d2c9c7570cda6976b066c99c"
+    },
+    "model/extra-column.xz": {
+      "bytes": 13540104,
+      "sha256": "83cc5384158a97690eff4720c325583b80b980f539f2e9d72d2a1d83f22054ae"
+    },
+    "model/field.zst": {
+      "bytes": 3866891,
+      "sha256": "c9821a70448226c6ad281279a8bbdc972e38a0a63a86b28a0b1dddd96fbc9d86"
+    },
+    "model/frames.bin": {
+      "bytes": 60915660,
+      "sha256": "838144522d38cb92aebf16479f66ea06ddac4caf1058e324eefa1bec3aa5ebdc"
+    },
+    "model/newfield.zst": {
+      "bytes": 2519040,
+      "sha256": "eb08d26d1477df93946aade1d1324e224e3ead46a5742971853c56e91c9d83e8"
+    },
+    "model/p1.zst": {
+      "bytes": 3708678,
+      "sha256": "e82c025c5a0b40381333a1a9a499c8cddb41b7b819ec29217bd9b0bf40059dcb"
+    },
+    "model/short-table.zst": {
+      "bytes": 6274117,
+      "sha256": "f89d9aa3903c9fde223ab38087265e94effc06b49e4dfd1452b4a909a761d6cc"
+    },
+    "near/mask.zst": {
+      "bytes": 1268958,
+      "sha256": "750e4bb3352e516102401edd6a108da4fce701961fe05863910b58fcedf7c24b"
+    },
+    "near/near40.cpp": {
+      "bytes": 20942,
+      "sha256": "a5788e0ba38cc8102bd85e832c64f1c6a6c8408f05b730809ea1da47aa91e7fa"
+    },
+    "near/near40.hpp": {
+      "bytes": 1019,
+      "sha256": "24ad7e30d44a2688a957db4080b6a79bf17d38d9942164e1e374487d849f06c0"
+    },
+    "near/topology.dat": {
+      "bytes": 41216,
+      "sha256": "33f4f4ec29d4c21822b0f694fbe358337d1b49a1c1e0e67a13b4c072dba0ed99"
+    },
+    "shared/aq-kernel.inc": {
+      "bytes": 12066,
+      "sha256": "d2be877f0c0070e62b8991b01ef3900f996af2be164561f290d3ea71b2ab9604"
+    },
+    "shared/aqScale.inc": {
+      "bytes": 842,
+      "sha256": "4dc4d74bb5ddad5b4c2e1a78e51c813a9aa834f3ea41dc47c51309287b3cb1fd"
+    },
+    "shared/arch.cpp": {
+      "bytes": 799,
+      "sha256": "5723c460f555f10ef598850f834c7c19a86f58eebda9d22ab70c76db1de4112d"
+    },
+    "shared/architecture.cpp": {
+      "bytes": 14497,
+      "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03"
+    },
+    "shared/architecture.h": {
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+    },
+    "shared/compact.inc": {
+      "bytes": 1826,
+      "sha256": "40b70e7082260d15d103b78787b552a6dd331e10f411ef3d793440ccf8c8f00b"
+    },
+    "shared/csv.h": {
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    "shared/embedded_arch.h": {
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    "shared/embedded_resolver_data.h": {
+      "bytes": 160657,
+      "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+    },
+    "shared/entry.cpp": {
+      "bytes": 748,
+      "sha256": "d0f9bfc2a354d3001ae397231d6c82c9d5e4366c70d678ee79ede05bba25d6e8"
+    },
+    "shared/event_mask.inc": {
+      "bytes": 1987,
+      "sha256": "61ffc716a649543bfb11533ca663f8fbba45ca2afa5a6f02b488068e6e233328"
+    },
+    "shared/exp579-models.h": {
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    "shared/exp594_packed_output.h": {
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+    },
+    "shared/exp596_csv_batch.h": {
+      "bytes": 3242,
+      "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+    },
+    "shared/exp601_port_parser.h": {
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    "shared/exp614_geometry_features.h": {
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    "shared/exp679_hv_events.h": {
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    "shared/exp707_prepare_metadata.h": {
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    "shared/exp723_fused_parse.h": {
+      "bytes": 1423,
+      "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+    },
+    "shared/forced_bias.h": {
+      "bytes": 4872,
+      "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+    },
+    "shared/frameBytes.inc": {
+      "bytes": 5146,
+      "sha256": "1434779136b95f83e21616763ca2be54e8f40b09ae098f2a3d7d567427f07374"
+    },
+    "shared/json.h": {
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    "shared/mask-fns.inc": {
+      "bytes": 3169,
+      "sha256": "1f8d62cac9a5fbf6d1c758e3bb465922690b8839db22c2f0e25ee8c6cf58c922"
+    },
+    "shared/native_representation212.h": {
+      "bytes": 7792,
+      "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+    },
+    "shared/nearIdx.inc": {
+      "bytes": 1585,
+      "sha256": "2091ac49a65e394426989324db0182c6ee4c618e8d37a90901741d4822169141"
+    },
+    "shared/nearOrder.inc": {
+      "bytes": 485,
+      "sha256": "f96c979003aad56d05db1a61bebb33c8597d9819442dee1b63d681e0cf16047f"
+    },
+    "shared/nearWeights.inc": {
+      "bytes": 8334,
+      "sha256": "2870ca4a7ac41a2c1fd73fcb9dcae0fcc144b8e08fc04c60d8b71445379e947e"
+    },
+    "shared/outputIdx.inc": {
+      "bytes": 55178,
+      "sha256": "171c7d8313a4a6de917b1f14e13b1374df54f2dd9f8661f8737220e13999886a"
+    },
+    "shared/outputWeights.inc": {
+      "bytes": 279634,
+      "sha256": "638da8c097f01117fa432d85ea5041f03456ffa7ca5294cd717781b6c44f9e45"
+    },
+    "shared/params.h": {
+      "bytes": 177003,
+      "sha256": "060d79c4ea8eb124a07fc345b9dd103f60f952928168c6c969a8fca2735492e9"
+    },
+    "shared/post0.inc": {
+      "bytes": 3879,
+      "sha256": "5fff5636945647e3ba50a2d0d4274883c118c3825f9ec6e47fec7eb7100c5541"
+    },
+    "shared/post1.inc": {
+      "bytes": 7527,
+      "sha256": "9a13ba194d63452d8e7338788d2546d4bc6abcad6324c13d380bb69d6642863b"
+    },
+    "shared/post2.inc": {
+      "bytes": 2612,
+      "sha256": "9a22e732c0f7319eb2e2ebf419a3b396021ce07281ceb8316d165c15a154e634"
+    },
+    "shared/post3.inc": {
+      "bytes": 326,
+      "sha256": "bf60de403ab4843af33920c3976523c5865146ac90ff0e685be21eebb483eaba"
+    },
+    "shared/post4.inc": {
+      "bytes": 1766,
+      "sha256": "353bc5a7134c90b48a05aeb20f86608cdbb5946184597438ab513ec8c2dca649"
+    },
+    "shared/post5.inc": {
+      "bytes": 578,
+      "sha256": "7694d89c6bc4ccbcb24491b9f64232830ada266ed9807f3eab0712494178e12c"
+    },
+    "shared/reference727.h": {
+      "bytes": 214182,
+      "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+    },
+    "shared/replacement679.h": {
+      "bytes": 81678,
+      "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+    },
+    "shared/smallplan.inc": {
+      "bytes": 216161,
+      "sha256": "5c5b7e45f5521f67133cc49e1efa4270fc7e72e1ec7820367db69755b88e9bac"
+    },
+    "shared/symmetric640.h": {
+      "bytes": 148840,
+      "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+    },
+    "shared/treeRoots.inc": {
+      "bytes": 473,
+      "sha256": "2f21f98598ff1890b7fad317bcd0c212a88735874b5c6b1e6f285396e8f4585a"
+    },
+    "shared/vector.inc": {
+      "bytes": 4671,
+      "sha256": "562a918ea494701909e10bc6af711ba2767d706469fd538f3ce22c34840f31ee"
+    },
+    "speed/aq-kernel.inc": {
+      "bytes": 4118,
+      "sha256": "71acb659ea79fdba68a6ef9df35afa0c88d0314d7da43f87c38c6a09f2cbbd01"
+    },
+    "speed/aq-modelvec.inc": {
+      "bytes": 10445,
+      "sha256": "bf689d03b802c52dfda6a90ef8cb29217941ed014c9da991e667832a2c66f1ad"
+    },
+    "speed/aqbatch.inc": {
+      "bytes": 4883,
+      "sha256": "00a9d87967f21bd1a34b161a60796c3222435024f101eb72b6f3fb64186ebda2"
+    },
+    "speed/cascade-kernel.inc": {
+      "bytes": 3863,
+      "sha256": "33572d85c8845200add6c37a8f0ff34ee60ea817958135ac1763c2dff54e5794"
+    },
+    "speed/cascade-model.inc": {
+      "bytes": 8787,
+      "sha256": "02cc9295f219afdbbefdff1df974fd64d6e3f1cece8d3e4378c810cb9f9b56bf"
+    },
+    "speed/cascade-parser.inc": {
+      "bytes": 4169,
+      "sha256": "64469f7df6dc625da15df2185d4cde7f32bb4da3fed09e02830f74b95fd1ca53"
+    },
+    "speed/cpu-path.inc": {
+      "bytes": 1348,
+      "sha256": "ed9f9f7921b4a5eed41b974ce38a61df7536b53d2139a61ae3cf70e35162fa82"
+    },
+    "speed/cut.inc": {
+      "bytes": 1772,
+      "sha256": "c83b6a30e6153653d96c3da927293cc13051a81175d5b5529165e7d8d832ed42"
+    },
+    "speed/env_margin.inc": {
+      "bytes": 1707,
+      "sha256": "ed48dd4779bd478864bcbc2236edbf921cfc2320d8cc03a7fa80eb50f82233b9"
+    },
+    "speed/field_source.inc": {
+      "bytes": 2700,
+      "sha256": "ed06942ced81a830a7d70000d781bb2aba51fe66d01c8e62ca6a5a4c2c580a51"
+    },
+    "speed/g4.h": {
+      "bytes": 24631,
+      "sha256": "488cc07bf30ed595260ca13d0e5406a1ca0b71d21b14a1cc243903acfd2f8dcb"
+    },
+    "speed/geometry.inc": {
+      "bytes": 1160,
+      "sha256": "e69ed9b90d87428429888c4d62c75a7be09420a00a1d0e0f08c5daf83ebd427c"
+    },
+    "speed/newring.inc": {
+      "bytes": 3167,
+      "sha256": "bea5416ad6e4cbb2c8cdb6325d192e06d36f3483a35826c2ead9116349d1f703"
+    },
+    "speed/smallplan.inc": {
+      "bytes": 216161,
+      "sha256": "5c5b7e45f5521f67133cc49e1efa4270fc7e72e1ec7820367db69755b88e9bac"
+    },
+    "speed/stripe.inc": {
+      "bytes": 11502,
+      "sha256": "35e3c695fd44e6a0088cd2a7027c99873a9d8601dbf5ef3654cf126b1e939385"
+    },
+    "speed/worker.cpp": {
+      "bytes": 33256,
+      "sha256": "3b2ef0cd7abf75d9b1aea1495d8fa5c01fab7433099389184d8b82b0be98ae22"
+    }
+  },
+  "source_origin": {
+    "accuracy_donor": "PackedJoin",
+    "integration": "/home/lhjysyx/EDA2026/validation/results/exp913-packedjoin/integration.json",
+    "parent": "exp873-3m-refine-b2442-20261106",
+    "readme_updated_after_testing": true,
+    "tested_compiled_inputs": "/home/lhjysyx/EDA2026/validation/results/exp913-packedjoin/tested-source-manifest.json"
+  },
+  "verify_requested": true,
+  "version_label": "exp913-packedjoin-b2442-20261106",
+  "zip_bytes": 97570199,
+  "zip_sha256": "f397d27d5354c724d8d251fdc340da81694f7edcc9ec31fdb44a9574d3f23ee6"
+}

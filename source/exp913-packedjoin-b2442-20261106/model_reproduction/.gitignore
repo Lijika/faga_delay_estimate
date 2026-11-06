@@ -1,0 +1,12 @@
+# These two build/ headers are source dependencies of the offline solver.
+!/sources/repro/nominal_source/build/
+/sources/repro/nominal_source/build/*
+!/sources/repro/nominal_source/build/exp483/
+!/sources/repro/nominal_source/build/exp499/
+/sources/repro/nominal_source/build/exp483/*
+/sources/repro/nominal_source/build/exp499/*
+!/sources/repro/nominal_source/build/exp483/solver.hpp
+!/sources/repro/nominal_source/build/exp499/roles.hpp
+/sources/repro/nominal_source/field
+/sources/eat117/build/
+!/sources/eat117/third_party/zstd/libzstd.a

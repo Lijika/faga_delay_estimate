@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "pid": 2226502,
+  "dataset": "a",
+  "rows": 100000000,
+  "accuracy_scope": "All supplied exact labels",
+  "label_solver_provenance_verified": false,
+  "original_class_labels_available": false,
+  "candidate_only": true,
+  "hardware": {
+    "hostname": "lhj-R4900-G3",
+    "cpu": 8,
+    "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a"
+  },
+  "arms": [
+    {
+      "name": "candidate",
+      "binary": {
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate",
+        "bytes": 99329624,
+        "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+      },
+      "load_before": [
+        "    PID ELAPSED %CPU COMMAND",
+        "2226502      18 97.2 python3 exp857_classified_accuracy.py --dataset a --candidate /home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/build/fast/estimate --scorer /home/lhj/lhjwork/eda2026/eat/research/exp858-diverse-models/tools/full-accuracy --candidate-only --clean-room --out /home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/classified-a",
+        "2059658   88172  0.6 /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641",
+        "1827904 1991381  0.5 top",
+        " 562665 2842700  0.4 /home/lhj/.local/bin/herdr server",
+        "  78169 3155860  0.2 /usr/libexec/polkitd --no-debug",
+        "      1 3200137  0.1 /lib/systemd/systemd --system --deserialize 61 splash",
+        "    235 3200136  0.1 [kswapd0]",
+        "    980 3200133  0.1 avahi-daemon: running [lhj-R4900-G3.local]",
+        "    983 3200133  0.1 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+        "   4441 3197229  0.1 /usr/bin/gnome-shell",
+        "      2 3200137  0.0 [kthreadd]",
+        "      3 3200137  0.0 [pool_workqueue_release]",
+        "      4 3200137  0.0 [kworker/R-rcu_g]",
+        "      5 3200137  0.0 [kworker/R-rcu_p]",
+        "      6 3200137  0.0 [kworker/R-slub_]"
+      ],
+      "run": {
+        "command": [
+          "/usr/bin/env",
+          "-i",
+          "/usr/bin/taskset",
+          "-c",
+          "8",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/classified-a/clean-uuz7i8l_/estimate",
+          "-in",
+          "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-a-100m/requests.csv",
+          "-out",
+          "/proc/2226502/fd/4"
+        ],
+        "exit_code": 0,
+        "user_s": 30.801461,
+        "sys_s": 2.461797,
+        "cpu_s": 33.263258,
+        "wall_s": 33.269894904922694,
+        "rss_bytes": 1965051904,
+        "threads_observed": 1,
+        "timed_out": false
+      },
+      "cleanroom": {
+        "environment": {},
+        "entries": [
+          "estimate"
+        ]
+      },
+      "output": {
+        "path": "/proc/2226502/fd/4",
+        "bytes": 3965315810,
+        "sha256": "d18c9e479e3d00763f1f9064adc2ef2fd7e69fdc53647a564cf758f881a0a7c1"
+      },
+      "accuracy": {
+        "rows": 100000000,
+        "accuracy_pp": 99.28377634074471,
+        "point_sum": 99283776.3407447,
+        "exact_rows": 65515342,
+        "zero_exact_rows": 0,
+        "zero_matches": 0,
+        "missing_predictions": 0,
+        "positive_scored_rows": 100000000,
+        "over_rows": 15834139,
+        "under_rows": 18650519,
+        "within5_rows": 99447080,
+        "absolute_error_sum": 311260422,
+        "relative_error_sum": 183189.41798046202,
+        "signed_error_sum": -165655612,
+        "max_absolute_error": 486,
+        "endpoint_order_integer_eof_contract_passed": true
+      },
+      "scoring_wall_s": 12.088200871832669,
+      "byte_identical_to_exp855": false,
+      "prediction_deleted": true
+    }
+  ],
+  "driver": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp913-packedjoin/exp857_classified_accuracy.py",
+    "bytes": 9740,
+    "sha256": "2774880c9081e1a142baceeba8d14ace8bd765fe4d20abd17be84f4457385ab8"
+  },
+  "intake": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data-intake-a/summary.json",
+    "bytes": 8830,
+    "sha256": "4c7df5be20310543773b21502c3415f380c9464f9c967026541c8353402660e3"
+  },
+  "input": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-a-100m/requests.csv",
+    "bytes": 3516896561,
+    "sha256": "a706caa0a655185834c5a7b7b2a6018502c43ba5d4066e9b09d051b8eb6a4986"
+  },
+  "exact": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-a-100m/exact.csv",
+    "bytes": 3965355027,
+    "sha256": "5a19ad55eab2f708707dbd76eded60e75da4046aaeaba1e68dba490efbdd7c42"
+  },
+  "scorer": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/exp858-diverse-models/tools/full-accuracy",
+    "bytes": 21072,
+    "sha256": "f434d7493232ba7005f32af89e03d8884b9d9566a1aa57efab164301b0976f1b"
+  },
+  "evaluator": {
+    "path": "/home/lhj/lhjwork/eda2026/eat/research/gpt-pro-self-contained-20261105/evaluation-tools/run_remote.py",
+    "bytes": 13606,
+    "sha256": "f8dec036b377e3b246f0e226fa57f186b553b88eb92bca76695455b2388d2c87"
+  },
+  "same_run_cpu_and_accuracy": true,
+  "candidate_runs": 1,
+  "candidate_runs_identical": true,
+  "finished_at_unix": 1793963516.5220528
+}

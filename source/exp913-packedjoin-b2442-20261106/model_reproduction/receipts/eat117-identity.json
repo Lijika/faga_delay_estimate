@@ -1,0 +1,48 @@
+{
+  "schema": "faga-delay-estimate-release-identity-v1",
+  "version": "exp853-eat117-rawzero-parser-20261102",
+  "published_date": "2026-11-02",
+  "candidate_source_commit": "2d7c5625ff2da531bd37d249b5540a8c4940c6a2",
+  "historical_candidate_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4",
+  "source_manifest": {
+    "file": "source-manifest.json",
+    "file_count": 32,
+    "canonical_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
+    "recorded_source_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4"
+  },
+  "build": {
+    "elf_bytes": 90411032,
+    "elf_sha256": "8b80103cecfe7425f780f4e3497994fe55312186ec4bc80ab1ac57669241ca57",
+    "submission_zip_bytes": 83843929,
+    "submission_zip_sha256": "4936fe0d26e894849bec33de58049191fdfe511eef4ba1f9010849215543dd57",
+    "external_surface_frames": 210,
+    "external_surface_frames_bytes": 82872955
+  },
+  "validation": {
+    "scope": "One exposed non-repeating U-role 1B development input and its exact-labeled sample",
+    "full_runs_contract_passed": 14,
+    "consistent_full_outputs_per_arm": 7,
+    "timed_runs_per_arm": 6,
+    "single_thread_and_resource_gates_passed": true,
+    "mean_cpu_seconds": {
+      "parent": 143.072572,
+      "eat117": 128.77176066666667
+    },
+    "exact_sample_rows": 3833856,
+    "sampled_accuracy_percent": {
+      "parent": 98.88506734641447,
+      "eat117": 98.85481661610247
+    },
+    "joint_score_delta_points": 0.0949728435281827,
+    "joint_score_one_sided_95_lower_points": 0.0726986999684377,
+    "max_observed_rss_bytes": 270606336,
+    "unverified": [
+      "Accuracy over all 1B requests",
+      "Generalization to unknown requests",
+      "Official-platform results",
+      "Final accuracy above 99%",
+      "CPU near 100 seconds",
+      "Official five-run acceptance"
+    ]
+  }
+}

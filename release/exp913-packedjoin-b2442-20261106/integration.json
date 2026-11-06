@@ -1,0 +1,59 @@
+{
+  "parent": "exp873-3m-refine-b2442-20261106",
+  "donor": "PackedJoin",
+  "donor_elf": {
+    "sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b",
+    "bytes": 99192872
+  },
+  "modified": [
+    "build.py",
+    "manifest.json",
+    "model/books.f32",
+    "model/frames.bin",
+    "shared/aqScale.inc",
+    "shared/frameBytes.inc",
+    "shared/nearIdx.inc",
+    "shared/nearWeights.inc",
+    "shared/outputIdx.inc",
+    "shared/outputWeights.inc",
+    "speed/aq-kernel.inc",
+    "speed/cascade-kernel.inc",
+    "speed/cascade-model.inc",
+    "speed/g4.h",
+    "speed/smallplan.inc",
+    "speed/worker.cpp"
+  ],
+  "added": [
+    "libraries/xz/COPYING",
+    "libraries/xz/ORIGIN.md",
+    "libraries/xz/xz.h",
+    "libraries/xz/xz_config.h",
+    "libraries/xz/xz_crc32.c",
+    "libraries/xz/xz_dec_lzma2.c",
+    "libraries/xz/xz_dec_stream.c",
+    "libraries/xz/xz_lzma2.h",
+    "libraries/xz/xz_private.h",
+    "libraries/xz/xz_stream.h",
+    "model/atlas.zst",
+    "model/env.zst",
+    "model/extra-column.xz",
+    "model/field.zst",
+    "model/newfield.zst",
+    "model/p1.zst",
+    "model/short-table.zst",
+    "speed/cut.inc",
+    "speed/env_margin.inc",
+    "speed/field_source.inc",
+    "speed/newring.inc",
+    "speed/stripe.inc"
+  ],
+  "removed": [
+    "speed/graph_refine.inc"
+  ],
+  "preserved": [
+    "B2442 nominal initialization",
+    "per-source near memory release",
+    "SSE2 and model-gated Cascade Lake paths",
+    "batch64 parser and writer"
+  ]
+}

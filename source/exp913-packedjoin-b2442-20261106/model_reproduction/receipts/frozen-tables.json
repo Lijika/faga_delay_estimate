@@ -1,0 +1,32 @@
+{
+  "nearOrder": {
+    "identical": true,
+    "items": 160,
+    "sha256": "f96c979003aad56d05db1a61bebb33c8597d9819442dee1b63d681e0cf16047f"
+  },
+  "nearIdx": {
+    "identical": true,
+    "items": 576,
+    "sha256": "2091ac49a65e394426989324db0182c6ee4c618e8d37a90901741d4822169141"
+  },
+  "nearWeights": {
+    "identical": true,
+    "items": 640,
+    "sha256": "2870ca4a7ac41a2c1fd73fcb9dcae0fcc144b8e08fc04c60d8b71445379e947e"
+  },
+  "outputIdx": {
+    "identical": true,
+    "items": 19872,
+    "sha256": "171c7d8313a4a6de917b1f14e13b1374df54f2dd9f8661f8737220e13999886a"
+  },
+  "outputWeights": {
+    "identical": true,
+    "items": 22080,
+    "sha256": "638da8c097f01117fa432d85ea5041f03456ffa7ca5294cd717781b6c44f9e45"
+  },
+  "aqScale": {
+    "identical": true,
+    "items": 64,
+    "sha256": "4dc4d74bb5ddad5b4c2e1a78e51c813a9aa834f3ea41dc47c51309287b3cb1fd"
+  }
+}

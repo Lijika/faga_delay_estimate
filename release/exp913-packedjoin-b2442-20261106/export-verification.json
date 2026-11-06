@@ -1,0 +1,29 @@
+{
+  "version": "exp913-packedjoin-b2442-20261106",
+  "source_directory": "source/exp913-packedjoin-b2442-20261106",
+  "source_files": 403,
+  "source_bytes": 218254393,
+  "matches_immutable_source": true,
+  "source_manifest_sha256": "38b94f8fc8afa69d8a7b6855561fc29eee61d7da013b32dcf24e90e23e931a36",
+  "validation": "All exported files match the immutable source; reuse same-source r9 build, full1M, A/B200M and full1B receipts. No new algorithm or retraining.",
+  "binary_sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0",
+  "source_manifest": "source-manifest.json",
+  "build_receipt": "build-receipts.json",
+  "measurement_receipt": "summary.json",
+  "build_help_passed": true,
+  "bundled_asset_check_passed": true,
+  "git_index_matches_all_source_files": true,
+  "whitespace_check": {
+    "whole_export_exit_code": 2,
+    "existing_frozen_source_warnings": [
+      "source/exp913-packedjoin-b2442-20261106/exact/dec-batch.inc:51: trailing whitespace.",
+      "source/exp913-packedjoin-b2442-20261106/exact/worker.cpp:342: trailing whitespace.",
+      "source/exp913-packedjoin-b2442-20261106/model_reproduction/\u4e09\u9879\u6a21\u578b\u8d44\u4ea7\u7684\u7b97\u6cd5\u4e0e\u5b8c\u6574\u590d\u73b0\u62a5\u544a.md:3: trailing whitespace.",
+      "source/exp913-packedjoin-b2442-20261106/model_reproduction/\u4e09\u9879\u6a21\u578b\u8d44\u4ea7\u7684\u7b97\u6cd5\u4e0e\u5b8c\u6574\u590d\u73b0\u62a5\u544a.md:4: trailing whitespace.",
+      "source/exp913-packedjoin-b2442-20261106/near/near40.cpp:227: trailing whitespace.",
+      "source/exp913-packedjoin-b2442-20261106/speed/aqbatch.inc:38: trailing whitespace."
+    ],
+    "new_documentation_and_metadata_passed": true,
+    "resolution": "Preserve immutable source bytes; no algorithm edits."
+  }
+}

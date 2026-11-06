@@ -1,0 +1,35 @@
+{
+  "schema": "faga-delay-estimate-export-verification-v1",
+  "checked_date": "2026-11-02",
+  "canonical_source_files": 32,
+  "canonical_source_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
+  "source_files_match_frozen_snapshot": true,
+  "asset_frames": 210,
+  "asset_frame_bytes": 82872955,
+  "asset_sizes_and_sha256_match_frozen_build": true,
+  "protected_files_match_previous_repository_head": {
+    "task_files": 4,
+    "architecture_json_files": 5
+  },
+  "local_build": {
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "command": "cd source && python3 build.py --assets assets/surface779",
+    "exit_code": 0,
+    "static_linked": true,
+    "elf_bytes": 90334640,
+    "elf_sha256": "913040523154b83577a0fb35b1075d7f59a0d86e594d9a383f3a59ae49c8094f",
+    "frozen_toolchain": "Ubuntu 22.04 x86-64, GCC 11.4.0, binutils 2.38, glibc 2.35",
+    "byte_identity_scope": "The local compiler differs from the frozen toolchain; the source and asset identities remain unchanged."
+  },
+  "complete_request_test": {
+    "input_rows": 1000000,
+    "input_sha256": "20fb997194a91539cfbfa0231808d5a290013ac14088ac552ca035344b37b504",
+    "output_bytes": 40137497,
+    "output_sha256": "f466645d600e72a43dc83b794d824ef7c53530b7ade8a936353aaf6a3e8737f9",
+    "frozen_and_rebuilt_output_identical": true,
+    "full_output_contract_passed": true,
+    "single_thread_passed": true,
+    "max_observed_rss_bytes": 270651392
+  },
+  "scope": "Export, build, and complete-1M compiler parity check. The frozen 1B development evidence is reused for unchanged source and assets. This check makes no new accuracy or comparative-performance claim."
+}

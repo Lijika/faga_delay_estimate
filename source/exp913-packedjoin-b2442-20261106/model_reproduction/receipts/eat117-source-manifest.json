@@ -1,0 +1,146 @@
+{
+  "build_py_sha256": "f4486e1cf2b123a01998a37ad01e4a6876c579e4943011b40af499935f31dfbb",
+  "candidate": "EAT097 parser plus EAT106 event0 raw-zero worker",
+  "canonical_method": "sha256(json.dumps({relative_path: file_sha256}, sort_keys=True))",
+  "canonical_sha256": "30e34ab81535b73c84862a1622aefb972a3d74c8cde923cd7f7c5e52de8c9383",
+  "changed_paths": [
+    "src/worker.cpp"
+  ],
+  "compiled_source_file_count": 31,
+  "parent_commit": "643fafbe6ede0ed9bc18146d5d6ad22f98ca135b",
+  "parser_parent_manifest_sha256": "05370d3c1c7c717949dd6b50055dd4e439f6ed59f15ac85727a8589bc4e7afbf",
+  "schema": "eat117-combined-source-manifest-v1",
+  "source_commit": "e1c6ebdec412f4b1fe59960b198bbfded8452ce4",
+  "source_file_count": 32,
+  "source_files": {
+    "build.py": {
+      "bytes": 4844,
+      "sha256": "f4486e1cf2b123a01998a37ad01e4a6876c579e4943011b40af499935f31dfbb"
+    },
+    "include/curve_origin654.h": {
+      "bytes": 44,
+      "sha256": "6cc5718d2fa3f01647b7bdd1137ca8253f4d8c2928b747ab2814543bfae355c4"
+    },
+    "include/exp579-models.h": {
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    "include/exp582_int8_geometry.h": {
+      "bytes": 4077,
+      "sha256": "4899a94155ae6836e4be24cf6f940e9488c19b2e9e6120fa404a463160d38e25"
+    },
+    "include/exp594_packed_output.h": {
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+    },
+    "include/exp596_csv_batch.h": {
+      "bytes": 3242,
+      "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+    },
+    "include/exp601_port_parser.h": {
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    "include/exp608_geometry.h": {
+      "bytes": 4422,
+      "sha256": "9113cfc180a52d0ff25c2d1269c064e6c0440fffaf1dc58257c43b4f72d12bf1"
+    },
+    "include/exp614_geometry_features.h": {
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    "include/exp652_distance_curve_lookup.h": {
+      "bytes": 1181,
+      "sha256": "8d53044540c2c43c5d94727342735631aa10b16c2bc9ed6ec1155535cbccfedd"
+    },
+    "include/exp652_geometry_restore.h": {
+      "bytes": 1243,
+      "sha256": "05c1301b8caecc9dfef2bb0597f83d633ffecc5ba754d2798df9bcc9e39d1d11"
+    },
+    "include/exp679_hv_events.h": {
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    "include/exp707_prepare_metadata.h": {
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    "include/exp723_fused_parse.h": {
+      "bytes": 1423,
+      "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+    },
+    "include/exp779_surface_restore.h": {
+      "bytes": 3216,
+      "sha256": "951f0def3b26f6a22768a39fbbd63f18905e8fde1ba1e0f82cf2259876e2a52d"
+    },
+    "include/forced_bias.h": {
+      "bytes": 4872,
+      "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+    },
+    "include/reference727.h": {
+      "bytes": 214182,
+      "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+    },
+    "include/replacement679.h": {
+      "bytes": 81678,
+      "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+    },
+    "include/surface_assets779.h": {
+      "bytes": 5194,
+      "sha256": "c55080a60189d7f590a0b761fdf1ef662a1be3fadaaa0d964bae8c6c8836c1f6"
+    },
+    "include/symmetric640.h": {
+      "bytes": 148840,
+      "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+    },
+    "src/architecture.cpp": {
+      "bytes": 14497,
+      "sha256": "fb7b76a0579080aa116b35103487065eb8b82e6a4d2e0d8aac3c0a09cb946d03"
+    },
+    "src/architecture.h": {
+      "bytes": 10330,
+      "sha256": "d10fb0660ab6ca87506a769bc5d2efcb54f26bb1b116e10f7cdab6daf9d76447"
+    },
+    "src/csv.h": {
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    "src/embedded_arch.cpp": {
+      "bytes": 5161384,
+      "sha256": "eb794a948affd57fbb60b019f964f1886d232fc0e00e7bfa12e0690766900c00"
+    },
+    "src/embedded_arch.h": {
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    "src/embedded_resolver_data.h": {
+      "bytes": 160657,
+      "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+    },
+    "src/entry.cpp": {
+      "bytes": 1338,
+      "sha256": "8c358975d4590da6aaa3fe08222a1af43b3f7ac47f0a765b1f57b6f0a95be655"
+    },
+    "src/json.h": {
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    "src/worker.cpp": {
+      "bytes": 14620,
+      "sha256": "8a5a11f57a5ee229f9e5e3ebd3e0f82db1653ed4b980086e73afc7d8b6044b6e"
+    },
+    "third_party/zstd/COPYRIGHT.libzstd": {
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    },
+    "third_party/zstd/libzstd.a": {
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    "third_party/zstd/zstd.h": {
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    }
+  },
+  "worker_sha256": "8a5a11f57a5ee229f9e5e3ebd3e0f82db1653ed4b980086e73afc7d8b6044b6e"
+}

@@ -1,0 +1,97 @@
+{
+  "version": "exp913-packedjoin-b2442-20261106",
+  "binary": {
+    "bytes": 99329624,
+    "sha256": "c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0"
+  },
+  "full_ab": {
+    "rows": 200000000,
+    "accuracy_pp": 99.28402967724034,
+    "a": 99.28377634074471,
+    "b": 99.28428301373597,
+    "a_cpu_s": 33.263258,
+    "b_cpu_s": 33.228674999999996
+  },
+  "full1b": {
+    "cpu": {
+      "mean_s": 142.6345735,
+      "min_s": 142.605567,
+      "max_s": 142.66358,
+      "stdev_s": 0.04102138569696692
+    },
+    "cpu_range_s": 0.058012999999988324,
+    "cpu_cv_percent": 0.028759777303899555,
+    "runs": [
+      {
+        "user_s": 118.784612,
+        "sys_s": 23.878968,
+        "cpu_s": 142.66358,
+        "wall_s": 157.42261691205204,
+        "rss_bytes": 1964847104,
+        "threads_observed": 1
+      },
+      {
+        "user_s": 118.683709,
+        "sys_s": 23.921858,
+        "cpu_s": 142.605567,
+        "wall_s": 162.5018661711365,
+        "rss_bytes": 1965035520,
+        "threads_observed": 1
+      }
+    ],
+    "accuracy": {
+      "accuracy_pp": 99.29060347284297,
+      "stratified_normal_ci95_pp": [
+        99.28828048856931,
+        99.29292645711664
+      ],
+      "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+      "sample_rows": 3833856,
+      "port_pairs": 59904,
+      "population_rows": 1000000000,
+      "samples_per_pair_min": 64,
+      "samples_per_pair_max": 64,
+      "weighted_mae_ps": 4.64632335109375,
+      "unweighted_exact_fraction": 0.3800497462606838,
+      "full_population_scored": false,
+      "input_previously_observed": true
+    },
+    "output": {
+      "bytes": 40135658349,
+      "sha256": "65644e3914bc311315d68ec80acf9192b295eb08700de24156802307c08d2b07"
+    },
+    "two_run_output_consistency": true
+  },
+  "official1m": {
+    "accuracy_pp": 99.21508547390856,
+    "five_run_cpu_mean_s": 13.4648132,
+    "five_run_cpu_stdev_s": 0.03138534060990875,
+    "five_run_output_consistency": true,
+    "donor_and_generic_output_equal": true
+  },
+  "resources": {
+    "max_measured_rss_bytes": 1965051904,
+    "elf_headroom_bytes": 670376,
+    "rss_headroom_bytes": 34948096,
+    "static_elf": true,
+    "one_thread": true,
+    "all_output_contracts_passed": true
+  },
+  "limitations": {
+    "official_platform_verified": false,
+    "full1b_exact_verified": false,
+    "xeon6242r_hardware_verified": false,
+    "rss_preference_1900000000_met": false,
+    "cpu90s_goal_met": false,
+    "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+    "input_scope": "Previously observed development inputs; supplied A/B label solver provenance unverified"
+  },
+  "evidence": [
+    "verification.json",
+    "classified-a/summary.json",
+    "classified-b/summary.json",
+    "full1b.json",
+    "publication.json",
+    "post-publication-check.json"
+  ]
+}

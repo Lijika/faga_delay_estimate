@@ -1,0 +1,40 @@
+{
+  "task": "User-selected PackedJoin integration; update release then full classified A/B and full nonrepeating 1B",
+  "time": "2026-11-06T18:54:27.591264+08:00",
+  "baseline": "exp873-3m-refine-b2442-20261106",
+  "hypothesis": "PackedJoin replaces online graph refinement with finite physical correction lookups while retaining portable CPU engineering",
+  "scope": [
+    "private source",
+    "src/gpt_pro_fast",
+    "build scripts",
+    "release checks",
+    "immutable package",
+    "RESULTS.md",
+    "DESIGN.md"
+  ],
+  "validation": [
+    "Complete official1M supplied PackedJoin vs merged auto/generic; exact output parity",
+    "Five automatic complete1M runs, static ELF <100000000 bytes, clean cwd, one thread, RSS <=2000000000 bytes",
+    "Publish user-selected stage",
+    "Complete classified A then B, 100000000 rows each",
+    "Complete pre-existing nonrepeating U-role1B"
+  ],
+  "metrics": [
+    "full-row A/B accuracy",
+    "complete-program user+sys CPU",
+    "RSS bytes",
+    "output contract and SHA"
+  ],
+  "decision": "Publish only after 1M implementation/resources verification; report A/B and 1B measured values; user explicitly selects this algorithm",
+  "full1b_authorization": "Latest explicit user request takes precedence over historical extrapolation admission cutoff",
+  "precision_scope": "Supplied report3M is observed development; A/B have been observed during prior work; no hidden-accuracy claim",
+  "performance_minimum": "Descriptive comparison; two complete 1B runs report observed spread without a significance claim",
+  "stop": "Contract/portability/ELF/RSS failures must be fixed before publication; no new model fitting",
+  "storage": {
+    "f_free_bytes": 23189774336,
+    "wsl_free_bytes": 194030977024,
+    "remote_free_bytes": 1345724416,
+    "strategy": "local hardlinks, remote source build, transient memfd outputs"
+  },
+  "planned_1b_runs": 2
+}

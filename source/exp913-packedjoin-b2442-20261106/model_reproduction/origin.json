@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-05",
+  "release_label": "exp855-gpt-pro-fast-generic-20261105",
+  "scope": "Offline reproduction-source supplement; existing ELF, ZIP, build inputs and measurements retained.",
+  "authorization": "用户要求将模型资产生成和训练代码接入当前正式版，并跳过编译打包。",
+  "upstream_directory": "subm/gpt_pro/FPGA-model-assets-reproduction-kit/model-assets-reproduction",
+  "upstream_files": {
+    "README.md": {
+      "bytes": 2377,
+      "sha256": "5696ed69ad1569b8f088be4c303ba8f4fbd8ce6dbd330646376aa77373ef2b08"
+    },
+    "frozen/aqScale.inc": {
+      "bytes": 842,
+      "sha256": "4dc4d74bb5ddad5b4c2e1a78e51c813a9aa834f3ea41dc47c51309287b3cb1fd"
+    },
+    "frozen/books.npz": {
+      "bytes": 1995862,
+      "sha256": "b0fb8cfa1308878cebb041e0173a9531cf352025eb9b899c0b10f5cf78cd1a9e"
+    },
+    "frozen/d0-k40-n8.npz": {
+      "bytes": 28114,
+      "sha256": "361e8fa85b451b999038f65ddbf63acb01d51fcc17f2da431fb15fdaf1dd61fa"
+    },
+    "frozen/d0-k56-n8.npz": {
+      "bytes": 28242,
+      "sha256": "c2a062914946f7984bcb65a97b963c9c6ccd450475d873e5750403a4372ed7c1"
+    },
+    "frozen/d1-k40-n8.npz": {
+      "bytes": 28114,
+      "sha256": "fae059c443cc8edd73051ba442301cb8259d6f881d9468d56e333eca680ed7b1"
+    },
+    "frozen/d1-k56-n8.npz": {
+      "bytes": 28242,
+      "sha256": "af1e8ebbe2f6a1c0587c8a244e222416dc48a47277f3173d7269efb34ec8f849"
+    },
+    "frozen/d2-k40-n8.npz": {
+      "bytes": 28114,
+      "sha256": "8052b0e9d0481fd91d750d6e79159f864f0b05e327195887975e9bb606b47348"
+    },
+    "frozen/d2-k56-n8.npz": {
+      "bytes": 28242,
+      "sha256": "5b112c305604934adac1402c14f689d83eb6846a8f5ae6fc5184ed16e93e21aa"
+    },
+    "frozen/d3-k40-n8.npz": {
+      "bytes": 28114,
+      "sha256": "09872370be93dc8d3b4ba90b64bea9d8b6704eb50591c1f71234f31278dc5f6b"
+    },
+    "frozen/d3-k56-n8.npz": {
+      "bytes": 28242,
+      "sha256": "e5f3897d783fc8dd8e29c1631071b3c1de15e448679e7db14b49af7a26192667"
+    },
+    "frozen/frameBytes.inc": {
+      "bytes": 5451,
+      "sha256": "8be66e1e2799128d3adaeadb10604cfbc3a967d0926c475e824667c31fc97466"
+    },
+    "frozen/nearIdx.inc": {
+      "bytes": 1585,
+      "sha256": "2091ac49a65e394426989324db0182c6ee4c618e8d37a90901741d4822169141"
+    },
+    "frozen/nearOrder.inc": {
+      "bytes": 485,
+      "sha256": "f96c979003aad56d05db1a61bebb33c8597d9819442dee1b63d681e0cf16047f"
+    },
+    "frozen/nearWeights.inc": {
+      "bytes": 8334,
+      "sha256": "2870ca4a7ac41a2c1fd73fcb9dcae0fcc144b8e08fc04c60d8b71445379e947e"
+    },
+    "frozen/outputIdx.inc": {
+      "bytes": 55178,
+      "sha256": "171c7d8313a4a6de917b1f14e13b1374df54f2dd9f8661f8737220e13999886a"
+    },
+    "frozen/outputWeights.inc": {
+      "bytes": 279634,
+      "sha256": "638da8c097f01117fa432d85ea5041f03456ffa7ca5294cd717781b6c44f9e45"
+    },
+    "raw_arch/SRB_Arc.json": {
+      "bytes": 837145,
+      "sha256": "6c51e426b6820246151d903bf16d58ff9b857be5648243f10258055de8b19dff"
+    },
+    "raw_arch/SRB_Gap.json": {
+      "bytes": 3969,
+      "sha256": "5e6a156373bcb8c1a653381d2a2cc7f16db1a2fec0e44362c936d99b66d9d6dd"
+    },
+    "raw_arch/SRB_Inst.json": {
+      "bytes": 4266018,
+      "sha256": "5b7dc880f67007b7fb10e33ac0864110a1c7604813a8730aedef60216000e277"
+    },
+    "raw_arch/SRB_Net.json": {
+      "bytes": 21062,
+      "sha256": "4231b9d315f9e27646aaae8d4fa35581825bbd07d4186d2f7f44813af6c22244"
+    },
+    "raw_arch/SRB_Port.json": {
+      "bytes": 31858,
+      "sha256": "e45cce375c1e14253ff3bdb4839962a97a46b4ea996917b36b189efd823d6515"
+    },
+    "receipts/frames-check.json": {
+      "bytes": 335,
+      "sha256": "d0d43d165fbca161d99b3c83cd19226a9ed4fed3e665cb38e7394ab07cfc0df8"
+    },
+    "receipts/frozen-tables.json": {
+      "bytes": 872,
+      "sha256": "f6164810fbe54c5200fff92f714af4b69d70c0f7a8e34d6208795de6285f5be1"
+    },
+    "receipts/repack-manifest.json": {
+      "bytes": 467,
+      "sha256": "91e2d6591287f559c96441cc1d16e4dc63fe93e2897fc8d08008ffea259ff00d"
+    },
+    "requirements-training.txt": {
+      "bytes": 264,
+      "sha256": "ad19432bf65ce6cb39fd72ecd5966b2f3a9df14a322646c21d4e1c204a6d0e86"
+    },
+    "sources/knots/encode_rates.py": {
+      "bytes": 5059,
+      "sha256": "89689d5844de9182ec486e6e853727b09cea97f46e2d18ff5d585671c6d51c72"
+    },
+    "sources/knots/export.cpp": {
+      "bytes": 1682,
+      "sha256": "fe549fe9f8a1a2af0d7860b26d0069eaeae6a91197141e301b1468cb6875aafa"
+    },
+    "sources/knots/fit.py": {
+      "bytes": 2775,
+      "sha256": "ddf641f891d9b989072eaf75ebda067b9282fe95d2535460269ff2e6c75cf0d9"
+    },
+    "sources/knots/native/arch.py": {
+      "bytes": 1814,
+      "sha256": "f742ad7c6168b89d90f77c03d45c435b4ddf33f20109691e62023ff2a3effb63"
+    },
+    "sources/knots/native/build.py": {
+      "bytes": 5883,
+      "sha256": "0642fc814ba889f5cd4a0afce5eace42af1e497abdac5751f7f2dc98a069216b"
+    },
+    "sources/knots/native/entropy.py": {
+      "bytes": 1696,
+      "sha256": "f881080abea334e9370cc42ec5c2c875b4cb986aa4168617f261f550afa7b939"
+    },
+    "sources/repro/ORIGINAL_README.md": {
+      "bytes": 3719,
+      "sha256": "94d06d4051a0f15dee200631f680c28ed4a9f642acb9bc95aae1330cc0a5ff36"
+    },
+    "sources/repro/inputs/gather.py": {
+      "bytes": 1745,
+      "sha256": "c06f207245a4bcbcfafc1960b058c137cf3273dba96084d774fdd3da170b7a35"
+    },
+    "sources/repro/inputs/sources.ids": {
+      "bytes": 758,
+      "sha256": "a33c4279c875d5a94912febad3d95825fa89051d1dfa42b503bf25a219a30d5b"
+    },
+    "sources/repro/inputs/targets.oldidx": {
+      "bytes": 1042,
+      "sha256": "6e7ca703d07d3d2833b633d0f11d70c43315539234bf6536a391eb3fb19975b2"
+    },
+    "sources/repro/inputs/trace.py": {
+      "bytes": 1660,
+      "sha256": "db1f0a5905cbdcbc23c0084be4e82c059f82d2b8db4bd4cd6bb9a009b0b794a5"
+    },
+    "sources/repro/nominal_source/build/exp483/solver.hpp": {
+      "bytes": 5760,
+      "sha256": "0d1acecb550dee0193cd99bf85a9d5628d6ada53d38eadcfae303dda30a307b5"
+    },
+    "sources/repro/nominal_source/build/exp499/roles.hpp": {
+      "bytes": 4763,
+      "sha256": "a4ee679ffbbad712b1efb4934f2b4f9e75f0af20f138f30b103dfaa8b592ff05"
+    },
+    "sources/repro/nominal_source/build.sh": {
+      "bytes": 180,
+      "sha256": "0db8d846747cc9e4a7fd898243e22be303dd1501b265d38bb5c0673c57ed9171"
+    },
+    "sources/repro/nominal_source/src/architecture.cpp": {
+      "bytes": 14157,
+      "sha256": "444a164fbb5a482f420a9a6530fe1e3a089e5ec8d40d9d8dc2164cba71d286a8"
+    },
+    "sources/repro/nominal_source/src/architecture.h": {
+      "bytes": 8918,
+      "sha256": "94df498a68182827a402f698c93c5324c84aed86dcef4985dfe4df121f724b2d"
+    },
+    "sources/repro/nominal_source/src/json.h": {
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    "sources/repro/nominal_source/src/query_cache.h": {
+      "bytes": 2568,
+      "sha256": "44305424cf614ae13d4c80eda97ca7865ff66d95ce68dfc7bb886f2a0016b386"
+    },
+    "sources/repro/nominal_source/src/router.h": {
+      "bytes": 10927,
+      "sha256": "3e9f2b8d1002281ae5a21eefb9cb6976061332766f955c01772f8788ddb788a8"
+    },
+    "sources/repro/nominal_source/tests/exp499_full_residue_field.cpp": {
+      "bytes": 3855,
+      "sha256": "de2418df1f8202ded90753ed4b2f8851dad4f495c802cf97e0f5300a2e0ff89d"
+    },
+    "tools/asset_codec.py": {
+      "bytes": 973,
+      "sha256": "031f6249666ba6814f5741abb2de2c4ba7ea05875b8c95d7af60b7aaf7dd37ef"
+    },
+    "tools/check_frozen_tables.py": {
+      "bytes": 1818,
+      "sha256": "f69f3288fee79f6a54c36923127b07013910483597cc281c2b02f691929294b0"
+    },
+    "tools/full_train.sh": {
+      "bytes": 3505,
+      "sha256": "26c62c4f39eee7bb55b6ca59224b858fce17ab0749c63520f26d182787629706"
+    },
+    "tools/pack_assets.py": {
+      "bytes": 3136,
+      "sha256": "54dfc2cea001d7a5073f34b9428f7a079e7da92971a142de04c545ad987f4eda"
+    },
+    "tools/split_frames.py": {
+      "bytes": 3177,
+      "sha256": "f4cdf67128a9c2bb5b4f2121188ab215caef86b009780c3fdfa8d740cd757648"
+    },
+    "三项模型资产的算法与完整复现报告.md": {
+      "bytes": 25267,
+      "sha256": "5484a30126169a10480ed57e0572aca5090a4054cd65db49797b7509617381d0"
+    }
+  },
+  "upstream_file_count": 52,
+  "upstream_total_bytes": 7861814,
+  "original_release_file_manifest": {
+    "bytes": 15951,
+    "sha256": "b5fa13bbe24dc105709f77122098c244101dd6f392d0343a96726cdaed5b7491"
+  },
+  "original_release_file_manifest_copy": "validation/results/exp855-model-reproduction/original-release-file-manifest.json",
+  "build_source_manifest": {
+    "bytes": 9290,
+    "sha256": "b38f498eec1fc83880095863854db0e5caf9e708cee16d7a1656619ba3655c1c"
+  },
+  "model_assets": {
+    "arch.bin": {
+      "bytes": 91246,
+      "sha256": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b"
+    },
+    "books.f32": {
+      "bytes": 1966080,
+      "sha256": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f"
+    },
+    "frames.bin": {
+      "bytes": 94065657,
+      "sha256": "86d62800d87773a9c61dda998d45084930ac30cdecc6493dc0089f27829ee046"
+    }
+  },
+  "full_retraining_verified": false,
+  "training_dependencies": "EAT117 source, assets/surface779 and complete 1M public cohort are bundled from local files. Numerical package versions were not pinned upstream; full retraining and tracer compilation remain unverified.",
+  "local_changes": {
+    "sources/repro/inputs/trace.py": {
+      "bytes": 1985,
+      "sha256": "9f1856bca15786a81b7f75e95af49c0699c053fdcb051e7975f9db18c34b7d2a",
+      "reason": "Adapt diagnostic worker to bundled EAT117 surface words and ordinary flag; locate compiler/linker outputs using -o."
+    }
+  },
+  "historical_eat": {
+    "commit": "b6fa91570c193548bf8e3b311912e9a4d0ab47f0",
+    "source_tree": "a31d2d4fde17ba27137e351d5f3eead02cb50ecf",
+    "directory": "sources/eat117",
+    "source_files": 248,
+    "source_bytes": 95273523,
+    "surface779_files": 210,
+    "surface779_bytes": 82872955,
+    "file_manifest": "receipts/eat117-local-files.json"
+  }
+}
