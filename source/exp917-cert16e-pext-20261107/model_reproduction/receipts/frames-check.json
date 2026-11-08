@@ -1,0 +1,17 @@
+{
+  "inspected_frames": 832,
+  "total_compressed_bytes": 94065657,
+  "total_uncompressed_bytes": 114560481,
+  "rate_histogram": {
+    "0": 343174,
+    "1": 7260427,
+    "2": 5888754,
+    "3": 4201816,
+    "4": 3100552,
+    "5": 2313034,
+    "6": 1980646,
+    "8": 1983143,
+    "10": 1682374
+  },
+  "zstd8_identical_reencodings": 832
+}

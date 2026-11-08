@@ -1,0 +1,1436 @@
+{
+  "algorithm_version": "GPT-Pro-fast-exp917-Cert16E-PEXT",
+  "bin_bytes": 99840088,
+  "bin_sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f",
+  "build": {
+    "baseline_isa": "x86-64 SSE2",
+    "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+    "dispatch": "6242R/6226R plus OS-enabled ISA",
+    "manifest": "source/manifest.json",
+    "mode": "source",
+    "pgo": false,
+    "reproduce": "python3 source/build.py --variant fast --mode source --out-dir rebuild",
+    "static": true,
+    "variant": "fast"
+  },
+  "created_at": "2026-11-07T08:35:41.058607+08:00",
+  "git_commit_before_integration": "9564cbf9bb5f48140ec37a189a9ff2a7f95653fc",
+  "limitations": {
+    "cpu90s_goal_met": false,
+    "full1b_exact_accuracy_verified": false,
+    "full1b_runtime_and_rss_verified": true,
+    "official_consecutive_five_verified": false,
+    "official_platform_verified": false,
+    "release_elf_full200m_verified": true,
+    "release_elf_full_b100m_verified": true,
+    "supplied_label_solver_provenance_verified": false,
+    "unknown_input_accuracy_above99_verified": false,
+    "xeon6242r_hardware_verified": false
+  },
+  "measurements": {
+    "full100m": {
+      "cpu_mean_s": 19.3968906,
+      "cpu_range_s": 0.16437899999999672,
+      "cpu_s": [
+        19.51215,
+        19.370693000000003,
+        19.347771,
+        19.375987,
+        19.377851999999997
+      ],
+      "cpu_stdev_s": 0.06554236687288513,
+      "five_outputs_equal": true,
+      "generic_equal": true,
+      "rows": 100000000,
+      "runs": [
+        "query-pext-100m",
+        "consistency-100m-2",
+        "consistency-100m-3",
+        "consistency-100m-4",
+        "consistency-100m-5"
+      ]
+    },
+    "full1b": {
+      "baseline_cpu_s": 104.14596,
+      "candidate_cpu_s": 100.56993299999999,
+      "saved_s": 3.5760270000000105,
+      "scope": "first complete1B pair; repeated timing, if available, is separate"
+    },
+    "full1b_accuracy": {
+      "accuracy_pp": 99.29060347284297,
+      "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+      "full_population_scored": false,
+      "input_previously_observed": true,
+      "population_rows": 1000000000,
+      "port_pairs": 59904,
+      "sample_rows": 3833856,
+      "samples_per_pair_max": 64,
+      "samples_per_pair_min": 64,
+      "stratified_normal_ci95_pp": [
+        99.28828048856931,
+        99.29292645711664
+      ],
+      "unweighted_exact_fraction": 0.3800497462606838,
+      "weighted_mae_ps": 4.64632335109375
+    },
+    "full_ab": {
+      "a_accuracy_pp": 99.28377634074471,
+      "accuracy_pp": 99.28402967724034,
+      "all_outputs_equal": true,
+      "b_accuracy_pp": 99.28428301373597,
+      "rows": 200000000
+    },
+    "release_verification": {
+      "binary": {
+        "bytes": 99840088,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+        "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+      },
+      "candidate": "query-pext",
+      "comparison": {
+        "bytes": 130452,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query.json",
+        "sha256": "ab46d84a9d4e9fe5a3e7e0a58a5702462853a9fb8c4f51a3b4c6454240fc6b60"
+      },
+      "driver": {
+        "bytes": 8546,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/exp917_acceptance.py",
+        "sha256": "1a3ecc6d6dfdefd0b37f026a620c5dca956516b2418a4b3ae9fda90e7a4d202d"
+      },
+      "full100m": {
+        "cpu_mean_s": 19.3968906,
+        "cpu_range_s": 0.16437899999999672,
+        "cpu_s": [
+          19.51215,
+          19.370693000000003,
+          19.347771,
+          19.375987,
+          19.377851999999997
+        ],
+        "cpu_stdev_s": 0.06554236687288513,
+        "five_outputs_equal": true,
+        "generic_equal": true,
+        "rows": 100000000,
+        "runs": [
+          "query-pext-100m",
+          "consistency-100m-2",
+          "consistency-100m-3",
+          "consistency-100m-4",
+          "consistency-100m-5"
+        ]
+      },
+      "full1b": {
+        "baseline_cpu_s": 104.14596,
+        "candidate_cpu_s": 100.56993299999999,
+        "saved_s": 3.5760270000000105,
+        "scope": "first complete1B pair; repeated timing, if available, is separate"
+      },
+      "full_ab": {
+        "a_accuracy_pp": 99.28377634074471,
+        "accuracy_pp": 99.28402967724034,
+        "all_outputs_equal": true,
+        "b_accuracy_pp": 99.28428301373597,
+        "rows": 200000000
+      },
+      "generic_binary": {
+        "bytes": 99815512,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/accept-generic/build/fast/estimate",
+        "sha256": "b58e9a5bc1b261e7937c36eae54824f4880dea9704988d195cb3c13472dbb611"
+      },
+      "hardware": {
+        "cpu": 8,
+        "cpuinfo": "6b2309253572dc543e65f884c9cfb72f84c6306a8d8e7d72057c88d1b752626a",
+        "hostname": "lhj-R4900-G3"
+      },
+      "pid": 2308267,
+      "runs": [
+        {
+          "accuracy": {
+            "absolute_error_sum": 311260422,
+            "accuracy_pp": 99.28377634074471,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 65515342,
+            "max_absolute_error": 486,
+            "missing_predictions": 0,
+            "over_rows": 15834139,
+            "point_sum": 99283776.3407447,
+            "positive_scored_rows": 100000000,
+            "relative_error_sum": 183189.41798046202,
+            "rows": 100000000,
+            "signed_error_sum": -165655612,
+            "under_rows": 18650519,
+            "within5_rows": 99447080,
+            "zero_exact_rows": 0,
+            "zero_matches": 0
+          },
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3516896561,
+            "output_bytes": 3965315810,
+            "rows": 100000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3516896561,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-a-100m/requests.csv",
+            "sha256": "a706caa0a655185834c5a7b7b2a6018502c43ba5d4066e9b09d051b8eb6a4986"
+          },
+          "input_warmup": {
+            "cpu_s": 9.899147000000001,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 15.945503948256373
+          },
+          "load_before": "1.51 1.22 1.08 1/1108 2308641\n",
+          "name": "accuracy-a",
+          "output": {
+            "bytes": 3965315810,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "d18c9e479e3d00763f1f9064adc2ef2fd7e69fdc53647a564cf758f881a0a7c1"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/accuracy-a/clean-woy8g_ze/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-a-100m/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 22.329671,
+            "environment": {
+              "after": {
+                "loadavg": "1.33 1.20 1.07 1/1109 2308677\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        33758068 kB\nMemAvailable:   51115956 kB\nBuffers:            2808 kB\nCached:         56470636 kB\nSwapCached:        52308 kB\nActive:         27696380 kB\nInactive:       29688012 kB\nActive(anon):   27561636 kB\nInactive(anon): 11952836 kB\nActive(file):     134744 kB\nInactive(file): 17735176 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        861304 kB\nMapped:           116576 kB\nShmem:          38603524 kB\nKReclaimable:     478168 kB\nSlab:            1166568 kB\nSReclaimable:     478168 kB\nSUnreclaim:       688400 kB\nKernelStack:       18256 kB\nPageTables:        26964 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47363888 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61740 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.06 avg300=0.07 total=1299944652\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=2.83 avg60=5.32 avg300=4.99 total=30124298969\nfull avg10=2.83 avg60=5.32 avg300=4.98 total=30098319760\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=2.12 total=3021087976\nfull avg10=0.00 avg60=0.00 avg300=2.12 total=3020492077\n",
+                "vmstat": "nr_free_pages 8439517\nnr_zone_inactive_anon 2988209\nnr_zone_active_anon 6890409\nnr_zone_inactive_file 4433794\nnr_zone_active_file 33686\nnr_zone_unevictable 772\nnr_zone_write_pending 0\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20127207205\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20126630960\nnuma_other 0\nnr_inactive_anon 2988209\nnr_active_anon 6890409\nnr_inactive_file 4433794\nnr_active_file 33686\nnr_unevictable 772\nnr_slab_reclaimable 119542\nnr_slab_unreclaimable 172100\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86593\nworkingset_refault_anon 5092\nworkingset_refault_file 5056828690\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979093\nworkingset_restore_anon 1773\nworkingset_restore_file 546748106\nworkingset_nodereclaim 10372281\nnr_anon_pages 215326\nnr_mapped 29144\nnr_file_pages 14131438\nnr_dirty 0\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 9650881\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035396911\nnr_written 745397596\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18256\nnr_page_table_pages 6741\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2547878\nnr_dirty_background_threshold 1272383\npgpgin 27091325100\npgpgout 2974511769\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42806406188\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46164250066\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6026911173\npgmajfault 279190\npglazyfreed 0\npgrefill 1094242424\npgreuse 272499242\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131420\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29982591\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62629\nthp_split_pmd 66683\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.51 1.22 1.08 1/1108 2308641\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        37964680 kB\nMemAvailable:   55321928 kB\nBuffers:            2776 kB\nCached:         52598184 kB\nSwapCached:        52308 kB\nActive:         23822044 kB\nInactive:       29687912 kB\nActive(anon):   23687840 kB\nInactive(anon): 11952836 kB\nActive(file):     134204 kB\nInactive(file): 17735076 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        860100 kB\nMapped:           116140 kB\nShmem:          34731568 kB\nKReclaimable:     478168 kB\nSlab:            1166760 kB\nSReclaimable:     478168 kB\nSUnreclaim:       688592 kB\nKernelStack:       18224 kB\nPageTables:        26732 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43490644 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61772 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.04 avg60=0.09 avg300=0.08 total=1299936320\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=25.87 avg60=7.12 avg300=5.26 total=30124298955\nfull avg10=25.87 avg60=7.12 avg300=5.25 total=30098319748\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=2.31 total=3021087976\nfull avg10=0.00 avg60=0.00 avg300=2.30 total=3020492077\n",
+                "vmstat": "nr_free_pages 9491170\nnr_zone_inactive_anon 2988209\nnr_zone_active_anon 5921960\nnr_zone_inactive_file 4433769\nnr_zone_active_file 33551\nnr_zone_unevictable 772\nnr_zone_write_pending 0\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20126118813\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20125542568\nnuma_other 0\nnr_inactive_anon 2988209\nnr_active_anon 5921960\nnr_inactive_file 4433769\nnr_active_file 33551\nnr_unevictable 772\nnr_slab_reclaimable 119542\nnr_slab_unreclaimable 172148\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86593\nworkingset_refault_anon 5092\nworkingset_refault_file 5056828566\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979088\nworkingset_restore_anon 1773\nworkingset_restore_file 546748101\nworkingset_nodereclaim 10372281\nnr_anon_pages 215025\nnr_mapped 29035\nnr_file_pages 13163317\nnr_dirty 0\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035396502\nnr_written 745397189\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18224\nnr_page_table_pages 6683\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2758125\nnr_dirty_background_threshold 1377379\npgpgin 27091324676\npgpgout 2974510033\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42804547425\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46163359623\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6026789691\npgmajfault 279183\npglazyfreed 0\npgrefill 1094242424\npgreuse 272497698\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131420\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29981084\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62526\nthp_split_pmd 66580\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899724800,
+            "sys_s": 2.022789,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 20.306882,
+            "wall_s": 22.332956643309444
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "accept-classified-a"
+          }
+        },
+        {
+          "accuracy": {
+            "absolute_error_sum": 311161664,
+            "accuracy_pp": 99.28428301373597,
+            "endpoint_order_integer_eof_contract_passed": true,
+            "exact_rows": 65527457,
+            "max_absolute_error": 456,
+            "missing_predictions": 0,
+            "over_rows": 15833112,
+            "point_sum": 99284283.01373596,
+            "positive_scored_rows": 100000000,
+            "relative_error_sum": 183033.46759093698,
+            "rows": 100000000,
+            "signed_error_sum": -165650238,
+            "under_rows": 18639431,
+            "within5_rows": 99447151,
+            "zero_exact_rows": 0,
+            "zero_matches": 0
+          },
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3516774737,
+            "output_bytes": 3965196888,
+            "rows": 100000000,
+            "sample_rows": 1
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3516774737,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-b-100m/requests.csv",
+            "sha256": "2682c6abcf4468db8c16b86542ed4f72905769b820fdb00603e4a4b07734ac70"
+          },
+          "input_warmup": {
+            "cpu_s": 9.874835,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 15.621386622078717
+          },
+          "load_before": "1.28 1.20 1.08 1/1108 2308712\n",
+          "name": "accuracy-b",
+          "output": {
+            "bytes": 3965196888,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "41211222bec04bb046131f4b2477d6c34addf038bfc90f0a9cf81ab9661fe217"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/accuracy-b/clean-fxws_e7n/estimate",
+              "-in",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp857-classified200m/data/eda-classified-test-b-100m/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 22.277447,
+            "environment": {
+              "after": {
+                "loadavg": "1.20 1.19 1.08 1/1109 2308742\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30311496 kB\nMemAvailable:   51104912 kB\nBuffers:            2896 kB\nCached:         59906096 kB\nSwapCached:        52308 kB\nActive:         27697352 kB\nInactive:       33122512 kB\nActive(anon):   27561584 kB\nInactive(anon): 11952832 kB\nActive(file):     135768 kB\nInactive(file): 21169680 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:                56 kB\nWriteback:            36 kB\nAnonPages:        861364 kB\nMapped:           117320 kB\nShmem:          38603536 kB\nKReclaimable:     478168 kB\nSlab:            1166600 kB\nSReclaimable:     478168 kB\nSUnreclaim:       688432 kB\nKernelStack:       18256 kB\nPageTables:        26968 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47363792 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61740 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.02 avg300=0.05 total=1300021767\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=3.31 avg60=7.93 avg300=5.90 total=30129694598\nfull avg10=3.31 avg60=7.93 avg300=5.90 total=30103714581\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.81 total=3021087980\nfull avg10=0.00 avg60=0.00 avg300=1.80 total=3020492081\n",
+                "vmstat": "nr_free_pages 7577874\nnr_zone_inactive_anon 2988208\nnr_zone_active_anon 6890396\nnr_zone_inactive_file 5292420\nnr_zone_active_file 33942\nnr_zone_unevictable 772\nnr_zone_write_pending 23\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20129170729\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20128594484\nnuma_other 0\nnr_inactive_anon 2988208\nnr_active_anon 6890396\nnr_inactive_file 5292420\nnr_active_file 33942\nnr_unevictable 772\nnr_slab_reclaimable 119542\nnr_slab_unreclaimable 172108\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86592\nworkingset_refault_anon 5092\nworkingset_refault_file 5056828906\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979126\nworkingset_restore_anon 1773\nworkingset_restore_file 546748139\nworkingset_nodereclaim 10372281\nnr_anon_pages 215341\nnr_mapped 29330\nnr_file_pages 14990325\nnr_dirty 14\nnr_writeback 9\nnr_writeback_temp 0\nnr_shmem 9650884\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035397885\nnr_written 745398542\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18256\nnr_page_table_pages 6742\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2547326\nnr_dirty_background_threshold 1272108\npgpgin 27094760128\npgpgout 2974516001\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42809140573\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46166125585\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027051173\npgmajfault 279208\npglazyfreed 0\npgrefill 1094242424\npgreuse 272502557\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131420\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29984098\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62732\nthp_split_pmd 66786\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.28 1.20 1.08 1/1108 2308712\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34534220 kB\nMemAvailable:   55326992 kB\nBuffers:            2864 kB\nCached:         56033528 kB\nSwapCached:        52308 kB\nActive:         23824208 kB\nInactive:       33122456 kB\nActive(anon):   23689028 kB\nInactive(anon): 11952832 kB\nActive(file):     135180 kB\nInactive(file): 21169624 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               188 kB\nWriteback:             0 kB\nAnonPages:        860620 kB\nMapped:           116980 kB\nShmem:          34731568 kB\nKReclaimable:     478168 kB\nSlab:            1166568 kB\nSReclaimable:     478168 kB\nSUnreclaim:       688400 kB\nKernelStack:       18224 kB\nPageTables:        26716 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43490932 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61724 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.04 avg300=0.06 total=1300012547\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=26.98 avg60=10.99 avg300=6.28 total=30129694586\nfull avg10=26.98 avg60=10.99 avg300=6.27 total=30103714570\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.95 total=3021087979\nfull avg10=0.00 avg60=0.00 avg300=1.95 total=3020492081\n",
+                "vmstat": "nr_free_pages 8633555\nnr_zone_inactive_anon 2988208\nnr_zone_active_anon 5922257\nnr_zone_inactive_file 5292406\nnr_zone_active_file 33795\nnr_zone_unevictable 772\nnr_zone_write_pending 47\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20128082903\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20127506658\nnuma_other 0\nnr_inactive_anon 2988208\nnr_active_anon 5922257\nnr_inactive_file 5292406\nnr_active_file 33795\nnr_unevictable 772\nnr_slab_reclaimable 119542\nnr_slab_unreclaimable 172100\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86592\nworkingset_refault_anon 5092\nworkingset_refault_file 5056828799\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979111\nworkingset_restore_anon 1773\nworkingset_restore_file 546748124\nworkingset_nodereclaim 10372281\nnr_anon_pages 215155\nnr_mapped 29245\nnr_file_pages 14022175\nnr_dirty 47\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035397442\nnr_written 745398077\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18224\nnr_page_table_pages 6679\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2758379\nnr_dirty_background_threshold 1377505\npgpgin 27094759756\npgpgout 2974513981\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42807282309\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46165235537\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6026930484\npgmajfault 279200\npglazyfreed 0\npgrefill 1094242424\npgreuse 272501068\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131420\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29982591\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62629\nthp_split_pmd 66683\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899728896,
+            "sys_s": 2.048765,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 20.228682,
+            "wall_s": 22.280492684803903
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "accept-classified-b"
+          }
+        },
+        {
+          "accuracy": {
+            "accuracy_pp": 99.2918545418422,
+            "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+            "full_population_scored": false,
+            "input_previously_observed": true,
+            "population_rows": 100000000,
+            "port_pairs": 59904,
+            "sample_rows": 1916928,
+            "samples_per_pair_max": 32,
+            "samples_per_pair_min": 32,
+            "stratified_normal_ci95_pp": [
+              99.28859379898162,
+              99.29511528470277
+            ],
+            "unweighted_exact_fraction": 0.3792625492454594,
+            "weighted_mae_ps": 4.6510225440625
+          },
+          "accuracy_scope": "1916928 stratified exact labels; output covers 100000000",
+          "binary": {
+            "bytes": 99815512,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/accept-generic/build/fast/estimate",
+            "sha256": "b58e9a5bc1b261e7937c36eae54824f4880dea9704988d195cb3c13472dbb611"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3519780294,
+            "output_bytes": 4013558979,
+            "rows": 100000000,
+            "sample_rows": 1916928
+          },
+          "cpu_path": "generic_sse2",
+          "input": {
+            "bytes": 3519780294,
+            "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+            "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+          },
+          "input_warmup": {
+            "cpu_s": 8.042183000000003,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 8.27647378994152
+          },
+          "load_before": "1.12 1.17 1.07 1/1107 2308824\n",
+          "name": "accept-generic100m",
+          "output": {
+            "bytes": 4013558979,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "f932741834f5d4c09ecaf97ea2227347e49f218a3f8540cd46815ce9869647a9"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/accept-generic100m/clean-pr13mc8n/estimate",
+              "-in",
+              "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 19.31887,
+            "environment": {
+              "after": {
+                "loadavg": "1.08 1.15 1.07 1/1107 2308848\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30199260 kB\nMemAvailable:   51093716 kB\nBuffers:            3048 kB\nCached:         60051496 kB\nSwapCached:        52308 kB\nActive:         27745936 kB\nInactive:       33220272 kB\nActive(anon):   27609484 kB\nInactive(anon): 11952832 kB\nActive(file):     136452 kB\nInactive(file): 21267440 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:             97528 kB\nWriteback:            16 kB\nAnonPages:        862040 kB\nMapped:           118424 kB\nShmem:          38650624 kB\nKReclaimable:     480764 kB\nSlab:            1169076 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688312 kB\nKernelStack:       18224 kB\nPageTables:        26964 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47411600 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61728 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.07 avg60=0.20 avg300=0.11 total=1300290806\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.02 avg60=3.56 avg300=5.00 total=30129705491\nfull avg10=0.02 avg60=3.56 avg300=5.00 total=30103725392\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.53 total=3021087981\nfull avg10=0.00 avg60=0.00 avg300=1.52 total=3020492082\n",
+                "vmstat": "nr_free_pages 7549815\nnr_zone_inactive_anon 2988208\nnr_zone_active_anon 6902371\nnr_zone_inactive_file 5316860\nnr_zone_active_file 34113\nnr_zone_unevictable 772\nnr_zone_write_pending 24386\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20130643782\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20130067537\nnuma_other 0\nnr_inactive_anon 2988208\nnr_active_anon 6902371\nnr_inactive_file 5316860\nnr_active_file 34113\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172078\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86588\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829029\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979139\nworkingset_restore_anon 1773\nworkingset_restore_file 546748151\nworkingset_nodereclaim 10372281\nnr_anon_pages 215510\nnr_mapped 29606\nnr_file_pages 15026713\nnr_dirty 24382\nnr_writeback 4\nnr_writeback_temp 0\nnr_shmem 9662656\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035447387\nnr_written 745442426\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18224\nnr_page_table_pages 6741\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2546637\nnr_dirty_background_threshold 1271763\npgpgin 27094760724\npgpgout 2974594693\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42811460806\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46168408401\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027505990\npgmajfault 279220\npglazyfreed 0\npgrefill 1094242424\npgreuse 272505977\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29985754\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62834\nthp_split_pmd 66888\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.12 1.17 1.07 1/1107 2308824\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34339472 kB\nMemAvailable:   55233704 kB\nBuffers:            3016 kB\nCached:         56132256 kB\nSwapCached:        52308 kB\nActive:         23825648 kB\nInactive:       33220224 kB\nActive(anon):   23689372 kB\nInactive(anon): 11952832 kB\nActive(file):     136276 kB\nInactive(file): 21267392 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:             97936 kB\nWriteback:             0 kB\nAnonPages:        861432 kB\nMapped:           118016 kB\nShmem:          34731568 kB\nKReclaimable:     480764 kB\nSlab:            1168884 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688120 kB\nKernelStack:       18208 kB\nPageTables:        26736 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43491516 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61724 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.57 avg60=0.28 avg300=0.12 total=1300280636\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.20 avg60=4.97 avg300=5.36 total=30129705483\nfull avg10=0.20 avg60=4.97 avg300=5.35 total=30103725384\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.64 total=3021087981\nfull avg10=0.00 avg60=0.00 avg300=1.64 total=3020492082\n",
+                "vmstat": "nr_free_pages 8584868\nnr_zone_inactive_anon 2988208\nnr_zone_active_anon 5922343\nnr_zone_inactive_file 5316848\nnr_zone_active_file 34069\nnr_zone_unevictable 772\nnr_zone_write_pending 24448\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20129544413\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20128968168\nnuma_other 0\nnr_inactive_anon 2988208\nnr_active_anon 5922343\nnr_inactive_file 5316848\nnr_active_file 34069\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172030\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86589\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829005\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979139\nworkingset_restore_anon 1773\nworkingset_restore_file 546748151\nworkingset_nodereclaim 10372281\nnr_anon_pages 215358\nnr_mapped 29504\nnr_file_pages 14046895\nnr_dirty 24484\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035446935\nnr_written 745441916\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18208\nnr_page_table_pages 6684\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2753585\nnr_dirty_background_threshold 1375111\npgpgin 27094760548\npgpgout 2974592785\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42809514806\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46167442501\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027386225\npgmajfault 279216\npglazyfreed 0\npgrefill 1094242424\npgreuse 272504761\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29984098\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62732\nthp_split_pmd 66786\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899458560,
+            "sys_s": 2.091769,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 17.227101,
+            "wall_s": 19.321405372582376
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "unified-100m"
+          }
+        },
+        {
+          "accuracy": {
+            "accuracy_pp": 99.2918545418422,
+            "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+            "full_population_scored": false,
+            "input_previously_observed": true,
+            "population_rows": 100000000,
+            "port_pairs": 59904,
+            "sample_rows": 1916928,
+            "samples_per_pair_max": 32,
+            "samples_per_pair_min": 32,
+            "stratified_normal_ci95_pp": [
+              99.28859379898162,
+              99.29511528470277
+            ],
+            "unweighted_exact_fraction": 0.3792625492454594,
+            "weighted_mae_ps": 4.6510225440625
+          },
+          "accuracy_scope": "1916928 stratified exact labels; output covers 100000000",
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3519780294,
+            "output_bytes": 4013558979,
+            "rows": 100000000,
+            "sample_rows": 1916928
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3519780294,
+            "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+            "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+          },
+          "input_warmup": {
+            "cpu_s": 8.040968000000005,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 8.277087904978544
+          },
+          "load_before": "1.06 1.15 1.07 1/1107 2308878\n",
+          "name": "consistency-100m-2",
+          "output": {
+            "bytes": 4013558979,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "f932741834f5d4c09ecaf97ea2227347e49f218a3f8540cd46815ce9869647a9"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/consistency-100m-2/clean-o81iieo9/estimate",
+              "-in",
+              "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 19.370693000000003,
+            "environment": {
+              "after": {
+                "loadavg": "1.05 1.14 1.07 1/1109 2308943\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30179460 kB\nMemAvailable:   51076588 kB\nBuffers:            3104 kB\nCached:         60054160 kB\nSwapCached:        52308 kB\nActive:         27743368 kB\nInactive:       33220960 kB\nActive(anon):   27605064 kB\nInactive(anon): 11952700 kB\nActive(file):     138304 kB\nInactive(file): 21268260 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               712 kB\nWriteback:             0 kB\nAnonPages:        857536 kB\nMapped:           119732 kB\nShmem:          38650688 kB\nKReclaimable:     480764 kB\nSlab:            1168980 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688216 kB\nKernelStack:       18256 kB\nPageTables:        26976 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47411620 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61792 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.10 avg300=0.09 total=1300306470\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=1.95 avg300=4.41 total=30129724397\nfull avg10=0.00 avg60=1.95 avg300=4.41 total=30103744196\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.34 total=3021088123\nfull avg10=0.00 avg60=0.00 avg300=1.34 total=3020492224\n",
+                "vmstat": "nr_free_pages 7544865\nnr_zone_inactive_anon 2988175\nnr_zone_active_anon 6901266\nnr_zone_inactive_file 5317065\nnr_zone_active_file 34576\nnr_zone_unevictable 772\nnr_zone_write_pending 178\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20131765594\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20131189349\nnuma_other 0\nnr_inactive_anon 2988175\nnr_active_anon 6901266\nnr_inactive_file 5317065\nnr_active_file 34576\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172054\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86586\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829596\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979214\nworkingset_restore_anon 1773\nworkingset_restore_file 546748211\nworkingset_nodereclaim 10372281\nnr_anon_pages 214384\nnr_mapped 29933\nnr_file_pages 15027393\nnr_dirty 178\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 9662672\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035448373\nnr_written 745467613\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18256\nnr_page_table_pages 6744\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2545780\nnr_dirty_background_threshold 1271336\npgpgin 27094763177\npgpgout 2974695717\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42813353033\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46170301216\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027651259\npgmajfault 279244\npglazyfreed 0\npgrefill 1094242424\npgreuse 272509361\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29987260\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62937\nthp_split_pmd 66991\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.06 1.15 1.07 1/1107 2308878\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34293088 kB\nMemAvailable:   55189112 kB\nBuffers:            3080 kB\nCached:         56133952 kB\nSwapCached:        52308 kB\nActive:         23827148 kB\nInactive:       33221056 kB\nActive(anon):   23689912 kB\nInactive(anon): 11952832 kB\nActive(file):     137236 kB\nInactive(file): 21268224 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               464 kB\nWriteback:             0 kB\nAnonPages:        862064 kB\nMapped:           118776 kB\nShmem:          34731568 kB\nKReclaimable:     480764 kB\nSlab:            1168948 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688184 kB\nKernelStack:       18208 kB\nPageTables:        26736 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43492108 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61696 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.01 avg60=0.14 avg300=0.10 total=1300299437\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=2.64 avg300=4.70 total=30129724371\nfull avg10=0.00 avg60=2.64 avg300=4.69 total=30103744173\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.43 total=3021088118\nfull avg10=0.00 avg60=0.00 avg300=1.43 total=3020492219\n",
+                "vmstat": "nr_free_pages 8573272\nnr_zone_inactive_anon 2988208\nnr_zone_active_anon 5922478\nnr_zone_inactive_file 5317056\nnr_zone_active_file 34309\nnr_zone_unevictable 772\nnr_zone_write_pending 116\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20130660404\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20130084159\nnuma_other 0\nnr_inactive_anon 2988208\nnr_active_anon 5922478\nnr_inactive_file 5317056\nnr_active_file 34309\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172046\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86586\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829395\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979173\nworkingset_restore_anon 1773\nworkingset_restore_file 546748170\nworkingset_nodereclaim 10372281\nnr_anon_pages 215516\nnr_mapped 29694\nnr_file_pages 14047335\nnr_dirty 116\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035447790\nnr_written 745467095\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18208\nnr_page_table_pages 6684\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2751356\nnr_dirty_background_threshold 1373998\npgpgin 27094762369\npgpgout 2974693537\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42811477751\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46169404916\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027523910\npgmajfault 279228\npglazyfreed 0\npgrefill 1094242424\npgreuse 272507380\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29985754\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62834\nthp_split_pmd 66888\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899724800,
+            "sys_s": 2.017759,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 17.352934,
+            "wall_s": 19.37367559596896
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "unified-100m"
+          }
+        },
+        {
+          "accuracy": {
+            "accuracy_pp": 99.2918545418422,
+            "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+            "full_population_scored": false,
+            "input_previously_observed": true,
+            "population_rows": 100000000,
+            "port_pairs": 59904,
+            "sample_rows": 1916928,
+            "samples_per_pair_max": 32,
+            "samples_per_pair_min": 32,
+            "stratified_normal_ci95_pp": [
+              99.28859379898162,
+              99.29511528470277
+            ],
+            "unweighted_exact_fraction": 0.3792625492454594,
+            "weighted_mae_ps": 4.6510225440625
+          },
+          "accuracy_scope": "1916928 stratified exact labels; output covers 100000000",
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3519780294,
+            "output_bytes": 4013558979,
+            "rows": 100000000,
+            "sample_rows": 1916928
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3519780294,
+            "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+            "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+          },
+          "input_warmup": {
+            "cpu_s": 8.042510000000002,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 8.27811956871301
+          },
+          "load_before": "1.03 1.13 1.07 1/1109 2308975\n",
+          "name": "consistency-100m-3",
+          "output": {
+            "bytes": 4013558979,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "f932741834f5d4c09ecaf97ea2227347e49f218a3f8540cd46815ce9869647a9"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/consistency-100m-3/clean-wj65jmll/estimate",
+              "-in",
+              "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 19.347771,
+            "environment": {
+              "after": {
+                "loadavg": "1.02 1.12 1.06 1/1110 2309004\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30168400 kB\nMemAvailable:   51066496 kB\nBuffers:            3312 kB\nCached:         60055228 kB\nSwapCached:        52308 kB\nActive:         27746832 kB\nInactive:       33221392 kB\nActive(anon):   27608000 kB\nInactive(anon): 11952692 kB\nActive(file):     138832 kB\nInactive(file): 21268700 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               168 kB\nWriteback:             0 kB\nAnonPages:        860416 kB\nMapped:           124788 kB\nShmem:          38650996 kB\nKReclaimable:     480764 kB\nSlab:            1169244 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688480 kB\nKernelStack:       18272 kB\nPageTables:        27088 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47425240 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61808 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.05 avg300=0.07 total=1300319515\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=1.03 avg300=3.87 total=30129724559\nfull avg10=0.00 avg60=1.03 avg300=3.87 total=30103744355\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.18 total=3021088124\nfull avg10=0.00 avg60=0.00 avg300=1.17 total=3020492225\n",
+                "vmstat": "nr_free_pages 7542100\nnr_zone_inactive_anon 2988173\nnr_zone_active_anon 6902000\nnr_zone_inactive_file 5317175\nnr_zone_active_file 34708\nnr_zone_unevictable 772\nnr_zone_write_pending 42\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20132882023\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20132305778\nnuma_other 0\nnr_inactive_anon 2988173\nnr_active_anon 6902000\nnr_inactive_file 5317175\nnr_active_file 34708\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172120\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86584\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829739\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979254\nworkingset_restore_anon 1773\nworkingset_restore_file 546748248\nworkingset_nodereclaim 10372281\nnr_anon_pages 215104\nnr_mapped 31197\nnr_file_pages 15027712\nnr_dirty 42\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 9662749\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035449120\nnr_written 745468491\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18272\nnr_page_table_pages 6772\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2545276\nnr_dirty_background_threshold 1271084\npgpgin 27094763749\npgpgout 2974699617\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42815240245\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46172187355\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027790344\npgmajfault 279255\npglazyfreed 0\npgrefill 1094242424\npgreuse 272511909\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29988767\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 63040\nthp_split_pmd 67094\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.03 1.13 1.07 1/1109 2308975\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34203516 kB\nMemAvailable:   55101008 kB\nBuffers:            3160 kB\nCached:         56135368 kB\nSwapCached:        52308 kB\nActive:         23823488 kB\nInactive:       33221004 kB\nActive(anon):   23684872 kB\nInactive(anon): 11952692 kB\nActive(file):     138616 kB\nInactive(file): 21268312 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               408 kB\nWriteback:             0 kB\nAnonPages:        856844 kB\nMapped:           120016 kB\nShmem:          34731568 kB\nKReclaimable:     480764 kB\nSlab:            1169172 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688408 kB\nKernelStack:       18240 kB\nPageTables:        26748 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43491552 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61792 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.07 avg300=0.08 total=1300311912\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=1.44 avg300=4.15 total=30129724544\nfull avg10=0.00 avg60=1.44 avg300=4.14 total=30103744341\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.26 total=3021088124\nfull avg10=0.00 avg60=0.00 avg300=1.26 total=3020492225\n",
+                "vmstat": "nr_free_pages 8550879\nnr_zone_inactive_anon 2988173\nnr_zone_active_anon 5921218\nnr_zone_inactive_file 5317078\nnr_zone_active_file 34654\nnr_zone_unevictable 772\nnr_zone_write_pending 102\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20131781608\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20131205363\nnuma_other 0\nnr_inactive_anon 2988173\nnr_active_anon 5921218\nnr_inactive_file 5317078\nnr_active_file 34654\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172102\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86586\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829640\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979223\nworkingset_restore_anon 1773\nworkingset_restore_file 546748220\nworkingset_nodereclaim 10372281\nnr_anon_pages 214211\nnr_mapped 30004\nnr_file_pages 14047709\nnr_dirty 102\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035448829\nnr_written 745468143\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18240\nnr_page_table_pages 6687\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2746952\nnr_dirty_background_threshold 1371799\npgpgin 27094763357\npgpgout 2974698057\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42813369384\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46171297342\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027669105\npgmajfault 279249\npglazyfreed 0\npgrefill 1094242424\npgreuse 272510830\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29987260\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 62937\nthp_split_pmd 66991\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899720704,
+            "sys_s": 2.051763,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 17.296008,
+            "wall_s": 19.351109412964433
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "unified-100m"
+          }
+        },
+        {
+          "accuracy": {
+            "accuracy_pp": 99.2918545418422,
+            "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+            "full_population_scored": false,
+            "input_previously_observed": true,
+            "population_rows": 100000000,
+            "port_pairs": 59904,
+            "sample_rows": 1916928,
+            "samples_per_pair_max": 32,
+            "samples_per_pair_min": 32,
+            "stratified_normal_ci95_pp": [
+              99.28859379898162,
+              99.29511528470277
+            ],
+            "unweighted_exact_fraction": 0.3792625492454594,
+            "weighted_mae_ps": 4.6510225440625
+          },
+          "accuracy_scope": "1916928 stratified exact labels; output covers 100000000",
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3519780294,
+            "output_bytes": 4013558979,
+            "rows": 100000000,
+            "sample_rows": 1916928
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3519780294,
+            "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+            "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+          },
+          "input_warmup": {
+            "cpu_s": 8.040727000000004,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 8.276428285054862
+          },
+          "load_before": "1.08 1.13 1.07 1/1109 2309037\n",
+          "name": "consistency-100m-4",
+          "output": {
+            "bytes": 4013558979,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "f932741834f5d4c09ecaf97ea2227347e49f218a3f8540cd46815ce9869647a9"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/consistency-100m-4/clean-wmcp_6y3/estimate",
+              "-in",
+              "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 19.375987,
+            "environment": {
+              "after": {
+                "loadavg": "1.06 1.12 1.07 1/1109 2309064\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30160936 kB\nMemAvailable:   51059696 kB\nBuffers:            3376 kB\nCached:         60055664 kB\nSwapCached:        52308 kB\nActive:         27748612 kB\nInactive:       33221512 kB\nActive(anon):   27609236 kB\nInactive(anon): 11952692 kB\nActive(file):     139376 kB\nInactive(file): 21268820 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               160 kB\nWriteback:             0 kB\nAnonPages:        861660 kB\nMapped:           125692 kB\nShmem:          38650824 kB\nKReclaimable:     480764 kB\nSlab:            1169156 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688392 kB\nKernelStack:       18256 kB\nPageTables:        27080 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47425264 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61824 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.02 avg300=0.06 total=1300336295\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=0.54 avg300=3.39 total=30129724607\nfull avg10=0.00 avg60=0.54 avg300=3.39 total=30103744397\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.03 total=3021088124\nfull avg10=0.00 avg60=0.00 avg300=1.03 total=3020492226\n",
+                "vmstat": "nr_free_pages 7540234\nnr_zone_inactive_anon 2988173\nnr_zone_active_anon 6902309\nnr_zone_inactive_file 5317205\nnr_zone_active_file 34844\nnr_zone_unevictable 772\nnr_zone_write_pending 36\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20133998608\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20133422363\nnuma_other 0\nnr_inactive_anon 2988173\nnr_active_anon 6902309\nnr_inactive_file 5317205\nnr_active_file 34844\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172098\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86584\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829858\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979270\nworkingset_restore_anon 1773\nworkingset_restore_file 546748264\nworkingset_nodereclaim 10372281\nnr_anon_pages 215415\nnr_mapped 31423\nnr_file_pages 15027837\nnr_dirty 40\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 9662706\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035450028\nnr_written 745469395\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18256\nnr_page_table_pages 6770\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2544936\nnr_dirty_background_threshold 1270914\npgpgin 27094764285\npgpgout 2974703617\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42817127590\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46174074242\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027929810\npgmajfault 279267\npglazyfreed 0\npgrefill 1094242424\npgreuse 272514592\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29990274\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 63142\nthp_split_pmd 67196\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.08 1.13 1.07 1/1109 2309037\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34326736 kB\nMemAvailable:   55225260 kB\nBuffers:            3344 kB\nCached:         56136212 kB\nSwapCached:        52308 kB\nActive:         23827988 kB\nInactive:       33221464 kB\nActive(anon):   23688800 kB\nInactive(anon): 11952692 kB\nActive(file):     139188 kB\nInactive(file): 21268772 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               424 kB\nWriteback:             0 kB\nAnonPages:        860776 kB\nMapped:           125420 kB\nShmem:          34731568 kB\nKReclaimable:     480764 kB\nSlab:            1169260 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688496 kB\nKernelStack:       18240 kB\nPageTables:        26848 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43505196 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61728 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.03 avg300=0.06 total=1300328890\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=0.76 avg300=3.64 total=30129724588\nfull avg10=0.00 avg60=0.76 avg300=3.63 total=30103744381\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=1.10 total=3021088124\nfull avg10=0.00 avg60=0.00 avg300=1.10 total=3020492225\n",
+                "vmstat": "nr_free_pages 8581684\nnr_zone_inactive_anon 2988173\nnr_zone_active_anon 5922200\nnr_zone_inactive_file 5317193\nnr_zone_active_file 34797\nnr_zone_unevictable 772\nnr_zone_write_pending 106\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20132899788\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20132323543\nnuma_other 0\nnr_inactive_anon 2988173\nnr_active_anon 5922200\nnr_inactive_file 5317193\nnr_active_file 34797\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172124\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86584\nworkingset_refault_anon 5092\nworkingset_refault_file 5056829810\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979255\nworkingset_restore_anon 1773\nworkingset_restore_file 546748249\nworkingset_nodereclaim 10372281\nnr_anon_pages 215194\nnr_mapped 31355\nnr_file_pages 14047966\nnr_dirty 106\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035449722\nnr_written 745469022\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18240\nnr_page_table_pages 6712\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2753163\nnr_dirty_background_threshold 1374901\npgpgin 27094764109\npgpgout 2974701917\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42815258341\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46173184996\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027810437\npgmajfault 279262\npglazyfreed 0\npgrefill 1094242424\npgreuse 272513503\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29988767\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 63040\nthp_split_pmd 67094\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899724800,
+            "sys_s": 2.040788,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 17.335199,
+            "wall_s": 19.379067765083164
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "unified-100m"
+          }
+        },
+        {
+          "accuracy": {
+            "accuracy_pp": 99.2918545418422,
+            "ci_scope": "within-role-pair normal sampling interval; model-selection and source-family dependence excluded",
+            "full_population_scored": false,
+            "input_previously_observed": true,
+            "population_rows": 100000000,
+            "port_pairs": 59904,
+            "sample_rows": 1916928,
+            "samples_per_pair_max": 32,
+            "samples_per_pair_min": 32,
+            "stratified_normal_ci95_pp": [
+              99.28859379898162,
+              99.29511528470277
+            ],
+            "unweighted_exact_fraction": 0.3792625492454594,
+            "weighted_mae_ps": 4.6510225440625
+          },
+          "accuracy_scope": "1916928 stratified exact labels; output covers 100000000",
+          "binary": {
+            "bytes": 99840088,
+            "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+            "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+          },
+          "cleanroom": {
+            "entries": [
+              "estimate"
+            ],
+            "environment": {}
+          },
+          "contract": {
+            "contract_passed": true,
+            "input_bytes": 3519780294,
+            "output_bytes": 4013558979,
+            "rows": 100000000,
+            "sample_rows": 1916928
+          },
+          "cpu_path": "cascade_cert16e",
+          "input": {
+            "bytes": 3519780294,
+            "path": "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+            "sha256": "c55f8e4a1dd0b139b181c08325f3c3f42fbc6566617c978ed31f87e3a53e63c4"
+          },
+          "input_warmup": {
+            "cpu_s": 8.047982,
+            "method": "Full sequential SHA immediately before each measured run",
+            "wall_s": 8.283839025069028
+          },
+          "load_before": "1.04 1.11 1.06 1/1109 2309101\n",
+          "name": "consistency-100m-5",
+          "output": {
+            "bytes": 4013558979,
+            "path": "/proc/2308267/fd/4",
+            "sha256": "f932741834f5d4c09ecaf97ea2227347e49f218a3f8540cd46815ce9869647a9"
+          },
+          "prediction_deleted": true,
+          "query_allocations_zero": true,
+          "rows": 100000000,
+          "run": {
+            "command": [
+              "/usr/bin/env",
+              "-i",
+              "/usr/bin/taskset",
+              "-c",
+              "8",
+              "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/selected-release-pext/consistency-100m-5/clean-8eis5gns/estimate",
+              "-in",
+              "/dev/shm/eda2026-exp825-scale/u-role/requests.csv",
+              "-out",
+              "/proc/2308267/fd/4"
+            ],
+            "cpu_s": 19.377851999999997,
+            "environment": {
+              "after": {
+                "loadavg": "1.03 1.10 1.06 1/1109 2309132\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        30173968 kB\nMemAvailable:   51074764 kB\nBuffers:            3720 kB\nCached:         60057292 kB\nSwapCached:        52308 kB\nActive:         27749872 kB\nInactive:       33221900 kB\nActive(anon):   27608908 kB\nInactive(anon): 11952632 kB\nActive(file):     140964 kB\nInactive(file): 21269268 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               184 kB\nWriteback:            16 kB\nAnonPages:        861336 kB\nMapped:           126728 kB\nShmem:          38650764 kB\nKReclaimable:     480764 kB\nSlab:            1168992 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688228 kB\nKernelStack:       18256 kB\nPageTables:        27076 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   47425212 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61776 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.01 avg300=0.05 total=1300351942\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=0.29 avg300=2.99 total=30129724658\nfull avg10=0.00 avg60=0.29 avg300=2.99 total=30103744443\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=0.90 total=3021088129\nfull avg10=0.00 avg60=0.00 avg300=0.90 total=3020492230\n",
+                "vmstat": "nr_free_pages 7543492\nnr_zone_inactive_anon 2988158\nnr_zone_active_anon 6902227\nnr_zone_inactive_file 5317317\nnr_zone_active_file 35241\nnr_zone_unevictable 772\nnr_zone_write_pending 50\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20135115845\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20134539600\nnuma_other 0\nnr_inactive_anon 2988158\nnr_active_anon 6902227\nnr_inactive_file 5317317\nnr_active_file 35241\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172057\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86577\nworkingset_refault_anon 5092\nworkingset_refault_file 5056830182\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979322\nworkingset_restore_anon 1773\nworkingset_restore_file 546748315\nworkingset_nodereclaim 10372281\nnr_anon_pages 215334\nnr_mapped 31682\nnr_file_pages 15028330\nnr_dirty 46\nnr_writeback 4\nnr_writeback_temp 0\nnr_shmem 9662691\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035451070\nnr_written 745470416\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18256\nnr_page_table_pages 6769\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2545689\nnr_dirty_background_threshold 1271290\npgpgin 27094765633\npgpgout 2974708009\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42819015521\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46175961718\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6028070298\npgmajfault 279293\npglazyfreed 0\npgrefill 1094242424\npgreuse 272517792\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29991781\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 63245\nthp_split_pmd 67299\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              },
+              "before": {
+                "loadavg": "1.04 1.11 1.06 1/1109 2309101\n",
+                "meminfo": "MemTotal:       98499336 kB\nMemFree:        34230640 kB\nMemAvailable:   55131148 kB\nBuffers:            3688 kB\nCached:         56137832 kB\nSwapCached:        52308 kB\nActive:         23830484 kB\nInactive:       33221860 kB\nActive(anon):   23689768 kB\nInactive(anon): 11952632 kB\nActive(file):     140716 kB\nInactive(file): 21269228 kB\nUnevictable:        3088 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:             60 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               568 kB\nWriteback:             0 kB\nAnonPages:        861664 kB\nMapped:           126568 kB\nShmem:          34731568 kB\nKReclaimable:     480764 kB\nSlab:            1169124 kB\nSReclaimable:     480764 kB\nSUnreclaim:       688360 kB\nKernelStack:       18240 kB\nPageTables:        26852 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    51346816 kB\nCommitted_AS:   43505752 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       61776 kB\nVmallocChunk:          0 kB\nPercpu:            79872 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      382972 kB\nDirectMap2M:    13924352 kB\nDirectMap1G:    88080384 kB\n",
+                "pressure/cpu": "some avg10=0.00 avg60=0.01 avg300=0.05 total=1300342451\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0\n",
+                "pressure/io": "some avg10=0.00 avg60=0.40 avg300=3.19 total=30129724644\nfull avg10=0.00 avg60=0.40 avg300=3.18 total=30103744431\n",
+                "pressure/memory": "some avg10=0.00 avg60=0.00 avg300=0.96 total=3021088129\nfull avg10=0.00 avg60=0.00 avg300=0.96 total=3020492230\n",
+                "vmstat": "nr_free_pages 8557660\nnr_zone_inactive_anon 2988158\nnr_zone_active_anon 5922442\nnr_zone_inactive_file 5317307\nnr_zone_active_file 35179\nnr_zone_unevictable 772\nnr_zone_write_pending 142\nnr_mlock 0\nnr_bounce 0\nnr_zspages 0\nnr_free_cma 0\nnr_unaccepted 0\nnuma_hit 20134016532\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 94\nnuma_local 20133440287\nnuma_other 0\nnr_inactive_anon 2988158\nnr_active_anon 5922442\nnr_inactive_file 5317307\nnr_active_file 35179\nnr_unevictable 772\nnr_slab_reclaimable 120191\nnr_slab_unreclaimable 172090\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 86578\nworkingset_refault_anon 5092\nworkingset_refault_file 5056830152\nworkingset_activate_anon 1883\nworkingset_activate_file 4423979322\nworkingset_restore_anon 1773\nworkingset_restore_file 546748315\nworkingset_nodereclaim 10372281\nnr_anon_pages 215416\nnr_mapped 31642\nnr_file_pages 14048457\nnr_dirty 142\nnr_writeback 0\nnr_writeback_temp 0\nnr_shmem 8682892\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 0\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 0\nnr_vmscan_write 1264009\nnr_vmscan_immediate_reclaim 0\nnr_dirtied 1035450685\nnr_written 745469942\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 1946067\nnr_foll_pin_released 1946067\nnr_kernel_stack 18240\nnr_page_table_pages 6713\nnr_sec_page_table_pages 0\nnr_swapcached 13077\npgpromote_success 0\npgpromote_candidate 0\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\nnr_dirty_threshold 2748459\nnr_dirty_background_threshold 1372551\npgpgin 27094765513\npgpgout 2974705945\npswpin 740448\npswpout 1264009\npgalloc_dma 1024\npgalloc_dma32 1807120784\npgalloc_normal 42817145847\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma 0\nallocstall_dma32 0\nallocstall_normal 3050\nallocstall_movable 1520976\nallocstall_device 0\npgskip_dma 0\npgskip_dma32 0\npgskip_normal 16\npgskip_movable 0\npgskip_device 0\npgfree 46175071838\npgactivate 2354120\npgdeactivate 3328\npglazyfree 233716\npgfault 6027949726\npgmajfault 279290\npglazyfreed 0\npgrefill 1094242424\npgreuse 272516312\npgsteal_kswapd 6875318849\npgsteal_direct 56669717\npgsteal_khugepaged 81787\npgscan_kswapd 6880257034\npgscan_direct 56934832\npgscan_khugepaged 82124\npgscan_direct_throttle 0\npgscan_anon 4725184\npgscan_file 6932548806\npgsteal_anon 1254047\npgsteal_file 6930816306\nzone_reclaim_failed 0\npginodesteal 0\nslabs_scanned 16064760\nkswapd_inodesteal 99815\nkswapd_low_wmark_hit_quickly 755\nkswapd_high_wmark_hit_quickly 3038\npageoutrun 113513\npgrotated 2131423\ndrop_pagecache 0\ndrop_slab 0\noom_kill 0\nnuma_pte_updates 0\nnuma_huge_pte_updates 0\nnuma_hint_faults 0\nnuma_hint_faults_local 0\nnuma_pages_migrated 0\npgmigrate_success 1503754033\npgmigrate_fail 11329718\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 42652016183\ncompact_free_scanned 36796498708\ncompact_isolated 3035157985\ncompact_stall 4339205\ncompact_fail 4275420\ncompact_success 63785\ncompact_daemon_wake 7157\ncompact_daemon_migrate_scanned 8204553576\ncompact_daemon_free_scanned 29515582049\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 71613\nunevictable_pgs_scanned 6570\nunevictable_pgs_rescued 6586\nunevictable_pgs_mlocked 30\nunevictable_pgs_munlocked 30\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 29990274\nthp_fault_fallback 1384132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 640117\nthp_collapse_alloc_failed 104\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 0\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 63142\nthp_split_pmd 67196\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 9\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nballoon_inflate 0\nballoon_deflate 0\nballoon_migrate 0\nswap_ra 115492\nswap_ra_hit 112235\nksm_swpin_copy 0\ncow_ksm 0\nzswpin 0\nzswpout 0\nzswpwb 0\ndirect_map_level2_splits 171\ndirect_map_level3_splits 10\nnr_unstable 0\n"
+              }
+            },
+            "exit_code": 0,
+            "rss_bytes": 1899720704,
+            "sys_s": 2.056772,
+            "threads_observed": 1,
+            "timed_out": false,
+            "user_s": 17.32108,
+            "wall_s": 19.380764442961663
+          },
+          "verification_reuse": {
+            "basis": "Complete input and output byte counts and SHA256 both identical",
+            "recomputed": [
+              "estimator CPU/wall/RSS/threads",
+              "full input SHA",
+              "full output SHA"
+            ],
+            "reference_binary": {
+              "bytes": 99803224,
+              "path": "/home/lhj/lhjwork/eda2026/eat/research/exp915-cascade-compact/unified/build/fast/estimate",
+              "sha256": "62c0a06309d0c675c050cfdb89f39b470ace0ea0dabae4842c38d5b2d417d2d7"
+            },
+            "reference_run": "unified-100m"
+          }
+        }
+      ],
+      "screen": {
+        "admitted": true,
+        "paired_1b_saved_s": 3.5760270000000105,
+        "partial_init_s": 9.224181,
+        "projected_1b_cpu_s": 112.10387099999998,
+        "saved_100m_s": 0.43359900000000096
+      },
+      "selection": {
+        "baseline_cpu_s": 104.14596,
+        "basis": "explicit_user_selection",
+        "binary": {
+          "bytes": 99840088,
+          "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+          "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+        },
+        "candidate": "query-pext",
+        "candidate_cpu_s": 100.56993299999999,
+        "selection_scope": "fastest complete full1B candidate in exp917 wave/query records at selection time",
+        "single_pair_saved_s": 3.5760270000000105,
+        "statistical_status": "one completed pair, repeated 1B confidence interval not yet established",
+        "user_request": "\u628a\u6700\u597d\u7684\u7b97\u6cd5\u5019\u9009\u63a5\u5165\u6b63\u5f0f\u7248"
+      },
+      "source_manifest": {
+        "bytes": 14243,
+        "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/source/source-manifest.json",
+        "sha256": "bd1eb7e121f462561c0970a0c52a515a7a5e1fa2ac4a0d5226a592a8d236fd1a"
+      },
+      "static_linked": true,
+      "status": "complete"
+    },
+    "results": "validation/results/exp917-cert16e-isa/selected-release-pext/"
+  },
+  "parent_version_label": "exp916-g4-cert16e-20261107",
+  "schema": "gpt-pro-fast-formal-release-v10",
+  "selection": {
+    "baseline_cpu_s": 104.14596,
+    "basis": "explicit_user_selection",
+    "binary": {
+      "bytes": 99840088,
+      "path": "/home/lhj/lhjwork/eda2026/eat/research/exp917-cert16e-isa/query-pext/build/fast/estimate",
+      "sha256": "abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f"
+    },
+    "candidate": "query-pext",
+    "candidate_cpu_s": 100.56993299999999,
+    "complete100m_gate_passed": true,
+    "registered_1b_gain_gate_passed": false,
+    "selection_scope": "fastest complete full1B candidate in exp917 wave/query records at selection time",
+    "single_pair_saved_s": 3.5760270000000105,
+    "single_run_cpu_gain": true,
+    "statistical_status": "one completed pair, repeated 1B confidence interval not yet established",
+    "user_request": "\u628a\u6700\u597d\u7684\u7b97\u6cd5\u5019\u9009\u63a5\u5165\u6b63\u5f0f\u7248",
+    "user_test_order": "complete100M then full1B; no new1M"
+  },
+  "source_files": {
+    "README.md": {
+      "bytes": 628,
+      "sha256": "4b608f4dc6c46f76303ce14f6837b0afd2adf5fc05ae8fe35234e28177a941ed"
+    },
+    "build.py": {
+      "bytes": 7280,
+      "sha256": "a7be35c1c7abb3bbd1ad2f77300dc6dc02fc5bc9beca218cfe37f8d2c264748e"
+    },
+    "exact/aq-modelvec.inc": {
+      "bytes": 11204,
+      "sha256": "3f24c3ebdf17437a3e083827d1ef7e6ff5faa1a872d888a85c79c5b26a549a4e"
+    },
+    "exact/aqgames7.h": {
+      "bytes": 36766,
+      "sha256": "eb34b52e4082740c2acc355481d4bbe180134a9c28699e23a68e20cfd190c0d1"
+    },
+    "exact/dec-batch.inc": {
+      "bytes": 6332,
+      "sha256": "0dfb283f560bd95c4c64f459ac9ecec7c90883290a030fdbaf677c431d49e38f"
+    },
+    "exact/left-vbmi.inc": {
+      "bytes": 1786,
+      "sha256": "c650241e72013ec2c68edc1426977e58e494e54802437cb97a07def0d0ab9fdd"
+    },
+    "exact/worker.cpp": {
+      "bytes": 21362,
+      "sha256": "4bfac3a1e07e95947a5a9373ac7f2435f8c5f0e53f1d999459961e46d47ebd54"
+    },
+    "libraries/COPYRIGHT.libzstd": {
+      "bytes": 5389,
+      "sha256": "35e85e8e9bbb71492c5f5dddf39ed65b68775a02ad8d710c25d097b497f06c49"
+    },
+    "libraries/libzstd.a": {
+      "bytes": 964146,
+      "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab"
+    },
+    "libraries/xz/COPYING": {
+      "bytes": 663,
+      "sha256": "d9ff4f089509582e7b197e86f3d2d66948b89169f27c1f2349eb0d1ed4459309"
+    },
+    "libraries/xz/ORIGIN.md": {
+      "bytes": 168,
+      "sha256": "6a0ccb02815314ec46661082ae10c6196eac127d90413cd08cf8867deaedd39f"
+    },
+    "libraries/xz/xz.h": {
+      "bytes": 19455,
+      "sha256": "59196b9c8296815f6a029f26d202bcd404078e27fc6e9bc4077db5f6865664c7"
+    },
+    "libraries/xz/xz_config.h": {
+      "bytes": 3493,
+      "sha256": "25fba71668254ba56709e9c176521a24a304b5521a9a337fb51d8334fa07e875"
+    },
+    "libraries/xz/xz_crc32.c": {
+      "bytes": 1195,
+      "sha256": "e6373b6d1aa11535260e153d8d7c62485ce82fbcb1d9dd66e6d984025771eec6"
+    },
+    "libraries/xz/xz_dec_lzma2.c": {
+      "bytes": 33495,
+      "sha256": "248dcd23e186b179a3fd1f5150c70cde13670521251e62bc44b15c99241491c4"
+    },
+    "libraries/xz/xz_dec_stream.c": {
+      "bytes": 23399,
+      "sha256": "bb5d29c33bd29b7d7993ae6b1a60f1750c509b1935fe2d28d46dfd8c5f46e9ce"
+    },
+    "libraries/xz/xz_lzma2.h": {
+      "bytes": 6049,
+      "sha256": "5681cf01bdcfab8907c02194eeaf9d4415166b3b5d48b50a34df809276f63aa1"
+    },
+    "libraries/xz/xz_private.h": {
+      "bytes": 5388,
+      "sha256": "9d8d116354cca408ef17a10cd544a955ea5d26e8f9f50885e99adab9135917d5"
+    },
+    "libraries/xz/xz_stream.h": {
+      "bytes": 1406,
+      "sha256": "89e80af27003ad39f3122ad447861ec574fa235a0c6339c26bb48a53c3d9e12b"
+    },
+    "libraries/zstd.h": {
+      "bytes": 171378,
+      "sha256": "41d0f43747d0dee56f60bd10aed262f193d725b7e11eb9e94aa4ad80183c7da8"
+    },
+    "manifest.json": {
+      "bytes": 6690,
+      "sha256": "b30a085569d8aeb9bf7025af088f5c417b90f619566fe92fdc51a642a5e002a2"
+    },
+    "model/arch.bin": {
+      "bytes": 91246,
+      "sha256": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b"
+    },
+    "model/atlas.zst": {
+      "bytes": 2536603,
+      "sha256": "a51ffb9a0509cd69a251af5328f90a385f4d97c487b5c51ad1762b770dbc97e8"
+    },
+    "model/books.f32": {
+      "bytes": 1966080,
+      "sha256": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f"
+    },
+    "model/env.zst": {
+      "bytes": 389,
+      "sha256": "1c4131ea220435f0e47a3697d88ad7c4bc42da319d4ef70bb795d7c46e37a87c"
+    },
+    "model/extra-column.xz": {
+      "bytes": 13540104,
+      "sha256": "83cc5384158a97690eff4720c325583b80b980f539f2e9d72d2a1d83f22054ae"
+    },
+    "model/field.zst": {
+      "bytes": 3866891,
+      "sha256": "c9821a70448226c6ad281279a8bbdc972e38a0a63a86b28a0b1dddd96fbc9d86"
+    },
+    "model/frames.bin": {
+      "bytes": 60915660,
+      "sha256": "838144522d38cb92aebf16479f66ea06ddac4caf1058e324eefa1bec3aa5ebdc"
+    },
+    "model/newfield.zst": {
+      "bytes": 2519040,
+      "sha256": "eb08d26d1477df93946aade1d1324e224e3ead46a5742971853c56e91c9d83e8"
+    },
+    "model/p1.zst": {
+      "bytes": 3708678,
+      "sha256": "e82c025c5a0b40381333a1a9a499c8cddb41b7b819ec29217bd9b0bf40059dcb"
+    },
+    "model/short-opt.zst": {
+      "bytes": 6061835,
+      "sha256": "69cd834ece47fb8156ba09c3bae75da0138b0667e660db832ea9c0f2c33c8381"
+    },
+    "model/short-table.zst": {
+      "bytes": 6274117,
+      "sha256": "f89d9aa3903c9fde223ab38087265e94effc06b49e4dfd1452b4a909a761d6cc"
+    },
+    "near/mask.zst": {
+      "bytes": 1785379,
+      "sha256": "093b0735b56b0549ff648e5450fc0c6f975a8d8eaa7b95d0dea6cd64fe36d12f"
+    },
+    "near/near40.cpp": {
+      "bytes": 28747,
+      "sha256": "52f9ee2c0e30fa45ac554042fd96093bc7a89ac46262d3d93e48a5b2c23519ac"
+    },
+    "near/near40.hpp": {
+      "bytes": 1259,
+      "sha256": "91e889312f8e7232a45b39302c5b71a18d3d6e2557643bf890b3bcdc701e2a99"
+    },
+    "near/topology.dat": {
+      "bytes": 41216,
+      "sha256": "33f4f4ec29d4c21822b0f694fbe358337d1b49a1c1e0e67a13b4c072dba0ed99"
+    },
+    "shared/aq-kernel.inc": {
+      "bytes": 12066,
+      "sha256": "d2be877f0c0070e62b8991b01ef3900f996af2be164561f290d3ea71b2ab9604"
+    },
+    "shared/aqScale.inc": {
+      "bytes": 842,
+      "sha256": "4dc4d74bb5ddad5b4c2e1a78e51c813a9aa834f3ea41dc47c51309287b3cb1fd"
+    },
+    "shared/arch.cpp": {
+      "bytes": 799,
+      "sha256": "5723c460f555f10ef598850f834c7c19a86f58eebda9d22ab70c76db1de4112d"
+    },
+    "shared/architecture.cpp": {
+      "bytes": 15137,
+      "sha256": "3d00bdcace9b1962fc7003ee688bb37a8bb88458d124ae43faaad48e44b9b04f"
+    },
+    "shared/architecture.h": {
+      "bytes": 10380,
+      "sha256": "749bcabf079800065e6dcffbd878d51390c24367fc482347cd174bb578746894"
+    },
+    "shared/compact.inc": {
+      "bytes": 1826,
+      "sha256": "40b70e7082260d15d103b78787b552a6dd331e10f411ef3d793440ccf8c8f00b"
+    },
+    "shared/compiled_arch.inc": {
+      "bytes": 84880,
+      "sha256": "78f7304a2968993b12952100150de65c6dab43c8a7444b15a67e9e348c0946a3"
+    },
+    "shared/csv.h": {
+      "bytes": 3165,
+      "sha256": "3cddbdf5d88b94b4b9ded9e00b4ff39cf10007465eeb46f6b464d950b522130b"
+    },
+    "shared/embedded_arch.h": {
+      "bytes": 847,
+      "sha256": "2b07a2186bedffb4c7260019864f14c9274d6c7c4476d1f080fa115ac41541ea"
+    },
+    "shared/embedded_resolver_data.h": {
+      "bytes": 160657,
+      "sha256": "5eadc5956947b9d43d888d16a0aafb28ca78f14cd3479440639fcfff600b07e2"
+    },
+    "shared/entry.cpp": {
+      "bytes": 748,
+      "sha256": "d0f9bfc2a354d3001ae397231d6c82c9d5e4366c70d678ee79ede05bba25d6e8"
+    },
+    "shared/event_mask.inc": {
+      "bytes": 1987,
+      "sha256": "61ffc716a649543bfb11533ca663f8fbba45ca2afa5a6f02b488068e6e233328"
+    },
+    "shared/exp579-models.h": {
+      "bytes": 228386,
+      "sha256": "8710a60b8a0db2377f3cdd59afb7d2fb4d1a0c677bd8b85b15399eea712789d7"
+    },
+    "shared/exp594_packed_output.h": {
+      "bytes": 2233,
+      "sha256": "bee7870c9d88525fa5680c3c31904624aceb6e8aa5933851b37acb674b3d3347"
+    },
+    "shared/exp596_csv_batch.h": {
+      "bytes": 3242,
+      "sha256": "d9942e4bfe0657c791821027b114ae3f80cdce52b5960fd4d17522c1b9229c81"
+    },
+    "shared/exp601_port_parser.h": {
+      "bytes": 4929,
+      "sha256": "0f0e268118e2326bcf5442ac055cec3e1fc8248492179520ce95f394428120cf"
+    },
+    "shared/exp614_geometry_features.h": {
+      "bytes": 1852,
+      "sha256": "50d7c6ebd0d099710081a4303c79d5f3a08b19f33bef7e7aed34ac7f6da4cb32"
+    },
+    "shared/exp679_hv_events.h": {
+      "bytes": 495,
+      "sha256": "508c4a9e50abafe1230e74f93021588cb3c7c60a803cd4badecfdcaaec38bbc9"
+    },
+    "shared/exp707_prepare_metadata.h": {
+      "bytes": 4447,
+      "sha256": "025f932d6cd2dd9911049a05a7d2d6cd3f0916dd5f01b773651d00e205fa42ed"
+    },
+    "shared/exp723_fused_parse.h": {
+      "bytes": 1423,
+      "sha256": "088712a56256d78ffff4fce2894fa1c53a0f8938be3f3bd05c2e78505d2a57d1"
+    },
+    "shared/forced_bias.h": {
+      "bytes": 4872,
+      "sha256": "fa0bb80a9101d63999bc9fef9e79692a77280492441cde67aedd47d9722995d5"
+    },
+    "shared/frameBytes.inc": {
+      "bytes": 5146,
+      "sha256": "1434779136b95f83e21616763ca2be54e8f40b09ae098f2a3d7d567427f07374"
+    },
+    "shared/json.h": {
+      "bytes": 7815,
+      "sha256": "118622de7dcbdf0e57d1e8490dcec6bd0ad141d1de38bcd6bf249842a165b013"
+    },
+    "shared/mask-fns.inc": {
+      "bytes": 3169,
+      "sha256": "1f8d62cac9a5fbf6d1c758e3bb465922690b8839db22c2f0e25ee8c6cf58c922"
+    },
+    "shared/native_representation212.h": {
+      "bytes": 7792,
+      "sha256": "eebc1a9c17d3a8567d15a93a9fe777560e858b5bba4e7b08480d25d006c5d281"
+    },
+    "shared/nearIdx.inc": {
+      "bytes": 1585,
+      "sha256": "2091ac49a65e394426989324db0182c6ee4c618e8d37a90901741d4822169141"
+    },
+    "shared/nearOrder.inc": {
+      "bytes": 485,
+      "sha256": "f96c979003aad56d05db1a61bebb33c8597d9819442dee1b63d681e0cf16047f"
+    },
+    "shared/nearWeights.inc": {
+      "bytes": 8334,
+      "sha256": "2870ca4a7ac41a2c1fd73fcb9dcae0fcc144b8e08fc04c60d8b71445379e947e"
+    },
+    "shared/outputIdx.inc": {
+      "bytes": 55178,
+      "sha256": "171c7d8313a4a6de917b1f14e13b1374df54f2dd9f8661f8737220e13999886a"
+    },
+    "shared/outputWeights.inc": {
+      "bytes": 279634,
+      "sha256": "638da8c097f01117fa432d85ea5041f03456ffa7ca5294cd717781b6c44f9e45"
+    },
+    "shared/params.h": {
+      "bytes": 177003,
+      "sha256": "060d79c4ea8eb124a07fc345b9dd103f60f952928168c6c969a8fca2735492e9"
+    },
+    "shared/post0.inc": {
+      "bytes": 3879,
+      "sha256": "5fff5636945647e3ba50a2d0d4274883c118c3825f9ec6e47fec7eb7100c5541"
+    },
+    "shared/post1.inc": {
+      "bytes": 7527,
+      "sha256": "9a13ba194d63452d8e7338788d2546d4bc6abcad6324c13d380bb69d6642863b"
+    },
+    "shared/post2.inc": {
+      "bytes": 2612,
+      "sha256": "9a22e732c0f7319eb2e2ebf419a3b396021ce07281ceb8316d165c15a154e634"
+    },
+    "shared/post3.inc": {
+      "bytes": 326,
+      "sha256": "bf60de403ab4843af33920c3976523c5865146ac90ff0e685be21eebb483eaba"
+    },
+    "shared/post4.inc": {
+      "bytes": 1766,
+      "sha256": "353bc5a7134c90b48a05aeb20f86608cdbb5946184597438ab513ec8c2dca649"
+    },
+    "shared/post5.inc": {
+      "bytes": 578,
+      "sha256": "7694d89c6bc4ccbcb24491b9f64232830ada266ed9807f3eab0712494178e12c"
+    },
+    "shared/reference727.h": {
+      "bytes": 214182,
+      "sha256": "bfb1a8f82d6dcd0860b3873aec3bcdac554de61b5fc398c68ebc883f0894ea71"
+    },
+    "shared/replacement679.h": {
+      "bytes": 81678,
+      "sha256": "433c69bcee06a1595b1179e4a341d84e57c1821a64e5d4b3ded4061577b1692d"
+    },
+    "shared/smallplan.inc": {
+      "bytes": 216161,
+      "sha256": "5c5b7e45f5521f67133cc49e1efa4270fc7e72e1ec7820367db69755b88e9bac"
+    },
+    "shared/symmetric640.h": {
+      "bytes": 148840,
+      "sha256": "eded60ec215a9e07ae1611733fb15529058179f0dcff4468cade757b73c58744"
+    },
+    "shared/treeRoots.inc": {
+      "bytes": 473,
+      "sha256": "2f21f98598ff1890b7fad317bcd0c212a88735874b5c6b1e6f285396e8f4585a"
+    },
+    "shared/vector.inc": {
+      "bytes": 4671,
+      "sha256": "562a918ea494701909e10bc6af711ba2767d706469fd538f3ce22c34840f31ee"
+    },
+    "speed/aq-kernel.inc": {
+      "bytes": 8122,
+      "sha256": "75c74503c19dd67b14e0e954c71d9d1e39e2b2f082f56293e5154f37a8f59c8d"
+    },
+    "speed/aq-modelvec.inc": {
+      "bytes": 10445,
+      "sha256": "bf689d03b802c52dfda6a90ef8cb29217941ed014c9da991e667832a2c66f1ad"
+    },
+    "speed/aqbatch.inc": {
+      "bytes": 4889,
+      "sha256": "325a1626eabde75b2dd9e7542cd056961ceab341cef831c9fa492ac372b11c5a"
+    },
+    "speed/axis-route.inc": {
+      "bytes": 5008,
+      "sha256": "b43d2c14f8ea474d881b2891dd02478b138d87d09ee5a6c0b90eeee27431c2c7"
+    },
+    "speed/bill-flow.inc": {
+      "bytes": 2177,
+      "sha256": "e4caa5c8471f6f4475da6a4d2e5b6a0452bc984c5cf6d59b1908d8aed536db36"
+    },
+    "speed/cascade-kernel.inc": {
+      "bytes": 3725,
+      "sha256": "2e17af94049dc52c611a367cd52c647c558e6fb4dfb7529d752b11328956ff24"
+    },
+    "speed/cascade-model.inc": {
+      "bytes": 9287,
+      "sha256": "5888f8b7cc3cfec3314d4a95979a9994bde47d8051f4f4145e1b595475f3b3bd"
+    },
+    "speed/cascade-parser.inc": {
+      "bytes": 4169,
+      "sha256": "64469f7df6dc625da15df2185d4cde7f32bb4da3fed09e02830f74b95fd1ca53"
+    },
+    "speed/cpu-path.inc": {
+      "bytes": 1348,
+      "sha256": "ed9f9f7921b4a5eed41b974ce38a61df7536b53d2139a61ae3cf70e35162fa82"
+    },
+    "speed/cut.inc": {
+      "bytes": 1772,
+      "sha256": "c83b6a30e6153653d96c3da927293cc13051a81175d5b5529165e7d8d832ed42"
+    },
+    "speed/env_margin.inc": {
+      "bytes": 1550,
+      "sha256": "307586d3d7942cd4ac6f500a16d65ef061186a136eacee4391a743bbe900b3e0"
+    },
+    "speed/fast-pin.inc": {
+      "bytes": 2483,
+      "sha256": "a55a8a414304e1533294045db2581ea2dc913269394249585726b29ad10ac711"
+    },
+    "speed/field_source.inc": {
+      "bytes": 2700,
+      "sha256": "ed06942ced81a830a7d70000d781bb2aba51fe66d01c8e62ca6a5a4c2c580a51"
+    },
+    "speed/g4.h": {
+      "bytes": 24631,
+      "sha256": "488cc07bf30ed595260ca13d0e5406a1ca0b71d21b14a1cc243903acfd2f8dcb"
+    },
+    "speed/geometry.inc": {
+      "bytes": 1160,
+      "sha256": "e69ed9b90d87428429888c4d62c75a7be09420a00a1d0e0f08c5daf83ebd427c"
+    },
+    "speed/hot-packet.inc": {
+      "bytes": 3545,
+      "sha256": "88c0d7c6af5aefe598b12349a60030dc9362b194019990a93e63f283c7ccdc84"
+    },
+    "speed/instant-geo.inc": {
+      "bytes": 905,
+      "sha256": "5dc437e65635382bc085561d5c84903df54273c495959b26b839df308b028fee"
+    },
+    "speed/native-query.inc": {
+      "bytes": 1158,
+      "sha256": "e7f0861c9266c58818a00b4f053f8a0684c7befc076d32b0dea1b9a14482d8f0"
+    },
+    "speed/newring.inc": {
+      "bytes": 44863,
+      "sha256": "e1c73a4a359fe1a5c5b3811581942592d4d2d47cb5725b26e3de163634224f52"
+    },
+    "speed/packet-events.inc": {
+      "bytes": 3616,
+      "sha256": "91dc9cc3f13caaf3def81914a18bfcb6de53c2c8d733782617aaa91b497d4861"
+    },
+    "speed/rounded.inc": {
+      "bytes": 2361,
+      "sha256": "8415fd2c48fa7316edd790d73ffcc67fc1c305be11a638cf8d98f91f006e75d1"
+    },
+    "speed/route-x.inc": {
+      "bytes": 127193,
+      "sha256": "cad0def62e222e8eae9a9afb070a2428d867e3619e6244543dd3d2ccbc6f3383"
+    },
+    "speed/short-flow.inc": {
+      "bytes": 2902,
+      "sha256": "10af88d46df1ca2bee56ac9c688fbcf0b24354ccdd5c05632d67f7134e9d816a"
+    },
+    "speed/short-gate.inc": {
+      "bytes": 36936,
+      "sha256": "fabdc5ae5fe0c1a28e75f64e5c704542af67d7e84c9c11a0f5db4078a463d634"
+    },
+    "speed/smallplan.inc": {
+      "bytes": 216161,
+      "sha256": "5c5b7e45f5521f67133cc49e1efa4270fc7e72e1ec7820367db69755b88e9bac"
+    },
+    "speed/stripe.inc": {
+      "bytes": 14751,
+      "sha256": "f77b1559a731ffb77b83a841e0581c1141052e1e2fc89f00a7f6be51f67c4da8"
+    },
+    "speed/tiny5.inc": {
+      "bytes": 1862,
+      "sha256": "1d550157093cb7bc10b46d8c2d05a9c37be31ba34e5d1ea409cbac35ae3af3ce"
+    },
+    "speed/worker.cpp": {
+      "bytes": 48014,
+      "sha256": "9c9ddd07bddce6274126465ca304a185b1fb27c3cc35f514bf1779e3c136f63e"
+    }
+  },
+  "source_origin": {
+    "candidate": "query-pext",
+    "compiled_changes": [
+      "speed/fast-pin.inc",
+      "speed/aq-kernel.inc"
+    ],
+    "models_and_maps": "unchanged parent identities",
+    "parent": "exp916-g4-cert16e-20261107",
+    "uncompiled_documentation_change": "README.md"
+  },
+  "verify_requested": true,
+  "version_label": "exp917-cert16e-pext-20261107",
+  "zip_bytes": 97970124,
+  "zip_sha256": "b85ba85bdc645133c276585ebb84777e253b80c7fddab172b7cdfa67f83ad23a"
+}

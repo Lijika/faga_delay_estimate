@@ -1,13 +1,15 @@
 # FPGA SRB Delay Estimator
 
-This repository contains the formal stage release
-`exp913-packedjoin-b2442-20261106`, its complete frozen source and build assets,
+This repository contains the current formal source release
+`exp917-cert16e-pext-20261107`, its complete frozen source and build assets,
 and the official contest materials in [`docs/task/`](docs/task/).
 
 The current source is in
-[`source/exp913-packedjoin-b2442-20261106/`](source/exp913-packedjoin-b2442-20261106/).
-Its 403 files match the immutable release byte for byte. The earlier EAT243
-source and assets remain at their existing paths under `source/`.
+[`source/exp917-cert16e-pext-20261107/`](source/exp917-cert16e-pext-20261107/).
+Its 417 files match the immutable release byte for byte. The prior
+[`exp913-packedjoin-b2442-20261106`](source/exp913-packedjoin-b2442-20261106/)
+source remains as a historical release; EAT243 and earlier assets remain at
+their existing paths under `source/`.
 
 The [development-history audit](docs/audit-exp853-eat243/00-阅读入口与结论.md)
 covers the project through EAT243 with seven reports, all 1,018 experiment
@@ -22,17 +24,14 @@ executable.
 
 ## Current algorithm
 
-PackedJoin uses its supplied prediction model and bounded physical-correction
-tables. The integration retains B2442 initialization, source-by-source memory
-release, batch64 parsing and output, and the existing CPU dispatch.
-Other x86-64 processors use the SSE2 path; Xeon Gold 6242R and 6226R use the
-Cascade Lake path after model and usable-instruction checks.
+Cert16E retains the exp916 model, maps, prediction values and accuracy-related
+changes. The exp917 integration adds BMI2 PEXT endpoint parsing and related
+inlining. Xeon Gold 6242R and 6226R use that path after CPU-model and OS-enabled
+instruction checks; other x86-64 processors use the SSE2 path.
 
-The frozen source includes the model, architecture and correction assets,
-static Zstandard library, XZ decoder and licenses. `model_reproduction/`
-preserves historical exp855/exp858 training material; the current model's
-provenance is recorded in `manifest.json` and
-[`release/exp913-packedjoin-b2442-20261106/supplied-PackedJoin.json`](release/exp913-packedjoin-b2442-20261106/supplied-PackedJoin.json).
+The frozen source includes the model, architecture assets, static Zstandard
+library, XZ decoder and licenses. `model_reproduction/` preserves historical
+exp855/exp858 training material.
 
 ## Build and run
 
@@ -40,7 +39,7 @@ Requires Linux x86-64, Python 3, GCC/G++ with static runtime libraries, and GNU
 binutils (`readelf`). The measured build used r9, Ubuntu 22.04 and GCC 11.4.0.
 
 ```sh
-cd source/exp913-packedjoin-b2442-20261106
+cd source/exp917-cert16e-pext-20261107
 python3 -B build.py --variant fast --mode source --out-dir build
 ./build/fast/estimate -in request.csv -out result.csv
 ```
@@ -48,8 +47,10 @@ python3 -B build.py --variant fast --mode source --out-dir build
 The builder checks the assets, embeds the runtime data and verifies a static
 executable smaller than 100,000,000 bytes. Build products stay in the version's
 ignored `build/` directory. Other toolchains can produce different ELF bytes.
-The [export verification](release/exp913-packedjoin-b2442-20261106/export-verification.json)
-records file equality with the tested release and the reused build evidence.
+The [release record](release/exp917-cert16e-pext-20261107/version.json),
+[source manifest](release/exp917-cert16e-pext-20261107/source-manifest.json),
+and [tested-source manifest](release/exp917-cert16e-pext-20261107/tested-source-manifest.json)
+record the release identity and tested source files.
 
 The [official public 1M dataset](data/official-1m/) includes published golden
 answers and matching two-column requests. The
@@ -58,20 +59,18 @@ representative 2M request pairs selected from exp855's errors.
 
 ## Release identity and measured evidence
 
-- Static ELF: 99,329,624 bytes.
-- ELF SHA-256: `c17781d33c9fa1c2d3672b320a4c0d9f3d667d3dee6ddac75dfcb5d5a485a3a0`.
-- Maximum measured estimator RSS: 1,965,051,904 bytes.
-- Full official 1M Acc: 99.21508547390856%.
-- Five automatic official-1M runs, the generic path and the supplied PackedJoin
-  executable produced identical complete outputs.
+- Static ELF: 99,840,088 bytes.
+- ELF SHA-256: `abea3bf315e8a567d2ced6e0e2e3ff96ac22cab451cfabb68b9a59592c9b4a9f`.
+- Build: Ubuntu 22.04, GCC 11.4.0, static source build, no PGO.
+- The B100M candidate run and four consistency runs had identical output; the
+  generic path also matched. Mean estimator CPU was 19.396891 seconds.
 
 | Measured input | Acc | Complete-program CPU |
 | --- | ---: | ---: |
-| Classified A, full 100M | 99.28377634074471% | 33.263258 s |
-| Classified B, full 100M | 99.28428301373597% | 33.228675 s |
+| Classified A, full 100M | 99.28377634074471% | — |
+| Classified B, full 100M | 99.28428301373597% | 19.396891 s mean over five runs |
 | A/B combined, full 200M | 99.28402967724034% | — |
-| Nonrepeating 1B, first run | 99.29060347284297% sampled | 142.663580 s |
-| Nonrepeating 1B, second run | 99.29060347284297% sampled | 142.605567 s |
+| Nonrepeating 1B, paired run | 99.29060347284297% sampled | 100.569933 s |
 
 The 1B score uses 3,833,856 stratified exact labels across 59,904 role pairs,
 64 samples per pair, weighted by population. Its within-pair sampling 95%
@@ -79,18 +78,15 @@ interval is [99.28828048856931%, 99.29292645711664%]. This interval excludes
 model-selection uncertainty and dependence between source families. These
 inputs have been observed during development.
 
-The two complete 1B outputs have identical SHA-256. Mean CPU was
-142.6345735 seconds, with a 0.058013-second range. Two runs describe this
-observed spread; longer-term stability remains to be measured.
+The 1B CPU was measured once against the parent at 104.145960 seconds, a
+3.576027-second reduction. Repeated 1B timing and long-term stability remain
+to be measured.
 
-All measured runs passed the output contract, single-thread, 2,000,000,000-byte
-RSS and 3,600-second limits. RSS remains above the preferred 1.9 GB, and the
-90-second CPU target is pending. Official-platform results, 6242R hardware,
-all-row 1B exact accuracy and fresh hidden-input performance remain unverified.
-Supplied A/B labels were used as provided; their solver provenance has not been
-independently verified.
+The measured runs passed the output contract, single-thread, 2,000,000,000-byte
+RSS and 3,600-second limits. The 90-second CPU target remains unmet. Official
+platform results, physical 6242R hardware, all-row 1B exact accuracy and fresh
+hidden-input performance remain unverified. Supplied A/B labels were used as
+provided; their solver provenance has not been independently verified.
 
-Frozen build and publication records are in
+The previous frozen release record is in
 [`release/exp913-packedjoin-b2442-20261106/`](release/exp913-packedjoin-b2442-20261106/).
-`version.json` preserves publication-time status; `summary.json`, `full1b.json`
-and the classified result files contain the completed measurements.

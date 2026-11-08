@@ -1,0 +1,226 @@
+{
+  "toolchain": "r9 Ubuntu 22.04 GCC 11.4; static x86-64 baseline",
+  "cc": {
+    "speed": [
+      "-DSHIFT=20",
+      "-DBATCH=64",
+      "-Wno-unused-function",
+      "-Wno-unused-variable",
+      "-Wno-unused-parameter",
+      "-Wno-unused-but-set-variable",
+      "-Wno-missing-braces",
+      "-Wno-misleading-indentation",
+      "-Wno-uninitialized",
+      "-Wno-maybe-uninitialized",
+      "-Wno-psabi",
+      "-Wno-array-bounds",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-fno-exceptions",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-DEXP596_BATCH=32",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-DEXP640_TREES=8"
+    ],
+    "exact": [
+      "-DSURF",
+      "-DCOMPACT",
+      "-DVECTOR",
+      "-DMODEL_VEC",
+      "-DHOT_BLOCK",
+      "-DMASK_LIST",
+      "-DCHECK_SCAN",
+      "-DSHIFT=20",
+      "-DCOPYBATCH",
+      "-DGUARD",
+      "-DGUARD_LITE",
+      "-DFASTVALID",
+      "-DAQJOIN",
+      "-DAQFOUR",
+      "-DAQSMALL7",
+      "-DAQJOINT",
+      "-DBATCH=64",
+      "-DFAST_EVENT",
+      "-DAQEV",
+      "-Wno-unused-function",
+      "-Wno-unused-variable",
+      "-Wno-unused-parameter",
+      "-Wno-unused-but-set-variable",
+      "-Wno-missing-braces",
+      "-Wno-misleading-indentation",
+      "-Wno-uninitialized",
+      "-Wno-maybe-uninitialized",
+      "-Wno-psabi",
+      "-Wno-array-bounds",
+      "-std=c++17",
+      "-O3",
+      "-pipe",
+      "-fno-rtti",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-march=x86-64",
+      "-mtune=generic",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+      "-fno-exceptions",
+      "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+      "-DEXP580_PORT_PARSER",
+      "-DEXP581_PREFETCH",
+      "-DEXP582_BLOCK=64",
+      "-DEXP594_PACKED",
+      "-DEXP594_WRITER",
+      "-DEXP596_BATCH=32",
+      "-DEXP608_SIMD=0",
+      "-Dmain=worker608_F",
+      "-DEXP640_TREES=8"
+    ]
+  },
+  "link": [
+    "-DEXP607_ARM=0",
+    "-DEXP607_AVX_CHOICE=0",
+    "-DEXP607_SSE_CHOICE=0",
+    "-std=c++17",
+    "-O3",
+    "-pipe",
+    "-fno-rtti",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-march=x86-64",
+    "-mtune=generic",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DDELAY_ESTIMATE_EMBEDDED_ARCH",
+    "-fno-exceptions",
+    "-DDELAY_ESTIMATE_PRECOMPUTED_RESIDUE",
+    "-DEXP580_PORT_PARSER",
+    "-DEXP581_PREFETCH",
+    "-DEXP582_BLOCK=64",
+    "-DEXP594_PACKED",
+    "-DEXP594_WRITER",
+    "-DEXP596_BATCH=32"
+  ],
+  "variants": {
+    "speed": {
+      "sha256": "ea0d672019c537ac656c3a8130efa507d844e0c5734bfbfe1824402359d7d31c",
+      "bytes": 99333608,
+      "assets": {
+        "arch.bin": {
+          "bytes": 91246,
+          "sha256": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b"
+        },
+        "atlas.zst": {
+          "bytes": 2536603,
+          "sha256": "a51ffb9a0509cd69a251af5328f90a385f4d97c487b5c51ad1762b770dbc97e8"
+        },
+        "books.f32": {
+          "bytes": 1966080,
+          "sha256": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f"
+        },
+        "env.zst": {
+          "bytes": 389,
+          "sha256": "1c4131ea220435f0e47a3697d88ad7c4bc42da319d4ef70bb795d7c46e37a87c"
+        },
+        "extra-column.xz": {
+          "bytes": 13540104,
+          "sha256": "83cc5384158a97690eff4720c325583b80b980f539f2e9d72d2a1d83f22054ae"
+        },
+        "field.zst": {
+          "bytes": 3866891,
+          "sha256": "c9821a70448226c6ad281279a8bbdc972e38a0a63a86b28a0b1dddd96fbc9d86"
+        },
+        "frames.bin": {
+          "bytes": 60915660,
+          "sha256": "838144522d38cb92aebf16479f66ea06ddac4caf1058e324eefa1bec3aa5ebdc"
+        },
+        "newfield.zst": {
+          "bytes": 2519040,
+          "sha256": "eb08d26d1477df93946aade1d1324e224e3ead46a5742971853c56e91c9d83e8"
+        },
+        "p1.zst": {
+          "bytes": 3708678,
+          "sha256": "e82c025c5a0b40381333a1a9a499c8cddb41b7b819ec29217bd9b0bf40059dcb"
+        },
+        "short-table.zst": {
+          "bytes": 6274117,
+          "sha256": "f89d9aa3903c9fde223ab38087265e94effc06b49e4dfd1452b4a909a761d6cc"
+        },
+        "short-opt.zst": {
+          "sha256": "69cd834ece47fb8156ba09c3bae75da0138b0667e660db832ea9c0f2c33c8381",
+          "bytes": 6061835
+        }
+      }
+    },
+    "exact": {
+      "sha256": "40134e666ce55f1fffe68c3e9fdc75bf9a62acb3aaa327376cb4edb636050383",
+      "bytes": 99366376,
+      "assets": {
+        "arch.bin": {
+          "bytes": 91246,
+          "sha256": "e0c09f3e8645a3c3718bf1f0cfda791878ddd37f364d7d68ce26b43724458b0b"
+        },
+        "atlas.zst": {
+          "bytes": 2536603,
+          "sha256": "a51ffb9a0509cd69a251af5328f90a385f4d97c487b5c51ad1762b770dbc97e8"
+        },
+        "books.f32": {
+          "bytes": 1966080,
+          "sha256": "7906e3e5b49d70cf796dec18acbc4c2e9fa319f4c96f90f3627a6e6afba9bb1f"
+        },
+        "env.zst": {
+          "bytes": 1221,
+          "sha256": "a496789bf73016357e538f065e1f896c35ce22f6d2c9c7570cda6976b066c99c"
+        },
+        "extra-column.xz": {
+          "bytes": 13540104,
+          "sha256": "83cc5384158a97690eff4720c325583b80b980f539f2e9d72d2a1d83f22054ae"
+        },
+        "field.zst": {
+          "bytes": 3866891,
+          "sha256": "c9821a70448226c6ad281279a8bbdc972e38a0a63a86b28a0b1dddd96fbc9d86"
+        },
+        "frames.bin": {
+          "bytes": 60915660,
+          "sha256": "838144522d38cb92aebf16479f66ea06ddac4caf1058e324eefa1bec3aa5ebdc"
+        },
+        "newfield.zst": {
+          "bytes": 2519040,
+          "sha256": "eb08d26d1477df93946aade1d1324e224e3ead46a5742971853c56e91c9d83e8"
+        },
+        "p1.zst": {
+          "bytes": 3708678,
+          "sha256": "e82c025c5a0b40381333a1a9a499c8cddb41b7b819ec29217bd9b0bf40059dcb"
+        },
+        "short-table.zst": {
+          "bytes": 6274117,
+          "sha256": "f89d9aa3903c9fde223ab38087265e94effc06b49e4dfd1452b4a909a761d6cc"
+        }
+      }
+    }
+  },
+  "model_provenance": {
+    "variant": "PackedJoin",
+    "supplied_elf_sha256": "32385ae293c58c31624ed84f09631249f3e1d5405c99391215501d74c11dd23b",
+    "source": "subm/gpt_pro/SP4-\u6e90\u7801\u4e0e\u590d\u73b0\u5b9e\u9a8c/versions/PackedJoin.json",
+    "cpu_parent": "exp873-3m-refine-b2442-20261106",
+    "previous_exp858_training_assets": "retained in immutable exp858/exp873 versions"
+  }
+}
